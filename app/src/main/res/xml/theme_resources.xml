@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Theme version="1">
+
+    <!-- FOR LG HOME -->
+        <Label value="Delta" />
+        <Wallpaper image="home_image" />
+        <LockScreenWallpaper image="home_image" />
+        <ThemePreview image="polar_preview" />
+        <ThemePreviewWork image="polar_preview" />
+        <ThemePreviewMenu image="polar_preview" />
+        <DockMenuAppIcon selector="app_drawer" />
+
+        <!-- This is how to format this xml to get your icons to work with LG Home -->
+
+        <AppIcon name="com.textra/com.mplus.lib.Main_ff5e35b1" image="textra"/>
+        <AppIcon name="acr.browser.barebones/acr.browser.lightning.activity.MainActivity" image="lightning" />
+        <AppIcon name="acr.browser.lightning/acr.browser.lightning.activity.MainActivity" image="lightning" />
+        <AppIcon name="air.uk.co.bbc.android.mediaplayer/air.uk.co.bbc.android.mediaplayer.AppEntry" image="___bbc_media_player"/>
+        <AppIcon name="air.WatchESPN/com.espn.watchespn.main.Main" image="espn"/>
+        <AppIcon name="another.music.player/com.simplecity.amp_library.ui.activities.MainActivity" image="shuttle"/>
+        <AppIcon name="arun.com.chromer/arun.com.chromer.MainActivity" image="chromer" />
+        <AppIcon name="at.dieschmiede.eatsmarter/at.dieschmiede.eatsmarter.Splash" image="eat__smarter"/>
+        <AppIcon name="au.com.shiftyjelly.pocketcasts/au.com.shiftyjelly.pocketcasts.ui.MainActivity" image="pocketcasts" />
+        <AppIcon name="au.com.vodafone.mobile.gss/au.com.vodafone.mobile.gss.MyVodafone" image="vodafone" />
+        <AppIcon name="bbc.iplayer.android/uk.co.bbc.iplayer.config.ui.ConfigLoadingActiv" image="___bbc_media_player"/>
+        <AppIcon name="bbc.iplayer.android/uk.co.bbc.iplayer.config.ui.ConfigLoadingActivity" image="___bbc_i_player" />
+        <AppIcon name="bbc.mobile.news.uk/bbc.mobile.news.v3.app.TopLevelActivity" image="___bbc_news"/>
+        <AppIcon name="cc.dict.dictcc/cc.dict.dictcc.DictCcActivity" image="dict_cc" />
+        <AppIcon name="ch.bitspin.timely/ch.bitspin.timely.activity.MainActivity_" image="timely"/>
+        <AppIcon name="ch.pboos.android.SleepTimer/ch.pboos.android.SleepTimer.ActivityMain" image="sleep_timer" />
+        <AppIcon name="ch.protonmail.android/ch.protonmail.android.activities.SplashActivity" image="proton__mail" />
+        <AppIcon name="ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity" image="bring" />
+        <AppIcon name="cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity" image="___wps_office"/>
+        <AppIcon name="cn.xender/cn.xender.ui.activity.SplashActivity" image="xender" />
+        <AppIcon name="co.slidebox/co.slidebox.controller.startup.WelcomeActivity" image="slidebox"/>
+        <AppIcon name="co.vine.android/co.vine.android.StartActivity" image="vine" />
+        <AppIcon name="com.accuweather.android/com.accuweather.android.LauncherActivity" image="accu__weather" />
+        <AppIcon name="com.accuweather.android/com.accuweather.app.SplashScreen" image="accu__weather" />
+        <AppIcon name="com.accuweather.paid.android/com.accuweather.app.SplashScreen" image="accu__weather" />
+        <AppIcon name="com.achep.acdisplay/com.achep.acdisplay.ui.activities.MainActivity" image="ac__display" />
+        <AppIcon name="com.actionlauncher.playstore/com.actionlauncher.ActionLauncherActivity" image="action_launcher" />
+        <AppIcon name="com.adobe.creativeapps.draw/com.adobe.creativeapps.draw.activity.SplashActivity" image="adobe_draw" />
+        <AppIcon name="com.adobe.creativeapps.gather/com.adobe.creativeapps.gather.activity.GatherSplashScreenActivity" image="adobe_capture" />
+        <AppIcon name="com.adobe.fas/com.adobe.fas.Home.FillAndSign" image="adobe_fill_and_sign___dc" />
+        <AppIcon name="com.adobe.lrmobile/com.adobe.lrmobile.StorageCheckActivity" image="lightroom" />
+        <AppIcon name="com.adobe.photoshopmix/com.adobe.photoshopmix.activity.SplashScreenActivity" image="photoshop_mix"/>
+        <AppIcon name="com.adobe.photoshopmix/com.adobe.photoshopmix.SplashScreenActivity" image="photoshop_mix"/>
+        <AppIcon name="com.adobe.premiereclip/com.adobe.premiereclip.SplashScreenActivity" image="adobe_clip" />
+        <AppIcon name="com.adobe.reader/com.adobe.reader.AdobeReader" image="adobe_reader" />
+        <AppIcon name="com.adsk.sketchbook/com.adsk.sketchbook.SketchBook" image="sketchbook" />
+        <AppIcon name="com.af.synapse/com.af.synapse.MainActivity" image="synapse" />
+        <AppIcon name="com.agilebits.onepassword/com.agilebits.onepassword.activity.LoginActivity" image="one_password"/>
+        <AppIcon name="com.airbnb.android/com.airbnb.android.activities.MainActivity" image="airbnb"/>
+        <AppIcon name="com.alensw.PicFolder/com.alensw.PicFolder.GalleryActivity" image="quick__pic" />
+        <AppIcon name="com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.module.home.MainActivity" image="ali_express" />
+        <AppIcon name="com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.module.home.SplashActivity" image="ali_express" />
+        <AppIcon name="com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.SplashActivity" image="ali_express" />
+        <AppIcon name="com.alltrails.alltrails/com.alltrails.alltrails.StartActivity" image="all__trails" />
+        <AppIcon name="com.alorma.github/com.alorma.github.ui.activity.MainActivity" image="gitskarios" />
+        <AppIcon name="com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity" image="amaze_filemanager" />
+        <AppIcon name="com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity" image="amazon_video" />
+        <AppIcon name="com.amazon.avod/com.amazon.avod.client.activity.HomeScreenActivity" image="amazon_video" />
+        <AppIcon name="com.amazon.dee.app/com.amazon.dee.webapp.activity.AlexaWebAppActivity" image="alexa" />
+        <AppIcon name="com.amazon.kindle/com.amazon.kindle.NewsstandStartActivity" image="kindle" />
+        <AppIcon name="com.amazon.kindle/com.amazon.kindle.TabletStartActivity" image="kindle" />
+        <AppIcon name="com.amazon.kindle/com.amazon.kindle.UpgradePage" image="kindle" />
+        <AppIcon name="com.amazon.kindlefs/com.amazon.kindle.UpgradePage" image="kindle" />
+        <AppIcon name="com.amazon.mp3/com.amazon.mp3.client.activity.LauncherActivity" image="amazon_music" />
+        <AppIcon name="com.amazon.mp3/com.amazon.mp3.library.activity.LaunchActivity" image="amazon_music" />
+        <AppIcon name="com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity" image="amazon" />
+        <AppIcon name="com.amazon.mShop.android/com.amazon.mShop.home.HomeActivity" image="amazon" />
+        <AppIcon name="com.amazon.storm.lightning.client.aosp/com.amazon.storm.lightning.client.main.MainActivity" image="fire__tv" />
+        <AppIcon name="com.anddoes.launcher.pro/com.anddoes.launcher.pro.ApexLauncherProActivity" image="apex_launcher"/>
+        <AppIcon name="com.anddoes.launcher/com.anddoes.launcher.Launcher" image="apex_launcher"/>
+        <AppIcon name="com.andrewshu.android.reddit/com.andrewshu.android.reddit.MainActivity" image="reddit_is_fun"/>
+        <AppIcon name="com.andrewshu.android.redditdonation/com.andrewshu.android.reddit.MainActivity" image="reddit_is_fun"/>
+        <AppIcon name="com.androbaby.original2048/com.androbaby.original2048.MainActivity" image="twothousandfortyeight" />
+        <AppIcon name="com.android.browser/com.android.browser.BrowserActivity" image="___aosp_browser" />
+        <AppIcon name="com.android.browser/com.android.browser.BrowserActivity" image="bubble__u__pn__p" />
+        <AppIcon name="com.android.calculator2/com.android.calculator2.Calculator" image="calculator" />
+        <AppIcon name="com.android.calendar/com.android.calendar.AgendaActivity" image="calendar" />
+        <AppIcon name="com.android.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
+        <AppIcon name="com.android.calendar/com.android.calendar.CalendarTabActivity" image="calendar" />
+        <AppIcon name="com.android.calendar/com.android.calendar.ChooserActivity" image="calendar"/>
+        <AppIcon name="com.android.calendar/com.android.calendar.EditEventActivity" image="calendar"/>
+        <AppIcon name="com.android.calendar/com.android.calendar.EventInfoActivity" image="calendar"/>
+        <AppIcon name="com.android.calendar/com.android.calendar.homepage.AllInOneActivity" image="calendar" />    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
+        <AppIcon name="com.android.calendar/com.android.calendar.LaunchActivity" image="calendar" />
+        <AppIcon name="com.android.calendar/com.android.calendar.MonthActivity" image="calendar" />
+        <AppIcon name="com.android.calendar/com.android.calendar.timeline.EventListWithStartTime" image="calendar"/>
+        <AppIcon name="com.android.camera/com.android.camera.Camera" image="camera" />
+        <AppIcon name="com.android.camera2/com.android.camera.CameraLauncher" image="camera" />
+        <AppIcon name="com.android.chrome/com.google.android.apps.chrome.Main" image="chrome" />
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.CallLogActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.ContactsFrontDoor" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.ContactsFrontDoor" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.DialtactsActivity" image="contacts"/>
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.PeopleActivity" image="contacts"/>
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.PhoneFrontDoor" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" image="contacts"/>
+        <AppIcon name="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" image="phone" />
+        <AppIcon name="com.android.contacts/com.android.contacts.BaiJiaXingActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity" image="phone" />
+        <AppIcon name="com.android.contacts/com.android.contacts.ContactHostActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.ContactsActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.ContactsListActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.ContactsListActivityEx" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.ContactsListActivityLauncher" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.ContactsMainFromHomeActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity" image="phone" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallLogActivity" image="phone" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity" image="contacts"/>
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity" image="phone" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity" image="phone" />
+        <AppIcon name="com.android.contacts/com.android.contacts.ice.IcePeopleActivity" image="contacts"/>
+        <AppIcon name="com.android.contacts/com.android.contacts.LaunchCallLogActivity" image="contacts"/>
+        <AppIcon name="com.android.contacts/com.android.contacts.PhoneDialtactsActivity" image="phone" />
+        <AppIcon name="com.android.contacts/com.android.contacts.RecentCallLogLaunchActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.RecentCallsEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.SmartDailerActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.SmartDialerActivity" image="phone" />
+        <AppIcon name="com.android.contacts/com.android.contacts.SmartDialerListActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.tmo.LaunchCommunityActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.android.contacts.TransparentActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.app.contacts.PhoneBookTopMenuActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.sec.android.app.contacts.PhoneBookSplitTopMenuActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.sec.android.app.contacts.PhoneBookTopMenuActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.sec.android.app.contacts.RecntcallEntryActivity" image="contacts" />
+        <AppIcon name="com.android.contacts/com.sec.android.app.contacts.RecntcallEntryActivity" image="contacts"/>
+        <AppIcon name="com.android.deskclock/com.android.deskclock.AlarmsMainActivity" image="clock" />
+        <AppIcon name="com.android.deskclock/com.android.deskclock.DeskClock" image="clock" />
+        <AppIcon name="com.android.deskclock/com.android.deskclock.DeskClock" image="clock" />
+        <AppIcon name="com.android.deskclock/com.android.deskclock.DeskClockTabActivity" image="clock" />
+        <AppIcon name="com.android.dialer/com.android.dialer.dialpad" image="phone" />
+        <AppIcon name="com.android.dialer/com.android.dialer.DialtactsActivity" image="phone" />
+        <AppIcon name="com.android.documentsui/com.android.documentsui.DocumentsActivity" image="documents" />
+        <AppIcon name="com.android.documentsui/com.android.documentsui.LauncherActivity" image="downloads" />
+        <AppIcon name="com.android.dualliststk/com.android.dualliststk.StkToolkitActivity" image="sim_toolkit"/>
+        <AppIcon name="com.android.email/com.android.email.activity.Welcome" image="___aosp_mail" />
+        <AppIcon name="com.android.email/com.android.email.activity.Welcome" image="___aosp_mail"/>
+        <AppIcon name="com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.android.fmradio/com.android.fmradio.FmMainActivity" image="fm_radio" />
+        <AppIcon name="com.android.gallery3d/com.android.camera.CameraLauncher" image="camera" />
+        <AppIcon name="com.android.gallery3d/com.android.gallery3d.app.Gallery" image="gallery"/>
+        <AppIcon name="com.android.gallery3d/com.android.gallery3d.app.GalleryActivity" image="gallery"/>
+        <AppIcon name="com.android.gallery3d/com.huawei.gallery.app.GalleryMain" image="gallery"/>
+        <AppIcon name="com.android.htccontacts/com.android.htccontacts.BrowseLayerCarouselActivity" image="contacts"/>
+        <AppIcon name="com.android.htccontacts/com.android.htccontacts.ContactSearchEntryActivity" image="contacts" />
+        <AppIcon name="com.android.htccontacts/com.android.htccontacts.ContactsTabActivity" image="contacts" />
+        <AppIcon name="com.android.htccontacts/com.android.htccontacts.DialerTabActivity" image="phone" />
+        <AppIcon name="com.android.mediacenter/com.android.mediacenter.PageActivity" image="music" />
+        <AppIcon name="com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity" image="sms_alt_three" />
+        <AppIcon name="com.android.mms/com.android.mms.ui.BootActivity" image="sms_alt_three" />
+        <AppIcon name="com.android.mms/com.android.mms.ui.ConversationComposer" image="sms_alt_three" />
+        <AppIcon name="com.android.mms/com.android.mms.ui.ConversationList" image="sms_alt_three" />
+        <AppIcon name="com.android.mms/com.android.mms.ui.MmsTabActivity" image="sms_alt_three" />
+        <AppIcon name="com.android.music/com.android.music.MusicBrowserActivity" image="music" />
+        <AppIcon name="com.android.phone/com.android.phone.DialtactsCallLogActivity" image="phone" />
+        <AppIcon name="com.android.phone/com.android.phone.DialtactsContactsEntryActivity" image="phone" />
+        <AppIcon name="com.android.phone/com.android.phone.dualsim.SmartCallActivity" image="phone" />
+        <AppIcon name="com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList" image="downloads" />
+        <AppIcon name="com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadsListTab" image="downloads" />
+        <AppIcon name="com.android.settings/com.android.settings.GridSettings" image="settings" />
+        <AppIcon name="com.android.settings/com.android.settings.HWSettings" image="settings" />
+        <AppIcon name="com.android.settings/com.android.settings.MainSettings" image="settings" />
+        <AppIcon name="com.android.settings/com.android.settings.MiuiSettings" image="settings" />
+        <AppIcon name="com.android.settings/com.android.settings.Settings" image="settings" />
+        <AppIcon name="com.android.settings/com.oppo.settings.SettingsActivity" image="settings"/>
+        <AppIcon name="com.android.soundrecorder/com.android.soundrecorder.SoundRecorder" image="sound_recorder" />
+        <AppIcon name="com.android.stk/com.android.stk.StkLauncherActivity" image="sim_toolkit"/>
+        <AppIcon name="com.android.stk/com.android.stk.StkLauncherListActivity" image="sim_toolkit"/>
+        <AppIcon name="com.android.stk/com.android.stk.StkMain" image="sim_toolkit"/>
+        <AppIcon name="com.android.stk2/com.android.stk2.StkLauncherActivity" image="sim_toolkit"/>
+        <AppIcon name="com.android.stklct/com.android.stklct.StkMain" image="sim_toolkit"/>
+        <AppIcon name="com.android.terminal/com.android.terminal.TerminalActivity" image="terminal"/>
+        <AppIcon name="com.android.thememanager/com.android.thememanager.ThemeResourceTabActivity" image="theme_chooser" />
+        <AppIcon name="com.android.vending.billing.InAppBillingService.LOCK/com.android.vending.billing.InAppBillingService.LOCK.MainActivity-Original" image="lucky_patcher"/>
+        <AppIcon name="com.android.vending/com.android.vending.AssetBrowserActivity" image="play_store" />
+        <AppIcon name="com.android2.calculator3/com.android2.calculator3.Calculator" image="calculator" />
+        <AppIcon name="com.androidauthority.app/com.androidauthority.app.ui.activity.SplashActivity" image="android_authority" />
+        <AppIcon name="com.androidcentral.app/com.androidcentral.app.HomeActivity" image="android_central" />
+        <AppIcon name="com.androidvip.hebf/com.androidvip.hebf.MainActivity" image="___hebf" />
+        <AppIcon name="com.antutu.ABenchMark/com.antutu.ABenchMark.ABenchMarkStart" image="antutu_benchmark"/>
+        <AppIcon name="com.antutu.benchmark.full/com.antutu.benchmark.full.MainActivity" image="antutu_benchmark"/>
+        <AppIcon name="com.anydo/com.anydo.activity.SplashActivity" image="any___do"/>
+        <AppIcon name="com.anz.android.gomoney/com.anz.android.gomoney.controller.GoMoneyActivity" image="bank" />
+        <AppIcon name="com.aol.mobile.altomail/com.aol.mobile.mail.ui.StartActivity" image="alto" />
+        <AppIcon name="com.appgenix.bizcal/com.appgenix.bizcal.LaunchActivity" image="business_calendar" />
+        <AppIcon name="com.apple.android.music/com.apple.android.music.onboarding.activities.SplashActivity" image="apple_music"/>
+        <AppIcon name="com.application.zomato/com.application.zomato.activities.Splash" image="zomato" />
+        <AppIcon name="com.apusapps.browser/com.apusapps.browser.main.AppEnterActivity" image="apus_browser" />
+        <AppIcon name="com.arobasmusic.guitarpro/com.arobasmusic.guitarpro.GuitarProActivity" image="guitar_pro" />
+        <AppIcon name="com.asana.app/com.asana.ui.activities.LaunchActivity" image="asana" />
+        <AppIcon name="com.asksven.betterbatterystats_xdaedition/com.asksven.betterbatterystats.StatsActivity" image="better__battery__stats"/>
+        <AppIcon name="com.asksven.betterbatterystats/com.asksven.betterbatterystats.StatsActivity" image="better__battery__stats"/>
+        <AppIcon name="com.aspiro.tidal/com.aspiro.wamp.LoginFragmentActivity" image="tidal"/>
+        <AppIcon name="com.asus.calculator/com.asus.calculator.Calculator" image="calculator" />
+        <AppIcon name="com.asus.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
+        <AppIcon name="com.asus.camera/com.asus.camera.CameraApp" image="camera" />
+        <AppIcon name="com.asus.contacts/com.android.contacts.activities.DialtactsActivity" image="contacts" />
+        <AppIcon name="com.asus.deskclock/com.asus.deskclock.DeskClock" image="clock" />
+        <AppIcon name="com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.asus.flashlight/com.asus.flashlight.FlashLightMainActivity" image="flashlight" />
+        <AppIcon name="com.asus.fmradio/com.asus.fmradio.FMRadioUIv3" image="fm_radio" />
+        <AppIcon name="com.asus.gallery/com.asus.gallery.app.EPhotoActivity" image="gallery"/>
+        <AppIcon name="com.asus.message/com.android.mms.ui.ConversationList" image="sms_alt_three" />
+        <AppIcon name="com.asus.music/com.asus.music.MusicMainActivity" image="music" />
+        <AppIcon name="com.asus.supernote/com.asus.supernote.picker.NoteBookPickerActivity" image="quickmemo" />
+        <AppIcon name="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity" image="dolby_atmos" />
+        <AppIcon name="com.audible.application/com.audible.application.SplashScreen" image="audible" />
+        <AppIcon name="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity" image="viper" />
+        <AppIcon name="com.authy.authy/com.authy.authy.activities.InitializationActivity" image="authy" />
+        <AppIcon name="com.automattic.simplenote/com.automattic.simplenote.NotesActivity" image="simplenote"/>
+        <AppIcon name="com.avast.android.mobilesecurity/com.avast.android.mobilesecurity.app.main.MainActivity" image="avast" />
+        <AppIcon name="com.aviary.android.feather/com.aviary.android.feather.MainActivity" image="aviary"/>
+        <AppIcon name="com.babbel.mobile.android.en/com.babbel.mobile.android.en.BabbelAppStartPage" image="babbel" />
+        <AppIcon name="com.backdrops.wallpapers/com.backdrops.wallpapers.WelcomeActivity" image="backdrops"/>
+        <AppIcon name="com.bambuna.podcastaddict/com.bambuna.podcastaddict.activity.PodcastListActivity" image="podcast_addict" />
+        <AppIcon name="com.banksimple/com.banksimple.ui.LauncherActivity" image="bank" />
+        <AppIcon name="com.barclays.android.barclaysmobilebanking/com.barclays.android.registration.NRegSplashActivity" image="bank" />
+        <AppIcon name="com.baseapp.eyeem/com.baseapp.eyeem.Start" image="eye__em"/>
+        <AppIcon name="com.basecamp.app/com.basecamp.activities.AccountActivity" image="basecamp" />
+        <AppIcon name="com.battlelancer.seriesguide/com.battlelancer.seriesguide.ui.ShowsActivity" image="seriesguide"/>
+        <AppIcon name="com.bbm/com.bbm.ui.activities.StartupActivity" image="bbm"/>
+        <AppIcon name="com.bbva.bbvacontigo/com.bbva.buzz.modules.startup.StartActivity" image="bank" />
+        <AppIcon name="com.becandid.candid/com.becandid.candid.activities.SplashActivity" image="candid" />
+        <AppIcon name="com.behance.behance/com.behance.network.ui.activities.MainActivity" image="behance" />
+        <AppIcon name="com.bendigobank.mobile/au.com.ferocia.johanna.views.activities.LaunchActivity" image="bank" />
+        <AppIcon name="com.beta.colorselector/com.colorselector.ui.DashBoard" image="pipette" />
+        <AppIcon name="com.bethsoft.falloutshelter/com.bhvr.Prime31MainActivityWithMemoryWarning" image="fallout_shelter" />
+        <AppIcon name="com.billApps.saver500px/com.billApps.saver500px.Activity.SplashScreen" image="fivehundred___px_saver" />
+        <AppIcon name="com.bitly.app/com.bitly.app.activity.LandingActivity" image="bitly" />
+        <AppIcon name="com.bitsmedia.android.muslimpro/com.bitsmedia.android.muslimpro.activities.SplashActivity" image="muslim_pro" />
+        <AppIcon name="com.bitstrips.imoji/com.bitstrips.imoji.ui.LoginActivity" image="bitmoji" />
+        <AppIcon name="com.bittorrent.client.pro/com.bittorrent.client.EntryActivity" image="bit__torrent"/>
+        <AppIcon name="com.bittorrent.client/com.bittorrent.client.EntryActivity" image="bit__torrent"/>
+        <AppIcon name="com.bleacherreport.android.teamstream/com.bleacherreport.android.teamstream.TsLaunchActivity" image="bleacherreport" />
+        <AppIcon name="com.blizzard.bma/com.blizzard.bma.ui.welcome.SplashActivity" image="battlenet_authenticator"/>
+        <AppIcon name="com.blizzard.wowcompanion/com.blizzard.wowcompanion.CompanionNativeActivity" image="wow_companion" />
+        <AppIcon name="com.blizzard.wtcg.hearthstone/com.blizzard.wtcg.hearthstone.HearthstoneNativeActivity" image="hearthstone" />
+        <AppIcon name="com.blogspot.byterevapps.lollipopscreenrecorder/com.blogspot.byterevapps.lollipopscreenrecorder.MainActivity" image="___avd_screen_recorder" />
+        <AppIcon name="com.box.android/com.box.android.activities.login.SplashScreenActivity" image="box"/>
+        <AppIcon name="com.boxer.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
+        <AppIcon name="com.boxer.calendar/com.android.calendar.AllInOneActivity" image="today_calendar" />
+        <AppIcon name="com.boxer.email/com.boxer.email.activity.Welcome" image="boxer" />
+        <AppIcon name="com.bradesco/br.com.bradesco.integrador.splash.SplashScreen" image="bank" />
+        <AppIcon name="com.bsb.hike/com.bsb.hike.ui.HomeActivity" image="hike" />
+        <AppIcon name="com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity" image="wynk"/>
+        <AppIcon name="com.bt.bms/com.bt.bms.activities.SplashActivity" image="bookmyshow" />
+        <AppIcon name="com.buak.Link2SD/com.buak.Link2SD.Link2SD" image="link_to_sd" />
+        <AppIcon name="com.buak.link2sdplus/com.buak.link2sdplus.MainActivity" image="link_to_sd" />
+        <AppIcon name="com.bungieinc.bungiemobile/com.bungieinc.bungiemobile.LoaderActivity" image="destiny" />
+        <AppIcon name="com.caf.fmradio/com.caf.fmradio.FMRadio" image="one__plus___fm_radio" />
+        <AppIcon name="com.caisseepargne.android.mobilebanking/com.caisseepargne.android.mobilebanking.activities.ADashBoard" image="bank"/>
+        <AppIcon name="com.caisseepargne.android.mobilebanking/com.caisseepargne.android.mobilebanking.activities.ADashBoard" image="bank"/>
+        <AppIcon name="com.candl.chronos/com.candl.chronos.MainActivity" image="month_widget" />
+        <AppIcon name="com.ccs.lockscreen_pro/com.ccs.lockscreen_pro.SettingsLockerMain" image="c_locker"/>
+        <AppIcon name="com.ceco.kitkat.gravitybox/com.ceco.kitkat.gravitybox.GravityBoxSettingsAlias" image="gravitybox" />
+        <AppIcon name="com.chase.sig.android/com.chase.sig.android.activity.HomeActivity" image="chase" />
+        <AppIcon name="com.chimbori.hermitcrab/com.chimbori.hermitcrab.AdminActivity" image="hermit" />
+        <AppIcon name="com.chrome.beta/com.google.android.apps.chrome.Main" image="chrome_beta" />
+        <AppIcon name="com.chrome.canary/com.google.android.apps.chrome.Main" image="chrome_canary" />
+        <AppIcon name="com.chrome.dev/com.google.android.apps.chrome.Main" image="chrome_dev" />
+        <AppIcon name="com.citc.asap/com.citc.asap.activities.LaunchActivity" image="asap_launcher" />
+        <AppIcon name="com.citi.citimobile/com.citi.mobile.pt3.GlobalPhoneActivity" image="bank" />
+        <AppIcon name="com.citibanamex.banamexmobile/com.citibanamex.banamexmobile.views.init.SplashActivity" image="bank" />
+        <AppIcon name="com.citiuat/com.citiuat.mobeix" image="bank" />
+        <AppIcon name="com.citymapper.app.release/com.citymapper.app.MainActivity" image="citymapper" />
+        <AppIcon name="com.classdojo.android/com.classdojo.android.ClassDojoActivity" image="class__dojo" />
+        <AppIcon name="com.cleanmaster.mguard/com.keniu.security.main.MainActivity" image="cleanmaster" />
+        <AppIcon name="com.cleartrip.android/com.cleartrip.android.activity.common.SplashActivity" image="cleartrip" />
+        <AppIcon name="com.cleevio.spendee/com.cleevio.spendee.ui.MainActivity" image="spendee" />
+        <AppIcon name="com.codesector.calendar/com.codesector.calendar.CalendarActivity" image="calendar" />
+        <AppIcon name="com.commerzbank.photoTAN/com.vasco.crontosign.phototan.MainActivity" image="photo___tan"/>
+        <AppIcon name="com.comuto/com.comuto.SplashActivity" image="bla__bla__car"/>
+        <AppIcon name="com.comuto/com.comuto.v3.activity.ProxyActivity" image="bla__bla__car"/>
+        <AppIcon name="com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity" image="cpu_z"/>
+        <AppIcon name="com.craigdowdall.fcolors/com.craigdowdall.fcolors.ui.MainActivity" image="f_colors" />
+        <AppIcon name="com.creditkarma.mobile/com.creditkarma.mobile.ui.WelcomeActivity" image="credit_karma" />
+        <AppIcon name="com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.activities.SplashActivity" image="crunchyroll" />
+        <AppIcon name="com.cubic.cumo.android.rmv/com.cubic.cumo.android.app.SplashActivity" image="rmv"/>
+        <AppIcon name="com.cyanogenmod.eleven/com.cyanogenmod.eleven.ui.activities.HomeActivity" image="cyanogenmod_music" />
+        <AppIcon name="com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.cyngn.audiofx/com.cyngn.audiofx.activity.ActivityMusic" image="audio___fx" />
+        <AppIcon name="com.cyngn.cameranext/com.android.camera.CameraLauncher" image="camera"/>
+        <AppIcon name="com.cyngn.cameranext/com.android.camera.CameraLauncher" image="camera"/>
+        <AppIcon name="com.cyngn.cameranextmod/com.android.camera.CameraLauncher" image="camera"/>
+        <AppIcon name="com.cyngn.dialer/com.android.dialer.DialtactsActivity" image="phone" />
+        <AppIcon name="com.cyngn.gallerynext/com.cyngn.gallerynext.app.GalleryActivity" image="gallery"/>
+        <AppIcon name="com.cyngn.themestore/com.cyngn.themestore.ui.StoreActivity" image="theme_chooser"/>
+        <AppIcon name="com.dashlane/com.dashlane.ui.activities.SplashScreen" image="dashlane" />
+        <AppIcon name="com.delphicoder.flud.paid/com.delphicoder.flud.MainActivity" image="flud" />
+        <AppIcon name="com.delphicoder.flud/com.delphicoder.flud.MainActivity" image="flud" />
+        <AppIcon name="com.devhd.feedly/com.devhd.feedly.Main" image="feedly" />
+        <AppIcon name="com.deviantart.android.damobile/com.deviantart.android.damobile.activity.HomeActivity" image="deviant__art" />
+        <AppIcon name="com.dictionary.paid/com.dictionary.Splash" image="dictionary_com" />
+        <AppIcon name="com.digibites.accubattery/com.digibites.abatterysaver.BatterySaverActivity" image="accubattery" />
+        <AppIcon name="com.digibites.calendar/com.digibites.calendar.WeekAgendaActivity" image="digical" />
+        <AppIcon name="com.discord/com.discord.screens.ScreenLoading" image="discord" />
+        <AppIcon name="com.diune.pictures/com.diune.pictures.ui.Bridge" image="piktures" />
+        <AppIcon name="com.djit.apps.stream/com.djit.apps.stream.Launcher" image="stream" />
+        <AppIcon name="com.dlto.atom.launcher/com.nemustech.slauncher.Launcher" image="atom_launcher"/>
+        <AppIcon name="com.dlto.atom.launcher/com.nemustech.slauncher.LauncherAlias" image="atom_launcher"/>
+        <AppIcon name="com.domobile.applock/com.domobile.applock.LauncherActivity" image="app_lock" />
+        <AppIcon name="com.doubleTwist.androidPlayer/com.doubleTwist.androidPlayer.HomePagerActivity" image="double__twist" />
+        <AppIcon name="com.dripgrind.mindly/com.dripgrind.mindly.highlights.MainActivity" image="mindly" />
+        <AppIcon name="com.drippler.android.updates/com.drippler.android.updates.SplashActivity" image="drippler" />
+        <AppIcon name="com.droid4you.application.wallet/com.droid4you.application.wallet.SplashScreenActivity" image="wallet" />
+        <AppIcon name="com.dropbox.android/com.dropbox.android.activity.DropboxBrowser" image="dropbox" />
+        <AppIcon name="com.dsemu.drastic/com.dsemu.drastic.DraSticActivity" image="dra__stic" />
+        <AppIcon name="com.duolingo/com.duolingo.app.LoginActivity" image="duolingo" />
+        <AppIcon name="com.dv.adm.pay/com.dv.adm.pay.Main" image="adm" />
+        <AppIcon name="com.dv.adm/com.dv.adm.Main" image="adm" />
+        <AppIcon name="com.dvtonder.chronus/com.dvtonder.chronus.preference.PreferencesMain" image="chronus" />
+        <AppIcon name="com.ea.bf3bl.bv/com.ea.bf3bl.bv.MainActivity" image="battlefield" />
+        <AppIcon name="com.ea.gp.fifaultimate/com.ea.fifaultimate.FUTMobileActivity" image="fifa_companion" />
+        <AppIcon name="com.ebay.kijiji.ca/com.ebay.app.common.activities.SplashScreenActivity" image="kijiji" />
+        <AppIcon name="com.ebay.kleinanzeigen/ebk.home.HomeActivity" image="ebay_kleinanzeigen"/>
+        <AppIcon name="com.ebay.mobile/com.ebay.mobile.activities.eBay" image="ebay"/>
+        <AppIcon name="com.elixsr.somnio/com.elixsr.somnio.LoginActivity" image="sky_map" />
+        <AppIcon name="com.enki.insights/com.enki.insights.MainActivity" image="enki"/>
+        <AppIcon name="com.erc.software.absolutelywallpapers/com.viztushar.osumwalls.MainActivity" image="absolutely_wallpapers" />
+        <AppIcon name="com.espn.fantasy.lm.football/com.espn.fantasy.lm.Launcher" image="___espn_fantasy"/>
+        <AppIcon name="com.espn.score_center/com.espn.sportscenter.ui.LaunchActivity" image="espn" />
+        <AppIcon name="com.estrongs.android.pop.pro/com.estrongs.android.pop.view.FileExplorerActivity" image="es_file_explorer"/>
+        <AppIcon name="com.estrongs.android.pop/com.estrongs.android.pop.view.FileExplorerActivity" image="es_file_explorer"/>
+        <AppIcon name="com.evernote/com.evernote.ui.HomeActivity" image="evernote"/>
+        <AppIcon name="com.example.android.notepad/com.example.android.notepad.NotePadActivity" image="quickmemo" />
+        <AppIcon name="com.example.stklauncher/com.example.stklauncher.MainActivity" image="sim_toolkit"/>
+        <AppIcon name="com.facebook.katana/com.facebook.katana.LoginActivity" image="facebook" />
+        <AppIcon name="com.facebook.lite/com.facebook.lite.MainActivity" image="facebook_lite" />
+        <AppIcon name="com.facebook.mlite/com.facebook.mlite.coreui.view.MainActivity" image="facebook_messenge_lite" />
+        <AppIcon name="com.facebook.orca/com.facebook.orca.auth.StartScreenActivity" image="facebook_messenger" />
+        <AppIcon name="com.facebook.pages.app/com.facebook.pages.app.activity.PagesManagerLoginActivity" image="fb_page_manager" />
+        <AppIcon name="com.fandango/com.fandango.Fandango" image="fandango" />
+        <AppIcon name="com.fastemulator.gba/com.fastemulator.gba.MainActivity" image="my_boy" />
+        <AppIcon name="com.fgnm.baconcamera/com.fgnm.baconcamera.CameraActivity" image="camera_alt_three"/>
+        <AppIcon name="com.firsttouchgames.story/com.firsttouchgames.story.MainActivity" image="score_hero" />
+        <AppIcon name="com.fitbit.FitbitMobile/com.fitbit.FirstActivity" image="fitbit" />
+        <AppIcon name="com.fivehundredpx.viewer/com.fivehundredpx.viewer.main.RootActivity" image="fivehundred___px"/>
+        <AppIcon name="com.fivemobile.thescore/com.fivemobile.thescore.SplashActivity" image="the__score" />
+        <AppIcon name="com.flayvr.flayvr/com.flayvr.screens.folders.FolderSelectionActivity" image="gallery"/>
+        <AppIcon name="com.flipkart.android/com.flipkart.android.SplashActivity" image="flipkart" />
+        <AppIcon name="com.flyersoft.moonreader/com.flyersoft.moonreader.ActivityMain" image="moon_reader" />
+        <AppIcon name="com.flyersoft.moonreaderp/com.flyersoft.moonreaderp.ActivityMain" image="moon_reader" />
+        <AppIcon name="com.flynx/com.flynx.MainActivity" image="flynx" />
+        <AppIcon name="com.flyperinc.flyperlink/com.flyperinc.flyperlink.activity.Loading" image="flyperlink" />
+        <AppIcon name="com.flyperinc.flytube/com.flyperinc.flytube.activity.Loading" image="flytube" />
+        <AppIcon name="com.footej.camera/com.footej.camera.SplashActivity" image="footej"/>
+        <AppIcon name="com.fortafygames.colorswitch/com.migal.android.SplashActivity" image="color_switch" />
+        <AppIcon name="com.foursquare.robin/com.foursquare.robin.activities.MainActivity" image="swarm"/>
+        <AppIcon name="com.franco.doze/com.franco.doze.activities.MainActivity" image="naptime" />
+        <AppIcon name="com.franco.focus/com.franco.focus.Original" image="focus"/>
+        <AppIcon name="com.franco.kernel/com.franco.kernel.activities.MainActivity" image="franco_kernel_updater" />
+        <AppIcon name="com.franco.timer/com.franco.timer.activities.MainActivity" image="five_two_one_seven" />
+        <AppIcon name="com.freevpnintouch/com.pages.Starter" image="betternet" />
+        <AppIcon name="com.gamelounge.chroomakeyboard/org.smc.inputmethod.indic.settings.StartActivity" image="chrooma_keyboard" />
+        <AppIcon name="com.gbwhatsapp/com.gbwhatsapp.Main0" image="whatsapp"/>
+        <AppIcon name="com.genius.android/com.genius.android.MainActivity" image="genius" />
+        <AppIcon name="com.getkeepsafe.applock/com.getkeepsafe.applock.ui.main.view.AppListActivity" image="applock" />
+        <AppIcon name="com.getpebble.android.basalt/com.getpebble.android.main.activity.MainActivity" image="pebble"/>
+        <AppIcon name="com.getpebble.android/com.getpebble.android.main.activity.MainActivity" image="pebble"/>
+        <AppIcon name="com.getpebble.android/com.getpebble.android.redesign.ui.LaunchActivity" image="pebble"/>
+        <AppIcon name="com.getpebble.android/com.getpebble.android.ui.MainActivity" image="pebble"/>
+        <AppIcon name="com.getsomeheadspace.android/com.getsomeheadspace.android.ui.intro.IntroActivity" image="headspace" />
+        <AppIcon name="com.giphy.messenger/com.giphy.messenger.app.MainAccom.giphy.camera/com.giphy.dev.ui.MainActivitytivity" image="___giphy_cam"/>
+        <AppIcon name="com.giphy.messenger/com.giphy.messenger.app.MainActivity" image="___giphy"/>
+        <AppIcon name="com.github.jamesgay.fitnotes/com.github.jamesgay.fitnotes.activity.MainActivity" image="fitnotes" />
+        <AppIcon name="com.gombosdev.ampere/com.gombosdev.ampere.MainActivity" image="ampere" />
+        <AppIcon name="com.goodreads/com.goodreads.android.activity.MainActivity" image="goodreads" />
+        <AppIcon name="com.google.android.apps.adm/com.google.android.apps.adm.MainActivity" image="device_manager"/>
+        <AppIcon name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.activity.BaseActivity" image="google_ad__sense" />
+        <AppIcon name="com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity" image="authenticator" />
+        <AppIcon name="com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity" image="play_books"/>
+        <AppIcon name="com.google.android.apps.books/com.google.android.apps.books.app.HomeActivity" image="play_books"/>
+        <AppIcon name="com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity" image="chromecast" />
+        <AppIcon name="com.google.android.apps.classroom/com.google.android.apps.classroom.application.LauncherActivity" image="google_classroom" />
+        <AppIcon name="com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity" image="google_docs" />
+        <AppIcon name="com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity" image="google_sheets" />
+        <AppIcon name="com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity" image="google_slides" />
+        <AppIcon name="com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity" image="google_drive" />
+        <AppIcon name="com.google.android.apps.fireball/com.google.android.apps.fireball.ui.conversationlist.ConversationListActivity" image="allo" />
+        <AppIcon name="com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity" image="google_fit" />
+        <AppIcon name="com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity" image="google_news_and_weather" />
+        <AppIcon name="com.google.android.apps.giant/com.google.android.apps.giant.activity.AnalyticsLaunchActivity" image="google_analytics"/>
+        <AppIcon name="com.google.android.apps.giant/com.google.android.apps.giant.activity.LauncherActivity" image="google_analytics"/>
+        <AppIcon name="com.google.android.apps.inbox/com.google.android.apps.bigtop.activities.InitActivity" image="inbox" />
+        <AppIcon name="com.google.android.apps.inbox/com.google.android.apps.bigtop.activities.MainActivity" image="inbox" />
+        <AppIcon name="com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity" image="play_newsstand"/>
+        <AppIcon name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" image="maps" />
+        <AppIcon name="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity" image="sms_alt_three" />
+        <AppIcon name="com.google.android.apps.paidtasks/com.google.android.apps.paidtasks.LaunchActivity" image="google_opinion_rewards"/>
+        <AppIcon name="com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity" image="google_photos" />
+        <AppIcon name="com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity" image="play_developer_console" />
+        <AppIcon name="com.google.android.apps.plus/com.google.android.apps.plus.phone.ConversationListActivity" image="google_photos" />
+        <AppIcon name="com.google.android.apps.plus/com.google.android.apps.plus.phone.HomeActivity" image="google_plus" />
+        <AppIcon name="com.google.android.apps.plus/com.google.android.apps.plus.phone.PhotosLegacyLauncherActivity" image="google_photos" />
+        <AppIcon name="com.google.android.apps.plus/com.google.android.apps.plus.phone.PhotosLegacyLauncherActivity" image="google_photos" />
+        <AppIcon name="com.google.android.apps.secrets/com.google.android.apps.secrets.ui.main.MainActivity" image="playbook" />
+        <AppIcon name="com.google.android.apps.social.spaces/com.google.android.apps.social.spaces.HomeActivity" image="spaces" />
+        <AppIcon name="com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity" image="duo" />
+        <AppIcon name="com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity" image="google_translate" />
+        <AppIcon name="com.google.android.apps.travel.onthego/com.google.android.apps.travel.onthego.activities.MainActivity" image="google_trips" />
+        <AppIcon name="com.google.android.apps.tycho/com.google.android.apps.tycho.AccountDetailsActivity" image="google_project_fi" />
+        <AppIcon name="com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.cardlist.CardListActivity" image="android_pay" />
+        <AppIcon name="com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.picker.CategoryPickerActivity" image="google_wallpapers" />
+        <AppIcon name="com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.main.MainActivity" image="youtube_studio" />
+        <AppIcon name="com.google.android.apps.youtube.gaming/com.google.android.apps.youtube.gaming.watchwhile.activity.WatchWhileActivity" image="youtube_gaming" />
+        <AppIcon name="com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity" image="youtube_music" />
+        <AppIcon name="com.google.android.calculator/com.android.calculator2.Calculator" image="calculator" />
+        <AppIcon name="com.google.android.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
+        <AppIcon name="com.google.android.calendar/com.android.calendar.HtcCalendarProvider" image="calendar"/>
+        <AppIcon name="com.google.android.calendar/com.android.calendar.LaunchActivity" image="calendar"/>
+        <AppIcon name="com.google.android.contacts/com.android.contacts.activities.PeopleActivity" image="contacts" />
+        <AppIcon name="com.google.android.deskclock/com.android.deskclock.DeskClock" image="clock" />
+        <AppIcon name="com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity" image="phone" />
+        <AppIcon name="com.google.android.email/com.android.email.activity.Welcome" image="___aosp_mail"/>
+        <AppIcon name="com.google.android.gm/com.google.android.gm.ConversationListActivityGmail" image="gmail" />
+        <AppIcon name="com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsActivity" image="play_services"/>
+        <AppIcon name="com.google.android.GoogleCamera/com.android.camera.CameraLauncher" image="camera" />
+        <AppIcon name="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity" image="google" />
+        <AppIcon name="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity" image="google" />
+        <AppIcon name="com.google.android.inputmethod.japanese/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity" image="google_japanese_input" />
+        <AppIcon name="com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity" image="google_keyboard" />
+        <AppIcon name="com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity" image="google_keyboard"/>
+        <AppIcon name="com.google.android.keep/com.google.android.keep.activities.BrowseActivity" image="google_keep" />
+        <AppIcon name="com.google.android.launcher/com.google.android.launcher.StubApp" image="google_launcher" />
+        <AppIcon name="com.google.android.launcher/com.google.android.launcher.StubApp" image="google" />
+        <AppIcon name="com.google.android.music/com.android.music.activitymanagement.TopLevelActivity" image="play_music"/>
+        <AppIcon name="com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity" image="play_games" />
+        <AppIcon name="com.google.android.projection.gearhead/com.google.android.projection.gearhead.companion.SplashScreenActivity" image="android_auto" />
+        <AppIcon name="com.google.android.stardroid/com.google.android.stardroid.activities.SplashScreenActivity" image="sky_map" />
+        <AppIcon name="com.google.android.street/com.google.android.apps.dragonfly.activities.main.MainActivity" image="google_street_view" />
+        <AppIcon name="com.google.android.talk/com.google.android.talk.SigningInActivity" image="hangouts" />
+        <AppIcon name="com.google.android.tv.remote/com.google.android.tv.remote.RemoteActivity" image="android___tv_remote" />
+        <AppIcon name="com.google.android.videos/com.google.android.videos.activity.LauncherActivity" image="play_movies"/>
+        <AppIcon name="com.google.android.videos/com.google.android.youtube.videos.EntryPoint" image="play_movies"/>
+        <AppIcon name="com.google.android.wearable.app/com.google.android.clockwork.companion.StatusActivity" image="android_wear"/>
+        <AppIcon name="com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" image="youtube" />
+        <AppIcon name="com.google.chromeremotedesktop/org.chromium.chromoting.Chromoting" image="chrome_remote_desktop" />
+        <AppIcon name="com.google.earth/com.google.earth.EarthActivity" image="google_earth"/>
+        <AppIcon name="com.google.samples.apps.cardboarddemo/com.google.vr.cardboard.paperscope.carton.Home2D" image="cardboard" />
+        <AppIcon name="com.google.samples.apps.cardboarddemo/com.google.vr.cardboard.paperscope.carton.Home2Dv2" image="cardboard" />
+        <AppIcon name="com.google.zxing.client.android/com.google.zxing.client.android.CaptureActivity" image="barcode_scanner"/>
+        <AppIcon name="com.gotv.nflgamecenter.us.lite/com.nfl.mobile.SplashActivity" image="___nfl_mobile" />
+        <AppIcon name="com.gpvargas.collateral/com.gpvargas.collateral.CollateralActivity" image="collateral" />
+        <AppIcon name="com.grabtaxi.passenger/com.myteksi.passenger.splash.SplashActivity" image="grab" />
+        <AppIcon name="com.grarak.kerneladiutor/com.grarak.kerneladiutor.activities.StartActivity-Material" image="kernel_adiutor"/>
+        <AppIcon name="com.grarak.kerneladiutor/com.grarak.kerneladiutor.activities.StartActivity" image="kernel_adiutor"/>
+        <AppIcon name="com.grarak.kerneladiutor/com.grarak.kerneladiutor.MainActivity" image="kernel_adiutor"/>
+        <AppIcon name="com.greater.Greater/com.greater.Greater.presentation.old.MainActivity" image="bank" />
+        <AppIcon name="com.grindrapp.android/com.grindrapp.android.activity.SplashActivity" image="grindr" />
+        <AppIcon name="com.groupme.android/com.groupme.android.HomeActivity" image="group__me" />
+        <AppIcon name="com.grppl.android.shell.CMBlloydsTSB73/com.halifax.halifax.GrappleActivity" image="bank" />
+        <AppIcon name="com.gsamlabs.bbm/com.gsamlabs.bbm.lib.activities.MainActivity" image="gsam" />
+        <AppIcon name="com.gtp.nextlauncher.trial/com.gtp.nextlauncher.MainActivity" image="next_launcher" />
+        <AppIcon name="com.gtp.nextlauncher/com.gtp.nextlauncher.LauncherActivity" image="next_launcher" />
+        <AppIcon name="com.gtp.nextlauncher/com.gtp.nextlauncher.MainActivity" image="next_launcher" />
+        <AppIcon name="com.guardian/com.guardian.ui.activities.HomeActivity" image="the_guardian" />
+        <AppIcon name="com.happening.studios.swipeforfacebookfree/com.happening.studios.swipeforfacebookfree.main.SplashActivity" image="swipe"/>
+        <AppIcon name="com.happening.studios.swipeforfacebookpro/com.happening.studios.swipeforfacebookpro.main.SplashActivity" image="swipe"/>
+        <AppIcon name="com.harvestapp/com.harvestapp.app.Harvest" image="harvest" />
+        <AppIcon name="com.HBO/com.hbo.go.LaunchActivity" image="___hbo_go" />
+        <AppIcon name="com.headcode.ourgroceries/com.headcode.ourgroceries.android.ListsActivity" image="our_groceries" />
+        <AppIcon name="com.hecorat.screenrecorder.free/com.hecorat.screenrecorder.free.main.MainActivity" image="az_screen_recorder" />
+        <AppIcon name="com.hellotext.hello/com.hellotext.DispatchActivity" image="hello_sms" />
+        <AppIcon name="com.here.app.maps/com.here.app.OneAppLauncherAlias" image="here_maps" />
+        <AppIcon name="com.hexicallabs.devrant/com.hexicallabs.devrant.DevrantActivity" image="dev__rant"/>
+        <AppIcon name="com.hippotech.materialislands/com.hippotech.materialislands.MainActivity" image="material_islands" />
+        <AppIcon name="com.hootsuite.droid.full/com.hootsuite.droid.full.SplashActivity" image="hootsuite" />
+        <AppIcon name="com.htc.album/com.htc.album.AlbumMain.ActivityMainTabHost" image="gallery"/>
+        <AppIcon name="com.htc.albumgp/com.htc.album.AlbumMain.ActivityMainTabHost" image="gallery"/>
+        <AppIcon name="com.htc.android.mail/com.htc.android.mail.MailListTab" image="___aosp_mail"/>
+        <AppIcon name="com.htc.calendar/com.htc.calendar.CalendarCarouselActivity" image="calendar" />
+        <AppIcon name="com.htc.calendar/com.htc.calendar.LaunchActivity" image="calendar"/>
+        <AppIcon name="com.htc.calendar/com.htc.calendar.MonthActivity" image="calendar"/>
+        <AppIcon name="com.htc.camera/com.htc.camera.CameraEntry" image="camera"/>
+        <AppIcon name="com.htc.camera2/com.htc.camera2.CameraEntry" image="camera"/>
+        <AppIcon name="com.htc.contacts/com.htc.contacts.BrowseLayerCarouselActivity" image="contacts" />
+        <AppIcon name="com.htc.filemanager/com.htc.filemanager.FileManagerActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.htc.music/com.htc.music.browserlayer.MusicBrowserTabActivity" image="music" />
+        <AppIcon name="com.htc.pitroad/com.htc.pitroad.landingpage.activity.LandingPageActivity" image="htc_pitroad" />
+        <AppIcon name="com.htc.sense.mms/com.htc.sense.mms.ui.ConversationList" image="sms_alt_three" />
+        <AppIcon name="com.huaqin.mynotes/com.huaqin.mynotes.FoldersListActivity" image="quickmemo" />
+        <AppIcon name="com.huawei.android.dialer/com.huawei.android.dialer.TwelveKeyDialer" image="phone" />
+        <AppIcon name="com.huawei.android.FMRadio/com.huawei.android.FMRadio.FMRadioMainActivity" image="fm_radio" />
+        <AppIcon name="com.huawei.android.StkLauncher/com.huawei.android.StkLauncher.StkLauncher2" image="sim_toolkit"/>
+        <AppIcon name="com.huawei.android.totemweather/com.huawei.android.totemweather.WeatherHome" image="weather" />
+        <AppIcon name="com.huawei.camera/com.huawei.camera" image="camera"/>
+        <AppIcon name="com.huawei.hidisk/com.huawei.hidisk.filemanager.FileManager" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.hulu.livingroomplus/com.hulu.livingroomplus.activity.Root" image="hulu" />
+        <AppIcon name="com.hulu.livingroomplus/com.hulu.livingroomplusx.activity.Root" image="hulu" />
+        <AppIcon name="com.hulu.livingroomplus/com.hulu.plusx.activity.Root" image="hulu" />
+        <AppIcon name="com.hulu.plus/com.hulu.plusx.activity.Root" image="hulu" />
+        <AppIcon name="com.ideashower.readitlater.pro/com.ideashower.readitlater.activity.AppCacheCheckActivity" image="pocket" />
+        <AppIcon name="com.ifs.androidmobilebanking.fiid3379/com.banking.activities.SplashActivity" image="bank" />
+        <AppIcon name="com.ifttt.ifttt/com.ifttt.ifttt.HomeActivity" image="ifttt" />
+        <AppIcon name="com.ignacemaes.wonderwall/com.ignacemaes.wonderwall.activities.MainActivity" image="wonderwall" />
+        <AppIcon name="com.ijinshan.kbatterydoctor_en/com.ijinshan.kbatterydoctor.SplashActivity" image="battery_doctor" />
+        <AppIcon name="com.imdb.mobile/com.imdb.mobile.HomeActivity" image="___imdb" />
+        <AppIcon name="com.imgur.mobile/com.imgur.mobile.Launcher" image="imgur" />
+        <AppIcon name="com.infonow.bofa/com.infonow.bofa.Launcher" image="bank"/>
+        <AppIcon name="com.infraware.office.link/com.infraware.service.ActLauncher" image="polaris" />
+        <AppIcon name="com.instagram.android/com.instagram.android.activity.MainTabActivity" image="instagram" />
+        <AppIcon name="com.instagram.boomerang/com.instagram.boomerang.BoomerangActivity" image="boomerang_instagram" />
+        <AppIcon name="com.instagram.layout/com.instagram.layout.LayoutActivity" image="layout_instagram" />
+        <AppIcon name="com.instapaper.android/com.instapaper.android.MainActivity" image="instapaper" />
+        <AppIcon name="com.intsig.camscanner/com.intsig.camscanner.WelcomeActivity" image="cam__scanner"/>
+        <AppIcon name="com.itemstudio.castro/com.itemstudio.castro.activity.BaseActivity" image="castro" />
+        <AppIcon name="com.iudesk.android.photo.editor/app.activity.MainActivity" image="photo_editor"/>
+        <AppIcon name="com.jawbone.upopen/com.jawbone.up.oobe.LaunchActivity" image="up" />
+        <AppIcon name="com.joelapenna.foursquared/com.joelapenna.foursquared.MainActivity" image="foursquare"/>
+        <AppIcon name="com.journey.app/com.journey.app.SplashActivity" image="journey" />
+        <AppIcon name="com.jrdcom.android.gallery3d/com.jrdcom.android.gallery3d.app.Gallery" image="gallery"/>
+        <AppIcon name="com.jrdcom.music/com.jrdcom.music.SplashActivity" image="music" />
+        <AppIcon name="com.jrummy.apps.build.prop.editor/com.jrummy.apps.build.prop.editor.MainActivity" image="build__prop_editor" />
+        <AppIcon name="com.jsdev.instasize/com.jsdev.instasize.activity.EditorActivity" image="insta__ize" />
+        <AppIcon name="com.justgetflux.flux/com.justgetflux.flux.FluxActivity" image="flux" />
+        <AppIcon name="com.justunfollow.android/com.justunfollow.android.activity.HomeActivity" image="crowdfire"/>
+        <AppIcon name="com.justunfollow.android/com.justunfollow.android.shared.activity.SplashScreenActivity" image="crowdfire"/>
+        <AppIcon name="com.justunfollow.android/com.justunfollow.android.v1.activity.HomeActivity" image="crowdfire"/>
+        <AppIcon name="com.jv.materialfalcon/com.jv.materialfalcon.activity.MainActivity" image="falcon_pro"/>
+        <AppIcon name="com.kabouzeid.gramophone/com.kabouzeid.gramophone.ui.activities.MainActivity" image="phonograph"/>
+        <AppIcon name="com.kakao.talk/com.kakao.talk.activity.SplashActivity" image="kakao__talk"/>
+        <AppIcon name="com.kamcord.app/com.kamcord.app.activity.SplashActivity" image="kamcord" />
+        <AppIcon name="com.kebab.Llama/com.kebab.Llama.LlamaUi" image="llama" />
+        <AppIcon name="com.kennyc.open.imgur/com.kenny.openimgur.activities.MainActivity" image="opengur" />
+        <AppIcon name="com.keramidas.TitaniumBackup/com.keramidas.TitaniumBackup.MainActivity" image="titanium_backup"/>
+        <AppIcon name="com.kerneladiutor.mod/com.grarak.kerneladiutor.MainActivity" image="kernel_adiutor"/>
+        <AppIcon name="com.kfactormedia.mycalendarmobile/com.kfactormedia.mycalendarmobile.MyCalendarActivity" image="calendar" />
+        <AppIcon name="com.kickstarter.kickstarter/com.kickstarter.ui.activities.DiscoveryActivity" image="kickstarter" />
+        <AppIcon name="com.kii.safe/com.kii.safe.FrontDoorActivity" image="keepsafe" />
+        <AppIcon name="com.kk.launcher/com.kk.launcher.Launcher" image="___kk_launcher"/>
+        <AppIcon name="com.klinker.android.twitter_l/com.klinker.android.twitter_l.activities.MainActivity" image="talon"/>
+        <AppIcon name="com.klinker.android.twitter_l/com.klinker.android.twitter_l.ui.MainActivity" image="talon"/>
+        <AppIcon name="com.kodarkooperativet.blackplayer/com.kodarkooperativet.blackplayer.activities.ViewPagerActivity" image="blackplayer"/>
+        <AppIcon name="com.kodarkooperativet.blackplayerex/com.kodarkooperativet.blackplayerex.activities.ViewPagerActivity" image="blackplayer"/>
+        <AppIcon name="com.kodarkooperativet.blackplayerfree/com.kodarkooperativet.blackplayerfree.activities.ViewPagerActivity" image="blackplayer"/>
+        <AppIcon name="com.konylabs.capitalone/com.konylabs.capitalone.EnterpriseMobileBanking.LaunchActivity" image="bank" />
+        <AppIcon name="com.ksmobile.cb/com.ijinshan.browser.screen.BrowserActivity" image="cm_browser"/>
+        <AppIcon name="com.ksmobile.cb/com.ijinshan.browser.screen.SplashActivity" image="cm_browser"/>
+        <AppIcon name="com.lastpass.authenticator/com.logmein.authenticator.activities.SplashActivity" image="lastpass_authenticator" />
+        <AppIcon name="com.lastpass.lpandroid/com.lastpass.lpandroid.WebBrowserActivity" image="lastpass" />
+        <AppIcon name="com.latuabancaperandroid/com.latuabancaperandroid.ELoadingPageActivity" image="bank" />
+        <AppIcon name="com.laurencedawson.reddit_sync.dev/com.laurencedawson.reddit_sync.ui.activities.HomeActivity" image="sync"/>
+        <AppIcon name="com.laurencedawson.reddit_sync.pro/com.laurencedawson.reddit_sync.ui.activities.HomeActivity" image="sync"/>
+        <AppIcon name="com.laurencedawson.reddit_sync/com.laurencedawson.reddit_sync.ui.activities.HomeActivity" image="sync"/>
+        <AppIcon name="com.lenovo.anyshare.gps/com.lenovo.anyshare.ApMainActivity" image="share_it"/>
+        <AppIcon name="com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthActivityNew" image="calendar" />
+        <AppIcon name="com.lenovo.calendar/com.lenovo.calendar.AllInOneActivity" image="calendar" />
+        <AppIcon name="com.lenovo.FileBrowser2/com.lenovo.FileBrowser.activities.FileBrowserMain" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.lenovo.gallery/com.lenovo.gallery.app.GalleryActivity" image="gallery"/>
+        <AppIcon name="com.lenovo.StkSelection/com.lenovo.StkSelection.StkSelection" image="sim_toolkit"/>
+        <AppIcon name="com.levelup.palabre/com.levelup.palabre.ui.activity.MainActivity" image="palabre"/>
+        <AppIcon name="com.lge.appbox.client/com.lge.appbox.client.AppBoxClient" image="lg_app manager" />
+        <AppIcon name="com.lge.camera/com.lge.camera.CameraAppLauncher" image="camera" />
+        <AppIcon name="com.lge.clock/com.lge.clock.AlarmClockActivity" image="clock" />
+        <AppIcon name="com.lge.email/com.lge.email.ui.setupwizard.Welcome" image="___aosp_mail" />
+        <AppIcon name="com.lge.filemanager/com.lge.filemanager.view.LaunchActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.lge.filemanager/com.lge.filemanager.view.LaunchActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.lge.fmradio/com.lge.fmradio.IntroActivity" image="fm_radio" />
+        <AppIcon name="com.lge.music/com.lge.music.MusicBrowserActivity" image="music" />
+        <AppIcon name="com.lge.qmemoplus/com.lge.qmemoplus.ui.main.MainActivity" image="quickmemo" />
+        <AppIcon name="com.lge.stkfake/com.lge.stkfake.StkFake" image="sim_toolkit"/>
+        <AppIcon name="com.lge.voicerecorder/com.lge.voicerecorder.LaunchVoiceRecorder" image="sound_recorder" />
+        <AppIcon name="com.lightricks.facetune/com.lightricks.facetune.MainFragmentActivity" image="facetune" />
+        <AppIcon name="com.linecorp.foodcam.android/com.linecorp.foodcam.android.camera.CameraActivity" image="foodie" />
+        <AppIcon name="com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity" image="linked__in" />
+        <AppIcon name="com.livae.apphunt.app/com.livae.apphunt.app.ui.activity.AppHuntActivity" image="app__hunt"/>
+        <AppIcon name="com.llamalab.automate/com.llamalab.automate.FlowListActivity" image="automate" />
+        <AppIcon name="com.lovejoy777.rroandlayersmanager/com.lovejoy777.rroandlayersmanager.MainActivity" image="layers_manager"/>
+        <AppIcon name="com.luckydroid.droidbase/com.luckydroid.droidbase.DroidBaseActivity2" image="memento" />
+        <AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity" image="poweramp"/>
+        <AppIcon name="com.mediatek.camera/com.android.camera.CameraLauncher" image="camera"/>
+        <AppIcon name="com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.mediatek.FMRadio/com.mediatek.FMRadio.FMRadio" image="fm_radio" />
+        <AppIcon name="com.mediatek.fmradio/com.mediatek.fmradio.FmRadioActivity" image="fm_radio" />
+        <AppIcon name="com.mediatek.StkSelection/com.mediatek.StkSelection.StkSelection" image="sim_toolkit"/>
+        <AppIcon name="com.mediatek.videoplayer/com.mediatek.videoplayer.MovieListActivity" image="sony_video" />
+        <AppIcon name="com.medium.reader/com.medium.android.donkey.start.SignInActivity" image="medium" />
+        <AppIcon name="com.melodis.midomiMusicIdentifier.freemium/com.soundhound.android.appcommon.activity.SplashScreenActivity" image="sound__hound" />
+        <AppIcon name="com.melodis.midomiMusicIdentifier/com.soundhound.android.appcommon.activity.SplashScreenActivity" image="sound__hound" />
+        <AppIcon name="com.memrise.android.memrisecompanion/com.memrise.android.memrisecompanion.ui.activity.LauncherActivity" image="memrise" />
+        <AppIcon name="com.merriamwebster/com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity" image="merriam_webster" />
+        <AppIcon name="com.microblink.photomath/com.microblink.photomath.main.MainActivity" image="photomath" />
+        <AppIcon name="com.microsoft.bing/com.microsoft.clients.bing.app.MainActivity" image="bing" />
+        <AppIcon name="com.microsoft.cortana/com.microsoft.bing.dss.SplashActivity" image="cortana" />
+        <AppIcon name="com.microsoft.launcher/com.microsoft.launcher.EntryActivity" image="arrow_launcher" />
+        <AppIcon name="com.microsoft.msa.authenticator/com.microsoft.onlineid.authenticator.LauncherActivity" image="microsoft_account" />
+        <AppIcon name="com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity" image="excel" />
+        <AppIcon name="com.microsoft.office.officelens/com.microsoft.office.apphost.LaunchActivity" image="office_lens" />
+        <AppIcon name="com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity" image="one__note" />
+        <AppIcon name="com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity" image="outlook" />
+        <AppIcon name="com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity" image="powerpoint" />
+        <AppIcon name="com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity" image="word" />
+        <AppIcon name="com.microsoft.skydrive/com.microsoft.skydrive.MainActivity" image="one__drive" />
+        <AppIcon name="com.microsoft.xboxmusic/com.microsoft.xboxmusic.uex.ui.signin.SignInActivity" image="groove" />
+        <AppIcon name="com.microsoft.xboxone.smartglass.beta/com.microsoft.xbox.xle.app.XLEActivity" image="xbox"/>
+        <AppIcon name="com.microsoft.xboxone.smartglass/com.microsoft.xbox.xle.app.XLEActivity" image="xbox"/>
+        <AppIcon name="com.mikepenz.unsplash/com.mikepenz.unsplash.activities.MainActivity" image="wallsplash"/>
+        <AppIcon name="com.mint/com.mint.core.overview.RouterActivity" image="mint" />
+        <AppIcon name="com.miui.calculator/com.miui.calculator.cal.CalculatorActivity" image="calculator" />
+        <AppIcon name="com.miui.gallery/com.miui.gallery.activity.HomePageActivity" image="gallery"/>
+        <AppIcon name="com.miui.gallery/com.miui.gallery.activity.HomePageActivity" image="gallery"/>
+        <AppIcon name="com.miui.notes/com.miui.notes.ui.NotesListActivity" image="quickmemo" />
+        <AppIcon name="com.miui.player/com.miui.player.ui.MusicBrowserActivity" image="music" />
+        <AppIcon name="com.miui.video/com.miui.video.HomeActivity" image="sony_video" />
+        <AppIcon name="com.mixplorer/com.mixplorer.activities.BrowseActivity" image="mi__xplorer" />
+        <AppIcon name="com.mobilemotion.dubsmash/com.mobilemotion.dubsmash.core.home.activities.SplashActivity" image="dubsmash" />
+        <AppIcon name="com.mobilesrepublic.appygamer/com.mobilesrepublic.appygamer.SplashActivity" image="appy_gamer" />
+        <AppIcon name="com.mobilesrepublic.appygeek/com.mobilesrepublic.appygeek.SplashActivity" image="appy_geek" />
+        <AppIcon name="com.mobisystems.fileman/com.mobisystems.files.FileBrowser" image="file_commander" />
+        <AppIcon name="com.mojang.minecraftpe/com.mojang.minecraftpe.MainActivity" image="minecraft" />
+        <AppIcon name="com.monefy.app.lite/com.monefy.activities.main.MainActivity_" image="monefy" />
+        <AppIcon name="com.motionone.afterfocus/com.motionone.afterfocus.TitleActivity" image="after_focus" />
+        <AppIcon name="com.motorola.actions/com.motorola.actions.MotoActionsAppStoreLauncher" image="moto_action" />
+        <AppIcon name="com.motorola.blur.contacts/com.motorola.blur.contacts.ViewIdentitiesFacetActivity" image="contacts" />
+        <AppIcon name="com.motorola.blur.contacts/com.motorola.blur.contacts.ViewIdentitiesTabActivity" image="contacts" />
+        <AppIcon name="com.motorola.blur.email/com.motorola.blur.email.mailbox.MailListActivity" image="___aosp_mail" />
+        <AppIcon name="com.motorola.blur.email/com.motorola.blur.email.mailbox.ViewFolderActivity" image="___aosp_mail" />
+        <AppIcon name="com.motorola.bodyguard/com.motorola.bodyguard.app.DashboardActivity" image="moto_alert" />
+        <AppIcon name="com.motorola.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
+        <AppIcon name="com.motorola.calendar/com.motorola.calendar.LaunchActivity" image="calendar" />
+        <AppIcon name="com.motorola.camera/com.motorola.camera.Camera" image="camera"/>
+        <AppIcon name="com.motorola.cameraone/com.motorola.camera.Camera" image="camera"/>
+        <AppIcon name="com.motorola.fmplayer/com.motorola.fmplayer.FMMainActivity" image="fm_radio" />
+        <AppIcon name="com.motorola.genie/com.motorola.genie.app.DashboardActivity" image="moto_help" />
+        <AppIcon name="com.motorola.MotGallery2/com.android.gallery3d.app.GalleryActivity" image="gallery"/>
+        <AppIcon name="com.motorola.moto/com.motorola.assist.ui.screens.MainActivity" image="moto_actions" />
+        <AppIcon name="com.motorola.motoemail/com.android.email.activity.Welcome" image="___aosp_mail" />
+        <AppIcon name="com.motorola.targetnotif/com.motorola.loop.ui.signin.LauncherActivity" image="moto_connect" />
+        <AppIcon name="com.musixmatch.android.lyrify/com.designfuture.music.ui.phone.DashBoardActivity" image="musixmatch" />
+        <AppIcon name="com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityMediaList" image="___mx_player" />
+        <AppIcon name="com.mxtech.videoplayer.pro/com.mxtech.videoplayer.pro.ActivityMediaList" image="___mx_player" />
+        <AppIcon name="com.my.mail/ru.mail.mailapp.SplashScreenActivity" image="my__mail" />
+        <AppIcon name="com.myfitnesspal.android/com.myfitnesspal.android.login.Welcome" image="my__fitness__pal"/>
+        <AppIcon name="com.mywickr.wickr2/com.mywickr.gui.WickrInboxFragmentActivity" image="wickr" />
+        <AppIcon name="com.nam.fbwrapper/com.danvelazco.fbwrapper.SplashActivity" image="metal" />
+        <AppIcon name="com.naver.vapp/com.naver.vapp.ui.common.SplashActivity" image="v_live"/>
+        <AppIcon name="com.navyfederal.android/com.navyfederal.android.home.activity.SplashScreenActivity" image="bank" />
+        <AppIcon name="com.nazarsoroka.musicplayer/com.sdd.player.activity.MainActivity" image="hq_music" />
+        <AppIcon name="com.nbaimd.gametime.nba2011/com.neulion.nba.ui.activity.SplashActivity" image="nba" />
+        <AppIcon name="com.nest.android/com.obsidian.v4.activity.LoginActivity" image="nest" />
+        <AppIcon name="com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity" image="netflix" />
+        <AppIcon name="com.neuralprisma/com.prisma.activity.CameraActivity" image="prisma"/>
+        <AppIcon name="com.neuralprisma/com.prisma.ui.starter.StarterActivity" image="prisma"/>
+        <AppIcon name="com.nextdoor/com.nextdoor.nux.NuxActivity" image="nextdoor" />
+        <AppIcon name="com.nhn.android.band/com.nhn.android.band.SplashActivity" image="bandr"/>
+        <AppIcon name="com.nianticlabs.pokemongo_fixgps/com.unity3d.player.UnityPlayerNativeActivity" image="pokemon___go"/>
+        <AppIcon name="com.nianticlabs.pokemongo/com.unity3d.player.UnityPlayerActivity" image="pokemon___go"/>
+        <AppIcon name="com.nianticlabs.pokemongo/com.unity3d.player.UnityPlayerNativeActivity" image="pokemon___go"/>
+        <AppIcon name="com.nianticproject.ingress/com.nianticproject.ingress.NemesisActivity" image="ingress" />
+        <AppIcon name="com.niksoftware.snapseed/com.google.android.apps.snapseed.MainActivity" image="snapseed" />
+        <AppIcon name="com.ninegag.android.app/com.ninegag.android.app.ui.SplashScreenActivity" image="nine_gag" />
+        <AppIcon name="com.ninegag.android.tv/com.ninegag.android.tv.ui.activity.MainActivity" image="9gagtv" />
+        <AppIcon name="com.noinnion.android.greader.reader/com.noinnion.android.greader.ui.login.LoginActivity" image="g_reader" />
+        <AppIcon name="com.noodlecake.altosadventure/com.prime31.UnityPlayerNativeActivity" image="altos_adventure" />
+        <AppIcon name="com.nqk.vibratemodeextended/com.nqk.vibratemodeextended.MainActivity" image="vibratemode"/>
+        <AppIcon name="com.nuance.swype.dtc/com.nuance.swype.input.settings.SettingsDispatch" image="swype" />
+        <AppIcon name="com.nytimes.android/com.nytimes.android.activity.MainActivity_" image ="ny_times" />
+        <AppIcon name="com.nytimes.android/com.nytimes.android.MainActivity" image ="ny_times" />
+        <AppIcon name="com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity" image="greenify" />
+        <AppIcon name="com.ochs.pipette/com.ochs.pipette.StartActivity" image="pipette" />
+        <AppIcon name="com.olacabs.customer/com.olacabs.customer.ui.SplashActivity" image="ola_cabs" />
+        <AppIcon name="com.onelouder.baconreader/com.onelouder.baconreader.FrontPage" image="bacon_reader"/>
+        <AppIcon name="com.oneplus.camera/com.oneplus.camera.OPCameraActivity" image="camera"/>
+        <AppIcon name="com.oneplus.filemanager/com.oneplus.filemanager.HomePageActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity" image="gallery"/>
+        <AppIcon name="com.opentable/com.opentable.activities.search.SearchResults" image="opentable" />
+        <AppIcon name="com.opera.browser.beta/com.opera.Opera" image="opera_beta"/>
+        <AppIcon name="com.opera.browser/com.opera.Opera" image="opera"/>
+        <AppIcon name="com.opera.mini.native.beta/com.opera.mini.android.Browser" image="opera_mini_beta"/>
+        <AppIcon name="com.opera.mini.native/com.opera.mini.android.Browser" image="opera_mini"/>
+        <AppIcon name="com.opera.vpn/com.opera.operavpn.SplashActivity" image="opera___vpn"/>
+        <AppIcon name="com.oppo.camera/com.oppo.camera.Camera" image="camera" />
+        <AppIcon name="com.oppo.filemanager/com.oppo.filemanager.Main" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.outerminds.tubular/com.unity3d.player.UnityPlayerNativeActivity" image="pewds" />
+        <AppIcon name="com.ovelin.guitartuna/com.unity3d.player.UnityPlayerNativeActivity" image="guitar_tuna" />
+        <AppIcon name="com.pandora.android/com.pandora.android.Main" image="pandora"/>
+        <AppIcon name="com.path/com.path.activities.EntryPointActivity" image="path"/>
+        <AppIcon name="com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.IntroActivity" image="pay__pal"/>
+        <AppIcon name="com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.startup.activities.StartupActivity" image="pay__pal"/>
+        <AppIcon name="com.pcfinancial.mobile/com.cibc.base.android.mobi.activity.MainActivity" image="bank" />
+        <AppIcon name="com.pcfinancial.mobile/com.cibc.base.android.mobi.activity.MainActivity" image="bank" />
+        <AppIcon name="com.period.tracker.deluxe/com.period.tracker.activity.ActivitySplash" image="p_tracker" />
+        <AppIcon name="com.period.tracker.lite/com.period.tracker.activity.ActivitySplash" image="p_tracker" />
+        <AppIcon name="com.phhhoto.android/com.phhhoto.android.ui.login.SplashActivity" image="phhhoto" />
+        <AppIcon name="com.phyora.apps.reddit_now/com.phyora.apps.reddit_now.activities.ActivityRedditNow" image="now" />
+        <AppIcon name="com.phyora.apps.reddit_now/com.phyora.apps.reddit_now.ActivityRedditNow" image="now" />
+        <AppIcon name="com.picsart.studio/com.socialin.android.photo.picsinphoto.MainPagerActivity" image="pics__art"/>
+        <AppIcon name="com.pinterest/com.pinterest.activity.PinterestActivity" image="pinterest"/>
+        <AppIcon name="com.piriform.ccleaner/com.piriform.ccleaner.ui.activity.MainActivity" image="ccleaner" />
+        <AppIcon name="com.pixlr.express/com.pixlr.express.StartupActivity" image="pixlr" />
+        <AppIcon name="com.pl.premierleague/com.pl.premierleague.LaunchActivity" image="premier_league"/>
+        <AppIcon name="com.playstation.mobilemessenger/com.playstation.mobilemessenger.activity.WelcomeActivity" image="play__station_messages"/>
+        <AppIcon name="com.plexapp.android/com.plexapp.plex.activities.mobile.PickUserActivity" image="plex" />
+        <AppIcon name="com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log"/>
+        <AppIcon name="com.pnc.ecommerce.mobile/com.pnc.ecommerce.mobile.PncMobileActivity" image="bank" />
+        <AppIcon name="com.popular.app.android/com.siddhatech.tutorial.TutorialActivity" image="bank" />
+        <AppIcon name="com.popular.app.android/com.siddhatech.tutorial.TutorialActivity" image="bank"/>
+        <AppIcon name="com.popularapp.periodcalendar/com.popularapp.periodcalendar.AdActivity" image="calendar" />
+        <AppIcon name="com.popularapp.sevenmins/com.popularapp.sevenmins.MainActivity" image="seven_minutes" />
+        <AppIcon name="com.pr0gramm.app/com.pr0gramm.app.ui.MainActivity" image="programm"/>
+        <AppIcon name="com.primatelabs.geekbench/com.primatelabs.geekbench.HomeActivity" image="geekbench" />
+        <AppIcon name="com.pushbullet.android.portal/com.pushbullet.android.portal.ui.LaunchActivity" image="portal" />
+        <AppIcon name="com.pushbullet.android/com.pushbullet.android.ui.LaunchActivity" image="pushbullet" />
+        <AppIcon name="com.qihoo.security/com.qihoo.security.AppEnterActivity" image="three_sixy_mobile_security"/>
+        <AppIcon name="com.qualcomm.stk/com.qualcomm.stk.StkLauncherActivity2" image="sim_toolkit"/>
+        <AppIcon name="com.quoord.tapatalkpro.activity/com.quoord.tapatalkpro.activity.directory.EntryActivity" image="tapatalk"/>
+        <AppIcon name="com.quoord.tapatalkpro.activity/com.quoord.tapatalkpro.activity.directory.ics.IcsEntryActivity" image="tapatalk"/>
+        <AppIcon name="com.quoord.tapatalkxdapre.activity/com.quoord.tapatalkpro.activity.directory.ics.IcsEntryActivity" image="___xda_labs"/>
+        <AppIcon name="com.quora.android/com.quora.android.LauncherActivity" image="quora" />
+        <AppIcon name="com.quora.android/com.quora.android.LaunchFromUrlActivity" image="quora" />
+        <AppIcon name="com.rarlab.rar/com.rarlab.rar.MainActivity" image="___rar"/>
+        <AppIcon name="com.rbs.mobile.android.rbs/co.uk.rbsg.mobile.android.feature.registration.WelcomeActivity" image="bank"/>
+        <AppIcon name="com.reddit.frontpage/com.reddit.frontpage.StartActivity" image="reddit"/>
+        <AppIcon name="com.Relmtech.RemotePaid/com.unified.v3.frontend.views.MainActivity" image="unified_remote" />
+        <AppIcon name="com.remotefairy/com.remotefairy.StartActivity" image="anymote" />
+        <AppIcon name="com.remotefairy4/com.remotefairy.StartActivity" image="anymote" />
+        <AppIcon name="com.riteshsahu.SMSBackupRestore/com.riteshsahu.SMSBackupRestore.activities.MainActivity" image="sms_backup_and_restore" />
+        <AppIcon name="com.rubenmayayo.reddit/com.rubenmayayo.reddit.ui.submissions.subreddit.MainActivity" image="boost"/>
+        <AppIcon name="com.runtastic.android/com.runtastic.android.activities.StartActivity" image="runtastic"/>
+        <AppIcon name="com.ryansteckler.nlpunbounce/com.ryansteckler.nlpunbounce.Settings-Alias" image="amplify" />
+        <AppIcon name="com.safeincloud/com.safeincloud.EntryActivity" image="safe__in__cloud" />
+        <AppIcon name="com.samruston.flip/com.samruston.flip.MainActivity" image="flip" />
+        <AppIcon name="com.samruston.lifehacks/com.samruston.lifehacks.MainActivity" image="better"/>
+        <AppIcon name="com.samruston.twitter/com.samruston.twitter.Launcher1" image="flamingo_for_twitter"/>
+        <AppIcon name="com.samruston.twitter/com.samruston.twitter.Launcher2" image="flamingo_for_twitter"/>
+        <AppIcon name="com.samruston.twitter/com.samruston.twitter.Launcher3" image="flamingo_for_twitter"/>
+        <AppIcon name="com.samruston.twitter/com.samruston.twitter.Launcher4" image="flamingo_for_twitter"/>
+        <AppIcon name="com.samruston.twitter/com.samruston.twitter.Launcher5" image="flamingo_for_twitter"/>
+        <AppIcon name="com.samruston.twitter/com.samruston.twitter.Launcher6" image="flamingo_for_twitter"/>
+        <AppIcon name="com.samruston.twitter/com.samruston.twitter.Launcher7" image="flamingo_for_twitter"/>
+        <AppIcon name="com.samruston.twitter/com.samruston.twitter.MainActivity" image="flamingo_for_twitter"/>
+        <AppIcon name="com.samruston.weather/com.samruston.weather.MainActivity" image="weather_timeline"/>
+        <AppIcon name="com.samsung.android.app.memo/com.samsung.android.app.memo.Main" image="quickmemo" />
+        <AppIcon name="com.samsung.android.contacts/com.android.contacts.activities.PeopleActivity" image="contacts"/>
+        <AppIcon name="com.samsung.android.contacts/com.android.dialer.DialtactsActivity" image="contacts"/>
+        <AppIcon name="com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL" image="___aosp_mail" />
+        <AppIcon name="com.samsung.android.email.ui/com.samsung.android.email.ui.activity.MessageListXL" image="___aosp_mail" />
+        <AppIcon name="com.samsung.android.video/com.samsung.android.video.list.activity.VideoList" image="samsung_video" />
+        <AppIcon name="com.samsung.voiceserviceplatform/com.samsung.voiceserviceplatform.ui.SVoiceMainActivity" image="s_voice" />
+        <AppIcon name="com.sand.airdroid/com.sand.airdroid.ui.splash.SplashActivity_" image="airdroid" />
+        <AppIcon name="com.scee.psxandroid/com.digitaljigsaw.psxandroid.activities.SplashActivity" image="play__station"/>
+        <AppIcon name="com.scee.psxandroid/com.scee.psxandroid.activity.EulaActivity" image="play__station"/>
+        <AppIcon name="com.scee.psxandroid/com.scee.psxandroid.activity.TopActivity" image="play__station"/>
+        <AppIcon name="com.scotiabank.mobile/com.scotiabank.mobile.MobileBanking" image="bank" />
+        <AppIcon name="com.scribd.app.reader0/com.scribd.app.ui.SplashScreen" image="scribd" />
+        <AppIcon name="com.sec.android.app.camera/com.sec.android.app.camera.Camera" image="camera"/>
+        <AppIcon name="com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage" image="clock" />
+        <AppIcon name="com.sec.android.app.dialertab/com.sec.android.app.dialertab.DialerTabActivity" image="phone" />
+        <AppIcon name="com.sec.android.app.fm/com.sec.android.app.fm.MainActivity" image="fm_radio" />
+        <AppIcon name="com.sec.android.app.latin.launcher.calendar/com.sec.android.app.latin.launcher.calendar.Launcher" image="calendar" />
+        <AppIcon name="com.sec.android.app.music/com.sec.android.app.music.common.activity.MusicMainActivity" image="music" />
+        <AppIcon name="com.sec.android.app.music/com.sec.android.app.music.common.activity.MusicMainActivity" image="music" />
+        <AppIcon name="com.sec.android.app.music/com.sec.android.app.music.MusicActionTabActivity" image="music" />
+        <AppIcon name="com.sec.android.app.myfiles/com.sec.android.app.myfiles.common.MainActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator" image="calculator" />
+        <AppIcon name="com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity" image="browser_alt" />
+        <AppIcon name="com.sec.android.app.shealth/com.samsung.android.app.shealth.home.HomeMainActivity" image="s_health" />
+        <AppIcon name="com.sec.android.app.voicenote/com.sec.android.app.voicenote.main.VNMainActivity" image="sound_recorder" />
+        <AppIcon name="com.sec.android.app.voicerecorder/com.sec.android.app.voicerecorder.VoiceRecorderMainActivity" image="sound_recorder" />
+        <AppIcon name="com.sec.android.gallery3d/com.sec.android.gallery3d.app.Gallery" image="gallery"/>
+        <AppIcon name="com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryOpaqueActivity" image="gallery"/>
+        <AppIcon name="com.sergioventura.wxllpaper/com.sergioventura.wxllpaper.ui.MainActivity" image="wxllpaper"/>
+        <AppIcon name="com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SshNavigationDrawerActivity" image="serveradiutor"/>
+        <AppIcon name="com.sharpregion.tapet/com.sharpregion.tapet.MainActivity" image="tapet" />
+        <AppIcon name="com.shazam.android.lite/com.shazam.android.lite.ui.SplashActivity" image="shazam_lite" />
+        <AppIcon name="com.shazam.android/com.shazam.android.activities.SplashActivity" image="shazam"/>
+        <AppIcon name="com.shazam.encore.android/com.shazam.android.activities.SplashActivity" image="shazam"/>
+        <AppIcon name="com.sillens.shapeupclub/com.sillens.shapeupclub.MainActivity" image="lifesum" />
+        <AppIcon name="com.simplecity.amp_pro/com.simplecity.amp_library.ui.activities.MainActivity" image="shuttle"/>
+        <AppIcon name="com.simplecity.amp/com.simplecity.amp_library.ui.activities.MainActivity" image="shuttle"/>
+        <AppIcon name="com.sina.weibo/com.sina.weibo.SplashActivity" image="weibo"/>
+        <AppIcon name="com.sirma.mobile.bible.android/com.youversion.ui.MainActivity" image="bible" />
+        <AppIcon name="com.skykonig.acornicons/com.skykonig.acornicons.ui.MainActivity" image="acorn" />
+        <AppIcon name="com.skype.raider/com.skype.raider.Main" image="skype"/>
+        <AppIcon name="com.Slack/com.Slack.ui.HomeActivity" image="slack"/>
+        <AppIcon name="com.slaughter.look.of.disapproval/com.slaughter.look.of.disapproval.LODActivity" image="look_of_disapproval" />
+        <AppIcon name="com.smithyproductions.crystal/com.smithyproductions.crystal.views.SketchesActivity" image="crystal"/>
+        <AppIcon name="com.snapchat.android/com.snapchat.android.LandingPageActivity" image="snapchat"/>
+        <AppIcon name="com.snapwork.hdfc/com.snapwork.hdfc.HDFCBank" image="bank" />
+        <AppIcon name="com.softek.ofxclmobile.macu/com.softek.mfm.SplashActivity" image="bank" />
+        <AppIcon name="com.softek.ofxclmobile.macu/com.softek.mfm.SplashActivity" image="bank" />
+        <AppIcon name="com.sonelli.juicessh/com.sonelli.juicessh.activities.MainActivity" image="juice__ssh" />
+        <AppIcon name="com.sonos.acr/com.sonos.acr.SonosLaunchActivity" image="sonos" />
+        <AppIcon name="com.sonyericsson.album/com.sonyericsson.album.MainActivity" image="gallery"/>
+        <AppIcon name="com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity" image="camera"/>
+        <AppIcon name="com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.DialerEntryActivity" image="dialer" />
+        <AppIcon name="com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.LaunchActivity" image="contacts" />
+        <AppIcon name="com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.SocialPhonebookActivity" image="contacts" />
+        <AppIcon name="com.sonyericsson.calendar/com.sonyericsson.calendar.monthview.MonthViewActivity" image="calendar" />
+        <AppIcon name="com.sonyericsson.contacts/com.sonyericsson.contacts.ContactTabActivity" image="contacts" />
+        <AppIcon name="com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity" image="sms_alt_three" />
+        <AppIcon name="com.sonyericsson.fmradio/com.sonyericsson.fmradio.ui.FmRadioActivity" image="fm_radio" />
+        <AppIcon name="com.sonyericsson.music/com.sonyericsson.music.MusicActivity" image="music" />
+        <AppIcon name="com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer" image="clock" />
+        <AppIcon name="com.sonyericsson.video/com.sonyericsson.video.browser.BrowserActivity" image="sony_video" />
+        <AppIcon name="com.sonymobile.androidapp.audiorecorder/com.sonymobile.androidapp.audiorecorder.activity.MainActivity" image="sound_recorder" />
+        <AppIcon name="com.sonymobile.calendar/com.sonymobile.calendar.LaunchActivity" image="calendar" />
+        <AppIcon name="com.sonymobile.email/com.sonymobile.email.activity.Welcome" image="___aosp_mail"/>
+        <AppIcon name="com.sonymobile.xperiaweather/com.sonymobile.xperiaweather.MainActivity" image="weather" />
+        <AppIcon name="com.soundcloud.android/com.soundcloud.android.main.LauncherActivity" image="soundcloud" />
+        <AppIcon name="com.speedsoftware.rootexplorer/com.speedsoftware.rootexplorer.RootExplorer" image="root_explorer"/>
+        <AppIcon name="com.splendapps.voicerec/com.splendapps.voicerec.MainActivity" image="sound_recorder" />
+        <AppIcon name="com.splendapps.voicerec/com.splendapps.voicerec.MainActivity" image="sound_recorder" />
+        <AppIcon name="com.Splitwise.SplitwiseMobile/com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen_" image="splitwise" />
+        <AppIcon name="com.spotify.music/com.spotify.music.MainActivity" image="spotify"/>
+        <AppIcon name="com.sprd.fileexplorer/com.sprd.fileexplorer.activities.FileExploreActivity" image="cyanogenmod_file_manager" />
+        <AppIcon name="com.ssrdroide.lockscreenwidgets/com.ssrdroide.lockscreenwidgets.ui.activities.MainActivity" image="lock_screen_widgets"/>
+        <AppIcon name="com.stackexchange.marvin/com.stackexchange.marvin.ui.LaunchActivity" image="stack_exchange" />
+        <AppIcon name="com.starbucks.mobilecard/com.starbucks.mobilecard.main.activity.LandingPageActivity" image="starbucks"/>
+        <AppIcon name="com.starfinanz.smob.android.sbanking/com.starfinanz.smob.android.sbanking.SBanking" image="sparkasse" />
+        <AppIcon name="com.starfinanz.smob.android.sfinanzstatus/com.starfinanz.smob.android.sfinanzstatus.SFinanzstatus" image="sparkasse" />
+        <AppIcon name="com.starfinanz.smob.android.wuestenrot/com.starfinanz.smob.android.wuestenrot.Wuestenrot" image="wuestenrot"/>
+        <AppIcon name="com.strava/com.strava.SplashActivity" image="strava"/>
+        <AppIcon name="com.supercell.clashofclans/com.supercell.clashofclans.GameApp" image="clash_of_clans" />
+        <AppIcon name="com.supercell.clashroyale/com.supercell.clashroyale.GameApp" image="clash_royale" />
+        <AppIcon name="com.superevilmegacorp.game/com.superevilmegacorp.game.NuoActivityLauncher" image="vainglory" />
+        <AppIcon name="com.suphi.swipenavigation/com.suphi.swipenavigation.ActivityMain" image="swipe_navigation" />
+        <AppIcon name="com.swiss_codemonkeys.funnyjokes/com.appspot.swisscodemonkeys.jokes.Jokes" image="funny_jokes" />
+        <AppIcon name="com.syntellia.fleksy.keyboard/com.syntellia.fleksy.settings.activities.MainActivity" image="fleksy" />
+        <AppIcon name="com.tct.calculator2/com.tct.calculator2.Calculator" image="calculator" />
+        <AppIcon name="com.td/com.td.mobile.controllers.SplashActivity" image="bank" />
+        <AppIcon name="com.teamspeak.ts3client/com.teamspeak.ts3client.StartGUIFragment" image="team__speak" />
+        <AppIcon name="com.teamviewer.teamviewer.market.mobile/com.teamviewer.remotecontrollib.activity.MainActivity" image="teamviewer" />
+        <AppIcon name="com.ted.android/com.ted.android.view.splash.SplashActivity" image="___ted"/>
+        <AppIcon name="com.tellm.android.app/com.jodelapp.jodelandroidv3.view.Launcher" image="jodel" />
+        <AppIcon name="com.tencent.mm/com.tencent.mm.ui.LauncherUI" image="we__chat"/>
+        <AppIcon name="com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity" image="___qq" />
+        <AppIcon name="com.tencent.mobileqqi/com.tencent.mobileqq.activity.SplashActivity" image="___qq" />
+        <AppIcon name="com.tencent.qq/com.tencent.qq.SplashActivity" image="___qq" />
+        <AppIcon name="com.tencent.qqlite/com.tencent.mobileqq.activity.SplashActivity" image="___qq" />
+        <AppIcon name="com.tencent.qqlite/com.tencent.mobileqq.activity.SplashActivity" image="___qq" />
+        <AppIcon name="com.tencent.qqlite/com.tencent.qqlite.activity.SplashActivity" image="___qq" />
+        <AppIcon name="com.tencent.qqpinyin/com.tencent.qqpinyin.activity.GuideDialogActivity" image="___qq" />
+        <AppIcon name="com.termux/com.termux.app.TermuxActivity" image="terminal"/>
+        <AppIcon name="com.teslacoilsw.launcher.prime/com.teslacoilsw.launcher.prime.NovaLauncherPrimeActivity" image="nova_launcher_prime"/>
+        <AppIcon name="com.teslacoilsw.launcher/com.android.launcher2.Launcher" image="nova_launcher"/>
+        <AppIcon name="com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler" image="nova_launcher"/>
+        <AppIcon name="com.teslacoilsw.launcher/com.teslacoilsw.launcher.preferences.SettingsActivity" image="nova_settings" />
+        <AppIcon name="com.teslacoilsw.launcher/preferences.SettingsActivity" image="nova_settings"/>
+        <AppIcon name="com.teslacoilsw.notifier/com.teslacoilsw.notifier.NotifierSettings" image="teslaunread"/>
+        <AppIcon name="com.textra/com.mplus.lib.Main_*" image="textra"/>
+        <AppIcon name="com.textra/com.mplus.lib.Main_ff0097a7" image="textra"/>
+        <AppIcon name="com.textra/com.mplus.lib.Main_ff263238" image="textra"/>
+        <AppIcon name="com.textra/com.mplus.lib.Main_ff29b6f6" image="textra"/>
+        <AppIcon name="com.textra/com.mplus.lib.Main_ff3e2723" image="textra"/>
+        <AppIcon name="com.textra/com.mplus.lib.Main_ff43a047" image="textra"/>
+        <AppIcon name="com.textra/com.mplus.lib.Main_ff90a4ae" image="textra"/>
+        <AppIcon name="com.textra/com.mplus.lib.Main_ffc62828" image="textra"/>
+        <AppIcon name="com.textra/com.mplus.lib.ui.main.Main" image="textra"/>
+        <AppIcon name="com.thescore.esports/com.thescore.esports.preapp.SplashActivity" image="the__score_esports" />
+        <AppIcon name="com.thetransitapp.droid/com.thetransitapp.droid.TransitActivity" image="transit" />
+        <AppIcon name="com.thunderst.radio/com.thunderst.radio.FMRadioMainActivity" image="fm_radio" />
+        <AppIcon name="com.ticktick.task/com.ticktick.task.activity.MeTaskActivity" image="ticktick" />
+        <AppIcon name="com.tinder/com.tinder.activities.ActivityLogin" image="tinder"/>
+        <AppIcon name="com.tinder/com.tinder.activities.LoginActivity" image="tinder"/>
+        <AppIcon name="com.tippingcanoe.mydealz/com.tippingcanoe.launchpad.Launcher" image="mydealz" />
+        <AppIcon name="com.tiqiaa.remote/com.tiqiaa.icontrol.WelcomeActivity" image="zaza_remote" />
+        <AppIcon name="com.Tobit.android.Slitte6235203254/com.Tobit.android.slitte.SlitteSplashScreenActivity" image="schalke" />
+        <AppIcon name="com.todoist/com.todoist.activity.HomeActivity" image="todoist" />
+        <AppIcon name="com.touchtype.swiftkey.beta/com.touchtype.LauncherActivity-Icon" image="swift__key"/>
+        <AppIcon name="com.touchtype.swiftkey.beta/com.touchtype.LauncherActivity-Icon" image="swift__key"/>
+        <AppIcon name="com.touchtype.swiftkey.beta/com.touchtype.LauncherActivity" image="swift__key"/>
+        <AppIcon name="com.touchtype.swiftkey.nn/com.touchtype.LauncherActivity" image="swift__key"/>
+        <AppIcon name="com.touchtype.swiftkey/com.touchtype.LauncherActivity-Icon" image="swift__key"/>
+        <AppIcon name="com.touchtype.swiftkey/com.touchtype.LauncherActivity" image="swift__key"/>
+        <AppIcon name="com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.MainActivity_" image="tv_show_time"/>
+        <AppIcon name="com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.MainActivity" image="tv_show_time"/>
+        <AppIcon name="com.tranzmate/com.moovit.home.HomeActivity" image="moovit" />
+        <AppIcon name="com.trello/com.trello.home.HomeActivity" image="trello"/>
+        <AppIcon name="com.tripadvisor.tripadvisor/com.tripadvisor.tripadvisor.TripAdvisorTripAdvisorActivity" image="tripadvisor" />
+        <AppIcon name="com.truecaller/com.truecaller.ui.TruecallerInit" image="truecaller"/>
+        <AppIcon name="com.tul.aviate/com.tul.aviator.ui.TabbedHomeActivity" image="aviate"/>
+        <AppIcon name="com.tumblr/com.tumblr.ui.activity.JumpoffActivity" image="tumblr"/>
+        <AppIcon name="com.tunnelbear.android/com.tunnelbear.android.TbearSplashActivity" image="tunnelbear" />
+        <AppIcon name="com.twitter.android/com.twitter.android.StartActivity" image="twitter"/>
+        <AppIcon name="com.ubercab.driver/com.ubercab.driver.feature.launch.LauncherActivity" image="uber_driver" />
+        <AppIcon name="com.ubercab/com.ubercab.UBUberActivity" image="uber" />
+        <AppIcon name="com.uc.browser.en/com.dzebb.handler.b" image="___uc_browser" />
+        <AppIcon name="com.uc.browser.en/com.uc.browser.ActivityBrowser" image="___uc_browser" />
+        <AppIcon name="com.uc.browser.hd/com.ucweb.activity.MainActivity" image="___uc_browser" />
+        <AppIcon name="com.uc.browser/com.UCMobile.main.UCMobile" image="___uc_browser" />
+        <AppIcon name="com.UCMobile.arsa/com.UCMobile.main.UCMobile" image="___uc_browser" />
+        <AppIcon name="com.UCMobile.intl.x86/com.UCMobile.main.UCMobile" image="___uc_browser" />
+        <AppIcon name="com.UCMobile.intl/com.UCMobile.main.UCMobile" image="___uc_browser" />
+        <AppIcon name="com.udacity.android/com.udacity.android.ui.catalog.CatalogActivity" image="udacity" />
+        <AppIcon name="com.ultimateguitar.tabprofree/com.ultimateguitar.ui.activity.launch.ConfigDownloadActivity" image="tab_pro" />
+        <AppIcon name="com.ultimateguitar.tabs/com.ultimateguitar.ui.activity.launch.ConfigDownloadActivity" image="ultimate_guitar" />
+        <AppIcon name="com.underwood.agenda.free/com.underwood.agenda.free.WidgetConfigurationActivity" image="today_widget" />
+        <AppIcon name="com.underwood.agenda/com.underwood.agenda.WidgetConfigurationActivity" image="today_widget" />
+        <AppIcon name="com.underwood.calendar_beta/com.android.calendar.AllInOneActivity" image="today_calendar"/>
+        <AppIcon name="com.underwood.calendar/com.android.calendar.AllInOneActivity" image="today_calendar"/>
+        <AppIcon name="com.underwood.calendar/com.underwood.calendar.MainActivity" image="today_calendar"/>    <calendar component="ComponentInfo{com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_"/>
+        <AppIcon name="com.underwood.monospace/com.underwood.monospace.library.LibraryActivity" image="monospace" />
+        <AppIcon name="com.unicredit/com.unicredit.UniCreditMobileBanking" image="bank" />
+        <AppIcon name="com.untappdllc.app/com.untappdllc.app.MainActivity" image="untappd" />
+        <AppIcon name="com.urbandroid.lux/com.urbandroid.lux.MainActivity" image="twilight"/>
+        <AppIcon name="com.urbandroid.sleep/com.urbandroid.sleep.alarmclock.AlarmClock" image="sleep_as_android"/>
+        <AppIcon name="com.ustwo.monumentvalley/com.ustwo.deviceutil.MainActivity" image="monument_valley" />
+        <AppIcon name="com.utorrent.client/com.bittorrent.client.EntryActivity" image="my__Torrent" />
+        <AppIcon name="com.uzumapps.wakelockdetector.full/com.uzumapps.wakelockdetector.activity.IntroActivity" image="wakelock_detector"/>
+        <AppIcon name="com.uzumapps.wakelockdetector/com.uzumapps.wakelockdetector.activity.IntroActivity" image="wakelock_detector"/>
+        <AppIcon name="com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.activity.MainActivity" image="steam"/>
+        <AppIcon name="com.venticake.retrica/com.venticake.retrica.camera.CameraActivity" image="retrica"/>
+        <AppIcon name="com.venticake.retrica/com.venticake.retrica.MainActivity" image="retrica" />
+        <AppIcon name="com.viber.voip/com.viber.voip.WelcomeActivity" image="viber"/>
+        <AppIcon name="com.vimeo.android.videoapp/com.vimeo.android.videoapp.activities.authentication.LaunchActivity" image="vimeo" />
+        <AppIcon name="com.vipercn.viper4android_v2/com.vipercn.viper4android_v2.activity.ViPER4Android" image="viper" />
+        <AppIcon name="com.virblue.mystudylife/md58d9c9037a471b8a8307d52bf3798b504.SplashScreen" image="my__study__life" />
+        <AppIcon name="com.vkontakte.android/com.vkontakte.android.MainActivity" image="vkontakte"/>
+        <AppIcon name="com.vsco.cam/com.vsco.cam.gallery.ImageGridActivity" image="___vsco_cam"/>
+        <AppIcon name="com.vsco.cam/com.vsco.cam.navigation.NavigationBaseActivity" image="___vsco_cam"/>
+        <AppIcon name="com.vsco.cam/com.vsco.cam.SplashActivity" image="___vsco_cam"/>
+        <AppIcon name="com.vzw.hss.myverizon/com.vzw.hss.myverizon.ui.activities.LauncherActivity" image="my_verizon" />
+        <AppIcon name="com.wangdaye.mysplash/com.wangdaye.mysplash.main.view.activity.MainActivity" image="mysplash"/>
+        <AppIcon name="com.waze/com.waze.FreeMapAppActivity" image="waze"/>
+        <AppIcon name="com.weather.Weather/com.weather.Weather.app.SplashScreenActivity" image="the_weather_channel" />
+        <AppIcon name="com.weheartit/com.weheartit.app.MainActivity" image="we_heart_it"/>
+        <AppIcon name="com.wf.wellsfargomobile/com.wf.wellsfargomobile.MainActivity" image="bank" />
+        <AppIcon name="com.whatsapp/com.whatsapp.Main" image="whatsapp"/>
+        <AppIcon name="com.whatsapp/com.whatsapp.Main12" image="whatsapp"/>
+        <AppIcon name="com.whatsapp/com.whatsapp.Main3" image="whatsapp"/>
+        <AppIcon name="com.wire/com.waz.zclient.LaunchActivity" image="wire" />
+        <AppIcon name="com.wolfram.android.alpha/com.wolfram.android.alpha.activity.WolframAlpha" image="wolfram_alpha"/>
+        <AppIcon name="com.wordreference/com.wordreference.MainApp" image="word_reference" />
+        <AppIcon name="com.wunderground.android.weather/com.wunderground.android.weather.ui.WeatherHomeActivity" image="weather_underground" />
+        <AppIcon name="com.wunderkinder.wunderlistandroid/com.wunderkinder.wunderlistandroid.activity.WLMainFragmentActivity" image="wunderlist"/>
+        <AppIcon name="com.xda.labs.play/com.xda.labs.ForumLauncher" image="___xda_labs"/>
+        <AppIcon name="com.xda.labs/com.xda.labs.LabsLauncher" image="___xda_labs"/>
+        <AppIcon name="com.xiaomi.hm.health/com.xiaomi.hm.health.activity.StartUpActivity" image="mi__fit" />
+        <AppIcon name="com.xing.android/com.xing.android.activities.MainActivity" image="xing" />
+        <AppIcon name="com.yahoo.mobile.client.android.finance/com.yahoo.mobile.client.android.finance.activity.Main" image="yahoo_stocks" />
+        <AppIcon name="com.yahoo.mobile.client.android.flickr/com.yahoo.mobile.client.android.flickr.ui.misc.LoginActivity" image="flickr" />
+        <AppIcon name="com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity" image="yahoo_mail" />
+        <AppIcon name="com.yahoo.mobile.client.android.weather/com.yahoo.mobile.client.android.weather.ui.WeatherMainActivity" image="yahoo_weather" />
+        <AppIcon name="com.yelp.android/com.yelp.android.ui.activities.RootActivity" image="yelp" />
+        <AppIcon name="com.yik.yak/com.yik.yak.ui.activity.SplashActivity" image="yik_yak" />
+        <AppIcon name="com.yirgalab.dzzz/com.yirgalab.dzzz.main.MainActivity" image="doze" />
+        <AppIcon name="com.yopeso.lieferando/com.yopeso.lieferando.SplashActivity" image="lifesum" />
+        <AppIcon name="de.andip71.boeffla_config_v2/de.andip71.boeffla_config_v2.MainActivity" image="boeffla_config"/>
+        <AppIcon name="de.bildungscentrum.android.campus/campus.android.bildungscentrum.de.ocmobil.activity.LoginActivity" image="online_campus" />
+        <AppIcon name="de.commerzbanking.mobil/com.commerzbank.mobilebanking2.MainActivity" image="commerzbank" />
+        <AppIcon name="de.devmil.minimaltext/de.devmil.minimaltext.ui.MinimalTextPreferenceManager" image="minimalistic_text" />
+        <AppIcon name="de.dhl.paket/de.dhl.packet.MigrationScreenActivity" image="dhl" />
+        <AppIcon name="de.hafas.android.db/de.bahn.dbtickets.ui.DBNavLauncherActivity" image="db_navigator"/>
+        <AppIcon name="de.lineas.lit.ntv.android/de.lineas.ntv.tablet.MainActivity" image ="n_tv" />
+        <AppIcon name="de.mobilesoftwareag.clevertanken/de.mobilesoftwareag.clevertanken.CleverTankenActivity" image="clever_tanken" />
+        <AppIcon name="de.motain.iliga/de.motain.iliga.activity.FastLaunchSplashScreenActivity" image="onefootball" />
+        <AppIcon name="de.mygrades/de.mygrades.view.activity.MainActivity" image="my__grades"/>
+        <AppIcon name="de.pixelhouse/de.pixelhouse.chefkoch.HomeActivity_" image="chefkoch" />
+        <AppIcon name="de.robv.android.xposed.installer/de.robv.android.xposed.installer.WelcomeActivity-dvdandroid" image="xposed_installer"/>
+        <AppIcon name="de.robv.android.xposed.installer/de.robv.android.xposed.installer.WelcomeActivity-hjmodi" image="xposed_installer"/>
+        <AppIcon name="de.robv.android.xposed.installer/de.robv.android.xposed.installer.WelcomeActivity" image="xposed_installer"/>
+        <AppIcon name="de.spiegel.android.app.spon/de.spiegel.android.lib.spon.activities.SplashScreenActivity" image="sparkasse" />
+        <AppIcon name="de.stefanpledl.localcast/de.stefanpledl.localcast.main.MainActivity" image="local__cast" />
+        <AppIcon name="de.toastcode.screener/de.toastcode.screener.LaunchActivity" image="screener" />
+        <AppIcon name="de.toastcode.screener/de.toastcode.screener.MainActivity" image="screener" />
+        <AppIcon name="de.web.mobile.android.mail/com.fsck.k9.activity.Accounts" image="___aosp_mail"/>
+        <AppIcon name="de.zeit.online/de.zeit.online.app.MainActivity" image="zeit_online" />
+        <AppIcon name="deezer.android.app/com.deezer.android.ui.activity.LauncherActivity" image="deezer"/>
+        <AppIcon name="devian.tubemate.home/devian.tubemate.home.Main" image="tubemate" />
+        <AppIcon name="droom.sleepIfUCan/droom.sleepIfUCan.activity.MainActivity" image="alarmy" />
+        <AppIcon name="es.richardsolano.filter/es.richardsolano.filter.MainActivity" image="dimly" />
+        <AppIcon name="eu.chainfire.flash/eu.chainfire.flash.ui.activity.MainActivity" image="flash__fire"/>
+        <AppIcon name="eu.chainfire.lumen/eu.chainfire.lumen.ui.MainActivity" image="cf_lumen" />
+        <AppIcon name="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Chip" image="super___su"/>
+        <AppIcon name="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Emblem" image="super___su"/>
+        <AppIcon name="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material" image="super___su"/>
+        <AppIcon name="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-SuperSU" image="super___su"/>
+        <AppIcon name="eu.kanade.tachiyomi/eu.kanade.tachiyomi.ui.main.MainActivity" image="tachiyomi"/>
+        <AppIcon name="eu.thedarken.sdm/eu.thedarken.sdm.SDMMainActivity" image="sd_maid"/>
+        <AppIcon name="flar2.exkernelmanager/flar2.exkernelmanager.StartActivity" image="ex_kernel_manager" />
+        <AppIcon name="flipboard.app/flipboard.activities.LaunchActivityAlias" image="flipboard" />
+        <AppIcon name="fm.clean/fm.clean.MainActivity" image="file_manager" />
+        <AppIcon name="free.reddit.news/reddit.news.RedditNavigation" image="relay"/>
+        <AppIcon name="ginlemon.flowerfree/ginlemon.flower.HomeScreen" image="smart_launcher"/>
+        <AppIcon name="ginlemon.flowerpro/ginlemon.flower.HomeScreen" image="smart_launcher"/>
+        <AppIcon name="home.solo.launcher.free/home.solo.launcher.free.Launcher" image="solo_launcher" />
+        <AppIcon name="home.solo.launcher.free/home.solo.launcher.free.SplashActivity" image="solo_launcher" />
+        <AppIcon name="https://play.google.com/store/apps/details?id=com.cyngn.browser" image="browser_alt" />
+        <AppIcon name="https://play.google.com/store/apps/details?id=com.larvalabs.flow" image="flow_home" />
+        <AppIcon name="imoblife.toolbox.full/imoblife.toolbox.full.ASplash" image="all_in_one_toolbox" />
+        <AppIcon name="in.alphawolf.wallmax/in.alphawolf.wallmax.MainActivity" image="wallmax" />
+        <AppIcon name="in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity" image="amazon" />
+        <AppIcon name="info.guardianproject.orfox/info.guardianproject.orfox.App" image="orfox" />
+        <AppIcon name="info.tuohuang.urbandict/info.tuohuang.urbandict.MainActivity" image="urban_dictionary" />
+        <AppIcon name="installer.ginlemon.flowerpro/installer.ginlemon.flowerpro.MainActivity" image="smart_launcher"/>
+        <AppIcon name="io.casper.android/io.casper.android.activity.LaunchActivity" image="casper" />
+        <AppIcon name="io.enpass.app/in.sinew.enpass.MainActivity" image="enpass" />
+        <AppIcon name="io.raindrop.raindropio/io.raindrop.raindropio.StartActivity" image="raindrop"/>
+        <AppIcon name="is.shortcut/com.voxel.launcher3.Launcher" image="evie" />
+        <AppIcon name="it.mvilla.android.fenix/it.mvilla.android.fenix.ui.activity.WelcomeActivity" image="fenix_for_twitter" />
+        <AppIcon name="it.mvilla.android.quote/it.mvilla.android.quote.ui.activity.WelcomeActivity" image="newsfold" />
+        <AppIcon name="it.vodafone.my190/it.vodafone.my190.presentation.deeplinking.DeepLinkActivity" image="vodafone" />
+        <AppIcon name="jackpal.androidterm/jackpal.androidterm.Term" image="terminal"/>
+        <AppIcon name="jp.co.hit_point.nekoatsume/jp.co.hit_point.nekoatsume.GActivity" image="neko_atsume" />
+        <AppIcon name="jp.gocro.smartnews.android/jp.gocro.smartnews.android.activity.SmartNewsActivity" image="smart_news" />
+        <AppIcon name="jp.naver.line.android/jp.naver.line.android.activity.SplashActivity" image="line" />
+        <AppIcon name="keepass2android.keepass2android_nonet/md5f0702f468598c68ce18586502249fb40.KeePass" image="keepass_to_android"/>
+        <AppIcon name="keepass2android.keepass2android/md5f0702f468598c68ce18586502249fb40.KeePass" image="keepass_to_android"/>
+        <AppIcon name="kik.android/kik.android.chat.activity.IntroActivity" image="kik"/>
+        <AppIcon name="kmod.xposed/kmod.xposed.KMod-Alias" image="kmod" />
+        <AppIcon name="kmod.xposed/kmod.xposed.KMod" image="kmod" />
+        <AppIcon name="livio.pack.lang.en_US/livio.pack.lang.en_US.DictionaryView" image="livio_english" />
+        <AppIcon name="mathieumaree.rippple/mathieumaree.rippple.ui.activities.MainActivity" image="rippple" />
+        <AppIcon name="matlog.com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log"/>
+        <AppIcon name="me.bluemail.mail/com.trtf.blue.activity.Accounts" image="boxer" />
+        <AppIcon name="me.ccrama.redditslide/me.ccrama.redditslide.Activities.Slide" image="slide"/>
+        <AppIcon name="me.ccrama.redditslide/me.ccrama.slideforreddit.Overview" image="slide"/>
+        <AppIcon name="me.lyft.android/me.lyft.android.ui.MainActivity" image="lyft" />
+        <AppIcon name="me.msqrd.android/me.msqrd.android.LaunchActivity" image="msqrd"/>
+        <AppIcon name="me.msqrd.android/me.msqrd.android.LoginActivity" image="msqrd"/>
+        <AppIcon name="me.msqrd.android/me.msqrd.android.MainActivity" image="msqrd"/>
+        <AppIcon name="me.phh.superuser/com.koushikdutta.superuser.MainActivityity" image="super___su"/>
+        <AppIcon name="mega.privacy.android.app/mega.privacy.android.app.LauncherActivity" image="___mega"/>
+        <AppIcon name="mnn.Android/com.ap.ui.SplashActivity" image="ap_mobile" />
+        <AppIcon name="mobi.ifunny/mobi.ifunny.splash.SplashActivity" image="ifunny" />
+        <AppIcon name="mobi.mgeek.TunnyBrowser/mobi.mgeek.TunnyBrowser.BrowserActivity" image="dolphin" />
+        <AppIcon name="net.darkion.theme.maker/net.darkion.theme.maker.MainActivity" image="themediy" />
+        <AppIcon name="net.darksky.darksky/net.darksky.darksky.MainActivity" image="dark_sky"/>
+        <AppIcon name="net.dinglisch.android.taskerm/net.dinglisch.android.taskerm.Tasker" image="tasker"/>
+        <AppIcon name="net.lovoo.android.ultimata/net.lovoo.ui.activities.phone.LovooStartActivity" image="lovoo"/>
+        <AppIcon name="net.lovoo.android/net.lovoo.ui.activities.phone.LovooStartActivity" image="lovoo"/>
+        <AppIcon name="net.lovoo.android/net.lovoo.ui.activities.phone.StartActivity" image="lovoo"/>
+        <AppIcon name="net.nurik.roman.muzei/com.google.android.apps.muzei.MuzeiActivity" image="muzei" />
+        <AppIcon name="net.oneplus.deskclock/net.oneplus.deskclock.DeskClock" image="clock" />
+        <AppIcon name="net.oneplus.music/net.oneplus.music.activity.MainActivity" image="music" />
+        <AppIcon name="net.sourceforge.opencamera/net.sourceforge.opencamera.MainActivity" image="open_camera" />
+        <AppIcon name="net.trippedout.android.facets/net.trippedout.android.facets.activity.SplashActivity" image="facets" />
+        <AppIcon name="net.zedge.android/net.zedge.android.Main" image="zedge" />
+        <AppIcon name="nextapp.fx/nextapp.fx.ui.ExplorerActivity" image="fx"/>
+        <AppIcon name="nl.oberon.tmobile.my/nl.oberon.tmobile.my.activity.LoginActivity" image="t_mobile" />
+        <AppIcon name="nl.snsbank.snsbankieren/com.service2media.m2active.client.android.M2ActiveClient" image="bank" />
+        <AppIcon name="nz.co.bnz.droidbanking/nz.co.bnz.droidbanking.common.features.logon.home.ui.LogonHomeActivity" image="bank" />
+        <AppIcon name="nz.co.kiwibank.mobile/nz.co.kiwibank.mobile.ui.unauthenticated.UnauthenticatedActivity" image="bank" />
+        <AppIcon name="org.adaway/org.adaway.ui.BaseActivity" image="adaway" />
+        <AppIcon name="org.adw.launcher/org.adw.launcher.LauncherActivity" image="adw_launcher"/>
+        <AppIcon name="org.chromium.chrome/com.google.android.apps.chrome.Main" image="chromium" />
+        <AppIcon name="org.codeaurora.snapcam/com.android.camera.CameraActivity" image="camera"/>
+        <AppIcon name="org.codeaurora.snapcam/com.android.camera.CameraLauncher" image="camera"/>
+        <AppIcon name="org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.activity.ActivityMusic" image="audio___fx" />
+        <AppIcon name="org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic" image="audio___fx" />
+        <AppIcon name="org.cyanogenmod.gello.browser/com.android.browser.BrowserLauncher" image="gello"/>
+        <AppIcon name="org.cyanogenmod.screencast/org.cyanogenmod.screencast.MainActivity" image="screen_recorder" />
+        <AppIcon name="org.cyanogenmod.snap/com.android.camera.CameraLauncher" image="camera"/>
+        <AppIcon name="org.cyanogenmod.theme.chooser/org.cyanogenmod.theme.chooser.ChooserActivity" image="theme_chooser" />
+        <AppIcon name="org.cyanogenmod.theme.chooser2/org.cyanogenmod.theme.chooser2.ChooserLauncher" image="theme_chooser" />
+        <AppIcon name="org.dmfs.tasks/org.dmfs.tasks.TaskListActivity" image="opentasks" />
+        <AppIcon name="org.fdroid.fdroid/org.fdroid.fdroid.FDroid" image="f_droid" />
+        <AppIcon name="org.floens.chan/org.floens.chan.ui.activity.BoardActivity" image="clover" />
+        <AppIcon name="org.floens.clover/org.floens.chan.ui.activity.BoardActivity" image="clover" />
+        <AppIcon name="org.geometerplus.zlibrary.ui.android/org.geometerplus.android.fbreader.FBReader" image="fbreader" />
+        <AppIcon name="org.horaapps.leafpic/org.horaapps.leafpic.activities.SplashScreen" image="leaf__pic"/>
+        <AppIcon name="org.khanacademy.android/org.khanacademy.android.ui.library.MainActivity" image="khan_academy"/>
+        <AppIcon name="org.kustom.wallpaper.pro/org.kustom.pro.MainActivity" image="kwlp" />
+        <AppIcon name="org.kustom.wallpaper/org.kustom.lib.editor.WpAdvancedEditorActivity" image="kwlp" />
+        <AppIcon name="org.kustom.wallpaper/org.kustom.lib.settings.SettingsActivity" image="kwlp" />
+        <AppIcon name="org.kustom.wallpaper/org.kustom.lib.settings.WpSettingsActivity" image="kwlp" />
+        <AppIcon name="org.kustom.widget.pro/a.y.z.HZ" image="kwgt" />
+        <AppIcon name="org.kustom.widget.pro/org.kustom.pro.MainActivity" image="kwgt" />
+        <AppIcon name="org.kustom.widget/org.kustom.widget.picker.WidgetPicker" image="kwgt" />
+        <AppIcon name="org.leetzone.android.yatsewidgetfree/org.leetzone.android.yatsewidget.ui.StartActivity" image="yatse" />
+        <AppIcon name="org.leo.android.dict/org.leo.android.dict.LeoDict" image="leo" />
+        <AppIcon name="org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity" image="twidere"/>
+        <AppIcon name="org.mozilla.firefox_beta/org.mozilla.firefox_beta.App" image="firefox_beta" />
+        <AppIcon name="org.mozilla.firefox/org.mozilla.firefox.App" image="firefox" />
+        <AppIcon name="org.paoloconte.treni_lite/org.paoloconte.orariotreni.app.activities.MainActivity" image="train_timetable" />
+        <AppIcon name="org.quantumbadger.redreader/org.quantumbadger.redreader.activities.MainActivity" image="redreader" />
+        <AppIcon name="org.solovyev.android.calculator/org.solovyev.android.calculator.CalculatorActivity" image="calculator_plus_plus" />
+        <AppIcon name="org.telegram.messenger.beta/org.telegram.ui.LaunchActivity" image="telegram"/>
+        <AppIcon name="org.telegram.messenger/org.telegram.ui.LaunchActivity" image="telegram"/>
+        <AppIcon name="org.telegram.plus/org.telegram.ui.LaunchActivity" image="plus"/>
+        <AppIcon name="org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity" image="signal"/>
+        <AppIcon name="org.videolan.vlc.betav7neon/org.videolan.vlc.betav7neon.gui.MainActivity" image="vlc"/>
+        <AppIcon name="org.videolan.vlc/org.videolan.vlc.gui.MainActivity" image="vlc"/>
+        <AppIcon name="org.videolan.vlc/org.videolan.vlc.StartActivity" image="vlc"/>
+        <AppIcon name="org.westpac.bank/com.westpac.banking.android.wbc.activity.LoginActivity" image="bank"/>
+        <AppIcon name="org.wikipedia.beta/org.wikipedia.beta.page.PageActivity" image="wikipedia"/>
+        <AppIcon name="org.wikipedia.beta/org.wikipedia.main.MainActivity" image="wikipedia"/>
+        <AppIcon name="org.wikipedia.beta/org.wikipedia.MainActivity" image="wikipedia"/>
+        <AppIcon name="org.wikipedia/org.wikipedia.main.MainActivity" image="wikipedia"/>
+        <AppIcon name="org.wikipedia/org.wikipedia.MainActivity" image="wikipedia"/>
+        <AppIcon name="org.wikipedia/org.wikipedia.page.PageActivity" image="wikipedia"/>
+        <AppIcon name="org.wikipedia/org.wikipedia.WikipediaActivity" image="wikipedia"/>
+        <AppIcon name="org.withouthat.acalendar/org.withouthat.acalendar.ACalendar" image="a__calendar" />
+        <AppIcon name="org.withouthat.acalendarplus.x/org.withouthat.acalendar.ACalendar" image="a__calendar" />
+        <AppIcon name="org.withouthat.acalendarplus/org.withouthat.acalendar.ACalendar" image="a__calendar" />
+        <AppIcon name="org.withouthat.acalendarplus/org.withouthat.acalendar.tasks.TasksActivity" image="a__calendar" />
+        <AppIcon name="org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus" image="a__calendar" />
+        <AppIcon name="org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus" image="calendar" />
+        <AppIcon name="org.wordpress.android/org.wordpress.android.ui.WPLaunchActivity" image="word__press"/>
+        <AppIcon name="org.xbmc.kodi/org.xbmc.kodi.Splash" image="kodi" />
+        <AppIcon name="org.xbmc.kore/org.xbmc.kore.ui.RemoteActivity" image="kore" />
+        <AppIcon name="org.zooper.zwfree/org.zooper.zwlib.Launcher" image="zooper"/>
+        <AppIcon name="org.zooper.zwpro/org.zooper.zwlib.Launcher" image="zooper"/>
+        <AppIcon name="org.zwanoo.android.speedtest/com.ookla.speedtest.softfacade.MainActivity" image="speetest" />
+        <AppIcon name="pe.com.interbank.mobilebanking/pe.com.interbank.mobilebanking.activities.SplashActivity" image="bank" />
+        <AppIcon name="pixkart.arcus/pixkart.arcus.themelist.ThemeListActivity" image="arcus"/>
+        <AppIcon name="pl.damianpiwowarski.navbarapps/pl.damianpiwowarski.navbarapps.StartActivity_" image="navbar_apps" />
+        <AppIcon name="pl.solidexplorer/pl.solidexplorer.SolidExplorer" image="solid_explorer" />
+        <AppIcon name="pl.solidexplorer1/pl.solidexplorer.SolidExplorer" image="solid_explorer" />
+        <AppIcon name="pl.solidexplorer2/pl.solidexplorer.SolidExplorer" image="solid_explorer" />
+        <AppIcon name="pl.vipek.camera2/pl.vipek.camera2.CameraActivity" image="manual_camera" />
+        <AppIcon name="posteitaliane.posteapp.appbpol/posteitaliane.posteapp.appbpol.gui.activities.SplashActivity" image="bank" />
+        <AppIcon name="projekt.substratum/projekt.substratum.LauncherActivity" image="substratum"/>
+        <AppIcon name="radiotime.player/tunein.ui.actvities.TuneInHomeActivity" image="tune__in"/>
+        <AppIcon name="reddit.news/reddit.news.RedditNavigation" image="relay"/>
+        <AppIcon name="ro.ing.mobile.banking.android.activity/ro.ing.mobile.banking.android.activity.ClientWebViewActivity" image="bank" />
+        <AppIcon name="roviminteractive.materialcopy/com.android.calculator2.StartActivity" image="natural_scientific_calculator" />
+        <AppIcon name="ru.stellio.player/ru.stellio.player.MainActivity" image="stellio"/>
+        <AppIcon name="ru.zdevs.zarchiver/ru.zdevs.zarchiver.ZArchiver" image="z_archiver" />
+        <AppIcon name="se.feomedia.quizkampen.de.premium/se.feomedia.quizkampen.act.login.MainActivity" image="quizduell" />
+        <AppIcon name="se.feomedia.quizkampen.de/se.feomedia.quizkampen.act.login.MainActivity" image="quizduell" />
+        <AppIcon name="se.footballaddicts.livescore/se.footballaddicts.livescore.activities.StartActivity" image="forza_football" />
+        <AppIcon name="se.swedbank.mobil/se.swedbank.mobilbank.MainMenuActivity" image="bank" />
+        <AppIcon name="sh.whisper/sh.whisper.WMainActivity" image="whisper" />
+        <AppIcon name="stericson.busybox.donate/stericson.busybox.donate.activities.MainActivity" image="busy__box" />
+        <AppIcon name="stericson.busybox/stericson.busybox.Activity.MainActivity" image="busy__box" />
+        <AppIcon name="tk.wasdennnoch.androidn_ify/tk.wasdennnoch.androidn_ify.SettingsAlias" image="nify" />
+        <AppIcon name="tugapower.codeaurora.browser.alpha/tugapower.codeaurora.browser.alpha.Main" image="tuga_browser"/>
+        <AppIcon name="tugapower.codeaurora.browser/com.google.android.apps.chrome.Main" image="tuga_browser"/>
+        <AppIcon name="tugapower.codeaurora.browser/tugapower.codeaurora.browser.Main" image="tuga_browser"/>
+        <AppIcon name="tunein.player/tunein.ui.actvities.TuneInHomeActivity" image="tune__in"/>
+        <AppIcon name="tv.periscope.android/tv.periscope.android.LaunchActivity" image="periscope" />
+        <AppIcon name="tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity" image="twitch"/>
+        <AppIcon name="tv.twitch.android.app/tv.twitch.android.apps.LandingActivity" image="twitch"/>
+        <AppIcon name="uk.amazon.mShop.android/com.amazon.mShop.home.HomeActivity" image="amazon" />
+        <AppIcon name="uk.co.bbc.android.sportdomestic/uk.co.bbc.android.sport.MainActivity" image="___bbc_sport"/>
+        <AppIcon name="uk.co.santander.santanderUK/uk.co.santander.mobile.activities.SplashActivity" image="bank" />
+        <AppIcon name="website.leifs.alted/com.afollestad.polar.ui.MainActivity" image="alted" />
+        <AppIcon name="website.leifs.alted/com.afollestad.polar.ui.SplashScreen" image="alted" />
+        <AppIcon name="wp.wattpad/wp.wattpad.ui.activities.LoginActivity" image="wattpad" />
+        <AppIcon name="xyz.klinker.messenger/xyz.klinker.messenger.activity.MessengerActivity" image="klinker_messenger"/>
+        <AppIcon name="ya.visualis/ya.visualis.activities.MainActivity" image="visualis"/>
+        <AppIcon name="yarolegovich.materialterminal/yarolegovich.materialterminal.Term" image="material_terminal"/>
+
+
+</Theme>

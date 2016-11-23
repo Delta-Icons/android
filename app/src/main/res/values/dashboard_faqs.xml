@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="questions">
+        <item>What is launcher?</item>
+        <item>What is icon pack?</item>
+        <item>How to use icon pack?</item>
+        <item>How to apply icon pack?</item>
+        <item>How to see all icons included?</item>
+        <item>I can\'t see icon name completely</item>
+        <item>How to replace icon with alternate icon?</item>
+        <item>How to request icon?</item>
+        <item>How to restore remaining Premium Request after reinstalling icon pack?</item>
+        <item>After restarting my phone, icon pack not applied, it restore to default?</item>
+        <item>Why icons looks jaggy or pixelated on my phone?</item>
+        <item>I can see the icon inside all icons included,
+            but why the actual icon on app drawer still not changed?</item>
+        <item>What is report bugs?</item>
+        <item>My launcher listed on google play description, but why it\'s not included in apply section?</item>
+        <item>Wallpaper can\'t be applied, just showing black screen?</item>
+        <item>Muzei: How to load downloaded wallpaper only?</item>
+        <item>Muzei: I don\'t want to keep downloading wallpaper each time wallpaper change?</item>
+        <item>Muzei: I only want to use several wallpaper?</item>
+        <item>Why WRITE_EXTERNAL_STORAGE &amp; READ_EXTERNAL_STORAGE permission needed?</item>
+        <item>Why INTERNET permission needed?</item>
+        <item>Why ACCESS_NETWORK_STATE permission needed?</item>
+        <item>Why ACCESS_WIFI_STATE permission needed?</item>
+        <item>Why SET_WALLPAPER permission needed?</item>
+        <item>Why SET_WALLPAPER_HINTS permission needed?</item>
+        <item>Why WAKE_LOCK Permission needed?</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>Launcher is part of the Android user interface that lets users customize the home screen,
+            launch mobile apps, make phone calls, and perform other tasks on Android devices.</item>
+        <item>A set of graphics that will change the look of your app drawer icons.</item>
+        <item>You will need a launcher that support Icon Pack.
+            You can see on Google Play Store description for supported launcher.
+            If you confused which launcher should be used, just go to \"Apply\" section, then install from there.</item>
+        <item>You can open navigation drawer (slide from left corner to right) then open \"Apply\".
+            Choose which launcher that you used.
+            If your launcher not listed there but this icon pack compatible with that
+            (see on Google Play Store description for supported launcher),
+            you can apply it manually from launcher settings.</item>
+        <item>You can open navigation drawer (slide from left corner to right) then open \"Icons\".</item>
+        <item>Just tap on icon, preview dialog will appear shown bigger image and icon name completely.</item>
+       	<item>It depends what launcher did you used. Not every launcher support icon editing.
+       	    Mostly you can edit icon by tap &amp; hold icon or double tap icon.</item>
+        <item>You can open navigation drawer (slide from left corner to right) then open \"Icon Request\".</item>
+        <item>Open Settings, choose \"Restore Purchases\". If you have remaining Premium Request before reinstalling, it will restored.</item>
+        <item>It happened because this icon pack moved to SD Card, you should install this in internal memory.</item>
+       	<item>The problem might comes from launcher that you used when handling big resolution.
+       	    You can fix it by increasing icon size to 115 - 120%.
+       	    Or try to change your launcher.</item>
+       	<item>Press options menu (on top right corner or use hardware button on your phone),
+       	    then choose \"Report Bugs\".</item>
+        <item>\"Report Bugs\" used to report bugs related to icon pack not the dashboard.</item>
+      	<item>Not every launcher support direct apply, and some of them can\'t be accessed directly from this dashboard app.
+      	    You can apply this icon pack manually from launcher settings.</item>
+      	<item>When you \"Set Wallpaper\" directly from dashboard app, wallpaper will be downloaded as a cache,
+      	    then dashboard app will trying to apply it. Applying process will takes some time and also need huge amount of RAM.
+      	    \"Black Screen\" result might happened because your phone doesn\'t have enough free RAM to process the wallpaper.
+      	    Restarting your phone will fix this problem. After restarted, your phone will get more free RAM.
+            Alternatively, you can open downloaded wallpaper from your Gallery and set as wallpaper from there.</item>
+        <item>Open muzei, choose this icon pack, settings. You will see an option to load downloaded wallpaper only.
+            You need to download wallpaper from Dashboard first.</item>
+        <item>If wallpaper already downloaded, wallpaper will loaded from your phone memory automatically.
+            Muzei won\'t keep downloading it when wallpaper change. You need to download wallpaper from Dashboard first.</item>
+        <item>Open Dashboard, download wallpaper that you want to use for Muzei.
+            Open Muzei settings, then choose Load Downloaded Wallpaper Only.</item>
+        <item>It used to write &amp; read cache, and icon request data.</item>
+        <item>It used to load Cloud Based Wallpaper &amp; download it.</item>
+        <item>It used to check if your phone has internet connection or not.</item>
+        <item>It used to check if your phone has internet connection from wifi or not, to load cloud wallpapers from Muzei.</item>
+        <item>It used to apply wallpaper directly from dashboard app.</item>
+        <item>It used to adjust wallpaper based on your screen resolution.</item>
+        <item>It used by Muzei Live Wallpaper</item>
+    </string-array>
+
+</resources>

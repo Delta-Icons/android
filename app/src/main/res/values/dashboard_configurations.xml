@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- ======================================================================================= -->
+    <!-- ============================== DASHBOARD CONFIGURATIONS =============================== -->
+    <!-- ======================================================================================= -->
+
+    <!-- CONFIG: DEFAULT THEME -->
+
+    <!-- Use dark theme as default theme -->
+    <bool name="use_dark_theme">true</bool>
+
+    <!-- CONFIG: MUZEI -->
+
+    <!-- Muzei art source name -->
+    <string name="muzei_art_source_name">Delta</string>
+
+    <!-- Muzei art source description -->
+    <string name="muzei_art_source_desc">Wallpapers of Delta</string>
+
+    <!-- Muzei base color -->
+    <color name="muzei_color">#ff837d</color>
+
+    <!-- CONFIG: SPLASH SCREEN -->
+
+    <!-- Show splash screen when the app opened
+    * default: true
+    * change to false to disable it -->
+    <bool name="use_splash_screen">true</bool>
+
+    <!-- Splash screen duration in milliseconds
+    * default: 1500 milliseconds -> 1.5 seconds -->
+    <integer name="splash_screen_duration">1500</integer>
+
+    <!-- CONFIG: HOME -->
+    
+    <!-- Quick Apply for default launcher
+    * Enable or disable quick apply Icon Pack for default launcher if supported
+    * Enable -> true
+    * Disable -> false -->
+    <bool name="enable_quick_apply">true</bool>
+
+    <!-- Text on home image
+    * Leave empty if you don't want to show any text -->
+    <string name="home_title">Delta</string>
+
+    <!-- Text below home title
+    * Leave empty if you don't want to show any text -->
+    <string name="home_subtitle"></string>
+
+    <!-- Home image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension (ex: home_image.png -> home_image) -->
+    <string name="home_image">home_image</string>
+
+    <!-- Home image height
+    * default: 256dp -->
+   <dimen name="home_image_height">320dp</dimen>
+
+    <!-- Home description
+    - If you don't want to show description, just leave this empty -->
+    <string name="home_description">
+        Hello there. I\'m Leif, the creator of this icon pack. Since it is free and
+        people stopped donating, i had to give up the free requests. I\'m sorry about
+        this, but 150 requests a day aren\'t easily handled. So <b>please</b> be patient with
+        the one request per update there is.
+    </string>
+
+    <!-- Icon Pack features (will be visible in home)
+    * Number 1 - 5 must be included, after that only optional -->
+    <string-array name="home_features">
+        <!-- 1. This part must be about number of icons included -->
+        <item>More than 1000 custom icons included</item>
+        <!-- 2. This part must be about icon quality -->
+        <item>192x192 pixels vector based icon</item>
+        <!-- 3. This part must be about number of wallpapers included
+        * If your icon pack doesn't contains wallpaper just ignore this -->
+        <item>100+ cloud wallpapers</item>
+        <!-- 4. This part must be about muzei live wallpaper
+        * If your icon pack doesn't contains wallpaper just ignore this -->
+        <item>Support muzei live wallpaper</item>
+        <!-- 5. This part must be about number of launchers supported -->
+        <item>Support more than 18 custom launchers</item>
+    </string-array>
+
+    <!-- More apps at Google Play Store
+    * Link to google play store developer
+    * If you don't want to show this part, just leave this empty -->
+    <string name="google_play_dev"></string>
+
+    <!-- CONFIG: NAVIGATION VIEW HEADER -->
+
+    <!-- Navigation view header image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension
+    * (ex: navigation_view_header.png -> navigation_view_header) -->
+    <string name="navigation_view_header">home_image</string>
+
+    <!-- Navigation view header height
+    * default: 220dp -->
+    <dimen name="navigation_view_header_height">220dp</dimen>
+
+    <!-- Navigation view header text
+    * Leave empty if you don't want to show any text -->
+    <string name="navigation_view_header_title">Delta</string>
+
+    <!-- CONFIG: ICONS
+    * Take a look inside dashboard_icons.xml -->
+
+    <!-- CONFIG: ICON REQUEST -->
+
+    <!-- Enable or disable regular icon request
+    * default: true
+    * change to false to disable it -->
+    <bool name="enable_icon_request">true</bool>
+
+    <!-- Enable regular icon request limit
+    * default: false
+    * change to true to enable it -->
+    <bool name="enable_icon_request_limit">true</bool>
+
+    <!-- Limit regular icon request
+    * IGNORE if icon request limit is disabled
+    * ex: If you set icon request limit to 10, user only able to make 10 icon request in all time
+    * After making 10 icon request user not able to request again -->
+    <integer name="icon_request_limit">1</integer>
+
+    <!-- Reset regular icon request limit every update
+    * IGNORE if icon request limit is disabled
+    * ex: You want to make user only able to make 10 request, set icon request limit (above) to 10
+    * but you also want user able to make 10 request again after update, then enable this option
+    * default: false
+    * change to true to enable it -->
+    <bool name="reset_icon_request_limit">true</bool>
+
+    <!-- Enable or disable premium request
+    * default: false
+    * change to true to enable it -->
+    <bool name="enable_premium_request">true</bool>
+
+    <!-- Take a look inside License.java for premium request product -->
+
+    <!-- Email that will be used to send icon request and report bugs -->
+    <string name="dev_email">iballleif@live.de</string>
+
+    <!-- CONFIG: CLOUD WALLPAPERS -->
+
+    <!-- WallpaperJSON json link
+    * If your icon pack doesn't contains any wallpaper, just leave this empty
+    * <string name="wallpaper_json"></string>-->
+    <string name="wallpaper_json">https://raw.githubusercontent.com/leifniem/Delta-Icons/master/walls.json</string>
+
+    <!-- Auto update wallpaper library
+    * default: 7
+    * every 7 days wallpaper library will be refreshed automatically -->
+    <integer name="wallpaper_update_every_days">7</integer>
+
+    <!-- Auto generated color for wallpaper card
+    * default: true
+    * change to false to disable it -->
+    <bool name="card_wallpaper_auto_generated_color">true</bool>
+
+    <!-- Wallpaper name and author below wallpaper
+     * Show or hide name and author below wallpaper
+     * Show -> true
+     * Hide -> false -->
+    <bool name="wallpaper_show_name_author">true</bool>
+
+    <!-- CONFIG: ABOUT -->
+
+    <!-- About header image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension (ex: about_image.png -> about_image) -->
+    <string name="about_image">home_image</string>
+
+    <!-- About profile image
+    * If you want to use image from url, just put the url here
+    * If you want to use image stored in project (drawable folder)
+    * just put image name here without the extension (ex: about_profile_image.png -> about_profile_image) -->
+    <string name="about_profile_image">ic_app_default</string>
+
+    <!-- About title above description -->
+    <string name="about_title">Leif Niemczik</string>
+
+    <!-- About description below title -->
+    <string name="about_desc">Frontend-Dev and Designer from Germany, currently studying computer science &amp; media and doing side projects like this in my free time.</string>
+
+    <!-- Email that showed in about
+    * This part must be email
+    * If you don't want to show email in about, just set about_email to empty
+    * ex: <string name="about_email"></string> -->
+    <string name="about_email_title">Email</string>
+    <string name="about_email">iballleif@live.de</string>
+
+    <!-- Link 1 showed in about
+    * Link 1 must be included, link 2 is optional
+    * You can change this to another link, like facebook, twitter etc
+    * ex:
+    * <string name="about_link_1_title">Facebook</string>
+    * <string name="about_link_1_url">http://facebook.com/yourlink</string> -->
+    <string name="about_link_1_title">Google+</string>
+    <string name="about_link_1_url">http://plus.google.com/xxxx</string>
+
+    <!-- Link 2 showed in about
+    * Link 2 is optional, if you don't want to show link 2, just set about_link_2_url to empty
+    * ex: <string name="about_link_2_url"></string>
+    * You can change this to another link, like facebook, twitter etc
+    * ex:
+    * <string name="about_link_2_title">Facebook</string>
+    * <string name="about_link_2_url">http://facebook.com/yourlink</string> -->
+    <string name="about_link_2_title">Website</string>
+    <string name="about_link_2_url">http://leifs.website</string>
+
+    <!-- CONFIG: DONATE -->
+
+    <!-- DONATION
+    * Show support development option in navigation view
+    * default: true
+    * change to false to disable it -->
+    <bool name="enable_donation">true</bool>
+
+    <!-- Take a look inside License.java for donation product -->
+
+</resources>

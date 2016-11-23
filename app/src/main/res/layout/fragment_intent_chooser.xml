@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/intent_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/request_email_client"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:padding="16dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_alignParentTop="true"
+        fontPath="fonts/Font-Regular.ttf"/>
+
+    <TextView
+        android:id="@+id/intent_noapp"
+        android:layout_below="@+id/intent_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/no_email_app"
+        android:padding="16dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:visibility="gone"
+        fontPath="fonts/Font-Medium.ttf"/>
+
+    <ListView
+        android:id="@+id/intent_list"
+        android:layout_below="@+id/intent_text"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:dividerHeight="0dp"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"/>
+
+</RelativeLayout>

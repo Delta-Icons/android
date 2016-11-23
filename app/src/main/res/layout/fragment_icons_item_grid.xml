@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:mrl_rippleAlpha="0.15"
+    app:mrl_rippleColor="?attr/card_ripple"
+    app:mrl_rippleDelayClick="true"
+    app:mrl_rippleOverlay="true"
+    app:mrl_rippleDuration="500"
+    app:mrl_rippleDimension="4dp" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/content_margin"
+        android:paddingBottom="@dimen/content_margin"
+        android:background="@drawable/item_grid">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/icon_thumb_size"
+            android:layout_height="@dimen/icon_thumb_size" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="Small Text"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingStart="@dimen/card_padding"
+            android:paddingRight="@dimen/card_padding"
+            android:paddingEnd="@dimen/card_padding"
+            android:paddingTop="@dimen/card_padding"
+            android:textColor="?android:attr/textColorSecondary"
+            fontPath="fonts/Font-Regular.ttf"/>
+
+    </LinearLayout>
+
+</com.balysv.materialripple.MaterialRippleLayout>
