@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="?attr/card_background"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/card_corner_radius">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleAlpha="0.15"
+        app:mrl_rippleColor="?attr/card_ripple"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleDuration="500"
+        app:mrl_rippleDimension="4dp" >
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/card_padding"
+            android:orientation="vertical">
+
+            <com.dm.material.dashboard.candybar.utils.views.SquareImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="15sp"
+                android:layout_marginLeft="@dimen/card_padding"
+                android:layout_marginStart="@dimen/card_padding"
+                android:layout_marginRight="@dimen/card_padding"
+                android:layout_marginEnd="@dimen/card_padding"
+                android:layout_marginTop="@dimen/card_padding"
+                android:singleLine="true"
+                android:ellipsize="end"
+                fontPath="fonts/Font-Regular.ttf"/>
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="author"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="15sp"
+                android:layout_marginLeft="@dimen/card_padding"
+                android:layout_marginStart="@dimen/card_padding"
+                android:layout_marginRight="@dimen/card_padding"
+                android:layout_marginEnd="@dimen/card_padding"
+                android:singleLine="true"
+                android:ellipsize="end"
+                fontPath="fonts/Font-Regular.ttf"/>
+
+        </LinearLayout>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</android.support.v7.widget.CardView>
