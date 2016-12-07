@@ -69,6 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:baselineAligned="false"
                 android:paddingLeft="@dimen/about_content_padding"
                 android:paddingStart="@dimen/about_content_padding"
                 android:paddingRight="@dimen/about_content_padding"
@@ -76,127 +77,111 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp">
 
-                <android.support.v7.widget.CardView
-                    android:id="@+id/card_email"
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/container_email"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardElevation="0dp"
-                    app:cardCornerRadius="@dimen/card_corner_radius"
-                    app:cardUseCompatPadding="false">
+                    app:mrl_rippleRoundedCorners="2dp"
+                    app:mrl_rippleAlpha="0.2"
+                    app:mrl_rippleColor="?attr/ripple_accent"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleDuration="500"
+                    app:mrl_rippleDimension="4dp" >
 
-                    <com.balysv.materialripple.MaterialRippleLayout
+                    <TextView
+                        android:id="@+id/email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:mrl_rippleRoundedCorners="2dp"
-                        app:mrl_rippleAlpha="0.2"
-                        app:mrl_rippleColor="?attr/ripple_accent"
-                        app:mrl_rippleDelayClick="true"
-                        app:mrl_rippleOverlay="true"
-                        app:mrl_rippleDuration="500"
-                        app:mrl_rippleDimension="4dp" >
+                        android:textAllCaps="true"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:text="@string/about_email_title"
+                        android:textSize="14sp"
+                        android:textColor="?attr/colorAccent"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        fontPath="fonts/Font-Medium.ttf"/>
 
-                        <TextView
-                            android:id="@+id/email"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textAllCaps="true"
-                            android:padding="10dp"
-                            android:gravity="center"
-                            android:text="@string/about_email_title"
-                            android:textSize="14sp"
-                            android:textColor="?attr/colorAccent"
-                            android:singleLine="true"
-                            android:ellipsize="end"
-                            fontPath="fonts/Font-Medium.ttf"/>
+                </com.balysv.materialripple.MaterialRippleLayout>
 
-                    </com.balysv.materialripple.MaterialRippleLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:id="@+id/card_link1"
+                <com.balysv.materialripple.MaterialRippleLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardElevation="0dp"
-                    app:cardCornerRadius="@dimen/card_corner_radius"
-                    app:cardUseCompatPadding="false">
+                    app:mrl_rippleRoundedCorners="2dp"
+                    app:mrl_rippleAlpha="0.2"
+                    app:mrl_rippleColor="?attr/ripple_accent"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleDuration="500"
+                    app:mrl_rippleDimension="4dp" >
 
-                    <com.balysv.materialripple.MaterialRippleLayout
+                    <TextView
+                        android:id="@+id/link1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:mrl_rippleRoundedCorners="2dp"
-                        app:mrl_rippleAlpha="0.2"
-                        app:mrl_rippleColor="?attr/ripple_accent"
-                        app:mrl_rippleDelayClick="true"
-                        app:mrl_rippleOverlay="true"
-                        app:mrl_rippleDuration="500"
-                        app:mrl_rippleDimension="4dp" >
+                        android:textAllCaps="true"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:text="@string/about_link_1_title"
+                        android:textSize="14sp"
+                        android:textColor="?attr/colorAccent"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        fontPath="fonts/Font-Medium.ttf"/>
 
-                        <TextView
-                            android:id="@+id/link1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textAllCaps="true"
-                            android:padding="10dp"
-                            android:gravity="center"
-                            android:text="@string/about_link_1_title"
-                            android:textSize="14sp"
-                            android:textColor="?attr/colorAccent"
-                            android:singleLine="true"
-                            android:ellipsize="end"
-                            fontPath="fonts/Font-Medium.ttf"/>
+                </com.balysv.materialripple.MaterialRippleLayout>
 
-                    </com.balysv.materialripple.MaterialRippleLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:id="@+id/card_link2"
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/container_link2"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardElevation="0dp"
-                    app:cardCornerRadius="@dimen/card_corner_radius"
-                    app:cardUseCompatPadding="false">
+                    app:mrl_rippleRoundedCorners="2dp"
+                    app:mrl_rippleAlpha="0.2"
+                    app:mrl_rippleColor="?attr/ripple_accent"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleDuration="500"
+                    app:mrl_rippleDimension="4dp" >
 
-                    <com.balysv.materialripple.MaterialRippleLayout
+                    <TextView
+                        android:id="@+id/link2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:mrl_rippleRoundedCorners="2dp"
-                        app:mrl_rippleAlpha="0.2"
-                        app:mrl_rippleColor="?attr/ripple_accent"
-                        app:mrl_rippleDelayClick="true"
-                        app:mrl_rippleOverlay="true"
-                        app:mrl_rippleDuration="500"
-                        app:mrl_rippleDimension="4dp" >
+                        android:textAllCaps="true"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:text="@string/about_link_2_title"
+                        android:textSize="14sp"
+                        android:textColor="?attr/colorAccent"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        fontPath="fonts/Font-Medium.ttf"/>
 
-                        <TextView
-                            android:id="@+id/link2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textAllCaps="true"
-                            android:padding="10dp"
-                            android:gravity="center"
-                            android:text="@string/about_link_2_title"
-                            android:textSize="14sp"
-                            android:textColor="?attr/colorAccent"
-                            android:singleLine="true"
-                            android:ellipsize="end"
-                            fontPath="fonts/Font-Medium.ttf"/>
-
-                    </com.balysv.materialripple.MaterialRippleLayout>
-
-                </android.support.v7.widget.CardView>
+                </com.balysv.materialripple.MaterialRippleLayout>
 
             </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/divider_list"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/about_content_padding"
+                android:layout_marginStart="@dimen/about_content_padding"
+                android:layout_marginRight="@dimen/about_content_padding"
+                android:layout_marginEnd="@dimen/about_content_padding"
+                android:layout_marginTop="@dimen/about_content_padding"
+                android:text="@string/about_support"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="14sp"
+                fontPath="fonts/Font-Regular.ttf"/>
 
             <View
                 android:layout_width="match_parent"
@@ -220,6 +205,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:baselineAligned="false"
                 android:paddingLeft="@dimen/about_content_padding"
                 android:paddingStart="@dimen/about_content_padding"
                 android:paddingRight="@dimen/about_content_padding"
@@ -227,85 +213,61 @@
                 android:paddingTop="12dp"
                 android:paddingBottom="@dimen/about_content_padding">
 
-                <android.support.v7.widget.CardView
-                    android:id="@+id/card_dev_link1"
+                <com.balysv.materialripple.MaterialRippleLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardElevation="0dp"
-                    app:cardCornerRadius="@dimen/card_corner_radius"
-                    app:cardUseCompatPadding="false">
+                    app:mrl_rippleRoundedCorners="2dp"
+                    app:mrl_rippleAlpha="0.2"
+                    app:mrl_rippleColor="?attr/ripple_accent"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleDuration="500"
+                    app:mrl_rippleDimension="4dp" >
 
-                    <com.balysv.materialripple.MaterialRippleLayout
+                    <TextView
+                        android:id="@+id/dev_link1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:mrl_rippleRoundedCorners="2dp"
-                        app:mrl_rippleAlpha="0.2"
-                        app:mrl_rippleColor="?attr/ripple_accent"
-                        app:mrl_rippleDelayClick="true"
-                        app:mrl_rippleOverlay="true"
-                        app:mrl_rippleDuration="500"
-                        app:mrl_rippleDimension="4dp" >
+                        android:textAllCaps="true"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:text="@string/about_dashboard_dev_github_title"
+                        android:textSize="14sp"
+                        android:textColor="?attr/colorAccent"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        fontPath="fonts/Font-Medium.ttf"/>
 
-                        <TextView
-                            android:id="@+id/dev_link1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textAllCaps="true"
-                            android:padding="10dp"
-                            android:gravity="center"
-                            android:text="@string/about_dashboard_dev_github_title"
-                            android:textSize="14sp"
-                            android:textColor="?attr/colorAccent"
-                            android:singleLine="true"
-                            android:ellipsize="end"
-                            fontPath="fonts/Font-Medium.ttf"/>
+                </com.balysv.materialripple.MaterialRippleLayout>
 
-                    </com.balysv.materialripple.MaterialRippleLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:id="@+id/card_dev_link2"
+                <com.balysv.materialripple.MaterialRippleLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardElevation="0dp"
-                    app:cardCornerRadius="@dimen/card_corner_radius"
-                    app:cardUseCompatPadding="false">
+                    app:mrl_rippleRoundedCorners="2dp"
+                    app:mrl_rippleAlpha="0.2"
+                    app:mrl_rippleColor="?attr/ripple_accent"
+                    app:mrl_rippleDelayClick="true"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleDuration="500"
+                    app:mrl_rippleDimension="4dp" >
 
-                    <com.balysv.materialripple.MaterialRippleLayout
+                    <TextView
+                        android:id="@+id/dev_link2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:mrl_rippleRoundedCorners="2dp"
-                        app:mrl_rippleAlpha="0.2"
-                        app:mrl_rippleColor="?attr/ripple_accent"
-                        app:mrl_rippleDelayClick="true"
-                        app:mrl_rippleOverlay="true"
-                        app:mrl_rippleDuration="500"
-                        app:mrl_rippleDimension="4dp" >
+                        android:textAllCaps="true"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:text="@string/about_link_1_title"
+                        android:textSize="14sp"
+                        android:textColor="?attr/colorAccent"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        fontPath="fonts/Font-Medium.ttf"/>
 
-                        <TextView
-                            android:id="@+id/dev_link2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textAllCaps="true"
-                            android:padding="10dp"
-                            android:gravity="center"
-                            android:text="@string/about_link_1_title"
-                            android:textSize="14sp"
-                            android:textColor="?attr/colorAccent"
-                            android:singleLine="true"
-                            android:ellipsize="end"
-                            fontPath="fonts/Font-Medium.ttf"/>
-
-                    </com.balysv.materialripple.MaterialRippleLayout>
-
-                </android.support.v7.widget.CardView>
+                </com.balysv.materialripple.MaterialRippleLayout>
 
             </LinearLayout>
 

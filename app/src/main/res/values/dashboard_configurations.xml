@@ -69,6 +69,11 @@
         the one request per update there is.
     </string>
 
+    <string name="about_support">
+        Also special thanks to:
+        Arabi Ishaque and Krishna AR for helping me whenever is ask for it and of coure Dani for his great work on this marvelous Dashboard.
+    </string>
+
     <!-- Icon Pack features (will be visible in home)
     * Number 1 - 5 must be included, after that only optional -->
     <string-array name="home_features">
@@ -98,7 +103,7 @@
     * If you want to use image stored in project (drawable folder)
     * just put image name here without the extension
     * (ex: navigation_view_header.png -> navigation_view_header) -->
-    <string name="navigation_view_header">home_image</string>
+    <string name="navigation_view_header">ic_splash_screen</string>
 
     <!-- Navigation view header height
     * default: 220dp -->
