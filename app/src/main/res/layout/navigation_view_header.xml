@@ -10,7 +10,8 @@
         android:id="@+id/header_image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/navigation_view_header_height"
-        android:scaleType="centerCrop"/>
+        android:scaleType="fitCenter"
+        android:padding="40dp"/>
 
     <LinearLayout
         android:id="@+id/header_title_container"
