@@ -19,13 +19,13 @@
         app:elevation="0dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleTextAppearance="@android:color/transparent"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
-            android:elevation="0dp">
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
 
             <RelativeLayout
                 android:id="@+id/collapsing_container"
@@ -34,7 +34,7 @@
                 android:fitsSystemWindows="true"
                 android:background="?attr/colorPrimary"
                 app:layout_collapseMode="parallax"
-                app:layout_collapseParallaxMultiplier="0.3">
+                app:layout_collapseParallaxMultiplier="0.5">
 
                 <ImageView
                     android:id="@+id/home_image"
@@ -49,8 +49,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_alignParentBottom="true"
-                    android:paddingBottom="80dp"
-                    android:paddingTop="80dp">
+                    android:paddingBottom="65dp">
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -58,14 +57,15 @@
                         android:id="@+id/imageView"
                         android:layout_height="120dp" />
 
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/home_title"
                         android:textSize="22sp"
-                        android:gravity="center"
                         android:visibility="gone"
-                        android:textColor="?attr/toolbar_icon"
+                        android:gravity="center"
+                        android:textColor="?attr/home_title"
                         android:paddingLeft="@dimen/home_content_padding"
                         android:paddingStart="@dimen/home_content_padding"
                         android:paddingRight="@dimen/home_content_padding"
@@ -77,15 +77,13 @@
                         android:layout_height="wrap_content"
                         android:text="@string/home_subtitle"
                         android:textSize="16sp"
-                        android:visibility="gone"
                         android:gravity="center"
-                        android:textColor="?attr/toolbar_icon"
-                        android:shadowColor="#66000000"
+                        android:textColor="?attr/home_title"
                         android:paddingLeft="@dimen/home_content_padding"
                         android:paddingStart="@dimen/home_content_padding"
                         android:paddingRight="@dimen/home_content_padding"
                         android:paddingEnd="@dimen/home_content_padding"
-                        fontPath="fonts/Font-Light.ttf"/>
+                        fontPath="fonts/Font-Regular.ttf"/>
 
                 </LinearLayout>
 
@@ -96,9 +94,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:minHeight="?attr/actionBarSize"
-                android:theme="@style/ToolbarStyle"
-                app:layout_collapseMode="pin"
-                android:elevation="0dp">
+                app:theme="@style/ToolbarStyle"
+                app:layout_collapseMode="pin">
 
                 <TextView
                     android:id="@+id/toolbar_title"
@@ -123,7 +120,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        app:behavior_overlapTop="54dp" />
+        app:behavior_overlapTop="54dp"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -132,9 +129,8 @@
         android:layout_gravity="bottom|end"
         android:layout_marginRight="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="-200dp"
-        app:layout_behavior="com.dm.material.dashboard.candybar.utils.behaviours.FABScrollAwareBehavior"
-        app:elevation="0dp"
-        app:borderWidth="0dp" />
+        android:layout_marginBottom="-220dp"
+        app:backgroundTint="?attr/colorAccent"
+        app:layout_behavior="com.dm.material.dashboard.candybar.utils.behaviours.FABScrollAwareBehavior" />
 
 </android.support.design.widget.CoordinatorLayout>
