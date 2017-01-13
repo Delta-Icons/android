@@ -20,9 +20,8 @@
             android:id="@+id/question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Question?"
             android:textColor="?android:attr/textColorPrimary"
-            android:textSize="16sp"
+            android:textSize="@dimen/text_content_title"
             android:padding="@dimen/card_padding"
             fontPath="fonts/Font-Medium.ttf"/>
 
@@ -35,9 +34,8 @@
             android:id="@+id/answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Answer"
             android:textColor="?android:attr/textColorSecondary"
-            android:textSize="14sp"
+            android:textSize="@dimen/text_content"
             android:padding="@dimen/card_padding"
             fontPath="fonts/Font-Regular.ttf"/>
 

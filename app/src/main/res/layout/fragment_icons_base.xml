@@ -9,15 +9,15 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        android:visibility="invisible"
         app:tabIndicatorColor="?attr/tab_indicator"
         app:tabTextAppearance="@style/TabsTextStyle"
         app:tabSelectedTextColor="?attr/tab_text_selected"
         app:tabTextColor="?attr/tab_text"
-        app:tabIndicatorHeight="4dp"
+        app:tabIndicatorHeight="3dp"
         app:tabPaddingStart="14dp"
         app:tabPaddingEnd="14dp"
-        app:tabMode="scrollable"
-        android:elevation="0dp" />
+        app:tabMode="scrollable" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
@@ -31,13 +31,14 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:visibility="gone"
-        style="?android:attr/progressBarStyleLarge"/>
+        style="?android:attr/progressBarStyle"/>
 
     <View
+        android:id="@+id/shadow"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_shadow"
         android:layout_below="@+id/tab"
-        android:background="@drawable/toolbar_shadow"
-        android:visibility="gone" />
+        android:visibility="invisible"
+        android:background="@drawable/toolbar_shadow" />
 
 </RelativeLayout>

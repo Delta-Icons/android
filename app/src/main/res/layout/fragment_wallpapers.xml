@@ -1,47 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
-    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v4.widget.SwipeRefreshLayout
-        android:id="@+id/swipe"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/wallpapers_grid"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="@dimen/content_padding"
-            android:clipToPadding="false"/>
-
-    </android.support.v4.widget.SwipeRefreshLayout>
-
-    <com.pluscubed.recyclerfastscroll.RecyclerFastScroller
-        android:id="@+id/fastscroll"
-        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="end"
-        app:rfs_barColor="?android:attr/textColorSecondary"
-        app:rfs_handleNormalColor="?android:attr/textColorSecondary"
-        app:rfs_handlePressedColor="?attr/colorAccent"/>
+        android:orientation="vertical">
 
-    <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        <LinearLayout
+            android:id="@+id/wallpaper_tips_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/card_padding"
+            android:gravity="top"
+            android:background="?attr/colorPrimary"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                app:srcCompat="@drawable/ic_toolbar_alert"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/card_padding"
+                android:paddingStart="@dimen/card_padding"
+                android:paddingEnd="@dimen/fab_size_mini"
+                android:paddingRight="@dimen/fab_size_mini"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tips"
+                    android:textColor="?attr/toolbar_icon"
+                    android:textSize="@dimen/text_content_title"
+                    fontPath="fonts/Font-Medium.ttf"/>
+
+                <org.sufficientlysecure.htmltextview.HtmlTextView
+                    android:id="@+id/wallpaper_tips_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_content"
+                    fontPath="fonts/Font-Regular.ttf"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/wallpapers_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/content_padding"
+                    android:clipToPadding="false"/>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+            <com.pluscubed.recyclerfastscroll.RecyclerFastScroller
+                android:id="@+id/fastscroll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                app:rfs_barColor="?android:attr/textColorSecondary"
+                app:rfs_handleNormalColor="?android:attr/textColorSecondary"
+                app:rfs_handlePressedColor="?attr/colorAccent"/>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                style="?android:attr/progressBarStyle"/>
+
+            <com.rafakob.drawme.DrawMeButton
+                android:id="@+id/popup_bubble"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_margin="@dimen/content_margin"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="2dp"
+                android:text="@string/wallpaper_new_added"
+                android:textSize="@dimen/text_content"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                app:dm_backColor="@color/popupBubble"
+                app:dm_textColor="@color/popupBubbleText"
+                app:dm_shapeRadiusHalfHeight="true"
+                fontPath="fonts/Font-Medium.ttf"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_shadow"
+                android:background="@drawable/toolbar_shadow" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/wallpaper_tips_fab"
+        android:layout_width="@dimen/fab_size_mini"
+        android:layout_height="@dimen/fab_size_mini"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
         android:visibility="gone"
-        style="?android:attr/progressBarStyleLarge"/>
+        app:layout_anchor="@+id/wallpaper_tips_bar"
+        app:layout_anchorGravity="bottom|right|end"
+        app:backgroundTint="?attr/colorAccent"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:visibility="gone"
-        android:layout_height="@dimen/toolbar_shadow"
-        android:background="@drawable/toolbar_shadow" />
-
-</FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

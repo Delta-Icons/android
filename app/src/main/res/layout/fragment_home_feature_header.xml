@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_features_header"
+        android:textSize="@dimen/text_content_title"
+        android:textColor="?android:attr/textColorPrimary"
+        android:paddingLeft="@dimen/card_padding"
+        android:paddingStart="@dimen/card_padding"
+        android:paddingRight="@dimen/card_padding"
+        android:paddingEnd="@dimen/card_padding"
+        android:layout_marginBottom="@dimen/card_padding"
+        fontPath="fonts/Font-Bold.ttf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/divider_list" />
+
+</LinearLayout>

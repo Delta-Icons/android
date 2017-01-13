@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="?attr/card_ripple"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleDuration="500"
+        app:mrl_rippleDimension="4dp" >
+
+        <LinearLayout
+            android:id="@+id/apply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dialog_content_padding"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/apply_icon"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wallpaper_apply"
+                    android:textSize="@dimen/text_content_title"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/content_margin"
+                    android:layout_marginStart="@dimen/content_margin"
+                    android:textColor="?android:attr/textColorPrimary"
+                    fontPath="fonts/Font-Medium.ttf"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wallpaper_apply_scroll"
+                    android:textSize="@dimen/text_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/content_margin"
+                    android:layout_marginStart="@dimen/content_margin"
+                    android:textColor="?android:attr/textColorSecondary"
+                    fontPath="fonts/Font-Regular.ttf"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="?attr/card_ripple"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleDuration="500"
+        app:mrl_rippleDimension="4dp" >
+
+        <LinearLayout
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/save_icon"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_save"
+                android:textSize="@dimen/text_content_title"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/content_margin"
+                android:layout_marginStart="@dimen/content_margin"
+                android:textColor="?android:attr/textColorPrimary"
+                fontPath="fonts/Font-Medium.ttf"/>
+
+        </LinearLayout>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</LinearLayout>
