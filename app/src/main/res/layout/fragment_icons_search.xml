@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/faqs_list"
+    <com.dm.material.dashboard.candybar.utils.views.AutoFitRecyclerView
+        android:id="@+id/icons_grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/content_padding"
-        android:clipToPadding="false"/>
+        android:clipToPadding="false"
+        android:columnWidth="@dimen/icon_picker_column_width"/>
 
     <com.pluscubed.recyclerfastscroll.RecyclerFastScroller
         android:id="@+id/fastscroll"
@@ -29,7 +29,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_margin="16dp"
-        android:textSize="@dimen/text_content_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/search_noresult"
         android:visibility="gone"
         android:textColor="?android:attr/textColorPrimary"

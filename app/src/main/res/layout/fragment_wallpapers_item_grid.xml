@@ -7,10 +7,13 @@
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/card_margin_right"
+    android:layout_marginEnd="@dimen/card_margin_right"
+    android:layout_marginBottom="@dimen/card_margin_bottom"
     app:cardBackgroundColor="?attr/card_background"
     app:cardElevation="0dp"
-    app:cardUseCompatPadding="true"
-    app:cardCornerRadius="@dimen/card_corner_radius">
+    app:cardUseCompatPadding="@bool/card_use_compat_padding"
+    app:cardCornerRadius="0dp">
 
     <com.balysv.materialripple.MaterialRippleLayout
         android:layout_width="match_parent"
@@ -39,9 +42,8 @@
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="name"
                 android:textColor="?android:attr/textColorPrimary"
-                android:textSize="15sp"
+                android:textSize="@dimen/text_content"
                 android:layout_marginLeft="@dimen/card_padding"
                 android:layout_marginStart="@dimen/card_padding"
                 android:layout_marginRight="@dimen/card_padding"
@@ -49,15 +51,14 @@
                 android:layout_marginTop="@dimen/card_padding"
                 android:singleLine="true"
                 android:ellipsize="end"
-                fontPath="fonts/Font-Regular.ttf"/>
+                fontPath="fonts/Font-Medium.ttf"/>
 
             <TextView
                 android:id="@+id/author"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="author"
                 android:textColor="?android:attr/textColorSecondary"
-                android:textSize="15sp"
+                android:textSize="@dimen/text_content"
                 android:layout_marginLeft="@dimen/card_padding"
                 android:layout_marginStart="@dimen/card_padding"
                 android:layout_marginRight="@dimen/card_padding"

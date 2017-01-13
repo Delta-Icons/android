@@ -1,56 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/request_list"
+    <LinearLayout
+        android:id="@+id/premium_request_bar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="@dimen/content_padding"
-        android:paddingStart="@dimen/content_padding"
-        android:paddingRight="@dimen/content_padding"
-        android:paddingEnd="@dimen/content_padding"
-        android:paddingTop="@dimen/content_padding"
-        android:paddingBottom="@dimen/total_fab_margin"
-        android:clipToPadding="false"/>
-
-    <com.pluscubed.recyclerfastscroll.RecyclerFastScroller
-        android:id="@+id/fastscroll"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="end"
-        app:rfs_barColor="?android:attr/textColorSecondary"
-        app:rfs_handleNormalColor="?android:attr/textColorSecondary"
-        app:rfs_handlePressedColor="?attr/colorAccent"/>
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="@dimen/fab_size"
-        android:layout_height="@dimen/fab_size"
-        android:layout_gravity="bottom|end"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="@dimen/fab_margin"
-        android:visibility="gone"
-        app:backgroundTint="?attr/colorAccent" />
-
-    <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:visibility="gone"
-        style="?android:attr/progressBarStyleLarge"/>
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:padding="@dimen/card_padding"
+        android:background="?attr/colorPrimary"
+        android:visibility="invisible">
 
-    <View
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="top"
+            app:srcCompat="@drawable/ic_toolbar_premium_request"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/button_padding"
+            android:paddingStart="@dimen/button_padding"
+            android:paddingRight="@dimen/button_padding"
+            android:paddingEnd="@dimen/button_padding"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/premium_request"
+                android:textColor="?attr/toolbar_icon"
+                android:textSize="@dimen/text_content_title"
+                fontPath="fonts/Font-Medium.ttf"/>
+
+            <TextView
+                android:id="@+id/premium_request_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/premium_request_desc"
+                android:textColor="?attr/toolbar_icon"
+                android:textSize="@dimen/text_content"
+                fontPath="fonts/Font-Regular.ttf"/>
+
+            <TextView
+                android:id="@+id/premium_request_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/premium_request_count"
+                android:textColor="?attr/toolbar_icon"
+                android:textSize="@dimen/text_content"
+                android:visibility="gone"
+                fontPath="fonts/Font-Regular.ttf"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/premium_request_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_padding"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="@string/premium_request_buy"
+            app:theme="@style/ButtonStyle"
+            fontPath="fonts/Font-Bold.ttf"/>
+
+    </LinearLayout>
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:visibility="gone"
-        android:layout_height="@dimen/toolbar_shadow"
-        android:background="@drawable/toolbar_shadow" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/request_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"/>
+
+        <com.pluscubed.recyclerfastscroll.RecyclerFastScroller
+            android:id="@+id/fastscroll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            app:rfs_barColor="?android:attr/textColorSecondary"
+            app:rfs_handleNormalColor="?android:attr/textColorSecondary"
+            app:rfs_handlePressedColor="?attr/colorAccent"/>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyle"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:visibility="gone"
+            app:backgroundTint="?attr/colorAccent" />
+
+        <View
+            android:id="@+id/shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_shadow"
+            android:background="@drawable/toolbar_shadow"
+            android:visibility="invisible"/>
+
+    </FrameLayout>
+
+</LinearLayout>

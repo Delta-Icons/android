@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.sufficientlysecure.htmltextview.HtmlTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:id="@+id/changelog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/changelog_content_padding"
+    android:paddingStart="@dimen/changelog_content_padding"
+    android:paddingRight="@dimen/changelog_content_padding"
+    android:paddingEnd="@dimen/changelog_content_padding"
+    android:paddingBottom="@dimen/button_padding"
+    android:drawablePadding="@dimen/button_padding"
+    android:textColor="?android:attr/textColorSecondary"
+    android:textSize="@dimen/text_content_subtitle"
+    fontPath="fonts/Font-Regular.ttf"/>

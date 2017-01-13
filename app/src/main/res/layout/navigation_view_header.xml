@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/navigation_view_header_height"
         android:scaleType="fitCenter"
-        android:padding="40dp"/>
+        android:padding="40dp" />
 
     <LinearLayout
         android:id="@+id/header_title_container"
@@ -19,16 +19,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="bottom|start"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:background="@color/navigationViewTitleBack"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/header_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/navigationViewTitle"
-            android:textSize="17sp"
+            android:textSize="16sp"
             android:text="@string/navigation_view_header_title"
-            fontPath="fonts/Font-Bold.ttf"/>
+            fontPath="fonts/Font-Medium.ttf"/>
 
         <TextView
             android:id="@+id/header_version"
@@ -36,7 +38,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/navigationViewTitle"
             android:textSize="14sp"
-            fontPath="fonts/Font-Medium.ttf"/>
+            fontPath="fonts/Font-Regular.ttf"/>
 
     </LinearLayout>
 

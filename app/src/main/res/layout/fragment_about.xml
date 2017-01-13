@@ -178,24 +178,6 @@
                 android:layout_marginRight="@dimen/about_content_padding"
                 android:layout_marginEnd="@dimen/about_content_padding"
                 android:layout_marginTop="@dimen/about_content_padding"
-                android:text="@string/about_support"
-                android:textColor="?android:attr/textColorSecondary"
-                android:textSize="14sp"
-                fontPath="fonts/Font-Regular.ttf"/>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="?attr/divider_list"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/about_content_padding"
-                android:layout_marginStart="@dimen/about_content_padding"
-                android:layout_marginRight="@dimen/about_content_padding"
-                android:layout_marginEnd="@dimen/about_content_padding"
-                android:layout_marginTop="@dimen/about_content_padding"
                 android:text="@string/about_dashboard_dev"
                 android:textColor="?android:attr/textColorSecondary"
                 android:textSize="14sp"

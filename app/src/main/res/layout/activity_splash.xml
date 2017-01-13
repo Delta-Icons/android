@@ -10,18 +10,18 @@
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:src="@drawable/ic_splash_screen"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true" />
 
     <TextView
         android:id="@+id/splash_title"
-        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:textSize="14sp"
+        android:textSize="@dimen/text_content"
         android:padding="20dp"
         android:gravity="center"
         android:text="@string/candybar_material_dashboard"
-        fontPath="fonts/Font-Regular.ttf"/>
+        fontPath="fonts/Font-Medium.ttf"
+        android:visibility="gone" />
 
 </RelativeLayout>

@@ -32,22 +32,22 @@
                     android:id="@+id/pref_cache_clear"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:padding="@dimen/content_margin"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/pref_data_cache"
-                        android:textSize="16sp"
+                        android:textSize="@dimen/text_content_title"
                         android:textColor="?android:attr/textColorPrimary"
-                        fontPath="fonts/Font-Bold.ttf"/>
+                        fontPath="fonts/Font-Medium.ttf"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/pref_data_cache_desc"
-                        android:textSize="14sp"
+                        android:textSize="@dimen/text_content"
                         android:layout_marginTop="4dp"
                         android:textColor="?android:attr/textColorSecondary"
                         fontPath="fonts/Font-Regular.ttf"/>
@@ -57,10 +57,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/pref_data_cache_size"
-                        android:textSize="14sp"
+                        android:textSize="@dimen/text_content"
                         android:layout_marginTop="8dp"
-                        android:textColor="?android:attr/textColorSecondary"
-                        fontPath="fonts/Font-Bold.ttf"/>
+                        android:textColor="?attr/colorAccent"
+                        fontPath="fonts/Font-Medium.ttf"/>
 
                 </LinearLayout>
 
@@ -78,13 +78,13 @@
             <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
                 app:mrl_rippleAlpha="0.2"
                 app:mrl_rippleColor="?attr/card_ripple"
                 app:mrl_rippleDelayClick="true"
                 app:mrl_rippleOverlay="true"
                 app:mrl_rippleDuration="500"
-                app:mrl_rippleDimension="4dp" >
+                app:mrl_rippleDimension="4dp"
+                android:visibility="gone">
 
                 <LinearLayout
                     android:id="@+id/pref_dark_theme"
@@ -104,15 +104,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/pref_theme_dark"
-                            android:textSize="16sp"
+                            android:textSize="@dimen/text_content_title"
                             android:textColor="?android:attr/textColorPrimary"
-                            fontPath="fonts/Font-Bold.ttf"/>
+                            fontPath="fonts/Font-Medium.ttf"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/pref_theme_dark_desc"
-                            android:textSize="14sp"
+                            android:textSize="@dimen/text_content"
                             android:layout_marginTop="4dp"
                             android:textColor="?android:attr/textColorSecondary"
                             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -126,7 +126,8 @@
                         android:layout_height="wrap_content"
                         android:clickable="false"
                         android:background="@android:color/transparent"
-                        android:layout_margin="16dp"/>
+                        android:layout_margin="16dp"
+                        app:theme="@style/CheckBoxStyle"/>
 
                 </LinearLayout>
 
@@ -162,15 +163,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/pref_restore_purchases"
-                        android:textSize="16sp"
+                        android:textSize="@dimen/text_content_title"
                         android:textColor="?android:attr/textColorPrimary"
-                        fontPath="fonts/Font-Bold.ttf"/>
+                        fontPath="fonts/Font-Medium.ttf"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/pref_restore_purchases_desc"
-                        android:textSize="14sp"
+                        android:textSize="@dimen/text_content"
                         android:layout_marginTop="4dp"
                         android:textColor="?android:attr/textColorSecondary"
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -200,16 +201,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pref_wallpaper_location"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/text_content_title"
                     android:textColor="?android:attr/textColorPrimary"
-                    fontPath="fonts/Font-Bold.ttf"/>
+                    fontPath="fonts/Font-Medium.ttf"/>
 
                 <TextView
                     android:id="@+id/pref_walls_directory"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pref_wallpaper_location_desc"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/text_content"
                     android:layout_marginTop="4dp"
                     android:textColor="?android:attr/textColorSecondary"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -222,7 +223,6 @@
     </android.support.v4.widget.NestedScrollView>
 
     <View
-        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_shadow"
         android:background="@drawable/toolbar_shadow" />
