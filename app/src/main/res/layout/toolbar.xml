@@ -44,9 +44,9 @@
                 <ImageView
                     android:id="@+id/home_logo"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/home_image_height"
-                    android:scaleType="center"
+                    android:layout_height="match_parent"
                     android:fitsSystemWindows="true"
+                    android:layout_centerInParent="true"
                     app:srcCompat="@drawable/ic_splash_screen" />
 
                 <LinearLayout
