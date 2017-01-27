@@ -14,6 +14,7 @@
         android:layout_height="30dp"
         android:gravity="center"
         android:textSize="@dimen/text_content"
+        android:visibility="gone"
         fontPath="fonts/Font-Medium.ttf"/>
 
 </LinearLayout>

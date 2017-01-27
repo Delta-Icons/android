@@ -58,17 +58,16 @@
 
     <!-- Home image height
     * default: 256dp -->
-   <dimen name="home_image_height">320dp</dimen>
+   <dimen name="home_image_height">380dp</dimen>
 
     <!-- Home description
     - If you don't want to show description, just leave this empty -->
     <string name="home_description">
 
-        <b>ON VACATION, PLEASE STAY PATIENT</b>
+        <b>BRACE YOURSELVES, FINALS ARE COMING</b>
         Hello there. I\'m Leif, the creator of this icon pack. Since it is free and
-        people stopped donating, i had to give up the free requests. I\'m sorry about
-        this, but 150 requests a day aren\'t easily handled. So <b>please</b> be patient with
-        the one request per update there is.
+        people stopped donating, i had to give up the free requests. Also learning
+        for finals which is a time killer, so requests are currently closed. Sorry.
     </string>
 
     <string name="about_support">
@@ -134,7 +133,7 @@
     * IGNORE if icon request limit is disabled
     * ex: If you set icon request limit to 10, user only able to make 10 icon request in all time
     * After making 10 icon request user not able to request again -->
-    <integer name="icon_request_limit">1</integer>
+    <integer name="icon_request_limit">0</integer>
 
     <!-- Reset regular icon request limit every update
     * IGNORE if icon request limit is disabled
