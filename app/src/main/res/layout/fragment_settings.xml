@@ -78,13 +78,13 @@
             <com.balysv.materialripple.MaterialRippleLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 app:mrl_rippleAlpha="0.2"
                 app:mrl_rippleColor="?attr/card_ripple"
                 app:mrl_rippleDelayClick="true"
                 app:mrl_rippleOverlay="true"
                 app:mrl_rippleDuration="500"
-                app:mrl_rippleDimension="4dp"
-                android:visibility="gone">
+                app:mrl_rippleDimension="4dp" >
 
                 <LinearLayout
                     android:id="@+id/pref_dark_theme"
@@ -183,6 +183,55 @@
 
             <View
                 android:id="@+id/pref_restore_purchases_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="?attr/divider_list"/>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mrl_rippleAlpha="0.2"
+                app:mrl_rippleColor="?attr/card_ripple"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleDuration="500"
+                app:mrl_rippleDimension="4dp" >
+
+                <LinearLayout
+                    android:id="@+id/pref_rebuild_premium_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_rebuild_premium_request"
+                        android:textSize="@dimen/text_content_title"
+                        android:textColor="?android:attr/textColorPrimary"
+                        fontPath="fonts/Font-Medium.ttf"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_rebuild_premium_request_desc"
+                        android:textSize="@dimen/text_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="?android:attr/textColorSecondary"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        fontPath="fonts/Font-Regular.ttf"/>
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <View
+                android:id="@+id/pref_rebuild_premium_request_divider"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginLeft="16dp"
