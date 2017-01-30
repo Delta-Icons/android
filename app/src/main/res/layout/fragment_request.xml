@@ -22,7 +22,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_gravity="top"
-            app:srcCompat="@drawable/ic_toolbar_premium_request"/>
+            app:srcCompat="@drawable/bank"/>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -114,13 +114,6 @@
             android:layout_marginBottom="@dimen/fab_margin"
             android:visibility="gone"
             app:backgroundTint="?attr/colorAccent" />
-
-        <View
-            android:id="@+id/shadow"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/toolbar_shadow"
-            android:background="@drawable/toolbar_shadow"
-            android:visibility="invisible"/>
 
     </FrameLayout>
 
