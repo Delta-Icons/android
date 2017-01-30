@@ -25,7 +25,7 @@
         android:installLocation="auto"
         tools:replace="android:icon">
 
-        <activity android:name="website.leifs.delta.activities.StartActivity"
+        <activity android:name=".activities.StartActivity"
             android:launchMode="singleTop"
             android:noHistory="true"
             android:theme="@style/TranslucentTheme" >
@@ -35,13 +35,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="website.leifs.delta.activities.SplashActivity"
+        <activity android:name=".activities.SplashActivity"
             android:launchMode="singleTop"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme" />
 
-        <activity android:name="website.leifs.delta.activities.MainActivity"
+        <activity android:name=".activities.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme"
             android:configChanges="orientation|keyboardHidden|screenSize">
@@ -104,11 +104,6 @@
                 <action android:name="com.gridappsinc.launcher.theme.apk_action"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
-            <!-- Nova Launcher -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="com.teslacoilsw.launcher.THEME" />
-            </intent-filter>
             <!-- Nova Launcher Custom Icon Picker -->
             <intent-filter>
                 <action android:name="com.novalauncher.THEME"/>
@@ -143,18 +138,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="website.leifs.delta.activities.WallpaperActivity"
-            android:launchMode="singleTop"
-            android:theme="@style/WallpaperTheme"
-            android:configChanges="orientation|keyboardHidden|screenSize" />
-
         <activity android:name="website.leifs.delta.activities.MuzeiActivity"
             android:label="@string/muzei_settings"
             android:theme="@style/AppTheme"
             android:exported="true"
             android:configChanges="orientation|keyboardHidden|screenSize"/>
 
-        <service android:name="website.leifs.delta.services.MuzeiService"
+        <service android:name=".services.MuzeiService"
             android:label="@string/muzei_art_source_name"
             android:description="@string/muzei_art_source_desc"
             android:icon="@drawable/ic_muzei"
