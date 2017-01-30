@@ -1,4 +1,4 @@
-# candybar-sample
-Sample implementation of CandyBar Material Dashboard
+# Delta Icons
+Matted out icon pack for custom Android launchers.
 
-**NOTE: THIS IS JUST ICON PACK DASHBOARD, NOT ICON PACK TEMPLATE OR ICON PACK TUTORIAL. YOU NEED TO ADD REQUIRED XML FOR ICON PACK BY YOURSELF.**
+Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
