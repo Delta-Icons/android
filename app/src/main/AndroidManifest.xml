@@ -25,21 +25,16 @@
         android:installLocation="auto"
         tools:replace="android:icon">
 
-        <activity android:name=".activities.StartActivity"
+        <activity android:name="website.leifs.delta.activities.SplashActivity"
             android:launchMode="singleTop"
             android:noHistory="true"
-            android:theme="@style/TranslucentTheme" >
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activities.SplashActivity"
-            android:launchMode="singleTop"
-            android:noHistory="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/SplashTheme" />
 
         <activity android:name=".activities.MainActivity"
             android:launchMode="singleTop"

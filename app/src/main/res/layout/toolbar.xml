@@ -42,6 +42,14 @@
                     android:fitsSystemWindows="true" />
 
                 <ImageView
+                    android:id="@+id/home_gradient"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_image_height"
+                    android:scaleType="fitEnd"
+                    android:fitsSystemWindows="true"
+                    app:srcCompat="@drawable/gradient" />
+
+                <ImageView
                     android:id="@+id/home_logo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -80,7 +88,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
                     android:layout_below="@+id/home_image"
-                    android:background="#10FFFFFF"/>
+                    android:background="#00FFFFFF"/>
 
             </RelativeLayout>
 

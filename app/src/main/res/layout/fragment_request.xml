@@ -16,7 +16,7 @@
         android:orientation="horizontal"
         android:padding="@dimen/card_padding"
         android:background="?attr/colorPrimary"
-        android:visibility="invisible">
+        android:visibility="gone">
 
         <ImageView
             android:layout_width="48dp"

@@ -1,191 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/apply_tips_bar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:padding="@dimen/card_padding"
+        android:gravity="top"
+        android:background="?attr/colorPrimary"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/samsung_help"/>
 
         <LinearLayout
-            android:id="@+id/apply_tips_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="?attr/actionBarSize"
-            android:orientation="horizontal"
-            android:padding="@dimen/card_padding"
-            android:gravity="top"
-            android:background="?attr/colorPrimary"
-            android:visibility="gone">
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingStart="@dimen/card_padding"
+            android:gravity="center_vertical">
 
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                app:srcCompat="@drawable/samsung_help"/>
-
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingLeft="@dimen/card_padding"
-                android:paddingStart="@dimen/card_padding"
-                android:paddingEnd="@dimen/fab_size_mini"
-                android:paddingRight="@dimen/fab_size_mini"
-                android:gravity="center_vertical">
+                android:text="@string/tips"
+                android:textColor="?attr/toolbar_icon"
+                android:textSize="@dimen/text_content_title"
+                fontPath="fonts/Font-Medium.ttf"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/tips"
-                    android:textColor="?attr/toolbar_icon"
-                    android:textSize="@dimen/text_content_title"
-                    fontPath="fonts/Font-Medium.ttf"/>
+            <TextView
+                android:id="@+id/apply_tips_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_content"
+                android:text="@string/tips_apply_manual"
+                fontPath="fonts/Font-Regular.ttf"/>
 
-                <TextView
-                    android:id="@+id/apply_tips_desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/text_content"
-                    android:text="@string/tips_apply_manual"
-                    fontPath="fonts/Font-Regular.ttf"/>
-
-            </LinearLayout>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/apply_tips_dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/content_padding"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:text="@string/gotit"
+                app:theme="@style/ButtonStyle"
+                fontPath="fonts/Font-Bold.ttf"/>
 
         </LinearLayout>
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <android.support.v4.widget.NestedScrollView
-                android:id="@+id/scrollview"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:clipToPadding="false">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="@dimen/content_padding"
-                    android:focusable="true">
-
-                    <android.support.v7.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:cardBackgroundColor="?attr/card_background"
-                        app:cardElevation="0dp"
-                        app:cardUseCompatPadding="true"
-                        app:cardCornerRadius="@dimen/card_corner_radius">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="@string/apply_installed"
-                                android:textColor="?android:attr/textColorPrimary"
-                                android:textSize="16sp"
-                                android:padding="@dimen/card_padding"
-                                fontPath="fonts/Font-Bold.ttf"/>
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="1dp"
-                                android:background="?attr/divider_list" />
-
-                            <com.dm.material.dashboard.candybar.utils.views.AutoFitRecyclerView
-                                android:id="@+id/installed_grid"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:clipToPadding="false"
-                                android:columnWidth="@dimen/launcher_icon_column_width"/>
-
-                            <TextView
-                                android:id="@+id/no_launcher"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="@string/apply_no_launcher_installed"
-                                android:textColor="?android:attr/textColorSecondary"
-                                android:textSize="14sp"
-                                android:gravity="center"
-                                android:padding="@dimen/card_padding"
-                                android:layout_margin="@dimen/card_padding"
-                                android:visibility="gone"
-                                fontPath="fonts/Font-Regular.ttf"/>
-
-                        </LinearLayout>
-
-                    </android.support.v7.widget.CardView>
-
-                    <android.support.v7.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:cardBackgroundColor="?attr/card_background"
-                        app:cardElevation="0dp"
-                        app:cardUseCompatPadding="true"
-                        app:cardCornerRadius="@dimen/card_corner_radius">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="@string/apply_supported"
-                                android:textColor="?android:attr/textColorPrimary"
-                                android:textSize="16sp"
-                                android:padding="@dimen/card_padding"
-                                fontPath="fonts/Font-Bold.ttf"/>
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="1dp"
-                                android:background="?attr/divider_list" />
-
-                            <com.dm.material.dashboard.candybar.utils.views.AutoFitRecyclerView
-                                android:id="@+id/supported_grid"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:clipToPadding="false"
-                                android:columnWidth="@dimen/launcher_icon_column_width"/>
-
-                        </LinearLayout>
-
-                    </android.support.v7.widget.CardView>
-
-                </LinearLayout>
-
-            </android.support.v4.widget.NestedScrollView>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/toolbar_shadow"
-                android:background="@drawable/toolbar_shadow" />
-
-        </FrameLayout>
-
     </LinearLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/apply_tips_fab"
-        android:layout_width="@dimen/fab_size_mini"
-        android:layout_height="@dimen/fab_size_mini"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:visibility="gone"
-        app:layout_anchor="@+id/apply_tips_bar"
-        app:layout_anchorGravity="bottom|right|end"
-        app:backgroundTint="?attr/colorAccent"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</android.support.design.widget.CoordinatorLayout>
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/content_padding"
+                android:focusable="true">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="?attr/card_background"
+                    app:cardElevation="@dimen/card_elevation"
+                    app:cardUseCompatPadding="true"
+                    app:cardCornerRadius="@dimen/card_corner_radius">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/apply_installed"
+                            android:textColor="?android:attr/textColorPrimary"
+                            android:textSize="16sp"
+                            android:padding="@dimen/card_padding"
+                            fontPath="fonts/Font-Bold.ttf"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?attr/divider_list" />
+
+                        <com.dm.material.dashboard.candybar.utils.views.AutoFitRecyclerView
+                            android:id="@+id/installed_grid"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clipToPadding="false"
+                            android:columnWidth="@dimen/launcher_icon_column_width"/>
+
+                        <TextView
+                            android:id="@+id/no_launcher"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/apply_no_launcher_installed"
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textSize="14sp"
+                            android:gravity="center"
+                            android:padding="@dimen/card_padding"
+                            android:layout_margin="@dimen/card_padding"
+                            android:visibility="gone"
+                            fontPath="fonts/Font-Regular.ttf"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="?attr/card_background"
+                    app:cardElevation="@dimen/card_elevation"
+                    app:cardUseCompatPadding="true"
+                    app:cardCornerRadius="@dimen/card_corner_radius">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/apply_supported"
+                            android:textColor="?android:attr/textColorPrimary"
+                            android:textSize="16sp"
+                            android:padding="@dimen/card_padding"
+                            fontPath="fonts/Font-Bold.ttf"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?attr/divider_list" />
+
+                        <com.dm.material.dashboard.candybar.utils.views.AutoFitRecyclerView
+                            android:id="@+id/supported_grid"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clipToPadding="false"
+                            android:columnWidth="@dimen/launcher_icon_column_width"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_shadow"
+            android:background="@drawable/toolbar_shadow" />
+
+    </FrameLayout>
+
+</LinearLayout>
