@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground"
+    app:theme="@style/ButtonStyle">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/card_padding"
+        android:paddingStart="@dimen/card_padding"
+        android:paddingRight="@dimen/card_padding"
+        android:paddingEnd="@dimen/card_padding"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/text_content_subtitle"
+        fontPath="fonts/Font-Regular.ttf"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/card_padding"
+        android:paddingStart="@dimen/card_padding"
+        android:paddingRight="@dimen/card_padding"
+        android:paddingEnd="@dimen/card_padding"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="@dimen/text_content"
+        fontPath="fonts/Font-Regular.ttf"/>
+
+</LinearLayout>

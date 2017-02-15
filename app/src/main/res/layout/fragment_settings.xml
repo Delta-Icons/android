@@ -16,94 +16,154 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="@dimen/content_padding"
             android:orientation="vertical">
 
-            <com.balysv.materialripple.MaterialRippleLayout
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:mrl_rippleAlpha="0.2"
-                app:mrl_rippleColor="?attr/card_ripple"
-                app:mrl_rippleDelayClick="true"
-                app:mrl_rippleOverlay="true"
-                app:mrl_rippleDuration="500"
-                app:mrl_rippleDimension="4dp" >
+                app:cardBackgroundColor="#222"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="@dimen/card_corner_radius">
 
                 <LinearLayout
-                    android:id="@+id/pref_cache_clear"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/content_margin"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/card_padding">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/pref_data_cache"
-                        android:textSize="@dimen/text_content_title"
-                        android:textColor="?android:attr/textColorPrimary"
-                        fontPath="fonts/Font-Medium.ttf"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/pref_data_cache_desc"
-                        android:textSize="@dimen/text_content"
-                        android:layout_marginTop="4dp"
-                        android:textColor="?android:attr/textColorSecondary"
-                        fontPath="fonts/Font-Regular.ttf"/>
-
-                    <TextView
-                        android:id="@+id/pref_cache_size"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/pref_data_cache_size"
-                        android:textSize="@dimen/text_content"
-                        android:layout_marginTop="8dp"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:paddingStart="@dimen/card_padding"
+                        android:paddingRight="@dimen/card_padding"
+                        android:paddingEnd="@dimen/card_padding"
+                        android:text="@string/pref_data_header"
+                        android:textSize="@dimen/text_content_header"
                         android:textColor="?attr/colorAccent"
                         fontPath="fonts/Font-Medium.ttf"/>
 
-                </LinearLayout>
-
-            </com.balysv.materialripple.MaterialRippleLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:background="?attr/divider_list"/>
-
-            <com.balysv.materialripple.MaterialRippleLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:visibility="gone"
-                app:mrl_rippleAlpha="0.2"
-                app:mrl_rippleColor="?attr/card_ripple"
-                app:mrl_rippleDelayClick="true"
-                app:mrl_rippleOverlay="true"
-                app:mrl_rippleDuration="500"
-                app:mrl_rippleDimension="4dp" >
-
-                <LinearLayout
-                    android:id="@+id/pref_dark_theme"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical">
-
                     <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
+                        android:id="@+id/pref_cache_clear"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="16dp"
-                        android:orientation="vertical">
+                        android:padding="@dimen/card_padding"
+                        android:orientation="vertical"
+                        android:background="?attr/selectableItemBackground"
+                        android:theme="@style/RippleStyle">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pref_theme_dark"
+                            android:text="@string/pref_data_cache"
+                            android:textSize="@dimen/text_content_subtitle"
+                            android:textColor="?android:attr/textColorPrimary"
+                            fontPath="fonts/Font-Medium.ttf"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_data_cache_desc"
+                            android:textSize="@dimen/text_content"
+                            android:layout_marginTop="4dp"
+                            android:textColor="?android:attr/textColorSecondary"
+                            fontPath="fonts/Font-Regular.ttf"/>
+
+                        <TextView
+                            android:id="@+id/pref_cache_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_data_cache_size"
+                            android:textSize="@dimen/text_content"
+                            android:layout_marginTop="8dp"
+                            android:textColor="?attr/colorAccent"
+                            fontPath="fonts/Font-Medium.ttf"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/pref_request_clear_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/divider_list"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:id="@+id/pref_request_clear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/card_padding"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:background="?attr/selectableItemBackground"
+                        android:theme="@style/RippleStyle">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_data_request"
+                            android:textSize="@dimen/text_content_subtitle"
+                            android:textColor="?android:attr/textColorPrimary"
+                            fontPath="fonts/Font-Medium.ttf"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_data_request_desc"
+                            android:textSize="@dimen/text_content"
+                            android:layout_marginTop="4dp"
+                            android:textColor="?android:attr/textColorSecondary"
+                            fontPath="fonts/Font-Regular.ttf"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/pref_premium_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:cardBackgroundColor="#222"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="@dimen/card_corner_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/card_padding">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:paddingStart="@dimen/card_padding"
+                        android:paddingRight="@dimen/card_padding"
+                        android:paddingEnd="@dimen/card_padding"
+                        android:text="@string/pref_premium_request_header"
+                        android:textSize="@dimen/text_content_header"
+                        android:textColor="?attr/colorAccent"
+                        fontPath="fonts/Font-Medium.ttf"/>
+
+                    <LinearLayout
+                        android:id="@+id/pref_restore_purchases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/card_padding"
+                        android:orientation="vertical"
+                        android:background="?attr/selectableItemBackground"
+                        android:theme="@style/RippleStyle">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_premium_request_restore"
                             android:textSize="@dimen/text_content_title"
                             android:textColor="?android:attr/textColorPrimary"
                             fontPath="fonts/Font-Medium.ttf"/>
@@ -111,7 +171,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pref_theme_dark_desc"
+                            android:text="@string/pref_premium_request_restore_desc"
                             android:textSize="@dimen/text_content"
                             android:layout_marginTop="4dp"
                             android:textColor="?android:attr/textColorSecondary"
@@ -120,152 +180,180 @@
 
                     </LinearLayout>
 
-                    <android.support.v7.widget.AppCompatCheckBox
-                        android:id="@+id/pref_dark_theme_check"
-                        android:layout_width="wrap_content"
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/divider_list"/>
+
+                    <LinearLayout
+                        android:id="@+id/pref_rebuild_premium_request"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:clickable="false"
-                        android:background="@android:color/transparent"
-                        android:layout_margin="16dp"
-                        app:theme="@style/CheckBoxStyle"/>
+                        android:padding="16dp"
+                        android:orientation="vertical"
+                        android:background="?attr/selectableItemBackground"
+                        android:theme="@style/RippleStyle">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_premium_request_rebuild"
+                            android:textSize="@dimen/text_content_title"
+                            android:textColor="?android:attr/textColorPrimary"
+                            fontPath="fonts/Font-Medium.ttf"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_premium_request_rebuild_desc"
+                            android:textSize="@dimen/text_content"
+                            android:layout_marginTop="4dp"
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            fontPath="fonts/Font-Regular.ttf"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-            </com.balysv.materialripple.MaterialRippleLayout>
+            </android.support.v7.widget.CardView>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:background="?attr/divider_list"/>
-
-            <com.balysv.materialripple.MaterialRippleLayout
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:mrl_rippleAlpha="0.2"
-                app:mrl_rippleColor="?attr/card_ripple"
-                app:mrl_rippleDelayClick="true"
-                app:mrl_rippleOverlay="true"
-                app:mrl_rippleDuration="500"
-                app:mrl_rippleDimension="4dp" >
+                app:cardBackgroundColor="#222"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="@dimen/card_corner_radius">
 
                 <LinearLayout
-                    android:id="@+id/pref_restore_purchases"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/card_padding"
+                    android:visibility="gone">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/pref_restore_purchases"
-                        android:textSize="@dimen/text_content_title"
-                        android:textColor="?android:attr/textColorPrimary"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:paddingStart="@dimen/card_padding"
+                        android:paddingRight="@dimen/card_padding"
+                        android:paddingEnd="@dimen/card_padding"
+                        android:text="@string/pref_theme_header"
+                        android:textSize="@dimen/text_content_header"
+                        android:textColor="?attr/colorAccent"
                         fontPath="fonts/Font-Medium.ttf"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/pref_dark_theme"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/pref_restore_purchases_desc"
-                        android:textSize="@dimen/text_content"
-                        android:layout_marginTop="4dp"
-                        android:textColor="?android:attr/textColorSecondary"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        fontPath="fonts/Font-Regular.ttf"/>
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:background="?attr/selectableItemBackground"
+                        android:theme="@style/RippleStyle">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/card_padding"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pref_theme_dark"
+                                android:textSize="@dimen/text_content_title"
+                                android:textColor="?android:attr/textColorPrimary"
+                                fontPath="fonts/Font-Medium.ttf"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pref_theme_dark_desc"
+                                android:textSize="@dimen/text_content"
+                                android:layout_marginTop="4dp"
+                                android:textColor="?android:attr/textColorSecondary"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                fontPath="fonts/Font-Regular.ttf"/>
+
+                        </LinearLayout>
+
+                        <android.support.v7.widget.AppCompatCheckBox
+                            android:id="@+id/pref_dark_theme_check"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:background="@android:color/transparent"
+                            android:layout_margin="16dp"
+                            app:theme="@style/CheckBoxStyle"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-            </com.balysv.materialripple.MaterialRippleLayout>
+            </android.support.v7.widget.CardView>
 
-            <View
-                android:id="@+id/pref_restore_purchases_divider"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:background="?attr/divider_list"/>
-
-            <com.balysv.materialripple.MaterialRippleLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/pref_wallpaper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:mrl_rippleAlpha="0.2"
-                app:mrl_rippleColor="?attr/card_ripple"
-                app:mrl_rippleDelayClick="true"
-                app:mrl_rippleOverlay="true"
-                app:mrl_rippleDuration="500"
-                app:mrl_rippleDimension="4dp" >
+                android:visibility="gone"
+                app:cardBackgroundColor="#222"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="@dimen/card_corner_radius">
 
                 <LinearLayout
-                    android:id="@+id/pref_rebuild_premium_request"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/card_padding">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/pref_rebuild_premium_request"
-                        android:textSize="@dimen/text_content_title"
-                        android:textColor="?android:attr/textColorPrimary"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:paddingStart="@dimen/card_padding"
+                        android:paddingRight="@dimen/card_padding"
+                        android:paddingEnd="@dimen/card_padding"
+                        android:text="@string/pref_wallpaper_header"
+                        android:textSize="@dimen/text_content_header"
+                        android:textColor="?attr/colorAccent"
                         fontPath="fonts/Font-Medium.ttf"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/pref_rebuild_premium_request_desc"
-                        android:textSize="@dimen/text_content"
-                        android:layout_marginTop="4dp"
-                        android:textColor="?android:attr/textColorSecondary"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        fontPath="fonts/Font-Regular.ttf"/>
+                        android:padding="@dimen/card_padding"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_wallpaper_location"
+                            android:textSize="@dimen/text_content_title"
+                            android:textColor="?android:attr/textColorPrimary"
+                            fontPath="fonts/Font-Medium.ttf"/>
+
+                        <TextView
+                            android:id="@+id/pref_walls_directory"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pref_wallpaper_location_desc"
+                            android:textSize="@dimen/text_content"
+                            android:layout_marginTop="4dp"
+                            android:textColor="?android:attr/textColorSecondary"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            fontPath="fonts/Font-Regular.ttf"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-            </com.balysv.materialripple.MaterialRippleLayout>
-
-            <View
-                android:id="@+id/pref_rebuild_premium_request_divider"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:background="?attr/divider_list"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pref_wallpaper_location"
-                    android:textSize="@dimen/text_content_title"
-                    android:textColor="?android:attr/textColorPrimary"
-                    fontPath="fonts/Font-Medium.ttf"/>
-
-                <TextView
-                    android:id="@+id/pref_walls_directory"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pref_wallpaper_location_desc"
-                    android:textSize="@dimen/text_content"
-                    android:layout_marginTop="4dp"
-                    android:textColor="?android:attr/textColorSecondary"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    fontPath="fonts/Font-Regular.ttf"/>
-
-            </LinearLayout>
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
 

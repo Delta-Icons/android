@@ -11,129 +11,109 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.balysv.materialripple.MaterialRippleLayout
+        <LinearLayout
+            android:id="@+id/enable_scroll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:mrl_rippleAlpha="0.2"
-            app:mrl_rippleColor="?attr/card_ripple"
-            app:mrl_rippleDelayClick="true"
-            app:mrl_rippleOverlay="true"
-            app:mrl_rippleDuration="500"
-            app:mrl_rippleDimension="4dp" >
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="?attr/selectableItemBackground"
+            android:theme="@style/RippleStyle">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/enable_scroll_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                app:theme="@style/CheckBoxStyle"/>
 
             <LinearLayout
-                android:id="@+id/enable_scroll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <android.support.v7.widget.AppCompatRadioButton
-                    android:id="@+id/enable_scroll_radio"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:clickable="false"
-                    app:theme="@style/CheckBoxStyle"/>
+                    android:text="@string/wallpaper_scroll_enable"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    fontPath="fonts/Font-Medium.ttf"/>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/wallpaper_scroll_enable"
-                        android:textSize="16sp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginRight="6dp"
-                        android:layout_marginEnd="6dp"
-                        android:textColor="?android:attr/textColorPrimary"
-                        fontPath="fonts/Font-Medium.ttf"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/wallpaper_scroll_enable_desc"
-                        android:textSize="14sp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginRight="6dp"
-                        android:layout_marginEnd="6dp"
-                        android:textColor="?android:attr/textColorSecondary"
-                        fontPath="fonts/Font-Regular.ttf"/>
-
-                </LinearLayout>
+                    android:text="@string/wallpaper_scroll_enable_desc"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:textColor="?android:attr/textColorSecondary"
+                    fontPath="fonts/Font-Regular.ttf"/>
 
             </LinearLayout>
 
-        </com.balysv.materialripple.MaterialRippleLayout>
+        </LinearLayout>
 
-        <com.balysv.materialripple.MaterialRippleLayout
+        <LinearLayout
+            android:id="@+id/disable_scroll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:mrl_rippleAlpha="0.2"
-            app:mrl_rippleColor="?attr/card_ripple"
-            app:mrl_rippleDelayClick="true"
-            app:mrl_rippleOverlay="true"
-            app:mrl_rippleDuration="500"
-            app:mrl_rippleDimension="4dp" >
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="?attr/selectableItemBackground"
+            android:theme="@style/RippleStyle">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/disable_scroll_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                app:theme="@style/CheckBoxStyle"/>
 
             <LinearLayout
-                android:id="@+id/disable_scroll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <android.support.v7.widget.AppCompatRadioButton
-                    android:id="@+id/disable_scroll_radio"
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:clickable="false"
-                    app:theme="@style/CheckBoxStyle"/>
+                    android:text="@string/wallpaper_scroll_disable"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    fontPath="fonts/Font-Medium.ttf"/>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/wallpaper_scroll_disable"
-                        android:textSize="16sp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginRight="6dp"
-                        android:layout_marginEnd="6dp"
-                        android:textColor="?android:attr/textColorPrimary"
-                        fontPath="fonts/Font-Medium.ttf"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/wallpaper_scroll_disable_desc"
-                        android:textSize="14sp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginRight="6dp"
-                        android:layout_marginEnd="6dp"
-                        android:textColor="?android:attr/textColorSecondary"
-                        fontPath="fonts/Font-Regular.ttf"/>
-
-                </LinearLayout>
+                    android:text="@string/wallpaper_scroll_disable_desc"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:textColor="?android:attr/textColorSecondary"
+                    fontPath="fonts/Font-Regular.ttf"/>
 
             </LinearLayout>
 
-        </com.balysv.materialripple.MaterialRippleLayout>
+        </LinearLayout>
 
     </LinearLayout>
 

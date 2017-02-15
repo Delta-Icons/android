@@ -108,7 +108,7 @@
 
     <!-- Navigation view header height
     * default: 220dp -->
-    <dimen name="navigation_view_header_height">140dp</dimen>
+    <dimen name="navigation_view_header_height">280dp</dimen>
 
     <!-- Navigation view header text
     * Leave empty if you don't want to show any text -->
@@ -188,7 +188,7 @@
     * If you want to use image from url, just put the url here
     * If you want to use image stored in project (drawable folder)
     * just put image name here without the extension (ex: about_profile_image.png -> about_profile_image) -->
-    <string name="about_profile_image">ic_app_default</string>
+    <string name="about_profile_image">about_image</string>
 
     <!-- About title above description -->
     <string name="about_title">Leif Niemczik</string>

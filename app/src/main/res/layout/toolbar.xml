@@ -57,13 +57,22 @@
                     android:layout_centerInParent="true"
                     app:srcCompat="@drawable/ic_splash_screen" />
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/home_image"
+                    android:visibility="gone"
+                    android:background="#10FFFFFF"/>
+
                 <LinearLayout
                     android:id="@+id/home_title_container"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/home_image"
                     android:orientation="vertical"
-                    android:padding="@dimen/home_title_padding">
+                    android:padding="@dimen/home_title_padding"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -83,12 +92,6 @@
                         fontPath="fonts/Font-Regular.ttf"/>
 
                 </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
-                    android:layout_below="@+id/home_image"
-                    android:background="#00FFFFFF"/>
 
             </RelativeLayout>
 
@@ -130,10 +133,9 @@
         android:layout_height="0dp"
         android:layout_marginRight="@dimen/fab_margin"
         android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="-4000dp"
+        android:layout_marginBottom="-400dp"
         app:layout_anchor="@+id/home_image"
         app:layout_anchorGravity="bottom|right|end"
-        app:backgroundTint="?attr/colorAccent"
-        android:visibility="gone" />
+        app:backgroundTint="?attr/colorAccent" />
 
 </android.support.design.widget.CoordinatorLayout>
