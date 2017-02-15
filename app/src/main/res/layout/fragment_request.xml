@@ -22,7 +22,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_gravity="top"
-            app:srcCompat="@drawable/bank"/>
+            app:srcCompat="@drawable/ic_toolbar_premium_request"/>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -72,10 +72,43 @@
             android:layout_gravity="bottom"
             android:gravity="center"
             android:text="@string/premium_request_buy"
-            app:theme="@style/ButtonStyle"
+            android:theme="@style/ButtonStyle"
             fontPath="fonts/Font-Bold.ttf"/>
 
     </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/about_content_padding">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/messed_upheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/content_margin"
+                android:textSize="@dimen/text_toolbar_title"
+                android:textColor="?attr/toolbar_icon"
+                android:background="?attr/colorAccent"
+                fontPath="fonts/Font-Medium.ttf"
+                android:text="IMPORTANT NOTICE!" />
+
+            <TextView
+                android:id="@+id/messed_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/content_margin"
+                android:textSize="@dimen/text_content_subtitle"
+                android:textColor="?attr/toolbar_icon"
+                android:background="?attr/colorPrimaryDark"
+                android:text="While rushing the last update i made an error in the amount of purchased premium requests. If you bought any requests after the 1.1.3 update, please contact me via the e-mail address in the about section so we resolve this issues. Thank you for being this tolerant about my mistakes \n\nBig sorry, Leif " />
+        </LinearLayout>
+    </FrameLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -114,6 +147,11 @@
             android:layout_marginBottom="@dimen/fab_margin"
             android:visibility="gone"
             app:backgroundTint="?attr/colorAccent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_shadow"
+            android:background="@drawable/toolbar_shadow" />
 
     </FrameLayout>
 

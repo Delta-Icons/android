@@ -11,7 +11,9 @@
         android:background="?attr/colorPrimary"
         android:visibility="invisible"
         app:tabIndicatorColor="?attr/tab_indicator"
-        app:tabIndicatorHeight="3dp"
+        app:tabSelectedTextColor="?attr/tab_text_selected"
+        app:tabTextColor="?attr/tab_text"
+        app:tabIndicatorHeight="2dp"
         app:tabPaddingStart="14dp"
         app:tabPaddingEnd="14dp"
         app:tabMode="scrollable" />
@@ -35,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_shadow"
         android:layout_below="@+id/tab"
-        android:visibility="gone"
+        android:visibility="invisible"
         android:background="@drawable/toolbar_shadow" />
 
 </RelativeLayout>

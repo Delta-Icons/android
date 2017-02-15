@@ -20,6 +20,7 @@
             android:layout_width="1.5dp"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
+            android:layout_above="@+id/icon"
             android:background="?attr/home_feature_line"/>
 
         <ImageView

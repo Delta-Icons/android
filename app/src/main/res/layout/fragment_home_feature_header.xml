@@ -1,28 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingStart="@dimen/home_feature_padding"
+    android:paddingLeft="@dimen/home_feature_padding"
+    android:paddingEnd="@dimen/home_feature_padding"
+    android:paddingRight="@dimen/home_feature_padding">
+
+    <RelativeLayout
+        android:layout_width="42dp"
+        android:layout_height="42dp">
+
+        <ImageView
+            android:id="@+id/feature_header_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/ic_feature_header"/>
+
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/feature_header_icon"
+            android:layout_centerHorizontal="true"
+            android:background="?attr/home_feature_line"/>
+
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/home_features_header"
-        android:textSize="@dimen/text_content_title"
+        android:layout_marginStart="@dimen/home_feature_padding"
+        android:layout_marginLeft="@dimen/home_feature_padding"
+        android:text="@string/home_feature_header"
+        android:textSize="@dimen/text_content_header"
         android:textColor="?android:attr/textColorPrimary"
-        android:paddingLeft="@dimen/card_padding"
-        android:paddingStart="@dimen/card_padding"
-        android:paddingRight="@dimen/card_padding"
-        android:paddingEnd="@dimen/card_padding"
-        android:layout_marginBottom="@dimen/card_padding"
-        fontPath="fonts/Font-Bold.ttf" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?attr/divider_list" />
+        fontPath="fonts/Font-Medium.ttf" />
 
 </LinearLayout>

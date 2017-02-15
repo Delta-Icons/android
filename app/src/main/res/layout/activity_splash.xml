@@ -8,8 +8,8 @@
     android:fitsSystemWindows="true">
 
     <ImageView
-        android:layout_width="96dp"
-        android:layout_height="96dp"
+        android:layout_width="@dimen/splash_screen_logo"
+        android:layout_height="@dimen/splash_screen_logo"
         android:src="@drawable/ic_splash_screen"
         android:layout_centerInParent="true" />
 
@@ -18,10 +18,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:textSize="@dimen/text_content"
+        android:textSize="@dimen/splash_screen_text"
         android:padding="20dp"
         android:gravity="center"
-        android:text="@string/app_name"
+        android:text="@string/theme_name"
         fontPath="fonts/Font-Medium.ttf"/>
 
 </RelativeLayout>

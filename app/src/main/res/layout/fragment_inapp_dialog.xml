@@ -5,10 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/content_margin"
+        android:textSize="@dimen/text_toolbar_title"
+        android:textColor="?attr/toolbar_icon"
+        android:background="?attr/colorPrimary"
+        fontPath="fonts/Font-Medium.ttf"/>
+
     <ListView
         android:id="@+id/inapp_list"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_below="@id/header"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:clipToPadding="false"
         android:dividerHeight="0dp"
         android:divider="@android:color/transparent"
         android:listSelector="@android:color/transparent"/>
@@ -18,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_below="@id/header"
         android:layout_margin="@dimen/content_margin"
         android:visibility="gone"
         style="?android:attr/progressBarStyle"/>

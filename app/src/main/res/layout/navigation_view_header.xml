@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="?attr/colorPrimary">
+
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_view_header_height"
+        android:scaleType="fitCenter"
+        android:padding="@dimen/about_profile_margin_top" />
 
     <LinearLayout
         android:id="@+id/header_title_container"
@@ -13,7 +19,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="bottom|start"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:background="@color/navigationViewTitleBack"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/header_title"
@@ -30,18 +38,9 @@
             android:layout_height="wrap_content"
             android:textColor="@color/navigationViewTitle"
             android:textSize="14sp"
-            fontPath="fonts/Font-Regular.ttf"
-            android:visibility="gone" />
+            fontPath="fonts/Font-Regular.ttf"/>
 
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/header_image"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/navigation_view_header_height"
-        android:scaleType="fitCenter"
-        app:srcCompat="@drawable/ic_splash_screen"
-        android:layout_margin="40dp" />
 
 
 </FrameLayout>

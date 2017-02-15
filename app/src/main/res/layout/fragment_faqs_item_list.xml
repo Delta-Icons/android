@@ -6,7 +6,7 @@
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardBackgroundColor="?attr/card_background"
+    app:cardBackgroundColor="#222"
     app:cardElevation="0dp"
     app:cardUseCompatPadding="true"
     app:cardCornerRadius="@dimen/card_corner_radius">
@@ -25,10 +25,6 @@
             android:padding="@dimen/card_padding"
             fontPath="fonts/Font-Medium.ttf"/>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="?attr/divider_list" />
 
         <TextView
             android:id="@+id/answer"
@@ -39,6 +35,10 @@
             android:padding="@dimen/card_padding"
             fontPath="fonts/Font-Regular.ttf"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/divider_list" />
     </LinearLayout>
 
 </android.support.v7.widget.CardView>

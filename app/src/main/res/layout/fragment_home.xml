@@ -7,6 +7,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow"
+        android:background="@drawable/toolbar_shadow" />
+
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
@@ -19,22 +24,53 @@
                 android:layout_height="match_parent"
                 android:padding="@dimen/content_padding">
 
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/about_content_padding">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/messed_upheader"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/content_margin"
+                            android:textSize="@dimen/text_toolbar_title"
+                            android:textColor="?attr/toolbar_icon"
+                            android:background="?attr/colorAccent"
+                            fontPath="fonts/Font-Medium.ttf"
+                            android:text="IMPORTANT NOTICE!" />
+
+                        <TextView
+                            android:id="@+id/messed_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/content_margin"
+                            android:textSize="@dimen/text_content_subtitle"
+                            android:textColor="?attr/toolbar_icon"
+                            android:background="?attr/colorPrimaryDark"
+                            android:text="While rushing the last update i made an error in the amount of purchased premium requests. If you bought any requests after the 1.1.3 update, please contact me via the e-mail address in the about section so we resolve this issues. Thank you for being this tolerant about my mistakes \n\nBig sorry, Leif " />
+                    </LinearLayout>
+                </FrameLayout>
+
                 <android.support.v7.widget.CardView
                     android:id="@+id/card_desc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:cardBackgroundColor="@color/darkColorPrimary"
+                    app:cardBackgroundColor="#222"
                     app:cardUseCompatPadding="true"
                     app:cardElevation="0dp"
                     app:cardCornerRadius="@dimen/card_corner_radius"
-                    app:contentPadding="@dimen/card_padding"
-                    android:elevation="0dp">
+                    app:contentPadding="@dimen/card_padding">
 
                     <org.sufficientlysecure.htmltextview.HtmlTextView
                         android:id="@+id/home_description"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/home_description"
                         android:textColor="?android:attr/textColorPrimary"
                         android:textColorLink="?attr/colorAccent"
                         android:textSize="@dimen/text_content_subtitle"
@@ -43,93 +79,20 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/card_quick_apply"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    app:cardBackgroundColor="@color/darkColorPrimary"
+                    app:cardBackgroundColor="#222"
                     app:cardUseCompatPadding="true"
                     app:cardElevation="0dp"
                     app:cardCornerRadius="@dimen/card_corner_radius">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/quick_apply"
-                            android:textSize="@dimen/text_content_title"
-                            android:textColor="?android:attr/textColorPrimary"
-                            android:padding="@dimen/card_padding"
-                            fontPath="fonts/Font-Bold.ttf"/>
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:background="?attr/divider_list" />
-
-                        <com.balysv.materialripple.MaterialRippleLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:mrl_rippleAlpha="0.15"
-                            app:mrl_rippleColor="?attr/card_ripple"
-                            app:mrl_rippleDelayClick="true"
-                            app:mrl_rippleOverlay="true"
-                            app:mrl_rippleDuration="500"
-                            app:mrl_rippleDimension="4dp" >
-
-                            <LinearLayout
-                                android:id="@+id/quick_apply"
-                                android:orientation="horizontal"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_vertical"
-                                android:padding="@dimen/card_padding">
-
-                                <ImageView
-                                    android:id="@+id/quick_apply_icon"
-                                    android:layout_width="40dp"
-                                    android:layout_height="40dp" />
-
-                                <TextView
-                                    android:id="@+id/quick_apply_text"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/quick_apply_desc"
-                                    android:textSize="@dimen/text_content"
-                                    android:layout_marginLeft="@dimen/card_padding"
-                                    android:layout_marginStart="@dimen/card_padding"
-                                    android:textColor="?android:attr/textColorSecondary"
-                                    fontPath="fonts/Font-Regular.ttf"/>
-
-                            </LinearLayout>
-
-                        </com.balysv.materialripple.MaterialRippleLayout>
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:cardBackgroundColor="?attr/card_background"
-                    app:cardUseCompatPadding="true"
-                    app:cardElevation="0dp"
-                    app:cardCornerRadius="@dimen/card_corner_radius"
-                    android:visibility="gone">
 
                     <android.support.v7.widget.RecyclerView
                         android:id="@+id/home_feature_list"
                         android:layout_height="match_parent"
                         android:layout_width="match_parent"
                         android:paddingBottom="@dimen/card_padding"
-                        android:paddingTop="@dimen/card_padding"
-                        android:clipToPadding="false"
-                        android:elevation="0dp" />
+                        android:paddingTop="@dimen/home_feature_padding"
+                        android:clipToPadding="false" />
 
                 </android.support.v7.widget.CardView>
 
@@ -138,7 +101,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    app:cardBackgroundColor="?attr/card_background"
+
                     app:cardUseCompatPadding="true"
                     app:cardElevation="0dp"
                     app:cardCornerRadius="@dimen/card_corner_radius">
@@ -152,52 +115,42 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/home_more_apps_header"
-                            android:textSize="@dimen/text_content_title"
+                            android:textSize="@dimen/text_content_header"
                             android:textColor="?android:attr/textColorPrimary"
                             android:padding="@dimen/card_padding"
-                            fontPath="fonts/Font-Bold.ttf"/>
+                            fontPath="fonts/Font-Medium.ttf"/>
 
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:background="?attr/divider_list" />
 
-                        <com.balysv.materialripple.MaterialRippleLayout
+                        <LinearLayout
+                            android:id="@+id/more_apps"
+                            android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:mrl_rippleAlpha="0.15"
-                            app:mrl_rippleColor="?attr/card_ripple"
-                            app:mrl_rippleDelayClick="true"
-                            app:mrl_rippleOverlay="true"
-                            app:mrl_rippleDuration="500"
-                            app:mrl_rippleDimension="4dp" >
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/card_padding"
+                            android:background="?attr/selectableItemBackground"
+                            android:theme="@style/RippleStyle">
 
-                            <LinearLayout
-                                android:id="@+id/more_apps"
-                                android:orientation="horizontal"
+                            <ImageView
+                                android:id="@+id/more_apps_icon"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp" />
+
+                            <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:gravity="center_vertical"
-                                android:padding="@dimen/card_padding">
+                                android:text="@string/home_more_apps"
+                                android:textSize="@dimen/text_content"
+                                android:layout_marginLeft="@dimen/card_padding"
+                                android:layout_marginStart="@dimen/card_padding"
+                                android:textColor="?android:attr/textColorSecondary"
+                                fontPath="fonts/Font-Regular.ttf"/>
 
-                                <ImageView
-                                    android:id="@+id/more_apps_icon"
-                                    android:layout_width="40dp"
-                                    android:layout_height="40dp" />
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/home_more_apps"
-                                    android:textSize="@dimen/text_content"
-                                    android:layout_marginLeft="@dimen/card_padding"
-                                    android:layout_marginStart="@dimen/card_padding"
-                                    android:textColor="?android:attr/textColorSecondary"
-                                    fontPath="fonts/Font-Regular.ttf"/>
-
-                            </LinearLayout>
-
-                        </com.balysv.materialripple.MaterialRippleLayout>
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -206,10 +159,5 @@
             </LinearLayout>
 
     </android.support.v4.widget.NestedScrollView>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/toolbar_shadow"
-        android:background="@drawable/toolbar_shadow" />
 
 </FrameLayout>

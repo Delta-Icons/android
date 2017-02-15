@@ -15,9 +15,8 @@
         android:paddingRight="@dimen/changelog_content_padding"
         android:paddingEnd="@dimen/changelog_content_padding"
         android:textColor="?android:attr/textColorPrimary"
-        android:textSize="@dimen/text_content_title"
-        android:textAllCaps="true"
-        fontPath="fonts/Font-Medium.ttf"/>
+        android:textSize="@dimen/text_content_header"
+        fontPath="fonts/Font-Bold.ttf"/>
 
     <TextView
         android:id="@+id/changelog_date"
@@ -28,10 +27,9 @@
         android:paddingStart="@dimen/changelog_content_padding"
         android:paddingRight="@dimen/changelog_content_padding"
         android:paddingEnd="@dimen/changelog_content_padding"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textColor="?android:attr/textColorSecondary"
         android:textSize="@dimen/text_content_title"
-        android:textAllCaps="true"
-        fontPath="fonts/Font-Medium.ttf"/>
+        fontPath="fonts/Font-Regular.ttf"/>
 
     <View
         android:id="@+id/divider"
