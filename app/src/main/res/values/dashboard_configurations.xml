@@ -63,34 +63,13 @@
     <!-- Home description
     - If you don't want to show description, just leave this empty -->
     <string name="home_description">
-
-        <b>BRACE YOURSELVES, FINALS ARE COMING</b>
-        Hello there. I\'m Leif, the creator of this icon pack. Since it is free and
-        people stopped donating, i had to give up the free requests. Also learning
-        for finals which is a time killer, so requests are currently closed. Sorry.
+        Hello there. I\'m Leif, the creator of this icon pack. This is a side project of mine and i work on it whenever i get the time to do so. If you wan\'t to create icons or simply support development, feel free to do so :)
     </string>
 
     <string name="about_support">
         Also special thanks to:
         Arabi Ishaque and Krishna AR for helping me whenever is ask for it and of coure Dani for his great work on this marvelous Dashboard.
     </string>
-
-    <!-- Icon Pack features (will be visible in home)
-    * Number 1 - 5 must be included, after that only optional -->
-    <string-array name="home_features">
-        <!-- 1. This part must be about number of icons included -->
-        <item>More than 1000 custom icons included</item>
-        <!-- 2. This part must be about icon quality -->
-        <item>192x192 pixels vector based icon</item>
-        <!-- 3. This part must be about number of wallpapers included
-        * If your icon pack doesn't contains wallpaper just ignore this -->
-        <item>100+ cloud wallpapers</item>
-        <!-- 4. This part must be about muzei live wallpaper
-        * If your icon pack doesn't contains wallpaper just ignore this -->
-        <item>Support muzei live wallpaper</item>
-        <!-- 5. This part must be about number of launchers supported -->
-        <item>Support more than 18 custom launchers</item>
-    </string-array>
 
     <!-- More apps at Google Play Store
     * Link to google play store developer
@@ -122,7 +101,7 @@
     <!-- Enable or disable regular icon request
     * default: true
     * change to false to disable it -->
-    <bool name="enable_icon_request">true</bool>
+    <bool name="enable_icon_request">false</bool>
 
     <!-- Enable regular icon request limit
     * default: false
@@ -146,7 +125,7 @@
     <!-- Enable or disable premium request
     * default: false
     * change to true to enable it -->
-    <bool name="enable_premium_request">true</bool>
+    <bool name="enable_premium_request">false</bool>
 
     <!-- Take a look inside License.java for premium request product -->
 
