@@ -10,8 +10,9 @@
     android:paddingStart="@dimen/changelog_content_padding"
     android:paddingRight="@dimen/changelog_content_padding"
     android:paddingEnd="@dimen/changelog_content_padding"
-    android:paddingBottom="@dimen/button_padding"
-    android:drawablePadding="@dimen/button_padding"
-    android:textColor="?android:attr/textColorSecondary"
-    android:textSize="@dimen/text_content_subtitle"
+    android:paddingTop="@dimen/content_padding"
+    android:paddingBottom="@dimen/content_padding"
+    android:drawablePadding="@dimen/content_padding"
+    android:textColor="?android:attr/textColorPrimary"
+    android:textSize="@dimen/text_content_title"
     fontPath="fonts/Font-Regular.ttf"/>

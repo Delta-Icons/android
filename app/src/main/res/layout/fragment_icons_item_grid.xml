@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
     android:id="@+id/container"
@@ -8,19 +9,21 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
-    android:paddingTop="@dimen/icon_thumbnail_padding"
-    android:paddingBottom="@dimen/icon_thumbnail_padding"
-    android:background="?attr/selectableItemBackground"
+    android:layout_marginTop="@dimen/icon_thumbnail_padding"
+    android:layout_marginBottom="@dimen/icon_thumbnail_padding"
+    android:background="?attr/selectableItemBackgroundBorderless"
     android:theme="@style/RippleStyle">
 
-    <com.dm.material.dashboard.candybar.utils.views.SquareImageView
+    <com.dm.material.dashboard.candybar.utils.views.HeaderView
         android:id="@+id/icon"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="@dimen/icon_thumbnail_padding"
         android:layout_marginStart="@dimen/icon_thumbnail_padding"
         android:layout_marginRight="@dimen/icon_thumbnail_padding"
-        android:layout_marginEnd="@dimen/icon_thumbnail_padding"/>
+        android:layout_marginEnd="@dimen/icon_thumbnail_padding"
+        app:heightRatio="1"
+        app:widthRatio="1"/>
 
     <TextView
         android:id="@+id/name"
@@ -28,13 +31,13 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/text_content_small"
         android:gravity="center"
-        android:singleLine="true"
+        android:maxLines="1"
         android:ellipsize="end"
-        android:paddingLeft="@dimen/button_padding"
-        android:paddingStart="@dimen/button_padding"
-        android:paddingRight="@dimen/button_padding"
-        android:paddingEnd="@dimen/button_padding"
-        android:paddingTop="@dimen/button_padding"
+        android:paddingLeft="@dimen/button_margin"
+        android:paddingStart="@dimen/button_margin"
+        android:paddingRight="@dimen/button_margin"
+        android:paddingEnd="@dimen/button_margin"
+        android:layout_marginTop="@dimen/button_margin"
         android:textColor="?android:attr/textColorPrimary"
         fontPath="fonts/Font-Regular.ttf"/>
 

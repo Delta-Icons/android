@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/changelog_version"
@@ -22,7 +24,6 @@
         android:id="@+id/changelog_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/changelog_version"
         android:paddingLeft="@dimen/changelog_content_padding"
         android:paddingStart="@dimen/changelog_content_padding"
         android:paddingRight="@dimen/changelog_content_padding"
@@ -31,23 +32,13 @@
         android:textSize="@dimen/text_content_title"
         fontPath="fonts/Font-Regular.ttf"/>
 
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_below="@+id/changelog_date"
-        android:layout_marginTop="@dimen/button_padding"
-        android:background="?attr/divider_list"/>
-
     <ListView
         android:id="@+id/changelog_list"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_below="@+id/divider"
-        android:paddingTop="@dimen/button_padding"
-        android:clipToPadding="false"
+        android:layout_marginTop="@dimen/dialog_content_margin"
         android:dividerHeight="0dp"
         android:divider="@android:color/transparent"
         android:listSelector="@android:color/transparent" />
 
-</RelativeLayout>
+</LinearLayout>

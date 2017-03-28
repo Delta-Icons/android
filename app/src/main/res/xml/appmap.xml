@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <appmap>
+	<item class=":BROWSER" name="browser" />
+	<item class=":CALCULATOR" name="calculator" />
+	<item class=":CALENDAR" name="calendar" />
+	<item class=":CAMERA" name="camera" />
+	<item class=":CLOCK" name="clock" />
+	<item class=":CONTACTS" name="contacts" />
+	<item class=":EMAIL" name="___aosp_mail" />
+	<item class=":GALLERY" name="gallery" />
+	<item class=":LAUNCHER_ACTION_APP_DRAWER" name="app_drawer_three" />
+	<item class=":LAUNCHER_ACTION_APP_DRAWER_NIGHT" name="app_drawer_eight" />
+	<item class=":PHONE" name="phone" />
+	<item class=":SMS" name="sms_alt_three" />
 	<item class="accky.kreved.skrwt.skrwt/accky.kreved.skrwt.skrwt.LaunchScreenActivity" name="skrwt"/>
 	<item class="acr.browser.barebones/acr.browser.lightning.activity.MainActivity" name="lightning" />
 	<item class="acr.browser.lightning/acr.browser.lightning.activity.MainActivity" name="lightning" />
@@ -87,6 +99,7 @@
 	<item class="com.android.browser/com.android.browser.BrowserActivity" name="bubble__u__pn__p" />
 	<item class="com.android.calculator2/com.android.calculator2.Calculator" name="calculator" />
 	<item class="com.android.calendar/com.android.calendar.AgendaActivity" name="calendar" />
+	<item class="com.samsung.android.calendar/com.android.calendar.AllInOneActivity" name="calendar" />
 	<item class="com.android.calendar/com.android.calendar.AllInOneActivity" name="calendar" />
 	<item class="com.android.calendar/com.android.calendar.CalendarTabActivity" name="calendar" />
 	<item class="com.android.calendar/com.android.calendar.ChooserActivity" name="calendar"/>
@@ -104,14 +117,13 @@
 	<item class="com.android.contacts/com.android.contacts.activities.CallLogActivity" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.activities.ContactsFrontDoor" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.contacts.activities.DialtactsActivity" name="contacts"/>
+	<item class="com.android.contacts/com.android.contacts.activities.DialtactsActivity" name="phone"/>
 	<item class="com.android.contacts/com.android.contacts.activities.PeopleActivity" name="contacts"/>
 	<item class="com.android.contacts/com.android.contacts.activities.PhoneFrontDoor" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" name="contacts"/>
 	<item class="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" name="phone" />
 	<item class="com.android.contacts/com.android.contacts.BaiJiaXingActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity" name="phone" />
 	<item class="com.android.contacts/com.android.contacts.ContactHostActivity" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.ContactsActivity" name="contacts" />
@@ -119,20 +131,16 @@
 	<item class="com.android.contacts/com.android.contacts.ContactsListActivityLauncher" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.ContactsListActivity" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.ContactsMainFromHomeActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.contacts.DialtactsActivityAlias" name="contacts"/>
-	<item class="com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity" name="contacts" />
+	<item class="com.android.contacts/com.android.contacts.DialtactsActivityAlias" name="phone"/>
 	<item class="com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity" name="phone" />
 	<item class="com.android.contacts/com.android.contacts.DialtactsCallLogActivity" name="phone" />
-	<item class="com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity" name="contacts"/>
-	<item class="com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity" name="contacts" />
+	<item class="com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity" name="phone"/>
+	<item class="com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity" name="phone" />
 	<item class="com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.contacts.DialtactsEntryActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity" name="contacts" />
+	<item class="com.android.contacts/com.android.contacts.DialtactsEntryActivity" name="phone" />
 	<item class="com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity" name="phone" />
-	<item class="com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity" name="contacts" />
+	<item class="com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity" name="phone" />
+	<item class="com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity" name="phone" />
 	<item class="com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity" name="phone" />
 	<item class="com.android.contacts/com.android.contacts.ice.IcePeopleActivity" name="contacts"/>
 	<item class="com.android.contacts/com.android.contacts.LaunchCallLogActivity" name="contacts"/>
@@ -144,7 +152,6 @@
 	<item class="com.android.contacts/com.android.contacts.SmartDialerListActivity" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.tmo.LaunchCommunityActivity" name="contacts" />
 	<item class="com.android.contacts/com.android.contacts.TransparentActivity" name="contacts" />
-	<item class="com.android.contacts/com.android.dialer.DialtactsActivity" name="contacts" />
 	<item class="com.android.contacts/com.android.dialer.DialtactsActivity" name="phone" />
 	<item class="com.android.contacts/com.app.contacts.PhoneBookTopMenuActivity" name="contacts" />
 	<item class="com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity" name="contacts" />
@@ -159,7 +166,7 @@
 	<item class="com.android.development/com.android.development.Development" name="dev_tools" />
 	<item class="com.android.dialer/com.android.dialer.dialpad" name="phone" />
 	<item class="com.android.dialer/com.android.dialer.DialtactsActivity" name="phone" />
-	<item class="com.android.dialer/com.oneplus.contacts.activities.OPDialtactsActivity" name="contacts" />
+	<item class="com.android.dialer/com.oneplus.contacts.activities.OPDialtactsActivity" name="phone" />
 	<item class="com.android.documentsui/com.android.documentsui.DocumentsActivity" name="documents" />
 	<item class="com.android.documentsui/com.android.documentsui.LauncherActivity" name="downloads" />
 	<item class="com.android.dualliststk/com.android.dualliststk.StkToolkitActivity" name="sim_toolkit"/>
@@ -177,6 +184,7 @@
 	<item class="com.android.htccontacts/com.android.htccontacts.DialerTabActivity" name="phone" />
 	<item class="com.android.mediacenter/com.android.mediacenter.PageActivity" name="music" />
 	<item class="com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity" name="sms_alt_three" />
+	<item class="com.samsung.android.messaging/com.android.mms.ui.ConversationComposer" name="sms_alt_three" />
 	<item class="com.android.mms/com.android.mms.ui.BootActivity" name="sms_alt_three" />
 	<item class="com.android.mms/com.android.mms.ui.ConversationComposer" name="sms_alt_three" />
 	<item class="com.android.mms/com.android.mms.ui.ConversationList" name="sms_alt_three" />
@@ -238,7 +246,7 @@
 	<item class="com.asus.calculator/com.asus.calculator.Calculator" name="calculator" />
 	<item class="com.asus.calendar/com.android.calendar.AllInOneActivity" name="calendar" />
 	<item class="com.asus.camera/com.asus.camera.CameraApp" name="camera" />
-	<item class="com.asus.contacts/com.android.contacts.activities.DialtactsActivity" name="contacts" />
+	<item class="com.asus.contacts/com.android.contacts.activities.DialtactsActivity" name="phone" />
 	<item class="com.asus.contacts/com.android.contacts.activities.PeopleActivity" name="contacts" />
 	<item class="com.asus.deskclock/com.asus.deskclock.DeskClock" name="clock" />
 	<item class="com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity" name="cyanogenmod_file_manager" />
@@ -692,7 +700,7 @@
 	<item class="com.lenovo.deskclock/com.lenovo.deskclock.DeskClock" name="clock" />
 	<item class="com.lenovo.FileBrowser2/com.lenovo.FileBrowser.activities.FileBrowserMain" name="cyanogenmod_file_manager" />
 	<item class="com.lenovo.gallery/com.lenovo.gallery.app.GalleryActivity" name="gallery"/>
-	<item class="com.lenovo.ideafriend/com.lenovo.ideafriend.alias.DialtactsActivity" name="contacts"/>
+	<item class="com.lenovo.ideafriend/com.lenovo.ideafriend.alias.DialtactsActivity" name="phone"/>
 	<item class="com.lenovo.ideafriend/com.lenovo.ideafriend.alias.PeopleActivity" name="contacts" />
 	<item class="com.lenovo.scg/com.lenovo.scg.camera.CameraLauncher" name="camera" />
 	<item class="com.lenovo.StkSelection/com.lenovo.StkSelection.StkSelection" name="sim_toolkit"/>
@@ -724,7 +732,7 @@
 	<item class="com.luckydroid.droidbase/com.luckydroid.droidbase.DroidBaseActivity2" name="memento" />
 	<item class="com.mail.mobile.android.mail/com.fsck.k9.activity.Accounts" name="mail_com" />
 	<item class="com.mantano.reader.android/com.mantano.android.library.activities.BookariSplashScreen" name="mantano_reader"/>
-	<item class="com.mapswithme.maps.pro/com.mapswithme.maps.DownloadappmapActivity" name="maps_me"/>
+	<item class="com.mapswithme.maps.pro/com.mapswithme.maps.DownloadResourcesActivity" name="maps_me"/>
 	<item class="com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity" name="poweramp"/>
 	<item class="com.mdv.swbicompanion/com.mdv.swbicompanion.StartupScreen" name="mobiel" />
 	<item class="com.mediatek.camera/com.android.camera.CameraLauncher" name="camera"/>
@@ -840,8 +848,8 @@
 	<item class="com.northcube.sleepcycle/com.northcube.sleepcycle.LauncherActivity" name="sleep_cycle" />
 	<item class="com.nqk.vibratemodeextended/com.nqk.vibratemodeextended.MainActivity" name="vibratemode"/>
 	<item class="com.nuance.swype.dtc/com.nuance.swype.input.settings.SettingsDispatch" name="swype" />
-	<item class="com.nytimes.android/com.nytimes.android.activity.MainActivity_" name ="ny_times" />
-	<item class="com.nytimes.android/com.nytimes.android.MainActivity" name ="ny_times" />
+	<AppIcon class="com.nytimes.android/com.nytimes.android.activity.MainActivity_" drawable ="ny_times" />
+	<AppIcon class="com.nytimes.android/com.nytimes.android.MainActivity" drawable ="ny_times" />
 	<item class="com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity" name="greenify" />
 	<item class="com.ochs.pipette/com.ochs.pipette.StartActivity" name="pipette" />
 	<item class="com.ogqcorp.bgh/com.ogqcorp.bgh.activity.MainActivity" name="backgrounds" />
@@ -941,8 +949,8 @@
 	<item class="com.samsung.android.app.memo/com.samsung.android.app.memo.Main" name="quickmemo" />
 	<item class="com.samsung.android.app.watchmanager/com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" name="samsung_gear"/>
 	<item class="com.samsung.android.contacts/com.android.contacts.activities.PeopleActivity" name="contacts"/>
-	<item class="com.android.calendar/com.android.calendar.homepage.AllInOneActivity" name="calendar" />    <calendar class="com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
-	<item class="com.samsung.android.contacts/com.android.dialer.DialtactsActivity" name="contacts"/>
+	<item class="com.android.calendar/com.android.calendar.homepage.AllInOneActivity" name="calendar" />    <calendar class="com.android.calendar/com.android.calendar.AllInOneActivity" prefix="calendar_" />
+	<item class="com.samsung.android.contacts/com.android.dialer.DialtactsActivity" name="phone"/>
 	<item class="com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL" name="___aosp_mail" />
 	<item class="com.samsung.android.email.ui/com.samsung.android.email.ui.activity.MessageListXL" name="___aosp_mail" />
 	<item class="com.samsung.android.game.gamehome/com.samsung.android.game.gamehome.activity.StartActivity" name="samsung_game_launcher" />
@@ -1137,7 +1145,7 @@
 	<item class="com.underwood.agenda.free/com.underwood.agenda.free.WidgetConfigurationActivity" name="today_widget" />
 	<item class="com.underwood.agenda/com.underwood.agenda.WidgetConfigurationActivity" name="today_widget" />
 	<item class="com.underwood.calendar/com.android.calendar.AllInOneActivity" name="today_calendar"/>
-	<item class="com.underwood.calendar/com.underwood.calendar.MainActivity" name="today_calendar"/>    <calendar class="com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_"/>
+	<item class="com.underwood.calendar/com.underwood.calendar.MainActivity" name="today_calendar"/>    <calendar class="com.underwood.calendar_beta/com.android.calendar.AllInOneActivity" prefix="today_calendar_"/>
 	<item class="com.underwood.calendar_beta/com.android.calendar.AllInOneActivity" name="today_calendar"/>
 	<item class="com.underwood.monospace/com.underwood.monospace.library.LibraryActivity" name="monospace" />
 	<item class="com.unicredit/com.unicredit.UniCreditMobileBanking" name="bank" />
@@ -1207,7 +1215,7 @@
 	<item class="de.hafas.android.sbm/de.hafas.main.HafasApp" name="muenchen_navigator"/>
 	<item class="de.heute.mobile/de.heute.mobile.PlatformSwitch" name="zdf_heute" />
 	<item class="de.hubermedia.android.kompass/de.hubermedia.android.kompass.activity.IntroActivity" name="wanderkarte"/>
-	<item class="de.lineas.lit.ntv.android/de.lineas.ntv.tablet.MainActivity" name ="n_tv" />
+	<AppIcon class="de.lineas.lit.ntv.android/de.lineas.ntv.tablet.MainActivity" drawable ="n_tv" />
 	<item class="de.mobilesoftwareag.clevertanken/de.mobilesoftwareag.clevertanken.CleverTankenActivity" name="clever_tanken" />
 	<item class="de.motain.iliga/de.motain.iliga.activity.FastLaunchSplashScreenActivity" name="onefootball" />
 	<item class="de.mygrades/de.mygrades.view.activity.MainActivity" name="my__grades"/>
@@ -1469,7 +1477,7 @@
 	<item class="com.gh4a/com.gh4a.activities.Github4AndroidActivity" name="octodroid" />
 	<item class="com.google.android.projection.gearhead/com.google.android.gearhead.vanagon.VnLaunchPadActivity" name="android_auto" />
 	<item class="com.guidedways.android2do/com.guidedways.android2do.v2.screens.MainAppActivity" name="two_do" />
-	<item class="com.hutchison3g.planet3/com.hutchison3g.planet3.Planet3Activity" name="threein" />
+	<item class="com.hutchison3g.planet3/com.hutchison3g.planet3.Planet3Activity" name="three" />
 	<item class="com.idmedia.android.newsportal/de.dw.mobile.activities.SplashActivity" name="dw" />
 	<item class="com.imvu.mobilecordova/com.imvu.scotch.MainActivity" name="imvu" />
 	<item class="com.kayak.android/com.kayak.android.Splash" name="kayak" />
@@ -1515,7 +1523,7 @@
 	<item class="de.dfki.appdetox/de.dfki.appdetox.ui.activities.MainActivity" name="appdetox" />
 	<item class="com.intrepidlogic.calibrecloud/com.intrepidlogic.calibrecloud.MainActivity " name="calibre_cloud" />
 	<item class="net.sharewire.parkmobilev2/us.parkmobile.android.ui.screens.general.IntroActivity" name="parkmobile" />
-	<item class="com.passesalliance.wallet/com.passesalliance.wallet.activity.MainActivityEx" name="pass_two_u_wallet" />
+	<item class="com.passesalliance.wallet/com.passesalliance.wallet.activity.MainActivityEx" name="pass_two_u" />
 	<item class="com.rb.rocketbook/com.rb.rocketbook.StartupActivity" name="rocketbook" />
 	<item class="mango9.com.sleepybox/mango9.com.sleepybox.MainActivity" name="sleepy_box" />
 	<item class="com.fastemulator.gbc/com.fastemulator.gbc.MainActivity" name="my_oldboy" />
@@ -1523,7 +1531,7 @@
 	<item class="com.wakdev.nfctools.pro/com.wakdev.nfctools.pro.MainActivityPro" name="nfc_tools" />
 	<item class="com.wakdev.nfctasks/com.wakdev.nfctasks.MainActivity" name="nfc_tasks" />
 	<item class="vstc.vscam.client/vstc.vscam.client.SplashActivity" name="eye_four" />
-	<item class="com.motorola.contextual.smartrules2/com.motorola.contextaware.ui.GalleryActivity" name="assist" />
+	<item class="com.motorola.contextual.smartrules2/com.motorola.contextaware.ui.GalleryActivity" name="moto_assist" />
 	<item class="be.belfius.directmobile.android/be.belfius.directmobile.android.presenter.SplashActivity" name="belfius_mobile" />
 	<item class="com.vikingco.vikingapp/com.vikingco.vikingapp.activities.MainActivity" name="viking_app" />
 	<item class="com.nintendo.zaba/org.cocos2dx.cpp.AppActivity" name="fire_emblem_heroes" />
@@ -1557,6 +1565,7 @@
 	<item class="jp.ddo.pigsty.HabitBrowser/jp.ddo.pigsty.HabitBrowser.Features.Browser.BrowserActivity" name="habit_browser" />
 	<item class="com.rookiestudio.perfectviewer/com.rookiestudio.perfectviewer.TStartup" name="perfect_viewer" />
 	<item class="com.cloudmosa.puffin/com.cloudmosa.app.LemonActivity" name="puffin" />
+	<item class="com.cloudmosa.puffinFree/com.cloudmosa.puffinFree.LemonActivity" name="puffin" />
 	<item class="com.starbucks.cee/com.starbucks.cee.MainActivity" name="starbucks" />
 	<item class="com.godmodev.optime/com.godmodev.optime.ui.activities.MainActivity" name="savemytime" />
 	<item class="com.moneybookers.skrillpayments/com.moneybookers.skrillpayments.v2.ui.LauncherActivity" name="skrill" />
@@ -1603,4 +1612,30 @@
 	<item class="seedpod.companion.subnautica/seedpod.companion.subnautica.MainActivity" name="subnautica" />
 	<item class="io.vinci.android/io.vinci.android.MainActivity" name="vinci" />
 	<item class="de.eos.uptrade.android.fahrinfo.dresden/de.eos.uptrade.android.fahrinfo.activity.tabs.MainTabActivity" name="fahrinfo" />
+	<item class="com.gaana/com.gaana.SplashScreenActivity-Original" name="gaana" />
+	<item class="com.ideacellular.myidea/com.ideacellular.myidea.SplashScreen" name="my_idea" />
+	<item class="com.mventus.selfcare.activity/com.mventus.selfcare.activity.SplashScreenActivity" name="vodafone" />
+	<!-- 1.1.7 -->
+	<item class="com.gaana/com.gaana.SplashScreenActivity-Original" name="gaana" />
+	<item class="com.ideacellular.myidea/com.ideacellular.myidea.SplashScreen" name="my_idea" />
+	<item class="com.mventus.selfcare.activity/com.mventus.selfcare.activity.SplashScreenActivity" name="vodafone" />
+	<item class="com.jio.join/com.witsoftware.wmc.SplashScreenActivity" name="jio_voice" />
+	<item class="es.tid.gconnect/es.tid.gconnect.bootstrap.SplashActivity" name="tu" />
+	<item class="air.org.edupage/air.org.edupage.AppEntry" name="edupage" />
+	<item class="com.google.android.vr.home/com.google.android.apps.vr.home.app.MainActivity" name="daydream" />
+	<item class="de.burgerking.kingfinder/de.xroot.burgerking.ui.activity.SplashScreenActivity" name="burger_king" />
+	<item class="com.samsung.android.spay/com.samsung.android.spay.ui.SpayMainActivity" name="samsung_pay" />
+	<item class="com.aimp.player/com.aimp.player.views.MainActivity.MainActivity" name="aimp" />
+	<item class="de.burgerking.kingfinder/de.xroot.burgerking.ui.activity.SplashScreenActivity" name="burger_king" />
+	<item class="com.ea.gp.fifamobile/com.ea.gp.fifamobile.FifaMainActivity" name="fifa_mobile" />
+	<item class="com.google.android.apps.emergencyassist/com.google.android.apps.emergencyassist.MainActivity" name="trusted_contacts" />
+	<item class="net.oneplus.weather/net.oneplus.weather.app.MainActivity" name="weather" />
+	<item class="com.oneplus.calendar/com.android.calendar.AllInOneActivity" name="calendar" />
+	<item class="com.oneplus.filemanager/com.oneplus.filemanager.HomePageActivity" name="cyanogenmod_file_manager" />
+	<item class="net.oneplus.deskclock/net.oneplus.deskclock.DeskClock" name="clock" />
+	<item class="net.oneplus.music/net.oneplus.music.activity.MainActivity" name="music" />
+	<item class="com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity" name="gallery" />
+	<item class="com.oneplus.soundrecorder/com.oneplus.soundrecorder.SoundRecorder" name="sound_recorder" />
+	<item class="com.oneplus.calculator/com.oneplus.calculator.Calculator" name="calculator" />
+	<item class="com.oneplus.camera/com.oneplus.camera.OPCameraActivity" name="camera" />
 </appmap>

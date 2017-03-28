@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="?attr/colorPrimary">
 
-    <ImageView
+    <com.dm.material.dashboard.candybar.utils.views.HeaderView
         android:id="@+id/header_image"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/navigation_view_header_height"
+        android:layout_height="match_parent"
+        android:padding="@dimen/default_image_padding"
         android:scaleType="fitCenter"
-        android:padding="@dimen/about_profile_margin_top" />
+        app:heightRatio="3"
+        app:widthRatio="4" />
 
     <LinearLayout
         android:id="@+id/header_title_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="bottom|start"
-        android:padding="16dp"
-        android:background="@color/navigationViewTitleBack"
-        android:visibility="gone">
+        android:orientation="vertical"
+        android:padding="@dimen/content_margin">
 
         <TextView
             android:id="@+id/header_title"
+            fontPath="fonts/Font-Medium.ttf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/navigationViewTitle"
-            android:textSize="16sp"
             android:text="@string/navigation_view_header_title"
-            fontPath="fonts/Font-Medium.ttf"/>
+            android:textColor="@color/navigationViewTitle"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/header_version"
+            fontPath="fonts/Font-Regular.ttf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/navigationViewTitle"
-            android:textSize="14sp"
-            fontPath="fonts/Font-Regular.ttf"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
-
 
 </FrameLayout>

@@ -12,7 +12,7 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/intent_content_padding"
+        android:padding="@dimen/content_margin"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:background="?attr/selectableItemBackground"
@@ -20,13 +20,15 @@
 
         <ImageView
             android:id="@+id/icon"
-            android:layout_width="34dp"
-            android:layout_height="34dp"
+            android:layout_width="@dimen/icon_size_medium"
+            android:layout_height="@dimen/icon_size_medium"
             android:layout_gravity="center_vertical" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_marginStart="@dimen/content_margin"
             android:orientation="vertical"
             android:gravity="center_vertical">
 
@@ -34,10 +36,8 @@
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/intent_content_padding"
-                android:layout_marginStart="@dimen/intent_content_padding"
                 android:textSize="@dimen/text_content_title"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:ellipsize="end"
                 android:textColor="?android:attr/textColorPrimary"
                 fontPath="fonts/Font-Medium.ttf"/>
@@ -46,10 +46,8 @@
                 android:id="@+id/type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/intent_content_padding"
-                android:layout_marginStart="@dimen/intent_content_padding"
                 android:textSize="@dimen/text_content"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:ellipsize="end"
                 android:textColor="?android:attr/textColorSecondary"
                 fontPath="fonts/Font-Regular.ttf"/>
@@ -61,11 +59,7 @@
     <View
         android:id="@+id/divider"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="@dimen/intent_content_padding"
-        android:layout_marginStart="@dimen/intent_content_padding"
-        android:layout_marginRight="@dimen/intent_content_padding"
-        android:layout_marginEnd="@dimen/intent_content_padding"
-        android:background="?attr/divider_list"/>
+        android:layout_height="@dimen/content_divider_size"
+        android:background="?android:attr/listDivider"/>
 
 </LinearLayout>

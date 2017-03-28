@@ -10,6 +10,8 @@
         android:id="@+id/icons_grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingTop="@dimen/content_padding"
+        android:paddingBottom="@dimen/content_padding"
         android:clipToPadding="false" />
 
     <com.pluscubed.recyclerfastscroll.RecyclerFastScroller

@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:background="?attr/main_background"
+        android:background="?attr/card_background"
         android:theme="@style/NavigationViewStyle"
         app:headerLayout="@layout/navigation_view_header"
         app:menu="@menu/menu_navigation_view"/>

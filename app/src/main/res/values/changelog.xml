@@ -2,16 +2,18 @@
 <resources>
 
     <!-- Leave empty if you don't want to show changelog date -->
-    <string name="changelog_date">December 21, 2016</string>
+    <string name="changelog_date">March 6, 2017</string>
 
     <!-- Changelog support html formatting
     * <b> for Bold
     * <i> for Italic
     * <u> for Underline -->
     <string-array name="changelog">
-        <item>Last release for a while</item>
-        <item>No icon requests (i need vacations too)</item>
-        <item>39 new icons</item>
+        <item><strong>1.1.7</strong></item>
+        <item>Dashboard update</item>
+        <item>Report Bugs now under Settings (still does not magically report all bugs, you need to add a message)</item>
+        <item>Some New Icons</item>
+        <item>Premium Requests open again</item>
     </string-array>
 
 </resources>
