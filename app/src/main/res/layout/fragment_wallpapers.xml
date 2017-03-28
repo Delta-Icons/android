@@ -16,7 +16,10 @@
             android:id="@+id/wallpapers_grid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="@dimen/content_padding"
+            android:paddingTop="@dimen/card_margin_top"
+            android:paddingStart="@dimen/card_margin_left"
+            android:paddingLeft="@dimen/card_margin_left"
+            android:paddingBottom="@dimen/card_margin_bottom"
             android:clipToPadding="false"/>
 
     </android.support.v4.widget.SwipeRefreshLayout>
@@ -25,10 +28,7 @@
         android:id="@+id/fastscroll"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="end"
-        app:rfs_barColor="?android:attr/textColorSecondary"
-        app:rfs_handleNormalColor="?android:attr/textColorSecondary"
-        app:rfs_handlePressedColor="?attr/colorAccent"/>
+        android:layout_gravity="end" />
 
     <ProgressBar
         android:id="@+id/progress"

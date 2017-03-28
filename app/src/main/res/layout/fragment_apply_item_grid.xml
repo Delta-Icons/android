@@ -6,8 +6,8 @@
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-
-    app:cardElevation="0dp"
+    app:cardBackgroundColor="?attr/card_background"
+    app:cardElevation="@dimen/card_elevation"
     app:cardUseCompatPadding="true"
     app:cardCornerRadius="@dimen/card_corner_radius">
 
@@ -20,26 +20,23 @@
         android:foreground="?attr/selectableItemBackground"
         android:theme="@style/RippleStyle">
 
-        <com.dm.material.dashboard.candybar.utils.views.SquareImageView
+        <com.dm.material.dashboard.candybar.utils.views.HeaderView
             android:id="@+id/icon"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            app:heightRatio="1"
+            app:widthRatio="1"/>
 
         <TextView
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/card_padding"
-            android:paddingStart="@dimen/card_padding"
-            android:paddingRight="@dimen/card_padding"
-            android:paddingEnd="@dimen/card_padding"
-            android:paddingTop="@dimen/card_padding"
-            android:paddingBottom="@dimen/card_padding"
+            android:padding="@dimen/content_margin"
             android:gravity="center"
             android:textSize="@dimen/text_content"
-            android:singleLine="true"
+            android:maxLines="1"
             android:ellipsize="end"
-            android:background="?android:attr/textColorSecondary"
+            android:background="?attr/card_background"
             fontPath="fonts/Font-Medium.ttf"/>
 
     </LinearLayout>

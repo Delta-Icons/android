@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/content_margin"
+    android:background="?attr/card_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_dashboard"
+        android:textSize="@dimen/text_content_title"
+        android:textColor="?android:attr/textColorPrimary"
+        fontPath="fonts/Font-Medium.ttf"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_padding"
+        android:text="@string/about_dashboard_dev"
+        android:textSize="@dimen/text_content"
+        android:textColor="?android:attr/textColorPrimary"
+        fontPath="fonts/Font-Regular.ttf"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="@dimen/content_margin">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/dev_google_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about_dashboard_dev_google_plus_title"
+            android:textSize="@dimen/text_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:backgroundTint="?attr/card_background"
+            fontPath="fonts/Font-Medium.ttf"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/dev_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about_dashboard_dev_github_title"
+            android:textSize="@dimen/text_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:backgroundTint="?attr/colorAccent"
+            fontPath="fonts/Font-Medium.ttf"/>
+
+    </LinearLayout>
+
+</LinearLayout>

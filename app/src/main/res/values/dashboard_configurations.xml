@@ -32,7 +32,10 @@
 
     <!-- Splash screen duration in milliseconds
     * default: 1500 milliseconds -> 1.5 seconds -->
-    <integer name="splash_screen_duration">1500</integer>
+    <integer name="splash_screen_duration">3000</integer>
+
+
+    <string name="splash_screen_title">Delta</string>
 
     <!-- CONFIG: HOME -->
     
@@ -46,19 +49,11 @@
     * Leave empty if you don't want to show any text -->
     <string name="home_title">Delta</string>
 
-    <!-- Text below home title
-    * Leave empty if you don't want to show any text -->
-    <string name="home_subtitle"></string>
-
     <!-- Home image
     * If you want to use image from url, just put the url here
     * If you want to use image stored in project (drawable folder)
     * just put image name here without the extension (ex: home_image.png -> home_image) -->
-    <string name="home_image">home_image</string>
-
-    <!-- Home image height
-    * default: 256dp -->
-   <dimen name="home_image_height">380dp</dimen>
+    <string name="home_image"></string>
 
     <!-- Home description
     - If you don't want to show description, just leave this empty -->
@@ -84,10 +79,6 @@
     * just put image name here without the extension
     * (ex: navigation_view_header.png -> navigation_view_header) -->
     <string name="navigation_view_header">ic_splash_screen</string>
-
-    <!-- Navigation view header height
-    * default: 220dp -->
-    <dimen name="navigation_view_header_height">280dp</dimen>
 
     <!-- Navigation view header text
     * Leave empty if you don't want to show any text -->
@@ -125,7 +116,7 @@
     <!-- Enable or disable premium request
     * default: false
     * change to true to enable it -->
-    <bool name="enable_premium_request">false</bool>
+    <bool name="enable_premium_request">true</bool>
 
     <!-- Take a look inside License.java for premium request product -->
 

@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="colorPrimary">#4A4A4A</color>
+    <color name="colorPrimary">#ECECEC</color>
     <color name="colorPrimaryDark">#222</color>
-    <color name="colorAccent">#ff837d</color>
+    <color name="colorAccent">#9ABEFF</color>
 
     <color name="darkColorPrimary">#222222</color>
     <color name="darkColorPrimaryDark">#111111</color>
     <color name="darkColorAccent">#ff837d</color>
     <color name="darkColorAccentSecondary">#b75752</color>
 
+    <!-- Navigation Bar Must be solid color, no alpha -->
+    <color name="navigationBar">#56595B</color>
+    <color name="navigationBarDark">#000000</color>
+
     <!-- Splash Screen -->
     <color name="splashColor">#222222</color>
 
     <!-- Navigation View -->
-    <color name="navigationViewTitle">#FFFFFF</color>
+    <color name="navigationViewTitle">#56595B</color>
     <color name="navigationViewTitleBack">#33000000</color>
-    <color name="navigationViewText">#484848</color>
+    <color name="navigationViewText">#56595B</color>
     <color name="navigationViewTextDark">#FFFFFF</color>
-    <color name="navigationViewTextSelected">#ff837d</color>
+    <color name="navigationViewTextSelected">#9ABEFF</color>
     <color name="navigationViewTextSelectedDark">#b75752</color>
 
     <!-- Swipe Refresh -->
     <color name="swipeRefresh">#ff837d</color>
 
     <!-- Toolbar -->
-    <color name="toolbarIcon">#FFFFFFFF</color>
+    <color name="toolbarIcon">#FF56595B</color>
     <color name="toolbarIconDark">#FFFFFFFF</color>
 
     <!-- Toolbar Search -->
-    <color name="searchToolbar">#fff</color>
+    <color name="searchToolbar">#56595B</color>
     <color name="searchToolbarDark">#222</color>
-    <color name="searchToolbarIcon">#ccc</color>
+    <color name="searchToolbarIcon">#56595B</color>
     <color name="searchToolbarIconDark">#4A4A4A</color>
     <color name="searchToolbarHintText">#44000000</color>
     <color name="searchToolbarHintTextDark">#44FFFFFF</color>
 
-    <!-- Home -->
-    <color name="homeTitle">#FFFFFF</color>
-    <color name="homeTitleDark">#FFFFFF</color>
-
     <!-- Tab -->
-    <color name="tabIndicator">#ff837d</color>
+    <color name="tabIndicator">#9ABEFF</color>
     <color name="tabIndicatorDark">#ff837d</color>
-    <color name="tabText">#44FFFFFF</color>
+    <color name="tabText">#56595B</color>
     <color name="tabTextDark">#44FFFFFF</color>
-    <color name="tabTextSelected">#FFFFFF</color>
+    <color name="tabTextSelected">#56595B</color>
     <color name="tabTextSelectedDark">#FFFFFF</color>
 
     <!-- Card -->
@@ -59,16 +59,20 @@
     <color name="rippleAccentDark">#22ff837d</color>
 
     <!-- Attributes -->
-    <color name="mainBackground">#FAFAFA</color>
+    <color name="mainBackground">#ECECEC</color>
     <color name="mainBackgroundDark">#222222</color>
-    <color name="primaryText">#484848</color>
+    <color name="primaryText">#56595B</color>
     <color name="primaryTextDark">#EEFFFFFF</color>
-    <color name="secondaryText">#777777</color>
+    <color name="secondaryText">#A0A5AF</color>
     <color name="secondaryTextDark">#99FFFFFF</color>
     <color name="hintText">#44FFFFFF</color>
     <color name="hintTextDark">#44FFFFFF</color>
     <color name="dividerList">#EEEEEE</color>
     <color name="dividerListDark">#00FFFFFF</color>
+
+    <!-- Fast Scroll -->
+    <color name="fastScrollHandle">#757575</color>
+    <color name="fastScrollHandleDark">#B2B2B2</color>
 
     <!-- Popup Bubble -->
     <color name="popupBubble">#ff837d</color>

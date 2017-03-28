@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:text="@string/muzei_settings"
-            android:singleLine="true"
+            android:maxLines="1"
             android:ellipsize="end"
             android:textSize="@dimen/text_toolbar_title"
             android:textColor="?attr/toolbar_icon"
@@ -46,9 +46,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/muzei_refresh_duration"
                 android:textSize="@dimen/text_toolbar_title"
-                android:textColor="?attr/colorAccent"
+                android:textColor="?android:attr/textColorPrimary"
                 android:gravity="center"
-                fontPath="fonts/Font-Bold.ttf"/>
+                fontPath="fonts/Font-Medium.ttf"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"

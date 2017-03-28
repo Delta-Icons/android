@@ -17,7 +17,7 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/card_padding"
+        android:layout_marginTop="@dimen/content_margin"
         android:textColor="?android:attr/textColorPrimary"
         android:textSize="@dimen/text_content_header"
         fontPath="fonts/Font-Medium.ttf"/>

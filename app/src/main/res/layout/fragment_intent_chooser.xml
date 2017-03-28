@@ -21,7 +21,7 @@
         android:layout_below="@+id/intent_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/card_padding"
+        android:padding="@dimen/content_margin"
         android:gravity="center"
         android:text="@string/no_email_app"
         android:textSize="@dimen/text_content_subtitle"

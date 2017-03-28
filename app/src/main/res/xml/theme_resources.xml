@@ -11,6 +11,18 @@
     <DockMenuAppIcon selector="app_drawer" />
 
     <!-- This is how to format this xml to get your icons to work with LG Home -->
+    <AppIcon name=":BROWSER" image="browser" />
+    <AppIcon name=":CALCULATOR" image="calculator" />
+    <AppIcon name=":CALENDAR" image="calendar" />
+    <AppIcon name=":CAMERA" image="camera" />
+    <AppIcon name=":CLOCK" image="clock" />
+    <AppIcon name=":CONTACTS" image="contacts" />
+    <AppIcon name=":EMAIL" image="___aosp_mail" />
+    <AppIcon name=":GALLERY" image="gallery" />
+    <AppIcon name=":LAUNCHER_ACTION_APP_DRAWER" image="app_drawer_three" />
+    <AppIcon name=":LAUNCHER_ACTION_APP_DRAWER_NIGHT" image="app_drawer_eight" />
+    <AppIcon name=":PHONE" image="phone" />
+    <AppIcon name=":SMS" image="sms_alt_three" />
     <AppIcon name="accky.kreved.skrwt.skrwt/accky.kreved.skrwt.skrwt.LaunchScreenActivity" image="skrwt"/>
     <AppIcon name="acr.browser.barebones/acr.browser.lightning.activity.MainActivity" image="lightning" />
     <AppIcon name="acr.browser.lightning/acr.browser.lightning.activity.MainActivity" image="lightning" />
@@ -98,6 +110,7 @@
     <AppIcon name="com.android.browser/com.android.browser.BrowserActivity" image="bubble__u__pn__p" />
     <AppIcon name="com.android.calculator2/com.android.calculator2.Calculator" image="calculator" />
     <AppIcon name="com.android.calendar/com.android.calendar.AgendaActivity" image="calendar" />
+    <AppIcon name="com.samsung.android.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
     <AppIcon name="com.android.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
     <AppIcon name="com.android.calendar/com.android.calendar.CalendarTabActivity" image="calendar" />
     <AppIcon name="com.android.calendar/com.android.calendar.ChooserActivity" image="calendar"/>
@@ -115,14 +128,13 @@
     <AppIcon name="com.android.contacts/com.android.contacts.activities.CallLogActivity" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.activities.ContactsFrontDoor" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.contacts.activities.DialtactsActivity" image="contacts"/>
+    <AppIcon name="com.android.contacts/com.android.contacts.activities.DialtactsActivity" image="phone"/>
     <AppIcon name="com.android.contacts/com.android.contacts.activities.PeopleActivity" image="contacts"/>
     <AppIcon name="com.android.contacts/com.android.contacts.activities.PhoneFrontDoor" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" image="contacts"/>
     <AppIcon name="com.android.contacts/com.android.contacts.activities.TwelveKeyDialer" image="phone" />
     <AppIcon name="com.android.contacts/com.android.contacts.BaiJiaXingActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity" image="phone" />
     <AppIcon name="com.android.contacts/com.android.contacts.ContactHostActivity" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.ContactsActivity" image="contacts" />
@@ -130,20 +142,16 @@
     <AppIcon name="com.android.contacts/com.android.contacts.ContactsListActivityLauncher" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.ContactsListActivity" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.ContactsMainFromHomeActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsActivityAlias" image="contacts"/>
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity" image="contacts" />
+    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsActivityAlias" image="phone"/>
     <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity" image="phone" />
     <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallLogActivity" image="phone" />
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity" image="contacts"/>
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity" image="contacts" />
+    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity" image="phone"/>
+    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity" image="phone" />
     <AppIcon name="com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsEntryActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity" image="contacts" />
+    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsEntryActivity" image="phone" />
     <AppIcon name="com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity" image="phone" />
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity" image="contacts" />
+    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity" image="phone" />
+    <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity" image="phone" />
     <AppIcon name="com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity" image="phone" />
     <AppIcon name="com.android.contacts/com.android.contacts.ice.IcePeopleActivity" image="contacts"/>
     <AppIcon name="com.android.contacts/com.android.contacts.LaunchCallLogActivity" image="contacts"/>
@@ -155,7 +163,6 @@
     <AppIcon name="com.android.contacts/com.android.contacts.SmartDialerListActivity" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.tmo.LaunchCommunityActivity" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.contacts.TransparentActivity" image="contacts" />
-    <AppIcon name="com.android.contacts/com.android.dialer.DialtactsActivity" image="contacts" />
     <AppIcon name="com.android.contacts/com.android.dialer.DialtactsActivity" image="phone" />
     <AppIcon name="com.android.contacts/com.app.contacts.PhoneBookTopMenuActivity" image="contacts" />
     <AppIcon name="com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity" image="contacts" />
@@ -170,7 +177,7 @@
     <AppIcon name="com.android.development/com.android.development.Development" image="dev_tools" />
     <AppIcon name="com.android.dialer/com.android.dialer.dialpad" image="phone" />
     <AppIcon name="com.android.dialer/com.android.dialer.DialtactsActivity" image="phone" />
-    <AppIcon name="com.android.dialer/com.oneplus.contacts.activities.OPDialtactsActivity" image="contacts" />
+    <AppIcon name="com.android.dialer/com.oneplus.contacts.activities.OPDialtactsActivity" image="phone" />
     <AppIcon name="com.android.documentsui/com.android.documentsui.DocumentsActivity" image="documents" />
     <AppIcon name="com.android.documentsui/com.android.documentsui.LauncherActivity" image="downloads" />
     <AppIcon name="com.android.dualliststk/com.android.dualliststk.StkToolkitActivity" image="sim_toolkit"/>
@@ -188,6 +195,7 @@
     <AppIcon name="com.android.htccontacts/com.android.htccontacts.DialerTabActivity" image="phone" />
     <AppIcon name="com.android.mediacenter/com.android.mediacenter.PageActivity" image="music" />
     <AppIcon name="com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity" image="sms_alt_three" />
+    <AppIcon name="com.samsung.android.messaging/com.android.mms.ui.ConversationComposer" image="sms_alt_three" />
     <AppIcon name="com.android.mms/com.android.mms.ui.BootActivity" image="sms_alt_three" />
     <AppIcon name="com.android.mms/com.android.mms.ui.ConversationComposer" image="sms_alt_three" />
     <AppIcon name="com.android.mms/com.android.mms.ui.ConversationList" image="sms_alt_three" />
@@ -249,7 +257,7 @@
     <AppIcon name="com.asus.calculator/com.asus.calculator.Calculator" image="calculator" />
     <AppIcon name="com.asus.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
     <AppIcon name="com.asus.camera/com.asus.camera.CameraApp" image="camera" />
-    <AppIcon name="com.asus.contacts/com.android.contacts.activities.DialtactsActivity" image="contacts" />
+    <AppIcon name="com.asus.contacts/com.android.contacts.activities.DialtactsActivity" image="phone" />
     <AppIcon name="com.asus.contacts/com.android.contacts.activities.PeopleActivity" image="contacts" />
     <AppIcon name="com.asus.deskclock/com.asus.deskclock.DeskClock" image="clock" />
     <AppIcon name="com.asus.filemanager/com.asus.filemanager.activity.FileManagerActivity" image="cyanogenmod_file_manager" />
@@ -647,7 +655,7 @@
     <AppIcon name="com.intsig.camscanner/com.intsig.camscanner.WelcomeActivity" image="cam__scanner"/>
     <AppIcon name="com.invi/com.invi.messenger.activities.MainActivity" image="invi"/>
     <AppIcon name="com.ionicframework.bledimmerela220575/com.ionicframework.bledimmerela220575.MainActivity" image="decora_digital"/>
-    <AppIcon name="com.AppIconstudio.castro/com.AppIconstudio.castro.activity.BaseActivity" image="castro" />
+    <AppIcon name="com.itemstudio.castro/com.itemstudio.castro.activity.BaseActivity" image="castro" />
     <AppIcon name="com.iudesk.android.photo.editor/app.activity.MainActivity" image="photo_editor"/>
     <AppIcon name="com.jappit.android.guidatvfree/com.jappit.android.guidatvfree.guidatv" image="tv_guide" />
     <AppIcon name="com.javiersantos.mlmanager/com.javiersantos.mlmanager.activities.MainActivity" image="ml_manager" />
@@ -703,7 +711,7 @@
     <AppIcon name="com.lenovo.deskclock/com.lenovo.deskclock.DeskClock" image="clock" />
     <AppIcon name="com.lenovo.FileBrowser2/com.lenovo.FileBrowser.activities.FileBrowserMain" image="cyanogenmod_file_manager" />
     <AppIcon name="com.lenovo.gallery/com.lenovo.gallery.app.GalleryActivity" image="gallery"/>
-    <AppIcon name="com.lenovo.ideafriend/com.lenovo.ideafriend.alias.DialtactsActivity" image="contacts"/>
+    <AppIcon name="com.lenovo.ideafriend/com.lenovo.ideafriend.alias.DialtactsActivity" image="phone"/>
     <AppIcon name="com.lenovo.ideafriend/com.lenovo.ideafriend.alias.PeopleActivity" image="contacts" />
     <AppIcon name="com.lenovo.scg/com.lenovo.scg.camera.CameraLauncher" image="camera" />
     <AppIcon name="com.lenovo.StkSelection/com.lenovo.StkSelection.StkSelection" image="sim_toolkit"/>
@@ -851,8 +859,8 @@
     <AppIcon name="com.northcube.sleepcycle/com.northcube.sleepcycle.LauncherActivity" image="sleep_cycle" />
     <AppIcon name="com.nqk.vibratemodeextended/com.nqk.vibratemodeextended.MainActivity" image="vibratemode"/>
     <AppIcon name="com.nuance.swype.dtc/com.nuance.swype.input.settings.SettingsDispatch" image="swype" />
-    <AppIcon name="com.nytimes.android/com.nytimes.android.activity.MainActivity_" image="ny_times" />
-    <AppIcon name="com.nytimes.android/com.nytimes.android.MainActivity" image="ny_times" />
+    <AppIcon name="com.nytimes.android/com.nytimes.android.activity.MainActivity_" drawable ="ny_times" />
+    <AppIcon name="com.nytimes.android/com.nytimes.android.MainActivity" drawable ="ny_times" />
     <AppIcon name="com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity" image="greenify" />
     <AppIcon name="com.ochs.pipette/com.ochs.pipette.StartActivity" image="pipette" />
     <AppIcon name="com.ogqcorp.bgh/com.ogqcorp.bgh.activity.MainActivity" image="backgrounds" />
@@ -952,8 +960,8 @@
     <AppIcon name="com.samsung.android.app.memo/com.samsung.android.app.memo.Main" image="quickmemo" />
     <AppIcon name="com.samsung.android.app.watchmanager/com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" image="samsung_gear"/>
     <AppIcon name="com.samsung.android.contacts/com.android.contacts.activities.PeopleActivity" image="contacts"/>
-    <AppIcon name="com.android.calendar/com.android.calendar.homepage.AllInOneActivity" image="calendar" />    <calendar name="com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
-    <AppIcon name="com.samsung.android.contacts/com.android.dialer.DialtactsActivity" image="contacts"/>
+    <AppIcon name="com.android.calendar/com.android.calendar.homepage.AllInOneActivity" image="calendar" />    <calendar name="com.android.calendar/com.android.calendar.AllInOneActivity" prefix="calendar_" />
+    <AppIcon name="com.samsung.android.contacts/com.android.dialer.DialtactsActivity" image="phone"/>
     <AppIcon name="com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL" image="___aosp_mail" />
     <AppIcon name="com.samsung.android.email.ui/com.samsung.android.email.ui.activity.MessageListXL" image="___aosp_mail" />
     <AppIcon name="com.samsung.android.game.gamehome/com.samsung.android.game.gamehome.activity.StartActivity" image="samsung_game_launcher" />
@@ -1148,7 +1156,7 @@
     <AppIcon name="com.underwood.agenda.free/com.underwood.agenda.free.WidgetConfigurationActivity" image="today_widget" />
     <AppIcon name="com.underwood.agenda/com.underwood.agenda.WidgetConfigurationActivity" image="today_widget" />
     <AppIcon name="com.underwood.calendar/com.android.calendar.AllInOneActivity" image="today_calendar"/>
-    <AppIcon name="com.underwood.calendar/com.underwood.calendar.MainActivity" image="today_calendar"/>    <calendar name="com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_"/>
+    <AppIcon name="com.underwood.calendar/com.underwood.calendar.MainActivity" image="today_calendar"/>    <calendar name="com.underwood.calendar_beta/com.android.calendar.AllInOneActivity" prefix="today_calendar_"/>
     <AppIcon name="com.underwood.calendar_beta/com.android.calendar.AllInOneActivity" image="today_calendar"/>
     <AppIcon name="com.underwood.monospace/com.underwood.monospace.library.LibraryActivity" image="monospace" />
     <AppIcon name="com.unicredit/com.unicredit.UniCreditMobileBanking" image="bank" />
@@ -1218,7 +1226,7 @@
     <AppIcon name="de.hafas.android.sbm/de.hafas.main.HafasApp" image="muenchen_navigator"/>
     <AppIcon name="de.heute.mobile/de.heute.mobile.PlatformSwitch" image="zdf_heute" />
     <AppIcon name="de.hubermedia.android.kompass/de.hubermedia.android.kompass.activity.IntroActivity" image="wanderkarte"/>
-    <AppIcon name="de.lineas.lit.ntv.android/de.lineas.ntv.tablet.MainActivity" image="n_tv" />
+    <AppIcon name="de.lineas.lit.ntv.android/de.lineas.ntv.tablet.MainActivity" drawable ="n_tv" />
     <AppIcon name="de.mobilesoftwareag.clevertanken/de.mobilesoftwareag.clevertanken.CleverTankenActivity" image="clever_tanken" />
     <AppIcon name="de.motain.iliga/de.motain.iliga.activity.FastLaunchSplashScreenActivity" image="onefootball" />
     <AppIcon name="de.mygrades/de.mygrades.view.activity.MainActivity" image="my__grades"/>
@@ -1480,7 +1488,7 @@
     <AppIcon name="com.gh4a/com.gh4a.activities.Github4AndroidActivity" image="octodroid" />
     <AppIcon name="com.google.android.projection.gearhead/com.google.android.gearhead.vanagon.VnLaunchPadActivity" image="android_auto" />
     <AppIcon name="com.guidedways.android2do/com.guidedways.android2do.v2.screens.MainAppActivity" image="two_do" />
-    <AppIcon name="com.hutchison3g.planet3/com.hutchison3g.planet3.Planet3Activity" image="threein" />
+    <AppIcon name="com.hutchison3g.planet3/com.hutchison3g.planet3.Planet3Activity" image="three" />
     <AppIcon name="com.idmedia.android.newsportal/de.dw.mobile.activities.SplashActivity" image="dw" />
     <AppIcon name="com.imvu.mobilecordova/com.imvu.scotch.MainActivity" image="imvu" />
     <AppIcon name="com.kayak.android/com.kayak.android.Splash" image="kayak" />
@@ -1509,7 +1517,7 @@
     <AppIcon name="org.npr.one/org.npr.one.StartActivity" image="npr_one" />
     <AppIcon name="vstc.vscam.client/vstc.vscam.client.SplashActivity" image="eye_four" />
     <AppIcon name="com.dirtyunicorns.duupdater/com.dirtyunicorns.duupdater.MainActivity" image="du_updater" />
-        <!-- 1.1.4 -->
+    <!-- 1.1.4 -->
     <AppIcon name="com.candl.auge/com.candl.auge.activity.LauncherActivity" image="agenda_widget" />
     <AppIcon name="de.heise.ct.magazin/heise.activity.SplashScreenActivity" image="ct" />
     <AppIcon name="com.flavionet.android.camera.lite/com.flavionet.android.camera.lite.Main" image="camera_fv_five" />
@@ -1526,7 +1534,7 @@
     <AppIcon name="de.dfki.appdetox/de.dfki.appdetox.ui.activities.MainActivity" image="appdetox" />
     <AppIcon name="com.intrepidlogic.calibrecloud/com.intrepidlogic.calibrecloud.MainActivity " image="calibre_cloud" />
     <AppIcon name="net.sharewire.parkmobilev2/us.parkmobile.android.ui.screens.general.IntroActivity" image="parkmobile" />
-    <AppIcon name="com.passesalliance.wallet/com.passesalliance.wallet.activity.MainActivityEx" image="pass_two_u_wallet" />
+    <AppIcon name="com.passesalliance.wallet/com.passesalliance.wallet.activity.MainActivityEx" image="pass_two_u" />
     <AppIcon name="com.rb.rocketbook/com.rb.rocketbook.StartupActivity" image="rocketbook" />
     <AppIcon name="mango9.com.sleepybox/mango9.com.sleepybox.MainActivity" image="sleepy_box" />
     <AppIcon name="com.fastemulator.gbc/com.fastemulator.gbc.MainActivity" image="my_oldboy" />
@@ -1534,7 +1542,7 @@
     <AppIcon name="com.wakdev.nfctools.pro/com.wakdev.nfctools.pro.MainActivityPro" image="nfc_tools" />
     <AppIcon name="com.wakdev.nfctasks/com.wakdev.nfctasks.MainActivity" image="nfc_tasks" />
     <AppIcon name="vstc.vscam.client/vstc.vscam.client.SplashActivity" image="eye_four" />
-    <AppIcon name="com.motorola.contextual.smartrules2/com.motorola.contextaware.ui.GalleryActivity" image="assist" />
+    <AppIcon name="com.motorola.contextual.smartrules2/com.motorola.contextaware.ui.GalleryActivity" image="moto_assist" />
     <AppIcon name="be.belfius.directmobile.android/be.belfius.directmobile.android.presenter.SplashActivity" image="belfius_mobile" />
     <AppIcon name="com.vikingco.vikingapp/com.vikingco.vikingapp.activities.MainActivity" image="viking_app" />
     <AppIcon name="com.nintendo.zaba/org.cocos2dx.cpp.AppActivity" image="fire_emblem_heroes" />
@@ -1568,6 +1576,7 @@
     <AppIcon name="jp.ddo.pigsty.HabitBrowser/jp.ddo.pigsty.HabitBrowser.Features.Browser.BrowserActivity" image="habit_browser" />
     <AppIcon name="com.rookiestudio.perfectviewer/com.rookiestudio.perfectviewer.TStartup" image="perfect_viewer" />
     <AppIcon name="com.cloudmosa.puffin/com.cloudmosa.app.LemonActivity" image="puffin" />
+    <AppIcon name="com.cloudmosa.puffinFree/com.cloudmosa.puffinFree.LemonActivity" image="puffin" />
     <AppIcon name="com.starbucks.cee/com.starbucks.cee.MainActivity" image="starbucks" />
     <AppIcon name="com.godmodev.optime/com.godmodev.optime.ui.activities.MainActivity" image="savemytime" />
     <AppIcon name="com.moneybookers.skrillpayments/com.moneybookers.skrillpayments.v2.ui.LauncherActivity" image="skrill" />
@@ -1614,5 +1623,30 @@
     <AppIcon name="seedpod.companion.subnautica/seedpod.companion.subnautica.MainActivity" image="subnautica" />
     <AppIcon name="io.vinci.android/io.vinci.android.MainActivity" image="vinci" />
     <AppIcon name="de.eos.uptrade.android.fahrinfo.dresden/de.eos.uptrade.android.fahrinfo.activity.tabs.MainTabActivity" image="fahrinfo" />
-
+    <AppIcon name="com.gaana/com.gaana.SplashScreenActivity-Original" image="gaana" />
+    <AppIcon name="com.ideacellular.myidea/com.ideacellular.myidea.SplashScreen" image="my_idea" />
+    <AppIcon name="com.mventus.selfcare.activity/com.mventus.selfcare.activity.SplashScreenActivity" image="vodafone" />
+    <!-- 1.1.7 -->
+    <AppIcon name="com.gaana/com.gaana.SplashScreenActivity-Original" image="gaana" />
+    <AppIcon name="com.ideacellular.myidea/com.ideacellular.myidea.SplashScreen" image="my_idea" />
+    <AppIcon name="com.mventus.selfcare.activity/com.mventus.selfcare.activity.SplashScreenActivity" image="vodafone" />
+    <AppIcon name="com.jio.join/com.witsoftware.wmc.SplashScreenActivity" image="jio_voice" />
+    <AppIcon name="es.tid.gconnect/es.tid.gconnect.bootstrap.SplashActivity" image="tu" />
+    <AppIcon name="air.org.edupage/air.org.edupage.AppEntry" image="edupage" />
+    <AppIcon name="com.google.android.vr.home/com.google.android.apps.vr.home.app.MainActivity" image="daydream" />
+    <AppIcon name="de.burgerking.kingfinder/de.xroot.burgerking.ui.activity.SplashScreenActivity" image="burger_king" />
+    <AppIcon name="com.samsung.android.spay/com.samsung.android.spay.ui.SpayMainActivity" image="samsung_pay" />
+    <AppIcon name="com.aimp.player/com.aimp.player.views.MainActivity.MainActivity" image="aimp" />
+    <AppIcon name="de.burgerking.kingfinder/de.xroot.burgerking.ui.activity.SplashScreenActivity" image="burger_king" />
+    <AppIcon name="com.ea.gp.fifamobile/com.ea.gp.fifamobile.FifaMainActivity" image="fifa_mobile" />
+    <AppIcon name="com.google.android.apps.emergencyassist/com.google.android.apps.emergencyassist.MainActivity" image="trusted_contacts" />
+    <AppIcon name="net.oneplus.weather/net.oneplus.weather.app.MainActivity" image="weather" />
+    <AppIcon name="com.oneplus.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
+    <AppIcon name="com.oneplus.filemanager/com.oneplus.filemanager.HomePageActivity" image="cyanogenmod_file_manager" />
+    <AppIcon name="net.oneplus.deskclock/net.oneplus.deskclock.DeskClock" image="clock" />
+    <AppIcon name="net.oneplus.music/net.oneplus.music.activity.MainActivity" image="music" />
+    <AppIcon name="com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity" image="gallery" />
+    <AppIcon name="com.oneplus.soundrecorder/com.oneplus.soundrecorder.SoundRecorder" image="sound_recorder" />
+    <AppIcon name="com.oneplus.calculator/com.oneplus.calculator.Calculator" image="calculator" />
+    <AppIcon name="com.oneplus.camera/com.oneplus.camera.OPCameraActivity" image="camera" />
 </Theme>
