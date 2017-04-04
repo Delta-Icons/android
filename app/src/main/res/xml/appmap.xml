@@ -635,6 +635,7 @@
 	<item class="com.instagram.android/com.instagram.android.activity.MainTabActivity" name="instagram" />
 	<item class="com.instagram.boomerang/com.instagram.boomerang.BoomerangActivity" name="boomerang_instagram" />
 	<item class="com.instagram.followcop/com.instagram.followcop.ui.activity.MainActivity" name="follow_cop" />
+	<item class="com.instagram.followcop/com.instagram.followcop.ui.activity.MyAccountsActivity" name="follow_cop" />
 	<item class="com.instagram.layout/com.instagram.layout.LayoutActivity" name="layout_instagram" />
 	<item class="com.instantbits.cast.webvideo/com.instantbits.cast.webvideo.SplashActivity" name="web_video_caster" />
 	<item class="com.instapaper.android/com.instapaper.android.MainActivity" name="instapaper" />
@@ -688,7 +689,7 @@
 	<item class="com.koushikdutta.backup/com.koushikdutta.backup.MainActivity" name="helium" />
 	<item class="com.ksmobile.cb/com.ijinshan.browser.screen.BrowserActivity" name="cm_browser"/>
 	<item class="com.ksmobile.cb/com.ijinshan.browser.screen.SplashActivity" name="cm_browser"/>
-	<item class="com.lastpass.authenticator/com.logmein.authenticator.activities.SplashActivity" name="last__pass_authenticator" />
+	<item class="com.lastpass.authenticator/com.lastpass.authenticator.activities.SplashActivity" name="last__pass_authenticator" />
 	<item class="com.lastpass.lpandroid/com.lastpass.lpandroid.WebBrowserActivity" name="last__pass" />
 	<item class="com.latuabancaperandroid/com.latuabancaperandroid.ELoadingPageActivity" name="bank" />
 	<item class="com.laurencedawson.reddit_sync.dev/com.laurencedawson.reddit_sync.ui.activities.HomeActivity" name="sync"/>
@@ -848,8 +849,8 @@
 	<item class="com.northcube.sleepcycle/com.northcube.sleepcycle.LauncherActivity" name="sleep_cycle" />
 	<item class="com.nqk.vibratemodeextended/com.nqk.vibratemodeextended.MainActivity" name="vibratemode"/>
 	<item class="com.nuance.swype.dtc/com.nuance.swype.input.settings.SettingsDispatch" name="swype" />
-	<AppIcon class="com.nytimes.android/com.nytimes.android.activity.MainActivity_" drawable ="ny_times" />
-	<AppIcon class="com.nytimes.android/com.nytimes.android.MainActivity" drawable ="ny_times" />
+	<item class="com.nytimes.android/com.nytimes.android.activity.MainActivity_" name ="ny_times" />
+	<item class="com.nytimes.android/com.nytimes.android.MainActivity" name ="ny_times" />
 	<item class="com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity" name="greenify" />
 	<item class="com.ochs.pipette/com.ochs.pipette.StartActivity" name="pipette" />
 	<item class="com.ogqcorp.bgh/com.ogqcorp.bgh.activity.MainActivity" name="backgrounds" />
@@ -1215,7 +1216,7 @@
 	<item class="de.hafas.android.sbm/de.hafas.main.HafasApp" name="muenchen_navigator"/>
 	<item class="de.heute.mobile/de.heute.mobile.PlatformSwitch" name="zdf_heute" />
 	<item class="de.hubermedia.android.kompass/de.hubermedia.android.kompass.activity.IntroActivity" name="wanderkarte"/>
-	<AppIcon class="de.lineas.lit.ntv.android/de.lineas.ntv.tablet.MainActivity" drawable ="n_tv" />
+	<item class="de.lineas.lit.ntv.android/de.lineas.ntv.tablet.MainActivity" name ="n_tv" />
 	<item class="de.mobilesoftwareag.clevertanken/de.mobilesoftwareag.clevertanken.CleverTankenActivity" name="clever_tanken" />
 	<item class="de.motain.iliga/de.motain.iliga.activity.FastLaunchSplashScreenActivity" name="onefootball" />
 	<item class="de.mygrades/de.mygrades.view.activity.MainActivity" name="my__grades"/>
@@ -1567,7 +1568,6 @@
 	<item class="com.cloudmosa.puffin/com.cloudmosa.app.LemonActivity" name="puffin" />
 	<item class="com.cloudmosa.puffinFree/com.cloudmosa.puffinFree.LemonActivity" name="puffin" />
 	<item class="com.starbucks.cee/com.starbucks.cee.MainActivity" name="starbucks" />
-	<item class="com.godmodev.optime/com.godmodev.optime.ui.activities.MainActivity" name="savemytime" />
 	<item class="com.moneybookers.skrillpayments/com.moneybookers.skrillpayments.v2.ui.LauncherActivity" name="skrill" />
 	<item class="com.slice/com.slice.ui.home.HomeActivity" name="slice" />
 	<item class="ch.iAgentur.i20MinFr/ch.iAgentur.i20Min.Splash" name="twenty_minutes" />
@@ -1635,5 +1635,109 @@
 	<item class="com.oneplus.soundrecorder/com.oneplus.soundrecorder.SoundRecorder" name="sound_recorder" />
 	<item class="com.oneplus.calculator/com.oneplus.calculator.Calculator" name="calculator" />
 	<item class="com.oneplus.camera/com.oneplus.camera.OPCameraActivity" name="camera" />
-	<item class="com.motorola.fmplayer/com.motorola.fmplayer.ChangeThemeActivity" drawable="fm_radio" />
+	<item class="com.motorola.fmplayer/com.motorola.fmplayer.ChangeThemeActivity" name="fm_radio" />
+	<!-- 1.1.8 -->
+	<item class="com.remind101/com.remind101.ui.activities.WelcomeActivity" name="remind" />
+	<item class="com.skyward.mobileaccess/com.skyward.mobileaccess.MainActivity" name="skyward" />
+	<item class="com.cw.fullepisodes.android/com.cw.fullepisodes.android.activity.LaunchActivity" name="cw" />
+	<item class="com.oneplus.deskclock/com.oneplus.deskclock.DeskClock" name="clock" />
+	<item class="com.android.contacts/com.oneplus.contacts.activities.OPPeopleActivity" name="contacts" />
+	<item class="com.freecharge.android/com.freecharge.ui.MainSplashActivity" name="freecharge" />
+	<item class="com.kms.free/com.kms.free.PermissionsActivityLauncher" name="kaspersky" />
+	<item class="com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="super_mario_run" />
+	<item class="com.jio.myjio/com.jio.myjio.activities.StartAllAppView" name="myjio" />
+	<item class="com.snapdeal.main/com.snapdeal.ui.material.activity.MaterialMainActivity" name="snapdeal" />
+	<item class="com.rahul.videoderbeta/com.rahul.videoderbeta.appinit.ActivityInitLoader" name="videoder" />
+	<item class="com.vocabulary.app/com.vocabulary.app.Vocabcom" name="vocab" />
+	<item class="com.phpmalik.wallzypro/com.phpmalik.wallzypro.MainActivity" name="wallzy" />
+	<item class="com.devhomc.myapps/com.devhomc.myapps.MainActivity" name="shortcut_to_my_apps" />
+	<item class="com.mobilesuica.msb.android/com.mobilesuica.msb.android.extension.view.RootActivity" name="suica" />
+	<item class="jp.co.smbc.direct/com.smbc.smbc" name="smbc" />
+	<item class="com.mobisystems.office/com.mobisystems.office.splashScreen.SplashScreenActivity" name="officesuite" />
+	<item class="com.koushikdutta.cast/com.koushikdutta.cast.SearchActivity" name="allcast" />
+	<item class="com.autolist.autolist/com.autolist.autolist.activities.HomeActivity" name="autolist" />
+	<item class="com.carmax.carmax/com.carmax.carmax.HomeActivity" name="carmax" />
+	<item class="com.tbig.playerpro/com.tbig.playerpro.MusicBrowserActivity" name="playerpro" />
+	<item class="eu.chainfire.stickmount/eu.chainfire.stickmount.StickMountActivity" name="stickmount" />
+	<item class="com.trulia.android/com.trulia.android.activity.LoadingActivity" name="trulia" />
+	<item class="com.trulia.android.mortgage/com.trulia.android.mortgage.activity.MortgageMainActivity" name="trulia_mortgage" />
+	<item class="com.zillow.android.zillowmap/com.zillow.android.re.ui.SplashScreenActivity" name="zillow" />
+	<item class="com.softwarebakery.drivedroid/com.softwarebakery.drivedroid.MainActivity" name="drivedroid" />
+	<item class="org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MaterialActivity" name="kde_connect" />
+	<item class="ru.habrahabr/ru.habrahabr.ui.activity.SplashActivity" name="techmedia" />
+	<item class="com.ebay.mobile/com.ebay.mobile.activities.MainActivity" name="ebay" />
+	<item class="com.Funimation.FunimationNow/com.funimation.ui.splash.SplashActivity_" name="funimationnow" />
+	<item class="com.godmodev.optime/com.godmodev.optime.ui.activities.MainActivity" name="savemytime" />
+	<item class="com.livestrong.tracker/com.livestrong.tracker.activities.WelcomeActivity" name="myplate" />
+	<item class="de.helferportalgmbh.helferportal/md5d1c19c9e079b70f5a064a413141711fd.SplashActivity" name="helferportal" />
+	<item class="com.meisterlabs.meistertask.native/com.meisterlabs.meistertask.view.DashboardActivity" name="meistertask" />
+	<item class="com.modelmakertools.simplemindpro/com.modelmakertools.simplemindpro.SimpleMindProEditorActivity" name="simplemind" />
+	<item class="com.centralway.numbrs/com.centralway.numbrs.activities.LauncherActivity" name="numbrs" />
+	<item class="com.asus.quickmemo/com.asus.quickmemo.activities.edit.MemoEditActivity" name="asus_quick_memo" />
+	<item class="com.asus.mobilemanager/com.asus.mobilemanager.entry.FunctionActivity" name="asus_mobile_manager" />
+	<item class="com.asus.weathertime/com.asus.weathertime.WeatherTimeSettings" name="asus_weather" />
+	<item class="com.asus.soundrecorder/com.asus.soundrecorder.AsusRecorder" name="asus_sound_recorder" />
+	<item class="com.asus.themeapp/com.asus.themeapp.ThemeAppActivity" name="asus_themes" />
+	<item class="com.adobe.adobephotoshopfix/com.adobe.adobephotoshopfix.FCSplashScreenActivity" name="adobe_photoshop_fix" />
+	<item class="com.jaybirdsport.audio/com.jaybirdsport.audio.EntryActivity_" name="mysound" />
+	<item class="com.lastpass.lpandroid/com.lastpass.lpandroid.activity.WebBrowserActivity" name="last__pass" />
+	<item class="com.washingtonpost.rainbow/com.washingtonpost.rainbow.activities.SplashScreenActivity" name="washington_post" />
+	<item class="wsj.reader_sp/wsj.ui.SplashActivity" name="wallstreet_journal" />
+	<item class="com.synology.dscloud/com.synology.dscloud.activities.SplashActivity" name="ds_cloud" />
+	<item class="com.synology.DSfile/com.synology.DSfile.Splash" name="ds_file" />
+	<item class="com.nhl.gc1112.free/com.nhl.gc1112.free.appstart.viewControllers.activities.SplashActivity" name="nhl" />
+	<item class="com.kineticgamestudios.airtunes.android/com.kineticgamestudios.airtunes.android.MainActivity" name="allstream" />
+	<item class="de.defim.apk.bootmanager/de.defim.apk.bootmanager.Launch0" name="boot_manager" />
+	<item class="com.coinbase.android/com.coinbase.android.signin.IntroActivity" name="coinbase" />
+	<item class="com.lenovo.FileBrowser/com.lenovo.FileBrowser.activities.FileBrowserMain" name="lenovo_file_browser" />
+	<item class="com.cgollner.flashify/com.cgollner.flashify.MainActivity" name="flashify" />
+	<item class="com.benchevoor.huepro/com.benchevoor.huepro.BridgeSetup" name="hue_pro" />
+	<item class="be.scarlet.mobile/be.scarlet.mobile.splash.SplashScreenActivity" name="my_scarlet" />
+	<item class="com.ram.memory.booster.cpu.saver/com.ram.memory.booster.cpu.saver.MainActivity" name="root_booster" />
+	<item class="com.devadvance.rootcloak2/com.devadvance.rootcloak2.Settings" name="rootcloak" />
+	<item class="MyING.be/be.ing.and.mobile.gui.prelogin.PreLoginActivity" name="ing" />
+	<item class="com.chess/com.chess.ui.activities.MainFragmentFaceActivity" name="chess" />
+	<item class="com.rstudioz.habits/gui.activities.MainActivity" name="habithub" />
+	<item class="de.mobileconcepts.cyberghost/de.mobileconcepts.cyberghost.view.home.HomeActivity" name="cyberghost" />
+	<item class="com.doodle.android/com.doodle.activities.SplashActivity" name="doodle" />
+	<item class="de.tagesschau/de.tagesschau.ui.activities.MainActivity" name="tagesschau" />
+	<item class="com.tennistemple/com.tennistemple.MainActivity" name="tennis_temple" />
+	<item class="com.deltatre.atp.tennis.android/com.tennistv.activities.splash.SplashActivity" name="tennis_tv" />
+	<item class="com.booking/com.booking.activity.StartActivity-default-name" name="booking_com" />
+	<item class="cl.cinehoyts/mx.com.ia.cinepolis.Activities.SplashActivity" name="cine_hoyts" />
+	<item class="com.riotgames.mobile.leagueconnect/com.riotgames.mobile.leagueconnect.ui.SplashActivityom.riotgames.mobile.leagueconnect" name="lol_friends" />
+	<item class="cl.metro.mobile/c.Splash" name="metro_chile" />
+	<item class="com.koushikdutta.mirror/com.koushikdutta.mirror.StartActivity" name="mirror" />
+	<item class="es.claucookie.pasbuk/es.claucookie.pasbuk.MainActivity_" name="pasbuk" />
+	<item class="com.pedidosya/com.pedidosya.activities.PedidosYaActivity" name="pedidosya" />
+	<item class="cl.recorrido.micritodroid/cl.recorrido.booking.SplashAct_" name="recorrido" />
+	<item class="cl.santander.smartphone/cl.santander.smartphone.Carga" name="santander" />
+	<item class="cl.wom.transformacion.appwommobile/cl.wom.transformacion.appwommobile.actividades.CargaInicialActivity" name="wom" />
+	<item class="com.sec.android.app.sbrowser.beta/com.sec.android.app.sbrowser.SBrowserMainActivity" name="samsung_internet" />
+	<item class="com.topjohnwu.magisk/com.topjohnwu.magisk.SplashActivity" name="magisk_manager" />
+	<item class="com.jumobile.manager.systemapp/com.jumobile.manager.systemapp.ui.activity.IndexActivity" name="system_app_safe_remover" />
+	<item class="cc.dict.dictccplus/cc.dict.dictccplus.DicCcPlusActivity" name="dict_cc" />
+	<item class="com.boxcryptor2.android/com.boxcryptor.android.ui.activity.StartupActivity" name="boxcryptor" />
+	<item class="de.cinemaxx/de.cinemaxx.activity.SplashActivity" name="cinemaxx" />
+	<item class="com.evilinsult.android/com.evilinsult.android.MainActivity" name="evil_insult_generator" />
+	<item class="com.fsck.k9/com.fsck.k9.activity.Accounts" name="k_nine_mail" />
+	<item class="fm.weareone.player/player.core.activities.MainActivity_" name="technobase" />
+	<item class="com.wonder/com.pegasus.ui.activities.LaunchActivity" name="elevate" />
+	<item class="com.medisafe.android.client/com.medisafe.android.client.SplashActivity" name="medisafe" />
+	<item class="com.mclinica.mthermo/com.mclinica.mthermo.MainActivity" name="mthermo" />
+	<item class="taxi.android.client/taxi.android.client.feature.startup.ui.StartupActivity" name="mytaxi" />
+	<item class="com.habitrpg.android.habitica/com.habitrpg.android.habitica.ui.activities.MainActivity" name="habitica" />
+	<item class="de.gmx.mobile.android.mail/com.fsck.k9.activity.Accounts" name="gmx" />
+	<item class="de.schildbach.oeffi/de.schildbach.oeffi.stations.StationsActivity" name="oeffi_stations" />
+	<item class="de.schildbach.oeffi/de.schildbach.oeffi.plans.PlansPickerActivity" name="oeffi_plans" />
+	<item class="de.schildbach.oeffi/de.schildbach.oeffi.directions.DirectionsActivity" name="oeffi_directions" />
+	<item class="com.jrummy.busybox.installer/com.jrummy.busybox.installer.MainActivity" name="jrummy_busybox" />
+	<item class="tech.hexa/tech.hexa.MainActivity" name="hexatech" />
+	<item class="free.vpn.unblock.proxy.turbovpn/free.vpn.unblock.proxy.turbovpn.activity.VpnMainActivity" name="turbo_vpn" />
+	<item class="net.flixster.android/com.flixster.android.bootstrap.BootstrapActivity" name="flixster" />
+	<item class="com.fivemobile.myaccount/com.mobilelive.myaccount.SplashActivity" name="myrogers" />
+	<item class="com.powerschool.portal/com.pearson.powerschool.android.portal.PortalActivity" name="powerschool" />
+	<item class="com.rbc.mobile.android/com.rbc.mobile.bud.activities.PreAuthMainActivity" name="rbc" />
+	<item class="be.persgroep.android.news.mobiledm/mobi.inthepocket.persgroep.demorgen.activities.HomeActivity" name="demorgen" />
+	<item class="com.beliefengine.handyapp/com.unity3d.player.UnityPlayerNativeActivity" name="handy" />
 </appmap>
