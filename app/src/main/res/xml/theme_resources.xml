@@ -350,7 +350,6 @@
     <AppIcon name="ComponentInfo{com.citibanamex.banamexmobile/com.citibanamex.banamexmobile.views.init.SplashActivity}" image="bank" />
     <AppIcon name="ComponentInfo{com.citiuat/com.citiuat.mobeix}" image="bank" />
     <AppIcon name="ComponentInfo{com.citymapper.app.release/com.citymapper.app.MainActivity}" image="citymapper" />
-    <AppIcon name="ComponentInfo{com.componentdojo.android/com.componentdojo.android.componentDojoActivity}" image="ComponentInfo{component__dojo}" />
     <AppIcon name="ComponentInfo{com.cleanmaster.mguard/com.keniu.security.main.MainActivity}" image="cleanmaster" />
     <AppIcon name="ComponentInfo{com.cleanmaster.security/ks.cm.antivirus.main.SplashActivity}" image="cm_security"/>
     <AppIcon name="ComponentInfo{com.cleartrip.android/com.cleartrip.android.activity.common.SplashActivity}" image="cleartrip" />
@@ -862,8 +861,8 @@
     <AppIcon name="ComponentInfo{com.northcube.sleepcycle/com.northcube.sleepcycle.LauncherActivity}" image="sleep_cycle" />
     <AppIcon name="ComponentInfo{com.nqk.vibratemodeextended/com.nqk.vibratemodeextended.MainActivity}" image="vibratemode"/>
     <AppIcon name="ComponentInfo{com.nuance.swype.dtc/com.nuance.swype.input.settings.SettingsDispatch}" image="swype" />
-    <AppIcon name="ComponentInfo{com.nytimes.android/com.nytimes.android.activity.MainActivity_}" image ="ny_times" />
-    <AppIcon name="ComponentInfo{com.nytimes.android/com.nytimes.android.MainActivity}" image ="ny_times" />
+    <AppIcon name="ComponentInfo{com.nytimes.android/com.nytimes.android.activity.MainActivity_}" image="ny_times" />
+    <AppIcon name="ComponentInfo{com.nytimes.android/com.nytimes.android.MainActivity}" image="ny_times" />
     <AppIcon name="ComponentInfo{com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity}" image="greenify" />
     <AppIcon name="ComponentInfo{com.ochs.pipette/com.ochs.pipette.StartActivity}" image="pipette" />
     <AppIcon name="ComponentInfo{com.ogqcorp.bgh/com.ogqcorp.bgh.activity.MainActivity}" image="backgrounds" />
@@ -963,7 +962,7 @@
     <AppIcon name="ComponentInfo{com.samsung.android.app.memo/com.samsung.android.app.memo.Main}" image="quickmemo" />
     <AppIcon name="ComponentInfo{com.samsung.android.app.watchmanager/com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity}" image="samsung_gear"/>
     <AppIcon name="ComponentInfo{com.samsung.android.contacts/com.android.contacts.activities.PeopleActivity}" image="contacts"/>
-    <AppIcon name="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}" image="calendar" />    <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
+    <AppIcon name="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}" image="calendar" />    <calendar name="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
     <AppIcon name="ComponentInfo{com.samsung.android.contacts/com.android.dialer.DialtactsActivity}" image="phone"/>
     <AppIcon name="ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL}" image="___aosp_mail" />
     <AppIcon name="ComponentInfo{com.samsung.android.email.ui/com.samsung.android.email.ui.activity.MessageListXL}" image="___aosp_mail" />
@@ -1159,7 +1158,7 @@
     <AppIcon name="ComponentInfo{com.underwood.agenda.free/com.underwood.agenda.free.WidgetConfigurationActivity}" image="today_widget" />
     <AppIcon name="ComponentInfo{com.underwood.agenda/com.underwood.agenda.WidgetConfigurationActivity}" image="today_widget" />
     <AppIcon name="ComponentInfo{com.underwood.calendar/com.android.calendar.AllInOneActivity}" image="today_calendar"/>
-    <AppIcon name="ComponentInfo{com.underwood.calendar/com.underwood.calendar.MainActivity}" image="today_calendar"/>    <calendar component="ComponentInfo{com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_"/>
+    <AppIcon name="ComponentInfo{com.underwood.calendar/com.underwood.calendar.MainActivity}" image="today_calendar"/>    <calendar name="ComponentInfo{com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_"/>
     <AppIcon name="ComponentInfo{com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" image="today_calendar"/>
     <AppIcon name="ComponentInfo{com.underwood.monospace/com.underwood.monospace.library.LibraryActivity}" image="monospace" />
     <AppIcon name="ComponentInfo{com.unicredit/com.unicredit.UniCreditMobileBanking}" image="bank" />
@@ -1680,7 +1679,7 @@
     <AppIcon name="ComponentInfo{ru.habrahabr/ru.habrahabr.ui.activity.SplashActivity}" image="techmedia" />
     <AppIcon name="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.MainActivity}" image="ebay" />
     <AppIcon name="ComponentInfo{com.Funimation.FunimationNow/com.funimation.ui.splash.SplashActivity_}" image="funimationnow" />
-    <AppIcon name="ComponentInfo{com.godmodev.optime/com.godmodev.optime.ui.activities.MainActivity}" image="savemytime" />
+    <AppIcon name="ComponentInfo{com.godmodev.optime/com.godmodev.optime.ui.activities.MainActivity}" image="save_my_time" />
     <AppIcon name="ComponentInfo{com.livestrong.tracker/com.livestrong.tracker.activities.WelcomeActivity}" image="myplate" />
     <AppIcon name="ComponentInfo{de.helferportalgmbh.helferportal/md5d1c19c9e079b70f5a064a413141711fd.SplashActivity}" image="helferportal" />
     <AppIcon name="ComponentInfo{com.meisterlabs.meistertask.native/com.meisterlabs.meistertask.view.DashboardActivity}" image="meistertask" />
@@ -1788,8 +1787,6 @@
     <AppIcon name="ComponentInfo{com.maxpatchs.ango/com.maxpatchs.ango.HomeActivity}" image="ango" />
     <AppIcon name="ComponentInfo{com.lemon.free/com.lemon.free.ui.SplashScreen}" image="lemon" />
     <AppIcon name="ComponentInfo{com.Revsoft.Wabbitemu/com.Revsoft.Wabbitemu.activity.WabbitemuActivity}" image="wabbitemu" />
-    <AppIcon name="ComponentInfo{com.foobar2000.foobar2000/com.foobar2000.foobar2000.MainActivity}" image="foobar2000" />
-    <AppIcon name="ComponentInfo{org.jw.jwlanguage/org.jw.jwlanguage.activity.MainActivity}" image="jw_language" />
     <AppIcon name="ComponentInfo{com.issuu.android.app/com.issuu.app.launch.LaunchActivity}" image="issuu" />
     <AppIcon name="ComponentInfo{com.kohls.mcommerce.opal/com.kohls.mcommerce.opal.framework.view.activity.KohlsSplashScreen}" image="kohls" />
     <AppIcon name="ComponentInfo{com.leosfortune/com.leosfortune.LeosFortuneActivity}" image="leos_fortune" />
@@ -1798,10 +1795,10 @@
     <AppIcon name="ComponentInfo{com.elgato.avea/com.appsrise.avea.ui.activities.WelcomeActivity}" image="avea" />
     <AppIcon name="ComponentInfo{au.gov.dhs.centrelinkexpressplus/au.gov.dhs.centrelinkexpressplus.activities.anonymous.LauncherActivity}" image="centrelink" />
     <AppIcon name="ComponentInfo{com.glassdoor.app/com.glassdoor.gdandroid2.ui.activities.LaunchActivity}" image="glassdoor" />
-    <AppIcon name="ComponentInfo{io.dwak.holohackernews.app/io.dwak.holohackernews.app.ui.storylist.MainActivity}" image="hacker_news" />
+    <AppIcon name="ComponentInfo{io.dwak.holohackernews.app/io.dwak.holohackernews.app.ui.storylist.MainActivity}" image="hackernews" />
     <AppIcon name="ComponentInfo{com.adobe.psmobile/com.adobe.psmobile.SplashScreen}" image="adobe_photoshop_express" />
     <AppIcon name="ComponentInfo{de.swm.mvgfahrinfo.muenchen/de.swm.mvgfahrinfo.muenchen.common.general.activities.StartupActivity}" image="mvg_fahrinfo" />
-    <AppIcon name="ComponentInfo{de.sdvrz.ihb.mobile.app/de.sdvrz.ihb.bankingapp.start.StartActivity}" image="spardaapp" />
+    <AppIcon name="ComponentInfo{de.sdvrz.ihb.mobile.app/de.sdvrz.ihb.bankingapp.start.StartActivity}" image="sparda_bank" />
     <AppIcon name="ComponentInfo{com.intsig.BCRLite/com.intsig.camcard.BcrFirstLaunchGuide}" image="camcard" />
     <AppIcon name="ComponentInfo{nextapp.fx/nextapp.fx.ui.textedit.TextEditorActivity}" image="fx" />
     <AppIcon name="ComponentInfo{com.mseven.msecure/com.mseven.msecure.Licensing}" image="msecure" />
@@ -1815,13 +1812,13 @@
     <AppIcon name="ComponentInfo{com.piksoft.turboscan/com.piksoft.turboscan.ui.LauncherActivity}" image="turboscan" />
     <AppIcon name="ComponentInfo{com.mathpad.mobile.android.wt.unit/com.mathpad.mobile.android.wt.unit.UnitActivity}" image="convertpad" />
     <AppIcon name="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo}" image="duckduckgo" />
-    <AppIcon name="ComponentInfo{de.sde.mobile/de.sde.mobile.activities.DepartmentActivity}" image="SZ.de" />
+    <AppIcon name="ComponentInfo{de.sde.mobile/de.sde.mobile.activities.DepartmentActivity}" image="sueddeutsche" />
     <AppIcon name="ComponentInfo{com.vasudevrb.cmchangelog/com.vasudevrb.cmchangelog.view.MainActivity}" image="los_changelog" />
     <AppIcon name="ComponentInfo{com.sonymobile.androidapp.gridcomputing/com.sonymobile.androidapp.gridcomputing.activities.EulaActivity}" image="folding_at_home" />
     <AppIcon name="ComponentInfo{com.kobobooks.android/com.kobobooks.android.screens.AppLoading}" image="kobo_ebooks" />
     <AppIcon name="ComponentInfo{bbc.mobile.news.ww/bbc.mobile.news.v3.app.TopLevelActivity}" image="___bbc_news" />
     <AppIcon name="ComponentInfo{com.umibouzu.jed/com.umibouzu.jed.MenuActivity}" image="jed" />
-    <AppIcon name="ComponentInfo{com.kentuckybank.mobile/nz.co.mcom.phone.login.SplashscreenActivity}" image="kentuckybank" />
+    <AppIcon name="ComponentInfo{com.kentuckybank.mobile/nz.co.mcom.phone.login.SplashscreenActivity}" image="kentucky_bank" />
     <AppIcon name="ComponentInfo{com.mediocre.grannysmith/com.mediocre.grannysmith.Main}" image="granny_smith" />
     <AppIcon name="ComponentInfo{com.livezen.retroshooting.free/com.unity3d.player.UnityPlayerActivity}" image="retro_shooting" />
     <AppIcon name="ComponentInfo{com.outerminds.pewdiepie/com.unity3d.player.UnityPlayerNativeActivity}" image="pewdiepie" />
@@ -1834,7 +1831,7 @@
     <AppIcon name="ComponentInfo{com.robtopx.geometryjump/com.robtopx.geometryjump.GeometryJump}" image="geometry_dash" />
     <AppIcon name="ComponentInfo{com.nets.betalingsservice/com.nets.betalingsservice.ui.activity.SplashActivity}" image="betalingsservice" />
     <AppIcon name="ComponentInfo{com.cellpointmobile.dsb.mobilbillet/com.dsb.ui.SplashActivity}" image="dsb" />
-    <AppIcon name="ComponentInfo{dk.danskebank.mobilepay/dk.danskebank.p2p.ui.login.LoginActivity}" image="mobilepay" />
+    <AppIcon name="ComponentInfo{dk.danskebank.mobilepay/dk.danskebank.p2p.ui.login.LoginActivity}" image="mobile_pay" />
     <AppIcon name="ComponentInfo{com.cargurus.mobileApp/com.cargurus.mobileApp.MainActivity}" image="cargurus" />
     <AppIcon name="ComponentInfo{com.android.musicfx/com.android.musicfx.ActivityMusic}" image="musicfx" />
     <AppIcon name="ComponentInfo{com.microsoft.teams/com.microsoft.skype.teams.Launcher}" image="microsoft_teams" />
@@ -1843,7 +1840,7 @@
     <AppIcon name="ComponentInfo{com.tmobile.vvm.application/com.tmobile.vvm.application.activity.setup.WelcomeActivity}" image="t_mobile_voicemail" />
     <AppIcon name="ComponentInfo{com.duosecurity.duomobile/com.duosecurity.duomobile.screens.AccountListActivity}" image="duo_mobile" />
     <AppIcon name="ComponentInfo{com.revolut.revolut/com.revolut.ui.login.pin.LoginActivity}" image="revolut" />
-    <AppIcon name="ComponentInfo{com.good.gcs/com.good.gcs.activity.GCSMainActivity}" image="work" />
+    <AppIcon name="ComponentInfo{com.good.gcs/com.good.gcs.activity.GCSMainActivity}" image="blackberry_work" />
     <AppIcon name="ComponentInfo{com.ubisoft.hungrysharkworld/com.fgol.FGOLUnityPlayerNativeActivity}" image="hungry_shark" />
     <AppIcon name="ComponentInfo{yuuki.ito.android.leon/yuuki.ito.android.leon.activity.A00_SplashActivity}" image="leon" />
     <AppIcon name="ComponentInfo{jp.moneytree.moneytree/jp.moneytree.moneytree.view.MTStartupActivity}" image="moneytree" />
@@ -1855,7 +1852,7 @@
     <AppIcon name="ComponentInfo{com.target.socsav/com.target.socsav.activity.LoginActivity}" image="cartwheel" />
     <AppIcon name="ComponentInfo{com.directed.android.viper/com.mjd.viper.activity.SplashScreenActivity}" image="smartstart" />
     <AppIcon name="ComponentInfo{com.wpcentral.app/com.androidcentral.app.HomeActivity}" image="windows_central" />
-    <AppIcon name="ComponentInfo{br.com.bb.android/br.com.bb.android.StartActivity}" image="bb" />
+    <AppIcon name="ComponentInfo{br.com.bb.android/br.com.bb.android.StartActivity}" image="banco_de_brasil" />
     <AppIcon name="ComponentInfo{br.com.brainweb.ifood/br.com.brainweb.ifood.mvp.splash.view.SplashScreenActivity}" image="ifood" />
     <AppIcon name="ComponentInfo{com.konecty.rocket.chat/com.konecty.rocket.chat.MainActivity}" image="rocket_chat" />
     <AppIcon name="ComponentInfo{com.musixmatch.android.lyrify/com.musixmatch.android.ui.phone.DashBoardActivity}" image="musixmatch" />
@@ -1863,8 +1860,8 @@
     <AppIcon name="ComponentInfo{com.netmarble.starwars/com.netmarble.starwars.StarwarsActivity}" image="force_arena" />
     <AppIcon name="ComponentInfo{com.square_enix.android_googleplay.khuxww/org.cocos2dx.cpp.AppActivity}" image="kingdom_hearts" />
     <AppIcon name="ComponentInfo{be.mijnbezorgapp.id_7/be.mijnbezorgapp.id_7.MijnBezorgApp}" image="pizza_aversa" />
-    <AppIcon name="ComponentInfo{com.dominospizza/com.dominos.activities.InitialLaunchActivity}" image="Domino's" />
-    <AppIcon name="ComponentInfo{com.papajohns.android/com.papajohns.android.welcome.WelcomeActivity}" image="Papa_John's" />
+    <AppIcon name="ComponentInfo{com.dominospizza/com.dominos.activities.InitialLaunchActivity}" image="dominos" />
+    <AppIcon name="ComponentInfo{com.papajohns.android/com.papajohns.android.welcome.WelcomeActivity}" image="papa_johns" />
     <AppIcon name="ComponentInfo{pro.burgerz.miweather8/pro.burgerz.miweather8.ActivityWeatherMain}" image="weather_m8" />
     <AppIcon name="ComponentInfo{com.apkpure.aegon/com.apkpure.aegon.activities.SplashActivity}" image="apkpure" />
     <AppIcon name="ComponentInfo{com.robtopx.geometrydashmeltdown/com.robtopx.geometrydashmeltdown.GeometryDashMeltdown}" image="geometry_dash_meltdown" />
@@ -1892,15 +1889,26 @@
     <AppIcon name="ComponentInfo{com.logitech.harmonyhub/com.logitech.harmonyhub.ui.SplashActivity}" image="harmony" />
     <AppIcon name="ComponentInfo{com.hs.helloscheduling/com.hs.helloscheduling.CordovaApp}" image="tracksmart_scheduling" />
     <AppIcon name="ComponentInfo{com.smartthings.android/com.smartthings.android.main.MainActivity}" image="smartthings" />
-    <AppIcon name="ComponentInfo{bbc.iplayer.android/uk.co.bbc.iplayer.startup.StartupActivity}" image="___bbc_iplayer" />
+    <AppIcon name="ComponentInfo{bbc.iplayer.android/uk.co.bbc.iplayer.startup.StartupActivity}" image="___bbc_i_player" />
     <AppIcon name="ComponentInfo{com.firstdirect.bankingonthego/com.firstdirect.bankingonthego.fd.activities.FDHSBCLaunchActivity}" image="first_direct" />
     <AppIcon name="ComponentInfo{fi.polar.polarflow/fi.polar.polarflow.activity.login.LoginActivity}" image="polar_flow" />
     <AppIcon name="ComponentInfo{com.globalegrow.app.gearbest/com.globalegrow.app.gearbest.SplashActivity}" image="gearbest" />
-    <AppIcon name="ComponentInfo{org.dayup.gtask/org.dayup.gtask.activity.TaskActivity}" image="gtasks" />
+    <AppIcon name="ComponentInfo{org.dayup.gtask/org.dayup.gtask.activity.TaskActivity}" image="gtaks" />
     <AppIcon name="ComponentInfo{com.teamfon.teamsip2phone/com.teamfon.teamsip2phoneWhiteLabel.ui.activities.main.MainTabActivity}" image="teamsip" />
     <AppIcon name="ComponentInfo{com.ally.MobileBanking/com.ally.MobileBanking.SplashScreen}" image="ally_mobile" />
     <AppIcon name="ComponentInfo{com.americanexpress.android.acctsvcs.us/com.americanexpress.android.acctsvcs.us.firstuse.StartupActivity}" image="amex_mobile" />
     <AppIcon name="ComponentInfo{com.discoverfinancial.mobile/com.discover.mobile.common.login.LoginActivity}" image="discover" />
     <AppIcon name="ComponentInfo{com.starwood.spg/com.starwood.spg.splash.activity.SplashActivity}" image="spg" />
     <AppIcon name="ComponentInfo{com.vanguard/com.vanguard.shared.PromoActivity}" image="vanguard" />
+    <AppIcon name="CompontentInfo{com.citibank.mobile.au/com.citi.mobile.pt3.GlobalPhoneActivity}" image="citi" />
+    <AppIcon name="CompontentInfo{com.google.android.apps.access.wifi.consumer/com.google.android.apps.access.wifi.consumer.app.MainActivity}" image="google_wifi" />
+    <AppIcon name="CompontentInfo{com.microsoft.hyperlapsemobile/hyperlapsemobile.android.startpage}" image="hyperlapse" />
+    <AppIcon name="CompontentInfo{au.com.ingdirect.android/au.com.ingdirect.android.ui.WelcomeActivity}" image="ing" />
+    <AppIcon name="CompontentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.MainActivity}" image="openkeychain" />
+    <AppIcon name="CompontentInfo{com.zeapo.pwdstore/com.zeapo.pwdstore.PasswordStore}" image="password_store" />
+    <AppIcon name="CompontentInfo{com.watabou.pixeldungeon/com.watabou.pixeldungeon.PixelDungeon}" image="pixel_dungeon" />
+    <AppIcon name="CompontentInfo{au.com.qantas.qantas/au.com.qantas.qantas.startup.presentation.StartUpActivity}" image="qantas" />
+    <AppIcon name="CompontentInfo{com.telstra.mobile.android.mytelstra/com.telstra.mobile.android.mytelstra.activities.SplashActivity}" image="telstra" />
+    <AppIcon name="CompontentInfo{com.yonomi/com.yonomi.ui.startup.StartupActivity}" image="yonomi" />
+    <AppIcon name="CompontentInfo{com.pleco.chinesesystem/com.pleco.chinesesystem.PlecoDroidMainActivity}" image="pleco" />
 </Theme>
