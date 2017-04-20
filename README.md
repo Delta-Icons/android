@@ -2,6 +2,8 @@
 Matted out icon pack for custom Android launchers.
 
 ## Contributing
-Currently 
+I'll try to put some work into automating a submission System once i get the time to do so. In the meantime please refer to my [mail adress](mailto:leif.niem@gmail.com) and use the Palette included in this repo for your ideas.
+
+![Palette for Delta](palette.svg)
 
 Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
