@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
+    android:id="@+id/rootview"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="@bool/fit_system_window">
 
     <uk.co.senab.photoview.PhotoView
         android:id="@+id/wallpaper"
@@ -17,25 +19,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
-
-        <android.support.design.widget.CoordinatorLayout
-            android:id="@+id/rootview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fitsSystemWindows="true">
-
-            <android.support.design.widget.FloatingActionButton
-                android:id="@+id/fab"
-                android:layout_width="@dimen/fab_size"
-                android:layout_height="@dimen/fab_size"
-                android:layout_gravity="bottom|end"
-                android:layout_marginRight="20dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginBottom="20dp"
-                android:visibility="gone"
-                app:backgroundTint="?attr/colorAccent" />
-
-        </android.support.design.widget.CoordinatorLayout>
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -60,7 +43,7 @@
                     android:textColor="@android:color/white"
                     android:maxLines="1"
                     android:ellipsize="end"
-                    android:textSize="@dimen/text_toolbar_title"
+                    android:textSize="@dimen/text_content_title"
                     fontPath="fonts/Font-Medium.ttf"/>
 
                 <TextView
@@ -71,21 +54,42 @@
                     android:textColor="@android:color/white"
                     android:maxLines="1"
                     android:ellipsize="end"
-                    android:textSize="@dimen/text_content_subtitle"
+                    android:textSize="@dimen/text_content"
                     fontPath="fonts/Font-Regular.ttf"/>
 
             </LinearLayout>
 
         </android.support.v7.widget.Toolbar>
 
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleLarge"/>
+
+        <ProgressBar
+            android:id="@+id/bottom_progress"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:visibility="gone"
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/progressbar_track_flat"
+            style="?android:attr/progressBarStyleHorizontal"/>
+
     </FrameLayout>
 
-    <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:visibility="gone"
-        style="?android:attr/progressBarStyleLarge"/>
+        app:backgroundTint="?attr/colorAccent" />
 
-</FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -58,54 +58,15 @@
         android:textSize="@dimen/text_content"
         fontPath="fonts/Font-Regular.ttf"/>
 
-    <LinearLayout
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_height="72dp"
         android:padding="@dimen/content_margin"
-        android:gravity="end">
-
-        <android.support.v7.widget.AppCompatButton
-            android:id="@+id/link2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/about_link_2_title"
-            android:textSize="@dimen/text_content"
-            android:maxLines="1"
-            android:ellipsize="end"
-            app:backgroundTint="?attr/card_background"
-            fontPath="fonts/Font-Medium.ttf"/>
-
-        <android.support.v7.widget.AppCompatButton
-            android:id="@+id/link1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/about_link_1_title"
-            android:textSize="@dimen/text_content"
-            android:maxLines="1"
-            android:ellipsize="end"
-            app:backgroundTint="?attr/card_background"
-            fontPath="fonts/Font-Medium.ttf"/>
-
-        <android.support.v7.widget.AppCompatButton
-            android:id="@+id/email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/about_email_title"
-            android:textSize="@dimen/text_content"
-            android:maxLines="1"
-            android:ellipsize="end"
-            app:backgroundTint="?attr/colorAccent"
-            fontPath="fonts/Font-Medium.ttf"/>
-
-    </LinearLayout>
+        android:clipToPadding="false"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/content_divider_size"
         android:background="?android:attr/listDivider" />
-
 </LinearLayout>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <appmap>
 	<item class=":BROWSER" name="browser" />
+	<item class=":CALCULATOR" name="calculator" />
 	<item class=":CALENDAR" name="calendar" />
 	<item class=":CAMERA" name="camera" />
 	<item class=":CLOCK" name="clock" />
@@ -753,14 +754,14 @@
 	<item class="com.microsoft.cortana/com.microsoft.bing.dss.SplashActivity" name="cortana" />
 	<item class="com.microsoft.launcher/com.microsoft.launcher.EntryActivity" name="arrow_launcher" />
 	<item class="com.microsoft.msa.authenticator/com.microsoft.onlineid.authenticator.LauncherActivity" name="microsoft_account" />
-	<item class="com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity" name="excel" />
-	<item class="com.microsoft.office.officelens/com.microsoft.office.apphost.LaunchActivity" name="office_lens" />
-	<item class="com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity" name="one__note" />
-	<item class="com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity" name="outlook" />
-	<item class="com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity" name="powerpoint" />
-	<item class="com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity" name="word" />
-	<item class="com.microsoft.skydrive/com.microsoft.skydrive.MainActivity" name="one__drive" />
-	<item class="com.microsoft.xboxmusic/com.microsoft.xboxmusic.uex.ui.signin.SignInActivity" name="groove" />
+	<item class="com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity" name="microsoft_excel" />
+	<item class="com.microsoft.office.officelens/com.microsoft.office.apphost.LaunchActivity" name="microsoft_office_lens" />
+	<item class="com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity" name="microsoft_one__note" />
+	<item class="com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity" name="microsoft_outlook" />
+	<item class="com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity" name="microsoft_powerpoint" />
+	<item class="com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity" name="microsoft_word" />
+	<item class="com.microsoft.skydrive/com.microsoft.skydrive.MainActivity" name="microsoft_one__drive" />
+	<item class="com.microsoft.xboxmusic/com.microsoft.xboxmusic.uex.ui.signin.SignInActivity" name="microsoft_groove" />
 	<item class="com.microsoft.xboxone.smartglass.beta/com.microsoft.xbox.xle.app.XLEActivity" name="xbox"/>
 	<item class="com.microsoft.xboxone.smartglass/com.microsoft.xbox.xle.app.XLEActivity" name="xbox"/>
 	<item class="com.mikepenz.unsplash/com.mikepenz.unsplash.activities.MainActivity" name="wallsplash"/>
@@ -1366,10 +1367,10 @@
 	<item class="org.isoron.uhabits/org.isoron.uhabits.MainActivity" name="loop" />
 	<item class="org.jw.jwlibrary.mobile/org.jw.jwlibrary.mobile.MainActivity" name="jw_library" />
 	<item class="org.khanacademy.android/org.khanacademy.android.ui.library.MainActivity" name="khan_academy"/>
-	<item class="org.kustom.wallpaper.pro/org.kustom.pro.MainActivity" name="kwlp" />
-	<item class="org.kustom.wallpaper/org.kustom.lib.editor.WpAdvancedEditorActivity" name="kwlp" />
-	<item class="org.kustom.wallpaper/org.kustom.lib.settings.SettingsActivity" name="kwlp" />
-	<item class="org.kustom.wallpaper/org.kustom.lib.settings.WpSettingsActivity" name="kwlp" />
+	<item class="org.kustom.wallpaper.pro/org.kustom.pro.MainActivity" name="klwp" />
+	<item class="org.kustom.wallpaper/org.kustom.lib.editor.WpAdvancedEditorActivity" name="klwp" />
+	<item class="org.kustom.wallpaper/org.kustom.lib.settings.SettingsActivity" name="klwp" />
+	<item class="org.kustom.wallpaper/org.kustom.lib.settings.WpSettingsActivity" name="klwp" />
 	<item class="org.kustom.widget.pro/a.y.z.HZ" name="kwgt" />
 	<item class="org.kustom.widget.pro/org.kustom.pro.MainActivity" name="kwgt" />
 	<item class="org.kustom.widget/org.kustom.widget.picker.WidgetPicker" name="kwgt" />
@@ -1887,15 +1888,42 @@
 	<item class="com.discoverfinancial.mobile/com.discover.mobile.common.login.LoginActivity" name="discover" />
 	<item class="com.starwood.spg/com.starwood.spg.splash.activity.SplashActivity" name="spg" />
 	<item class="com.vanguard/com.vanguard.shared.PromoActivity" name="vanguard" />
-	<item class="CompontentInfo{com.citibank.mobile.au/com.citi.mobile.pt3.GlobalPhoneActivity" name="citi" />
-	<item class="CompontentInfo{com.google.android.apps.access.wifi.consumer/com.google.android.apps.access.wifi.consumer.app.MainActivity" name="google_wifi" />
-	<item class="CompontentInfo{com.microsoft.hyperlapsemobile/hyperlapsemobile.android.startpage" name="hyperlapse" />
-	<item class="CompontentInfo{au.com.ingdirect.android/au.com.ingdirect.android.ui.WelcomeActivity" name="ing" />
-	<item class="CompontentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.MainActivity" name="openkeychain" />
-	<item class="CompontentInfo{com.zeapo.pwdstore/com.zeapo.pwdstore.PasswordStore" name="password_store" />
-	<item class="CompontentInfo{com.watabou.pixeldungeon/com.watabou.pixeldungeon.PixelDungeon" name="pixel_dungeon" />
-	<item class="CompontentInfo{au.com.qantas.qantas/au.com.qantas.qantas.startup.presentation.StartUpActivity" name="qantas" />
-	<item class="CompontentInfo{com.telstra.mobile.android.mytelstra/com.telstra.mobile.android.mytelstra.activities.SplashActivity" name="telstra" />
-	<item class="CompontentInfo{com.yonomi/com.yonomi.ui.startup.StartupActivity" name="yonomi" />
-	<item class="CompontentInfo{com.pleco.chinesesystem/com.pleco.chinesesystem.PlecoDroidMainActivity" name="pleco" />
+	<item class="com.citibank.mobile.au/com.citi.mobile.pt3.GlobalPhoneActivity" name="citi" />
+	<item class="com.google.android.apps.access.wifi.consumer/com.google.android.apps.access.wifi.consumer.app.MainActivity" name="google_wifi" />
+	<item class="com.microsoft.hyperlapsemobile/hyperlapsemobile.android.startpage" name="hyperlapse" />
+	<item class="au.com.ingdirect.android/au.com.ingdirect.android.ui.WelcomeActivity" name="ing" />
+	<item class="org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.MainActivity" name="openkeychain" />
+	<item class="com.zeapo.pwdstore/com.zeapo.pwdstore.PasswordStore" name="password_store" />
+	<item class="com.watabou.pixeldungeon/com.watabou.pixeldungeon.PixelDungeon" name="pixel_dungeon" />
+	<item class="au.com.qantas.qantas/au.com.qantas.qantas.startup.presentation.StartUpActivity" name="qantas" />
+	<item class="com.telstra.mobile.android.mytelstra/com.telstra.mobile.android.mytelstra.activities.SplashActivity" name="telstra" />
+	<item class="com.yonomi/com.yonomi.ui.startup.StartupActivity" name="yonomi" />
+	<item class="com.pleco.chinesesystem/com.pleco.chinesesystem.PlecoDroidMainActivity" name="pleco" />
+
+	<!-- 1.2.3 -->
+	<item class="jp.pxv.android/jp.pxv.android.RootActivity" name="pixiv" />
+	<item class="jp.pxv.android/jp.pxv.android.activity.RoutingActivity" name="pixiv" />
+	<item class="jp.pxv.pawoo/jp.pxv.pawoo.view.activity.RoutingActivity" name="pawoo" />
+	<item class="com.discord/com.discord.screens.ScreenAux$Main" name="discord" />
+	<item class="com.nytimes.android/com.nytimes.android.MainActivity" name="ny_times" />
+	<item class="com.nytimes.android/com.nytimes.android.activity.MainActivity_" name="ny_times" />
+	<item class="de.lineas.lit.ntv.android/de.lineas.ntv.tablet.MainActivity" name="n_tv" />
+	<item class="gogolook.callgogolook2/gogolook.callgogolook2.PreloadingActivity" name="whos_call" />
+	<item class="com.whiz.droneapp/com.whiz.droneapp.Splash" name="dronemobile" />
+	<item class="com.sonymobile.android.dialer/com.android.dialer.DialtactsActivity" name="phone" />
+	<item class="com.parkeon.whoosh/com.parkeon.whoosh.activities.SplashActivity" name="whoosh" />
+	<item class="com.dgsd.android.ShiftTrackerFree/com.dgsd.android.ShiftTrackerFree.StartupActivity" name="shift_tracker" />
+	<item class="com.dgsd.android.ShiftTracker/com.dgsd.android.ShiftTracker.StartupActivity" name="shift_tracker" />
+	<item class="com.braksoftware.HumanJapaneseIntermediateLite/com.braksoftware.HumanJapaneseCore.SplashLiteActivity" name="human_japanese" />
+	<item class="com.braksoftware.HumanJapaneseLite/com.braksoftware.HumanJapaneseCore.SplashLiteActivity" name="human_japanese" />
+	<item class="com.lang8.hinative/com.lang8.hinative.ui.MainActivity" name="hi_native" />
+	<item class="im.gitter.gitter/im.gitter.gitter.activities.StartActivity" name="gitter" />
+	<item class="com.fastaccess.github/com.fastaccess.ui.modules.main.MainActivity" name="fasthub" />
+	<item class="com.mindtwisted.kanjistudy/com.mindtwisted.kanjistudy.activity.LaunchActivity" name="kanji_study" />
+	<item class="org.mozilla.focus/org.mozilla.focus.activity.MainActivity" name="firefox_focus" />
+	<item class="com.google.android.apps.meetings/com.google.android.apps.meetings.splash.SplashActivity" name="hangouts_meet" />
+	<item class="com.amazon.dee.app/com.amazon.dee.webapp.activity.AlexaWebAppActivity" name="amazon_alexa" />
+	<item class="com.amazon.dee.app/com.amazon.dee.app.Launcher" name="amazon_alexa" />
+	<item class="com.google.android.apps.motionstills/com.google.android.apps.motionstills.SplashActivity" name="motion_stills" />
+
 </appmap>

@@ -18,6 +18,13 @@
         android:background="?attr/selectableItemBackground"
         android:theme="@style/RippleStyle">
 
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/progress"
+            android:layout_width="@dimen/icon_size_medium"
+            android:layout_height="@dimen/icon_size_medium"
+            android:visibility="gone"
+            style="@style/Widget.MaterialProgressBar.ProgressBar"/>
+
         <ImageView
             android:id="@+id/icon"
             android:layout_width="@dimen/icon_size_medium"

@@ -2,12 +2,13 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingBottom="@dimen/content_margin">
+    android:layout_height="wrap_content">
 
     <View
+        android:id="@+id/shadow"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_shadow"
+        android:layout_marginBottom="@dimen/content_margin"
         android:background="@drawable/toolbar_shadow"/>
 
 </RelativeLayout>

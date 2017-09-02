@@ -10,8 +10,8 @@
     android:paddingStart="@dimen/content_margin"
     android:paddingRight="@dimen/content_margin"
     android:paddingEnd="@dimen/content_margin"
-    android:paddingTop="8dp"
-    android:paddingBottom="8dp"
+    android:paddingTop="@dimen/content_padding"
+    android:paddingBottom="@dimen/content_padding"
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:background="?attr/selectableItemBackground"
@@ -36,5 +36,4 @@
         android:textSize="15sp"
         android:textColor="?android:attr/textColorPrimary"
         fontPath="fonts/Font-Regular.ttf"/>
-
 </LinearLayout>

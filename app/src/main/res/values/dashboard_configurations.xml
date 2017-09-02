@@ -12,59 +12,49 @@
     <!-- Use dark theme as default theme -->
     <bool name="use_dark_theme">true</bool>
 
+    <string name="splash_screen_title">Delta</string>
+
     <!-- CONFIG: MUZEI -->
 
     <!-- Muzei art source name -->
-    <string name="muzei_art_source_name">Delta</string>
+    <string name="muzei_art_source_name">Delta Wallpapers</string>
 
     <!-- Muzei art source description -->
-    <string name="muzei_art_source_desc">Wallpapers of Delta</string>
+    <string name="muzei_art_source_desc">Wallpapers of Delta Icon Pack</string>
 
     <!-- Muzei base color -->
-    <color name="muzei_color">#ff837d</color>
-
-    <!-- CONFIG: SPLASH SCREEN -->
-
-    <!-- Show splash screen when the app opened
-    * default: true
-    * change to false to disable it -->
-    <bool name="use_splash_screen">true</bool>
-
-    <!-- Splash screen duration in milliseconds
-    * default: 1500 milliseconds -> 1.5 seconds -->
-    <integer name="splash_screen_duration">3000</integer>
-
-
-    <string name="splash_screen_title">Delta</string>
+    <color name="muzei_color">#4A4A4A</color>
 
     <!-- CONFIG: HOME -->
-    
-    <!-- Quick Apply for default launcher
-    * Enable or disable quick apply Icon Pack for default launcher if supported
-    * Enable -> true
-    * Disable -> false -->
-    <bool name="enable_quick_apply">true</bool>
 
-    <!-- Text on home image
-    * Leave empty if you don't want to show any text -->
+    <!-- Home title must be defined -->
     <string name="home_title">Delta</string>
 
     <!-- Home image
     * If you want to use image from url, just put the url here
     * If you want to use image stored in project (drawable folder)
-    * just put image name here without the extension (ex: home_image.png -> home_image) -->
-    <string name="home_image"></string>
+    * just put image name here without the extension (ex: home_image.png -> home_image)
+    *
+    * If you want to use solid color, you can put hex color code here
+    * ex: <string name="navigation_view_header">#000000</string> -->
+
+    <string name="home_image">home_image</string>
+
+    <!-- Home image style
+    * Available choices:
+    * card_square
+    * card_landscape
+    * landscape
+    * square
+    -->
+    <string name="home_image_style">card_landscape</string>
 
     <!-- Home description
     - If you don't want to show description, just leave this empty -->
-    <string name="home_description">
-        Pastel coloured side-project of a semester break. Requests currently closed due to semester stuff.
-    </string>
-
-    <string name="about_support">
-        Also special thanks to:
-        Arabi Ishaque and Krishna AR for helping me whenever is ask for it and of coure Dani for his great work on this marvelous Dashboard.
-    </string>
+    <string name="home_description"><![CDATA[
+            Pastel coloured side-project of a semester break.
+            Requests are closed a lot of the time due to me lacking exactly that.
+        ]]></string>
 
     <!-- More apps at Google Play Store
     * Link to google play store developer
@@ -77,15 +67,39 @@
     * If you want to use image from url, just put the url here
     * If you want to use image stored in project (drawable folder)
     * just put image name here without the extension
-    * (ex: navigation_view_header.png -> navigation_view_header) -->
+    * (ex: navigation_view_header.png -> navigation_view_header)
+    *
+    * If you want to use solid color, you can put hex color code here
+    * ex: <string name="navigation_view_header">#000000</string> -->
     <string name="navigation_view_header">ic_splash_screen</string>
 
     <!-- Navigation view header text
     * Leave empty if you don't want to show any text -->
-    <string name="navigation_view_header_title">Delta</string>
+    <string name="navigation_view_header_title"></string>
 
-    <!-- CONFIG: ICONS
-    * Take a look inside dashboard_icons.xml -->
+    <!-- CONFIG: APPLY -->
+    <!-- Enable or disable apply section
+    * default: true
+    * Change to false to disable it -->
+    <bool name="enable_apply">true</bool>
+
+    <!-- CONFIG: ICONS -->
+
+    <!-- Sort
+    * Enable or disable icons sort
+    * Disabling this will improve icons section performance, icons will load faster
+    * You can use CandyBar drawable.xml builder to sort icons
+    * Enable -> true
+    * Disable -> false -->
+    <bool name="enable_icons_sort">true</bool>
+
+    <!-- Icon picker icon name text below icon
+    * default: true
+    * Change to false to disable it -->
+    <bool name="show_icon_name">true</bool>
+
+    <!-- Icons section will read icons from drawable.xml same as Nova Launcher
+    * Put drawable.xml inside xml folder -->
 
     <!-- CONFIG: ICON REQUEST -->
 
@@ -111,7 +125,7 @@
     * but you also want user able to make 10 request again after update, then enable this option
     * default: false
     * change to true to enable it -->
-    <bool name="reset_icon_request_limit">true</bool>
+    <bool name="reset_icon_request_limit">false</bool>
 
     <!-- Enable or disable premium request
     * default: false
@@ -125,15 +139,20 @@
 
     <!-- CONFIG: CLOUD WALLPAPERS -->
 
-    <!-- WallpaperJSON json link
+    <!-- Wallpaper json link
     * If your icon pack doesn't contains any wallpaper, just leave this empty
-    * <string name="wallpaper_json"></string>-->
+    * <string name="wallpaper_json"></string>
+    *
+    * If you want to separate wallpaper app from icon pack and keep wallpapers section shown in navigation drawer,
+    * but instead open wallpapers section pressing it will open your wallpaper app
+    * just put your wallpaper app package name here
+    * example: com.dm.wallpaper.board.demo
+    * <string name="wallpaper_json">com.dm.wallpaper.board.demo</string> -->
     <string name="wallpaper_json">https://raw.githubusercontent.com/Delta-Icons/android/master/walls.json</string>
 
-    <!-- Auto update wallpaper library
-    * default: 7
-    * every 7 days wallpaper library will be refreshed automatically -->
-    <integer name="wallpaper_update_every_days">7</integer>
+    <!-- Allow to download wallpaper
+    * If disabled user only able to apply wallpaper from dashboard -->
+    <bool name="enable_wallpaper_download">true</bool>
 
     <!-- Auto generated color for wallpaper card
     * default: true
@@ -141,17 +160,28 @@
     <bool name="card_wallpaper_auto_generated_color">true</bool>
 
     <!-- Wallpaper name and author below wallpaper
-     * Show or hide name and author below wallpaper
-     * Show -> true
-     * Hide -> false -->
+    * Show or hide name and author below wallpaper
+    * Show -> true
+    * Hide -> false -->
     <bool name="wallpaper_show_name_author">true</bool>
+
+    <!-- Wallpapers grid preview style
+    * Available choices:
+    * square
+    * landscape
+    * portrait
+    -->
+    <string name="wallpaper_grid_preview_style">Portrait</string>
 
     <!-- CONFIG: ABOUT -->
 
     <!-- About header image
     * If you want to use image from url, just put the url here
     * If you want to use image stored in project (drawable folder)
-    * just put image name here without the extension (ex: about_image.png -> about_image) -->
+    * just put image name here without the extension (ex: about_image.png -> about_image)
+    *
+    * If you want to use solid color, you can put hex color code here
+    * ex: <string name="navigation_view_header">#000000</string> -->
     <string name="about_image">home_image</string>
 
     <!-- About profile image
@@ -164,33 +194,30 @@
     <string name="about_title">Leif Niemczik</string>
 
     <!-- About description below title -->
-    <string name="about_desc">Frontend-Dev and Designer from Germany, currently studying computer science &amp; media and doing side projects like this in my free time.</string>
+    <string name="about_desc"><![CDATA[
+            Frontend-Dev and Designer from Germany, currently studying computer science &amp;
+            media and doing side projects like this in my free time.
+        ]]></string>
 
-    <!-- Email that showed in about
-    * This part must be email
-    * If you don't want to show email in about, just set about_email to empty
-    * ex: <string name="about_email"></string> -->
-    <string name="about_email_title">Email</string>
-    <string name="about_email">iballleif@live.de</string>
-
-    <!-- Link 1 showed in about
-    * Link 1 must be included, link 2 is optional
-    * You can change this to another link, like facebook, twitter etc
+    <!-- Social link inside about
+    * Supported link:
+    * Email, Behance, Dribbble, Facebook, Github, Google+, Instagram, Pinterest, Twitter
+    * The link will be marked as regular website if doesn't listed above
+    *
+    * If you don't want to show social link, just set about_social_links to empty
     * ex:
-    * <string name="about_link_1_title">Facebook</string>
-    * <string name="about_link_1_url">http://facebook.com/yourlink</string> -->
-    <string name="about_link_1_title">Google+</string>
-    <string name="about_link_1_url">http://plus.google.com/xxxx</string>
+    * <string-array name="about_social_links"></string-array>-->
+    <string-array name="about_social_links">
+        <item>https://www.instagram.com/_u/leifpixel</item>
+        <item>https://plus.google.com/u/0/114587388635391162978</item>
+        <item>http://github.com/leifniem</item>
+        <item>http://www.leifs.website</item>
+        <item>iballleif@live.de</item>
+    </string-array>
 
-    <!-- Link 2 showed in about
-    * Link 2 is optional, if you don't want to show link 2, just set about_link_2_url to empty
-    * ex: <string name="about_link_2_url"></string>
-    * You can change this to another link, like facebook, twitter etc
-    * ex:
-    * <string name="about_link_2_title">Facebook</string>
-    * <string name="about_link_2_url">http://facebook.com/yourlink</string> -->
-    <string name="about_link_2_title">Website</string>
-    <string name="about_link_2_url">http://leifs.website</string>
+    <!-- Contributors dialog
+    * Take a look inside res/xml/dashboard_contributorsntributors.xml to add dashboard_contributors -->
+    <bool name="show_contributors_dialog">true</bool>
 
     <!-- CONFIG: DONATE -->
 

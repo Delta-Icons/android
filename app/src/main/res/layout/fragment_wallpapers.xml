@@ -19,7 +19,6 @@
             android:paddingTop="@dimen/card_margin_top"
             android:paddingStart="@dimen/card_margin_left"
             android:paddingLeft="@dimen/card_margin_left"
-            android:paddingBottom="@dimen/card_margin_bottom"
             android:clipToPadding="false"/>
 
     </android.support.v4.widget.SwipeRefreshLayout>
@@ -44,19 +43,18 @@
         android:layout_height="36dp"
         android:layout_margin="@dimen/content_margin"
         android:layout_gravity="center_horizontal"
-        android:drawablePadding="2dp"
+        android:drawablePadding="4dp"
         android:text="@string/wallpaper_new_added"
-        android:textSize="@dimen/text_content"
+        android:textSize="12sp"
         android:textAllCaps="false"
         android:visibility="gone"
-        app:dm_backColor="@color/popupBubble"
-        app:dm_textColor="@color/popupBubbleText"
+        app:dm_backColor="?attr/colorAccent"
         app:dm_shapeRadiusHalfHeight="true"
-        fontPath="fonts/Font-Medium.ttf"/>
+        fontPath="fonts/Font-Regular.ttf"/>
 
     <View
+        android:id="@+id/shadow"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_shadow"
         android:background="@drawable/toolbar_shadow" />
-
 </FrameLayout>
