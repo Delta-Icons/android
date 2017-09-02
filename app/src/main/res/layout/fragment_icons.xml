@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingPrefix"
     android:layout_width="match_parent"
@@ -18,9 +17,5 @@
         android:id="@+id/fastscroll"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="end"
-        app:rfs_barColor="?android:attr/textColorSecondary"
-        app:rfs_handleNormalColor="?android:attr/textColorSecondary"
-        app:rfs_handlePressedColor="?attr/colorAccent"/>
-
+        android:layout_gravity="end"/>
 </FrameLayout>

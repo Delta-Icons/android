@@ -11,35 +11,35 @@
         android:id="@+id/header_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/default_image_padding"
-        android:scaleType="fitCenter"
-        app:heightRatio="3"
-        app:widthRatio="4" />
+        android:scaleType="centerCrop"
+        app:widthRatio="4"
+        app:heightRatio="3"/>
 
     <LinearLayout
         android:id="@+id/header_title_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|start"
         android:orientation="vertical"
-        android:padding="@dimen/content_margin">
+        android:layout_gravity="bottom|start"
+        android:padding="@dimen/content_margin"
+        android:background="@color/navigationViewTitleBack">
 
         <TextView
             android:id="@+id/header_title"
-            fontPath="fonts/Font-Medium.ttf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/navigation_view_header_title"
             android:textColor="@color/navigationViewTitle"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:text="@string/navigation_view_header_title"
+            fontPath="fonts/Font-Medium.ttf"/>
 
         <TextView
             android:id="@+id/header_version"
-            fontPath="fonts/Font-Regular.ttf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/navigationViewTitle"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            fontPath="fonts/Font-Regular.ttf"/>
 
     </LinearLayout>
 

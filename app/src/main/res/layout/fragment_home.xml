@@ -9,16 +9,15 @@
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clipChildren="false"
-        android:clipToPadding="false"
         android:paddingLeft="@dimen/content_padding"
         android:paddingStart="@dimen/content_padding"
-        android:paddingTop="@dimen/content_padding" />
+        android:paddingTop="@dimen/content_padding"
+        android:clipToPadding="false"/>
 
     <View
+        android:id="@+id/shadow"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_shadow"
-        android:background="@drawable/toolbar_shadow"
-        android:visibility="gone" />
+        android:background="@drawable/toolbar_shadow" />
 
 </FrameLayout>

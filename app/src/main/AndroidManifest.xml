@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="auto"
     package="website.leifs.delta">
 
     <!-- If you are not using donation and premium request, you need to remove BILLING permission -->
@@ -22,7 +23,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:installLocation="auto"
         tools:replace="android:icon">
 
         <activity android:name="website.leifs.delta.activities.SplashActivity"
@@ -36,7 +36,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.MainActivity"
+        <activity android:name="website.leifs.delta.activities.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme"
             android:configChanges="orientation|keyboardHidden|screenSize">
@@ -131,6 +131,23 @@
                 <action android:name="com.sonymobile.home.ICON_PACK"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+            <!-- GO Launcher & Zero Launcher-->
+            <intent-filter>
+                <action android:name="com.gau.go.launcherex.theme"/>
+                <action android:name="com.zeroteam.zerolauncher.theme"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <!-- +HOME Icon Picker -->
+            <intent-filter>
+                <action android:name="jp.co.a_tm.android.launcher.icons.ACTION_PICK_ICON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- V Launcher -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.vivid.launcher.theme"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
 
         <activity android:name="website.leifs.delta.activities.MuzeiActivity"
@@ -139,10 +156,10 @@
             android:exported="true"
             android:configChanges="orientation|keyboardHidden|screenSize"/>
 
-        <service android:name=".services.MuzeiService"
+        <service android:name="website.leifs.delta.services.MuzeiService"
             android:label="@string/muzei_art_source_name"
             android:description="@string/muzei_art_source_desc"
-            android:icon="@drawable/ic_muzei"
+            android:icon="@drawable/ic_muzei_logo"
             android:permission="android.permission.WAKE_LOCK">
             <intent-filter>
                 <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource" />
