@@ -38,7 +38,7 @@
     * If you want to use solid color, you can put hex color code here
     * ex: <string name="navigation_view_header">#000000</string> -->
 
-    <string name="home_image">home_image</string>
+    <string name="home_image">home</string>
 
     <!-- Home image style
     * Available choices:
@@ -47,13 +47,13 @@
     * landscape
     * square
     -->
-    <string name="home_image_style">card_landscape</string>
+    <string name="home_image_style">card_square</string>
 
     <!-- Home description
     - If you don't want to show description, just leave this empty -->
     <string name="home_description"><![CDATA[
             Pastel coloured side-project of a semester break.
-            Requests are closed a lot of the time due to me lacking exactly that.
+            Requests are closed a lot of the time due to me having a normal job and studying.
         ]]></string>
 
     <!-- More apps at Google Play Store
@@ -71,7 +71,7 @@
     *
     * If you want to use solid color, you can put hex color code here
     * ex: <string name="navigation_view_header">#000000</string> -->
-    <string name="navigation_view_header">ic_splash_screen</string>
+    <string name="navigation_view_header">home</string>
 
     <!-- Navigation view header text
     * Leave empty if you don't want to show any text -->
@@ -182,7 +182,7 @@
     *
     * If you want to use solid color, you can put hex color code here
     * ex: <string name="navigation_view_header">#000000</string> -->
-    <string name="about_image">home_image</string>
+    <string name="about_image">home</string>
 
     <!-- About profile image
     * If you want to use image from url, just put the url here
