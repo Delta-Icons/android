@@ -773,6 +773,7 @@
     <item component="ComponentInfo{com.mapswithme.maps.pro/com.mapswithme.maps.DownloadResourcesActivity}" drawable="maps_me"/>
     <item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity}" drawable="poweramp"/>
     <item component="ComponentInfo{com.mdv.swbicompanion/com.mdv.swbicompanion.StartupScreen}" drawable="mobiel" />
+    <item component="ComponentInfo{com.mdv.SWBICompanion/com.mdv.SWBICompanion.StartupScreen}" drawable="mobiel" />
     <item component="ComponentInfo{com.mediatek.camera/com.android.camera.CameraLauncher}" drawable="camera"/>
     <item component="ComponentInfo{com.mediatek.datatransfer/com.mediatek.datatransfer.BootActivity}" drawable="mediatek_backup" />
     <item component="ComponentInfo{com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity}" drawable="cyanogenmod_file_manager" />
@@ -871,7 +872,7 @@
     <item component="ComponentInfo{com.nianticlabs.pokemongo/com.unity3d.player.UnityPlayerNativeActivity}" drawable="pokemongo"/>
     <item component="ComponentInfo{com.nianticlabs.pokemongo_fixgps/com.unity3d.player.UnityPlayerNativeActivity}" drawable="pokemongo"/>
     <item component="ComponentInfo{com.nianticproject.ingress/com.nianticproject.ingress.NemesisActivity}" drawable="ingress" />
-    <item component="ComponentInfo{com.nike.snkrs/com.nike.snkrs.activities.TheWallActivity}" drawable="nike" />
+    <item component="ComponentInfo{com.nike.snkrs/com.nike.snkrs.activities.TheWallActivity}" drawable="nike_sneakrs" />
     <item component="ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.MainActivity}" drawable="snapseed" />
     <item component="ComponentInfo{com.ninegag.android.app/com.ninegag.android.app.ui.SplashScreenActivity}" drawable="nine_gag" />
     <item component="ComponentInfo{com.ninegag.android.tv/com.ninegag.android.tv.ui.activity.MainActivity}" drawable="nine_gag_tv" />
@@ -1241,6 +1242,7 @@
     <item component="ComponentInfo{com.yik.yak/com.yik.yak.ui.activity.SplashActivity}" drawable="yik_yak" />
     <item component="ComponentInfo{com.yirgalab.dzzz/com.yirgalab.dzzz.main.MainActivity}" drawable="doze" />
     <item component="ComponentInfo{com.yopeso.lieferando/com.yopeso.lieferando.SplashActivity}" drawable="lieferando" />
+    <item component="ComponentInfo{com.yopeso.lieferando/com.takeaway.android.Startup}" drawable="lieferando" />
     <item component="ComponentInfo{com.youdao.hindict/com.youdao.hindict.activity.MainActivity}" drawable="u_dictionary" />
     <item component="ComponentInfo{com.yulong.android.filebrowser/com.yulong.android.filebrowser.activity.FileBrowserActivity}" drawable="cyanogenmod_file_manager" />
     <item component="ComponentInfo{de.andip71.boeffla_config_v2/de.andip71.boeffla_config_v2.MainActivity}" drawable="boeffla_config"/>
@@ -2047,4 +2049,20 @@
     <item component="ComponentInfo{edu.umich.michigan/edu.umich.michigan.activities.SplashScreenActivity}" drawable="university_of_michigan" />
     <item component="ComponentInfo{com.androidapplication.uncrate/com.androidapplication.uncrate.activities.MainActivity}" drawable="uncrate" />
     <item component="ComponentInfo{com.hypebeast.editorial/com.hkm.editorial.HBSplash}" drawable="hypebeast" />
+
+    <!-- 1.2.6 -->
+    <item component="ComponentInfo{com.allstate.view/com.allstate.view.login.LoginSplashActivity}" drawable="allstate" />
+    <item component="ComponentInfo{com.amazon.drive/com.amazon.drive.activity.MainActivity}" drawable="amazon_drive" />
+    <item component="ComponentInfo{com.rovio.baba/rovio.baba.facebook.AbbaUnityActivity}" drawable="angry_birds_two" />
+    <item component="ComponentInfo{com.orbital.brainiton/com.prime31.UnityPlayerNativeActivity}" drawable="brain_it_on" />
+    <item component="ComponentInfo{com.essential.klik/com.essential.klik.Camera}" drawable="camera" />
+    <item component="ComponentInfo{us.koller.cameraroll/us.koller.cameraroll.ui.MainActivity}" drawable="camera_roll" />
+    <item component="ComponentInfo{com.hulu.plus/com.hulu.features.splash.SplashActivity}" drawable="hulu" />
+    <item component="ComponentInfo{com.nike.omega/com.nike.mynike.ui.SplashScreenActivity}" drawable="nike" />
+    <item component="ComponentInfo{org.frap129.spectrum/org.frap129.spectrum.SplashActivity}" drawable="spectrum" />
+    <item component="ComponentInfo{com.microsoft.xboxone.smartglass/com.microsoft.xbox.xle.app.MainActivity}" drawable="xbox" />
+    <item component="ComponentInfo{de.eos.uptrade.android.fahrinfo.berlin/de.hafas.main.HafasApp}" drawable="bvg" />
+    <item component="ComponentInfo{de.flixbus.app/de.meinfernbus.Main}" drawable="flixbus" />
+    <item component="ComponentInfo{de.dwd.warnapp/de.dwd.warnapp.MainActivity}" drawable="warnwetter" />
+    <item component="ComponentInfo{com.zdf.android.mediathek/com.zdf.android.mediathek.ui.splash.SplashActivity}" drawable="zdf_mediathek" />
 </resources>

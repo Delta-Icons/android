@@ -727,6 +727,7 @@
 	<item class="com.mapswithme.maps.pro/com.mapswithme.maps.DownloadResourcesActivity" name="maps_me"/>
 	<item class="com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity" name="poweramp"/>
 	<item class="com.mdv.swbicompanion/com.mdv.swbicompanion.StartupScreen" name="mobiel" />
+	<item class="com.mdv.SWBICompanion/com.mdv.SWBICompanion.StartupScreen" name="mobiel" />
 	<item class="com.mediatek.camera/com.android.camera.CameraLauncher" name="camera"/>
 	<item class="com.mediatek.datatransfer/com.mediatek.datatransfer.BootActivity" name="mediatek_backup" />
 	<item class="com.mediatek.filemanager/com.mediatek.filemanager.FileManagerOperationActivity" name="cyanogenmod_file_manager" />
@@ -825,7 +826,7 @@
 	<item class="com.nianticlabs.pokemongo/com.unity3d.player.UnityPlayerNativeActivity" name="pokemongo"/>
 	<item class="com.nianticlabs.pokemongo_fixgps/com.unity3d.player.UnityPlayerNativeActivity" name="pokemongo"/>
 	<item class="com.nianticproject.ingress/com.nianticproject.ingress.NemesisActivity" name="ingress" />
-	<item class="com.nike.snkrs/com.nike.snkrs.activities.TheWallActivity" name="nike" />
+	<item class="com.nike.snkrs/com.nike.snkrs.activities.TheWallActivity" name="nike_sneakrs" />
 	<item class="com.niksoftware.snapseed/com.google.android.apps.snapseed.MainActivity" name="snapseed" />
 	<item class="com.ninegag.android.app/com.ninegag.android.app.ui.SplashScreenActivity" name="nine_gag" />
 	<item class="com.ninegag.android.tv/com.ninegag.android.tv.ui.activity.MainActivity" name="nine_gag_tv" />
@@ -1195,6 +1196,7 @@
 	<item class="com.yik.yak/com.yik.yak.ui.activity.SplashActivity" name="yik_yak" />
 	<item class="com.yirgalab.dzzz/com.yirgalab.dzzz.main.MainActivity" name="doze" />
 	<item class="com.yopeso.lieferando/com.yopeso.lieferando.SplashActivity" name="lieferando" />
+	<item class="com.yopeso.lieferando/com.takeaway.android.Startup" name="lieferando" />
 	<item class="com.youdao.hindict/com.youdao.hindict.activity.MainActivity" name="u_dictionary" />
 	<item class="com.yulong.android.filebrowser/com.yulong.android.filebrowser.activity.FileBrowserActivity" name="cyanogenmod_file_manager" />
 	<item class="de.andip71.boeffla_config_v2/de.andip71.boeffla_config_v2.MainActivity" name="boeffla_config"/>
@@ -1997,4 +1999,20 @@
 	<item class="edu.umich.michigan/edu.umich.michigan.activities.SplashScreenActivity" name="university_of_michigan" />
 	<item class="com.androidapplication.uncrate/com.androidapplication.uncrate.activities.MainActivity" name="uncrate" />
 	<item class="com.hypebeast.editorial/com.hkm.editorial.HBSplash" name="hypebeast" />
+
+	<!-- 1.2.6 -->
+	<item class="com.allstate.view/com.allstate.view.login.LoginSplashActivity" name="allstate" />
+	<item class="com.amazon.drive/com.amazon.drive.activity.MainActivity" name="amazon_drive" />
+	<item class="com.rovio.baba/rovio.baba.facebook.AbbaUnityActivity" name="angry_birds_two" />
+	<item class="com.orbital.brainiton/com.prime31.UnityPlayerNativeActivity" name="brain_it_on" />
+	<item class="com.essential.klik/com.essential.klik.Camera" name="camera" />
+	<item class="us.koller.cameraroll/us.koller.cameraroll.ui.MainActivity" name="camera_roll" />
+	<item class="com.hulu.plus/com.hulu.features.splash.SplashActivity" name="hulu" />
+	<item class="com.nike.omega/com.nike.mynike.ui.SplashScreenActivity" name="nike" />
+	<item class="org.frap129.spectrum/org.frap129.spectrum.SplashActivity" name="spectrum" />
+	<item class="com.microsoft.xboxone.smartglass/com.microsoft.xbox.xle.app.MainActivity" name="xbox" />
+	<item class="de.eos.uptrade.android.fahrinfo.berlin/de.hafas.main.HafasApp" name="bvg" />
+	<item class="de.flixbus.app/de.meinfernbus.Main" name="flixbus" />
+	<item class="de.dwd.warnapp/de.dwd.warnapp.MainActivity" name="warnwetter" />
+	<item class="com.zdf.android.mediathek/com.zdf.android.mediathek.ui.splash.SplashActivity" name="zdf_mediathek" />
 </appmap>
