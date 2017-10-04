@@ -23,9 +23,9 @@ In case you want to contribute to Delta by providing icons please do so by creat
 
 ### Resources for Contributions
 The color palette
-![Palette for Delta](https://github.com/Delta-Icons/android/raw/master/palette.svg)
+![Palette for Delta](https://github.com/Delta-Icons/android/raw/master/Palette.svg) (Right-Click &rarr; Save as)
 
 Icon template
-![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/template.svg)
+![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/template.svg) (Right-Click &rarr; Save as)
 
 Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
