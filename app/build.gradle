@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+	signingConfigs {
+		release {
+			keyAlias 'Delta'
+			keyPassword 'Pastel'
+			storeFile file('/Volumes/Files/Users/leif/dev_stuff/keystores/delta.keystore')
+			storePassword 'Pastel'
+		}
+	}
+	compileSdkVersion rootProject.ext.CompileSdk
+	buildToolsVersion rootProject.ext.BuildTools
+	android.applicationVariants.all { variant ->
+		variant.outputs.each { output ->
+			def file = output.outputFile
+			def appName = parent.name
+			def fileName = appName.replace(" ", "_") + "_v" + variant.versionName + ".apk"
+			output.outputFile = new File(file.parent, fileName)
+		}
+	}
+	defaultConfig {
+		applicationId "website.leifs.delta"
+		minSdkVersion rootProject.ext.MinSdk
+		targetSdkVersion rootProject.ext.TargetSdk
+		versionCode 129
+		versionName "1.2.9"
+		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+	}
+	buildTypes {
+		release {
+			minifyEnabled true
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+			signingConfig signingConfigs.release
+		}
+		debug{
+			signingConfig signingConfigs.release
+		}
+	}
+}
+
+dependencies {
+	compile fileTree(include: ['*.jar'], dir: 'libs')
+	/*
+						 * CandyBar Material Dashboard Library
+						 *
+						 * How to update?
+						 * 1. See latest version at GitHub, https://github.com/danimahardhika/candybar-library/releases
+						 * 2. Change candybar dependency matching latest version
+						 * 3. com.github.danimahardhika.candybar-library:core:$versionNumber
+						 * 4. Sync Project with Gradle Files
+						 * 5. Clean project
+						 * 6. Done
+						 */
+	compile 'com.github.danimahardhika.candybar-library:core:3.4.1'
+}
