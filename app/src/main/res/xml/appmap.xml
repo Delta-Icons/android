@@ -1301,6 +1301,7 @@
 	<item class="me.msqrd.android/me.msqrd.android.LoginActivity" name="msqrd"/>
 	<item class="me.msqrd.android/me.msqrd.android.MainActivity" name="msqrd"/>
 	<item class="me.phh.superuser/com.koushikdutta.superuser.MainActivityity" name="supersu"/>
+	<item class="me.scan.android.client/me.scan.android.client.ui.ScanActivity" name="qr_code_reader" />
 	<item class="me.scan.android.scan/me.scan.android.client.ui.ScanActivity" name="qr_code_reader" />
 	<item class="me.twrp.twrpapp/me.twrp.officialtwrpapp.activities.MainActivity" name="twrp" />
 	<item class="me.twrp.twrpapp/me.twrp.twrpapp.activities.MainActivity" name="twrp" />
@@ -2171,6 +2172,12 @@
 	<item class="com.entersekt.android.transakt/com.entersekt.android.transakt.ui.activity.MainActivity" name="transakt" />
 	<item class="website.leifs.delta/website.leifs.delta.activities.SplashActivity" name="delta" />
 	<item class="com.noodlecake.waywardsouls/com.apportable.activity.VerdeActivity" name="wayward_souls" />
+  	<item class="de.tutao.tutanota/de.tutao.tutanota.MainActivity" drawable="tutanota" />
+  	<item class="com.fiverr.fiverr/com.fiverr.fiverr.ActivityAndFragment.EntryPoint.FVREntryPoint" drawable="fiverr" />
+  	<item class="ComponentInfo{org.y20k.transistor/org.y20k.transistor.MainActivity}" drawable="transistor" />
+	<item class="com.fender.tuner/com.fender.tuner.activities.LandingActivity" name="fender_tuner" />
+  	<item class="org.y20k.transistor/org.y20k.transistor.MainActivity" drawable="transistor" />
+   	<item class="de.heise.android.heiseonlineapp/de.heise.android.heiseonlineapp.ui.ChannelActivity" drawable="heise" />
   	<item class="de.tutao.tutanota/de.tutao.tutanota.MainActivity" name="tutanota" />
   	<item class="com.fiverr.fiverr/com.fiverr.fiverr.ActivityAndFragment.EntryPoint.FVREntryPoint" name="fiverr" />
   	<item class="org.y20k.transistor/org.y20k.transistor.MainActivity" name="transistor" />
@@ -2222,7 +2229,7 @@
   	<item class="com.getfindster.android.findsterduo/com.getfindster.android.findsterduo.activity.auth.SplashActivity" name="findster" />
   	<item class="com.wb.flixster/net.flixster.android.view.bootstrap.BootstrapActivity" name="flixster" />
   	<item class="com.ustwo.monumentvalley2/com.ustwo.androidplugins.MainActivity" name="monumentvalley2" />
-  	<item class="de.dreipc.wahlomat/de.dreipc.wahlomat.SplashScreenActivity" name="wahl-o-mat" />
+  	<item class="de.dreipc.wahlomat/de.dreipc.wahlomat.SplashScreenActivity" name="wahl_o_mat" />
   	<item class="com.zoomicelab.tlists/activities.SplashActivity" name="travelist" />
   	<item class="com.mixcloud.player/com.mixcloud.player.activity.SplashActivity" name="mixcloud" />
   	<item class="de.eventim.mobile.app.Android/mobile.app.Android.activity.StartupActivity" name="eventim" />
