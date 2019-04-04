@@ -25,10 +25,10 @@ allprojects {
 
     //NOTE: This is important
     rootProject.ext {
-        BuildTools = "27"
+        BuildTools = "28"
         MinSdk = 15
-        TargetSdk = 26
-        CompileSdk = 26
+        TargetSdk = 28
+        CompileSdk = 28
     }
 
 }
