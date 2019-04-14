@@ -815,8 +815,8 @@
 	<item class="com.easilydo.mail/com.easilydo.mail.ui.SplashActivity" name="easilydo_mail" />
 	<item class="com.eatdigi.android/com.eatdigi.android.expansion.ExpansionDownloaderActivity" name="pdc" />
 	<item class="com.ebay.gumtree.au/com.ebay.app.common.activities.SplashScreenActivity" name="gumtree" />
-	<item class="com.ebay.kijiji.ca/com.ebay.app.common.activities.SplashScreenActivity" name="kijiji" />
-	<item class="com.ebay.kijiji.ca/com.ebay.app.common.activities.SplashScreenActivity" name="kijiji_alt" />
+	<item class="com.ebay.app.common.startup.SplashScreenActivity" name="kijiji" />
+	<item class="com.ebay.app.common.startup.SplashScreenActivity" name="kijiji_alt" />
 	<item class="com.ebay.kleinanzeigen/ebk.home.HomeActivity" name="ebay_kleinanzeigen" />
 	<item class="com.ebay.kleinanzeigen/ebk.SplashActivity" name="ebay_kleinanzeigen" />
 	<item class="com.ebay.kleinanzeigen/ebk.ui.splash.SplashActivity" name="ebay_kleinanzeigen" />
@@ -1858,6 +1858,7 @@
 	<item class="com.samruston.flip/com.samruston.flip.MainActivity" name="flip" />
 	<item class="com.samruston.lifehacks/com.samruston.lifehacks.MainActivity" name="better" />
 	<item class="com.samruston.luci/com.samruston.luci.ui.journal.JournalActivity" name="luci" />
+	<item class="com.samruston.permission/com.samruston.permission.ui.home.MainActivity" name="bouncer" />
 	<item class="com.samruston.twitter/com.samruston.twitter.Launcher1" name="flamingo_for_twitter" />
 	<item class="com.samruston.twitter/com.samruston.twitter.Launcher2" name="flamingo_for_twitter" />
 	<item class="com.samruston.twitter/com.samruston.twitter.Launcher3" name="flamingo_for_twitter" />
@@ -1964,6 +1965,8 @@
 	<item class="com.simplecity.amp/com.simplecity.amp_library.ui.activities.MainActivity" name="shuttle" />
 	<item class="com.simplecity.amp_pro/com.simplecity.amp_library.ui.activities.MainActivity" name="shuttle" />
 	<item class="com.simplecity.shuttle/com.simplecity.amp_library.ui.activities.SplashActivity" name="shuttle" />
+	<item class="com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.MainActivity" name="simple_gallery" />
+	<item class="com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity" name="simple_gallery" />
 	<item class="com.simplexsolutionsinc.vpn_unlimited/com.simplexsolutionsinc.vpn_unlimited.ui.activity.AuthActivity" name="vpnunlimited" />
 	<item class="com.sina.weibo/com.sina.weibo.SplashActivity" name="weibo" />
 	<item class="com.sirius/com.sirius.AppStartActivity" name="sirius_xm" />
@@ -2068,6 +2071,8 @@
 	<item class="com.strava/com.strava.SplashActivity" name="strava" />
 	<item class="com.studentplanner/com.studentplanner.SchoolCodeActivity" name="student_planner" />
 	<item class="com.studio8apps.instasizenocrop/com.studio8apps.instasizenocrop.StartActivity" name="square_instapic" />com.androbaby.game2048/com.androbaby.game2048.MainActivity
+	<item class="com.subway.mobile.subwayapp03/com.paydiant.common.HomeActivity" name="subway" />
+	<item class="com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.SplashActivity" name="subway" />
 	<item class="com.supercell.boombeach/com.supercell.boombeach.GameApp" name="boom_beach" />
 	<item class="com.supercell.clashofclans/com.supercell.clashofclans.GameApp" name="clash_of_clans" />
 	<item class="com.supercell.clashroyale/com.supercell.clashroyale.GameApp" name="clash_royale" />
@@ -2089,7 +2094,7 @@
 	<item class="com.tbig.playerpro/com.tbig.playerpro.MusicBrowserActivity" name="playerpro" />
 	<item class="com.tct.calculator/com.tct.calculator.Calculator" name="calculator" />
 	<item class="com.tct.calculator2/com.tct.calculator2.Calculator" name="calculator" />
-	<item class="com.td/com.td.mobile.controllers.SplashActivity" name="bank" />
+	<item class="com.td/com.td.mobile.controllers.StartupActivity" name="bank" />
 	<item class="com.teamfon.teamsip2phone/com.teamfon.teamsip2phoneWhiteLabel.ui.activities.main.MainTabActivity" name="teamsip" />
 	<item class="com.teamspeak.ts3client/com.teamspeak.ts3client.StartGUIFragment" name="team__speak" />
 	<item class="com.teamtreehouse.android/com.teamtreehouse.android.ui.activities.LoginActivity" name="treehouse" />
@@ -2259,7 +2264,7 @@
 	<item class="com.valiton.edeka24/valiton.com.edeka24.view.Splashscreen" name="edeka" />
 	<item class="com.valuephone.vpedeka/com.aperto.ext.edekaapp.EdekaMainActivity" name="edeka" />
 	<item class="com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.activity.MainActivity" name="steam" />
-	<item class="com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" name="youtube" />
+	<item class="com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" name="youtube_vanced" />
 	<item class="com.vanguard/com.vanguard.shared.PromoActivity" name="vanguard" />
 	<item class="com.vasudevrb.cmchangelog/com.vasudevrb.cmchangelog.ui.main.MainActivity" name="los_changelog" />
 	<item class="com.vasudevrb.cmchangelog/com.vasudevrb.cmchangelog.view.MainActivity" name="los_changelog" />

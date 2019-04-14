@@ -866,8 +866,8 @@
 	<item component="ComponentInfo{com.easilydo.mail/com.easilydo.mail.ui.SplashActivity}" drawable="easilydo_mail" />
 	<item component="ComponentInfo{com.eatdigi.android/com.eatdigi.android.expansion.ExpansionDownloaderActivity}" drawable="pdc" />
 	<item component="ComponentInfo{com.ebay.gumtree.au/com.ebay.app.common.activities.SplashScreenActivity}" drawable="gumtree" />
-	<item component="ComponentInfo{com.ebay.kijiji.ca/com.ebay.app.common.activities.SplashScreenActivity}" drawable="kijiji" />
-	<item component="ComponentInfo{com.ebay.kijiji.ca/com.ebay.app.common.activities.SplashScreenActivity}" drawable="kijiji_alt" />
+	<item component="ComponentInfo{com.ebay.app.common.startup.SplashScreenActivity}" drawable="kijiji" />
+	<item component="ComponentInfo{com.ebay.app.common.startup.SplashScreenActivity}" drawable="kijiji_alt" />
 	<item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.home.HomeActivity}" drawable="ebay_kleinanzeigen" />
 	<item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.SplashActivity}" drawable="ebay_kleinanzeigen" />
 	<item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.ui.splash.SplashActivity}" drawable="ebay_kleinanzeigen" />
@@ -1910,6 +1910,7 @@
 	<item component="ComponentInfo{com.samruston.flip/com.samruston.flip.MainActivity}" drawable="flip" />
 	<item component="ComponentInfo{com.samruston.lifehacks/com.samruston.lifehacks.MainActivity}" drawable="better" />
 	<item component="ComponentInfo{com.samruston.luci/com.samruston.luci.ui.journal.JournalActivity}" drawable="luci" />
+	<item component="ComponentInfo{com.samruston.permission/com.samruston.permission.ui.home.MainActivity}" drawable="" />
 	<item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher1}" drawable="flamingo_for_twitter" />
 	<item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher2}" drawable="flamingo_for_twitter" />
 	<item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher3}" drawable="flamingo_for_twitter" />
@@ -2016,6 +2017,8 @@
 	<item component="ComponentInfo{com.simplecity.amp/com.simplecity.amp_library.ui.activities.MainActivity}" drawable="shuttle" />
 	<item component="ComponentInfo{com.simplecity.amp_pro/com.simplecity.amp_library.ui.activities.MainActivity}" drawable="shuttle" />
 	<item component="ComponentInfo{com.simplecity.shuttle/com.simplecity.amp_library.ui.activities.SplashActivity}" drawable="shuttle" />
+	<item component="ComponentInfo{com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.MainActivity}" drawable="simple_gallery" />
+	<item component="ComponentInfo{com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity}" drawable="simple_gallery" />
 	<item component="ComponentInfo{com.simplexsolutionsinc.vpn_unlimited/com.simplexsolutionsinc.vpn_unlimited.ui.activity.AuthActivity}" drawable="vpnunlimited" />
 	<item component="ComponentInfo{com.sina.weibo/com.sina.weibo.SplashActivity}" drawable="weibo" />
 	<item component="ComponentInfo{com.sirius/com.sirius.AppStartActivity}" drawable="sirius_xm" />
@@ -2120,6 +2123,8 @@
 	<item component="ComponentInfo{com.strava/com.strava.SplashActivity}" drawable="strava" />
 	<item component="ComponentInfo{com.studentplanner/com.studentplanner.SchoolCodeActivity}" drawable="student_planner" />
 	<item component="ComponentInfo{com.studio8apps.instasizenocrop/com.studio8apps.instasizenocrop.StartActivity}" drawable="square_instapic" />com.androbaby.game2048/com.androbaby.game2048.MainActivity
+	<item component="ComponentInfo{com.subway.mobile.subwayapp03/com.paydiant.common.HomeActivity}" drawable="" />
+	<item component="ComponentInfo{com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.SplashActivity}" drawable="" />
 	<item component="ComponentInfo{com.supercell.boombeach/com.supercell.boombeach.GameApp}" drawable="boom_beach" />
 	<item component="ComponentInfo{com.supercell.clashofclans/com.supercell.clashofclans.GameApp}" drawable="clash_of_clans" />
 	<item component="ComponentInfo{com.supercell.clashroyale/com.supercell.clashroyale.GameApp}" drawable="clash_royale" />
@@ -2141,7 +2146,7 @@
 	<item component="ComponentInfo{com.tbig.playerpro/com.tbig.playerpro.MusicBrowserActivity}" drawable="playerpro" />
 	<item component="ComponentInfo{com.tct.calculator/com.tct.calculator.Calculator}" drawable="calculator" />
 	<item component="ComponentInfo{com.tct.calculator2/com.tct.calculator2.Calculator}" drawable="calculator" />
-	<item component="ComponentInfo{com.td/com.td.mobile.controllers.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.td/com.td.mobile.controllers.StartupActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.teamfon.teamsip2phone/com.teamfon.teamsip2phoneWhiteLabel.ui.activities.main.MainTabActivity}" drawable="teamsip" />
 	<item component="ComponentInfo{com.teamspeak.ts3client/com.teamspeak.ts3client.StartGUIFragment}" drawable="team__speak" />
 	<item component="ComponentInfo{com.teamtreehouse.android/com.teamtreehouse.android.ui.activities.LoginActivity}" drawable="treehouse" />
@@ -2311,7 +2316,7 @@
 	<item component="ComponentInfo{com.valiton.edeka24/valiton.com.edeka24.view.Splashscreen}" drawable="edeka" />
 	<item component="ComponentInfo{com.valuephone.vpedeka/com.aperto.ext.edekaapp.EdekaMainActivity}" drawable="edeka" />
 	<item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.activity.MainActivity}" drawable="steam" />
-	<item component="ComponentInfo{com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" />
+	<item component="ComponentInfo{com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube_vanced" />
 	<item component="ComponentInfo{com.vanguard/com.vanguard.shared.PromoActivity}" drawable="vanguard" />
 	<item component="ComponentInfo{com.vasudevrb.cmchangelog/com.vasudevrb.cmchangelog.ui.main.MainActivity}" drawable="los_changelog" />
 	<item component="ComponentInfo{com.vasudevrb.cmchangelog/com.vasudevrb.cmchangelog.view.MainActivity}" drawable="los_changelog" />
