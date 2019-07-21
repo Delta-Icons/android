@@ -31,7 +31,7 @@ android {
 }
 
 dependencies {
-	compile fileTree(dir: 'libs', include: ['*.jar'])
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
 
 	/*
 	 * CandyBar Material Dashboard Library
@@ -44,5 +44,5 @@ dependencies {
 	 * 5. Clean project
 	 * 6. Done
 	 */
-	compile 'com.github.danimahardhika.candybar-library:core:3.5.0-b4'
+	implementation 'com.github.danimahardhika.candybar-library:core:3.5.0-b4'
 }
