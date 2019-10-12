@@ -33,6 +33,7 @@
 	<item class="bbc.iplayer.android/uk.co.bbc.iplayer.startup.StartupActivity" name="bbc_i_player" />
 	<item class="bbc.mobile.news.uk/bbc.mobile.news.v3.app.TopLevelActivity" name="bbc_news" />
 	<item class="bbc.mobile.news.ww/bbc.mobile.news.v3.app.TopLevelActivity" name="bbc_news" />
+    <item class="bbc.mobile.weather/.ui.main.MainActivity" name="bbc_weather" />
 	<item class="be.belfius.directmobile.android/be.belfius.directmobile.android.presenter.SplashActivity" name="belfius_mobile" />
 	<item class="be.mijnbezorgapp.id_7/be.mijnbezorgapp.id_7.MijnBezorgApp" name="pizza_aversa" />
 	<item class="be.persgroep.android.news.mobiledm/mobi.inthepocket.persgroep.demorgen.activities.HomeActivity" name="demorgen" />
@@ -67,6 +68,7 @@
 	<item class="cl.wom.transformacion.appwommobile/cl.wom.transformacion.appwommobile.actividades.CargaInicialActivity" name="wom" />
 	<item class="client/vstc.vscam.activity.BSplashActivity" name="eye_four" />
 	<item class="cms.lock/com.cleanmaster.security.applock.ui.MainActivity" name="cm_security" />
+    <item class="com.clearscore.mobile/.activities.LoginActivity" name="clearscore" />
 	<item class="cn.nubia.calendar.preset/cn.nubia.calendar.AllInOneActivity" name="calendar" />
 	<item class="cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity" name="calendar" />
 	<item class="cn.nubia.email/com.android.email.activity.Welcome" name="aosp_mail" />
@@ -77,6 +79,8 @@
 	<item class="co.paranoidandroid.camera/com.android.camera.CameraLauncher" name="camera" />
 	<item class="co.slidebox/co.slidebox.controller.startup.WelcomeActivity" name="slidebox" />
 	<item class="co.thefabulous.app/co.thefabulous.app.ui.screen.main.MainActivity" name="fabulous" />
+	<item class="co.uk.getmondo/co.uk.getmondo.splash.SplashActivity" name="monzo" />
+    <item class="co.uk.Nationwide.Mobile/.ui.MainActivity" name="nationwide" />
 	<item class="co.vine.android/co.vine.android.StartActivity" name="vine" />
 	<item class="code.name.monkey.retromusic/code.name.monkey.retromusic.ui.activities.main.MainActivity" name="retro_music_player" />
 	<item class="code.name.monkey.retromusic/code.name.monkey.retromusic.ui.activities.MainActivity" name="retro_music_player" />
@@ -451,6 +455,7 @@
 	<item class="com.askfm/com.askfm.welcome.SplashScreenActivity" name="ask_fm" />
 	<item class="com.asksven.betterbatterystats/com.asksven.betterbatterystats.StatsActivity" name="better__battery__stats" />
 	<item class="com.asksven.betterbatterystats_xdaedition/com.asksven.betterbatterystats.StatsActivity" name="better__battery__stats" />
+    <item class="com.asmolgam.states/org.cocos2dx.cpp.AppActivity" name="fifty_us_states" />
 	<item class="com.asos.app/com.asos.app.ui.activities.ConfigActivity" name="asos" />
 	<item class="com.aspiro.tidal/com.aspiro.wamp.LoginFragmentActivity" name="tidal" />
 	<item class="com.astor.grandcinema/com.astor.grandcinema.MainActivity" name="astor" />
@@ -521,6 +526,7 @@
 	<item class="com.basecamp.app/com.basecamp.activities.AccountActivity" name="basecamp" />
 	<item class="com.basecamp.bc3/com.basecamp.bc3.activities.MyStuffActivity" name="basecamp" />
 	<item class="com.battlelancer.seriesguide/com.battlelancer.seriesguide.ui.ShowsActivity" name="seriesguide" />
+    <item class="com.bbc.sounds/.ui.activity.MainActivity" name="bbc_sounds" />
 	<item class="com.bbm/com.bbm.ui.activities.StartupActivity-Delapan" name="bbm" />
 	<item class="com.bbm/com.bbm.ui.activities.StartupActivity" name="bbm" />
 	<item class="com.bbm2rr/com.bbm2rr.ui.activities.StartupActivity-Satu" name="bbm" />
@@ -544,6 +550,7 @@
 	<item class="com.bijoysingh.quicknote.pro/com.bijoysingh.quicknote.activities.MainActivity" name="scarlet" />
 	<item class="com.bijoysingh.quicknote/com.bijoysingh.quicknote.activities.MainActivity" name="scarlet" />
 	<item class="com.billApps.saver500px/com.billApps.saver500px.Activity.SplashScreen" name="fivehundredpx_saver" />
+	<item class="com.binance.dev/com.binance.dev.SplashActivity" name="binance" />
 	<item class="com.bitdefender.tuneup/com.bitdefender.tuneup.EulaFirstactivity" name="power_tuneup" />
 	<item class="com.bitly.app/com.bitly.app.activity.LandingActivity" name="bitly" />
 	<item class="com.bitsmedia.android.muslimpro/com.bitsmedia.android.muslimpro.activities.SplashActivity" name="muslim_pro" />
@@ -835,6 +842,7 @@
 	<item class="com.ebay.mobile/com.ebay.mobile.activities.eBay" name="ebay" />
 	<item class="com.ebay.mobile/com.ebay.mobile.activities.MainActivity" name="ebay" />
 	<item class="com.eclipsim.gpsstatus2/com.eclipsim.gpsstatus2.GPSStatus" name="gps_status" />
+    <item class="com.ecosia.android/org.chromium.chrome.browser.vr.VrMainActivity" name="ecosia" />
 	<item class="com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin" name="alipay" />
 	<item class="com.elgato.avea/com.appsrise.avea.ui.activities.WelcomeActivity" name="avea" />
 	<item class="com.elixsr.somnio/com.elixsr.somnio.LoginActivity" name="sky_map" />
@@ -882,6 +890,7 @@
 	<item class="com.fastemulator.gbafree/com.fastemulator.gba.MainActivity" name="my_boy" />
 	<item class="com.fastemulator.gbc/com.fastemulator.gbc.MainActivity" name="my_oldboy" />
 	<item class="com.fc.ot/com.fc.ot.OpenThesaurus" name="openthesaurus" />
+	<item class="com.fd.accessplusecs.aqua/uk.co.newday.creditcard.splash.ui.SplashActivity" name="aqua" />
 	<item class="com.fender.tuner/com.fender.tuner.activities.LandingActivity" name="fender_tuner" />
 	<item class="com.fgnm.baconcamera/com.fgnm.baconcamera.CameraActivity" name="camera_alt_three" />
 	<item class="com.fi6715.godough/com.fi6715.godough.ornlfcu" name="ornlfcu" />
@@ -1680,7 +1689,8 @@
 	<item class="com.ninjakiwi.bloonstd5/com.ninjakiwi.MainActivity" name="bloons_td" />
 	<item class="com.nintendo.zaba/org.cocos2dx.cpp.AppActivity" name="fire_emblem_heroes" />
 	<item class="com.nintendo.zaca/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="animal_crossing" />
-	<item class="com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="super_mario_run" />
+    <item class="com.nintendo.zaka/com.nintendo.npf.sdk.internal.app.NintendoAccountActivity" name="mario_kart_tour" />
+    <item class="com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="super_mario_run" />
 	<item class="com.nis.app/com.nis.app.ui.activities.HomeActivity" name="inshorts" />
 	<item class="com.nll.screenrecorder/com.nll.screenrecorder.activity.RouterActivity" name="screen_recorder" />
 	<item class="com.noinnion.android.greader.reader/com.noinnion.android.greader.ui.login.LoginActivity" name="g_reader" />
@@ -2094,6 +2104,7 @@
 	<item class="com.ssrdroide.lockscreenwidgets/com.ssrdroide.lockscreenwidgets.ui.activities.MainActivity" name="lock_screen_widgets" />
 	<item class="com.stackexchange.marvin/com.stackexchange.marvin.ui.LaunchActivity" name="stack_exchange" />
 	<item class="com.stackexchange.stackoverflow/com.stackexchange.stackoverflow.MainActivity" name="stack_overflow" />
+	<item class="com.stagecoach.stagecoachbus/com.stagecoachbus.views.start.SplashScreenActivity" name="stagecoach" />
 	<item class="com.standardnotes/com.standardnotes.MainActivity" name="standardnotes" />
 	<item class="com.starbucks.cee/com.starbucks.cee.MainActivity" name="starbucks" />
 	<item class="com.starbucks.mobilecard/com.starbucks.mobilecard.main.activity.LandingPageActivity" name="starbucks" />
@@ -2179,6 +2190,7 @@
 	<item class="com.textra/com.mplus.lib.ui.main.Main" name="textra" />
 	<item class="com.thescore.esports/com.thescore.esports.preapp.SplashActivity" name="the__score_esports" />
 	<item class="com.thetileapp.tile/com.thetileapp.tile.activities.IntroActivity" name="tile" />
+    <item class="com.thetrainline/.activities.home_screen.SplashScreenActivity" name="trainline" />
 	<item class="com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivity" name="transit" />
 	<item class="com.thetransitapp.droid/com.thetransitapp.droid.TransitActivity" name="transit" />
 	<item class="com.ThirdState.Cues/com.unity3d.player.UnityPlayerActivity" name="cues" />
@@ -2977,6 +2989,7 @@
 	<item class="tv.twitch.android.app/tv.twitch.android.apps.LandingActivity" name="twitch" />
 	<item class="ua.privatbank.ap24/ua.privatbank.ap24.beta.SplashActivity" name="privat_twentyfour" />
 	<item class="uk.amazon.mShop.android/com.amazon.mShop.home.HomeActivity" name="amazon" />
+	<item class="uk.co.bbc.android.iplayerradio/uk.co.bbc.android.iplayerradiov2.ui.toplevelcomponents.mainactivity.MainActivity" name="bbc_iplayer_radio" />
 	<item class="uk.co.bbc.android.sportdomestic/uk.co.bbc.android.sport.MainActivity" name="bbc_sport" />
 	<item class="uk.co.gbk.loyalty/uk.co.gbk.loyalty.ActivityLauncher" name="gbk" />
 	<item class="uk.co.santander.santanderUK/uk.co.santander.mobile.activities.SplashActivity" name="bank" />
