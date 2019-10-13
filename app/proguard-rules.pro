@@ -16,14 +16,29 @@
 #   public *;
 #}
 
+# Android Support Library
 -keep class !android.support.v7.internal.view.menu.**,android.support.** {*;}
 -keep class android.support.v7.graphics.** { *; }
+-dontwarn android.support.v7.graphics.**
 
+-keep class android.support.design.widget.** { *; }
+-keep interface android.support.design.widget.** { *; }
+-dontwarn android.support.design.**
+
+# Keep the source line when using ProGuard
 -renamesourcefileattribute SourceFile
 -keepattributes SourceFile,LineNumberTable
 
+# LoganSquare JSON parser
 -keep class com.bluelinelabs.logansquare.** { *; }
 -keep @com.bluelinelabs.logansquare.annotation.JsonObject class *
 -keep class **$$JsonObjectMapper { *; }
 
+# Java 8
 -dontwarn java.lang.invoke.*
+-dontwarn **$$Lambda$*
+
+# OkHttp
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn javax.annotation.**
