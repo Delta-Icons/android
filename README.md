@@ -1,11 +1,9 @@
 <p align="center">
-	<div style="text-align: center; margin: 120px 0">
 	<img src="https://github.com/Delta-Icons/android/raw/master/delta-logo.png" alt="">
-</div>
 </p>
 
-# Delta Icons
-Matted out icon pack for custom Android launchers.
+<h1 align="center" padding="100">Delta Icons</h1>
+<p align="center">Matted out icon pack for custom Android launchers.</p>
 
 ## Contributing
 In case you want to contribute to Delta by providing icons please do so by creating a vector-based icon, cloning this repo and issuing a pull request with regards to these points:
