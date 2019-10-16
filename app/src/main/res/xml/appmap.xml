@@ -33,7 +33,7 @@
 	<item class="bbc.iplayer.android/uk.co.bbc.iplayer.startup.StartupActivity" name="bbc_i_player" />
 	<item class="bbc.mobile.news.uk/bbc.mobile.news.v3.app.TopLevelActivity" name="bbc_news" />
 	<item class="bbc.mobile.news.ww/bbc.mobile.news.v3.app.TopLevelActivity" name="bbc_news" />
-    <item class="bbc.mobile.weather/.ui.main.MainActivity" name="bbc_weather" />
+	<item class="bbc.mobile.weather/.ui.main.MainActivity" name="bbc_weather" />
 	<item class="be.belfius.directmobile.android/be.belfius.directmobile.android.presenter.SplashActivity" name="belfius_mobile" />
 	<item class="be.mijnbezorgapp.id_7/be.mijnbezorgapp.id_7.MijnBezorgApp" name="pizza_aversa" />
 	<item class="be.persgroep.android.news.mobiledm/mobi.inthepocket.persgroep.demorgen.activities.HomeActivity" name="demorgen" />
@@ -68,7 +68,7 @@
 	<item class="cl.wom.transformacion.appwommobile/cl.wom.transformacion.appwommobile.actividades.CargaInicialActivity" name="wom" />
 	<item class="client/vstc.vscam.activity.BSplashActivity" name="eye_four" />
 	<item class="cms.lock/com.cleanmaster.security.applock.ui.MainActivity" name="cm_security" />
-    <item class="com.clearscore.mobile/.activities.LoginActivity" name="clearscore" />
+	<item class="com.clearscore.mobile/.activities.LoginActivity" name="clearscore" />
 	<item class="cn.nubia.calendar.preset/cn.nubia.calendar.AllInOneActivity" name="calendar" />
 	<item class="cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity" name="calendar" />
 	<item class="cn.nubia.email/com.android.email.activity.Welcome" name="aosp_mail" />
@@ -79,8 +79,8 @@
 	<item class="co.paranoidandroid.camera/com.android.camera.CameraLauncher" name="camera" />
 	<item class="co.slidebox/co.slidebox.controller.startup.WelcomeActivity" name="slidebox" />
 	<item class="co.thefabulous.app/co.thefabulous.app.ui.screen.main.MainActivity" name="fabulous" />
-	<item class="co.uk.getmondo/co.uk.getmondo.splash.SplashActivity" name="monzo" />
-    <item class="co.uk.Nationwide.Mobile/.ui.MainActivity" name="nationwide" />
+	<item class="co.uk.getmondo.splash.SplashActivity" name="monzo" />
+	<item class="co.uk.Nationwide.Mobile/.ui.MainActivity" name="nationwide" />
 	<item class="co.vine.android/co.vine.android.StartActivity" name="vine" />
 	<item class="code.name.monkey.retromusic/code.name.monkey.retromusic.ui.activities.main.MainActivity" name="retro_music_player" />
 	<item class="code.name.monkey.retromusic/code.name.monkey.retromusic.ui.activities.MainActivity" name="retro_music_player" />
@@ -97,6 +97,7 @@
 	<item class="com.actionlauncher.playstore/com.actionlauncher.ActionLauncherActivity" name="action_launcher" />
 	<item class="com.actionlauncher.playstore/com.chrislacy.actionlauncher.ActionLauncher" name="action_launcher" />
 	<item class="com.active.aps.c25k/com.active.aps.runner.activities.SplashActivity" name="couch_to_5k" />
+	<item class="com.adam.aslfms/com.adam.aslfms.SettingsActivity" name="simple_last_fm_scrobbler" />
 	<item class="com.adguard.android.contentblocker/com.adguard.android.contentblocker.MainActivity" name="adguard" />
 	<item class="com.adguard.android.contentblocker/com.adguard.android.contentblocker.ui.MainActivity" name="adguard" />
 	<item class="com.adguard.android/com.adguard.android.ui.SplashActivity" name="adguard" />
@@ -115,7 +116,7 @@
 	<item class="com.adobe.sparkleandroid/com.adobe.sparkleandroid.activity.XDSplashScreenActivity" name="adobe_xd" />
 	<item class="com.adrientruong.grades/com.adrientruong.grades.MainActivity" name="grades" />
 	<item class="com.adsk.sketchbook/com.adsk.sketchbook.SketchBook" name="autodesk_sketchbook" />
-	<item class="com.adsk.sketchbookhdexpress/com.adsk.sketchbook.SketchBook" name="sketchbook" />
+	<item class="com.adsk.sketchbookhdexpress/com.adsk.sketchbook.SketchBook" name="autodesk_sketchbook" />
 	<item class="com.af.synapse/com.af.synapse.MainActivity" name="synapse" />
 	<item class="com.agilebits.onepassword/com.agilebits.onepassword.activity.LoginActivity" name="one_password" />
 	<item class="com.aimp.player/com.aimp.player.views.MainActivity.MainActivity" name="aimp" />
@@ -310,9 +311,8 @@
 	<item class="com.android.documentsui/com.android.documentsui.LauncherActivity" name="bq_files" />
 	<item class="com.android.documentsui/com.android.documentsui.LauncherActivity" name="downloads" />
 	<item class="com.android.dualliststk/com.android.dualliststk.StkToolkitActivity" name="sim_toolkit" />
-	<item class="com.android.email/com.android.email.activity.EmailActivity" name="mail" />
+	<item class="com.android.email/com.android.email.activity.EmailActivity" name="aosp_mail" />
 	<item class="com.android.email/com.android.email.activity.Welcome" name="aosp_mail" />
-	<item class="com.android.email/com.android.email.activity.Welcome" name="mail" />
 	<item class="com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity" name="cyanogenmod_file_manager" />
 	<item class="com.android.fmradio/com.android.fmradio.FmActivity" name="fm_radio" />
 	<item class="com.android.fmradio/com.android.fmradio.FmMainActivity" name="fm_radio" />
@@ -333,6 +333,7 @@
 	<item class="com.android.htccontacts/com.android.htccontacts.DialerTabActivity" name="phone" />
 	<item class="com.android.mediacenter/com.android.mediacenter.PageActivity" name="music" />
 	<item class="com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity" name="sms_alt_three" />
+	<item class="com.oneplus.mms/com.android.mms.ui.ConversationList" name="sms_alt_three" />
 	<item class="com.android.mms/com.android.mms.ui.BootActivity" name="sms_alt_three" />
 	<item class="com.android.mms/com.android.mms.ui.CmasListActivityShortCut" name="sms_alt_three" />
 	<item class="com.android.mms/com.android.mms.ui.ConversationComposer" name="sms_alt_three" />
@@ -455,7 +456,7 @@
 	<item class="com.askfm/com.askfm.welcome.SplashScreenActivity" name="ask_fm" />
 	<item class="com.asksven.betterbatterystats/com.asksven.betterbatterystats.StatsActivity" name="better__battery__stats" />
 	<item class="com.asksven.betterbatterystats_xdaedition/com.asksven.betterbatterystats.StatsActivity" name="better__battery__stats" />
-    <item class="com.asmolgam.states/org.cocos2dx.cpp.AppActivity" name="fifty_us_states" />
+	<item class="com.asmolgam.states/org.cocos2dx.cpp.AppActivity" name="fifty_us_states" />
 	<item class="com.asos.app/com.asos.app.ui.activities.ConfigActivity" name="asos" />
 	<item class="com.aspiro.tidal/com.aspiro.wamp.LoginFragmentActivity" name="tidal" />
 	<item class="com.astor.grandcinema/com.astor.grandcinema.MainActivity" name="astor" />
@@ -515,18 +516,15 @@
 	<item class="com.bamnetworks.mobile.android.gameday.atbat/com.bamnetworks.mobile.android.gameday.appstart.viewcontrollers.SplashScreenActivity" name="at_bat" />
 	<item class="com.bandainamcoent.narutoblazingna/android.nt.project.NTActivity" name="naruto" />
 	<item class="com.bandcamp.android/com.bandcamp.android.view.SplashActivity" name="bandcamp" />
-	<item class="com.banggood.client/com.banggood.client.main.MainUIActivity" name="banggood" />
-	<item class="com.banggood.client/com.banggood.client.module.startup.SplashActivity" name="banggood" />
 	<item class="com.bankid.bus/com.bankid.bus.activities.InitActivity" name="bank_id" />
 	<item class="com.banksimple/com.banksimple.ui.LauncherActivity" name="simple" />
 	<item class="com.banksimple/com.banksimple.ui.LauncherActivity" name="simple_bank" />
-	<item class="com.adam.aslfms/com.adam.aslfms.SettingsActivity" name="simple_last_fm_scrobbler" />
 	<item class="com.barclays.android.barclaysmobilebanking/com.barclays.android.registration.NRegSplashActivity" name="bank" />
 	<item class="com.baseapp.eyeem/com.baseapp.eyeem.Start" name="eye__em" />
 	<item class="com.basecamp.app/com.basecamp.activities.AccountActivity" name="basecamp" />
 	<item class="com.basecamp.bc3/com.basecamp.bc3.activities.MyStuffActivity" name="basecamp" />
 	<item class="com.battlelancer.seriesguide/com.battlelancer.seriesguide.ui.ShowsActivity" name="seriesguide" />
-    <item class="com.bbc.sounds/.ui.activity.MainActivity" name="bbc_sounds" />
+	<item class="com.bbc.sounds/.ui.activity.MainActivity" name="bbc_sounds" />
 	<item class="com.bbm/com.bbm.ui.activities.StartupActivity-Delapan" name="bbm" />
 	<item class="com.bbm/com.bbm.ui.activities.StartupActivity" name="bbm" />
 	<item class="com.bbm2rr/com.bbm2rr.ui.activities.StartupActivity-Satu" name="bbm" />
@@ -630,11 +628,12 @@
 	<item class="com.calea.echo/com.calea.echo.MainActivity" name="mood" />
 	<item class="com.callpod.android_apps.keeper/com.callpod.android_apps.keeper.ResultsActivity" name="keeper" />
 	<item class="com.campmobile.snow/com.campmobile.snow.feature.intro.SplashActivity" name="snow" />
+	<item class="com.campmobile.snow/com.linecorp.b612.android.activity.ActivityCamera" name="snow" />
 	<item class="com.camsam.plus/de.blitzer.activity.SplashScreen" name="blitzer_de" />
 	<item class="com.candl.auge/com.candl.auge.activity.LauncherActivity" name="agenda_widget" />
 	<item class="com.candl.chronos/com.candl.chronos.MainActivity" name="month_widget" />
 	<item class="com.capigami.outofmilk/com.capigami.outofmilk.activity.StartActivity" name="out_of_milk" />
-    <item class="com.capigami.outofmilk/com.capigami.outofmilk.MainActivity" name="out_of_milk" />
+	<item class="com.capigami.outofmilk/com.capigami.outofmilk.MainActivity" name="out_of_milk" />
 	<item class="com.capitainetrain.android/com.capitainetrain.android.HomeActivity" name="trainline_eu" />
 	<item class="com.cargurus.mobileApp/com.cargurus.mobileApp.MainActivity" name="cargurus" />
 	<item class="com.carmax.carmax/com.carmax.carmax.HomeActivity" name="carmax" />
@@ -709,14 +708,13 @@
 	<item class="com.contextlogic.wish/com.contextlogic.wish.activity.browse.BrowseActivity" name="wish" />
 	<item class="com.contextlogic.wish/com.contextlogic.wish.ui.activity.login.LoginActivity" name="wish" />
 	<item class="com.contextlogic.wishlocal/com.contextlogic.wishlocal.activity.browse.BrowseActivity" name="wish" />
-	<item class="com.coolpad.music/com.android.music.MusicPlayerTab" name="music" />
 	<item class="com.convertbee/com.convertbee.MainActivity" name="convertbee" />
+	<item class="com.coolpad.music/com.android.music.MusicPlayerTab" name="music" />
 	<item class="com.coub.android/com.coub.android.ui.MainActivity" name="coub" />
 	<item class="com.cozi.androidfree/com.cozi.android.activity.DispatcherActivity" name="cozi_family_organizer" />
 	<item class="com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity" name="cpu_z" />
 	<item class="com.crackberry.app/com.androidcentral.app.HomeActivity" name="crackberry" />
 	<item class="com.craigdowdall.fcolors/com.craigdowdall.fcolors.ui.MainActivity" name="f_colors" />
-	<item class="com.creativetrends.folio.app/io.friendly.activity.SplashActivity" name="folio_for_facebook2" />
 	<item class="com.creativetrends.simple.app.pro/com.creativetrends.simple.app.activities.SimpleLogin" name="simple" />
 	<item class="com.creativetrends.simple.app.pro/com.creativetrends.simple.app.pro.activites.SimpleLogin" name="simple" />
 	<item class="com.creativetrends.simple.app.pro/com.creativetrends.simple.app.pro.activities.SimpleLogin" name="simple" />
@@ -731,9 +729,8 @@
 	<item class="com.curiosity.dailycuriosity/com.curiosity.dailycuriosity.MainActivity" name="curiosity" />
 	<item class="com.cville.cattail/com.cville.cattail.view.SplashActivity" name="cat_bus" />
 	<item class="com.cw.fullepisodes.android/com.cw.fullepisodes.android.activity.LaunchActivity" name="cw" />
-	<item class="com.cyanogenmod.eleven/com.cyanogenmod.eleven.ui.activities.HomeActivity" name="cyanogenmod_music" />
 	<item class="com.cyanogenmod.eleven/com.cyanogenmod.eleven.ui.activities.HomeActivity" name="music" />
-    <item class="com.cyanogenmod.eleven/org.lineageos.eleven.ui.activities.HomeActivity" name="music" />
+	<item class="com.cyanogenmod.eleven/org.lineageos.eleven.ui.activities.HomeActivity" name="music" />
 	<item class="com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity" name="cyanogenmod_file_manager" />
 	<item class="com.cyngn.audiofx/com.cyngn.audiofx.activity.ActivityMusic" name="audiofx" />
 	<item class="com.cyngn.cameranext/com.android.camera.CameraLauncher" name="camera" />
@@ -753,14 +750,14 @@
 	<item class="com.delphicoder.flud/com.delphicoder.flud.MainActivity" name="flud" />
 	<item class="com.deltatre.atp.tennis.android/com.tennistv.activities.splash.SplashActivity" name="tennis_tv" />
 	<item class="com.deltatre.atp.tennis.android/com.tennistv.android.activities.splash.SplashActivity" name="tennis_tv" />
-    <item class="com.desjardins.mobile/com.desjardins.mobile.ui.demarrage.DemarrageActivity" name="desjardins" />
+	<item class="com.desjardins.mobile/com.desjardins.mobile.ui.demarrage.DemarrageActivity" name="desjardins" />
 	<item class="com.devadvance.rootcloak2/com.devadvance.rootcloak2.Settings" name="rootcloak" />
 	<item class="com.devhd.feedly/com.devhd.feedly.Main" name="feedly" />
 	<item class="com.devhomc.myapps/com.devhomc.myapps.MainActivity" name="shortcut_to_my_apps" />
 	<item class="com.deviantart.android.damobile/com.deviantart.android.damobile.activity.HomeActivity" name="deviant__art" />
 	<item class="com.devolver.downwell/com.devolver.downwell.RunnerActivity" name="downwell" />
 	<item class="com.devsisters.SolitaireDeckedOut/com.devsisters.solitaire.MainActivity" name="solitaire_decked_out" />
-    <item class="com.devsisters.SolitaireDeckedOut/com.unity3d.player.UnityPlayerActivity" name="solitaire_decked_out" />
+	<item class="com.devsisters.SolitaireDeckedOut/com.unity3d.player.UnityPlayerActivity" name="solitaire_decked_out" />
 	<item class="com.devuni.flashlight/com.devuni.flashlight.MainActivity" name="flashlight" />
 	<item class="com.devwild.zermelo/com.devwild.zermelo.MainActivity" name="zermelo" />
 	<item class="com.dgsd.android.ShiftTracker/com.dgsd.android.ShiftTracker.StartupActivity" name="shift_tracker" />
@@ -804,12 +801,8 @@
 	<item class="com.ds.avare/com.ds.avare.MainActivity " name="avare" />
 	<item class="com.dsemu.drastic/com.dsemu.drastic.DraSticActivity" name="dra__stic" />
 	<item class="com.duapps.recorder/com.duapps.screen.recorder.SplashActivity" name="du_recorder" />
-	<item class="com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LaunchActivity" name="duckduckgo" />
-	<item class="com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LaunchActivity" name="duckduckgo_alt" />
 	<item class="com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LaunchActivity" name="duckduckgo_alt_two" />
-	<item class="com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo" name="duckduckgo" />
-    <item class="com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo" name="duckduckgo_alt" />
-    <item class="com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo" name="duckduckgo_alt_two" />
+	<item class="com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo" name="duckduckgo_alt_two" />
 	<item class="com.duden.container/com.paragon.container.CatalogActivity" name="duden" />
 	<item class="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.HoriWidgetMainActivityV2" name="mi_remote" />
 	<item class="com.duolingo/com.duolingo.app.LoginActivity" name="duolingo" />
@@ -842,7 +835,7 @@
 	<item class="com.ebay.mobile/com.ebay.mobile.activities.eBay" name="ebay" />
 	<item class="com.ebay.mobile/com.ebay.mobile.activities.MainActivity" name="ebay" />
 	<item class="com.eclipsim.gpsstatus2/com.eclipsim.gpsstatus2.GPSStatus" name="gps_status" />
-    <item class="com.ecosia.android/org.chromium.chrome.browser.vr.VrMainActivity" name="ecosia" />
+	<item class="com.ecosia.android/org.chromium.chrome.browser.vr.VrMainActivity" name="ecosia" />
 	<item class="com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin" name="alipay" />
 	<item class="com.elgato.avea/com.appsrise.avea.ui.activities.WelcomeActivity" name="avea" />
 	<item class="com.elixsr.somnio/com.elixsr.somnio.LoginActivity" name="sky_map" />
@@ -884,14 +877,15 @@
 	<item class="com.facebook.mlite/com.facebook.mlite.coreui.view.MainActivity" name="facebook_messenger_lite" />
 	<item class="com.facebook.orca/com.facebook.orca.auth.StartScreenActivity" name="facebook_messenger" />
 	<item class="com.facebook.pages.app/com.facebook.pages.app.activity.PagesManagerLoginActivity" name="fb_page_manager" />
+	<item class="com.facebook.pages.app/com.facebook.pages.app.auth.PagesManagerLoginActivity" name="fb_page_manager" />
 	<item class="com.fandango/com.fandango.Fandango" name="fandango" />
 	<item class="com.fastaccess.github/com.fastaccess.ui.modules.main.MainActivity" name="fasthub" />
 	<item class="com.fastemulator.gba/com.fastemulator.gba.MainActivity" name="my_boy" />
 	<item class="com.fastemulator.gbafree/com.fastemulator.gba.MainActivity" name="my_boy" />
 	<item class="com.fastemulator.gbc/com.fastemulator.gbc.MainActivity" name="my_oldboy" />
 	<item class="com.fc.ot/com.fc.ot.OpenThesaurus" name="openthesaurus" />
-	<item class="com.fd.accessplusecs.aqua/uk.co.newday.creditcard.splash.ui.SplashActivity" name="aqua" />
-	<item class="com.fender.tuner/com.fender.tuner.activities.LandingActivity" name="fender_tuner" />
+	<item class="com.fd.accessplusecs.aqua" name="aqua" />
+	<item class="com.fender.tuner/com.fender.tuner.activities.LandingActivit" name="fender_tuner" />
 	<item class="com.fgnm.baconcamera/com.fgnm.baconcamera.CameraActivity" name="camera_alt_three" />
 	<item class="com.fi6715.godough/com.fi6715.godough.ornlfcu" name="ornlfcu" />
 	<item class="com.fideuram.phone/com.latuabancaperandroid.ELoadingPageActivity" name="bank" />
@@ -945,7 +939,7 @@
 	<item class="com.froschmedia.skater/com.prime31.UnityPlayerNativeActivity" name="skater" />
 	<item class="com.fsck.k9/com.fsck.k9.activity.Accounts" name="k_nine_mail" />
 	<item class="com.fueled.afterlight/com.fueled.afterlight.HomeActivity" name="afterlight" />
-	<item class="com.fundevs.app.mediaconverter/com.fundevs.app.mediaconverter.SplashActivity" name="mp_three_video_converter" />
+	<item class="com.fundevs.app.mediaconverter/com.fundevs.app.mediaconverter.SplashActivity" name="mpthree_video_converter" />
 	<item class="com.Funimation.FunimationNow/com.funimation.ui.splash.SplashActivity_" name="funimationnow" />
 	<item class="com.fusionmedia.investing/com.fusionmedia.investing.view.activities.SplashSplitter" name="inv" />
 	<item class="com.g.pocketmal/com.g.pocketmal.ui.SplashActivity" name="pocket_mal" />
@@ -972,6 +966,7 @@
 	<item class="com.getsomeheadspace.android/com.getsomeheadspace.android._oldarchitecture.activities.SplashActivity" name="headspace" />
 	<item class="com.getsomeheadspace.android/com.getsomeheadspace.android.activities.SplashActivity" name="headspace" />
 	<item class="com.getsomeheadspace.android/com.getsomeheadspace.android.ui.intro.IntroActivity" name="headspace" />
+	<item class="com.getsomeheadspace.android/com.getsomeheadspace.android.ui.feature.splashscreen.SplashActivity" name="headspace" />
 	<item class="com.gettaxi.android/com.gettaxi.android.activities.login.LoadingActivity" name="gett" />
 	<item class="com.gh4a/com.gh4a.activities.Github4AndroidActivity" name="octodroid" />
 	<item class="com.ghisler.android.TotalCommander/com.ghisler.android.TotalCommander.TotalCommander" name="total_commander" />
@@ -1015,6 +1010,7 @@
 	<item class="com.google.android.apps.freighter/com.google.android.apps.nbu.freighter.activities.SplashActivity" name="google_datally" />
 	<item class="com.google.android.apps.freighter/com.google.android.apps.nbu.freighter.splash.SplashActivity" name="google_datally" />
 	<item class="com.google.android.apps.genie.geniewidget/com.google.android.apps.genie.geniewidget.activities.NewsActivity" name="google_news_and_weather" />
+	<item class="com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity" name="google_news" />
 	<item class="com.google.android.apps.giant/com.google.android.apps.giant.activity.AnalyticsLaunchActivity" name="google_analytics" />
 	<item class="com.google.android.apps.giant/com.google.android.apps.giant.activity.LauncherActivity" name="google_analytics" />
 	<item class="com.google.android.apps.gmoney/com.google.android.apps.wallet.entrypoint.WalletRootActivity" name="google_wallet" />
@@ -1026,7 +1022,7 @@
 	<item class="com.google.android.apps.maps/com.google.android.maps.LatitudeActivity" name="google_maps" />
 	<item class="com.google.android.apps.maps/com.google.android.maps.MapsActivity" name="google_maps" />
 	<item class="com.google.android.apps.maps/com.google.android.maps.PlacesActivity" name="google_maps" />
-	<item class="com.google.android.apps.mapslite/org.chromium.webapk.shell_apk.MainActivity" name="google_maps" />s
+	<item class="com.google.android.apps.mapslite/org.chromium.webapk.shell_apk.MainActivity" name="google_maps" />
 	<item class="com.google.android.apps.meetings/com.google.android.apps.meetings.splash.SplashActivity" name="google_hangouts_meet" />
 	<item class="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity" name="sms_alt_three" />
 	<item class="com.google.android.apps.motionstills/com.google.android.apps.motionstills.SplashActivity" name="motion_stills" />
@@ -1041,7 +1037,7 @@
 	<item class="com.google.android.apps.plus/com.google.android.apps.plus.phone.PhotosLegacyLauncherActivity" name="google_photos" />
 	<item class="com.google.android.apps.plus/com.google.android.apps.plus.phone.PhotosLegacyLauncherActivity" name="google_plus" />
 	<item class="com.google.android.apps.podcasts/com.google.android.apps.podcasts.PodcastsActivity" name="google_podcasts" />
-	<item class="com.google.android.apps.secrets/com.google.android.apps.secrets.ui.main.MainActivity" name="playbook" />
+	<item class="com.google.android.apps.secrets/com.google.android.apps.secrets.ui.main.MainActivity" name="google_playbook" />
 	<item class="com.google.android.apps.shopping.express/com.google.android.apps.shopping.express.activity.PreMainActivity" name="google_express" />
 	<item class="com.google.android.apps.social.spaces/com.google.android.apps.social.spaces.HomeActivity" name="google_spaces" />
 	<item class="com.google.android.apps.subscriptions.red/com.google.android.apps.subscriptions.red.LauncherActivity" name="google_one" />
@@ -1066,10 +1062,10 @@
 	<item class="com.google.android.calendar/com.android.calendar.LaunchActivity" name="calendar" />
 	<item class="com.google.android.camera/com.android.camera.Camera" name="camera" />
 	<item class="com.google.android.contacts/com.android.contacts.activities.PeopleActivity" name="contacts" />
+	<item class="com.oneplus.contacts/com.oneplus.contacts.activities.OPPeopleActivity" name="contacts" />
 	<item class="com.google.android.deskclock/com.android.deskclock.DeskClock" name="clock" />
 	<item class="com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity" name="phone" />
 	<item class="com.google.android.email/com.android.email.activity.Welcome" name="aosp_mail" />
-	<item class="com.google.android.email/com.android.email.activity.Welcome" name="mail" />
 	<item class="com.google.android.fmradio/com.google.android.fmradio.app.MainActivity" name="fm_radio" />
 	<item class="com.google.android.gallery3d/com.android.camera.CameraLauncher" name="camera" />
 	<item class="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" name="gallery" />
@@ -1149,10 +1145,10 @@
 	<item class="com.grabtaxi.passenger/com.grab.pax.Home" name="grab" />
 	<item class="com.grabtaxi.passenger/com.grab.pax.newface.presentation.newface.NewFace" name="grab" />
 	<item class="com.grabtaxi.passenger/com.myteksi.passenger.splash.SplashActivity" name="grab" />
+	<item class="com.grability.rappi/com.grability.app.splash.SplashActivity" name="rappi" />
 	<item class="com.grarak.kerneladiutor/com.grarak.kerneladiutor.activities.StartActivity-Material" name="kernel_adiutor" />
 	<item class="com.grarak.kerneladiutor/com.grarak.kerneladiutor.activities.StartActivity" name="kernel_adiutor" />
 	<item class="com.grarak.kerneladiutor/com.grarak.kerneladiutor.MainActivity" name="kernel_adiutor" />
-	<item class="com.grability.rappi/com.grability.app.splash.SplashActivity" name="rappi" />
 	<item class="com.greater.Greater/com.greater.Greater.presentation.old.MainActivity" name="bank" />
 	<item class="com.greenaddress.greenbits_android_wallet/com.greenaddress.greenbits.ui.PinActivity" name="green" />
 	<item class="com.greenwald.circuit/com.greenwald.activity.SplashActivity" name="circuit" />
@@ -1210,7 +1206,7 @@
 	<item class="com.htc.album/com.htc.album.AlbumTabSwitchActivity" name="gallery" />
 	<item class="com.htc.albumgp/com.htc.album.AlbumMain.ActivityMainTabHost" name="gallery" />
 	<item class="com.htc.android.mail/com.htc.android.mail.MailListTab" name="aosp_mail" />
-	<item class="com.htc.android.mail/com.htc.android.mail.MultipleActivitiesMain" name="mail" />
+	<item class="com.htc.android.mail/com.htc.android.mail.MultipleActivitiesMain" name="aosp_mail" />
 	<item class="com.htc.calendar/com.htc.calendar.CalendarActivityMain" name="calendar" />
 	<item class="com.htc.calendar/com.htc.calendar.CalendarCarouselActivity" name="calendar" />
 	<item class="com.htc.calendar/com.htc.calendar.LaunchActivity" name="calendar" />
@@ -1319,8 +1315,8 @@
 	<item class="com.jrdcom.music/com.jrdcom.music.SplashActivity" name="music" />
 	<item class="com.jrtstudio.AnotherMusicPlayer/com.jrtstudio.AnotherMusicPlayer.ActivityMusicBrowser" name="rocket_player" />
 	<item class="com.jrummy.apps.build.prop.editor/com.jrummy.apps.build.prop.editor.MainActivity" name="build__prop_editor" />
-	<item class="com.jrummy.busybox.installer/com.jrummy.busybox.installer.activities.MainActivity" name="busybox" />
-	<item class="com.jrummy.busybox.installer/com.jrummy.busybox.installer.MainActivity" name="busybox" />
+	<item class="com.jrummy.busybox.installer/com.jrummy.busybox.installer.activities.MainActivity" name="jrummy_busybox" />
+	<item class="com.jrummy.busybox.installer/com.jrummy.busybox.installer.MainActivity" name="jrummy_busybox" />
 	<item class="com.jsdev.instasize/com.jsdev.instasize.activities.MainActivity" name="insta__size" />
 	<item class="com.jsdev.instasize/com.jsdev.instasize.activity.EditorActivity" name="insta__size" />
 	<item class="com.jumobile.manager.systemapp.pro/com.jumobile.manager.systemapp.pro.ui.activity.IndexActivity" name="system_app_safe_remover" />
@@ -1421,7 +1417,6 @@
 	<item class="com.lge.clock/com.lge.clock.AlarmClockActivity" name="clock" />
 	<item class="com.lge.clock/com.lge.clock.TCLAlarmClockActivity" name="clock" />
 	<item class="com.lge.email/com.lge.email.ui.setupwizard.Welcome" name="aosp_mail" />
-	<item class="com.lge.email/com.lge.email.ui.setupwizard.Welcome" name="mail" />
 	<item class="com.lge.filemanager/com.lge.filemanager.view.LaunchActivity" name="cyanogenmod_file_manager" />
 	<item class="com.lge.fmradio/com.lge.fmradio.FmRadioActivity" name="fm_radio" />
 	<item class="com.lge.fmradio/com.lge.fmradio.IntroActivity" name="fm_radio" />
@@ -1512,6 +1507,7 @@
 	<item class="com.mg.android/com.mg.android.ADActivity" name="weatherpro" />
 	<item class="com.mg.android/com.mg.weatherpro.SplashActivity" name="weatherpro" />
 	<item class="com.mi.android.globalFileexplorer/com.android.fileexplorer.FileExplorerTabActivity" name="oi_file_manager" />
+	<item class="org.outline.android.client/org.outline.android.client.MainActivity" name="outline" />
 	<item class="com.michy.quickforwear/com.michy.quickforwear.MainActivity" name="quick_for_wear" />
 	<item class="com.microblink.photomath/com.microblink.photomath.main.LauncherActivity" name="photomath" />
 	<item class="com.microblink.photomath/com.microblink.photomath.main.MainActivity" name="photomath" />
@@ -1590,7 +1586,7 @@
 	<item class="com.morlunk.mumbleclient.free/com.morlunk.mumbleclient.app.PlumbleActivity" name="plumble_free" />
 	<item class="com.morlunk.mumbleclient/com.morlunk.mumbleclient.app.PlumbleActivity" name="plumble" />
 	<item class="com.motionone.afterfocus/com.motionone.afterfocus.TitleActivity" name="after_focus" />
-	<item class="com.motionone.afterfocus_pro/com.motionone.afterfocus.TitleActivity" name="afterfocus" />
+	<item class="com.motionone.afterfocus_pro/com.motionone.afterfocus.TitleActivity" name="after_focus" />
 	<item class="com.motorola.actions/com.motorola.actions.MotoActionsAppStoreLauncher" name="moto_actions" />
 	<item class="com.motorola.blur.contacts/com.motorola.blur.contacts.ViewIdentitiesFacetActivity" name="contacts" />
 	<item class="com.motorola.blur.contacts/com.motorola.blur.contacts.ViewIdentitiesTabActivity" name="contacts" />
@@ -1637,7 +1633,7 @@
 	<item class="com.myyearbook.m/com.myyearbook.m.activity.LaunchActivity" name="meetme" />
 	<item class="com.nam.fbwrapper.pro/com.danvelazco.fbwrapper.SplashActivity" name="metal" />
 	<item class="com.nam.fbwrapper/com.danvelazco.fbwrapper.SplashActivity" name="metal" />
-	<item class="com.namcobandaigames.spmoja010E/com.namcobandaigames.spmoja010E.kizakura" name="one_piece_treasure_cruise" />
+	<item class="com.namcobandaigames.spmoja010E/com.namcobandaigames.spmoja010E.kizakura" name="onepiece_treasure_cruise" />
 	<item class="com.narvii.amino.master/com.narvii.master.MasterActivity" name="amino" />
 	<item class="com.nascar.nascarmobile/com.nascar.nascarmobile.activity.splash.SplashActivity" name="nascar" />
 	<item class="com.naver.linewebtoon/com.naver.linewebtoon.splash.SplashActivity" name="webtoon" />
@@ -1649,7 +1645,7 @@
 	<item class="com.nequi.MobileApp/com.nequi.MobileApp.MobileAppCAT" name="nequi" />
 	<item class="com.nest.android/com.obsidian.v4.activity.LoginActivity" name="nest" />
 	<item class="com.netbiscuits.kicker/com.netbiscuits.kicker.splash.SplashActivity" name="kicker" />
-	<item class="com.netbiscuits.kicker/com.tickaroo.kickerxml.ui.home.HomeActivity" name="kicker" />
+	<item class="com.netbiscuits.kicker/com.tickaroo.kickerxml.ui.home.HomeActivit" name="kicker" />
 	<item class="com.netbiscuits.kicker/com.tickaroo.kickerxml.ui.home.HomeActivity" name="kicker" />
 	<item class="com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity" name="netflix" />
 	<item class="com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewActivity" name="netflix" />
@@ -1689,8 +1685,8 @@
 	<item class="com.ninjakiwi.bloonstd5/com.ninjakiwi.MainActivity" name="bloons_td" />
 	<item class="com.nintendo.zaba/org.cocos2dx.cpp.AppActivity" name="fire_emblem_heroes" />
 	<item class="com.nintendo.zaca/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="animal_crossing" />
-    <item class="com.nintendo.zaka/com.nintendo.npf.sdk.internal.app.NintendoAccountActivity" name="mario_kart_tour" />
-    <item class="com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="super_mario_run" />
+	<item class="com.nintendo.zaka/com.nintendo.npf.sdk.internal.app.NintendoAccountActivity" name="mario_kart_tour" />
+	<item class="com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="super_mario_run" />
 	<item class="com.nis.app/com.nis.app.ui.activities.HomeActivity" name="inshorts" />
 	<item class="com.nll.screenrecorder/com.nll.screenrecorder.activity.RouterActivity" name="screen_recorder" />
 	<item class="com.noinnion.android.greader.reader/com.noinnion.android.greader.ui.login.LoginActivity" name="g_reader" />
@@ -1751,8 +1747,9 @@
 	<item class="com.outerminds.tubular/com.unity3d.player.UnityPlayerNativeActivity" name="pewds" />
 	<item class="com.ovelin.guitartuna/com.unity3d.player.UnityPlayerActivity" name="guitar_tuna" />
 	<item class="com.ovelin.guitartuna/com.unity3d.player.UnityPlayerNativeActivity" name="guitar_tuna" />
+	<item class="com.ovelin.guitartuna/com.ovelin.guitartuna.GuitarTunaActivity" name="guitar_tuna" />
 	<item class="com.overwolf.statsroyale/com.overwolf.statsroyale.activities.SplashActivity" name="stats_royale" />
-	<item class="com.p1.chompsms/com.p1.chompsms.activities.MainActivity" name="chomp_sms" />
+	<item class="com.p1.chompsms/com.p1.chompsms.activities.MainActivity" name="chompsms" />
 	<item class="com.overlook.android.fing/com.overlook.android.fing.SplashActivity" name="fing" />
 	<item class="com.painless.pc/com.painless.pc.settings.LaunchActivity" name="power_toggles" />
 	<item class="com.pandora.android/com.pandora.android.Main" name="pandora" />
@@ -1850,6 +1847,7 @@
 	<item class="com.razer.camera/com.android.camera.CameraLauncher" name="camera" />
 	<item class="com.rb.rocketbook/com.rb.rocketbook.StartupActivity" name="rocketbook" />
 	<item class="com.rbc.mobile.android/com.rbc.mobile.bud.activities.PreAuthMainActivity" name="rbc" />
+	<item class="com.rbc.mobile.android/com.rbc.mobile.bud.pre_auth.common.activity.SplashActivity" name="rbc" />
 	<item class="com.rbs.mobile.android.natwest/co.uk.rbsg.mobile.android.feature.login.LoginActivity" name="natwest" />
 	<item class="com.rbs.mobile.android.rbs/co.uk.rbsg.mobile.android.feature.registration.WelcomeActivity" name="bank" />
 	<item class="com.rcplatform.selfiecamera/com.rcplatform.selfiecamera.activity.MainActivity" name="bestme" />
@@ -1889,9 +1887,6 @@
 	<item class="com.ruanmei.ithome/com.ruanmei.ithome.MainFrameActivity" name="it" />
 	<item class="com.rubenmayayo.reddit/com.rubenmayayo.reddit.ui.submissions.subreddit.MainActivity" name="boost" />
 	<item class="com.runtastic.android.pro2/com.runtastic.android.activities.StartActivity" name="runtastic" />
-	<item class="com.runtastic.android.pushup.pro/com.runtastic.android.pushup.activities.FitnessAppLoginActivity" name="push_ups_pro" />
-	<item class="com.runtastic.android.results.lite/com.runtastic.android.results.activities.LoginTourActivity" name="results" />
-	<item class="com.runtastic.android.situp.pro/com.runtastic.android.pushup.activities.FitnessAppLoginActivity" name="sit_ups_pro" />
 	<item class="com.runtastic.android.sixpack.lite/com.runtastic.android.sixpack.activities.SixpackLoginActivity" name="runtastic_six_pack" />
 	<item class="com.runtastic.android.timer/com.runtastic.android.timer.activities.StartUpActivity" name="runtastic_timer" />
 	<item class="com.runtastic.android/com.runtastic.android.activities.StartActivity" name="runtastic" />
@@ -1905,7 +1900,7 @@
 	<item class="com.samruston.flip/com.samruston.flip.MainActivity" name="flip" />
 	<item class="com.samruston.lifehacks/com.samruston.lifehacks.MainActivity" name="better" />
 	<item class="com.samruston.luci/com.samruston.luci.ui.journal.JournalActivity" name="luci" />
-	<item class="com.samruston.permission/com.samruston.permission.ui.home.MainActivity" name="bouncer" />
+	<item class="com.samruston.permission/com.samruston.permission.ui.home.MainActivity" name="" />
 	<item class="com.samruston.twitter/com.samruston.twitter.Launcher1" name="flamingo_for_twitter" />
 	<item class="com.samruston.twitter/com.samruston.twitter.Launcher2" name="flamingo_for_twitter" />
 	<item class="com.samruston.twitter/com.samruston.twitter.Launcher3" name="flamingo_for_twitter" />
@@ -1924,9 +1919,7 @@
 	<item class="com.samsung.android.contacts/com.android.dialer.DialtactsActivity" name="phone" />
 	<item class="com.samsung.android.contacts/com.samsung.android.contacts.contactslist.PeopleActivity" name="contacts" />
 	<item class="com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL" name="aosp_mail" />
-	<item class="com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL" name="mail" />
 	<item class="com.samsung.android.email.ui/com.samsung.android.email.ui.activity.MessageListXL" name="aosp_mail" />
-	<item class="com.samsung.android.email.ui/com.samsung.android.email.ui.activity.MessageListXL" name="mail" />
 	<item class="com.samsung.android.game.gamehome/com.samsung.android.game.gamehome.activity.StartActivity" name="samsung_game_launcher" />
 	<item class="com.samsung.android.messaging/com.android.mms.ui.ConversationComposer" name="sms_alt_three" />
 	<item class="com.samsung.android.sm/com.samsung.android.sm.app.dashboard.SmartManagerDashBoardActivity" name="samsung_smart_manager" />
@@ -2020,8 +2013,8 @@
 	<item class="com.sirius/com.sirius.ui.SplashUS" name="sirius_xm" />
 	<item class="com.sirma.mobile.bible.android/com.youversion.ui.MainActivity" name="bible" />
 	<item class="com.sixdays.truckerpath/com.sixdays.truckerpath.view.base.SplashActivity" name="trucker_path" />
-	<item class="com.skt.prod.dialer/com.skt.prod.dialer.activities.main.MainActivity" name="tphone" />
-	<item class="com.skt.prod.tphonelite/com.skt.prod.dialer.activities.main.MainActivity" name="tphone" />
+	<item class="com.skt.prod.dialer/com.skt.prod.dialer.activities.main.MainActivity" name="t_phone" />
+	<item class="com.skt.prod.tphonelite/com.skt.prod.dialer.activities.main.MainActivity" name="t_phone" />
 	<item class="com.skykonig.acornicons/com.skykonig.acornicons.ui.MainActivity" name="acorn" />
 	<item class="com.skype.m2/com.skype.m2.views.HubActivity" name="skype_lite" />
 	<item class="com.skype.m2/com.skype.m2.views.Hub" name="skype_lite" />
@@ -2052,10 +2045,10 @@
 	<item class="com.sololearn.cplusplus/com.sololearn.app.MainActivity" name="sololearn" />
 	<item class="com.sololearn.java/com.sololearn.app.MainActivity" name="sololearn" />
 	<item class="com.sololearn/com.sololearn.app.activities.LauncherActivity" name="sololearn" />
-	<item class="com.sometimeswefly.littlealchemy/com.sometimeswefly.littlealchemy.LittleAlchemy" name="little_alchemy" />
+	<item class="com.sometimeswefly.littlealchemy/com.sometimeswefly.littlealchemy.LittleAlchemy" name="littlealchemy" />
 	<item class="com.sonelli.juicessh/com.sonelli.juicessh.activities.MainActivity" name="juicessh" />
 	<item class="com.sonos.acr/com.sonos.acr.SonosLaunchActivity" name="sonos" />
-	<item class="com.sony.nfx.app.email/com.android.email.activity.Welcome" name="mail" />
+	<item class="com.sony.nfx.app.email/com.android.email.activity.Welcome" name="aosp_mail" />
 	<item class="com.sony.nfx.app.gallery3d/com.android.camera.CameraLauncher" name="camera" />
 	<item class="com.sony.nfx.app.gallery3d/com.android.gallery3d.app.Gallery" name="gallery" />
 	<item class="com.sony.tvsideview.phone/com.sony.tvsideview.MainActivity" name="sideview" />
@@ -2081,7 +2074,6 @@
 	<item class="com.sonymobile.androidapp.gridcomputing/com.sonymobile.androidapp.gridcomputing.activities.EulaActivity" name="folding_at_home" />
 	<item class="com.sonymobile.calendar/com.sonymobile.calendar.LaunchActivity" name="calendar" />
 	<item class="com.sonymobile.email/com.sonymobile.email.activity.Welcome" name="aosp_mail" />
-	<item class="com.sonymobile.email/com.sonymobile.email.activity.Welcome" name="mail" />
 	<item class="com.sonymobile.xperiaweather/com.sonymobile.xperiaweather.MainActivity" name="weather" />
 	<item class="com.sophos.smenc/com.sophos.smenc.ui.MainActivity" name="sophos_secure_workspace" />
 	<item class="com.sophos.smsec/com.sophos.smsec.ui.DroidGuardMainActivity" name="sophos_mobile_security" />
@@ -2119,8 +2111,8 @@
 	<item class="com.strava/com.strava.SplashActivity" name="strava" />
 	<item class="com.studentplanner/com.studentplanner.SchoolCodeActivity" name="student_planner" />
 	<item class="com.studio8apps.instasizenocrop/com.studio8apps.instasizenocrop.StartActivity" name="square_instapic" />com.androbaby.game2048/com.androbaby.game2048.MainActivity
-	<item class="com.subway.mobile.subwayapp03/com.paydiant.common.HomeActivity" name="subway" />
-	<item class="com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.SplashActivity" name="subway" />
+	<item class="com.subway.mobile.subwayapp03/com.paydiant.common.HomeActivity" name="" />
+	<item class="com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.SplashActivity" name="" />
 	<item class="com.supercell.boombeach/com.supercell.boombeach.GameApp" name="boom_beach" />
 	<item class="com.supercell.clashofclans/com.supercell.clashofclans.GameApp" name="clash_of_clans" />
 	<item class="com.supercell.clashroyale/com.supercell.clashroyale.GameApp" name="clash_royale" />
@@ -2190,7 +2182,7 @@
 	<item class="com.textra/com.mplus.lib.ui.main.Main" name="textra" />
 	<item class="com.thescore.esports/com.thescore.esports.preapp.SplashActivity" name="the__score_esports" />
 	<item class="com.thetileapp.tile/com.thetileapp.tile.activities.IntroActivity" name="tile" />
-    <item class="com.thetrainline/.activities.home_screen.SplashScreenActivity" name="trainline" />
+	<item class="com.thetrainline/.activities.home_screen.SplashScreenActivity" name="trainline" />
 	<item class="com.thetransitapp.droid/com.thetransitapp.droid.shared.activity.SplashActivity" name="transit" />
 	<item class="com.thetransitapp.droid/com.thetransitapp.droid.TransitActivity" name="transit" />
 	<item class="com.ThirdState.Cues/com.unity3d.player.UnityPlayerActivity" name="cues" />
@@ -2213,11 +2205,8 @@
 	<item class="com.tomtom.mysports/com.tomtom.mysports.gui.SplashscreenActivity" name="my__sports" />
 	<item class="com.tomwandroid.rockerlocker/com.tomwandroid.rockerlocker.MainActivity" name="rocker_locker" />
 	<item class="com.topjohnwu.magisk/a.c" name="magisk_manager" />
-	<item class="com.topjohnwu.magisk/a.c" name="magisk_manager_alt" />
 	<item class="com.topjohnwu.magisk/com.topjohnwu.magisk.MainActivity" name="magisk_manager" />
-	<item class="com.topjohnwu.magisk/com.topjohnwu.magisk.MainActivity" name="magisk_manager_alt" />
 	<item class="com.topjohnwu.magisk/com.topjohnwu.magisk.SplashActivity" name="magisk_manager" />
-	<item class="com.topjohnwu.magisk/com.topjohnwu.magisk.SplashActivity" name="magisk_manager_alt" />
 	<item class="com.touchtype.swiftkey.beta/com.touchtype.LauncherActivity-Icon" name="swift__key" />
 	<item class="com.touchtype.swiftkey.beta/com.touchtype.LauncherActivity" name="swift__key" />
 	<item class="com.touchtype.swiftkey.nn/com.touchtype.LauncherActivity" name="swift__key" />
@@ -2228,10 +2217,10 @@
 	<item class="com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.MainActivity_" name="tv_show_time" />
 	<item class="com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.MainActivity" name="tv_show_time" />
 	<item class="com.tpcstld.twozerogame/com.tpcstld.twozerogame.MainActivity" name="twothousandfortyeight" />
-	<item class="com.tradingview.tradingviewapp.module.splash.view.SplashActivity" name="tradingview" />
 	<item class="com.tracfone.net10.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity" name="net_ten" />
 	<item class="com.tractive.android.gps/com.tractive.android.gps.features.login.LoginActivity" name="tractive_gps" />
 	<item class="com.tractive.android.gps/com.tractive.android.gps.ui.activities.LoginActivity" name="tractive_gps" />
+	<item class="com.tradingview.tradingviewapp.module.splash.view.SplashActivity" name="tradingview" />
 	<item class="com.transloc.android.rider/com.transloc.android.rider.ui.activity.GPFCheckActivity" name="rider" />
 	<item class="com.tranzmate/com.moovit.app.home.HomeActivity" name="moovit" />
 	<item class="com.tranzmate/com.moovit.home.HomeActivity" name="moovit" />
@@ -2333,7 +2322,7 @@
 	<item class="com.viber.voip/com.viber.voip.WelcomeActivity" name="viber" />
 	<item class="com.videostream.Mobile/com.videostream.Mobile.activities.SplashActivity" name="videostream" />
 	<item class="com.videostream.Mobile/com.videostream.Mobile.MainActivity" name="videostream" />
-    <item class="com.videostream.Mobile/com.videostream.Mobile.Videostrea" name="videostream" />
+	<item class="com.videostream.Mobile/com.videostream.Mobile.Videostrea" name="videostream" />
 	<item class="com.vikingco.vikingapp/com.vikingco.vikingapp.activities.MainActivity" name="viking_app" />
 	<item class="com.vimeo.android.videoapp/com.vimeo.android.videoapp.activities.authentication.LaunchActivity" name="vimeo" />
 	<item class="com.vimeo.android.videoapp/com.vimeo.android.videoapp.activities.LaunchActivity" name="vimeo" />
@@ -2356,6 +2345,7 @@
 	<item class="com.walmart.android/com.walmart.android.app.main.MainActivity" name="walmart" />
 	<item class="com.walmartone.android/com.walmartone.activities.DispatcherActivity" name="wm_one" />
 	<item class="com.wangdaye.mysplash/com.wangdaye.mysplash.main.view.activity.MainActivity" name="mysplash" />
+	<item class="com.wangdaye.mysplash/com.wangdaye.mysplash.main.MainActivity" name="mysplash" />
 	<item class="com.washingtonpost.rainbow/com.washingtonpost.rainbow.activities.SplashScreenActivity" name="washington_post" />
 	<item class="com.watabou.pixeldungeon/com.watabou.pixeldungeon.PixelDungeon" name="pixel_dungeon" />
 	<item class="com.wawa.android.app/com.wawa.android.app.activities.SplashActivity" name="wawa" />
@@ -2383,7 +2373,7 @@
 	<item class="com.wire/com.waz.zclient.LaunchActivity" name="wire" />
 	<item class="com.wireguard.android/com.wireguard.android.activity.MainActivity" name="wireguard" />
 	<item class="com.wishabi.flipp/com.wishabi.flipp.app.LauncherActivity" name="flipp" />
-    <item class="com.wishabi.flipp/com.wishabi.flipp.app.MainActivity" name="flipp" />
+	<item class="com.wishabi.flipp/com.wishabi.flipp.app.MainActivity" name="flipp" />
 	<item class="com.wo.voice/com.wo.voice.MainActivity" name="wo_mic" />
 	<item class="com.wolfram.android.alpha/com.wolfram.android.alpha.activity.SplashScreenActivity" name="wolfram_alpha" />
 	<item class="com.wolfram.android.alpha/com.wolfram.android.alpha.activity.WolframAlpha" name="wolfram_alpha" />
@@ -2399,9 +2389,9 @@
 	<item class="com.xda.labs.play/com.xda.labs.ForumLauncher" name="xda_labs" />
 	<item class="com.xda.labs/com.xda.labs.ForumLauncher" name="xda_labs" />
 	<item class="com.xda.labs/com.xda.labs.ForumLauncher" name="xda_labs_alt" />
-    <item class="com.xda.labs/com.xda.labs.MainActivity" name="xda_labs_alt" />
 	<item class="com.xda.labs/com.xda.labs.LabsLauncher" name="xda_labs" />
 	<item class="com.xda.labs/com.xda.labs.LabsLauncher" name="xda_labs_alt" />
+	<item class="com.xda.labs/com.xda.labs.MainActivity" name="xda_labs_alt" />
 	<item class="com.xfinity.cloudtvr/com.xfinity.common.view.LaunchActivity" name="stream_tv" />
 	<item class="com.xiaomi.hm.health/cn.com.smartdevices.bracelet.activity.MainActivity" name="mi__fit" />
 	<item class="com.xiaomi.hm.health/cn.com.smartdevices.bracelet.activity.StartUpActivity" name="mi__fit" />
@@ -2411,7 +2401,6 @@
 	<item class="com.xing.android/com.xing.android.landing.presentation.ui.MainActivity" name="xing" />
 	<item class="com.xlythe.calculator.holo/com.android2.calculator3.Calculator" name="calculator_holo" />
 	<item class="com.xodo.pdf.reader/viewer.CompleteReaderMainActivity" name="xodo_docs" />
-	<item class="com.xojot.vrplayer/com.xojot.vrplayer.MainActivity" name="vr_media_player" />
 	<item class="com.yahoo.mobile.client.android.fantasyfootball/com.yahoo.mobile.client.android.fantasyfootball.ui.FantasyHomeActivity" name="yahoo_fantasy_sports" />
 	<item class="com.yahoo.mobile.client.android.finance/com.yahoo.mobile.client.android.finance.activity.Main" name="yahoo_finance" />
 	<item class="com.yahoo.mobile.client.android.flickr/com.yahoo.mobile.client.android.flickr.ui.misc.LoginActivity" name="flickr" />
@@ -2444,13 +2433,13 @@
 	<item class="com.zoomicelab.tlists/activities.SplashActivity" name="travelist" />
 	<item class="com.zte.camera/com.zte.camera.CameraActivity" name="camera" />
 	<item class="com.zte.videoplayer/com.zte.videoplayer.VideoBrowserActivity" name="video" />
-	<item class="com.zoostudio.exchanger/com.zoostudio.exchanger.ui.ActivityHome" name="exchanger" />
 	<item class="com.zui.mms/com.android.messaging.ui.conversationlist.ConversationListActivity" name="sms_alt_three" />
 	<item class="com.zz.T.DGk.sNkgupI/a.c" name="magisk_manager" />
 	<item class="com.zz.T.DGk.sNkgupI/a.c" name="magisk_manager_alt" />
 	<item class="com.mareksebera.simpledilbert/com.mareksebera.simpledilbert.core.DilbertFragmentActivity" name="simpledilbert" />
-	<item class="com.mareksebera.simpledilbert/com.mareksebera.simpledilbert.core.DilbertFragmentActivity" name="simpledilbert" />
 	<item class="org.ligi.survivalmanual/org.ligi.survivalmanual.ui.MainActivity" name="offlinesurvivalmanual" />
+	<item class="com.zoostudio.exchanger/com.zoostudio.exchanger.ui.ActivityHome" name="exchanger" />
+	<item class="ComponentInfo{com.mareksebera.simpledilbert/com.mareksebera.simpledilbert.core.DilbertFragmentActivity}" name="simpledilbert" />
 	<item class="craigs.pro.plus/craigs.pro.library.SplashAndLoadParams" name="cpro" />
 	<item class="cz.hipercalc.pro/cz.hipercalc.CalculatorActivity" name="hipercalc" />
 	<item class="cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity" name="open_sudoku" />
@@ -2493,7 +2482,7 @@
 	<item class="de.hafas.android.db/de.bahn.dbtickets.ui.DBNavLauncherActivity" name="db_navigator" />
 	<item class="de.hafas.android.hannover/de.hafas.main.HafasApp" name="myhannover" />
 	<item class="de.hafas.android.sbm/de.hafas.main.HafasApp" name="muenchen_navigator" />
-	<item class="de.heise.android.ct.magazin/heise.activity.SplashScreenActivity" name="heise" />
+	<item class="de.heise.android.ct.magazin/heise.activity.SplashScreenActivity" name="ct" />
 	<item class="de.heise.android.heiseonlineapp/de.heise.android.heiseonlineapp.ui.ChannelActivity" name="heise" />
 	<item class="de.heise.android.heiseonlineapp/heise.activity.MainActivity" name="heise" />
 	<item class="de.heise.android.ix.magazin/heise.activity.SplashScreenActivity" name="ix" />
@@ -2601,7 +2590,6 @@
 	<item class="fm.clean/fm.clean.MainActivity" name="file_manager" />
 	<item class="fm.player/fm.player.ui.MainActivity" name="player_fm" />
 	<item class="fm.weareone.player/player.core.activities.MainActivity_" name="technobase" />
-	<item class="fm.weareone.player/player.core.activities.MainActivity_" name="we_are_one" />
 	<item class="fr.alkeo.android.danstonchat/com.antdesc.android.danstonchat.ui.activities.MainActivity" name="danstonchat" />
 	<item class="fr.bouyguestelecom.ecm.android/fr.bouyguestelecom.ecm.android.SplashActivity" name="espace_client" />
 	<item class="fr.cnamts.it.activity/fr.cnamts.it.activity.LoginActivity" name="ameli" />
@@ -2644,7 +2632,7 @@
 	<item class="io.github.hidroh.materialistic/io.github.hidroh.materialistic.LauncherActivity" name="materialistic" />
 	<item class="io.github.tjg1.nori/io.github.tjg1.nori.SearchActivity" name="nori" />
 	<item class="io.hellocode.javvy/md5f48fe3905df5b9b0509d5bb1143ce871.MainActivity" name="javvy" />
-    <item class="io.moia.neptune/io.moia.neptune.activity.SplashActivity" name="moia" />
+	<item class="io.moia.neptune/io.moia.neptune.activity.SplashActivity" name="moia" />
 	<item class="io.moia.rider.test/ajelopassenger.android.WelcomeActivity" name="moia" />
 	<item class="io.plaidapp/io.plaidapp.Launcher" name="plaid" />
 	<item class="io.raindrop.raindropio/io.raindrop.raindropio.StartActivity" name="raindrop" />
@@ -2661,7 +2649,6 @@
 	<item class="it.mvilla.android.fenix2/it.mvilla.android.fenix2.login.WelcomeActivity" name="fenix_for_twitter" />
 	<item class="it.mvilla.android.quote/it.mvilla.android.quote.ui.activity.WelcomeActivity" name="newsfold" />
 	<item class="it.niedermann.owncloud.notes/it.niedermann.owncloud.notes.android.activity.SplashscreenActivity" name="nextcloud_notes" />
-	<item class="it.payback.client.android/de.payback.app.ui.main.MainActivity" name="payback" />
 	<item class="it.repix.android/it.repix.android.repixactivity" name="repix" />
 	<item class="it.vodafone.my190/it.vodafone.my190.activities.SplashActivity" name="vodafone" />
 	<item class="it.vodafone.my190/it.vodafone.my190.presentation.deeplinking.DeepLinkActivity" name="vodafone" />
@@ -2673,6 +2660,7 @@
 	<item class="jp.co.hit_point.nekoatsume/jp.co.hit_point.nekoatsume.GActivity" name="neko_atsume" />
 	<item class="jp.co.nttdocomo.carriermail/jp.co.nttdocomo.carriermail.activity.EulaViewer" name="docomo_mail" />
 	<item class="jp.co.smbc.direct/com.smbc.smbc" name="smbc" />
+	<item class="jp.co.smbc.direct/com.smbc.cashless.view.activity.SplashActivity" name="smbc" />
 	<item class="jp.comico/jp.comico.ui.activity.SplashActivity" name="comico" />
 	<item class="jp.ddo.pigsty.HabitBrowser/jp.ddo.pigsty.HabitBrowser.Features.Browser.BrowserActivity" name="habit_browser" />
 	<item class="jp.gocro.smartnews.android/jp.gocro.smartnews.android.activity.SmartNewsActivity" name="smart_news" />
@@ -2847,7 +2835,6 @@
 	<item class="org.leo.android.dict/org.leo.android.dict.LeoDict" name="leo" />
 	<item class="org.libreoffice.impressremote/org.libreoffice.impressremote.activity.ComputersActivity" name="libreoffice_impress_remote" />
 	<item class="org.lichess.mobileapp/org.lichess.mobileapp.MainActivity" name="chess" />
-	<item class="org.ligi.survivalmanual/org.ligi.survivalmanual.ui.MainActivity" name="offlinesurvivalmanual" />
 	<item class="org.lineageos.audiofx/org.lineageos.audiofx.activity.ActivityMusic" name="audiofx" />
 	<item class="org.lineageos.jelly/org.lineageos.jelly.MainActivity" name="browser" />
 	<item class="org.lineageos.snap/com.android.camera.CameraLauncher" name="camera" />
@@ -2867,7 +2854,6 @@
 	<item class="org.omnirom.gramophone/com.kabouzeid.gramophone.ui.activities.MainActivity" name="phonograph" />
 	<item class="org.omnirom.snap/com.android.camera.CameraLauncher" name="camera" />
 	<item class="org.openintents.filemanager/org.openintents.filemanager.FileManagerActivity" name="oi_file_manager" />
-	<item class="org.outline.android.client/org.outline.android.client.MainActivity" name="outline" />
 	<item class="org.paoloconte.treni_lite/org.paoloconte.orariotreni.app.activities.MainActivity" name="train_timetable" />
 	<item class="org.paoloconte.treni_lite/org.paoloconte.orariotreni.ui.activities.Main" name="train_timetable" />
 	<item class="org.paoloconte.treni_lite/org.paoloconte.treni_lite.FSAppMain" name="train_timetable" />
@@ -2958,7 +2944,7 @@
 	<item class="se.bankgirot.swish/se.bankgirot.swish.ui.SplashActivity" name="swish" />
 	<item class="se.feomedia.quizkampen.de.lite/se.feomedia.quizkampen.act.login.MainActivity" name="quizduell" />
 	<item class="se.feomedia.quizkampen.de.premium/se.feomedia.quizkampen.act.login.MainActivity" name="quizduell" />
-	<item class="se.feomedia.quizkampen.de.premium/se.feomedia.quizkampen.ui.main.MainActivity" name="quizclash_premium" />
+	<item class="se.feomedia.quizkampen.de.premium/se.feomedia.quizkampen.ui.main.MainActivity" name="quizduell" />
 	<item class="se.feomedia.quizkampen.de/se.feomedia.quizkampen.act.login.MainActivity" name="quizduell" />
 	<item class="se.footballaddicts.livescore/se.footballaddicts.livescore.activities.StartActivity" name="forza_football" />
 	<item class="se.swedbank.mobil/se.swedbank.mobilbank.general.StartActivity" name="bank" />
@@ -2970,7 +2956,7 @@
 	<item class="softax.pekao.powerpay/softax.pekao.powerpay.screen.Menu" name="peopay" />
 	<item class="software.wear.top.apps.store/software.wear.top.apps.store.MainActivity" name="android_wear_center" />
 	<item class="spdvmnt.linienplanhannover/spdvmnt.linienplanhannover.MainActivity" name="linienplanhannover" />
-	<item class="sport1.mobile.android.apps/de.sport1.news.ui.activities.SplashScreenActivity" name="sport1" />
+	<item class="sport1.mobile.android.apps/de.sport1.news.ui.activities.SplashScreenActivity" name="sport_eins" />
 	<item class="stericson.busybox.donate/stericson.busybox.donate.activities.MainActivity" name="busy__box" />
 	<item class="stericson.busybox/stericson.busybox.Activity.MainActivity" name="busy__box" />
 	<item class="studios.gr8bit.schoolmanager/studios.gr8bit.schoolmanager.SplashScreen" name="egenda" />
@@ -3006,8 +2992,6 @@
 	<item class="vstc.vscam.client/vstc.vscam.client.SplashActivity" name="eye_four" />
 	<item class="vstudio.android.camera360/vstudio.android.camera360.activity.CamerAactivity" name="camera_threesixty" />
 	<item class="wangdaye.com.geometricweather/wangdaye.com.geometricweather.ui.activity.MainActivity" name="geometric_weather" />
-	<item class="website.leifs.delta/com.afollestad.polar.ui.MainActivity" name="delta" />
-	<item class="website.leifs.delta/com.afollestad.polar.ui.SplashScreen" name="delta" />
 	<item class="website.leifs.delta/website.leifs.delta.activities.SplashActivity" name="delta" />
 	<item class="website.leifs.delta/website.leifs.delta.activities.StartActivity" name="delta" />
 	<item class="widget.dd.com.overdrop.free/widget.dd.com.overdrop.activity.SplashScreenActivity" name="overdrop" />
@@ -3021,8 +3005,124 @@
 	<item class="you.in.spark.energy/you.in.spark.energy.PowerUp" name="energy_bar" />
 	<item class="you.in.spark.energy/you.in.spark.energy.WelcomeScreen" name="energy_bar" />
 	<item class="yuuki.ito.android.leon/yuuki.ito.android.leon.activity.A00_SplashActivity" name="leon" />
-	<item class="ws.xsoh.etar/com.android.calendar.AllInOneActivity" name="today_calendar" />
+	<item class="ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="today_calendar" />
 	<item class="za.com.mrp/za.com.mrp.activity.StoreActivity" name="mrp_fashion" />
 	<item class="zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity" name="clock" />
+	<item class="ch.sbb.mobile.android.b2c/ch.sbb.mobile.android.lib.MainActivity" name="sbb" />
+	<item class="ch.deletescape.lawnchair.ci/ch.deletescape.lawnchair.LawnchairLauncher" name="lawnchair_launcher" />
+	<item class="com.teslamotors.tesla/com.teslamotors.tesla.LoginActivity" name="tesla" />
 	<item class="de.payback.client.android/de.payback.app.ui.main.MainActivity" name="payback" />
+	<item class="com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity" name="cod" />
+	<item class="be.reed.ginventory/be.reed.ginventory.MainActivity" name="ginventory" />
+	<item class="at.oebb.ts/at.oebb.ts.SplashActivity" name="obb" />
+	<item class="com.pinkbike.trailforks/com.pinkbike.trailforks.MainActivity" name="trailforks" />
+	<item class="com.github.yeriomin.yalpstore/com.github.yeriomin.yalpstore.InstalledAppsActivity" name="yalp_store" />
+	<item class="projekt.substratum.lite/projekt.substratum.lite.activity.SplashScreenActivity" name="substratum_lite" />
+	<item class="com.eurosport/com.eurosport.universel.ui.activities.SplashscreenActivity" name="eurosport" />
+	<item class="com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity" name="google_home" />
+	<item class="com.blinkslabs.blinkist.android/com.blinkslabs.blinkist.android.ui.activities.LauncherActivity" name="blinkist" />
+	<item class="name.antonsmirnov.android.arduinodroid2/name.antonsmirnov.android.arduinodroid.ui.MainActivity" name="arduino_ide" />
+	<item class="com.bose.monet/com.bose.monet.activity.discovery.SplashSearchingActivity" name="boseconnect" />
+	<item class="com.bose.corporation.bosesleep/com.bose.corporation.bosesleep.screens.search.splash.SplashActivity" name="bosesleep" />
+	<item class="com.p1.chompsms/com.p1.chompsms.activities.MainActivity" name="chompsms" />
+	<item class="com.ubisoft.assassinscreed.identity/com.acid.plugins.activity.BridgeActivity" name="ac_identity" />
+	<item class="de.cominto.blaetterkatalog.customer.emp/de.cominto.blaetterkatalog.customer.emp.activity.StartUpActivity" name="emp" />
+	<item class="cz.martykan.forecastie/cz.martykan.forecastie.activities.SplashActivity" name="forecastie" />
+	<item class="org.geogebra.android/org.geogebra.android.android.activity.SplashScreenActivity_" name="geogebra" />
+	<item class="org.geogebra.android/org.geogebra.android.android.activity.GraphingCalculatorSplashScreenActivity_" name="geogebra" />
+	<item class="org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity_" name="geogebra" />
+	<item class="org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity" name="geogebra" />
+	<item class="com.google.tango.measure/com.google.tango.measure.android.LaunchScreenActivity" name="google_measure" />
+	<item class="com.google.android.apps.vega/com.google.android.apps.vega.VegaMainActivity" name="google_mybusiness" />
+	<item class="com.graspio.graspio/com.graspio.graspio.android.activities.MainActivity" name="graspio" />
+	<item class="com.area120.grasshopper/com.area120.grasshopper.MainActivity" name="grasshopper" />
+	<item class="com.ledger.live/com.ledger.live.MainActivity" name="ledger" />
+	<item class="com.abtnprojects.ambatana/com.abtnprojects.ambatana.ui.activities.ProductListingActivity" name="letgo" />
+	<item class="com.abtnprojects.ambatana/com.abtnprojects.ambatana.presentation.productlist.ProductListActivity" name="letgo" />
+	<item class="rocks.poopjournal.metadataremover/rocks.poopjournal.metadataremover.ui.MainActivity" name="metadataremover" />
+	<item class="com.etwok.netspotapp/com.etwok.netspot.MainActivity" name="netspot" />
+	<item class="org.schabi.newpipe/org.schabi.newpipe.VideoItemListActivity" name="newpipe" />
+	<item class="org.schabi.newpipe/org.schabi.newpipe.MainActivity" name="newpipe" />
+	<item class="fr.redshift.nrj/fr.redshift.nrj.LauncherActivity" name="nrj" />
+	<item class="fr.redshift.nrj/fr.nrj.nrj.activities.SplashActivity" name="nrj" />
+	<item class="fr.redshift.NRJTab/fr.redshift.nrjcore.activity.MainTabActivity" name="nrj" />
+	<item class="de.digisocken.openwort/de.digisocken.openwort.MainActivity" name="openwort" />
+	<item class="io.oversec.one/io.oversec.one.MainActivityLauncher" name="oversec" />
+	<item class="com.parrot.freeflight4mini/com.parrot.freeflight.ui.splash.SplashActivity" name="parrot" />
+	<item class="com.payeer/com.payeer.SplashActivity" name="payeer" />
+	<item class="de.arnowelzel.android.periodical/de.arnowelzel.android.periodical.MainActivity" name="periodical" />
+	<item class="com.odin.plesk.mobile/com.odin.plesk.mobile.gui.MainActivity" name="plesk" />
+	<item class="com.sennheiser.documentationApp/com.sennheiser.documentationApp.MainActivity" name="sennheiser" />
+	<item class="com.adam.aslfms/com.adam.aslfms.SettingsActivity" name="simple_lastfm_scrobbler" />
+	<item class="io.github.lfasmpao.softethervpn/io.github.lfasmpao.softethervpn.MainActivity" name="softethervpn" />
+	<item class="com.chucklefish.stardewvalley/md5dee79b5aa46d0ac87adbcd4b193daa49.MainActivity" name="stardewvalley" />
+	<item class="com.chucklefish.stardewvalley/*" name="stardewvalley" />
+	<item class="com.startpage.mobile/com.startpage.mobile.activity.StartpageHomeActivity" name="startpage" />
+	<item class="com.valvesoftware.steamlink/com.valvesoftware.steamlink.SteamShellActivity" name="steam_link" />
+	<item class="at.ralaweb.ralaprogramme.subnetztabelle/at.ralaweb.ralaprogramme.subnetztabelle.MainActivity" name="subnettable" />
+	<item class="com.subway.mobile.subwayapp03/com.paydiant.common.HomeActivity" name="subway" />
+	<item class="com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.SplashActivity" name="subway" />
+	<item class="com.synology.dsnote/com.synology.dsnote.activities.SplashActivity" name="synology_dsnote" />
+	<item class="com.synology.vpnplus/com.synology.vpnplus.activities.SplashActivity" name="synology_vpn" />
+	<item class="com.taskade.mobile/com.taskade.mobile.MainActivity" name="taskade" />
+	<item class="com.tdbank/com.tdbank.app.MainActivity" name="td_bank" />
+	<item class="com.tdbank/com.td.dcts.android.us.app.SplashScreenActivity" name="td_bank" />
+	<item class="com.tier.app/app.LaunchActivity" name="tier" />
+	<item class="de.boxine.tonieapp/de.boxine.tonieapp.SplashActivity" name="tonies" />
+	<item class="com.tripwolf/com.tripwolf.Main" name="tripwolf" />
+	<item class="com.grupet.web.app/com.grupet.web.app.gui.android.activities.TimetableActivity" name="untis" />
+	<item class="com.grupet.web.app/com.untis.mobile.activities.launcher.LauncherActivity" name="untis" />
+	<item class="com.appatomic.vpnhub/com.appatomic.vpnhub.Normal" name="vpnhub" />
+	<item class="com.wf.wellsfargomobile/com.wf.wellsfargomobile.WFMain" name="wells_fargo" />
+	<item class="com.wf.wellsfargomobile/com.wf.wellsfargomobile.MainActivity" name="wells_fargo" />
+	<item class="com.wf.wellsfargomobile/com.wf.wellsfargomobile.LauncherActivity" name="wells_fargo" />
+	<item class="com.gamepass/com.gamepass.MainActivity" name="xboxgamepass" />
+	<item class="org.jitsi.meet/org.jitsi.meet.MainActivity" name="jitsi" />
+	<item class="com.sony.singstar/com.sony.singstar.MainActivityControllerActivity" name="singstar" />
+	<item class="com.today_in.hh/hamburg.aino.splash.SplashActivity" name="aino" />
+	<item class="de.ard.audiothek/de.ard.audiothek.MainActivity" name="ard_audiothek" />
+	<item class="com.sennheiser.control/com.tns.NativeScriptActivity" name="sennheiser" />
+	<item class="com.sennheiser.captune/com.sennheiser.captune.view.intro.IntroActivity" name="sennheiser" />
+	<item class="de.sennheiser.sst.cinemaconnect/de.sennheiser.sst.mobileconnect.MobileConnectActivity" name="sennheiser" />
+	<item class="com.sennheiser.sst.conferenceconnect/com.sennheiser.sst.conferenceconnect.main.SplashActivity" name="sennheiser" />
+	<item class="com.move4mobile.srmapp/com.move4mobile.srmapp.main.MainActivity" name="sennheiser" />
+	<item class="de.sennheiser.sst.mobileconnect/de.sennheiser.sst.mobileconnect.MobileConnectActivity" name="sennheiser" />
+	<item class="de.cominto.blaetterkatalog.customer.emp/de.cominto.blaetterkatalog.customer.emp.activity.StartUpActivity" name="emp" />
+	<item class="com.google.android.apps.improv/com.google.android.apps.improv.main.activity.MainActivity" name="material_gallery" />
+	<item class="io.keybase.ossifrage/io.keybase.ossifrage.MainActivity" name="keybase" />
+	<item class="com.shitismoke.app/host.exp.exponent.experience.ShellAppActivity" name="shoot_i_smoke" />
+	<item class="com.b44t.messenger/com.b44t.messenger.LaunchActivity" name="deltachat" />
+	<item class="com.vrem.wifianalyzer/com.vrem.wifianalyzer.SplashActivity" name="wifianalyzer" />
+	<item class="nl.transip.stack/nl.transip.stack.android.ui.activity.FileDisplayActivity" name="stack" />
+	<item class="com.bose.monet/com.bose.monet.activity.discovery.SplashSearchingActivity" name="boseconnect" />
+	<item class="com.bose.corporation.bosesleep/com.bose.corporation.bosesleep.screens.search.splash.SplashActivity" name="bosesleep" />
+	<item class="org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity" name="geogebra" />
+	<item class="app.astrozeit24.com.astrozeit24.free/app.astrozeit24.com.astrozeit24.MainActivity" name="astrozeit24" />
+	<item class="rocks.poopjournal.Ella/com.unity3d.player.UnityPlayerActivity" name="ella_thegame" />
+	<item class="com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.MainActivity" name="one_square_four" />
+	<item class="de.curryguide.curryguide/de.curryguide.curryguide.activities.SplashActivity" name="curryguideberlin" />
+	<item class="de.geeksfactory.opacclient/de.geeksfactory.opacclient.frontend.MainActivity" name="webopac" />
+	<item class="com.yubico.yubioath/com.yubico.yubioath.ui.main.MainActivity" name="yubico_authenticator" />
+	<item class="de.t_dankworth.secscanqr/de.t_dankworth.secscanqr.activities.MainActivity" name="secscanqr" />
+	<item class="com.spisoft.quicknote/com.spisoft.quicknote.MainActivity" name="carnet" />
+	<item class="at.ralaweb.ralaprogramme.subnetztabelle.unlocker/at.ralaweb.ralaprogramme.subnetztabelle.common.UnlockActivity" name="subnettable" />
+	<item class="com.dsfishlabs.bout2de/com.unity3d.player.UnityPlayerNativeActivity" name="bookofunwrittentales2" />
+	<item class="com.samruston.permission/com.samruston.permission.ui.home.MainActivity" name="bouncer" />
+	<item class="com.noodlecake.chameleonrun/com.prime31.UnityPlayerNativeActivity" name="chameleonrun" />
+	<item class="de.msdevs.einschlafhilfe/de.msdevs.einschlafhilfe.SplashScreenActivity" name="diedreifragezeichen" />
+	<item class="com.usm.ddfgeisterwelt/com.twp.dda.StartupActivity" name="diedreifragezeichen" />
+	<item class="com.usm.ddfquiz/usm.diedreifragezeichenquiz.FullscreenActivity" name="diedreifragezeichen" />
+	<item class="com.usm.ddfkrake/com.twp.dda.StartupActivity" name="diedreifragezeichen" />
+	<item class="com.usm.ddfschattenhelden/com.twp.lib.StartupActivity" name="diedreifragezeichen" />
+	<item class="com.kosmos.zentrale/com.kosmos.zentrale.HomeActivitySelector" name="diedreifragezeichen" />
+	<item class="com.startpage.mobile/com.startpage.mobile.activity.StartpageMainActivity" name="startpage" />
+	<item class="rocks.poopjournal.morse/rocks.poopjournal.morse.MainActivity" name="morse" />
+	<item class="com.ubisoft.assassinscreed.identity/com.acid.plugins.activity.BridgeActivity" name="ac_identity" />
+	<item class="com.blinkslabs.blinkist.android/com.blinkslabs.blinkist.android.uicore.activities.LauncherActivity" name="blinkist" />
+	<item class="de.hafas.android.bayernnavi/de.hafas.main.HafasApp" name="db_streckenagent" />
+	<item class="com.tier.app/com.tier.app.ui.splash.SplashActivity" name="tier" />
+	<item class="com.google.android.apps.aiy/com.google.android.apps.aiy.main.MainActivity" name="google_aiy_projects" />
+	<item class="com.google.tango.measure/com.google.vr.apps.ornament.measure.MeasureMainActivity" name="google_measure" />
+	<item class="com.figma.mirror/com.figma.mirror.ViewerActivity" name="figma_mirror" />
+	<item class="com.okcupid.okcupid/com.okcupid.okcupid.activity.MainActivity" name="okcupid" />
 </appmap>
