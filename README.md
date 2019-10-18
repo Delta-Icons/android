@@ -7,7 +7,8 @@
 
 ## Contributing
 In case you want to contribute to Delta by providing icons please do so by creating a vector-based icon, cloning this repo and issuing a pull request with regards to these points:
-- Vectors (SVG, EPS, PDF, ...) go to the `contributed-vectors` folder
+- Vectors (SVG, EPS, PDF, ...) go to the `contributed-vectors` folder 
+	-  Please keep filenames in lowercase alphabet with underscores
 - 192 * 192 pixel PNG file `icon_name.png` goes to `app/src/main/res/drawable-nodpi`
 - Name of the icon in these files, in this format `<item drawable="icon_name" />`
 	- `app/src/main/assets/drawable.xml` 
