@@ -15,8 +15,8 @@
 
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.candybar.sample"
-            android:targetClass="com.candybar.sample.activities.MainActivity">
+            android:targetPackage="website.leifs.delta"
+            android:targetClass="website.leifs.delta.activities.MainActivity">
 
             <extra
                 android:name="position"
@@ -40,8 +40,8 @@
 
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.candybar.sample"
-            android:targetClass="com.candybar.sample.activities.MainActivity">
+            android:targetPackage="website.leifs.delta"
+            android:targetClass="website.leifs.delta.activities.MainActivity">
 
             <extra
                 android:name="position"
@@ -64,8 +64,8 @@
 
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.candybar.sample"
-            android:targetClass="com.candybar.sample.activities.MainActivity">
+            android:targetPackage="website.leifs.delta"
+            android:targetClass="website.leifs.delta.activities.MainActivity">
 
             <extra
                 android:name="position"

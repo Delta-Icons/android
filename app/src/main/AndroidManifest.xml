@@ -21,10 +21,11 @@
         android:name=".applications.CandyBar"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
+        android:networkSecurityConfig="@xml/network_config"
+        android:requestLegacyExternalStorage="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:networkSecurityConfig="@xml/network_config"
         tools:replace="android:icon">
 
         <activity
@@ -57,6 +58,11 @@
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
         </activity>
+
+        <!--
+          Set `android:enabled="false"` to `android:enabled="true"` below if you don't want
+          your app to be locked until opened.
+        -->
 
         <activity-alias
             android:name=".alias.Intent"
@@ -199,7 +205,7 @@
                 android:value="@color/muzei_color" />
         </provider>
 
-        <receiver android:name="website.leifs.delta.services.ClockWidget" android:label="Clock Widget">
+        <receiver android:name=".services.ClockWidget" android:label="Clock Widget">
 
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

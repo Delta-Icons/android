@@ -23,14 +23,6 @@ public class CandyBar extends CandyBarApplication {
         configuration.setShadowEnabled(false);
         configuration.setDashboardThemingEnabled(false);
 
-        /*configuration.setWallpaperJsonStructure(
-                new JsonStructure.Builder(null)   //-->  Array's Name
-                        .name("name")             //-->  Wallpaper's Name
-                        .author("author")         //-->  Author's Name
-                        .url("url")               //-->  Wallpaper's URL
-                        .thumbUrl("thumbUrl")     //-->  Wallpaper's Thumbnail's URL
-                        .build());*/
-
         
         return configuration;
     }
