@@ -8,7 +8,7 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <!-- If you are not using license checker, you need to remove CHECK_LICENSE permission -->
-    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+<!--    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />-->
 
     <supports-screens
         android:smallScreens="true"

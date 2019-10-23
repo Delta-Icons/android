@@ -127,12 +127,18 @@
     * change to true to enable it -->
     <bool name="reset_icon_request_limit">false</bool>
 
+    <!-- Enable JSON Data check before Requesting Icons -->
+    <bool name="json_check_before_request">false</bool>
+
     <!-- Enable or disable premium request
     * default: false
     * change to true to enable it -->
     <bool name="enable_premium_request">false</bool>
 
     <!-- Take a look inside License.java for premium request product -->
+
+    <!-- If you set it to true, your user can even choose non-mailing app for requesting Icons -->
+    <bool name="enable_non_mail_app_request">true</bool>
 
     <!-- Email that will be used to send icon request and report bugs -->
     <string name="dev_email">iballleif@live.de</string>
@@ -209,7 +215,6 @@
     * <string-array name="about_social_links"></string-array>-->
     <string-array name="about_social_links">
         <item>https://www.instagram.com/_u/leifpixel</item>
-        <item>https://plus.google.com/u/0/114587388635391162978</item>
         <item>http://github.com/leifniem</item>
         <item>http://www.leifs.website</item>
         <item>iballleif@live.de</item>
@@ -228,5 +233,16 @@
     <bool name="enable_donation">true</bool>
 
     <!-- Take a look inside License.java for donation product -->
+
+    <!-- CONFIG: PLAYSTORE CHECK -->
+    <!-- Closes app if installed outside of Playstore -->
+    <bool name="playstore_check_enabled">false</bool>
+
+    <!-- Link CandyBar Config JSON -->
+    <string name="config_json"></string>
+
+    <!-- CONFIG: INTRO -->
+    <!-- Show Intro Guides on First Run -->
+    <bool name="show_intro">true</bool>
 
 </resources>
