@@ -585,7 +585,7 @@
 	<item component="ComponentInfo{com.avast.android.mobilesecurity/com.avast.android.mobilesecurity.app.main.MainActivity}" drawable="avast" />
 	<item component="ComponentInfo{com.aviary.android.feather/com.aviary.android.feather.MainActivity}" drawable="aviary" />
 	<item component="ComponentInfo{com.b44t.messenger/com.b44t.messenger.LaunchActivity}" drawable="deltachat" />
-	<item component="ComponentInfo{com.b_lam.resplash\/com.b_lam.resplash.activities.SplashActivity}" drawable="resplash" />
+	<item component="ComponentInfo{com.b_lam.resplash/com.b_lam.resplash.activities.MainActivity}" drawable="resplash" />
 	<item component="ComponentInfo{com.babbel.mobile.android.en/com.babbel.mobile.android.core.presentation.MainActivity}" drawable="babbel" />
 	<item component="ComponentInfo{com.babbel.mobile.android.en/com.babbel.mobile.android.en.BabbelAppStartPage}" drawable="babbel" />
 	<item component="ComponentInfo{com.babbel.mobile.android.eng/com.babbel.mobile.android.core.presentation.MainActivity}" drawable="babbel" />
@@ -3361,9 +3361,11 @@
 	<item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SplashScreenActivity}" drawable="termius" />
 	<item component="ComponentInfo{com.timeanddate.worldclock/com.timeanddate.worldclock.Launcher}" drawable="worldclock" />
 	<item component="ComponentInfo{net.xmind.doughnut/net.xmind.doughnut.MainActivity}" drawable="xmind" />
-  <item component="ComponentInfo{me.jfenn.alarmio/me.jfenn.alarmio.activities.MainActivity}" drawable="alarmio" />
+    <item component="ComponentInfo{me.jfenn.alarmio/me.jfenn.alarmio.activities.MainActivity}" drawable="alarmio" />
 	<item component="ComponentInfo{fr.chenry.android.freshrss/fr.chenry.android.freshrss.activities.StartActivity}" drawable="freshrss" />
-	<item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="microsoft_to-do" />
+	<item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="microsoft_to_do" />
 	<item component="ComponentInfo{org.y20k.transistor/org.y20k.transistor.MainActivity}" drawable="transistor" />
 	<item component="ComponentInfo{de.grobox.liberario/de.grobox.transportr.map.MapActivity}" drawable="transportr" />
+	<item component="ComponentInfo{com.bodyweight.fitness.free/com.bodyweight.fitness.ui.MainActivity}" drawable="bodyweightfitness" />
+	<item component="ComponentInfo{com.ballistiq.artstation/com.ballistiq.artstation.view.activity.SplashActivity}" drawable="artstation" />
 </resources>
