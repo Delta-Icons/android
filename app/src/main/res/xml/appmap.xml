@@ -76,6 +76,8 @@
 	<item class="cl.wom.transformacion.appwommobile/cl.wom.transformacion.appwommobile.actividades.CargaInicialActivity" name="wom" />
 	<item class="client/vstc.vscam.activity.BSplashActivity" name="eye_four" />
 	<item class="cms.lock/com.cleanmaster.security.applock.ui.MainActivity" name="cm_security" />
+	<item class="com.clearscore.mobile/.activities.OAuthLoginActivity" name="clearscore" />
+    <item class="com.clearscore.mobile/.splash.presentation.SplashActivity" name="clearscore" />
 	<item class="cn.nubia.calendar.preset/cn.nubia.calendar.AllInOneActivity" name="calendar" />
 	<item class="cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity" name="calendar" />
 	<item class="cn.nubia.email/com.android.email.activity.Welcome" name="aosp_mail" />
@@ -868,7 +870,9 @@
 	<item class="com.ea.gp.simsmobile/com.ea.gp.simsmobile.TSMActivity" name="sims" />
 	<item class="com.easilydo.mail/com.easilydo.mail.ui.SplashActivity" name="easilydo_mail" />
 	<item class="com.eatdigi.android/com.eatdigi.android.expansion.ExpansionDownloaderActivity" name="pdc" />
-	<item class="com.ebay.gumtree.au/com.ebay.app.common.activities.SplashScreenActivity" name="gumtree" />
+	<item class="com.gumtree.android/com.ebay.app.common.startup.SplashScreenActivity" name="gumtree" />
+	<item class="com.ebay.kijiji.ca/com.ebay.app.activity.SplashScreenActivity" name="kijiji" />
+	<item class="com.ebay.kijiji.ca/com.ebay.app.activity.SplashScreenActivity" name="kijiji_alt" />
 	<item class="com.ebay.kijiji.ca/com.ebay.app.SplashScreenActivity" name="kijiji" />
 	<item class="com.ebay.kijiji.ca/com.ebay.app.SplashScreenActivity" name="kijiji_alt" />
 	<item class="com.ebay.kijiji.ca/com.ebay.app.activity.SplashScreenActivity" name="kijiji" />
@@ -1749,8 +1753,10 @@
 	<item class="com.ninjakiwi.bloonstd5/com.ninjakiwi.MainActivity" name="bloons_td" />
 	<item class="com.nintendo.zaba/org.cocos2dx.cpp.AppActivity" name="fire_emblem_heroes" />
 	<item class="com.nintendo.zaca/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="animal_crossing" />
-	<item class="com.nintendo.zaka/com.nintendo.npf.sdk.internal.app.NintendoAccountActivity" name="mario_kart_tour" />
-	<item class="com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="super_mario_run" />
+    <item class="com.nintendo.zaka/com.nintendo.npf.sdk.internal.app.NintendoAccountActivity" name="mario_kart_tour" />
+	<item class="com.nintendo.zaka/com.facebook.unity.FBUnityAppLinkActivity" name="mario_kart_tour" />
+	<item class="com.nintendo.zaka/com.google.firebase.MessagingUnityPlayerActivity" name="mario_kart_tour" />
+    <item class="com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" name="super_mario_run" />
 	<item class="com.nis.app/com.nis.app.ui.activities.HomeActivity" name="inshorts" />
 	<item class="com.nisahnt.nishantbafna.notifydemo/com.nisahnt.nishantbafna.notifydemo.MainActivity" name="notin" />
 	<item class="com.nll.screenrecorder/com.nll.screenrecorder.activity.RouterActivity" name="screen_recorder" />
@@ -1815,9 +1821,8 @@
 	<item class="com.oscardelgado83.easymenuplanner/com.oscardelgado83.easymenuplanner.ui.MainActivity" name="easy_menu_planner" />
 	<item class="com.outerminds.pewdiepie/com.unity3d.player.UnityPlayerNativeActivity" name="pewdiepie" />
 	<item class="com.outerminds.tubular/com.unity3d.player.UnityPlayerNativeActivity" name="pewds" />
-	<item class="com.ovelin.guitartuna/com.ovelin.guitartuna.GuitarTunaActivity" name="guitar_tuna" />
-	<item class="com.ovelin.guitartuna/com.unity3d.player.UnityPlayerActivity" name="guitar_tuna" />
-	<item class="com.ovelin.guitartuna/com.unity3d.player.UnityPlayerNativeActivity" name="guitar_tuna" />
+	<item class="com.ovelin.guitartuna/com.yousician.yousiciannative.GuitarTunaActivity" name="guitar_tuna" />
+	<item class="com.ovelin.guitartuna/com.unity.purchasing.googleplay.VRPurchaseActivity" name="guitar_tuna" />
 	<item class="com.overlook.android.fing/com.overlook.android.fing.SplashActivity" name="fing" />
 	<item class="com.overwolf.statsroyale/com.overwolf.statsroyale.activities.SplashActivity" name="stats_royale" />
 	<item class="com.p1.chompsms/com.p1.chompsms.activities.MainActivity" name="chompsms" />
@@ -2177,7 +2182,7 @@
 	<item class="com.ssrdroide.lockscreenwidgets/com.ssrdroide.lockscreenwidgets.ui.activities.MainActivity" name="lock_screen_widgets" />
 	<item class="com.stackexchange.marvin/com.stackexchange.marvin.ui.LaunchActivity" name="stack_exchange" />
 	<item class="com.stackexchange.stackoverflow/com.stackexchange.stackoverflow.MainActivity" name="stack_overflow" />
-	<item class="com.stagecoach.stagecoachbus/com.stagecoachbus.views.start.SplashScreenActivity" name="stagecoach" />
+	<item class="com.stagecoach.stagecoachbus/com.stagecoachbus.views.start.SplashScreenActivity_" name="stagecoach" />
 	<item class="com.standardnotes/com.standardnotes.MainActivity" name="standardnotes" />
 	<item class="com.starbucks.cee/com.starbucks.cee.MainActivity" name="starbucks" />
 	<item class="com.starbucks.mobilecard/com.starbucks.mobilecard.main.activity.LandingPageActivity" name="starbucks" />
