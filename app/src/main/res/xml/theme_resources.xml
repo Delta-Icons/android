@@ -77,7 +77,8 @@
 	<AppIcon name="cl.wom.transformacion.appwommobile/cl.wom.transformacion.appwommobile.actividades.CargaInicialActivity" image="wom" />
 	<AppIcon name="client/vstc.vscam.activity.BSplashActivity" image="eye_four" />
 	<AppIcon name="cms.lock/com.cleanmaster.security.applock.ui.MainActivity" image="cm_security" />
-    <AppIcon name="com.clearscore.mobile/.activities.LoginActivity" image="clearscore" />
+	<AppIcon name="com.clearscore.mobile/.activities.OAuthLoginActivity" image="clearscore" />
+    <AppIcon name="com.clearscore.mobile/.splash.presentation.SplashActivity" image="clearscore" />
 	<AppIcon name="cn.nubia.calendar.preset/cn.nubia.calendar.AllInOneActivity" image="calendar" />
 	<AppIcon name="cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity" image="calendar" />
 	<AppIcon name="cn.nubia.email/com.android.email.activity.Welcome" image="aosp_mail" />
@@ -837,7 +838,7 @@
 	<AppIcon name="com.ea.gp.simsmobile/com.ea.gp.simsmobile.TSMActivity" image="sims" />
 	<AppIcon name="com.easilydo.mail/com.easilydo.mail.ui.SplashActivity" image="easilydo_mail" />
 	<AppIcon name="com.eatdigi.android/com.eatdigi.android.expansion.ExpansionDownloaderActivity" image="pdc" />
-	<AppIcon name="com.ebay.gumtree.au/com.ebay.app.common.activities.SplashScreenActivity" image="gumtree" />
+	<AppIcon name="com.gumtree.android/com.ebay.app.common.startup.SplashScreenActivity" image="gumtree" />
 	<AppIcon name="com.ebay.kijiji.ca/com.ebay.app.activity.SplashScreenActivity" image="kijiji" />
 	<AppIcon name="com.ebay.kijiji.ca/com.ebay.app.activity.SplashScreenActivity" image="kijiji_alt" />
 	<AppIcon name="com.ebay.kijiji.ca/com.ebay.app.SplashScreenActivity" image="kijiji" />
@@ -1690,6 +1691,8 @@
 	<AppIcon name="com.nintendo.zaba/org.cocos2dx.cpp.AppActivity" image="fire_emblem_heroes" />
 	<AppIcon name="com.nintendo.zaca/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" image="animal_crossing" />
     <AppIcon name="com.nintendo.zaka/com.nintendo.npf.sdk.internal.app.NintendoAccountActivity" image="mario_kart_tour" />
+	<AppIcon name="com.nintendo.zaka/com.facebook.unity.FBUnityAppLinkActivity" image="mario_kart_tour" />
+	<AppIcon name="com.nintendo.zaka/com.google.firebase.MessagingUnityPlayerActivity" image="mario_kart_tour" />
 	<AppIcon name="com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity" image="super_mario_run" />
 	<AppIcon name="com.nis.app/com.nis.app.ui.activities.HomeActivity" image="inshorts" />
 	<AppIcon name="com.nll.screenrecorder/com.nll.screenrecorder.activity.RouterActivity" image="screen_recorder" />
@@ -1749,8 +1752,8 @@
 	<AppIcon name="com.oscardelgado83.easymenuplanner/com.oscardelgado83.easymenuplanner.ui.MainActivity" image="easy_menu_planner" />
 	<AppIcon name="com.outerminds.pewdiepie/com.unity3d.player.UnityPlayerNativeActivity" image="pewdiepie" />
 	<AppIcon name="com.outerminds.tubular/com.unity3d.player.UnityPlayerNativeActivity" image="pewds" />
-	<AppIcon name="com.ovelin.guitartuna/com.unity3d.player.UnityPlayerActivity" image="guitar_tuna" />
-	<AppIcon name="com.ovelin.guitartuna/com.unity3d.player.UnityPlayerNativeActivity" image="guitar_tuna" />
+	<AppIcon name="com.ovelin.guitartuna/com.yousician.yousiciannative.GuitarTunaActivity" image="guitar_tuna" />
+	<AppIcon name="com.ovelin.guitartuna/com.unity.purchasing.googleplay.VRPurchaseActivity" image="guitar_tuna" />
 	<AppIcon name="com.overwolf.statsroyale/com.overwolf.statsroyale.activities.SplashActivity" image="stats_royale" />
 	<AppIcon name="com.p1.chompsms/com.p1.chompsms.activities.MainActivity" image="chomp_sms" />
 	<AppIcon name="com.painless.pc/com.painless.pc.settings.LaunchActivity" image="power_toggles" />
@@ -2102,7 +2105,7 @@
 	<AppIcon name="com.ssrdroide.lockscreenwidgets/com.ssrdroide.lockscreenwidgets.ui.activities.MainActivity" image="lock_screen_widgets" />
 	<AppIcon name="com.stackexchange.marvin/com.stackexchange.marvin.ui.LaunchActivity" image="stack_exchange" />
 	<AppIcon name="com.stackexchange.stackoverflow/com.stackexchange.stackoverflow.MainActivity" image="stack_overflow" />
-    <AppIcon name="com.stagecoach.stagecoachbus/com.stagecoachbus.views.start.SplashScreenActivity" image="stagecoach" />
+    <AppIcon name="com.stagecoach.stagecoachbus/com.stagecoachbus.views.start.SplashScreenActivity_" image="stagecoach" />
 	<AppIcon name="com.standardnotes/com.standardnotes.MainActivity" image="standardnotes" />
 	<AppIcon name="com.starbucks.cee/com.starbucks.cee.MainActivity" image="starbucks" />
 	<AppIcon name="com.starbucks.mobilecard/com.starbucks.mobilecard.main.activity.LandingPageActivity" image="starbucks" />
