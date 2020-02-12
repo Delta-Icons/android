@@ -2679,6 +2679,7 @@
 	<item component="ComponentInfo{de.luhmer.owncloudnewsreader/de.luhmer.owncloudnewsreader.NewsReaderListActivity}" drawable="nextcloud_news" />
 	<item component="ComponentInfo{de.materna.bbk.mobile.app/de.materna.bbk.mobile.app.ui.SplashScreenActivity}" drawable="nina" />
 	<item component="ComponentInfo{de.maxdome.app.android/de.maxdome.app.android.clean.routing.RoutingActivity}" drawable="maxdome" />
+	<item component="ComponentInfo{de.mbway.app.android/de.mbway.app.android.clean.routing.RoutingActivity}" drawable="mbway" />
 	<item component="ComponentInfo{de.mcdonalds.mcdonaldsinfoapp/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity}" drawable="mcdonalds" />
 	<item component="ComponentInfo{de.meinjena.app/de.stadtwerkejenagruppe.meinjena.ui.activity.SplashScreenActivity}" drawable="meinjena" />
 	<item component="ComponentInfo{de.mobileconcepts.cyberghost/de.mobileconcepts.cyberghost.view.home.HomeActivity}" drawable="cyberghost" />
@@ -3043,6 +3044,7 @@
 	<item component="ComponentInfo{org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity}" drawable="twidere" />
 	<item component="ComponentInfo{org.mokee.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="amaze_filemanager" />
 	<item component="ComponentInfo{org.mokee.venus/com.android.gallery3d.app.GalleryActivity}" drawable="gallery" />
+	<item component="ComponentInfo{org.mozilla.fenix/org.mozilla.fenix.HomeActivity}" drawable="firefox_preview" />
 	<item component="ComponentInfo{org.mozilla.fennec_aurora/org.mozilla.fennec_aurora.App}" drawable="firefox_aurora" />
 	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="firefox" />
 	<item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="firefox_beta" />
@@ -3385,7 +3387,7 @@
 	<item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SplashScreenActivity}" drawable="termius" />
 	<item component="ComponentInfo{com.timeanddate.worldclock/com.timeanddate.worldclock.Launcher}" drawable="worldclock" />
 	<item component="ComponentInfo{net.xmind.doughnut/net.xmind.doughnut.MainActivity}" drawable="xmind" />
-    	<item component="ComponentInfo{me.jfenn.alarmio/me.jfenn.alarmio.activities.MainActivity}" drawable="alarmio" />
+    <item component="ComponentInfo{me.jfenn.alarmio/me.jfenn.alarmio.activities.MainActivity}" drawable="alarmio" />
 	<item component="ComponentInfo{fr.chenry.android.freshrss/fr.chenry.android.freshrss.activities.StartActivity}" drawable="freshrss" />
 	<item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="microsoft_to_do" />
 	<item component="ComponentInfo{org.y20k.transistor/org.y20k.transistor.MainActivity}" drawable="transistor" />
@@ -3406,4 +3408,8 @@
 	<item component="ComponentInfo{de.taxfix/de.taxfix.MainActivity}" drawable="taxfix" />
 	<item component="ComponentInfo{com.liveyourproject.barfinder/com.liveyourproject.barfinder.MainActivity}" drawable="bar_finder_hannover" />
 	<item component="ComponentInfo{de.securepoint.ms.agent/de.securepoint.ms.agent.activities.MainActivity}" drawable="securepoint" />
+    <item component="ComponentInfo{lu.gian.uniwhere/lu.gian.uniwhere.MainActivity}" drawable="uniwhere" />
+    <item component="ComponentInfo{it.cineca.app.uniba/it.cineca.app.uniba.MyUniba}" drawable="myuniba" />
+	<item component="ComponentInfo{net.doo.snap/net.doo.snap.ui.main.MainActivity}" drawable="scanbot" />
+	<item component="ComponentInfo{com.google.android.apps.santatracker/com.google.android.apps.santatracker.activities.SantaActivity}" drawable="santa_tracker" />
 </resources>
