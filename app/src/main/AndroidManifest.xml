@@ -67,7 +67,7 @@
         <activity-alias
             android:name=".alias.Intent"
             android:targetActivity=".activities.MainActivity"
-            android:enabled="false">
+            android:enabled="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.GET_CONTENT" />
