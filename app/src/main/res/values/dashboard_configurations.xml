@@ -106,7 +106,7 @@
     <!-- Enable or disable regular icon request
     * default: true
     * change to false to disable it -->
-    <bool name="enable_icon_request">false</bool>
+    <bool name="enable_icon_request">true</bool>
 
     <!-- Enable regular icon request limit
     * default: false
@@ -117,7 +117,7 @@
     * IGNORE if icon request limit is disabled
     * ex: If you set icon request limit to 10, user only able to make 10 icon request in all time
     * After making 10 icon request user not able to request again -->
-    <integer name="icon_request_limit">0</integer>
+    <integer name="icon_request_limit">1</integer>
 
     <!-- Reset regular icon request limit every update
     * IGNORE if icon request limit is disabled
@@ -125,7 +125,7 @@
     * but you also want user able to make 10 request again after update, then enable this option
     * default: false
     * change to true to enable it -->
-    <bool name="reset_icon_request_limit">false</bool>
+    <bool name="reset_icon_request_limit">true</bool>
 
     <!-- Enable JSON Data check before Requesting Icons -->
     <bool name="json_check_before_request">false</bool>
