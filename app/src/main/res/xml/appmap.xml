@@ -530,7 +530,7 @@
 	<item class="com.att.myWireless/com.att.myWireless.activity.login.SplashScreenActivity" name="my_att" />
 	<item class="com.audible.application/com.audible.application.SplashScreen" name="audible" />
 	<item class="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity" name="viper" />
-	<item class="com.aurora.store/com.aurora.store.activity.AuroraActivity" name="aurora_store" />
+	<item class="com.aurora.store/com.aurora.store.ui.single.activity.SplashActivity" name="aurora_store" />
 	<item class="com.ausichenko.spritzbubble.pro/com.ausichenko.spritzbubble.view.ui.MainActivity" name="spritz_reader" />
 	<item class="com.ausichenko.spritzbubble/com.ausichenko.spritzbubble.view.ui.MainActivity" name="spritz_reader" />
 	<item class="com.authy.authy/com.authy.authy.activities.InitializationActivity" name="authy" />
@@ -745,6 +745,7 @@
 	<item class="com.cleanmaster.mguard/com.keniu.security.main.MainActivity" name="cleanmaster" />
 	<item class="com.cleanmaster.security_qrcode/ks.cm.antivirus.qrcode.CaptureActivity" name="cm_security" />
 	<item class="com.cleanmaster.security/ks.cm.antivirus.main.SplashActivity" name="cm_security" />
+	<item class="com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.controller.activities.NavDrawerActivity" name="iheartradio" />
 	<item class="com.clearscore.mobile/.activities.OAuthLoginActivity" name="clearscore" />
 	<item class="com.clearscore.mobile/.splash.presentation.SplashActivity" name="clearscore" />
 	<item class="com.cleartrip.android/com.cleartrip.android.activity.common.SplashActivity" name="cleartrip" />
@@ -1067,6 +1068,7 @@
 	<item class="com.giffgaffmobile.controller/com.giffgaffmobile.controller.SplashActivity" name="my_giffgaff" />
 	<item class="com.giphy.messenger/com.giphy.messenger.app.MainAccom.giphy.camera/com.giphy.dev.ui.MainActivitytivity" name="giphy_cam" />
 	<item class="com.giphy.messenger/com.giphy.messenger.app.MainActivity" name="giphy" />
+	<item class="com.github.adamantcheese.chan/com.github.adamantcheese.chan.StartActivity" name="kuroba" />
 	<item class="com.github.client/com.github.mobile.ui.user.HomeActivity" name="github" />
 	<item class="com.github.erictsang.screenfilter.app.android.activity.MainActivity" name="screen_dimmer" />
 	<item class="com.github.erictsang.screenfilter.app.android/com.github.erictsang.screenfilter.app.android.activity.MainActivity" name="screen_dimmer" />
@@ -1091,6 +1093,7 @@
 	<item class="com.goodreads/com.goodreads.kindle.ui.activity.SplashActivity" name="goodreads" />
 	<item class="com.google.android.apps.access.wifi.consumer/com.google.android.apps.access.wifi.consumer.app.MainActivity" name="google_wifi" />
 	<item class="com.google.android.apps.accessibility.auditor/com.google.android.apps.accessibility.auditor.ui.MainActivity" name="google_accessibility_scanner" />
+	<item class="com.google.android.apps.accessibility.maui.actionblocks/com.google.android.apps.accessibility.maui.actionblocks.home.HomeActivity" name="google_action_blocks" />
 	<item class="com.google.android.apps.adm/com.google.android.apps.adm.MainActivity" name="device_manager" />
 	<item class="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.activity.BaseActivity" name="google_ad__sense" />
 	<item class="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.activity.ReportActivity" name="google_ad__sense" />
@@ -1170,6 +1173,7 @@
 	<item class="com.google.android.contacts/com.android.contacts.activities.PeopleActivity" name="contacts" />
 	<item class="com.google.android.deskclock/com.android.deskclock.DeskClock" name="clock" />
 	<item class="com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity" name="phone" />
+	<item class="com.google.android.documentsui/com.android.documentsui.LauncherActivity" name="google_files_go" />
 	<item class="com.google.android.email/com.android.email.activity.Welcome" name="aosp_mail" />
 	<item class="com.google.android.fmradio/com.google.android.fmradio.app.MainActivity" name="fm_radio" />
 	<item class="com.google.android.gallery3d/com.android.camera.CameraLauncher" name="camera" />
@@ -2212,7 +2216,7 @@
 	<item class="com.simplecity.amp_pro/com.simplecity.amp_library.ui.activities.MainActivity" name="shuttle" />
 	<item class="com.simplecity.amp/com.simplecity.amp_library.ui.activities.MainActivity" name="shuttle" />
 	<item class="com.simplecity.shuttle/com.simplecity.amp_library.ui.activities.SplashActivity" name="shuttle" />
-	<item class="com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.MainActivity" name="simple_gallery" />
+	<item class="com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Orange" name="simple_gallery" />
 	<item class="com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity.Orange" name="simple_gallery" />
 	<item class="com.simplexsolutionsinc.vpn_unlimited/com.simplexsolutionsinc.vpn_unlimited.ui.activity.AuthActivity" name="vpnunlimited" />
 	<item class="com.sina.weibo/com.sina.weibo.SplashActivity" name="weibo" />
@@ -2638,6 +2642,7 @@
 	<item class="com.wingtech.calc/com.wingtech.calc.Calculator" name="calculator" />
 	<item class="com.wire/com.waz.zclient.LaunchActivity" name="wire" />
 	<item class="com.wireguard.android/com.wireguard.android.activity.MainActivity" name="wireguard" />
+	<item class="com.wishabi.flipp/com.wishabi.flipp.app.DefaultLauncherActivity" name="flipp" />
 	<item class="com.wishabi.flipp/com.wishabi.flipp.app.LauncherActivity" name="flipp" />
 	<item class="com.wishabi.flipp/com.wishabi.flipp.app.MainActivity" name="flipp" />
 	<item class="com.wo.voice/com.wo.voice.MainActivity" name="wo_mic" />
@@ -3201,7 +3206,7 @@
 	<item class="org.lichess.mobileapp/org.lichess.mobileapp.MainActivity" name="chess" />
 	<item class="org.ligi.survivalmanual/org.ligi.survivalmanual.ui.MainActivity" name="offlinesurvivalmanual" />
 	<item class="org.lineageos.audiofx/org.lineageos.audiofx.activity.ActivityMusic" name="audiofx" />
-	<item class="org.lineageos.jelly/org.lineageos.jelly.MainActivity" name="browser" />
+	<item class="org.lineageos.jelly/org.lineageos.jelly.MainActivity" name="jelly_browser" />
 	<item class="org.lineageos.snap/com.android.camera.CameraLauncher" name="camera" />
 	<item class="org.malwarebytes.antimalware/org.malwarebytes.antimalware.common.activity.PreScreeningActivity" name="malwarebytes" />
 	<item class="org.malwarebytes.antimalware/org.malwarebytes.antimalware.common.activity.SplashActivity" name="malwarebytes" />
@@ -3209,6 +3214,7 @@
 	<item class="org.mokee.filemanager/com.amaze.filemanager.activities.MainActivity" name="amaze_filemanager" />
 	<item class="org.mokee.venus/com.android.gallery3d.app.GalleryActivity" name="gallery" />
 	<item class="org.mozilla.fenix/.HomeActivity" name="firefox_preview" />
+	<item class="org.mozilla.fenix/org.mozilla.fenix.App" name="firefox_preview_alt" />
 	<item class="org.mozilla.fenix/org.mozilla.fenix.HomeActivity" name="firefox_preview" />
 	<item class="org.mozilla.fenix/org.mozilla.gecko.LauncherActivity" name="firefox_preview" />
 	<item class="org.mozilla.fennec_aurora/org.mozilla.fennec_aurora.App" name="firefox_aurora" />
