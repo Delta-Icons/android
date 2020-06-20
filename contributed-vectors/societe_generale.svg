@@ -7,40 +7,58 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="96"
-   inkscape:export-xdpi="96"
-   inkscape:export-filename="/home/jphilippe/inkscape/icônes/delta-github/png/societe_generale.png"
-   sodipodi:docname="societe_generale.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   version="1.1"
-   id="svg2"
-   viewBox="0 0 192 192"
+   width="192"
    height="192"
-   width="192">
+   viewBox="0 0 192 192"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="societe_generale.svg"
+   inkscape:export-filename="/home/jphilippe/inkscape/icônes/delta-github/png/societe_generale.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <sodipodi:namedview
-     inkscape:guide-bbox="true"
-     showguides="true"
-     inkscape:document-rotation="0"
-     inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="36"
-     inkscape:window-height="1052"
-     inkscape:window-width="1884"
-     units="px"
-     showgrid="false"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="px"
-     inkscape:cy="-119.04228"
-     inkscape:cx="-574.8119"
-     inkscape:zoom="0.5"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="9.6502281"
+     inkscape:cy="76.443609"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1022"
+     inkscape:window-x="1920"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <defs
-     id="defs4" />
+     id="defs4">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect851"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="2"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -49,34 +67,35 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(0,-860.36216)"
-     id="layer1"
+     inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     inkscape:label="Calque 1">
+     id="layer1"
+     transform="translate(0,-860.36216)">
     <g
-       id="g967">
+       id="g962">
       <rect
-         style="opacity:1;fill:#fe837e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         style="fill:#fe837e;fill-opacity:1;fill-rule:evenodd;stroke:none"
          width="153"
          height="153"
-         x="19.5"
+         x="19.500004"
          y="879.86218"
          rx="10"
-         id="rect4188" />
+         id="rect4188-3" />
       <path
-         id="rect923"
-         style="opacity:1;fill:#585b5d;fill-opacity:1;fill-rule:evenodd;stroke:none"
-         d="M 19.5 96 L 19.5 162.5 C 19.5 168.04 23.96 172.5 29.5 172.5 L 162.5 172.5 C 168.04 172.5 172.5 168.04 172.5 162.5 L 172.5 96 L 19.5 96 z "
-         transform="translate(0,860.36216)" />
+         id="rect923-6"
+         style="fill:#585b5d;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         d="m 19.5,956.36211 v 66.49999 c 0,5.54 4.46,10 10,10 h 133 c 5.54,0 10,-4.46 10,-10 v -66.49999 z" />
       <path
-         style="stroke-width:2.09589;opacity:1"
-         id="path912"
-         d="m 46.746565,952.17038 h 98.506875 v 8.38356 H 46.746565 Z"
+         inkscape:original-d="m 46.746565,952.17033 h 98.506875 v 8.38356 H 46.746565 Z"
+         inkscape:path-effect="#path-effect851"
+         style="stroke-width:2.09589"
+         id="path912-7"
+         d="m 48.746565,952.17033 h 94.506875 a 2,2 45 0 1 2,2 v 4.38356 a 2,2 135 0 1 -2,2 H 48.746565 a 2,2 45 0 1 -2,-2 v -4.38356 a 2,2 135 0 1 2,-2 z"
          fill="#ffffff" />
     </g>
   </g>
