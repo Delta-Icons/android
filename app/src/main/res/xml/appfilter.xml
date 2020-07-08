@@ -1049,7 +1049,9 @@
 	<item component="ComponentInfo{com.fc.ot/com.fc.ot.OpenThesaurus}" drawable="openthesaurus" />
 	<item component="ComponentInfo{com.fd.accessplusecs.aqua/uk.co.newday.creditcard.splash.ui.SplashActivity}" drawable="aqua" />
 	<item component="ComponentInfo{com.fd.accessplusecs.aqua/uk.co.newday.creditcard.ui.splash.SplashActivity}" drawable="aqua" />
-	<item component="ComponentInfo{com.fender.tuner/com.fender.tuner.activities.LandingActivity" drawable="fender_tuner" />
+	<item component="ComponentInfo{com.fender.tuner/com.fender.tuner.activities.LandingActivity}" drawable="fender_tuner" />
+	<item component="ComponentInfo{com.fender.tuner/.activities.SplashActivity}" drawable="fender_tuner" />
+	<item component="ComponentInfo{com.fender.tuner/.activities.TuneActivity}" drawable="fender_tuner" />
 	<item component="ComponentInfo{com.fgnm.baconcamera/com.fgnm.baconcamera.CameraActivity}" drawable="camera_alt_three" />
 	<item component="ComponentInfo{com.fi6715.godough/com.fi6715.godough.ornlfcu}" drawable="ornlfcu" />
 	<item component="ComponentInfo{com.fideuram.phone/com.latuabancaperandroid.ELoadingPageActivity}" drawable="bank" />
@@ -1375,6 +1377,7 @@
 	<item component="ComponentInfo{com.gtp.nextlauncher/com.gtp.nextlauncher.MainActivity}" drawable="next_launcher" />
 	<item component="ComponentInfo{com.guardian/com.guardian.feature.stream.NewHomeActivity}" drawable="the_guardian" />
 	<item component="ComponentInfo{com.guardian/com.guardian.ui.activities.HomeActivity}" drawable="the_guardian" />
+	<item component="ComponentInfo{com.guardian/.feature.stream.NewHomeActivity}" drawable="the_guardian" />
 	<item component="ComponentInfo{com.guidedways.android2do/com.guidedways.android2do.v2.screens.MainAppActivity}" drawable="two_do" />
 	<item component="ComponentInfo{com.guitarcenter.mobile.app/md59dd8800c0d3623694573981a8addcf39.SplashActivity}" drawable="guitar_center" />
 	<item component="ComponentInfo{com.gumtree.android/com.ebay.app.common.startup.SplashScreenActivity}" drawable="gumtree" />
@@ -1709,6 +1712,7 @@
 	<item component="ComponentInfo{com.mapswithme.maps.pro/com.mapswithme.maps.DownloadResourcesActivity}" drawable="maps_me" />
 	<item component="ComponentInfo{com.mareksebera.simpledilbert/com.mareksebera.simpledilbert.core.DilbertFragmentActivity}" drawable="simpledilbert" />
 	<item component="ComponentInfo{com.martinmagni.mekorama/com.martinmagni.mekorama.Mekorama" drawable="mekorama" />
+	<item component="ComponentInfo{com.massimobiolcati.irealb/.MainActivity}" drawable="ireal_b" />
 	<item component="ComponentInfo{com.mathpad.mobile.android.wt.unit/com.mathpad.mobile.android.wt.unit.UnitActivity}" drawable="convertpad" />
 	<item component="ComponentInfo{com.maxelus.asteroidspacklivewallpaper/com.maxelus.asteroidspacklivewallpaper.OpenApp}" drawable="asteroids_pack" />
 	<item component="ComponentInfo{com.MAXGo/com.hbo.phone.MainLaunchCoreActivity}" drawable="max_go" />
@@ -3520,8 +3524,11 @@
 	<item component="ComponentInfo{tv.twitch.android.app/tv.twitch.android.apps.LandingActivity}" drawable="twitch" />
 	<item component="ComponentInfo{ua.privatbank.ap24/ua.privatbank.ap24.beta.SplashActivity}" drawable="privat_twentyfour" />
 	<item component="ComponentInfo{uk.amazon.mShop.android/com.amazon.mShop.home.HomeActivity}" drawable="amazon" />
+	<item component="ComponentInfo{uk.co.autotrader.androidconsumersearch/.ui.activity.LauncherActivity}" drawable="auto_trader" />
 	<item component="ComponentInfo{uk.co.bbc.android.iplayerradio/uk.co.bbc.android.iplayerradiov2.ui.toplevelcomponents.mainactivity.MainActivity}" drawable="bbc_iplayer_radio" />
 	<item component="ComponentInfo{uk.co.bbc.android.sportdomestic/uk.co.bbc.android.sport.MainActivity}" drawable="bbc_sport" />
+	<item component="ComponentInfo{uk.co.focusmm.dts_theory_free/com.amazon.device.ads.DTBActivity}" drawable="theory_free" />
+	<item component="ComponentInfo{uk.co.focusmm.dts_theory_free/com.thegamecreators.agk_player.AGKActivity}" drawable="theory_free" />	
 	<item component="ComponentInfo{uk.co.gbk.loyalty/uk.co.gbk.loyalty.ActivityLauncher}" drawable="gbk" />
 	<item component="ComponentInfo{uk.co.santander.santanderUK/uk.co.santander.mobile.activities.SplashActivity}" drawable="bank" />
 	<item component="ComponentInfo{uk.co.santander.santanderUK/uk.co.santander.santanderuk.logon.SplashActivity}" drawable="santander" />
