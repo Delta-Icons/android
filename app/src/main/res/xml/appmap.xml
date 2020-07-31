@@ -1030,6 +1030,7 @@
 	<item class="com.fivemobile.myaccount/com.mobilelive.myaccount.SplashActivity" name="myrogers" />
 	<item class="com.fivemobile.thescore/com.fivemobile.thescore.SplashActivity" name="the__score" />
 	<item class="com.fiverr.fiverr/com.fiverr.fiverr.ActivityAndFragment.EntryPoint.FVREntryPoint" name="fiverr" />
+	<item class="com.fiverr.fiverr/com.fiverr.fiverr.activityandfragments.entrypoints.FVREntryPoint" name="fiverr" />
 	<item class="com.flavionet.android.camera.lite/com.flavionet.android.camera.lite.Main" name="camera_fv_five" />
 	<item class="com.flavionet.android.camera.pro/com.flavionet.android.camera.pro.Main" name="camera_fv_five" />
 	<item class="com.flayvr.flayvr/com.flayvr.screens.folders.FolderSelectionActivity" name="gallery" />
@@ -1497,6 +1498,7 @@
 	<item class="com.isaiasmatewos.texpandpro/com.isaiasmatewos.texpandpro.ui.HomeActivity" name="texpand" />
 	<item class="com.issuu.android.app/com.issuu.app.launch.LaunchActivity" name="issuu" />
 	<item class="com.itemstudio.castro/com.itemstudio.castro.activity.BaseActivity" name="castro" />
+	<item class="com.itemstudio.castro/com.itemstudio.castro.screens.main_activity.MainActivity" name="castro" />
 	<item class="com.iudesk.android.photo.editor/app.activity.MainActivity" name="photo_editor" />
 	<item class="com.jappit.android.guidatvfree/com.jappit.android.guidatvfree.guidatv" name="tv_guide" />
 	<item class="com.jaspervanriet.huntingthatproduct/com.jaspervanriet.huntingthatproduct.Views.Activities.MainActivity" name="jager" />
@@ -1647,6 +1649,7 @@
 	<item class="com.lightricks.facetune.free/com.lightricks.facetune.SplashActivity" name="facetune" />
 	<item class="com.lightricks.facetune/com.lightricks.facetune.MainFragmentActivity" name="facetune" />
 	<item class="com.Likewise.apps.Likewise/com.Likewise.apps.MainActivity" name="likewise" />
+	<item class="com.limebike/com.limebike.launcher.LauncherActivity" name="lime" />
 	<item class="com.linecorp.b612.android/com.linecorp.b612.android.activity.ActivityCamera" name="b_six_twelve" />
 	<item class="com.linecorp.foodcam.android/com.linecorp.foodcam.android.camera.CameraActivity" name="foodie" />
 	<item class="com.linkedin.android.jobs.jobseeker/com.linkedin.android.jobs.jobseeker.activity.AppLauncherActivity" name="linked__in" />
@@ -3073,6 +3076,8 @@
 	<item class="il.co.eventim.mobile.app.Android/mobile.app.Android.activity.StartupActivity" name="eventim" />
 	<item class="ilmfinity.evocreo.main.android/ilmfinity.evocreo.main.android.AndroidLauncher" name="evo_creo" />
 	<item class="im.gitter.gitter/im.gitter.gitter.activities.StartActivity" name="gitter" />
+	<item class="im.status.ethereum/im.status.ethereum.MainActivity" name="status" />
+	<item class="im.vector.app/im.vector.riotx.features.Alias" name="element" />
 	<item class="imoblife.toolbox.full/imoblife.toolbox.full.ASplash" name="all_in_one_toolbox" />
 	<item class="in.alphawolf.wallmax/in.alphawolf.wallmax.MainActivity" name="wallmax" />
 	<item class="in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity" name="amazon" />
@@ -3230,6 +3235,7 @@
 	<item class="net.lovoo.android/net.lovoo.ui.activities.phone.StartActivity" name="lovoo" />
 	<item class="net.markenwerk.apps.vzhs.gruenzeit/net.markenwerk.apps.vzhs.gruenzeit.MainActivity" name="gruenzeit" />
 	<item class="net.metapps.watersounds/net.metapps.relaxsounds.HomeActivity" name="rain_sounds" />
+	<item class="net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.ui.MainActivity" name="mullvad_vpn" />
 	<item class="net.nurik.roman.muzei/com.google.android.apps.muzei.MuzeiActivity" name="muzei" />
 	<item class="net.one97.paytm/net.one97.paytm.AJRJarvisSplash" name="pay_tm" />
 	<item class="net.oneplus.deskclock/net.oneplus.deskclock.DeskClock" name="clock" />
@@ -3434,11 +3440,13 @@
 	<item class="pl.mbank/pl.mbank.core.activity.StartActivity" name="mbank" />
 	<item class="pl.mw.playmagnus/md5f0ecf60c61b7cb4eed9c57d4570704da.SplashScreen" name="chess" />
 	<item class="pl.patrykgoworowski.cornieicons/pl.patrykgoworowski.cornieicons.HomeActivity" name="cornie_icons" />
+	<item class="pl.pkobp.iko/pl.pkobp.iko.startup.activity.StartupActivity" name="iko" />
 	<item class="pl.solidexplorer/pl.solidexplorer.SolidExplorer" name="solid_explorer" />
 	<item class="pl.solidexplorer1/pl.solidexplorer.SolidExplorer" name="solid_explorer" />
 	<item class="pl.solidexplorer2/pl.solidexplorer.SolidExplorer" name="solid_explorer" />
 	<item class="pl.szczodrzynski.edziennik/pl.szczodrzynski.edziennik.MainActivity" name="szkolny" />
 	<item class="pl.vipek.camera2/pl.vipek.camera2.CameraActivity" name="manual_camera" />
+	<item class="pl.zabka.apb2c/pl.zabka.b2c.presentation.welcome.WelcomeActivity" name="zappka" />
 	<item class="pm.minima.android/pm.minima.android.application.Application_Main" name="minima" />
 	<item class="posteitaliane.posteapp.appbpol/posteitaliane.posteapp.appbpol.gui.activities.SplashActivity" name="bank" />
 	<item class="posteitaliane.posteapp.appbpol/posteitaliane.posteapp.appbpol.ui.activity.SplashActivity" name="bank" />
@@ -3558,6 +3566,7 @@
 	<item class="xeus.timbre/xeus.timbre.ui.main.MainActivity" name="timbre" />
 	<item class="xyz.klinker.messenger/xyz.klinker.messenger.activity.MessengerActivity" name="klinker_messenger" />
 	<item class="xyz.omnicron.caffeinate/xyz.omnicron.caffeinate.MainActivity" name="caffeinate" />
+	<item class="xyz.paphonb.quickstepswitcher/xyz.paphonb.quickstepswitcher.MainActivity" name="quick_switch" />
 	<item class="ya.visualis/ya.visualis.activities.MainActivity" name="visualis" />
 	<item class="yarolegovich.materialterminal/yarolegovich.materialterminal.Term" name="material_terminal" />
 	<item class="you.in.spark.energy/you.in.spark.energy.EBSettings" name="energy_bar" />
@@ -3566,6 +3575,63 @@
 	<item class="yuuki.ito.android.leon/yuuki.ito.android.leon.activity.A00_SplashActivity" name="leon" />
 	<item class="za.com.mrp/za.com.mrp.activity.StoreActivity" name="mrp_fashion" />
 	<item class="zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity" name="clock" />
+	<item class="com.eightfit.app/com.eightfit.app.MainActivity" name="eight_fit" />
+	<item class="com.actiondash.playstore/actiondash.MainActivity" name="action_dash" />
+	<item class="com.setnet.actordetector/com.setnet.actordetector.MainActivity" name="actor_detector" />
+	<item class="pl.mbank/pl.mbank.core.activity.StartActivity" name="mbank" />
+	<item class="pl.szczodrzynski.edziennik/pl.szczodrzynski.edziennik.MainActivity" name="szkolny" />
+	<item class="pl.librus.synergiaDru2/pl.librus.synergiaDru2.MainActivity" name="librus" />
+	<item class="io.edo.agenda/io.edo.agenda.app.MainActivity" name="agenda" />
+	<item class="com.huaweioverseas.smarthome/com.huawei.smarthome.login.LauncherActivity" name="ai_life" />
+	<item class="com.aidungeon/com.aidungeon.MainActivity" name="ai_dungeon" />
+	<item class="eu.airly.android/eu.airly.android.launch.LaunchScreenActivity" name="airly" />
+	<item class="com.yandex.launcher/com.yandex.launcher.alice.AliceLauncherProxyActivity" name="alice" />
+	<item class="com.facebook.analytics/com.facebook.analytics.AnalyticsLoginActivity" name="facebook_analytics" />
+	<item class="com.samsung.android.arzone/com.samsung.android.arzone.ARZoneLauncher" name="ar_zone" />
+	<item class="com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity" name="microsoft_auth" />
+	<item class="com.avira.passwordmanager/com.avira.passwordmanager.activities.SplashActivity" name="avira_pm" />
+	<item class="com.bellhop.app/com.bellhop.MainActivity" name="bellhop" />
+	<item class="co.bird.android/co.bird.android.app.feature.main.MainActivity" name="bird" />
+	<item class="com.gojek.app/com.gojek.home.GojekSplash" name="gojek" />
+	<item class="com.oneplus.gamespace/com.oneplus.gamespace.ui.main.MainActivity" name="oneplus_game_space" />
+	<item class="com.facebook.games/com.facebook.games.app.login.GamesLoginActivity" name="facebook_gaming" />
+	<item class="videoeditor.videorecorder.screenrecorder/com.inshot.screenrecorder.activities.SplashBeforeActivity" name="xrecorder" />
+	<item class="com.supercell.brawlstars/com.supercell.brawlstars.GameApp" name="brawl_stars" />
+	<item class="org.ppsspp.ppsspp/org.ppsspp.ppsspp.PpssppActivity" name="ppsspp" />
+	<item class="com.nhn.android.search/com.nhn.android.search.ui.pages.SearchHomePage" name="naver" />
+	<item class="com.samsung.android.oneconnect/com.samsung.android.oneconnect.ui.SCMainActivity" name="samsung_smart_things" />
+	<item class="com.samsung.android.themestore/com.samsung.android.themestore.activity.Launcher" name="galaxy_themes" />
+	<item class="com.franco.kernel/a.spl" name="franco_kernel_manager" />
+	<item class="com.medibang.android.paint.tablet/com.medibang.android.paint.tablet.ui.activity.LauncherActivity" name="medibang_paint" />
+	<item class="com.roblox.client/com.roblox.client.startup.ActivitySplash" name="roblox" />
+	<item class="in.swiggy.android/in.swiggy.android.activities.HomeActivity" name="swiggy" />
+	<item class="com.commsource.beautyplus/com.commsource.beautyplus.start.StartUpAdvertActivity" name="beauty_plus" />
+	<item class="com.haz.prayer/com.haz.prayer.MyPrayer" name="prayer" />
+	<item class="com.garmin.android.apps.connectmobile/com.garmin.android.apps.connectmobile.GCMActivityStartup" name="garmin_connect" />
+	<item class="com.google.android.apps.searchlite/com.google.android.apps.searchlite.ui.SearchActivity" name="google_go" />
+	<item class="com.phonepe.app/com.phonepe.app.v4.nativeapps.splash.Navigator_SplashActivity" name="phone_pe" />
+	<item class="com.deliveroo.orderapp/com.deliveroo.orderapp.appicon.default" name="deliveroo" />
+	<item class="com.google.android.apps.recorder/com.google.android.apps.recorder.ui.recordings.MainActivity" name="google_recorder" />
+	<item class="jp.konami.pesam/com.epicgames.ue4.SplashActivity" name="pes_twenty_twenty" />
+	<item class="com.sec.android.autobackup/com.sec.android.autobackup.AutoBackupLauncherActivity" name="samsung_usb_backup" />
+	<item class="com.google.ar.lens/com.google.vr.apps.ornament.app.lens.LensLauncherActivity" name="google_lens" />
+	<item class="com.camerasideas.instashot/com.camerasideas.instashot.DummyActivity" name="in_shot" />
+	<item class="project.vivid.hex.bodhi/project.vivid.hex.bodhi.activities.HexLauncherActivity" name="hex_installer" />
+	<item class="project.vivid.hex.bodhi/project.vivid.hex.sharedthemes.activities.ThemesShowcaseActivity" name="hex_hexified" />
+	<item class="com.balysv.loop/com.balysv.loop.SplashScreenActivity" name="infinite" />
+	<item class="pl.blinkee.mobile/pl.bmind.blinkee.dev.MainActivity" name="blinkee" />
+	<item class="ee.mtakso.client/ee.mtakso.client.activity.SplashHomeActivity" name="bolt" />
+	<item class="com.amazon.sellermobile.android/com.amazon.mShop.home.MainActivity" name="amazon_seller" />
+	<item class="com.boostedproductivity.app/com.boostedproductivity.app.activities.LauncherActivity" name="boosted" />
+	<item class="com.kapp.youtube.final/com.kapp.youtube.ui.MainActivity" name="ymusic" />
+	<item class="com.blackboard.android.bbstudent/com.blackboard.android.bbstudent.launch.LaunchActivityImpl" name="blackboard" />
+	<item class="com.myairtelapp/com.myairtelapp.activity.SplashScreenActivity" name="airtel" />
+	<item class="com.clue.android/com.biowink.clue.splash.SplashActivity" name="clue" />
+	<item class="com.taobao.taobao/com.taobao.tao.welcome.Welcome" name="tao_bao" />
+	<item class="com.oneplus.note/com.oneplus.note.ui.MainActivity" name="oneplus_notes" />
+	<item class="com.pratilipi.mobile.android/com.pratilipi.mobile.android.deepLinking.DeepLinkingActivity" name="pratilipi" />
+	<item class="com.samsung.android.app.tips/com.samsung.android.app.tips.TipsMainActivity" name="samsung_tips" />
+	<item class="com.samsung.android.lool/com.samsung.android.sm.ui.DefaultActivity" name="samsung_care" />
 	<item class="com.amazon.aws.console.mobile/com.amazon.aws.console.mobile.ui.LoginActivity" name="amazon_aws_console" />
 	<item class="de.avm.android.fritzapp/de.avm.android.fritzapp.gui.FRITZApp" name="avm_fritz_box_myfritz_fon" />
 	<item class="com.bernaferrari.changedetection/com.bernaferrari.changedetection.MainActivity" name="change_detection" />
@@ -3580,4 +3646,31 @@
 	<item class="com.evilinsult/com.evilinsult.activities.MainActivity" name="evil_insult_generator" />
 	<item class="rocks.poopjournal.flashy/com.poopjournal.flashy.MainActivity" name="flashy" />
 	<item class="de.avm.android.smarthome/de.avm.android.smarthome.activities.StartActivity" name="avm_fritz_box_myfritz_smart_home" />
+	<item class="net.booksy.customer/net.booksy.customer.SplashActivity" name="booksy" />
+	<item class="org.nixgame.bubblelevel/org.nixgame.bubblelevel.ActivityBubbleLevel" name="bubble_level" />
+	<item class="pl.mobicore.mobilempk/pl.mobicore.mobilempk.ui.SplashScreen" name="mobile_mpk" />
+	<item class="pl.tajchert.canary/pl.tajchert.canary.ui.activity.MainActivity" name="canary" />
+	<item class="jp.co.casio.fx.CasioEduPlus/jp.co.casio.fx.CasioEduPlus.SplashActivity" name="casio_edu" />
+	<item class="com.gamesworkshop.citadelpaint/com.gamesworkshop.citadelcolour.RootNavigationActivity" name="citadel_colour" />
+	<item class="com.clickup.app/com.clickup.app.MainActivity" name="clickup" />
+	<item class="host.stjin.cometin/host.stjin.cometin.MainActivity" name="cometin" />
+	<item class="com.skagen.connected/com.portfolio.platform.activity.SplashScreenActivity" name="skagen_connected" />
+	<item class="io.ionic.creator/io.ionic.creator.MainActivity" name="ionic_creator" />
+	<item class="com.google.android.apps.village.boond/com.google.android.apps.village.boond.activities.SplashActivity" name="google_crowdsource" />
+	<item class="com.imaginecurve.curve.prd/com.imaginecurve.curve.startup.launch.LaunchActivity" name="curve" />
+	<item class="com.flatdesignapps.dzienszkolnypl/com.flatdesignapps.dzienszkolnypl.ManagerActivity" name="daily_schedule" />
+	<item class="com.arkadiusz.dayscounter/com.arkadiusz.dayscounter.ui.main.MainActivity" name="days_counter" />
+	<item class="com.paprbit.dcoder/com.paprbit.dcoder.splash.Splash" name="dcoder" />
+	<item class="fr.sevenpixels.dice/com.unity3d.player.UnityPlayerActivity" name="dice" />
+	<item class="com.justzht.lwp.music.apple.free/com.justzht.lwp.music.apple.activity.LiveWallpaperActivity" name="diffuse" />
+	<item class="dji.go.v4/dji.pilot.main.activity.DJILauncherActivity" name="dji_go_4" />
+	<item class="com.dolomitisuperski.skiapp/it.intesys.dolomitisuperski.scene.splash.SplashActivity" name="dolomiti_superski" />
+	<item class="eu.droneradar.droneradar/eu.droneradar.droneradar.MainActivity" name="drone_radar" />
+	<item class="com.transformandlighting.emb3d/com.transformandlighting.emb3d.activities.SplashScreenActivity" name="emb_three_d" />
+	<item class="com.empik.empikapp/com.empik.empikapp.entry.view.EntryActivity" name="empik" />
+	<item class="com.empik.empikgo/com.empik.empikapp.ui.onboarding.OnboardingActivity" name="empik_go" />
+	<item class="host.exp.exponent/host.exp.exponent.experience.HomeActivity" name="expo" />
+	<item class="io.faceapp/io.faceapp.MainActivity" name="face_app" />
+	<item class="com.catchingnow.np/com.catchingnow.np.E$W" name="filter_box" />
+	<item class="yuh.yuh.finelock/yuh.yuh.finelock.M" name="fine_lock" />
 </appmap>
