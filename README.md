@@ -32,4 +32,6 @@ The color palette
 Icon template
 ![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/template.svg) (Right-Click &rarr; Save as)
 
+Font: [Now](https://www.1001fonts.com/now-font.html)
+
 Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
