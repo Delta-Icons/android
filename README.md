@@ -8,7 +8,7 @@
 
 ## Our Discord Server
 If you need help contributing or just want to chat with other contributors feel free to join us here: https://discord.gg/F9RFqHN <br>
-_This server is noit intended for requests!_
+_This server is not intended for requests!_
 
 ## Contributing
 In case you want to contribute to Delta by providing icons please do so by creating a vector-based icon, cloning this repo and issuing a pull request with regards to these points:
