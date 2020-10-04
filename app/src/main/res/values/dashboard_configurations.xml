@@ -239,10 +239,14 @@
     <bool name="playstore_check_enabled">false</bool>
 
     <!-- Link CandyBar Config JSON -->
-    <string name="config_json"></string>
+<!--    <string name="config_json"></string>-->
 
     <!-- CONFIG: INTRO -->
     <!-- Show Intro Guides on First Run -->
     <bool name="show_intro">true</bool>
+
+    <!-- Enable if your icon pack includes adaptive icons.
+        When enabled, the dashboard shows an Icon Shape changer button -->
+    <bool name="includes_adaptive_icons">false</bool>
 
 </resources>
