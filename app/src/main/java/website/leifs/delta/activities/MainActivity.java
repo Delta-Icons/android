@@ -3,7 +3,6 @@ package website.leifs.delta.activities;
 import androidx.annotation.NonNull;
 
 import candybar.lib.activities.CandyBarMainActivity;
-import candybar.lib.activities.configurations.ActivityConfiguration;
 import website.leifs.delta.licenses.License;
 
 public class MainActivity extends CandyBarMainActivity {

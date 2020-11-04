@@ -8,7 +8,7 @@
 
 ## Our Discord Server
 If you need help contributing or just want to chat with other contributors feel free to join us here: https://discord.gg/F9RFqHN <br>
-_This server is noit intended for requests!_
+_This server is __not__ intended for requests!_
 
 ## Contributing
 In case you want to contribute to Delta by providing icons please do so by creating a vector-based icon, cloning this repo and issuing a pull request with regards to these points:
@@ -31,5 +31,7 @@ The color palette
 
 Icon template
 ![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/template.svg) (Right-Click &rarr; Save as)
+
+Font: [Now](https://www.1001fonts.com/now-font.html)
 
 Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
