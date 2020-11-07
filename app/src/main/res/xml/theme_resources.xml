@@ -9,7 +9,6 @@
 	<ThemePreviewMenu image="polar_preview" />
 	<DockMenuAppIcon selector="app_drawer" />
 	<!-- This is how to format this xml to get your icons to work with LG Home -->
-	<AppIcon name=".verizon.messaging.vzmsgs/com.verizon.mms.ui.activity.LauncherWelcomeScreen" image="message_plus" />
 	<AppIcon name="ab.rapid70/ab.rapid70.MainActivity" image="rapid_70" />
 	<AppIcon name="accky.kreved.skrwt.skrwt/accky.kreved.skrwt.skrwt.activity.LaunchScreenActivity" image="skrwt" />
 	<AppIcon name="accky.kreved.skrwt.skrwt/accky.kreved.skrwt.skrwt.LaunchScreenActivity" image="skrwt" />
@@ -150,6 +149,7 @@
 	<AppIcon name="com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity" image="call_of_duty_mobile" />
 	<AppIcon name="com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity" image="call_of_duty_mobile_alt" />
 	<AppIcon name="com.adam.aslfms/com.adam.aslfms.SettingsActivity" image="simple_scrobbler" />
+	<AppIcon name="com.adamlyttle.justfortoday/com.adamlyttle.justfortoday.MainActivity" image="just_for_today"/>
 	<AppIcon name="com.adguard.android.contentblocker/com.adguard.android.contentblocker.MainActivity" image="adguard" />
 	<AppIcon name="com.adguard.android.contentblocker/com.adguard.android.contentblocker.ui.MainActivity" image="adguard" />
 	<AppIcon name="com.adguard.android/com.adguard.android.ui.MainActivity" image="adguard" />
@@ -681,6 +681,7 @@
 	<AppIcon name="com.blizzard.wtcg.hearthstone/com.blizzard.wtcg.hearthstone.HearthstoneActivity" image="hearthstone" />
 	<AppIcon name="com.blizzard.wtcg.hearthstone/com.blizzard.wtcg.hearthstone.HearthstoneNativeActivity" image="hearthstone" />
 	<AppIcon name="com.blogspot.byterevapps.lollipopscreenrecorder/com.blogspot.byterevapps.lollipopscreenrecorder.MainActivity" image="avd_screen_recorder" />
+	<AppIcon name="com.bmo.mobile/com.bmo.mobile.BMOMobileBanking" image="bmo" />
 	<AppIcon name="com.BoardiesITSolutions.InfoTake/com.BoardiesITSolutions.InfoTake.LoginActivity" image="datadog" />
 	<AppIcon name="com.bodybuilding.mobile/com.bodybuilding.mobile.activity.LoginActivity" image="body_space" />
 	<AppIcon name="com.bodybuilding.mobile/com.bodybuilding.mobile.activity.SplashActivity" image="body_space" />
@@ -3616,11 +3617,7 @@
 	<AppIcon name="org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity" image="twidere" />
 	<AppIcon name="org.mokee.filemanager/com.amaze.filemanager.activities.MainActivity" image="amaze_filemanager" />
 	<AppIcon name="org.mokee.venus/com.android.gallery3d.app.GalleryActivity" image="gallery" />
-	<AppIcon name="org.mozilla.fenix/.HomeActivity" image="firefox_preview" />
-	<AppIcon name="org.mozilla.fenix/org.mozilla.fenix.App" image="firefox_preview" />
-	<AppIcon name="org.mozilla.fenix/org.mozilla.fenix.App" image="firefox_preview_alt" />
-	<AppIcon name="org.mozilla.fenix/org.mozilla.fenix.HomeActivity" image="firefox_preview" />
-	<AppIcon name="org.mozilla.fenix/org.mozilla.gecko.LauncherActivity" image="firefox_preview" />
+	<AppIcon name="org.mozilla.fenix/org.mozilla.fenix.App" image="firefox_nightly"/>
 	<AppIcon name="org.mozilla.fennec_aurora/org.mozilla.fennec_aurora.App" image="firefox_aurora" />
 	<AppIcon name="org.mozilla.firefox/org.mozilla.firefox.App" image="firefox" />
 	<AppIcon name="org.mozilla.firefox_beta/org.mozilla.firefox_beta.App" image="firefox_beta" />

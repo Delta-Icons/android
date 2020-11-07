@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <appmap>
-	<item class=".verizon.messaging.vzmsgs/com.verizon.mms.ui.activity.LauncherWelcomeScreen" name="message_plus" />
 	<item class="ab.rapid70/ab.rapid70.MainActivity" name="rapid_70" />
 	<item class="accky.kreved.skrwt.skrwt/accky.kreved.skrwt.skrwt.activity.LaunchScreenActivity" name="skrwt" />
 	<item class="accky.kreved.skrwt.skrwt/accky.kreved.skrwt.skrwt.LaunchScreenActivity" name="skrwt" />
@@ -141,6 +140,7 @@
 	<item class="com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity" name="call_of_duty_mobile" />
 	<item class="com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity" name="call_of_duty_mobile_alt" />
 	<item class="com.adam.aslfms/com.adam.aslfms.SettingsActivity" name="simple_scrobbler" />
+	<item class="com.adamlyttle.justfortoday.MainActivity" name="just_for_today"/>
 	<item class="com.adguard.android.contentblocker/com.adguard.android.contentblocker.MainActivity" name="adguard" />
 	<item class="com.adguard.android.contentblocker/com.adguard.android.contentblocker.ui.MainActivity" name="adguard" />
 	<item class="com.adguard.android/com.adguard.android.ui.MainActivity" name="adguard" />
@@ -672,6 +672,7 @@
 	<item class="com.blizzard.wtcg.hearthstone/com.blizzard.wtcg.hearthstone.HearthstoneActivity" name="hearthstone" />
 	<item class="com.blizzard.wtcg.hearthstone/com.blizzard.wtcg.hearthstone.HearthstoneNativeActivity" name="hearthstone" />
 	<item class="com.blogspot.byterevapps.lollipopscreenrecorder/com.blogspot.byterevapps.lollipopscreenrecorder.MainActivity" name="avd_screen_recorder" />
+	<item class="com.bmo.mobile/com.bmo.mobile.BMOMobileBanking" name="bmo" />
 	<item class="com.BoardiesITSolutions.InfoTake/com.BoardiesITSolutions.InfoTake.LoginActivity" name="datadog" />
 	<item class="com.bodybuilding.mobile/com.bodybuilding.mobile.activity.LoginActivity" name="body_space" />
 	<item class="com.bodybuilding.mobile/com.bodybuilding.mobile.activity.SplashActivity" name="body_space" />
@@ -3607,11 +3608,7 @@
 	<item class="org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity" name="twidere" />
 	<item class="org.mokee.filemanager/com.amaze.filemanager.activities.MainActivity" name="amaze_filemanager" />
 	<item class="org.mokee.venus/com.android.gallery3d.app.GalleryActivity" name="gallery" />
-	<item class="org.mozilla.fenix/.HomeActivity" name="firefox_preview" />
-	<item class="org.mozilla.fenix/org.mozilla.fenix.App" name="firefox_preview" />
-	<item class="org.mozilla.fenix/org.mozilla.fenix.App" name="firefox_preview_alt" />
-	<item class="org.mozilla.fenix/org.mozilla.fenix.HomeActivity" name="firefox_preview" />
-	<item class="org.mozilla.fenix/org.mozilla.gecko.LauncherActivity" name="firefox_preview" />
+	<item class="org.mozilla.fenix.App" name="firefox_nightly"/>
 	<item class="org.mozilla.fennec_aurora/org.mozilla.fennec_aurora.App" name="firefox_aurora" />
 	<item class="org.mozilla.firefox/org.mozilla.firefox.App" name="firefox" />
 	<item class="org.mozilla.firefox_beta/org.mozilla.firefox_beta.App" name="firefox_beta" />
