@@ -52,7 +52,6 @@
 	<item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="app_drawer_three" />
 	<item component=":PHONE" drawable="phone" />
 	<item component=":SMS" drawable="sms_alt_three" />
-	<item component="ComponentInfo{.verizon.messaging.vzmsgs/com.verizon.mms.ui.activity.LauncherWelcomeScreen}" drawable="message_plus" />
 	<item component="ComponentInfo{ab.rapid70/ab.rapid70.MainActivity}" drawable="rapid_70" />
 	<item component="ComponentInfo{accky.kreved.skrwt.skrwt/accky.kreved.skrwt.skrwt.activity.LaunchScreenActivity}" drawable="skrwt" />
 	<item component="ComponentInfo{accky.kreved.skrwt.skrwt/accky.kreved.skrwt.skrwt.LaunchScreenActivity}" drawable="skrwt" />
@@ -193,6 +192,7 @@
 	<item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity}" drawable="call_of_duty_mobile" />
 	<item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity}" drawable="call_of_duty_mobile_alt" />
 	<item component="ComponentInfo{com.adam.aslfms/com.adam.aslfms.SettingsActivity}" drawable="simple_scrobbler" />
+	<item component="ComponentInfo{com.adamlyttle.justfortoday/com.adamlyttle.justfortoday.MainActivity}" drawable="just_for_today" />
 	<item component="ComponentInfo{com.adguard.android.contentblocker/com.adguard.android.contentblocker.MainActivity}" drawable="adguard" />
 	<item component="ComponentInfo{com.adguard.android.contentblocker/com.adguard.android.contentblocker.ui.MainActivity}" drawable="adguard" />
 	<item component="ComponentInfo{com.adguard.android/com.adguard.android.ui.MainActivity}" drawable="adguard" />
@@ -724,6 +724,7 @@
 	<item component="ComponentInfo{com.blizzard.wtcg.hearthstone/com.blizzard.wtcg.hearthstone.HearthstoneActivity}" drawable="hearthstone" />
 	<item component="ComponentInfo{com.blizzard.wtcg.hearthstone/com.blizzard.wtcg.hearthstone.HearthstoneNativeActivity}" drawable="hearthstone" />
 	<item component="ComponentInfo{com.blogspot.byterevapps.lollipopscreenrecorder/com.blogspot.byterevapps.lollipopscreenrecorder.MainActivity}" drawable="avd_screen_recorder" />
+	<item component="ComponentInfo{com.bmo.mobile/com.bmo.mobile.BMOMobileBanking}" drawable="bmo" />
 	<item component="ComponentInfo{com.BoardiesITSolutions.InfoTake/com.BoardiesITSolutions.InfoTake.LoginActivity}" drawable="datadog" />
 	<item component="ComponentInfo{com.bodybuilding.mobile/com.bodybuilding.mobile.activity.LoginActivity}" drawable="body_space" />
 	<item component="ComponentInfo{com.bodybuilding.mobile/com.bodybuilding.mobile.activity.SplashActivity}" drawable="body_space" />
@@ -2062,6 +2063,7 @@
 	<item component="ComponentInfo{com.neuralprisma/com.prisma.activity.CameraActivity}" drawable="prisma" />
 	<item component="ComponentInfo{com.neuralprisma/com.prisma.starter.StarterActivity}" drawable="prisma" />
 	<item component="ComponentInfo{com.neuralprisma/com.prisma.ui.starter.StarterActivity}" drawable="prisma" />
+	<item component="ComponentInfo{com.newegg.app/com.newegg.app.MainActivity}" drawable="newegg" />
 	<item component="ComponentInfo{com.newscope.news.haz/com.newscope.news.MainActivity}" drawable="haz_mobil_zeitung_hannover" />
 	<item component="ComponentInfo{com.nexdev.blurone/com.nexdev.blurone.MainActivity}" drawable="blurone" />
 	<item component="ComponentInfo{com.nexon.fwar/com.nexon.fwar.Project30GameActivity}" drawable="fantasy_war" />
@@ -3659,11 +3661,7 @@
 	<item component="ComponentInfo{org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity}" drawable="twidere" />
 	<item component="ComponentInfo{org.mokee.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="amaze_filemanager" />
 	<item component="ComponentInfo{org.mokee.venus/com.android.gallery3d.app.GalleryActivity}" drawable="gallery" />
-	<item component="ComponentInfo{org.mozilla.fenix/.HomeActivity}" drawable="firefox_preview" />
-	<item component="ComponentInfo{org.mozilla.fenix/org.mozilla.fenix.App}" drawable="firefox_preview" />
-	<item component="ComponentInfo{org.mozilla.fenix/org.mozilla.fenix.App}" drawable="firefox_preview_alt" />
-	<item component="ComponentInfo{org.mozilla.fenix/org.mozilla.fenix.HomeActivity}" drawable="firefox_preview" />
-	<item component="ComponentInfo{org.mozilla.fenix/org.mozilla.gecko.LauncherActivity}" drawable="firefox_preview" />
+	<item component="ComponentInfo{org.mozilla.fenix/org.mozilla.fenix.App}" drawable="firefox_nightly" />
 	<item component="ComponentInfo{org.mozilla.fennec_aurora/org.mozilla.fennec_aurora.App}" drawable="firefox_aurora" />
 	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="firefox" />
 	<item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="firefox_beta" />
