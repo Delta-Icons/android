@@ -1,4 +1,5 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
 	<scale factor="1" />
 	<calendar component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" prefix="calendar_" />
@@ -171,6 +172,7 @@
 	<item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity}" drawable="monzo" />
 	<item component="ComponentInfo{co.uk.Nationwide.Mobile/.ui.MainActivity}" drawable="nationwide" />
 	<item component="ComponentInfo{co.vine.android/co.vine.android.StartActivity}" drawable="vine" />
+	<item component="ComponentInfo{co.yellw.yellowapp/co.yellw.yellowapp.main.MainActivity}" drawable="yubo" />
 	<item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity}" drawable="retro_music_player" />
 	<item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.ui.activities.main.MainActivity}" drawable="retro_music_player" />
 	<item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.ui.activities.MainActivity}" drawable="retro_music_player" />
@@ -3154,6 +3156,7 @@
 	<item component="ComponentInfo{de.blinkt.openvpn/de.blinkt.openvpn.activities.MainActivity}" drawable="openvpn_for_android" />
 	<item component="ComponentInfo{de.blitzer.plus/de.blitzer.activity.SplashScreen}" drawable="blitzer_de" />
 	<item component="ComponentInfo{de.blitzer/de.blitzer.activity.SplashScreen}" drawable="blitzer_de" />
+	<item component="ComponentInfo{de.bmw.connected.na/de.bmw.connected.lib.startup.views.StartupActivity}" drawable="bmw_connected" />
 	<item component="ComponentInfo{de.boxine.tonieapp/de.boxine.tonieapp.SplashActivity}" drawable="tonies" />
 	<item component="ComponentInfo{de.burgerking.kingfinder/de.burgerking.kingfinder.ui.main.MainActivity}" drawable="burger_king" />
 	<item component="ComponentInfo{de.burgerking.kingfinder/de.xroot.burgerking.ui.activity.SplashScreenActivity}" drawable="burger_king" />
@@ -3343,6 +3346,7 @@
 	<item component="ComponentInfo{eu.thedarken.sdm.unlocker/eu.thedarken.sdm.unlocker.SDMGreeting}" drawable="sd_maid" />
 	<item component="ComponentInfo{eu.thedarken.sdm/eu.thedarken.sdm.main.ui.SDMMainActivity}" drawable="sd_maid" />
 	<item component="ComponentInfo{eu.thedarken.sdm/eu.thedarken.sdm.SDMMainActivity}" drawable="sd_maid" />
+	<item component="ComponentInfo{fi.op.android.opmobiili/fi.op.android.opmobiili.common.oldui.mainui.MainActivity}" drawable="op_mobiili" />
 	<item component="ComponentInfo{fi.polar.polarflow/fi.polar.polarflow.activity.login.LoginActivity}" drawable="polar_flow" />
 	<item component="ComponentInfo{fi.polar.polarflow/fi.polar.polarflow.activity.login.SplashScreenActivity}" drawable="polar_flow" />
 	<item component="ComponentInfo{fishnoodle.canabalt/fishnoodle.canabalt.CanabaltActivity}" drawable="canabalt_hd" />
@@ -3483,6 +3487,7 @@
 	<item component="ComponentInfo{jp.pxv.android/jp.pxv.android.RootActivity}" drawable="pixiv" />
 	<item component="ComponentInfo{jp.pxv.pawoo/jp.pxv.pawoo.view.activity.RoutingActivity}" drawable="pawoo" />
 	<item component="ComponentInfo{jp.snowlife01.android.voicerecorderpro/jp.snowlife01.android.voicerecorderpro.MainActivity}" drawable="voice_recorder_pro" />
+	<item component="ComponentInfo{keepass2android.keepass2android/crc64ae7e22645ed9821f.KeePass}" drawable="keepass_to_android" />
 	<item component="ComponentInfo{keepass2android.keepass2android/md5b85ab5ea2545156b0f09600c184a5178.KeePass}" drawable="keepass_to_android" />
 	<item component="ComponentInfo{keepass2android.keepass2android/md5f0702f468598c68ce18586502249fb40.KeePass}" drawable="keepass_to_android" />
 	<item component="ComponentInfo{keepass2android.keepass2android_nonet/md5f0702f468598c68ce18586502249fb40.KeePass}" drawable="keepass_to_android" />
@@ -3609,6 +3614,7 @@
 	<item component="ComponentInfo{ninja.sesame.app.edge/ninja.sesame.app.edge.activities.MainActivity}" drawable="sesame" />
 	<item component="ComponentInfo{nl.asnbank.asnbankieren/com.service2media.m2active.client.android.M2ActiveClient}" drawable="bank" />
 	<item component="ComponentInfo{nl.oberon.tmobile.my/nl.oberon.tmobile.my.activity.LoginActivity}" drawable="t_mobile" />
+	<item component="ComponentInfo{nl.rabomobiel/nl.rabobank.bankierenplus.URActivity}" drawable="rabobank" />
 	<item component="ComponentInfo{nl.sanomamedia.android.nu/nl.sanomamedia.android.nu.activity.NUMainActivity}" drawable="nu_nl" />
 	<item component="ComponentInfo{nl.snsbank.snsbankieren/com.service2media.m2active.client.android.M2ActiveClient}" drawable="bank" />
 	<item component="ComponentInfo{nl.topicus.onderwijs.somtoday/nl.topicus.onderwijs.somtoday.somtoday}" drawable="somtoday" />
@@ -3708,6 +3714,7 @@
 	<item component="ComponentInfo{org.mokee.venus/com.android.gallery3d.app.GalleryActivity}" drawable="gallery" />
 	<item component="ComponentInfo{org.mozilla.fenix/org.mozilla.fenix.App}" drawable="firefox_nightly" />
 	<item component="ComponentInfo{org.mozilla.fennec_aurora/org.mozilla.fennec_aurora.App}" drawable="firefox_aurora" />
+	<item component="ComponentInfo{org.mozilla.fennec_fdroid/org.mozilla.fennec_fdroid.App}" drawable="fennec" />
 	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="firefox" />
 	<item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="firefox_beta" />
 	<item component="ComponentInfo{org.mozilla.focus.debug/org.mozilla.focus.activity.MainActivity}" drawable="firefox_focus" />
@@ -3949,3 +3956,4 @@
 	<item component="ComponentInfo{za.com.mrp/za.com.mrp.activity.StoreActivity}" drawable="mrp_fashion" />
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
+</resources>
