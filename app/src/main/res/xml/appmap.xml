@@ -906,9 +906,9 @@
 	<item class="com.datadog.app/com.datadog.oncall.app.LaunchActivity" name="datadog" />
 	<item class="com.dazn/com.dazn.splash.view.SplashScreenActivity" name="dazn" />
 	<item class="com.dccomics.comics/com.iconology.ui.navigation.RouterActivity" name="dc_comics" />
-	<item class="com.dd.doordash/com.dd.doordash.activities.MainActivity" name="doordash" />
-	<item class="com.dd.doordash/com.dd.doordash.presentation.main.view.MainActivity" name="doordash" />
-	<item class="com.dd.doordash/com.dd.doordash.ui.MainActivity" name="doordash" />
+	<item class="com.dd.doordash/com.dd.doordash.activities.MainActivity" name="doordash_alt" />
+	<item class="com.dd.doordash/com.dd.doordash.presentation.main.view.MainActivity" name="doordash_alt" />
+	<item class="com.dd.doordash/com.dd.doordash.ui.MainActivity" name="doordash_alt" />
 	<item class="com.deananddavid.android/com.deananddavid.android.SplashActivity" name="deananddavid" />
 	<item class="com.definedcrowd.horatio/com.definedcrowd.horatio.activities.authentication.AuthenticationActivity" name="horatio" />
 	<item class="com.deliveroo.orderapp/com.deliveroo.orderapp.appicon.default" name="deliveroo" />
@@ -1070,6 +1070,7 @@
 	<item class="com.facebook.katana/com.facebook.katana.LoginActivity" name="facebook" />
 	<item class="com.facebook.lite/com.facebook.lite.MainActivity" name="facebook_lite" />
 	<item class="com.facebook.mlite/com.facebook.mlite.coreui.view.MainActivity" name="facebook_messenger_lite" />
+	<item class="com.facebook.mlite/com.facebook.mlite.coreui.view.MainActivity" name="facebook_messenger_lite_alt" />
 	<item class="com.facebook.orca/com.facebook.orca.auth.StartScreenActivity" name="facebook_messenger" />
 	<item class="com.facebook.pages.app/com.facebook.pages.app.activity.PagesManagerLoginActivity" name="fb_page_manager" />
 	<item class="com.facebook.pages.app/com.facebook.pages.app.auth.PagesManagerLoginActivity" name="fb_page_manager" />
@@ -1216,8 +1217,8 @@
 	<item class="com.github.android/com.github.android.activities.MainActivity" name="github" />
 	<item class="com.github.ashutoshgngwr.noice/com.github.ashutoshgngwr.noice.MainActivity" name="noice" />
 	<item class="com.github.client/com.github.mobile.ui.user.HomeActivity" name="github" />
-	<item class="com.github.erictsang.screenfilter.app.android.activity.MainActivity]" drawable="screen_dimmer" />
-	<item class="com.github.erictsang.screenfilter.app.android/com.github.erictsang.screenfilter.app.android.activity.MainActivity]" drawable="screen_dimmer" />
+	<item class="com.github.erictsang.screenfilter.app.android.activity.MainActivity" drawable="screen_dimmer" />
+	<item class="com.github.erictsang.screenfilter.app.android/com.github.erictsang.screenfilter.app.android.activity.MainActivity" drawable="screen_dimmer" />
 	<item class="com.github.jamesgay.fitnotes/com.github.jamesgay.fitnotes.activity.MainActivity" name="fitnotes" />
 	<item class="com.github.shadowsocks/com.github.shadowsocks.MainActivity" name="shadowsocks" />
 	<item class="com.github.yeriomin.yalpstore/com.github.yeriomin.yalpstore.InstalledAppsActivity" name="yalp_store" />
@@ -1584,7 +1585,6 @@
 	<item class="com.ijinshan.kbatterydoctor_en/com.ijinshan.kbatterydoctor.SplashActivity" name="battery_doctor" />
 	<item class="com.ikea.kompis/com.ikea.kompis.SplashActivity" name="ikea" />
 	<item class="com.ikea.tradfri.lighting/com.ikea.tradfri.lighting.startup.activity.SplashActivity" name="ikea_home" />
-	<item class="com.ikea.tradfri.lighting/com.ikea.tradfri.lighting.startup.activity.SplashActivity" name="ikea_home_smart" />
 	<item class="com.illusivereflection.berbausimulator/com.godot.game.GodotApp" name="ber_bausimulator" />
 	<item class="com.iloen.melon/com.iloen.melon.MusicBrowserActivity" name="melon" />
 	<item class="com.imageline.FLM/com.imageline.FLM.FLMActivity" name="fl_studio" />
@@ -2725,7 +2725,6 @@
 	<item class="com.t2ksports.nba2k17android/com.t2ksports.nba2k17android.gameactivity" name="nba_twok_seventeen" />
 	<item class="com.tailortoys.app.PowerUp/com.tailortoys.app.PowerUp.screens.ScreensActivity" name="powerup" />
 	<item class="com.talque.app/com.talque.app.MainActivity" name="talque" />
-	<item class="com.taobao.taobao/com.taobao.tao.welcome.Welcome" name="tao_bao" />
 	<item class="com.taobao.taobao/com.taobao.tao.welcome.Welcome" name="taobao" />
 	<item class="com.tapatalk.devsbasecom/com.quoord.tapatalkpro.activity.directory.ics.IcsEntryActivity" name="devs_base" />
 	<item class="com.tappytaps.android.barkio/com.tappytaps.android.babymonitor3g.activity.MainActivity" name="barkio" />
@@ -3978,4 +3977,5 @@
 	<item class="pl.karta.krakowska/pl.karta.krakowska.MainActivity" name="karta_krakowska" />
 	<item class="com.kfc_polska/com.kfc_polska.ui.activities.OnboardActivity" name="kfc" />
 	<item class="com.moviebase/com.moviebase.ui.main.MainActivity" name="moviebase" />
+	<item class="com.doordash.consumer.ui.login.LauncherActivity" name="doordash"/>
 </appmap>
