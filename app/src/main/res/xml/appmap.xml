@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <appmap>
 	<item class="ab.rapid70/ab.rapid70.MainActivity" name="rapid_70" />
@@ -245,7 +244,6 @@
 	<item class="com.android.aldiko/com.aldiko.android.ui.AliasHomeScreen" name="aldiko" />
 	<item class="com.android.BBKClock/com.android.BBKClock.Timer" name="clock" />
 	<item class="com.android.browser/com.android.browser.BrowserActivity" name="aosp_browser" />
-	<item class="com.bubblesoft.android.bubbleupnp.MainActivity" name="bubble__u__pn__p"/>
 	<item class="com.android.calculator2/com.android.calculator2.AsxCalculator" name="calculator" />
 	<item class="com.android.calculator2/com.android.calculator2.Calculator" name="calculator" />
 	<item class="com.android.calculator2/com.android.calculator2.Calculator-Dark" name="calculator" />
@@ -527,7 +525,6 @@
 	<item class="com.apusapps.browser/com.superapps.browser.main.AppEnterActivity" name="apus_browser" />
 	<item class="com.aral.aral/com.aral.aral.SplashActivity" name="aral" />
 	<item class="com.area120.grasshopper/com.area120.grasshopper.MainActivity" name="grasshopper" />
-	<item class="com.seafile.seadroid2.ui.activity.BrowserActivity" name="seafile"/>
 	<item class="com.arkadiusz.dayscounter/com.arkadiusz.dayscounter.ui.main.MainActivity" name="days_counter" />
 	<item class="com.arlosoft.macrodroid/com.arlosoft.macrodroid.homescreen.MacroDroidActivity" name="macrodroid" />
 	<item class="com.arlosoft.macrodroid/com.arlosoft.macrodroid.LauncherActivity" name="macrodroid" />
@@ -640,6 +637,7 @@
 	<item class="com.bbmykdev1/com.bbmykdev1.ui.activities.StartupActivity" name="bbm" />
 	<item class="com.bbva.bbvacontigo/com.bbva.buzz.modules.startup.StartActivity" name="bank" />
 	<item class="com.bbva.bbvacontigo/com.bbva.woody.phone.modules.initial.splash.view.SplashActivity" name="bank" />
+	<item class="com.bearable.MainActivity" name="bearable"/>
 	<item class="com.becandid.candid/com.becandid.candid.activities.SplashActivity" name="candid" />
 	<item class="com.beebom.app.beebom/com.beebom.app.beebom.splash.SplashActivity" name="beebom" />
 	<item class="com.behance.behance/com.behance.network.ui.activities.MainActivity" name="behance" />
@@ -656,6 +654,7 @@
 	<item class="com.betafish.adblocksbrowser/com.betafish.sbrowser.contentblocker.MainPreferences" name="adblock_for_samsung_browser" />
 	<item class="com.bethsoft.falloutcompanionapp/com.unity3d.player.UnityPlayerNativeActivity" name="fallout_pip_boy" />
 	<item class="com.bethsoft.falloutshelter/com.bhvr.Prime31MainActivityWithMemoryWarning" name="fallout_shelter" />
+	<item class="com.bhvr.deadbydaylight/com.epicgames.ue4.SplashActivity" name="dead_by_daylight" />
 	<item class="com.bijoysingh.quicknote.pro/com.bijoysingh.quicknote.activities.MainActivity" name="scarlet" />
 	<item class="com.bijoysingh.quicknote/com.bijoysingh.quicknote.activities.MainActivity" name="scarlet" />
 	<item class="com.bilibili.app.in/tv.danmaku.bili.ui.splash.SplashActivity" name="bilibili" />
@@ -741,6 +740,7 @@
 	<item class="com.buak.Link2SD/com.buak.Link2SD.Link2SD" name="link_to_sd" />
 	<item class="com.buak.link2sdplus/com.buak.link2sdplus.LauncherMainActivity" name="link_to_sd" />
 	<item class="com.buak.link2sdplus/com.buak.link2sdplus.MainActivity" name="link_to_sd" />
+	<item class="com.bubblesoft.android.bubbleupnp.MainActivity" name="bubble__u__pn__p"/>
 	<item class="com.buda.crypto/com.buda.crypto.MainActivity" name="buda" />
 	<item class="com.bumble.app/com.bumble.app.ui.launcher.BumbleLauncherActivity" name="bumble" />
 	<item class="com.bungieinc.bungiemobile/com.bungieinc.bungiemobile.LoaderActivity" name="destiny" />
@@ -1355,7 +1355,7 @@
 	<item class="com.google.android.GoogleCameraNX1/com.android.camera.CameraLauncher" name="camera" />
 	<item class="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromLauncher" name="google_assistant" />
 	<item class="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity" name="google" />
-	<item class="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity" name="google_voice" />
+	<item class="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity" name="google_voice_search" />
 	<item class="com.google.android.inputmethod.japanese/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity" name="google_japanese_input" />
 	<item class="com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity" name="google_keyboard" />
 	<item class="com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity" name="google_keyboard" />
@@ -2442,6 +2442,7 @@
 	<item class="com.scotiabank.mobile/com.scotiabank.mobile.MobileBanking" name="scotiabank" />
 	<item class="com.scottrade.mobile.retail/com.scottrade.mobile.retail.SplashscreenActivity" name="scottrade" />
 	<item class="com.scribd.app.reader0/com.scribd.app.ui.SplashScreen" name="scribd" />
+	<item class="com.seafile.seadroid2.ui.activity.BrowserActivity" name="seafile"/>
 	<item class="com.sec.android.app.camera/com.sec.android.app.camera.Camera" name="camera" />
 	<item class="com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.alarm.Alarm" name="clock" />
 	<item class="com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage" name="clock" />
@@ -2815,6 +2816,7 @@
 	<item class="com.tomtom.mysports/com.tomtom.mysports.gui.SplashscreenActivity" name="my__sports" />
 	<item class="com.tomwandroid.rockerlocker/com.tomwandroid.rockerlocker.MainActivity" name="rocker_locker" />
 	<item class="com.topjohnwu.magisk/a.c" name="magisk_manager" />
+	<item class="com.topjohnwu.magisk/com.topjohnwu.magisk.core.SplashActivity" name="magisk_manager" />
 	<item class="com.topjohnwu.magisk/com.topjohnwu.magisk.MainActivity" name="magisk_manager" />
 	<item class="com.topjohnwu.magisk/com.topjohnwu.magisk.SplashActivity" name="magisk_manager" />
 	<item class="com.touchtype.swiftkey.beta/com.touchtype.LauncherActivity" name="swift__key" />
