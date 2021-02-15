@@ -1,12 +1,13 @@
 """
-Pass a text file with detected updateable appfilters and appfilter.xml as arguments to this script for it to output a new file with the liens to append to appfilter.xml
+Pass a text file with detected updateable appfilters and appfilter.xml as arguments
+to this script for it to output a new file with the liens to append to appfilter.xml
 """
 
 import sys, os, re
 
 appfilters = open(sys.argv[2]).readlines()
 
-with open(sys.argv[1]) as file:
+with open(sys.argv[1], encoding='utf-8') as file:
 	lines = file.readlines()
 	new_filters = []
 
@@ -22,11 +23,10 @@ with open(sys.argv[1]) as file:
 					search_appfilter = re.search(appfilter_regex, appf)
 					if search_appfilter:
 						new_filters.append(appf.replace(search_appfilter.groups(0)[0], line.strip()))
-					else:
-						print("Error with", appf, line)
 					break
 
+	# print(new_filters)
 
-	filters = open('new_appfilters.xml', 'w')
+	filters = open('new_appfilters.xml', 'w', encoding='utf-8')
 	filters.write(''.join(new_filters))
 	filters.close()

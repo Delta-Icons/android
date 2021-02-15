@@ -90,5 +90,5 @@ new_list += '\n\n\n\n---------------------------------NEW-----------------------
 new_list += ''.join(new_apps)
 
 
-with open('new_apps.txt', 'w') as file:
+with open('new_apps.txt', 'w', encoding='utf-8') as file:
 	file.write(new_list)
