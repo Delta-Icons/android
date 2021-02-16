@@ -84,5 +84,5 @@ with open(sys.argv[1]) as file:
 	output += "\n</resources>"
 
 	# write to new_'filename'.xml in working directory
-	outFile = open("new_" + sys.argv[1].split("/")[-1], "w")
+	outFile = open("new_" + sys.argv[1].split("/")[-1].split("\\")[-1], "w", encoding='utf-8')
 	outFile.write(output)
