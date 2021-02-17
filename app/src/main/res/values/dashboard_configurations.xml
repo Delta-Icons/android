@@ -9,12 +9,17 @@
 
     <!-- CONFIG: DEFAULT THEME -->
 
-    <!-- Use dark theme as default theme -->
-    <bool name="use_dark_theme">true</bool>
+    <!-- Set the default theme
+        Available choices:
+        - auto
+        - light
+        - dark
+    -->
+        <string name="default_theme">dark</string>
 
-    <string name="splash_screen_title">Delta</string>
+        <string name="splash_screen_title">Delta</string>
 
-    <!-- CONFIG: MUZEI -->
+        <!-- CONFIG: MUZEI -->
 
     <!-- Muzei art source name -->
     <string name="muzei_art_source_name">Delta Wallpapers</string>

@@ -8,14 +8,10 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.2'
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
     }
 }
 
 allprojects {
-
     repositories {
         mavenCentral()
         jcenter()
@@ -24,15 +20,13 @@ allprojects {
         maven { url 'https://maven.google.com' }
     }
 
-    //NOTE: This is important
     rootProject.ext {
         BuildTools = "30.0.0"
-        MinSdk = 21
+        MinSdk = 15
         TargetSdk = 30
         CompileSdk = 30
         SupportLibrary = "27.1.1"
     }
-
 }
 
 task clean(type: Delete) {
