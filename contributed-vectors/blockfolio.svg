@@ -20,17 +20,17 @@
   <sodipodi:namedview
      inkscape:document-rotation="0"
      inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="36"
-     inkscape:window-height="1052"
-     inkscape:window-width="1884"
+     inkscape:window-y="30"
+     inkscape:window-x="1920"
+     inkscape:window-height="1022"
+     inkscape:window-width="1680"
      units="px"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="203.23402"
-     inkscape:cx="-385.16766"
-     inkscape:zoom="0.7071068"
+     inkscape:cy="554.14281"
+     inkscape:cx="-597.56706"
+     inkscape:zoom="0.25000001"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -49,7 +49,42 @@
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true" />
   <defs
-     id="defs4" />
+     id="defs4">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect933"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,1,1,0,3,0,1 @ F,0,1,1,0,3,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="3"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1041"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,1,1,0,3,0,1 @ F,0,1,1,0,3,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="3"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+  </defs>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -58,7 +93,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -68,18 +103,24 @@
      inkscape:groupmode="layer"
      inkscape:label="Calque 1">
     <rect
-       style="fill:#575a5c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-opacity:1"
+       style="fill:#545859;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-opacity:1"
        width="153"
        height="153"
        x="19.5"
        y="879.86218"
        rx="10"
-       id="rect947" />
-    <path
-       id="path1001"
-       style="fill:#fefefe;fill-opacity:1;stroke-width:5.42303"
-       d="M 74.966797 59.5 A 3 3 0 0 0 71.966797 62.5 L 71.966797 129.5 A 3 3 0 0 0 74.966797 132.5 L 97.492188 132.5 C 110.87134 132.5 120.0332 124.16164 120.0332 112.63281 C 120.0332 104.49501 115.19669 97.093963 106.85938 95.033203 C 113.24119 92.641113 117.76564 87.082486 117.76562 79.259766 C 117.76562 67.731486 109.64195 59.5 95.742188 59.5 L 74.966797 59.5 z M 82.050781 68.326172 L 94.201172 68.326172 C 102.53852 68.326172 107.57814 72.856896 107.57812 79.753906 C 107.57812 86.546246 102.74174 91.382812 94.609375 91.382812 L 82.050781 91.382812 L 82.050781 68.326172 z M 82.050781 100.04688 L 96.445312 100.04688 C 105.29298 100.04688 109.71875 104.98802 109.71875 111.99023 C 109.71875 119.08734 104.18369 123.61914 96.050781 123.61914 L 82.050781 123.61914 L 82.050781 100.04688 z "
-       transform="translate(0,860.36216)" />
+       id="rect929" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:97.3333px;line-height:1.25;font-family:now;-inkscape-font-specification:now;letter-spacing:0px;word-spacing:0px;fill:#fefefe;fill-opacity:1;stroke-width:2.43333"
+       x="62.602512"
+       y="992.86212"
+       id="text937"><tspan
+         sodipodi:role="line"
+         id="tspan935"
+         x="62.602512"
+         y="992.86212"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:now;-inkscape-font-specification:now;fill:#fefefe;fill-opacity:1;stroke-width:2.43333">B</tspan></text>
   </g>
   <style
      type="text/css"
