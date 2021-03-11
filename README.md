@@ -21,7 +21,6 @@ In case you want to contribute to Delta by providing icons please do so by creat
 - ComponentInfo has to be in the following files according to their format:
 	- `app/src/main/assets/appfilter.xml`
 	- `app/src/main/res/xml/appfilter.xml`
-	- `app/src/main/res/xml/appmap.xml`
 	- `app/src/main/res/xml/theme_resources.xml`
 - Give yourself an entry at the bottom of `app/src/main/res/xml/contributors.xml`
 
