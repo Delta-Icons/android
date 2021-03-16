@@ -83,6 +83,7 @@
 	<item component="ComponentInfo{apps.amine.bou.readerforselfoss/apps.amine.bou.readerforselfoss.MainActivity}" drawable="reader_for_selfoss" />
 	<item component="ComponentInfo{appyweather.appyweather/crc649c2d2fcea76ea4a4.Activity_Main}" drawable="appy_weather" />
 	<item component="ComponentInfo{ar.com.santander.rio.mbanking/ar.com.santander.rio.mbanking.app.ui.activities.SplashScreenActivity}" drawable="santander" />
+	<item component="ComponentInfo{mx.bancosantander.supermovil/mx.bancosantander.supermovil.activities.SplashActivity}" drawable="santander" />
 	<item component="ComponentInfo{arun.com.chromer/arun.com.chromer.MainActivity}" drawable="lynket" />
 	<item component="ComponentInfo{at.bitfire.davdroid/at.bitfire.davdroid.ui.AccountsActivity}" drawable="davdroid" />
 	<item component="ComponentInfo{at.dieschmiede.eatsmarter/at.dieschmiede.eatsmarter.Splash}" drawable="eat__smarter" />
@@ -2275,7 +2276,8 @@
 	<item component="ComponentInfo{com.ninegag.android.app/com.ninegag.android.app.ui.home.HomeActivity}" drawable="nine_gag" />
 	<item component="ComponentInfo{com.ninegag.android.app/com.ninegag.android.app.ui.SplashScreenActivity}" drawable="nine_gag" />
 	<item component="ComponentInfo{com.ninegag.android.tv/com.ninegag.android.tv.ui.activity.MainActivity}" drawable="nine_gag_tv" />
-	<item component="ComponentInfo{com.ninjakiwi.bloonstd5/com.ninjakiwi.MainActivity}" drawable="bloons_td" />
+	<item component="ComponentInfo{com.ninjakiwi.bloonstd5/com.ninjakiwi.MainActivity}" drawable="bloons_td_five" />
+	<item component="ComponentInfo{com.ninjakiwi.bloonstd5/com.ninjakiwi.MainActivityGradle}" drawable="bloons_td_five" />
 	<item component="ComponentInfo{com.nintendo.zaba/org.cocos2dx.cpp.AppActivity}" drawable="fire_emblem_heroes" />
 	<item component="ComponentInfo{com.nintendo.zaca/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity}" drawable="animal_crossing" />
 	<item component="ComponentInfo{com.nintendo.zaka/com.facebook.unity.FBUnityAppLinkActivity}" drawable="mario_kart_tour" />
@@ -4291,6 +4293,7 @@
 	<item component="ComponentInfo{com.dywx.larkplayer/com.dywx.larkplayer.gui.MainActivity}" drawable="lark_player" />
 	<item component="ComponentInfo{com.bbva.nxt_peru/com.bbva.glomohybrid.splash.presentation.view.SplashActivity}" drawable="bbva" />
 	<item component="ComponentInfo{com.miHoYo.GenshinImpact/com.miHoYo.GetMobileInfo.MainActivity}" drawable="genshin_impact" />
+	<item component="ComponentInfo{com.miHoYo.Yuanshen/com.miHoYo.GetMobileInfo.MainActivity}" drawable="genshin_impact" />
 	<item component="ComponentInfo{me.greenlight/me.greenlight.app.onboarding.WelcomeActivity}" drawable="greenlight" />
 	<item component="ComponentInfo{gonemad.gmmp/gonemad.gmmp.ui.main.MainActivity}" drawable="gonemad" />
 	<item component="ComponentInfo{com.popularapp.periodcalendar.pro/com.popularapp.periodcalendar.pro.AdActivity}" drawable="period_calendar" />
@@ -4300,4 +4303,53 @@
 	<item component="ComponentInfo{com.daraz.android/com.lazada.activities.EnterActivity}" drawable="daraz" />
 	<item component="ComponentInfo{br.com.gabba.Caixa/br.com.gabba.Caixa.SplashActivity}" drawable="caixa" />
 	<item component="ComponentInfo{com.deputy.android/com.deputy.android.app.activities.LandingActivity}" drawable="deputy" />
+	<item component="ComponentInfo{com.lge.hifirecorder/com.lge.hifirecorder.LaunchHifiRecorder}" drawable="google_recorder" />
+	<item component="ComponentInfo{com.google.android.GoogleCamera.Urnyx/com.android.camera.CameraLauncher}" drawable="camera" />
+	<item component="ComponentInfo{com.coloros.weather2/com.coloros.weather.OppoMainActivity}" drawable="weather" />
+	<item component="ComponentInfo{com.vivo.browser/com.vivo.browser.BrowserActivity}" drawable="browser_alt_two" />
+	<item component="ComponentInfo{ar.teovogel.yip/ar.teovogel.yip.ui.splash.SplashActivity}" drawable="pixels" />
+	<item component="ComponentInfo{com.cookpad.android.activities/com.cookpad.android.activities.viper.splashscreen.SplashScreenActivity}" drawable="cookpad" />
+	<item component="ComponentInfo{com.grppl.android.shell.halifax/com.halifax.halifax.GrappleActivity}" drawable="halifax" />
+	<item component="ComponentInfo{com.adobe.premiererush.videoeditor/com.adobe.rush.splashscreen.controllers.SplashScreenActivity}" drawable="adobe_premiere_rush" />
+	<item component="ComponentInfo{net.easypark.android/net.easypark.android.mvp.splash.SplashActivity}" drawable="easypark" />
+	<item component="ComponentInfo{com.spreaker.android/com.spreaker.android.radio.main.MainActivity}" drawable="spreaker" />
+	<item component="ComponentInfo{com.bibit.bibitid/com.bibit.bibitid.features.webview.MainActivity}" drawable="bibit" />
+	<item component="ComponentInfo{com.android.quicksearchbox/com.android.quicksearchbox.SearchActivity}" drawable="miui_quick_search" />
+	<item component="ComponentInfo{com.vietbm.computerlauncher.beta/com.vietbm.computerlauncher.activity.FirstLoadActivity}" drawable="computer_launcher_beta" />
+	<item component="ComponentInfo{com.what3words.android/com.what3words.android.ui.splash.SplashActivity}" drawable="whatthreewords" />
+	<item component="ComponentInfo{th.co.truemoney.wallet/th.co.truemoney.wallet.activity.LoadingScreenActivity}" drawable="truemoney" />
+	<item component="ComponentInfo{com.ffffstudio.kojicam/com.ffffstudio.kojicam.activity.SplashActivity}" drawable="camera_retro" />
+	<item component="ComponentInfo{com.ril.ajio/com.ril.ajio.launch.activity.SplashScreenActivity}" drawable="ajio" />
+	<item component="ComponentInfo{com.usaa.mobile.android.usaa/com.usaa.mobile.android.app.SplashScreenActivity}" drawable="usaa" />
+	<item component="ComponentInfo{com.global.foodpanda.android/de.foodora.android.ui.launcher.LauncherActivity}" drawable="foodpanda" />
+	<item component="ComponentInfo{com.blizzard.messenger/com.blizzard.messenger.ui.splash.SplashActivity}" drawable="battlenet" />
+	<item component="ComponentInfo{com.wealthsimple/com.wealthsimple.BranchActivity}" drawable="wealthsimple" />
+	<item component="ComponentInfo{com.miui.screenrecorder/com.miui.screenrecorder.activity.ScreenRecorderHomeActivity}" drawable="miui_screen_recorder" />
+	<item component="ComponentInfo{com.hmdglobal.support/com.hmdglobal.support.ui.EntryActivity}" drawable="my_phone" />
+	<item component="ComponentInfo{com.tokopedia.tkpd/com.tokopedia.tkpd.ConsumerSplashScreen}" drawable="tokopedia" />
+	<item component="ComponentInfo{com.neulion.smartphone.ufc.android/com.imggaming.dicemobile.MainActivity}" drawable="ufc" />
+	<item component="ComponentInfo{org.brilliant.android/org.brilliant.android.ui.common.BrActivity}" drawable="brilliant" />
+	<item component="ComponentInfo{se.seb.privatkund/se.seb.core.app.main.MainActivity}" drawable="seb" />
+	<item component="ComponentInfo{com.xiaomi.midrop/com.xiaomi.midrop.SplashScreen}" drawable="shareme" />
+	<item component="ComponentInfo{com.lonelycatgames.Xplore/com.lonelycatgames.Xplore.Browser}" drawable="xplore_file_manager" />
+	<item component="ComponentInfo{org.coursera.android/org.coursera.android.MainActivity}" drawable="coursera" />
+	<item component="ComponentInfo{no.forlagshuset.akademika/no.forlagshuset.akademika.AkademikaActivity}" drawable="akademika" />
+	<item component="ComponentInfo{com.cricbuzz.android/com.cricbuzz.android.lithium.app.view.activity.NyitoActivity}" drawable="cricbuzz" />
+	<item component="ComponentInfo{com.bcp.bank.bcp/com.bcp.bank.activities.StartActivity}" drawable="bcp" />
+	<item component="ComponentInfo{com.peacocktv.peacockandroid/com.nowtv.startup.StartupActivity}" drawable="peacock" />
+	<item component="ComponentInfo{com.stockx.stockx/com.stockx.stockx.ui.activity.MainActivity}" drawable="stockx" />
+	<item component="ComponentInfo{id.co.bri.brimo/id.co.bri.brimo.BRIMO}" drawable="brimo" />
+	<item component="ComponentInfo{com.google.android.apps.kids.familylinkhelper/com.google.android.apps.kids.familylinkhelper.home.HomeActivity}" drawable="google_family_link" />
+	<item component="ComponentInfo{com.devsense.symbolab/com.symbolab.symbolablibrary.ui.activities.SplashActivity}" drawable="symbolab" />
+	<item component="ComponentInfo{com.imaginstudio.imagetools.pixellab/com.imaginstudio.imagetools.pixellab.MainActivity}" drawable="pixellab" />
+	<item component="ComponentInfo{com.windyty.android/com.windyty.android.MainActivity}" drawable="windy" />
+	<item component="ComponentInfo{com.wallapop/com.wallapop.activities.HomeActivity}" drawable="wallapop" />
+	<item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManagerActivity}" drawable="file_manager" />
+	<item component="ComponentInfo{com.qiku.android.videoplayer/com.android.gallery3d.app.galleryforvideo}" drawable="qk_video_player" />
+	<item component="ComponentInfo{com.ftband.mono/com.ftband.app.StartActivity.Mono}" drawable="monobank" />
+	<item component="ComponentInfo{com.wolt.android/com.wolt.android.activities.LauncherActivity}" drawable="wolt" />
+	<item component="ComponentInfo{com.taptap.global/com.play.taptap.ui.SplashAct}" drawable="taptap" />
+	<item component="ComponentInfo{ee.dustland.android.dustlandsudoku/ee.dustland.android.dustlandsudoku.NativeActivity}" drawable="sudoku" />
+	<item component="ComponentInfo{com.netease.cloudmusic/com.netease.cloudmusic.activity.LoadingActivity}" drawable="netease_cloud_music" />
+	<item component="ComponentInfo{au.com.nab.mobile/au.com.nab.mobile.activity.LauncherActivity}" drawable="nab" />
 </resources>
