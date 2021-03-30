@@ -21,6 +21,7 @@ In case you want to contribute to Delta by providing icons please do so by creat
 - ComponentInfo has to be in the following files according to their format:
 	- `app/src/main/assets/appfilter.xml`
 	- `app/src/main/res/xml/appfilter.xml`
+	- ~~`app/src/main/res/xml/appmap.xml`~~ - Dropped support as of March 2021
 	- `app/src/main/res/xml/theme_resources.xml`
 - Give yourself an entry at the bottom of `app/src/main/res/xml/contributors.xml`
 
@@ -31,6 +32,9 @@ The color palette
 Icon template
 ![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/template.svg) (Right-Click &rarr; Save as)
 
-Font: [Now](https://www.1001fonts.com/now-font.html)
+Font: [Now](https://www.1001fonts.com/now-font.html) (Use Now Alt from the same family for alternate lowercase "a")
+
+Gathering ComponentInfo from apps: [Icon Pusher](https://iconpusher.com/) by southpaw.dev
+
 
 Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
