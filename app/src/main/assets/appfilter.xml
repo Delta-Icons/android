@@ -27,7 +27,6 @@
 	<calendar component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.motorola.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.motorola.calendar/com.motorola.calendar.LaunchActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.popularapp.periodcalendar/com.popularapp.periodcalendar.AdActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.sec.android.app.latin.launcher.calendar/com.sec.android.app.latin.launcher.calendar.Launcher}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.sony.nfx.app.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
@@ -2534,6 +2533,7 @@
 	<item component="ComponentInfo{com.pokemon.pokemontcg/dwd.core.android.MainActivity}" drawable="pokemon_tcg" />
 	<item component="ComponentInfo{com.popular.app.android/com.siddhatech.tutorial.TutorialActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.popularapp.periodcalendar.pro/com.popularapp.periodcalendar.pro.AdActivity}" drawable="period_calendar" />
+	<item component="ComponentInfo{com.popularapp.periodcalendar/com.popularapp.periodcalendar.AdActivity}" drawable="period_calendar" />
 	<item component="ComponentInfo{com.popularapp.sevenmins/com.popularapp.sevenmins.MainActivity}" drawable="seven_minutes" />
 	<item component="ComponentInfo{com.popularapp.sevenminspro/com.popularapp.sevenminspro.MainActivity}" drawable="seven_minutes" />
 	<item component="ComponentInfo{com.popularapp.thirtydayfitnesschallenge/com.popularapp.thirtydayfitnesschallenge.activity.StartActivity}" drawable="thirty_day_fitness_challenge" />
@@ -4455,6 +4455,7 @@
 	<item component="ComponentInfo{com.ancestry.android.apps.ancestry/com.ancestry.android.apps.launch.LaunchActivity}" drawable="ancestry" />
 	<item component="ComponentInfo{com.microsoft.android.smsorganizer/com.microsoft.android.smsorganizer.StartupActivity}" drawable="sms_organizer" />
 	<item component="ComponentInfo{com.samsung.knox.securefolder/com.samsung.knox.securefolder.switcher.SecureFolderShortcutActivity}" drawable="samsung_secure_folder" />
+	<item component="ComponentInfo{com.samsung.knox.securefolder/com.samsung.knox.securefolder.presentation.switcher.view.SecureFolderShortcutActivity}" drawable="samsung_secure_folder" />
 	<item component="ComponentInfo{ru.ok.android/ru.ok.android.ui.activity.main.OdklActivity}" drawable="classmates" />
 	<item component="ComponentInfo{ca.bellmedia.cravetv/awl.application.brand.SplashActivity}" drawable="crave" />
 	<item component="ComponentInfo{com.sony.songpal.mdr/com.sony.songpal.mdr.vim.activity.MdrMainActivity}" drawable="sony_headphones_connect" />
@@ -4523,4 +4524,5 @@
 	<item component="ComponentInfo{com.wemesh.android/com.wemesh.android.Activities.DeepLinkingActivity}" drawable="rave" />
 	<item component="ComponentInfo{net.vsmart.vphotos/com.android.gallery3d.app.GalleryActivity}" drawable="vsmart_gallery" />
 	<item component="ComponentInfo{ee.delfi/eu.ekspressdigital.webcontainer.ui.screens.MainActivity}" drawable="delfi" />
+	<item component="ComponentInfo{com.wetter.androidclient/com.wetter.androidclient.EntryActivity}" drawable="weather" />
 </resources>
