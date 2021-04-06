@@ -1025,6 +1025,7 @@
 	<item component="ComponentInfo{com.coremobility.app.vnotes/com.coremobility.app.vnotes.CM_VnoteInbox}" drawable="voicemail" />
 	<item component="ComponentInfo{com.costco.app.android/com.costco.app.android.ui.main.LaunchActivity}" drawable="costco" />
 	<item component="ComponentInfo{com.coub.android/com.coub.android.ui.MainActivity}" drawable="coub" />
+	<item component="ComponentInfo{com.coub.android/com.coub.android.ui.SplashActivity}" drawable="coub" />
 	<item component="ComponentInfo{com.cozi.androidfree/com.cozi.android.activity.DispatcherActivity}" drawable="cozi_family_organizer" />
 	<item component="ComponentInfo{com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity}" drawable="cpu_z" />
 	<item component="ComponentInfo{com.crackberry.app/com.androidcentral.app.HomeActivity}" drawable="crackberry" />
@@ -3630,6 +3631,7 @@
 	<item component="ComponentInfo{de.devmil.minimaltext/de.devmil.minimaltext.ui.MinimalTextPreferenceManager}" drawable="minimalistic_text" />
 	<item component="ComponentInfo{de.dfki.appdetox/de.dfki.appdetox.ui.activities.MainActivity}" drawable="appdetox" />
 	<item component="ComponentInfo{de.dhl.paket/de.dhl.packet.MigrationScreenActivity}" drawable="dhl" />
+	<item component="ComponentInfo{de.dhl.paket/de.its_berlin.dhlpaket.base.MainActivity}" drawable="dhl" />
 	<item component="ComponentInfo{de.digionline.webweavervhscloud/de.digionline.webweaver.StartAppActivity}" drawable="vhs_cloud" />
 	<item component="ComponentInfo{de.digisocken.openwort/de.digisocken.openwort.MainActivity}" drawable="openwort" />
 	<item component="ComponentInfo{de.dkb.portalapp/de.dkb.MainActivity}" drawable="bank" />
@@ -3744,6 +3746,7 @@
 	<item component="ComponentInfo{de.tadris.fitness/de.tadris.fitness.ui.LauncherActivity}" drawable="fitotrack" />
 	<item component="ComponentInfo{de.tagesschau/de.tagesschau.ui.activities.MainActivity}" drawable="tagesschau" />
 	<item component="ComponentInfo{de.tagesschau/de.tagesschau.ui.activities.StartActivity}" drawable="tagesschau" />
+	<item component="ComponentInfo{de.tagesschau/de.tagesschau.ui.splashscreen.SplashScreen}" drawable="tagesschau" />
 	<item component="ComponentInfo{de.tap.easy_xkcd/de.tap.easy_xkcd.Activities.MainActivity}" drawable="easy_xkcd" />
 	<item component="ComponentInfo{de.taxfix/de.taxfix.MainActivity}" drawable="taxfix" />
 	<item component="ComponentInfo{de.telekom.android.customercenter/de.telekom.android.customercenter.ui.activities.MainActivity}" drawable="mein_magenta_deutsche_telekom" />
@@ -3969,6 +3972,7 @@
 	<item component="ComponentInfo{jp.ddo.pigsty.HabitBrowser/jp.ddo.pigsty.HabitBrowser.Features.Browser.BrowserActivity}" drawable="habit_browser" />
 	<item component="ComponentInfo{jp.gocro.smartnews.android/jp.gocro.smartnews.android.activity.SmartNewsActivity}" drawable="smart_news" />
 	<item component="ComponentInfo{jp.gungho.padEN/jp.gungho.padEN.AppDelegate}" drawable="pad" />
+	<item component="ComponentInfo{jp.gungho.pad/jp.gungho.pad.AppDelegate}" drawable="pad" />
 	<item component="ComponentInfo{jp.hazuki.yuzubrowser/jp.hazuki.yuzubrowser.BrowserActivity}" drawable="yuzu_browser" />
 	<item component="ComponentInfo{jp.konami.duellinks/jp.konami.duellinks.plugins.YgomMainActivity}" drawable="yu_gi_oh" />
 	<item component="ComponentInfo{jp.konami.pesam/com.epicgames.ue4.SplashActivity}" drawable="efootball" />
@@ -4010,6 +4014,7 @@
 	<item component="ComponentInfo{lu.takeaway.android/com.takeaway.android.activity.Splash}" drawable="takeaway" />
 	<item component="ComponentInfo{mango9.com.sleepybox/mango9.com.sleepybox.MainActivity}" drawable="sleepy_box" />
 	<item component="ComponentInfo{mark.via.gp/mark.via.ui.activity.BrowserActivity}" drawable="via_browser" />
+	<item component="ComponentInfo{mark.via.gp/mark.via.Shell}" drawable="via_browser" />
 	<item component="ComponentInfo{mathieumaree.rippple/mathieumaree.rippple.ui.activities.MainActivity}" drawable="rippple" />
 	<item component="ComponentInfo{matlog.com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity}" drawable="mat__log" />
 	<item component="ComponentInfo{mbanking.NBG/md541e89cb2507290647c577a79f9028261.MainActivity}" drawable="nbg" />
@@ -4097,6 +4102,7 @@
 	<item component="ComponentInfo{net.nurik.roman.muzei/com.google.android.apps.muzei.MuzeiActivity}" drawable="muzei" />
 	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.AJRJarvisSplash}" drawable="pay_tm" />
 	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.landingpage.activity.AJRMainActivity}" drawable="pay_tm" />
+	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.app.LauncherActivity}" drawable="pay_tm" />
 	<item component="ComponentInfo{net.oneplus.deskclock/net.oneplus.deskclock.DeskClock}" drawable="clock" />
 	<item component="ComponentInfo{net.oneplus.forums/net.oneplus.forums.ui.activity.CheckPermissionActivity}" drawable="oneplus_community" />
 	<item component="ComponentInfo{net.oneplus.music/net.oneplus.music.activity.MainActivity}" drawable="music" />
@@ -4264,7 +4270,8 @@
 	<item component="ComponentInfo{org.mozilla.testpilot.notes/org.mozilla.testpilot.notes.MainActivity}" drawable="notes_by_firefox" />
 	<item component="ComponentInfo{org.nativescript.LibreLinkUp/com.tns.NativeScriptActivity}" drawable="librelinkup" />
 	<item component="ComponentInfo{org.nixgame.bubblelevel/org.nixgame.bubblelevel.ActivityBubbleLevel}" drawable="bubble_level" />
-	<item component="ComponentInfo{org.nonononoki.hendroid/me.devsaki.hentoid.activities.SplashActivity}" drawable="hendroid" />
+	<item component="ComponentInfo{org.nonononoki.hendroid/me.devsaki.hentoid.activities.SplashActivity}" drawable="hentoid" />
+	<item component="ComponentInfo{me.devsaki.hentoid/me.devsaki.hentoid.activities.SplashActivity}" drawable="hentoid" />
 	<item component="ComponentInfo{org.npr.one/org.npr.one.StartActivity}" drawable="npr_one" />
 	<item component="ComponentInfo{org.omnirom.gramophone/com.kabouzeid.gramophone.ui.activities.MainActivity}" drawable="phonograph" />
 	<item component="ComponentInfo{org.omnirom.snap/com.android.camera.CameraLauncher}" drawable="camera" />
