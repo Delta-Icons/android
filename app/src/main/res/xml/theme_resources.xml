@@ -953,6 +953,7 @@
 	<AppIcon name="com.cleevio.spendee/com.cleevio.spendee.ui.MainActivity" image="spendee" />
 	<AppIcon name="com.clickup.app/com.clickup.app.MainActivity" image="clickup" />
 	<AppIcon name="com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.MainActivity" image="one_square_four" />
+	<AppIcon name="com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.SplashActivity" image="one_square_four" />
 	<AppIcon name="com.cloudmosa.puffin/com.cloudmosa.app.LemonActivity" image="puffin" />
 	<AppIcon name="com.cloudmosa.puffinFree/com.cloudmosa.app.LemonActivity" image="puffin" />
 	<AppIcon name="com.cloudmosa.puffinFree/com.cloudmosa.puffinFree.LemonActivity" image="puffin" />
@@ -1486,8 +1487,8 @@
 	<AppIcon name="com.google.android.apps.maps/com.google.android.maps.LatitudeActivity" image="google_maps" />
 	<AppIcon name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" image="google_maps" />
 	<AppIcon name="com.google.android.apps.maps/com.google.android.maps.PlacesActivity" image="google_maps" />
-	<AppIcon name="com.google.android.apps.mapslite/com.google.maps.lite.twa.MapsLiteTwaLauncherActivity}" image="google_maps" />
-	<AppIcon name="com.google.android.apps.mapslite/org.chromium.webapk.shell_apk.MainActivity" image="google_maps" />
+	<AppIcon name="com.google.android.apps.mapslite/com.google.maps.lite.twa.MapsLiteTwaLauncherActivity}" image="google_maps_go" />
+	<AppIcon name="com.google.android.apps.mapslite/org.chromium.webapk.shell_apk.MainActivity" image="google_maps_go" />
 	<AppIcon name="com.google.android.apps.meetings/com.google.android.apps.meetings.splash.SplashActivity" image="google_meet" />
 	<AppIcon name="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity" image="sms_alt_three" />
 	<AppIcon name="com.google.android.apps.motionstills/com.google.android.apps.motionstills.SplashActivity" image="motion_stills" />
@@ -1577,6 +1578,7 @@
 	<AppIcon name="com.google.android.keep/com.google.android.keep.activities.BrowseActivity" image="google_keep" />
 	<AppIcon name="com.google.android.launcher/com.google.android.launcher.StubApp" image="google_launcher" />
 	<AppIcon name="com.google.android.music/com.android.music.activitymanagement.TopLevelActivity" image="google_play_music" />
+	<AppIcon name="com.google.android.music/com.google.android.music.tombstone.LauncherActivity" image="google_play_music" />
 	<AppIcon name="com.google.android.Pixel2Mod/com.android.camera.CameraLauncher" image="camera" />
 	<AppIcon name="com.google.android.Pixel3Mod/com.android.camera.CameraLauncher" image="camera" />
 	<AppIcon name="com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity" image="google_play_games" />
@@ -3246,6 +3248,7 @@
 	<AppIcon name="com.todo1.mobile/com.todo1.mobile.MainActivity" image="personas" />
 	<AppIcon name="com.todo1.mobile/com.todo1.mobile.ui.contenido.splash" image="personas" />
 	<AppIcon name="com.todoist/com.todoist.activity.HomeActivity" image="todoist" />
+	<AppIcon name="com.todoist/com.todoist.alias.HomeActivityDefault" image="todoist" />
 	<AppIcon name="com.toggl.timer/toggl.joey.ui.activities.SplashActivity" image="toggl" />
 	<AppIcon name="com.toi.reader.activities/com.toi.reader.activities.SplashScreenActivity" image="toi" />
 	<AppIcon name="com.tokopedia.tkpd/com.tokopedia.tkpd.ConsumerSplashScreen" image="tokopedia" />
@@ -3281,7 +3284,8 @@
 	<AppIcon name="com.tranzmate/com.moovit.home.HomeActivity" image="moovit" />
 	<AppIcon name="com.trello/com.trello.home.HomeActivity" image="trello" />
 	<AppIcon name="com.tribyte.iTutor2/com.tribyte.iTutor2.MainActivity" image="itutor" />
-	<AppIcon name="com.triodos.bankingnl/com.triodos.NativeScriptActivity" image="bank" />
+	<AppIcon name="com.triodos.bankingnl/com.triodos.NativeScriptActivity" image="triodos" />
+	<AppIcon name="com.triodos.bankingnl/com.triodos.mobile.android.ui.InitActivity" image="triodos" />
 	<AppIcon name="com.tripadvisor.tripadvisor.amazon/com.tripadvisor.tripadvisor.amazon.TripAdvisorAmazonActivity" image="tripadvisor" />
 	<AppIcon name="com.tripadvisor.tripadvisor.daodao/com.tripadvisor.tripadvisor.daodao.TripAdvisorDaoDaoActivity" image="tripadvisor" />
 	<AppIcon name="com.tripadvisor.tripadvisor.samsung/com.tripadvisor.tripadvisor.samsung.TripAdvisorSamsungActivity" image="tripadvisor" />
@@ -3326,6 +3330,7 @@
 	<AppIcon name="com.ubercab/com.ubercab.UBUberActivity" image="uber" />
 	<AppIcon name="com.ubisoft.assassinscreed.identity/com.acid.plugins.activity.BridgeActivity" image="ac_identity" />
 	<AppIcon name="com.ubisoft.dance.justdance2015companion/com.ubisoft.playground.unity.PgUnityActivity" image="just_dance_controller" />
+	<AppIcon name="com.ubisoft.dance.justdance2015companion/com.ubisoft.dance.justdance2015companion.UnityPlayerActivity" image="just_dance_controller" />
 	<AppIcon name="com.ubisoft.hungrysharkworld/com.fgol.FGOLUnityPlayerNativeActivity" image="hungry_shark" />
 	<AppIcon name="com.ubisoft.hungrysharkworld/com.fgol.firebase.FGOLUnityPlayerNativeActivityFirebase" image="hungry_shark" />
 	<AppIcon name="com.ubnt.easyunifi/com.ubnt.unifi.network.welcome.WelcomeActivity" image="unifi" />
@@ -3576,6 +3581,7 @@
 	<AppIcon name="com.zen.alchan/com.zen.alchan.ui.auth.SplashActivity" image="alchan" />
 	<AppIcon name="com.zenmate.android/com.zenmate.android.ui.screen.onboarding.OnboardingActivity" image="zenmate" />
 	<AppIcon name="com.zentity.vodafone/com.zentity.vodafone.SplashScreenActivity" image="vodafone" />
+	<AppIcon name="com.myvodafone.android/com.myvodafone.android.front.splash.VFSplashActivity" image="vodafone" />
 	<AppIcon name="com.zerodha.kite3/com.zerodha.kite3.MainActivity" image="kite" />
 	<AppIcon name="com.zerotier.one/com.zerotier.one.ui.NetworkListActivity" image="zerotier_one" />
 	<AppIcon name="com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.splash.SplashActivity" image="tiktok_lite" />
@@ -4621,4 +4627,6 @@
 	<AppIcon name="com.questrade.my/com.questrade.my.MainActivity" image="questrade" />
 	<AppIcon name="com.tresorit.mobile/com.tresorit.android.activity.RootTresoritActivity" image="tresorit" />
 	<AppIcon name="com.moonvideo.android.resso/com.anote.android.bach.app.SplashActivity" image="resso" />
+	<AppIcon name="com.spotify.s4a/com.spotify.s4a.SplashActivity" image="spotify_artists" />
+	<AppIcon name="org.microemu.android.model.common.VTUserApplicationLINKMB/org.microemu.android.model.common.VTUserApplicationLINKMB.VTCommonActivity" image="link_celular" />
 </Theme>
