@@ -7,7 +7,7 @@ buildscript {
     maven { url 'https://plugins.gradle.org/m2/' }
   }
   dependencies {
-    classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.8'
+    classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.9'
   }
 }
 apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
@@ -35,8 +35,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 150
-		versionName "1.5.0"
+		versionCode 151
+		versionName "1.5.1"
 		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 		multiDexEnabled true
 
@@ -74,5 +74,5 @@ dependencies {
 	implementation 'com.github.zixpo:candybar:3.9.2'
 
 	// Remove '//' below to Enable OneSignal
-	//implementation 'com.onesignal:OneSignal:3.15.0'
+	//implementation 'com.onesignal:OneSignal:3.15.4'
 }
