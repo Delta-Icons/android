@@ -35,8 +35,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 151
-		versionName "1.5.1"
+		versionCode 152
+		versionName "1.5.2"
 		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 		multiDexEnabled true
 
