@@ -154,6 +154,10 @@
 	<item drawable="2do" />
 	<item drawable="2gis" />
 	<item drawable="365scores" name="365Scores" />
+	<item drawable="4pda" />
+	<item drawable="4pda_alt" />
+	<item drawable="4shared" />
+	<item drawable="5217" />
 
 	<category title="A" />
 	<item drawable="a__calendar" name="aCalendar" />
@@ -204,7 +208,7 @@
 	<item drawable="adobe_xd" name="Adobe XD" />
 	<item drawable="adobe_xd_alt" name="Adobe XD" />
 	<item drawable="adp" name="ADP" />
-	<item drawable="adw_launcher" />
+	<item drawable="adw_launcher" name="ADW Launcher" />
 	<item drawable="aegis_auth" />
 	<item drawable="aena" />
 	<item drawable="aeroflot" />
@@ -214,8 +218,8 @@
 	<item drawable="afwallplus" />
 	<item drawable="agenda" />
 	<item drawable="agenda_widget" />
-	<item drawable="ai_dungeon" />
-	<item drawable="ai_gallery" />
+	<item drawable="ai_dungeon" name="AI Dungeon" />
+	<item drawable="ai_gallery" name="AI Gallery" />
 	<item drawable="aib_mobile" name="AIB Mobile" />
 	<item drawable="aim" name="AIM" />
 	<item drawable="aimp" name="AIMP" />
@@ -425,8 +429,8 @@
 	<item drawable="bandlab" name="BandLab" />
 	<item drawable="bandsintown" />
 	<item drawable="bang_and_olufsen" />
-	<item drawable="bang_dream" name="BanG Dream!"/>
-	<item drawable="bang_dream_alt" name="BanG Dream! Alt"/>
+	<item drawable="bang_dream" name="BanG Dream!" />
+	<item drawable="bang_dream_alt" name="BanG Dream! Alt" />
 	<item drawable="banggood" />
 	<item drawable="bank" />
 	<item drawable="bank_id" />
@@ -524,7 +528,7 @@
 	<item drawable="bluetooth" />
 	<item drawable="blurone" />
 	<item drawable="blynk" />
-	<item drawable="bmo" />
+	<item drawable="bmo" name="BMO" />
 	<item drawable="bmw_connected" />
 	<item drawable="bnp_paribas" />
 	<item drawable="body_space" />
@@ -754,9 +758,9 @@
 	<item drawable="clock_alt" />
 	<item drawable="clover" />
 	<item drawable="clue" />
-	<item drawable="cm_browser" />
-	<item drawable="cm_security" />
-	<item drawable="co_star" />
+	<item drawable="cm_browser" name="CM Browser" />
+	<item drawable="cm_security" name="CM Security" />
+	<item drawable="co_star" name="Co-Star" />
 	<item drawable="coin" />
 	<item drawable="coin_master" />
 	<item drawable="coinbase" />
@@ -1135,7 +1139,6 @@
 	<item drawable="fitnotes" />
 	<item drawable="fitonomy" />
 	<item drawable="fitotrack" />
-	<item drawable="five_two_one_seven" />
 	<item drawable="fivehundred_firepaper" />
 	<item drawable="fivehundredpx" />
 	<item drawable="fivehundredpx_saver" />
@@ -1192,9 +1195,6 @@
 	<item drawable="forza_football" />
 	<item drawable="fosdem" />
 	<item drawable="fotmob" />
-	<item drawable="four_shared" />
-	<item drawable="fourpda" />
-	<item drawable="fourpda_alt" />
 	<item drawable="foursquare" />
 	<item drawable="france_dot_tv" />
 	<item drawable="franco_kernel_manager" />
@@ -1480,7 +1480,7 @@
 	<item drawable="jitsi" />
 	<item drawable="jobboerse" />
 	<item drawable="jodel" />
-	<item drawable="joey" />
+	<item drawable="joey" name="Joey for Reddit" />
 	<item drawable="joox" name="JOOX" />
 	<item drawable="joox_alt" name="JOOX Alt" />
 	<item drawable="joplin" />
@@ -1543,14 +1543,14 @@
 	<item drawable="kitasoft_screen_recorder" />
 	<item drawable="kite" />
 	<item drawable="kiwi_browser" />
-	<item drawable="kk_launcher" />
+	<item drawable="kk_launcher" name="KK Launcher" />
 	<item drawable="klck" />
 	<item drawable="kleptocats" />
 	<item drawable="klik" />
 	<item drawable="klinker_messenger" />
 	<item drawable="klwp" name="KLWP" />
 	<item drawable="kma" name="KMA" />
-	<item drawable="kmod" />
+	<item drawable="kmod" name="KMod" />
 	<item drawable="knockknock" />
 	<item drawable="kobo_ebooks" />
 	<item drawable="kodi" />
@@ -1606,11 +1606,11 @@
 	<item drawable="letgo" />
 	<item drawable="letterboxd" />
 	<item drawable="lexica" />
-	<item drawable="lg_app_manager" />
-	<item drawable="lg_home" />
-	<item drawable="lg_smart_world" />
-	<item drawable="lg_tv_plus" />
-	<item drawable="lhv" />
+	<item drawable="lg_app_manager" name="LG App Manager" />
+	<item drawable="lg_home" name="LG Home" />
+	<item drawable="lg_smart_world" name="LG Smart World" />
+	<item drawable="lg_tv_plus" name="LG TV Plus" />
+	<item drawable="lhv" name="LHV" />
 	<item drawable="liapp" />
 	<item drawable="libby" />
 	<item drawable="librelink" />
@@ -1625,7 +1625,7 @@
 	<item drawable="lifeafter" />
 	<item drawable="lifeisstrange" />
 	<item drawable="lifesum" />
-	<item drawable="lifx" />
+	<item drawable="lifx" name="LIFX" />
 	<item drawable="lightning" />
 	<item drawable="lightroom" />
 	<item drawable="likewise" />
@@ -1651,7 +1651,7 @@
 	<item drawable="livechart_me" />
 	<item drawable="livio_english" />
 	<item drawable="llama" />
-	<item drawable="lmt" />
+	<item drawable="lmt" name="LMT" />
 	<item drawable="local__cast" name="LocalCast" />
 	<item drawable="lock_screen" />
 	<item drawable="lock_screen_widgets" />
@@ -1716,8 +1716,8 @@
 	<item drawable="mbank" />
 	<item drawable="mbway" />
 	<item drawable="mcafee" />
-	<item drawable="mcdelivery" />
-	<item drawable="mcdonalds" />
+	<item drawable="mcdelivery" name="McDelivery" />
+	<item drawable="mcdonalds" name="McDonalds" />
 	<item drawable="mediamonkey" />
 	<item drawable="mediatek_backup" />
 	<item drawable="medibang_paint" />
@@ -1759,9 +1759,9 @@
 	<item drawable="metro_chile_chile" />
 	<item drawable="metro_music_player" />
 	<item drawable="metropolis" />
-	<item drawable="mi_browser_pro" />
 	<item drawable="mi__fit" />
 	<item drawable="mi__xplorer" name="MiXplorer" />
+	<item drawable="mi_browser_pro" />
 	<item drawable="mi_game_turbo" />
 	<item drawable="mi_home" />
 	<item drawable="mi_pay" />
@@ -1771,8 +1771,8 @@
 	<item drawable="mi_security_alt" />
 	<item drawable="mi_services_and_feedback" />
 	<item drawable="mi_wifi" />
-	<item drawable="micb_mobile" />
-	<item drawable="microg" />
+	<item drawable="micb_mobile" name="MICB Mobile" />
+	<item drawable="microg" name="microG" />
 	<item drawable="microsoft_365_admin" />
 	<item drawable="microsoft_account" />
 	<item drawable="microsoft_auth" />
@@ -1785,6 +1785,7 @@
 	<item drawable="microsoft_groove" />
 	<item drawable="microsoft_launcher" />
 	<item drawable="microsoft_math" />
+	<item drawable="microsoft_news" />
 	<item drawable="microsoft_office_hub" />
 	<item drawable="microsoft_office_lens" />
 	<item drawable="microsoft_one__drive" name="Microsoft OneDrive" />
@@ -1802,7 +1803,6 @@
 	<item drawable="microsoft_to_do" />
 	<item drawable="microsoft_translator" />
 	<item drawable="microsoft_word" />
-	<item drawable="microsoft_news" />
 	<item drawable="microsoft_xbox_game_streaming_xcloud" />
 	<item drawable="midi_keyboard" name="MIDI Keyboard" />
 	<item drawable="mikrotik" />
@@ -1875,8 +1875,7 @@
 	<item drawable="moviebase" />
 	<item drawable="movistar" />
 	<item drawable="mozilla_vpn" />
-	<item drawable="mp_three_video_converter" />
-	<item drawable="mpthree_video_converter" />
+	<item drawable="mp3_video_converter" />
 	<item drawable="mrp_fashion" />
 	<item drawable="msecure" />
 	<item drawable="msqrd" />
@@ -1894,14 +1893,14 @@
 	<item drawable="music_bee_remote" />
 	<item drawable="musicfx" />
 	<item drawable="musicolet" />
-	<item drawable="musicpiped" />
+	<item drawable="musicpiped" name="MusicPiped" />
 	<item drawable="musixmatch" />
 	<item drawable="muslim_pro" />
 	<item drawable="mutua_madrilenya" />
 	<item drawable="muud" />
 	<item drawable="muzei" />
 	<item drawable="mvg_fahrinfo" />
-	<item drawable="mx_player" />
+	<item drawable="mx_player" name="MX Player" />
 	<item drawable="my__fitness__pal" name="MyFitnessPal" />
 	<item drawable="my__grades" name="MyGrades" />
 	<item drawable="my__mail" name="MyMail" />
@@ -1946,7 +1945,6 @@
 	
 	<category title="N" />
 	<item drawable="n7player" />
-	<item drawable="n_tv" />
 	<item drawable="nab" />
 	<item drawable="name_generator" />
 	<item drawable="napster" />
@@ -1959,10 +1957,10 @@
 	<item drawable="navbar_apps" />
 	<item drawable="naver" />
 	<item drawable="naver_cloud" />
-	<item drawable="nba" />
+	<item drawable="nba" name="NBA" />
 	<item drawable="nba_twok_seventeen" />
-	<item drawable="nbc_sports" />
-	<item drawable="nbg" />
+	<item drawable="nbc_sports" name="NBC Sports" />
+	<item drawable="nbg" name="NBG" />
 	<item drawable="ncalc" />
 	<item drawable="nebenan" />
 	<item drawable="nebulo" />
@@ -1995,13 +1993,13 @@
 	<item drawable="nextcloud_news" />
 	<item drawable="nextcloud_notes" />
 	<item drawable="nextdoor" />
-	<item drawable="nfc" />
-	<item drawable="nfc_tasks" />
-	<item drawable="nfc_tools" />
-	<item drawable="nfl_fantasy" />
-	<item drawable="nfl_mobile" />
+	<item drawable="nfc" name="NFC" />
+	<item drawable="nfc_tasks" name="NFC Tasks" />
+	<item drawable="nfc_tools" name="NFC Tools" />
+	<item drawable="nfl_fantasy" name="NFL Fantasy"  />
+	<item drawable="nfl_mobile" name="NFL Mobile" />
 	<item drawable="nfl_sunday_ticket" />
-	<item drawable="nhl" />
+	<item drawable="nhl" name="NHL" />
 	<item drawable="niagara_launcher" />
 	<item drawable="nicehash" />
 	<item drawable="nicobox" />
@@ -2022,7 +2020,7 @@
 	<item drawable="noisli" />
 	<item drawable="nook" />
 	<item drawable="nordsee" />
-	<item drawable="nordvpn" />
+	<item drawable="nordvpn" name="NordVPN" />
 	<item drawable="nori" />
 	<item drawable="note_everything" />
 	<item drawable="notebloc" />
@@ -2034,13 +2032,14 @@
 	<item drawable="nova_launcher" />
 	<item drawable="nova_launcher_prime" />
 	<item drawable="nova_settings" />
-	<item drawable="now" />
-	<item drawable="npbs" />
+	<item drawable="now" name="Now for Reddit" />
+	<item drawable="npbs" name="NPBS" />
 	<item drawable="npr_one" />
-	<item drawable="nrj" />
-	<item drawable="ns" />
-	<item drawable="nsb" />
-	<item drawable="nu_nl" />
+	<item drawable="nrj" name="NRJ" />
+	<item drawable="ns" name="NS" />
+	<item drawable="nsb" name="NSB" />
+	<item drawable="ntv" name="ntv" />
+	<item drawable="nu_nl" name="NU.nl" />
 	<item drawable="nubank" />
 	<item drawable="numbrs" />
 	<item drawable="nvidia_geforce_now" />
@@ -3005,12 +3004,12 @@
 	<item drawable="uber" />
 	<item drawable="uber_driver" />
 	<item drawable="uber_eats" />
-	<item drawable="uc_browser" />
+	<item drawable="uc_browser" name="UC Browser" />
 	<item drawable="udacity" />
 	<item drawable="udemy" />
 	<item drawable="ue_boom" />
 	<item drawable="uefa_champions_league" />
-	<item drawable="ufc" />
+	<item drawable="ufc" name="UFC" />
 	<item drawable="ulta_beauty" />
 	<item drawable="ultimate_guitar" />
 	<item drawable="unacademy" />
@@ -3040,7 +3039,7 @@
 	<item drawable="usaa" name="USAA" />
 	
 	<category title="V" />
-	<item drawable="v_live" />
+	<item drawable="v_live" name="V LIVE" />
 	<item drawable="vacation_days" />
 	<item drawable="vainglory" />
 	<item drawable="vanced_manager" />
@@ -3077,7 +3076,7 @@
 	<item drawable="vn" name="VN" />
 	<item drawable="vocab" />
 	<item drawable="vodafone" />
-	<item drawable="voez" />
+	<item drawable="voez" name="VOEZ" />
 	<item drawable="voice_recorder_pro" />
 	<item drawable="voicemail" />
 	<item drawable="vorrat" />
@@ -3097,7 +3096,7 @@
 	
 	<category title="W" />
 	<item drawable="wabbitemu" />
-	<item drawable="wahl_o_mat" />
+	<item drawable="wahl_o_mat" name="Wahl-O-Mat" />
 	<item drawable="wakelock_detector" />
 	<item drawable="wakey" />
 	<item drawable="walgreens" />
@@ -3177,7 +3176,7 @@
 	<item drawable="wo_mic" />
 	<item drawable="wolfram_alpha" />
 	<item drawable="wolt" />
-	<item drawable="wom" />
+	<item drawable="wom" name="WOM" />
 	<item drawable="wonderwall" />
 	<item drawable="word__press" name="WordPress" />
 	<item drawable="word_reference" />
@@ -3205,7 +3204,7 @@
 	<item drawable="xda_labs_alt" />
 	<item drawable="xe" />
 	<item drawable="xender" />
-	<item drawable="xeq" />
+	<item drawable="xeq" name="XEQ" />
 	<item drawable="xiaomi_wear" />
 	<item drawable="xing" />
 	<item drawable="xmind" />
@@ -3239,10 +3238,10 @@
 	<item drawable="yelp" />
 	<item drawable="yet_another_call_blocker" />
 	<item drawable="yik_yak" />
-	<item drawable="ymusic" />
-	<item drawable="ynab" />
-	<item drawable="yolo" />
-	<item drawable="yono_sbi" />
+	<item drawable="ymusic" name="YMusic" />
+	<item drawable="ynab" name="YNAB" />
+	<item drawable="yolo" name="YOLO" />
+	<item drawable="yono_sbi" name="YONO SBI" />
 	<item drawable="yonomi" />
 	<item drawable="youtube" name="YouTube" />
 	<item drawable="youtube_alt" name="YouTube Alt" />
