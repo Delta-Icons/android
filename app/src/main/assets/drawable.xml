@@ -34,6 +34,9 @@
 	<item drawable="reword_french" />
 	<item drawable="cardsmobile" />
 	<item drawable="cdisplayex" />
+	<item drawable="bandlab" name="BandLab" />
+	<item drawable="ps_camera" />
+	<item drawable="line_tv" name="Line TV" />
 
 	<category title="Google" />
 	<item drawable="google" />
@@ -216,7 +219,7 @@
 	<item drawable="airtel" />
 	<item drawable="airtel_alt" />
 	<item drawable="airtel_xstream" />
-	<item drawable="airvisual" />
+	<item drawable="airvisual" name="AirVisual" />
 	<item drawable="ajio" />
 	<item drawable="akademika" />
 	<item drawable="aktion_mensch" />
@@ -412,10 +415,11 @@
 	<item drawable="bancoestado" />
 	<item drawable="band" />
 	<item drawable="bandcamp" />
+	<item drawable="bandlab" name="BandLab" />
 	<item drawable="bandsintown" />
 	<item drawable="bang_and_olufsen" />
-	<item drawable="bang_dream" />
-	<item drawable="bang_dream_alt" />
+	<item drawable="bang_dream" name="BanG Dream!"/>
+	<item drawable="bang_dream_alt" name="BanG Dream! Alt"/>
 	<item drawable="banggood" />
 	<item drawable="bank" />
 	<item drawable="bank_id" />
@@ -562,7 +566,7 @@
 	<item drawable="browser_alt_two" />
 	<item drawable="brubank" />
 	<item drawable="bspb" />
-	<item drawable="bualuangm" />
+	<item drawable="bualuangm" name="Bualuang MBanking" />
 	<item drawable="bubble__u__pn__p" name="BubbleUPnP" />
 	<item drawable="bubble_level" />
 	<item drawable="bugs" />
@@ -778,7 +782,7 @@
 	<item drawable="conversations_alt" />
 	<item drawable="convertbee" />
 	<item drawable="convertpad" />
-	<item drawable="cookie_run_ovenbreak" />
+	<item drawable="cookie_run_ovenbreak" name="Cookie Run OvenBreak" />
 	<item drawable="cookpad" />
 	<item drawable="cornerfly" />
 	<item drawable="cornie_icons" />
@@ -827,6 +831,7 @@
 	<item drawable="cyberghost" />
 	<item drawable="cyberghost_6" />
 	<item drawable="cyrus" />
+	<item drawable="cytus" />
 	<item drawable="cytus_ii" />
 	<item drawable="cx_file_explorer" />
 	
@@ -1242,7 +1247,7 @@
 	<item drawable="gitter" />
 	<item drawable="glan" />
 	<item drawable="glassdoor" />
-	<item drawable="glasswire" />
+	<item drawable="glasswire" name="GlassWire" />
 	<item drawable="glassy" />
 	<item drawable="glimpse" />
 	<item drawable="globible" />
@@ -1337,7 +1342,7 @@
 	<item drawable="hishoot_two_i" />
 	<item drawable="holavpn" name="Hola VPN" />
 	<item drawable="home_assistant" />
-	<item drawable="honkai_impact_third" />
+	<item drawable="honkai_impact_third" name="Honkai Impact 3rd" />
 	<item drawable="hoopla" />
 	<item drawable="hootsuite" />
 	<item drawable="hoplite" />
@@ -1438,8 +1443,8 @@
 	<item drawable="invi" />
 	<item drawable="invision" />
 	<item drawable="ionic_creator" />
-	<item drawable="iqiyi" />
-	<item drawable="irctc_rail_connect" />
+	<item drawable="iqiyi" name="iQIYI" />
+	<item drawable="irctc_rail_connect" name="IRCTC Rail Connect" />
 	<item drawable="irplus" />
 	<item drawable="iseebiz" />
 	<item drawable="ishtar_commander" />
@@ -1466,13 +1471,8 @@
 	<item drawable="jobboerse" />
 	<item drawable="jodel" />
 	<item drawable="joey" />
-<<<<<<< HEAD
 	<item drawable="joox" name="JOOX" />
 	<item drawable="joox_alt" name="JOOX Alt" />
-=======
-	<item drawable="joox" />
-	<item drawable="joox_alt" />
->>>>>>> 19edf177dddd2dca112cc2441b77a49882083a6d
 	<item drawable="joplin" />
 	<item drawable="jotterpad" />
 	<item drawable="journey" />
@@ -1539,7 +1539,7 @@
 	<item drawable="klik" />
 	<item drawable="klinker_messenger" />
 	<item drawable="klwp" name="KLWP" />
-	<item drawable="kma" />
+	<item drawable="kma" name="KMA" />
 	<item drawable="kmod" />
 	<item drawable="knockknock" />
 	<item drawable="kobo_ebooks" />
@@ -1623,6 +1623,7 @@
 	<item drawable="lime" />
 	<item drawable="line" />
 	<item drawable="line_music" />
+	<item drawable="line_tv" name="Line TV" />
 	<item drawable="liner" />
 	<item drawable="lingvo_live" />
 	<item drawable="linienplanhannover" />
@@ -1652,8 +1653,8 @@
 	<item drawable="lose_it" />
 	<item drawable="lost_in_harmony" />
 	<item drawable="lottomatica" />
-	<item drawable="love_live" />
-	<item drawable="love_liveas" />
+	<item drawable="love_live" name="Love Live!" />
+	<item drawable="love_liveas" name="Love Live! AS" />
 	<item drawable="lovense_connect_sex" />
 	<item drawable="lovoo" />
 	<item drawable="loyalty_card_keychain" />
@@ -1793,7 +1794,7 @@
 	<item drawable="microsoft_word" />
 	<item drawable="microsoft_news" />
 	<item drawable="microsoft_xbox_game_streaming_xcloud" />
-	<item drawable="midi_keyboard" />
+	<item drawable="midi_keyboard" name="MIDI Keyboard" />
 	<item drawable="mikrotik" />
 	<item drawable="mimo" />
 	<item drawable="mindly" />
@@ -1912,13 +1913,13 @@
 	<item drawable="my_scarlet" />
 	<item drawable="my_therapy" />
 	<item drawable="my_verizon" />
-	<item drawable="myais" />
+	<item drawable="myais" name="myAIS" />
 	<item drawable="mycelium_wallet" />
 	<item drawable="mydealz" />
 	<item drawable="myhannover" />
 	<item drawable="myjio" />
 	<item drawable="myki" />
-	<item drawable="mymo" />
+	<item drawable="mymo" name="MyMo" />
 	<item drawable="myntra" />
 	<item drawable="mypilot" />
 	<item drawable="myplate" />
@@ -1972,7 +1973,7 @@
 	<item drawable="newpipe_legacy" />
 	<item drawable="newsfold" />
 	<item drawable="newton" />
-	<item drawable="next" />
+	<item drawable="next" name="NEXT" />
 	<item drawable="next_launcher" />
 	<item drawable="nextbike" />
 	<item drawable="nextbus" />
@@ -2305,6 +2306,7 @@
 	<item drawable="pros_and_cons" />
 	<item drawable="proton__mail" name="ProtonMail" />
 	<item drawable="protonvpn" />
+	<item drawable="ps_camera" />
 	<item drawable="pubg" />
 	<item drawable="puffin" />
 	<item drawable="pulsar" />
@@ -2460,7 +2462,7 @@
 	<item drawable="scan" />
 	<item drawable="scanbot" />
 	<item drawable="scarlet" />
-	<item drawable="scb_easy" />
+	<item drawable="scb_easy" name="SCB Easy" />
 	<item drawable="schalke" />
 	<item drawable="school_loop" />
 	<item drawable="school_planner" />
@@ -2667,7 +2669,7 @@
 	<item drawable="stagecoach" />
 	<item drawable="stan" />
 	<item drawable="standardnotes" />
-	<item drawable="standoff_two" />
+	<item drawable="standoff_two" name="Standoff 2" />
 	<item drawable="starbucks" />
 	<item drawable="star_citizen_travel_helper" />
 	<item drawable="star_walk_2" />
@@ -2857,8 +2859,8 @@
 	<item drawable="tinycam" />
 	<item drawable="titanium_backup" />
 	<item drawable="tk_techniker_krankenkasse" />
-	<item drawable="tmb_touch" />
-	<item drawable="tmrw_th" />
+	<item drawable="tmb_touch" name="TMB Touch" />
+	<item drawable="tmrw_th" name="TMRW" />
 	<item drawable="to_dont" />
 	<item drawable="today_calendar" />
 	<item drawable="today_calendar_1" />
@@ -3193,13 +3195,9 @@
 	<item drawable="xe" />
 	<item drawable="xender" />
 	<item drawable="xeq" />
-	<item drawable="xing" />
-<<<<<<< HEAD
-	<item drawable="xmind" /> 
-=======
 	<item drawable="xiaomi_wear" />
+	<item drawable="xing" />
 	<item drawable="xmind" />
->>>>>>> 19edf177dddd2dca112cc2441b77a49882083a6d
 	<item drawable="xodo_docs" />
 	<item drawable="xplayer" />
 	<item drawable="xplore_file_manager" />
