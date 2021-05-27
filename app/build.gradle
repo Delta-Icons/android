@@ -21,7 +21,7 @@ repositories {
 android {
 
 	compileSdkVersion rootProject.ext.CompileSdk
-	buildToolsVersion rootProject.ext.BuildTools
+	// buildToolsVersion rootProject.ext.BuildTools
 
 	android.applicationVariants.all { variant ->
 		variant.outputs.all { output ->
@@ -35,8 +35,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 153
-		versionName "1.5.3"
+		versionCode 154
+		versionName "1.5.4"
 		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 		multiDexEnabled true
 
