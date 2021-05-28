@@ -90,6 +90,7 @@
 	<item name="Android Auto" drawable="android_auto" />
 	<item name="Android Device Policy" drawable="google_androiddevicepolicy" />
 	<item name="Android Wear" drawable="android_wear" />
+	<item name="Cardboard" drawable="cardboard" />
 	<item name="Chromecast" drawable="google_chromecast" />
 	<item name="Crowdsource" drawable="google_crowdsource" />
 	<item name="Datally" drawable="google_datally" />
@@ -662,6 +663,8 @@
 	
 	<category title="C" />
 	<item name="C Locker" drawable="c_locker" />
+	<item name="C&amp;A" drawable="canda" />
+	<item name="C25K" drawable="couch_to_five_k" />
 	<item name="CA24" drawable="ca_twentyfour" />
 	<item name="Caffeinate" drawable="caffeinate" />
 	<item name="Caffeine" drawable="caffeine" />
@@ -673,198 +676,192 @@
 	<item name="Calculator" drawable="calculator" />
 	<item name="Calculator++" drawable="calculator_plus_plus" />
 	<item name="Calcy IV" drawable="calcy_iv" />
-	<item drawable="calendar" />
-	<item drawable="calendar_1" />
-	<item drawable="calendar_10" />
-	<item drawable="calendar_11" />
-	<item drawable="calendar_12" />
-	<item drawable="calendar_13" />
-	<item drawable="calendar_14" />
-	<item drawable="calendar_15" />
-	<item drawable="calendar_16" />
-	<item drawable="calendar_17" />
-	<item drawable="calendar_18" />
-	<item drawable="calendar_19" />
-	<item drawable="calendar_2" />
-	<item drawable="calendar_20" />
-	<item drawable="calendar_21" />
-	<item drawable="calendar_22" />
-	<item drawable="calendar_23" />
-	<item drawable="calendar_24" />
-	<item drawable="calendar_25" />
-	<item drawable="calendar_26" />
-	<item drawable="calendar_27" />
-	<item drawable="calendar_28" />
-	<item drawable="calendar_29" />
-	<item drawable="calendar_3" />
-	<item drawable="calendar_30" />
-	<item drawable="calendar_31" />
-	<item drawable="calendar_4" />
-	<item drawable="calendar_5" />
-	<item drawable="calendar_6" />
-	<item drawable="calendar_7" />
-	<item drawable="calendar_8" />
-	<item drawable="calendar_9" />
-	<item drawable="calibre_cloud" />
+	<item name="Calendar 1" drawable="calendar_1" />
+	<item name="Calendar 10" drawable="calendar_10" />
+	<item name="Calendar 11" drawable="calendar_11" />
+	<item name="Calendar 12" drawable="calendar_12" />
+	<item name="Calendar 13" drawable="calendar_13" />
+	<item name="Calendar 14" drawable="calendar_14" />
+	<item name="Calendar 15" drawable="calendar_15" />
+	<item name="Calendar 16" drawable="calendar_16" />
+	<item name="Calendar 17" drawable="calendar_17" />
+	<item name="Calendar 18" drawable="calendar_18" />
+	<item name="Calendar 19" drawable="calendar_19" />
+	<item name="Calendar 2" drawable="calendar_2" />
+	<item name="Calendar 20" drawable="calendar_20" />
+	<item name="Calendar 21" drawable="calendar_21" />
+	<item name="Calendar 22" drawable="calendar_22" />
+	<item name="Calendar 23" drawable="calendar_23" />
+	<item name="Calendar 24" drawable="calendar_24" />
+	<item name="Calendar 25" drawable="calendar_25" />
+	<item name="Calendar 26" drawable="calendar_26" />
+	<item name="Calendar 27" drawable="calendar_27" />
+	<item name="Calendar 28" drawable="calendar_28" />
+	<item name="Calendar 29" drawable="calendar_29" />
+	<item name="Calendar 3" drawable="calendar_3" />
+	<item name="Calendar 30" drawable="calendar_30" />
+	<item name="Calendar 31" drawable="calendar_31" />
+	<item name="Calendar 4" drawable="calendar_4" />
+	<item name="Calendar 5" drawable="calendar_5" />
+	<item name="Calendar 6" drawable="calendar_6" />
+	<item name="Calendar 7" drawable="calendar_7" />
+	<item name="Calendar 8" drawable="calendar_8" />
+	<item name="Calendar 9" drawable="calendar_9" />
+	<item name="Calendar" drawable="calendar" />
+	<item name="Calibre Cloud" drawable="calibre_cloud" />
 	<item name="Call of Duty Mobile" drawable="call_of_duty_mobile" />
 	<item name="CallApp" drawable="callapp" />
-	<item drawable="calm" />
-	<item name="CamScanner" drawable="cam__scanner" />
+	<item name="Calm" drawable="calm" />
 	<item name="CamCard" drawable="camcard" />
-	<item drawable="camera" />
-	<item drawable="camera_alt" />
-	<item drawable="camera_alt_five" />
-	<item drawable="camera_alt_four" />
-	<item drawable="camera_alt_seven" />
-	<item drawable="camera_alt_six" />
-	<item drawable="camera_alt_three" />
-	<item drawable="camera_alt_two" />
-	<item drawable="camera_fv_five" />
-	<item name="Camera MX" drawable="camera_mx" />
-	<item drawable="camera_retro" />
-	<item drawable="camera_roll" />
 	<item name="Camera 360" drawable="camera_threesixty" />
+	<item name="Camera Alt Five" drawable="camera_alt_five" />
+	<item name="Camera Alt Five" drawable="camera_fv_five" />
+	<item name="Camera Alt Four" drawable="camera_alt_four" />
+	<item name="Camera Alt Seven" drawable="camera_alt_seven" />
+	<item name="Camera Alt Six" drawable="camera_alt_six" />
+	<item name="Camera Alt Three" drawable="camera_alt_three" />
+	<item name="Camera Alt Two" drawable="camera_alt_two" />
+	<item name="Camera Alt" drawable="camera_alt" />
+	<item name="Camera MX" drawable="camera_mx" />
+	<item name="Camera Retro" drawable="camera_retro" />
+	<item name="Camera Roll" drawable="camera_roll" />
+	<item name="Camera" drawable="camera" />
+	<item name="CamScanner" drawable="cam__scanner" />
 	<item name="Canabalt HD" drawable="canabalt_hd" />
-	<item name="C&amp;A" drawable="canda" />
-	<item drawable="candid" />
-	<item drawable="candy_camera" />
-	<item drawable="candy_crush" />
-	<item drawable="candy_crush_soda_saga" />
-	<item drawable="canon_camera_connect" />
-	<item drawable="canopy" />
-	<item drawable="canvas" />
+	<item name="Candid" drawable="candid" />
+	<item name="Candy Camera" drawable="candy_camera" />
+	<item name="Candy Crush Soda Saga" drawable="candy_crush_soda_saga" />
+	<item name="Candy Crush" drawable="candy_crush" />
+	<item name="Canon Camera Connect" drawable="canon_camera_connect" />
+	<item name="Canopy" drawable="canopy" />
+	<item name="Canvas" drawable="canvas" />
 	<item name="CapCut" drawable="capcut" />
-	<item drawable="capitec" />
-	<item drawable="cardboard" />
+	<item name="Capitec" drawable="capitec" />
 	<item name="Careem" drawable="careem" />
 	<item name="CarGurus" drawable="cargurus" />
 	<item name="CarMax" drawable="carmax" />
-	<item drawable="carnet" />
-	<item drawable="carousell" />
-	<item drawable="carris" />
-	<item drawable="carrot_weather" />
-	<item drawable="cartwheel" />
-	<item drawable="cashkaro" name="CashKaro" />
-	<item drawable="casio_edu" name="CASIO EDU+" />
-	<item drawable="casper" />
-	<item drawable="castbox" />
-	<item drawable="castro" />
-	<item drawable="cat_bus" />
-	<item drawable="catcode" />
-	<item drawable="cathode" />
-	<item drawable="catima" />
+	<item name="Carnet" drawable="carnet" />
+	<item name="Carousell" drawable="carousell" />
+	<item name="Carris" drawable="carris" />
+	<item name="CARROT Weather" drawable="carrot_weather" />
+	<item name="Cartwheel" drawable="cartwheel" />
+	<item name="CashKaro" drawable="cashkaro" />
+	<item name="CASIO EDU+" drawable="casio_edu" />
+	<item name="Casper" drawable="casper" />
+	<item name="Castbox" drawable="castbox" />
+	<item name="Castro" drawable="castro" />
+	<item name="Catcode" drawable="catcode" />
+	<item name="Cathode" drawable="cathode" />
+	<item name="Catima" drawable="catima" />
 	<item name="CBC News" drawable="cbc_news" />
 	<item name="CCleaner" drawable="ccleaner" />
-	<item drawable="cdisplayex" name="CDisplayEx" />
-	<item drawable="cent_central" />
-	<item drawable="centrelink" />
-	<item drawable="cerberus" />
+	<item name="CDisplayEx" drawable="cdisplayex" />
+	<item name="CentCentral" drawable="cent_central" />
+	<item name="Cerberus" drawable="cerberus" />
 	<item name="CF.lumen" drawable="cf_lumen" />
 	<item name="CGV" drawable="cgv" />
 	<item name="Chameleon Run" drawable="chameleonrun" />
-	<item drawable="chan_burauza" />
-	<item drawable="change_detection" />
-	<item drawable="changes" />
-	<item drawable="charity_miles" />
+	<item name="Chan Burauza" drawable="chan_burauza" />
+	<item name="Change Detection" drawable="change_detection" />
+	<item name="Changes" drawable="changes" />
+	<item name="Charity Miles" drawable="charity_miles" />
+	<item name="Charlottesville Area Transit" drawable="cat_bus" />
 	<item name="Chase Mobile" drawable="chase" />
-	<item drawable="chefkoch" />
-	<item drawable="chefling" />
-	<item drawable="chess" />
-	<item drawable="chewy" />
+	<item name="Chefkoch" drawable="chefkoch" />
+	<item name="Chefling" drawable="chefling" />
+	<item name="Chess" drawable="chess" />
+	<item name="Chewy" drawable="chewy" />
 	<item name="Chick-fil-A" drawable="chick_fil_a" />
-	<item drawable="chime" />
-	<item drawable="chipotle" />
-	<item drawable="chipper_cash" />
+	<item name="Chime" drawable="chime" />
+	<item name="Chipotle" drawable="chipotle" />
+	<item name="Chipper Cash" drawable="chipper_cash" />
 	<item name="Chomp SMS" drawable="chompsms" />
-	<item drawable="chrome" />
-	<item drawable="chrome_alt" />
-	<item drawable="chrome_alt_two" />
-	<item drawable="chrome_beta" />
-	<item drawable="chrome_canary" />
-	<item drawable="chrome_canary_alt" />
-	<item drawable="chrome_dev" />
-	<item drawable="chrome_remote_desktop" />
-	<item drawable="chromer" />
-	<item name="Chromium" drawable="chromium" />
+	<item name="Chrome Alt Two" drawable="chrome_alt_two" />
+	<item name="Chrome Alt" drawable="chrome_alt" />
+	<item name="Chrome Beta" drawable="chrome_beta" />
+	<item name="Chrome Canary Alt" drawable="chrome_canary_alt" />
+	<item name="Chrome Canary" drawable="chrome_canary" />
+	<item name="Chrome Dev" drawable="chrome_dev" />
+	<item name="Chrome Remote Desktop" drawable="chrome_remote_desktop" />
+	<item name="Chrome" drawable="chrome" />
 	<item name="Chromium Alt" drawable="chromium_alt" />
-	<item drawable="chronos" />
-	<item drawable="chronus" />
-	<item drawable="chrooma_keyboard" />
-	<item drawable="chummy" />
+	<item name="Chromium" drawable="chromium" />
+	<item name="Chronus Information Widgets" drawable="chronus" />
+	<item name="Chrooma Keyboard" drawable="chrooma_keyboard" />
+	<item name="Chummy" drawable="chummy" />
 	<item name="CIBC" drawable="cibc" />
-	<item drawable="cifra_club" />
+	<item name="Cifra Club" drawable="cifra_club" />
 	<item name="CIMB Bank" drawable="cimb_bank" />
-	<item drawable="cine_hoyts" />
-	<item drawable="cinematics" />
-	<item drawable="cinemaxx" />
-	<item drawable="circuit" />
+	<item name="CineHoyts Chile" drawable="hoyts_cinema" />
+	<item name="Cinematics" drawable="cinematics" />
+	<item name="CinemaxX" drawable="cinemaxx" />
+	<item name="Circuit" drawable="circuit" />
 	<item name="CIS Gallery" drawable="cis_gallery" />
-	<item drawable="citadel_colour" />
-	<item drawable="citi" />
-	<item drawable="citra" />
-	<item drawable="citymapper" />
+	<item name="Citadel Colour" drawable="citadel_colour" />
+	<item name="Citi" drawable="citi" />
+	<item name="Citra" drawable="citra" />
+	<item name="Citymapper" drawable="citymapper" />
 	<item name="Clash of Clans" drawable="clash_of_clans" />
-	<item drawable="clash_royale" />
+	<item name="Clash Royale" drawable="clash_royale" />
+	<item name="Class Timetable" drawable="class_timetable" />
 	<item name="ClassDojo" drawable="class__dojo" />
-	<item drawable="class_timetable" />
-	<item drawable="cleanmaster" />
+	<item name="Clean Master" drawable="cleanmaster" />
 	<item name="ClearScore" drawable="clearscore" />
-	<item drawable="cleartrip" />
+	<item name="Cleartrip" drawable="cleartrip" />
 	<item name="clever-tanken.de" drawable="clever_tanken" />
 	<item name="CleverBook" drawable="cleverbook" />
 	<item name="ClickUp" drawable="clickup" />
-	<item drawable="clock" />
-	<item drawable="clock_alt" />
-	<item drawable="clover" />
-	<item drawable="clue" />
+	<item name="Clock Alt" drawable="clock_alt" />
+	<item name="Clock" drawable="clock" />
+	<item name="Clover" drawable="clover" />
+	<item name="Clue" drawable="clue" />
+	<item name="Clue" drawable="clue_alt" />
 	<item name="CM Browser" drawable="cm_browser" />
 	<item name="CM Security" drawable="cm_security" />
 	<item name="Co-Star" drawable="co_star" />
+	<item name="Coin Master" drawable="coin_master" />
 	<item name="COIN" drawable="coin" />
-	<item drawable="coin_master" />
-	<item drawable="coinbase" />
-	<item drawable="coinbase_alt" />
-	<item drawable="coinbase_pro" />
-	<item drawable="coinbase_pro_alt" />
+	<item name="Coinbase Alt" drawable="coinbase_alt" />
+	<item name="Coinbase Pro Alt" drawable="coinbase_pro_alt" />
+	<item name="Coinbase Pro" drawable="coinbase_pro" />
+	<item name="Coinbase" drawable="coinbase" />
 	<item name="CoinGecko" drawable="coingecko" />
-	<item drawable="collabora_office" />
-	<item drawable="collateral" />
-	<item drawable="color_switch" />
-	<item drawable="colu" />
-	<item name="comdirect" drawable="comdirect" />
+	<item name="Collabora Office" drawable="collabora_office" />
+	<item name="Collateral" drawable="collateral" />
+	<item name="Color Switch" drawable="color_switch" />
+	<item name="Colu Digital Wallet" drawable="colu" />
 	<item name="comdirect Alt" drawable="comdirect_alt" />
 	<item name="comdirect photoTAN" drawable="comdirect_phototan" />
-	<item drawable="cometin" />
+	<item name="comdirect" drawable="comdirect" />
+	<item name="Cometin" drawable="cometin" />
 	<item name="comico" drawable="comico" />
 	<item name="Comics" drawable="comixology" />
 	<item name="CommBank" drawable="commbank" />
-	<item drawable="commerzbank" />
-	<item drawable="compass" />
-	<item drawable="computer_launcher_beta" />
-	<item drawable="concepts" />
+	<item name="Commerzbank" drawable="commerzbank" />
+	<item name="Compass" drawable="compass" />
+	<item name="Computer Launcher Beta" drawable="computer_launcher_beta" />
+	<item name="Concepts" drawable="concepts" />
 	<item name="ConnectBot" drawable="connectbot" />
-	<item drawable="contacts" />
-	<item drawable="contacts_alt" />
-	<item drawable="contacts_alt_five" />
-	<item drawable="contacts_alt_four" />
-	<item drawable="contacts_alt_three" />
-	<item drawable="contacts_alt_two" />
-	<item drawable="conversations" />
-	<item drawable="conversations_alt" />
-	<item drawable="convertbee" />
-	<item drawable="convertpad" name="ConvertPad" />
-	<item drawable="cookie_run_ovenbreak" name="Cookie Run OvenBreak" />
-	<item drawable="cookpad" />
-	<item drawable="cornerfly" />
-	<item drawable="cornie" />
-	<item drawable="corona_contact_diary" />
+	<item name="Contact Diary" drawable="contact_diary" />
+	<item name="Contacts Alt Five" drawable="contacts_alt_five" />
+	<item name="Contacts Alt Four" drawable="contacts_alt_four" />
+	<item name="Contacts Alt Three" drawable="contacts_alt_three" />
+	<item name="Contacts Alt Two" drawable="contacts_alt_two" />
+	<item name="Contacts Alt" drawable="contacts_alt" />
+	<item name="Contacts" drawable="contacts" />
+	<item name="Conversations" drawable="conversations" />
+	<item name="Convertbee" drawable="convertbee" />
+	<item name="ConvertPad" drawable="convertpad" />
+	<item name="Cookie Run OvenBreak" drawable="cookie_run_ovenbreak" />
+	<item name="Cookpad" drawable="cookpad" />
+	<item name="Cornerfly" drawable="cornerfly" />
+	<item name="Cornie" drawable="cornie" />
+	<item name="Corona-Warn" drawable="coronawarn" />
 	<item name="CoronaMelder" drawable="coronamelder" />
 	<item name="CoronaStatsDE" drawable="coronastatsde" />
-	<item name="Corona-Warn" drawable="coronawarn" />
 	<item name="Cortana" drawable="cortana" />
 	<item name="Costco" drawable="costco" />
 	<item name="Coub" drawable="coub" />
-	<item name="C25K" drawable="couch_to_five_k" />
 	<item name="Couch to 5K" drawable="couch_to_5k" />
 	<item name="Counter" drawable="counter" />
 	<item name="Countries Been" drawable="countries_been" />
@@ -1107,10 +1104,11 @@
 	<item drawable="exodus" />
 	<item drawable="exploding_kittens" />
 	<item drawable="expo" />
+	<item drawable="eye_in_sky" />
+	<item name="Express Plus Centrelink" drawable="centrelink" />
 	<item name="ExpressVPN" drawable="expressvpn" />
 	<item name="Eye4" drawable="eye4" />
 	<item name="EyeEm" drawable="eye__em" />
-	<item drawable="eye_in_sky" />
 		
 	<category title="F" />
 	<item name="F---Colors" drawable="f_colors" />
@@ -1414,7 +1412,7 @@
 	<item drawable="hour_blocks" />
 	<item drawable="houseparty" />
 	<item name="How to Tie a Tie" drawable="howtotie" />
-	<item drawable="hoyts_cinema" />
+	<item name="Hoyts Cinema" drawable="cine_hoyts" />
 	<item name="HQ Music" drawable="hq_music" />
 	<item name="HRS" drawable="hrs" />
 	<item name="HSBC" drawable="hsbc" />
@@ -1617,7 +1615,7 @@
 	<item drawable="kustom_icon_plugin" />
 	<item drawable="kut_in" />
 	<item name="KWGT" drawable="kwgt" />
-	<item drawable="kyocera_print" />
+	<item name="KYOCERA Mobile Print" drawable="kyocera_print" />
 	
 	<category title="L" />
 	<item drawable="la_mia_banca" />
@@ -1717,22 +1715,23 @@
 	<item drawable="lovoo" />
 	<item drawable="loyalty_card_keychain" />
 	<item name="luca" drawable="luca" />
-	<item drawable="luci" />
+	<item name="Luci" drawable="luci" />
 	<item name="Lucky Patcher" drawable="lucky_patcher" />
-	<item drawable="lufthansa" />
-	<item drawable="lumapps" />
-	<item drawable="luno" />
+	<item name="Lufthansa" drawable="lufthansa" />
+	<item name="LumApps" drawable="lumapps" />
+	<item name="Luno" drawable="luno" />
 	<item name="Lyft" drawable="lyft" />
+	<item name="Lynket Browser" drawable="lynket" />
 	<item name="Lyssna" drawable="audiobook_player_for_spotify" />
 	
 	<category title="M" />
 	<item drawable="m_indicator" />
-	<item name="MacroDroid" drawable="macrodroid" />
-	<item name="MacroDroid Alt" drawable="macrodroid_alt" />
 	<item name="MacroDroid Alt Two" drawable="macrodroid_alt_two" />
-	<item drawable="mad_barz" />
-	<item drawable="magisk_manager" />
-	<item drawable="mail" />
+	<item name="MacroDroid Alt" drawable="macrodroid_alt" />
+	<item name="MacroDroid" drawable="macrodroid" />
+	<item name="Madbarz Fan App" drawable="mad_barz" />
+	<item name="Magisk Manager" drawable="magisk_manager" />
+	<item name="Mail" drawable="mail" />
 	<item name="Mail.com" drawable="mail_com" />
 	<item drawable="mailchimp" />
 	<item drawable="maki_plus" />
