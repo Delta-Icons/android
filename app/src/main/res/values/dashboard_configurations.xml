@@ -99,8 +99,10 @@
     * Disabling this will improve icons section performance, icons will load faster
     * You can use CandyBar drawable.xml builder to sort icons
     * Enable -> true
-    * Disable -> false -->
-    <bool name="enable_icons_sort">true</bool>
+    * Disable -> false
+
+    Switched to false, sorting done inside drawable XML files instead -wokija -->
+    <bool name="enable_icons_sort">false</bool>
 
     <!-- Icon picker icon name text below icon
     * default: true
@@ -126,7 +128,7 @@
     * IGNORE if icon request limit is disabled
     * ex: If you set icon request limit to 10, user only able to make 10 icon request in all time
     * After making 10 icon request user not able to request again -->
-    <integer name="icon_request_limit">1</integer>
+    <integer name="icon_request_limit">5</integer>
 
     <!-- Reset regular icon request limit every update
     * IGNORE if icon request limit is disabled
