@@ -322,6 +322,7 @@
 	<AppIcon name="com.android.BBKClock/com.android.BBKClock.Timer" image="clock" />
 	<AppIcon name="com.android.bbkmusic/com.android.bbkmusic.WidgetToTrackActivity" image="music_alt_three" />
 	<AppIcon name="com.android.browser/com.android.browser.BrowserActivity" image="aosp_browser" />
+	<AppIcon name="com.android.browser/com.android.browser.launch.SplashActivity" image="aosp_browser" />
 	<AppIcon name="com.android.browser/com.UCMobile.main.UCMobile" image="uc_browser" />
 	<AppIcon name="com.android.calculator2/com.android.calculator2.AsxCalculator" image="calculator" />
 	<AppIcon name="com.android.calculator2/com.android.calculator2.Calculator" image="calculator" />
@@ -1024,6 +1025,7 @@
 	<AppIcon name="com.coloros.video/com.oppo.video.VideoListActivity" image="video" />
 	<AppIcon name="com.coloros.weather/com.coloros.weather.OppoMainActivity" image="weather" />
 	<AppIcon name="com.coloros.weather2/com.coloros.weather.OppoMainActivity" image="weather" />
+	<AppIcon name="com.coloros.weather2/com.coloros.weather.main.view.WeatherMainActivity" image="weather" />
 	<AppIcon name="com.colu.localeconomies/com.colu.localeconomies.app.onboarding.OnBoardingActivity" image="colu" />
 	<AppIcon name="com.comdirect.phototan/com.vasco.crontosign.phototan.MainActivity" image="comdirect_phototan" />
 	<AppIcon name="com.commbank.netbank/com.commbank.netbank.activities.MainActivity" image="commbank" />
@@ -1381,6 +1383,7 @@
 	<AppIcon name="com.footej.camera/com.footej.camera.CameraActivity" image="footej" />
 	<AppIcon name="com.footej.camera/com.footej.camera.SplashActivity" image="footej" />
 	<AppIcon name="com.ford.fordpassimg/com.fordmps.mobileapp.shared.login.LauncherActivity" image="fordpass" />
+	<AppIcon name="com.ford.fordpasseu/com.fordmps.mobileapp.shared.login.LauncherActivity" image="fordpass" />
 	<AppIcon name="com.formagrid.airtable/com.formagrid.airtable.activity.HomescreenActivity" image="airtable" />
 	<AppIcon name="com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivityLauncher" image="suntimes_alarms" />
 	<AppIcon name="com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity" image="suntimes" />
@@ -1768,6 +1771,7 @@
 	<AppIcon name="com.hb.dialer.free/com.hb.dialer.ui.PhoneActivity" image="true_phone"/>
 	<AppIcon name="com.hbo.android.app/com.hbo.android.app.bootstrap.ui.StartupActivity" image="hbo_go" />
 	<AppIcon name="com.hbo.broadband/com.hbo.broadband.startup.SplashActivity" image="hbo_go" />
+	<AppIcon name="com.hbo.broadband.br/com.hbo.broadband.startup.SplashActivity" image="hbo_go" />
 	<AppIcon name="com.hbo.hbonow/com.hbo.go.LaunchActivity" image="hbo_max" />
 	<AppIcon name="com.HBO/com.hbo.go.LaunchActivity" image="hbo_go" />
 	<AppIcon name="com.headcode.ourgroceries/com.headcode.ourgroceries.android.ListsActivity" image="our_groceries" />
@@ -2053,7 +2057,7 @@
 	<AppIcon name="com.king.crash/com.king.crash.UnityMainActivity" image="crash_bandicoot" />
 	<AppIcon name="com.kinolek/com.kinolek.MainActivity" image="kinolek" />
 	<AppIcon name="com.kinopub/com.kinopub.activity.LaunchActivity" image="kinopub" />
-	<AppIcon name="com.kitasoft.screenrec/com.kitasoft.screenrec.Launch" image="kitasoft_screen_recorder" />
+	<AppIcon name="com.kitasoft.screenrec/com.kitasoft.screenrec.Launch" image="easy_screen_recorder" />
 	<AppIcon name="com.kiwiapple.taiwansuperweather/com.kiwiapple.taiwansuperweather.SplashActivity" image="weather"/>
 	<AppIcon name="com.kiwibrowser.browser/com.google.android.apps.chrome.Main" image="kiwi_browser" />
 	<AppIcon name="com.kizitonwose.lasttime/com.kizitonwose.lasttime.feature.home.HomeActivity" image="timejot"/>
@@ -2066,7 +2070,7 @@
 	<AppIcon name="com.klinker.android.twitter_l/com.klinker.android.twitter_l.ui.MainActivity" image="talon" />
 	<AppIcon name="com.kms.free/com.kms.free.PermissionsActivityLauncher" image="kaspersky" />
 	<AppIcon name="com.knocknock.app/com.knocknock.MainActivity" image="knockknock" />
-	<AppIcon name="com.kobobooks.android/com.kobobooks.android.screens.AppLoading" image="kobo_ebooks" />
+	<AppIcon name="com.kobobooks.android/com.kobobooks.android.screens.AppLoading" image="kobo_books" />
 	<AppIcon name="com.kodarkooperativet.blackplayer/com.kodarkooperativet.blackplayer.activities.ViewPagerActivity" image="blackplayer" />
 	<AppIcon name="com.kodarkooperativet.blackplayerex/com.kodarkooperativet.blackplayerex.activities.ViewPagerActivity" image="blackplayer" />
 	<AppIcon name="com.kodarkooperativet.blackplayerfree/com.kodarkooperativet.blackplayerfree.activities.ViewPagerActivity" image="blackplayer" />
@@ -2233,6 +2237,7 @@
 	<AppIcon name="com.mcdonalds.mobileapp/mcdonalds.core.SplashActivity-White" image="mcdonalds" />
 	<AppIcon name="com.mcdonalds.mobileapp/mcdonalds.core.SplashActivity.Green" image="mcdonalds" />
 	<AppIcon name="com.mcdonalds.mobileapp/mcdonalds.core.SplashActivity.White" image="mcdonalds" />
+	<AppIcon name="com.mcdonalds.mobileapp/mcdonalds.core.SplashActivity" image="mcdonalds" />
 	<AppIcon name="com.mcdonalds.superapp/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity" image="mcdonalds" />
 	<AppIcon name="com.mclinica.mthermo/com.mclinica.mthermo.MainActivity" image="mthermo" />
 	<AppIcon name="com.mcprohosting.beam/com.mcprohosting.beam.SplashActivity" image="mixer" />
@@ -3687,6 +3692,7 @@
 	<AppIcon name="com.wallapop/com.wallapop.activities.HomeActivity" image="wallapop" />
 	<AppIcon name="com.walmart.android/com.walmart.android.app.main.LaunchActivity" image="walmart" />
 	<AppIcon name="com.walmart.android/com.walmart.android.app.main.MainActivity" image="walmart" />
+	<AppIcon name="com.walmart.mg/com.mx.walmart.walmartgroceries.SplashActivity" image="walmart" />
 	<AppIcon name="com.walmartone.android/com.walmartone.activities.DispatcherActivity" image="wm_one" />
 	<AppIcon name="com.wangdaye.mysplash/com.wangdaye.mysplash.main.MainActivity" image="mysplash" />
 	<AppIcon name="com.wangdaye.mysplash/com.wangdaye.mysplash.main.view.activity.MainActivity" image="mysplash" />
@@ -4914,7 +4920,7 @@
 	<AppIcon name="www.ingdirect.nativeframe/es.ingdirect.www.LandingActivity" image="ing" />
 	<AppIcon name="www.mobile.bdo.com.ph/www.mobile.bdo.com.ph.BDOUnibankIncV2" image="bdo" />
 	<AppIcon name="xeus.timbre/xeus.timbre.ui.main.MainActivity" image="timbre" />
-	<AppIcon name="xyz.klinker.messenger/xyz.klinker.messenger.activity.MessengerActivity" image="klinker_messenger" />
+	<AppIcon name="xyz.klinker.messenger/xyz.klinker.messenger.activity.MessengerActivity" image="pulse_sms" />
 	<AppIcon name="xyz.myachin.saveto/xyz.myachin.saveto.ui.MainActivity" image="saveto" />
 	<AppIcon name="xyz.omnicron.caffeinate/xyz.omnicron.caffeinate.MainActivity" image="caffeinate" />
 	<AppIcon name="xyz.paphonb.quickstepswitcher/xyz.paphonb.quickstepswitcher.MainActivity" image="quick_switch" />
@@ -4937,4 +4943,11 @@
 	<AppIcon name="au.com.thepushupchallenge.app/au.com.thepushupchallenge.app.MainActivity" image="push_for_better"/>
 	<AppIcon name="com.uniqlo.au.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.HomeActivity" image="uniqlo"/>
 	<AppIcon name="com.hippo.ehviewer/com.hippo.ehviewer.ui.MainActivity" image="ehviewer"/>
+	<AppIcon name="me.nanoleaf.nanoleaf/me.nanoleaf.nanoleaf.activities.SplashActivity" image="nanoleaf" />
+	<AppIcon name="com.jio.jioplay.tv/com.jio.media.tv.ui.permission_onboarding.PermissionActivity" image="jiotv" />
+	<AppIcon name="com.mi.global.shop/com.mi.global.shopcomponents.activity.LaunchActivity" image="mi_store" />
+	<AppIcon name="com.digilocker.android/com.digilocker.android.ui.activity.dashboard.activity.MainDashboardActivity" image="digilocker" />
+	<AppIcon name="com.qidian.Int.reader/com.qidian.Int.reader.SplashActivity" image="webnovel" />
+	<AppIcon name="com.wrx.wazirx/com.wrx.wazirx.views.home.HomeActivity" image="wazirx" />
+	<AppIcon name="media.music.fmlisten.musicplayer/media.music.fmlisten.musicplayer.splashActivity" image="music_alt_three" />
 </Theme>
