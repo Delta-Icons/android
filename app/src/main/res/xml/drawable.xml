@@ -1999,7 +1999,7 @@
 	<item drawable="my_oldboy" />
 	<item drawable="my_phone" />
 	<item drawable="my_prayer" />
-	<item drawable="my_scarlet" />
+	<item name="my scarlet" drawable="my_scarlet" />
 	<item drawable="my_therapy" />
 	<item drawable="my_verizon" />
 	<item name="myAIS" drawable="myais" />
@@ -2563,8 +2563,9 @@
 	<item drawable="sberbank_alt" />
 	<item drawable="scan" />
 	<item drawable="scanbot" />
-	<item drawable="scarlet" />
+	<item name="Scarlet Notes" drawable="scarlet" />
 	<item name="SCB Easy" drawable="scb_easy" />
+	<item name="SCENE" drawable="the_scene" />
 	<item drawable="schalke" />
 	<item drawable="school_loop" />
 	<item drawable="school_planner" />
@@ -2642,7 +2643,6 @@
 	<item drawable="simplemind" />
 	<item drawable="simplenote" />
 	<item drawable="simpsons_springfield_game" />
-	<item drawable="sims" />
 	<item drawable="simyo" />
 	<item drawable="singstar" />
 	<item drawable="sirius_xm" />
@@ -2923,13 +2923,13 @@
 	<item drawable="textnow" />
 	<item drawable="textra" />
 	<item drawable="thaichana" />
-	<item name="theScore" drawable="the__score" />
-	<item name="theScore esports" drawable="the__score_esports" />
 	<item name="The Guardian" drawable="the_guardian" />
-	<item drawable="the_new_york_times" />
+	<item name="The Sims Mobile" drawable="sims" />
+	<item name="theScore esports" drawable="the__score_esports" />
+	<item name="theScore" drawable="the__score" />
+	<item name="The New York Times" drawable="the_new_york_times" />
 	<item drawable="the_post_bank" />
 	<item drawable="the_rock_clock" />
-	<item drawable="the_scene" />
 	<item name="The Wall Street Journal" drawable="wallstreet_journal" />
 	<item drawable="the_weather_channel" />
 	<item drawable="theme_chooser" />

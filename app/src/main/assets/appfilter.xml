@@ -5,24 +5,24 @@
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.ChooserActivity}" prefix="calendar_"/>
-	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.EditEventActivity}" prefix="calendar_"/>
-	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.EventInfoActivity}" prefix="calendar_"/>
+	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.ChooserActivity}" prefix="calendar_" />
+	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.EditEventActivity}" prefix="calendar_" />
+	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.EventInfoActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.MonthActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.timeline.EventListWithStartTime}" prefix="calendar_"/>
+	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.timeline.EventListWithStartTime}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.asus.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.bbk.calendar/com.bbk.calendar.MainActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.boxer.calendar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.codesector.calendar/com.codesector.calendar.CalendarActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.HtcCalendarProvider}" prefix="calendar_"/>
-	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" prefix="calendar_"/>
+	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.HtcCalendarProvider}" prefix="calendar_" />
+	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarCarouselActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.htc.calendar/com.htc.calendar.LaunchActivity}" prefix="calendar_"/>
-	<calendar component="ComponentInfo{com.htc.calendar/com.htc.calendar.MonthActivity}" prefix="calendar_"/>
+	<calendar component="ComponentInfo{com.htc.calendar/com.htc.calendar.LaunchActivity}" prefix="calendar_" />
+	<calendar component="ComponentInfo{com.htc.calendar/com.htc.calendar.MonthActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.kfactormedia.mycalendarmobile/com.kfactormedia.mycalendarmobile.MyCalendarActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthActivityNew}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.AllInOneActivity}" prefix="calendar_" />
@@ -69,11 +69,11 @@
 	<calendar component="ComponentInfo{com.sony.nfx.app.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.sonyericsson.calendar/com.sonyericsson.calendar.monthview.MonthViewActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.sonymobile.calendar/com.sonymobile.calendar.LaunchActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.underwood.calendar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_"/>
-	<calendar component="ComponentInfo{com.underwood.calendar/com.underwood.calendar.MainActivity}" prefix="today_calendar_"/>
+	<calendar component="ComponentInfo{com.underwood.calendar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
+	<calendar component="ComponentInfo{com.underwood.calendar/com.underwood.calendar.MainActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="calendar_"/>
+	<calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
@@ -228,7 +228,6 @@
 	<item component="ComponentInfo{cl.recorrido.micritodroid/cl.recorrido.booking.SplashAct_}" drawable="recorrido" />
 	<item component="ComponentInfo{cl.santander.smartphone/cl.santander.smartphone.Carga}" drawable="santander" />
 	<item component="ComponentInfo{cl.wom.transformacion.appwommobile/cl.wom.transformacion.appwommobile.actividades.CargaInicialActivity}" drawable="wom" />
-	<item component="ComponentInfo{client/vstc.vscam.activity.BSplashActivity}" drawable="eye4" />
 	<item component="ComponentInfo{cm.aptoide.pt/cm.aptoide.pt.view.MainActivity}" drawable="aptoide" />
 	<item component="ComponentInfo{cms.lock/com.cleanmaster.security.applock.ui.MainActivity}" drawable="cm_security" />
 	<item component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.AllInOneActivity}" drawable="calendar" />
@@ -829,7 +828,6 @@
 	<item component="ComponentInfo{com.battlelancer.seriesguide/com.battlelancer.seriesguide.ui.ShowsActivity}" drawable="seriesguide" />
 	<item component="ComponentInfo{com.bauermedia.tvmovie/com.bauermedia.tvmovie.app.SplashActivity}" drawable="tv_movie" />
 	<item component="ComponentInfo{com.bbc.globaliplayerradio.international/uk.co.bbc.android.iplayerradiov2.ui.toplevelcomponents.mainactivity.MainActivity}" drawable="bbc_iplayer_radio" />
-	<item component="ComponentInfo{com.bbc.sounds/.ui.activity.MainActivity}" drawable="bbc_sounds" />
 	<item component="ComponentInfo{com.bbc.sounds/com.bbc.sounds.ui.activity.MainActivity}" drawable="bbc_sounds" />
 	<item component="ComponentInfo{com.bbk.calendar/com.bbk.calendar.MainActivity}" drawable="calendar" />
 	<item component="ComponentInfo{com.bbl.mobilebanking/com.bbl.mobilebanking.ui.PreLoginActivity}" drawable="bualuangm" />
@@ -1062,8 +1060,8 @@
 	<item component="ComponentInfo{com.cleanmaster.security/ks.cm.antivirus.main.SplashActivity}" drawable="cm_security" />
 	<item component="ComponentInfo{com.cleanmaster.security_qrcode/ks.cm.antivirus.qrcode.CaptureActivity}" drawable="cm_security" />
 	<item component="ComponentInfo{com.clearchannel.iheartradio.controller/com.clearchannel.iheartradio.controller.activities.NavDrawerActivity}" drawable="iheartradio" />
-	<item component="ComponentInfo{com.clearscore.mobile/.activities.OAuthLoginActivity}" drawable="clearscore" />
-	<item component="ComponentInfo{com.clearscore.mobile/.splash.presentation.SplashActivity}" drawable="clearscore" />
+	<item component="ComponentInfo{com.clearscore.mobile/com.clearscore.mobile.activities.OAuthLoginActivity}" drawable="clearscore" />
+	<item component="ComponentInfo{com.clearscore.mobile/com.clearscore.mobile.splash.presentation.SplashActivity}" drawable="clearscore" />
 	<item component="ComponentInfo{com.cleartrip.android/com.cleartrip.android.activity.common.SplashActivity}" drawable="cleartrip" />
 	<item component="ComponentInfo{com.cleevio.spendee/com.cleevio.spendee.screens.dashboard.main.DashboardActivity}" drawable="spendee" />
 	<item component="ComponentInfo{com.cleevio.spendee/com.cleevio.spendee.ui.MainActivity}" drawable="spendee" />
@@ -1376,7 +1374,6 @@
 	<item component="ComponentInfo{com.explusalpha.Snes9xPlus/com.imagine.BaseActivity}" drawable="snes9x_explus" />
 	<item component="ComponentInfo{com.expressvpn.vpn/com.expressvpn.vpn.ui.SplashActivity}" drawable="expressvpn" />
 	<item component="ComponentInfo{com.exxonmobil.speedpassplus_ca/com.exxonmobil.speedpassplus.activities.DataDisclosureActivity}" drawable="speedpass_plus" />
-	<item component="ComponentInfo{com.eyefilter.nightmode.bluelightfilter/.ui.WelcomeActivity}" drawable="blue_light_filter" />
 	<item component="ComponentInfo{com.eyefilter.nightmode.bluelightfilter/com.eyefilter.nightmode.bluelightfilter.ui.WelcomeActivity}" drawable="blue_light_filter" />
 	<item component="ComponentInfo{com.facebook.analytics/com.facebook.analytics.AnalyticsLoginActivity}" drawable="facebook_analytics" />
 	<item component="ComponentInfo{com.facebook.games/com.facebook.games.app.login.GamesLoginActivity}" drawable="facebook_gaming" />
@@ -1402,8 +1399,7 @@
 	<item component="ComponentInfo{com.fd.accessplusecs.aqua/uk.co.newday.creditcard.ui.splash.SplashActivity}" drawable="aqua" />
 	<item component="ComponentInfo{com.fedex.ida.android/com.fedex.ida.android.views.core.FedExHOME}" drawable="fedex" />
 	<item component="ComponentInfo{com.fenchtose.reflog/com.fenchtose.reflog.MainActivity}" drawable="taskito" />
-	<item component="ComponentInfo{com.fender.tuner/.activities.SplashActivity}" drawable="fender_tuner" />
-	<item component="ComponentInfo{com.fender.tuner/.activities.TuneActivity}" drawable="fender_tuner" />
+	<item component="ComponentInfo{com.fender.tuner/com.fender.tuner.activities.TuneActivity}" drawable="fender_tuner" />
 	<item component="ComponentInfo{com.fender.tuner/com.fender.tuner.activities.LandingActivity}" drawable="fender_tuner" />
 	<item component="ComponentInfo{com.fender.tuner/com.fender.tuner.activities.SplashActivity}" drawable="fender_tuner" />
 	<item component="ComponentInfo{com.feresr.walpy/com.feresr.walpy.welcome.WelcomeActivity}" drawable="walpy" />
@@ -3110,7 +3106,7 @@
 	<item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SplashScreenActivity}" drawable="termius" />
 	<item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SshNavigationDrawerActivity}" drawable="serverauditor" />
 	<item component="ComponentInfo{com.services.movistar.ar/com.tuenti.messenger.ui.activity.MainActivity}" drawable="movistar" />
-	<item component="ComponentInfo{com.serwylo.lexica/com.serwylo.lexica.MainMenuActivity}" drawable="lexica"/>
+	<item component="ComponentInfo{com.serwylo.lexica/com.serwylo.lexica.MainMenuActivity}" drawable="lexica" />
 	<item component="ComponentInfo{com.setnet.actordetector/com.setnet.actordetector.MainActivity}" drawable="actor_detector" />
 	<item component="ComponentInfo{com.shahid.nid/com.shahid.nid.Activties.MainActivity}" drawable="scrittor" />
 	<item component="ComponentInfo{com.shaiban.audioplayer.mplayer/com.shaiban.audioplayer.mplayer.ui.activities.SplashActivity}" drawable="music_alt_three" />
@@ -3753,7 +3749,7 @@
 	<item component="ComponentInfo{com.weather.Weather/com.weather.Weather.app.SplashScreenActivity}" drawable="the_weather_channel" />
 	<item component="ComponentInfo{com.weheartit/com.weheartit.app.MainActivity}" drawable="we_heart_it" />
 	<item component="ComponentInfo{com.wemesh.android/com.wemesh.android.Activities.DeepLinkingActivity}" drawable="rave" />
-	<item component="ComponentInfo{com.weplaydots.dotsclassic.DotsClassicActivity}" drawable="dots" />
+	<item component="ComponentInfo{com.weplaydots.dotsclassic/com.weplaydots.dotsclassic.DotsClassicActivity}" drawable="dots" />
 	<item component="ComponentInfo{com.weplaydots.twodotsandroid/com.weplaydots.twodots.TwoDotsActivity}" drawable="two_dots" />
 	<item component="ComponentInfo{com.wetransfer.app.live/com.wetransfer.app.activity.WTMainActivity}" drawable="wetransfer" />
 	<item component="ComponentInfo{com.wetransfer.app.live/com.wetransfer.app.live.ui.launcher.LauncherActivity}" drawable="wetransfer" />
@@ -5013,4 +5009,11 @@
 	<item component="ComponentInfo{com.priotecs.MoneyControl/com.priotecs.MoneyControl.MainActivity}" drawable="moneycontrol" />
 	<item component="ComponentInfo{com.shopback.app/com.shopback.app.core.ui.splash.SplashActivity}" drawable="shopback" />
 	<item component="ComponentInfo{com.downdogapp/com.downdogapp.AppActivity}" drawable="yoga_down_dog" />
+	<item component="ComponentInfo{com.heytap.browser/com.android.browser.BrowserActivity}" drawable="browser" />
+	<item component="ComponentInfo{com.coloros.compass2/com.coloros.compass.flat.FlatCompass}" drawable="compass" />
+	<item component="ComponentInfo{com.vincentlee.compass/com.vincentlee.compass.MainActivity}" drawable="compass" />
+	<item component="ComponentInfo{com.vivo.compass/com.vivo.compass.CalibrationActivity}" drawable="compass" />
+	<item component="ComponentInfo{com.qamarapps.quran13line/com.qamarapps.quran13line.MainActivity}" drawable="quran_indonesia" />
+	<item component="ComponentInfo{com.quran.labs.androidquran/com.quran.labs.androidquran.QuranDataActivity}" drawable="quran_indonesia" />
+	<item component="ComponentInfo{org.goldenquran.freesoft/org.goldenquran.freesoft.Splashscreen}" drawable="quran_indonesia" />
 </resources>
