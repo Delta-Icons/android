@@ -50,7 +50,9 @@
 	<item name="Samsung Good Lock" drawable="samsung_good_lock" />
 	<item name="Samsung User Manual" drawable="samsung_user_manual" />
 	<item name="Join" drawable="join" />
-
+	<item name="Subtitle Viewer" drawable="subtitle_viewer" />
+	<item name="Atmosphere" drawable="atmosphere" />
+	
 	<category title="Google" />
 	<item name="Accessibility Scanner" drawable="google_accessibility_scanner" />
 	<item name="Action Blocks" drawable="google_action_blocks" />
@@ -431,6 +433,7 @@
 	<item name="ASUS Themes" drawable="asus_themes" />
 	<item name="ASUS Weather" drawable="asus_weather" />
 	<item name="At Bat" drawable="at_bat" />
+	<item name="Atmosphere" drawable="atmosphere" />
 	<item name="Atom Launcher" drawable="atom_launcher" />
 	<item name="Audible" drawable="audible" />
 	<item name="AudioFX" drawable="audiofx" />
@@ -1553,9 +1556,9 @@
 	<item name="JED" drawable="jed" />
 	<item name="Jellyfin" drawable="jellyfin" />
 	<item name="jetAudio" drawable="jetaudio" />
-	<item name="JioTV" drawable="jiotv" />
-	<item name="JioVoice" drawable="jio_voice" />
+	<item name="JioCall" drawable="jio_voice" />
 	<item name="JioSaavn" drawable="jiosaavn" />
+	<item name="JioTV" drawable="jiotv" />
 	<item name="Jira" drawable="jira" />
 	<item name="Jitsi Meet" drawable="jitsi" />
 	<item name="Jobbörse" drawable="jobboerse" />
@@ -2829,7 +2832,8 @@
 	<item drawable="substratum" />
 	<item drawable="substratum_alt" />
 	<item drawable="substratum_lite" />
-	<item drawable="subtitle_viewer" />
+	<item name="Subtitle Viewer Alt" drawable="subtitle_viewer_alt" />
+	<item name="Subtitle Viewer" drawable="subtitle_viewer" />
 	<item drawable="subway" />
 	<item drawable="subway_surfers" />
 	<item drawable="sudoku" />
