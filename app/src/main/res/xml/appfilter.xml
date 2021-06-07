@@ -547,6 +547,7 @@
 	<item component="ComponentInfo{com.android.fileexplorer/com.android.fileexplorer.FileExplorerTabActivity}" drawable="cyanogenmod_file_manager" />
 	<item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManagerActivity}" drawable="file_manager" />
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FmActivity}" drawable="fm_radio" />
+	<item component="ComponentInfo{com.hmdglobal.app.fmradio/com.hmdglobal.app.fmradio.FMRadio}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FmMainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FMRadioActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.InfinixFmMainActivity}" drawable="fm_radio" />
@@ -1088,6 +1089,7 @@
 	<item component="ComponentInfo{com.cmplay.tiles2/com.cmplay.tile2.ui.AppActivity}" drawable="piano_tiles_two" />
 	<item component="ComponentInfo{com.cmplay.tiles2_naranya/com.cmplay.tile2.ui.AppActivity}" drawable="piano_tiles_two" />
 	<item component="ComponentInfo{com.co.app.unica.latam/com.itau.latam.ReactActivity}" drawable="banco_itau" />
+	<item component="ComponentInfo{com.itau.pers/br.com.itau.pf.ui.activity.SplashActivity_}" drawable="banco_itau" />
 	<item component="ComponentInfo{com.codebrewgames.pocketcity/com.codebrewgames.pocketcity.MainActivity}" drawable="pocket_city" />
 	<item component="ComponentInfo{com.codesector.calendar/com.codesector.calendar.CalendarActivity}" drawable="calendar" />
 	<item component="ComponentInfo{com.codewithcontent.powerupfpv/com.codewithcontent.powerupfpv.intro.IntroActivity}" drawable="powerup" />
@@ -2034,6 +2036,7 @@
 	<item component="ComponentInfo{com.ing.diba.smartsecure2/com.ing.diba.smartsecure2.StartActivity}" drawable="ing_smart_secure" />
 	<item component="ComponentInfo{com.ing.mobile/com.ing.mobile.app.activities.SplashActivity}" drawable="ing" />
 	<item component="ComponentInfo{com.ingka.ikea.app/com.ingka.ikea.app.SplashActivity}" drawable="ikea" />
+	<item component="ComponentInfo{com.ingka.ikea.app/com.ingka.ikea.app.splash.SplashActivity}" drawable="ikea" />
 	<item component="ComponentInfo{com.ingyomate.shakeit/com.ingyomate.shakeit.component.LauncherActivity}" drawable="shake_it_alarm" />
 	<item component="ComponentInfo{com.innersloth.spacemafia/com.innersloth.spacemafia.EosUnityPlayerActivity}" drawable="among_us" />
 	<item component="ComponentInfo{com.innersloth.spacemafia/com.unity3d.player.UnityPlayerActivity}" drawable="among_us" />
@@ -2339,6 +2342,7 @@
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.zap_adaptive}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.equalizer/com.maxmpz.equalizer.white_play_adaptive}" drawable="poweramp_equalizer" />
+	<item component="ComponentInfo{com.maxmpz.equalizer/com.maxmpz.equalizer.standard_adaptive}" drawable="poweramp_equalizer" />
 	<item component="ComponentInfo{com.maxpatchs.ango/com.maxpatchs.ango.HomeActivity}" drawable="ango" />
 	<item component="ComponentInfo{com.mb.android/com.mb.android.MainActivity}" drawable="emby" />
 	<item component="ComponentInfo{com.mc.miband1/com.mc.miband1.ui.MainActivityNight}" drawable="notify" />
@@ -2990,6 +2994,7 @@
 	<item component="ComponentInfo{com.ringapp/com.ring.launch.LaunchActivity}" drawable="ring" />
 	<item component="ComponentInfo{com.riotgames.league.teamfighttactics/com.riotgames.leagueoflegends.RiotNativeActivity}" drawable="teamfight_tactics" />
 	<item component="ComponentInfo{com.riotgames.league.wildrift/com.tencent.lolm.lgame}" drawable="wild_rift" />
+	<item component="ComponentInfo{com.riotgames.league.wildriftvn/com.tencent.lolm.lgame}" drawable="wild_rift" />
 	<item component="ComponentInfo{com.riotgames.legendsofruneterra/com.riotgames.legendsofruneterra.LoRActivity}" drawable="legends_of_runeterra" />
 	<item component="ComponentInfo{com.riotgames.mobile.leagueconnect/com.riotgames.mobile.leagueconnect.ui.MainActivity}" drawable="league_plus" />
 	<item component="ComponentInfo{com.riotgames.mobile.leagueconnect/com.riotgames.mobile.leagueconnect.ui.MainActivity}" drawable="lol_friends" />
@@ -3708,6 +3713,9 @@
 	<item component="ComponentInfo{com.unikey.kevo/com.unikey.kevo.activities.SplashActivity}" drawable="kevo" />
 	<item component="ComponentInfo{com.unintuitive.IshtarCommander/com.example.ZingProject.MainActivity}" drawable="ishtar_commander" />
 	<item component="ComponentInfo{com.uniqlo.au.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.HomeActivity}" drawable="uniqlo" />
+	<item component="ComponentInfo{com.uniqlo.tw.catalogue/com.uniqlo.ja.catalogue.MainActivity}" drawable="uniqlo" />
+	<item component="ComponentInfo{com.uniqlo.id.catalogue/com.uniqlo.ja.catalogue.MainActivity}" drawable="uniqlo" />
+	<item component="ComponentInfo{com.uniqlo.ja.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.HomeActivity}" drawable="uniqlo" />
 	<item component="ComponentInfo{com.united.mobile.android/com.united.mobile.android.SplashScreen}" drawable="united_airlines" />
 	<item component="ComponentInfo{com.untappdllc.app/com.untappdllc.app.MainActivity}" drawable="untappd" />
 	<item component="ComponentInfo{com.uob.th.digitalbank/uob.com.digitalbank.features.base.LauncherActivity}" drawable="tmrw_th" />
@@ -4169,6 +4177,7 @@
 	<item component="ComponentInfo{de.web.mobile.android.mail/com.unitedinternet.portal.ui.HostActivity}" drawable="aosp_mail" />
 	<item component="ComponentInfo{de.weisheitszahn/de.weisheitszahn.SplashActivity}" drawable="weisheitszahn" />
 	<item component="ComponentInfo{de.wetteronline.wetterapppro/de.wetteronline.wetterapp.MainActivityGoogle}" drawable="wetter_online" />
+	<item component="ComponentInfo{de.wetteronline.wetterapp/de.wetteronline.wetterapp.MainActivityGoogle}" drawable="wetter_online" />
 	<item component="ComponentInfo{de.xikolo.openhpi/de.xikolo.controllers.main.SplashActivity}" drawable="open_hpi" />
 	<item component="ComponentInfo{de.zalando.mobile/de.zalando.mobile.ui.start.SplashActivity}" drawable="zalando" />
 	<item component="ComponentInfo{de.zeit.online/de.zeit.online.app.MainActivity}" drawable="zeit_online" />
@@ -4351,6 +4360,7 @@
 	<item component="ComponentInfo{io.plaidapp/io.plaidapp.Launcher}" drawable="plaid" />
 	<item component="ComponentInfo{io.raindrop.raindropio/io.raindrop.raindropio.MainActivity}" drawable="raindrop" />
 	<item component="ComponentInfo{io.raindrop.raindropio/io.raindrop.raindropio.StartActivity}" drawable="raindrop" />
+	<item component="ComponentInfo{io.raindrop.raindropio/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="raindrop" />
 	<item component="ComponentInfo{io.snappmobile.zeplinmobile/io.snappmobile.zeplinmobile.StartupActivity}" drawable="zeplin" />
 	<item component="ComponentInfo{io.stellio.music/air.stellio.player.MainActivity}" drawable="stellio" />
 	<item component="ComponentInfo{io.tinbits.memorigi/io.tinbits.memorigi.ui.MainActivity}" drawable="memorigi" />
@@ -5067,4 +5077,38 @@
 	<item component="ComponentInfo{za.com.mrp/za.com.mrp.activity.StoreActivity}" drawable="mrp_fashion" />
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
+	<item component="ComponentInfo{ru.ftc.faktura.etbank/ru.ftc.faktura.multibank.ui.activity.MainActivity}" drawable="bank" />
+	<item component="ComponentInfo{co.com.bancoagrario.icbanking/uy.com.infocorp.icbanking.MainActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.xum.wallet/com.xum.wallet.MainActivity}" drawable="crypto" />
+	<item component="ComponentInfo{com.myetherwallet.mewwallet/com.myetherwallet.mewwallet.MainActivity}" drawable="crypto" />
+	<item component="ComponentInfo{appinventor.ai_studiokvc.CryptoFaucet/appinventor.ai_studiokvc.CryptoFaucet.Screen1}" drawable="crypto" />
+	<item component="ComponentInfo{com.crypter.cryptocyrrency/com.crypter.cryptocyrrency.SplashActivity}" drawable="crypto" />
+	<item component="ComponentInfo{com.binance.cloud.tokocrypto/binance.app.main.module.StartActivity}" drawable="crypto" />
+	<item component="ComponentInfo{network.celsius.wallet/network.celsius.wallet.SplashActivity}" drawable="crypto" />
+	<item component="ComponentInfo{com.conio.wallet/com.conio.android.presentation.view.start.view.activity.StartActivity}" drawable="crypto" />
+	<item component="ComponentInfo{com.uplexa.upxwallet/com.uplexa.upxwallet.LoginActivity}" drawable="crypto" />
+	<item component="ComponentInfo{com.bitso.wallet/com.bitso.wallet.onboarding.splash.SplashActivity}" drawable="crypto" />
+	<item component="ComponentInfo{com.banano.kaliumwallet/com.banano.kaliumwallet.MainActivity}" drawable="crypto" />
+	<item component="ComponentInfo{com.bitpay.wallet/com.bitpay.wallet.MainActivity}" drawable="crypto" />
+	<item component="ComponentInfo{net.moneykit.sbw/net.moneykit.sbw.SBWBaseActivity}" drawable="bank" />
+	<item component="ComponentInfo{net.inverline.bancosabadell.officelocator.android/net.inverline.bancosabadell.officelocator.android.sab.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.oriondev.moneywallet/com.oriondev.moneywallet.ui.activity.LauncherActivity}" drawable="bank" />
+	<item component="ComponentInfo{mx.weex.appwallet/mx.weex.appwallet.activity.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{cl.bancoripley.appbanco/cl.bancoripley.appbanco.MainActivity}" drawable="bank" />
+	<item component="ComponentInfo{mobi.inthepocket.bcmc.bancontact/mobi.inthepocket.bcpq.MainActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.mobilecreditcards/com.mobilecreditcards.MainActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.lynxspa.bancopopolare/com.bancobpm.views.splash.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{ar.com.bancoprovincia.CuentaDNI/ar.com.bancoprovincia.CuentaDNI.VTCommonActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.bayteq.be.produbanco/crc64cf914acca3f6d2e4.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{cl.bancochile.mipass/cl.bancochile.mipass.MainActivity}" drawable="bank" />
+	<item component="ComponentInfo{mx.com.miapp/mx.com.miapp.ui.general.splash.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.vipera.chebanca/com.opentecheng.otml.OtmlSplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{br.com.bancopan.cartoes/br.com.bancopan.bancodigital.presentation.splash.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.banesco.samfbancamovilunificada/net.itssca.samfpagomovil.login.LoginActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.nordea.mep.npay/com.nordea.mep.npay.feature.splash.presentation.view.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.mosync.app_Banco_Galicia/ar.com.galicia.core.activities.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.traveloka.android/com.traveloka.android.appentry.splash.SplashActivity}" drawable="traveloka" />
+	<item component="ComponentInfo{com.blockchainvault/com.pinetwork.MainActivity}" drawable="pi_network" />
+	<item component="ComponentInfo{com.ktwapps.walletmanager/com.ktwapps.walletmanager.MainActivity}" drawable="wallet_manager" />
+	<item component="ComponentInfo{com.ups.mobile.android/crc6466778ac8e5630834.SplashActivity}" drawable="ups" />
 </resources>
