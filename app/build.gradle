@@ -35,8 +35,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 154
-		versionName "1.5.4"
+		versionCode 155
+		versionName "1.5.5"
 		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 		multiDexEnabled true
 
@@ -71,7 +71,7 @@ dependencies {
 	 * 6. Done
 	 */
 
-	implementation 'com.github.zixpo:candybar:3.9.2'
+	implementation 'com.github.zixpo:candybar:3.10.0'
 
 	// Remove '//' below to Enable OneSignal
 	//implementation 'com.onesignal:OneSignal:3.15.4'
