@@ -45,6 +45,7 @@
 	<item name="Withings Health Mate" drawable="withings_health_mate" />
 	<item name="Tapas" drawable="tapas" />
 	<item name="Workout" drawable="workout" />
+	<item name="VPN" drawable="vpn" />
 	
 	<category title="Google" />
 	<item name="Accessibility Scanner" drawable="google_accessibility_scanner" />
@@ -659,7 +660,16 @@
 	<item name="Calculator" drawable="calculator" />
 	<item name="Calculator++" drawable="calculator_plus_plus" />
 	<item name="Calcy IV" drawable="calcy_iv" />
+	<item name="Calendar" drawable="calendar" />
 	<item name="Calendar 1" drawable="calendar_1" />
+	<item name="Calendar 2" drawable="calendar_2" />
+	<item name="Calendar 3" drawable="calendar_3" />
+	<item name="Calendar 4" drawable="calendar_4" />
+	<item name="Calendar 5" drawable="calendar_5" />
+	<item name="Calendar 6" drawable="calendar_6" />
+	<item name="Calendar 7" drawable="calendar_7" />
+	<item name="Calendar 8" drawable="calendar_8" />
+	<item name="Calendar 9" drawable="calendar_9" />
 	<item name="Calendar 10" drawable="calendar_10" />
 	<item name="Calendar 11" drawable="calendar_11" />
 	<item name="Calendar 12" drawable="calendar_12" />
@@ -670,7 +680,6 @@
 	<item name="Calendar 17" drawable="calendar_17" />
 	<item name="Calendar 18" drawable="calendar_18" />
 	<item name="Calendar 19" drawable="calendar_19" />
-	<item name="Calendar 2" drawable="calendar_2" />
 	<item name="Calendar 20" drawable="calendar_20" />
 	<item name="Calendar 21" drawable="calendar_21" />
 	<item name="Calendar 22" drawable="calendar_22" />
@@ -681,16 +690,18 @@
 	<item name="Calendar 27" drawable="calendar_27" />
 	<item name="Calendar 28" drawable="calendar_28" />
 	<item name="Calendar 29" drawable="calendar_29" />
-	<item name="Calendar 3" drawable="calendar_3" />
 	<item name="Calendar 30" drawable="calendar_30" />
 	<item name="Calendar 31" drawable="calendar_31" />
-	<item name="Calendar 4" drawable="calendar_4" />
-	<item name="Calendar 5" drawable="calendar_5" />
-	<item name="Calendar 6" drawable="calendar_6" />
-	<item name="Calendar 7" drawable="calendar_7" />
-	<item name="Calendar 8" drawable="calendar_8" />
-	<item name="Calendar 9" drawable="calendar_9" />
+	<item name="Calendar Orange" drawable="calendar_orange" />
 	<item name="Calendar Orange 1" drawable="calendar_orange_1" />
+	<item name="Calendar Orange 2" drawable="calendar_orange_2" />
+	<item name="Calendar Orange 3" drawable="calendar_orange_3" />
+	<item name="Calendar Orange 4" drawable="calendar_orange_4" />
+	<item name="Calendar Orange 5" drawable="calendar_orange_5" />
+	<item name="Calendar Orange 6" drawable="calendar_orange_6" />
+	<item name="Calendar Orange 7" drawable="calendar_orange_7" />
+	<item name="Calendar Orange 8" drawable="calendar_orange_8" />
+	<item name="Calendar Orange 9" drawable="calendar_orange_9" />
 	<item name="Calendar Orange 10" drawable="calendar_orange_10" />
 	<item name="Calendar Orange 11" drawable="calendar_orange_11" />
 	<item name="Calendar Orange 12" drawable="calendar_orange_12" />
@@ -701,7 +712,6 @@
 	<item name="Calendar Orange 17" drawable="calendar_orange_17" />
 	<item name="Calendar Orange 18" drawable="calendar_orange_18" />
 	<item name="Calendar Orange 19" drawable="calendar_orange_19" />
-	<item name="Calendar Orange 2" drawable="calendar_orange_2" />
 	<item name="Calendar Orange 20" drawable="calendar_orange_20" />
 	<item name="Calendar Orange 21" drawable="calendar_orange_21" />
 	<item name="Calendar Orange 22" drawable="calendar_orange_22" />
@@ -712,16 +722,8 @@
 	<item name="Calendar Orange 27" drawable="calendar_orange_27" />
 	<item name="Calendar Orange 28" drawable="calendar_orange_28" />
 	<item name="Calendar Orange 29" drawable="calendar_orange_29" />
-	<item name="Calendar Orange 3" drawable="calendar_orange_3" />
 	<item name="Calendar Orange 30" drawable="calendar_orange_30" />
 	<item name="Calendar Orange 31" drawable="calendar_orange_31" />
-	<item name="Calendar Orange 4" drawable="calendar_orange_4" />
-	<item name="Calendar Orange 5" drawable="calendar_orange_5" />
-	<item name="Calendar Orange 6" drawable="calendar_orange_6" />
-	<item name="Calendar Orange 7" drawable="calendar_orange_7" />
-	<item name="Calendar Orange 8" drawable="calendar_orange_8" />
-	<item name="Calendar Orange 9" drawable="calendar_orange_9" />
-	<item name="Calendar Orange" drawable="calendar_orange" />
 	<item name="Calendar Red" drawable="calendar_red" />
 	<item name="Calendar Red 1" drawable="calendar_red_1" />
 	<item name="Calendar Red 2" drawable="calendar_red_2" />
@@ -1010,7 +1012,6 @@
 	<item name="Calendar White 29" drawable="calendar_white_29" />
 	<item name="Calendar White 30" drawable="calendar_white_30" />
 	<item name="Calendar White 31" drawable="calendar_white_31" />
-	<item name="Calendar" drawable="calendar" />
 	<item name="Calibre Cloud" drawable="calibre_cloud" />
 	<item name="Call of Duty Mobile" drawable="call_of_duty_mobile" />
 	<item name="CallApp" drawable="callapp" />
@@ -1567,7 +1568,7 @@
 	<item drawable="forza_football" />
 	<item name="FOSDEM" drawable="fosdem" />
 	<item name="FotMob" drawable="fotmob" />
-	<item drawable="foursquare" />
+	<item name="Foursquare City Guide" drawable="foursquare" />
 	<item name="france.tv" drawable="france_dot_tv" />
 	<item drawable="franco_kernel_manager" />
 	<item drawable="franco_kernel_updater" />
@@ -1589,7 +1590,7 @@
 	<item name="FunimationNow" drawable="funimationnow" />
 	<item drawable="funny_jokes" />
 	<item drawable="furgonetka" />
-	<item drawable="futurama" />
+	<item name="Futurama: Worlds of Tomorrow" drawable="futurama" />
 	<item name="FX File Explorer" drawable="fx" />
 	
 	<category title="G" />
@@ -1622,8 +1623,9 @@
 	<item name="GetApps" drawable="getapps" />
 	<item drawable="gett" />
 	<item drawable="getyourguide"  name="GetYourGuide" />
-	<item drawable="giphy" />
-	<item drawable="giphy_cam" />
+	<item name="giffgaff" drawable="giffgaff" />
+	<item name="GIPHY" drawable="giphy" />
+	<item name="GIPHY CAM" drawable="giphy_cam" />
 	<item name="GitHub" drawable="github" />
 	<item name="GitHub Alt" drawable="github_alt" />
 	<item drawable="gitskarios" />
@@ -1641,7 +1643,7 @@
 	<item name="GO Launcher" drawable="go_launcher" />
 	<item drawable="gojek" />
 	<item name="GoneMad" drawable="gonemad" />
-	<item drawable="good_lood" />
+	<item name="Good Lood" drawable="good_lood" />
 	<item name="Good Pizza, Great Pizza" drawable="good_pizza_great_pizza" />
 	<item drawable="goodgame_empire" />
 	<item drawable="goodreads" />
@@ -1656,22 +1658,22 @@
 	<item drawable="grasshopper" />
 	<item drawable="gratus" />
 	<item name="GravityBox" drawable="gravitybox" />
-	<item drawable="green" />
-	<item drawable="greenify" />
-	<item drawable="grindr" />
-	<item drawable="grocy" />
+	<item name="Green" drawable="green" />
+	<item name="Greenify" drawable="greenify" />
+	<item name="Grindr" drawable="grindr" />
+	<item name="Grocy" drawable="grocy" />
 	<item name="GroupMe" drawable="group__me" />
-	<item drawable="grow" />
+	<item name="Grow" drawable="grow" />
 	<item name="Groww" drawable="groww" />
-	<item drawable="gruenzeit" />
+	<item name="GrünZeit" drawable="gruenzeit" />
 	<item name="GSam Battery Monitor" drawable="gsam_battery_monitor" />
 	<item name="GTA III" drawable="gta_iii" />
 	<item name="GTA San Andreas" drawable="gta_san_andreas" />
 	<item name="GTasks" drawable="gtasks" />
-	<item drawable="guitar_center" />
-	<item drawable="guitar_pro" />
+	<item name="Guitar Center" drawable="guitar_center" />
+	<item name="Guitar Pro" drawable="guitar_pro" />
 	<item name="GuitarTuna" drawable="guitar_tuna" />
-	<item drawable="gumtree" />
+	<item name="Gumtree" drawable="gumtree" />
 	<item name="GVH" drawable="gvh" />
 	<item name="GWENT" drawable="gwent" />
 	
@@ -2301,17 +2303,17 @@
 	<item drawable="my_contacts" />
 	<item drawable="my_expenses" />
 	<item drawable="my_fios" />
-	<item drawable="my_giffgaff" />
-	<item drawable="my_idea" />
-	<item drawable="my_library" />
-	<item drawable="my_macros" />
-	<item drawable="my_movies" />
-	<item drawable="my_oldboy" />
-	<item drawable="my_phone" />
-	<item drawable="my_prayer" />
-	<item drawable="my_scarlet" />
-	<item drawable="my_therapy" />
-	<item drawable="my_verizon" />
+	<item name="My Idea" drawable="my_idea" />
+	<item name="My library" drawable="my_library" />
+	<item name="My Macros+" drawable="my_macros" />
+	<item name="My Movies" drawable="my_movies" />
+	<item name="My OldBoy!" drawable="my_oldboy" />
+	<item name="My phone" drawable="my_phone" />
+	<item name="My Prayer" drawable="my_prayer" />
+	<item name="my scarlet" drawable="my_scarlet" />
+	<item name="MyTherapy" drawable="my_therapy" />
+	<item name="My Verizon" drawable="my_verizon" />
+	<item name="My Viking" drawable="viking_app" />
 	<item name="myAIS" drawable="myais" />
 	<item name="MyAndroidTools" drawable="myandroidtools" />
 	<item name="MyAussie" drawable="myaussie" />
@@ -3291,38 +3293,38 @@
 	<item name="TMB Touch" drawable="tmb_touch" />
 	<item name="TMRW" drawable="tmrw_th" />
 	<item drawable="to_dont" />
-	<item drawable="today_calendar" />
-	<item drawable="today_calendar_1" />
-	<item drawable="today_calendar_10" />
-	<item drawable="today_calendar_11" />
-	<item drawable="today_calendar_12" />
-	<item drawable="today_calendar_13" />
-	<item drawable="today_calendar_14" />
-	<item drawable="today_calendar_15" />
-	<item drawable="today_calendar_16" />
-	<item drawable="today_calendar_17" />
-	<item drawable="today_calendar_18" />
-	<item drawable="today_calendar_19" />
-	<item drawable="today_calendar_2" />
-	<item drawable="today_calendar_20" />
-	<item drawable="today_calendar_21" />
-	<item drawable="today_calendar_22" />
-	<item drawable="today_calendar_23" />
-	<item drawable="today_calendar_24" />
-	<item drawable="today_calendar_25" />
-	<item drawable="today_calendar_26" />
-	<item drawable="today_calendar_27" />
-	<item drawable="today_calendar_28" />
-	<item drawable="today_calendar_29" />
-	<item drawable="today_calendar_3" />
-	<item drawable="today_calendar_30" />
-	<item drawable="today_calendar_31" />
-	<item drawable="today_calendar_4" />
-	<item drawable="today_calendar_5" />
-	<item drawable="today_calendar_6" />
-	<item drawable="today_calendar_7" />
-	<item drawable="today_calendar_8" />
-	<item drawable="today_calendar_9" />
+	<item name="Today Calendar" drawable="today_calendar" />
+	<item name="Today Calendar 1" drawable="today_calendar_1" />
+	<item name="Today Calendar 2" drawable="today_calendar_2" />
+	<item name="Today Calendar 3" drawable="today_calendar_3" />
+	<item name="Today Calendar 4" drawable="today_calendar_4" />
+	<item name="Today Calendar 5" drawable="today_calendar_5" />
+	<item name="Today Calendar 6" drawable="today_calendar_6" />
+	<item name="Today Calendar 7" drawable="today_calendar_7" />
+	<item name="Today Calendar 8" drawable="today_calendar_8" />
+	<item name="Today Calendar 9" drawable="today_calendar_9" />
+	<item name="Today Calendar 10" drawable="today_calendar_10" />
+	<item name="Today Calendar 11" drawable="today_calendar_11" />
+	<item name="Today Calendar 12" drawable="today_calendar_12" />
+	<item name="Today Calendar 13" drawable="today_calendar_13" />
+	<item name="Today Calendar 14" drawable="today_calendar_14" />
+	<item name="Today Calendar 15" drawable="today_calendar_15" />
+	<item name="Today Calendar 16" drawable="today_calendar_16" />
+	<item name="Today Calendar 17" drawable="today_calendar_17" />
+	<item name="Today Calendar 18" drawable="today_calendar_18" />
+	<item name="Today Calendar 19" drawable="today_calendar_19" />
+	<item name="Today Calendar 20" drawable="today_calendar_20" />
+	<item name="Today Calendar 21" drawable="today_calendar_21" />
+	<item name="Today Calendar 22" drawable="today_calendar_22" />
+	<item name="Today Calendar 23" drawable="today_calendar_23" />
+	<item name="Today Calendar 24" drawable="today_calendar_24" />
+	<item name="Today Calendar 25" drawable="today_calendar_25" />
+	<item name="Today Calendar 26" drawable="today_calendar_26" />
+	<item name="Today Calendar 27" drawable="today_calendar_27" />
+	<item name="Today Calendar 28" drawable="today_calendar_28" />
+	<item name="Today Calendar 29" drawable="today_calendar_29" />
+	<item name="Today Calendar 30" drawable="today_calendar_30" />
+	<item name="Today Calendar 31" drawable="today_calendar_31" />
 	<item drawable="today_weather" />
 	<item drawable="today_widget" />
 	<item drawable="todo" />
@@ -3463,21 +3465,21 @@
 	<item name="Vacation Days" drawable="vacation_days" />
 	<item name="Vainglory" drawable="vainglory" />
 	<item name="Vanced Manager" drawable="vanced_manager" />
-	<item drawable="vanguard" />
-	<item drawable="venmo" />
-	<item drawable="vetevo" />
+	<item name="Vanguard" drawable="vanguard" />
+	<item name="Venmo" drawable="venmo" />
+	<item name="vetevo" drawable="vetevo" />
 	<item name="VGN" drawable="vgn" />
-	<item drawable="vhs_cloud" />
-	<item drawable="via_browser" />
-	<item drawable="viber" />
-	<item drawable="vibratemode" />
-	<item drawable="video" />
-	<item drawable="video_downloader_ig" />
+	<item name="vhs.cloud" drawable="vhs_cloud" />
+	<item name="Via Browser" drawable="via_browser" />
+	<item name="Viber Messenger" drawable="viber" />
+	<item name="VibrateMode" drawable="vibratemode" />
+	<item name="Video" drawable="video" />
+	<item name="Video Downloader for Instagram" drawable="video_downloader_ig" />
+	<item name="Video Player HD" drawable="vqplayer" />
 	<item name="Video Recorder" drawable="video_recorder" />
-	<item drawable="videoder" />
-	<item drawable="videostream" />
-	<item drawable="viki" />
-	<item drawable="viking_app" />
+	<item name="Videoder Video Downloader" drawable="videoder" />
+	<item name="Videostream Chromecast" drawable="videostream" />
+	<item name="Viki" drawable="viki" />
 	<item drawable="vimeo" />
 	<item drawable="vinci" />
 	<item drawable="vine" />
@@ -3494,17 +3496,17 @@
 	<item drawable="vkontakte_alt" />
 	<item name="VLC" drawable="vlc" />
 	<item name="VN" drawable="vn" />
-	<item drawable="vocab" />
-	<item drawable="vodafone" />
+	<item name="Vocabulary.com" drawable="vocab" />
+	<item name="Vodafone" drawable="vodafone" />
 	<item name="VOEZ" drawable="voez" />
 	<item drawable="voice_recorder_pro" />
 	<item drawable="voicemail" />
 	<item drawable="vorrat" />
 	<item drawable="vorrat_barcode_scanner" />
 	<item drawable="vorwerk_my_kobold" />
-	<item name="VPNhub" drawable="vpnhub" />
 	<item name="VPN Unlimited" drawable="vpnunlimited" />
-	<item drawable="vqplayer" />
+	<item name="VPN" drawable="vpn" />
+	<item name="VPNhub" drawable="vpnhub" />
 	<item name="VR Media Player" drawable="vr_media_player" />
 	<item name="VRV" drawable="vrv" />
 	<item name="Vsauceify" drawable="vsauceify" />
