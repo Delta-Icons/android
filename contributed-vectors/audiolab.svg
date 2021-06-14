@@ -7,14 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="traveloka.svg"
+   sodipodi:docname="audiolab.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    version="1.1"
    id="svg2"
    viewBox="0 0 192 192"
    height="192"
    width="192"
-   inkscape:export-filename="/home/jphilippe/inkscape/icônes/delta-github/png/traveloka.png"
+   inkscape:export-filename="/home/jphilippe/inkscape/icônes/delta-github/png/audiolab.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <sodipodi:namedview
@@ -28,9 +28,9 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="536.76777"
-     inkscape:cx="-93.425495"
-     inkscape:zoom="0.3535534"
+     inkscape:cy="203.78468"
+     inkscape:cx="35.686274"
+     inkscape:zoom="1"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -44,12 +44,28 @@
      inkscape:guide-bbox="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true" />
   <defs
-     id="defs4" />
+     id="defs4">
+    <mask
+       id="mask0"
+       mask-type="alpha"
+       maskUnits="userSpaceOnUse"
+       x="9"
+       y="9"
+       width="174"
+       height="174">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 96,183 c 48.049,0 87,-38.951 87,-87 C 183,47.9512 144.049,9 96,9 47.9512,9 9,47.9512 9,96 c 0,48.049 38.9512,87 87,87 z"
+         fill="#ffffff"
+         id="path929" />
+    </mask>
+  </defs>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -58,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -68,17 +84,24 @@
      inkscape:groupmode="layer"
      inkscape:label="Calque 1">
     <path
-       d="m 184,908.54392 c 0,0 -44.67076,50.82755 -55.59254,74.31065 -3.3041,7.10414 0.51119,13.67285 2.37287,16.69574 11.86671,19.27129 31.21967,26.42029 28.58124,26.42029 -2.63884,0 -11.88158,-8.2751 -35.80505,-15.0495 -23.923881,-6.7748 -42.588876,-7.8117 -54.007756,-14.30373 C 59.694718,991.0151 60.472246,984.61848 56.293224,981.00266 42.564676,969.12461 7.7550842,964.1399 8.0012965,964.12972 c 10.7687655,-0.44038 22.8062675,4.85018 29.7363255,4.85018 6.930059,0 10.596882,-8.9541 20.432935,-3.2607 2.579769,1.49327 2.121779,2.03104 10.569389,4.40939 8.447608,2.37834 12.594168,-10.10279 6.583573,-26.28188 -2.225423,-5.99104 -4.144605,-12.16161 -4.144605,-22.62618 0,-14.34927 24.415894,-29.65897 39.296886,-34.46681 -1.55818,20.15711 -1.64109,34.91543 -0.84519,46.43755 C 142.95093,912.54022 184,908.54392 184,908.54392 Z"
-       fill="#4b9fdc"
-       id="path953"
-       style="fill:#99bdfe;fill-opacity:1;stroke-width:0.391111" />
-    <path
-       clip-rule="evenodd"
-       d="m 128.34371,982.84049 c -1.78932,3.82545 -1.49796,7.49563 -0.55693,10.5377 -1.8617,-3.29589 -3.45235,-6.69465 -4.36559,-8.49963 -2.08658,-4.12191 -4.25725,-9.0245 -6.28632,-14.7175 -3.24545,-10.30501 -6.38803,-19.13628 -7.63215,-36.87397 4.80206,-2.95952 9.76447,-5.57646 14.74175,-7.88792 -0.37272,20.93774 2.1171,42.74336 4.34799,56.91644 -0.0849,0.1764 -0.16779,0.35123 -0.24875,0.52488 z"
-       fill="#377da2"
-       fill-rule="evenodd"
-       id="path955"
-       style="fill:#708cbd;fill-opacity:1;stroke-width:0.391111" />
+       d="m 157.58131,1002.0921 -40.53,-79.41996 v -12.62 h 3.92 a 5.45,5.45 0 0 0 5.45,-5.45 v -9.3 a 9.47,9.47 0 0 0 -9.48,-9.48 H 75.381311 a 9.81,9.81 0 0 0 -9.81,9.81 v 9 a 5.45,5.45 0 0 0 5.45,5.45 h 3.29 v 12.6 l -40,79.46996 a 17.09,17.09 0 0 0 15.32,24.75 h 92.839999 a 17,17 0 0 0 15.13,-24.81 z"
+       fill="#9abeff"
+       id="path970"
+       style="fill:#ffffff;fill-opacity:1" />
+    <g
+       mask="url(#mask0)"
+       id="g934"
+       style="fill:#ff837d;fill-opacity:1;stroke-width:1.262"
+       transform="matrix(0.79239448,0,0,0.79239448,14.476645,904.91648)">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 124.08539,65 -42.406205,9.2002 v 33.1178 c -1.419,-0.591 -2.976,-0.917 -4.6094,-0.917 -6.6188,0 -11.9844,5.355 -11.9844,11.96 0,6.606 5.3656,11.96 11.9844,11.96 6.6188,0 11.9844,-5.354 11.9844,-11.96 V 79.9603 l 27.656205,-6.0001 v 25.9972 c -1.419,-0.5905 -2.976,-0.9167 -4.609,-0.9167 -6.619,0 -11.985,5.3553 -11.985,11.9603 0,6.605 5.366,11.96 11.985,11.96 6.618,0 11.984,-5.355 11.984,-11.96 V 72.3602 Z"
+         fill="#ff837d"
+         id="path932"
+         style="fill:#ff837d;fill-opacity:1;stroke-width:1.59264"
+         sodipodi:nodetypes="cccsssscccsssscc" />
+    </g>
   </g>
   <style
      type="text/css"

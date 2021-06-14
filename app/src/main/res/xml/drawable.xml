@@ -46,6 +46,16 @@
 	<item name="Tapas" drawable="tapas" />
 	<item name="Workout" drawable="workout" />
 	<item name="VPN" drawable="vpn" />
+	<item name="VPN Alt" drawable="vpn_alt" />
+	<item name="Notebook" drawable="notebook" />
+	<item name="BlackNote" drawable="blacknote" />
+	<item name="Simple Notes" drawable="simple_notes" />
+	<item name="Miminote" drawable="miminote" />
+	<item name="ESV Bible" drawable="esv" />
+	<item name="Patreon" drawable="patreon" />
+	<item name="MX Player Beta" drawable="mx_player_beta" />
+	<item name="AudioLab" drawable="audiolab" />
+	<item name="Samsung Galaxy Labs" drawable="samsung_galaxy_labs" />
 	
 	<category title="Google" />
 	<item name="Accessibility Scanner" drawable="google_accessibility_scanner" />
@@ -201,7 +211,7 @@
 	<item name="7-Eleven" drawable="seven_eleven" />
 	<item name="7plus" drawable="seven_plus" />
 	<item name="8 Ball Pool" drawable="eight_ball_pool" />
-	<item name="8fit"  drawable="eight_fit" />
+	<item name="8fit" drawable="eight_fit" />
 	<item name="9gag TV" drawable="nine_gag_tv" />
 	<item name="9gag" drawable="nine_gag" />
 
@@ -328,7 +338,7 @@
 	<item name="Amazon Seller" drawable="amazon_seller" />
 	<item name="Amazon Video" drawable="amazon_video" />
 	<item name="Amazon" drawable="amazon" />
-	<item name="ameli"  drawable="ameli" />
+	<item name="ameli" drawable="ameli" />
 	<item name="American Airlines" drawable="american_airlines" />
 	<item name="Amex Mobile" drawable="amex_mobile" />
 	<item name="Amino" drawable="amino" />
@@ -341,7 +351,7 @@
 	<item name="Android Authority" drawable="android_authority" />
 	<item name="Android Central" drawable="android_central" />
 	<item name="Android TV Remote Control" drawable="androidtv_remote" />
-	<item name="Anghami" drawable="anghami"  />
+	<item name="Anghami" drawable="anghami" />
 	<item name="Ango" drawable="ango" />
 	<item name="Angry Birds 2" drawable="angry_birds_two" />
 	<item name="Angry Birds" drawable="angry_birds" />
@@ -431,6 +441,7 @@
 	<item name="Atom Launcher" drawable="atom_launcher" />
 	<item name="Audible" drawable="audible" />
 	<item name="AudioFX" drawable="audiofx" />
+	<item name="AudioLab" drawable="audiolab" />
 	<item name="Audiomack" drawable="audiomack" />
 	<item name="Aurora Droid Alt" drawable="aurora_droid_alt" />
 	<item name="Aurora Droid" drawable="aurora_droid" />
@@ -562,6 +573,7 @@
 	<item name="BlackBerry Virtual Expert" drawable="blackberry_virtual_expert" />
 	<item name="BlackBerry Work" drawable="blackberry_work" />
 	<item name="Blackboard" drawable="blackboard" />
+	<item name="BlackNote" drawable="blacknote" />
 	<item name="BlackPlayer" drawable="blackplayer" />
 	<item name="Bleacher Report" drawable="bleacherreport" />
 	<item name="Blinkist" drawable="blinkist" />
@@ -1377,7 +1389,7 @@
 	<item name="Economist Times" drawable="economic_times" />
 	<item name="Economist" drawable="economist" />
 	<item name="Ecosia" drawable="ecosia" />
-  <item name="Edadeal" drawable="edadeal" />
+	<item name="Edadeal" drawable="edadeal" />
 	<item name="Edeka" drawable="edeka" />
 	<item name="EduPage" drawable="edupage" />
 	<item name="edX" drawable="edx" />
@@ -1399,6 +1411,7 @@
 	<item name="Encode" drawable="encode" />
 	<item name="Endomondo" drawable="endomondo" />
 	<item name="Energy Bar" drawable="energy_bar" />
+	<item name="English Dictionary" drawable="livio_english" />
 	<item name="Engross" drawable="engross" />
 	<item name="Enki" drawable="enki" />
 	<item name="Enpass" drawable="enpass" />
@@ -1406,6 +1419,7 @@
 	<item name="Epic Seven" drawable="epic_seven" />
 	<item name="ePSXe" drawable="epsxe" />
 	<item name="ES File Explorer File Manager" drawable="es_file_explorer" />
+	<item name="ESV Bible" drawable="esv" />
 	<item name="eSound" drawable="esound" />
 	<item name="Espace client +" drawable="videotron_espace_client" />
 	<item name="Espace Client" drawable="espace_client" />
@@ -1462,7 +1476,7 @@
 	<item name="Fate/Grand Order" drawable="fate_grand_order" />
 	<item name="FatSecret" drawable="fatsecret" />
 	<item name="FBReader" drawable="fbreader" />
-	<item name="FedEx"  drawable="fedex" />
+	<item name="FedEx" drawable="fedex" />
 	<item drawable="feeder" />
 	<item drawable="feedly" />
 	<item name="FeedMe" drawable="feedme" />
@@ -1611,7 +1625,7 @@
 	<item drawable="gearbest" />
 	<item drawable="geekbench" />
 	<item drawable="gello" />
-	<item name="GenialTask" drawable="genial_task"  />
+	<item name="GenialTask" drawable="genial_task" />
 	<item drawable="genius" />
 	<item drawable="genshin_impact" />
 	<item drawable="geocaching" />
@@ -1622,7 +1636,7 @@
 	<item drawable="geometry_dash_world" />
 	<item name="GetApps" drawable="getapps" />
 	<item drawable="gett" />
-	<item drawable="getyourguide"  name="GetYourGuide" />
+	<item drawable="getyourguide" name="GetYourGuide" />
 	<item name="giffgaff" drawable="giffgaff" />
 	<item name="GIPHY" drawable="giphy" />
 	<item name="GIPHY CAM" drawable="giphy_cam" />
@@ -1994,14 +2008,14 @@
 	<item name="LG Smart World" drawable="lg_smart_world" />
 	<item name="LG TV Plus" drawable="lg_tv_plus" />
 	<item name="LHV" drawable="lhv" />
-	<item drawable="liapp" />
-	<item drawable="libby" />
+	<item name="Liapp" drawable="liapp" />
+	<item name="Libby" drawable="libby" />
 	<item name="LibreLink" drawable="librelink" />
 	<item name="LibreLinkUp" drawable="librelinkup" />
 	<item name="LibreOffice" drawable="libreoffice" />
 	<item name="LibreOffice Impress Remote" drawable="libreoffice_impress_remote" />
 	<item name="LibreTorrent" drawable="libretorrent" />
-	<item drawable="librus" />
+	<item name="Librus" drawable="librus" />
 	<item name="lichess.org" drawable="lichess" />
 	<item name="lichess.org Alt" drawable="lichess_alt" />
 	<item name="Life360" drawable="life360" />
@@ -2025,13 +2039,12 @@
 	<item name="LINK2SD" drawable="link_to_sd" />
 	<item name="LinkedIn" drawable="linked__in" />
 	<item name="Liputan6" drawable="liputansix" />
-	<item drawable="list_my_apps" />
-	<item drawable="listen" />
+	<item name="List My Apps" drawable="list_my_apps" />
+	<item name="Listen Audiobook Player" drawable="listen" />
 	<item name="Lithium: EPUB Reader" drawable="lithium_reader" />
 	<item name="Little Alchemy" drawable="littlealchemy" />
 	<item name="Live Pyro Reactions" drawable="live_pyro_reactions" />
 	<item name="LiveChart.me" drawable="livechart_me" />
-	<item drawable="livio_english" />
 	<item name="Livin' by Mandiri" drawable="livin_by_mandiri" />
 	<item drawable="llama" />
 	<item name="LMT" drawable="lmt" />
@@ -2194,6 +2207,7 @@
 	<item drawable="microsoft_xbox_game_streaming_xcloud" />
 	<item name="MIDI Keyboard" drawable="midi_keyboard" />
 	<item drawable="mikrotik" />
+	<item name="Miminote" drawable="miminote" />
 	<item drawable="mimo" />
 	<item drawable="mindly" />
 	<item drawable="mindustry" />
@@ -2220,7 +2234,6 @@
 	<item drawable="mobile_mpk" />
 	<item drawable="mobile_passport" />
 	<item drawable="mobile_pay" />
-	<item drawable="mobile_print" />
 	<item drawable="mobile_security" />
 	<item drawable="mobywatel" />
 	<item drawable="moia" />
@@ -2292,6 +2305,7 @@
 	<item drawable="muzei" />
 	<item drawable="mvg_fahrinfo" />
 	<item name="MX Player" drawable="mx_player" />
+	<item name="MX Player Beta" drawable="mx_player_beta" />
 	<item name="MyFitnessPal" drawable="my__fitness__pal" />
 	<item name="MyGrades" drawable="my__grades" />
 	<item name="MyMail" drawable="my__mail" />
@@ -2413,11 +2427,12 @@
 	<item drawable="nook" />
 	<item drawable="nordsee" />
 	<item name="NordVPN" drawable="nordvpn" />
-	<item drawable="nori" />
-	<item drawable="note_everything" />
-	<item drawable="notebloc" />
-	<item drawable="noten_rechner" />
-	<item drawable="notes_by_firefox" />
+	<item name="Nori" drawable="nori" />
+	<item name="Note Everything" drawable="note_everything" />
+	<item name="Notebloc Scanner App" drawable="notebloc" />
+	<item name="Notebook" drawable="notebook" />
+	<item name="Notenrechner" drawable="noten_rechner" />
+	<item name="Notes by Firefox" drawable="notes_by_firefox" />
 	<item name="Notify for Mi Band" drawable="notify" />
 	<item drawable="notification_notes" />
 	<item drawable="notin" />
@@ -2481,7 +2496,7 @@
 	<item drawable="open_camera" />
 	<item drawable="open_hpi" />
 	<item drawable="open_launcher" />
-	<item drawable="open_sudoku" />
+	<item name="Open Sudoku" drawable="open_sudoku" />
 	<item drawable="opengur" />
 	<item drawable="openkeychain" />
 	<item drawable="openscale" />
@@ -2542,7 +2557,8 @@
 	<item drawable="passngr" />
 	<item drawable="password_store" />
 	<item drawable="path" />
-	<item drawable="patreon" />
+	<item name="Patreon Alt" drawable="patreon_alt" />
+	<item name="Patreon" drawable="patreon" />
 	<item drawable="pavlok" />
 	<item drawable="pawoo" />
 	<item drawable="pay_tm" />
@@ -2579,31 +2595,30 @@
 	<item drawable="philipps_hue" />
 	<item drawable="philips_tv_remote" />
 	<item drawable="phoenix" />
-	<item drawable="phone" />
-	<item drawable="phone_alt" />
-	<item drawable="phone_alt_eight" />
-	<item drawable="phone_alt_eighteen" />
-	<item drawable="phone_alt_eightteen" />
-	<item drawable="phone_alt_eleven" />
-	<item drawable="phone_alt_fifteen" />
-	<item drawable="phone_alt_five" />
-	<item drawable="phone_alt_four" />
-	<item drawable="phone_alt_fourteen" />
-	<item drawable="phone_alt_nine" />
-	<item drawable="phone_alt_nineteen" />
-	<item drawable="phone_alt_seven" />
-	<item drawable="phone_alt_seventeen" />
-	<item drawable="phone_alt_six" />
-	<item drawable="phone_alt_sixteen" />
-	<item drawable="phone_alt_ten" />
-	<item drawable="phone_alt_thirteen" />
-	<item drawable="phone_alt_three" />
-	<item drawable="phone_alt_twelve" />
-	<item drawable="phone_alt_twenty" />
-	<item drawable="phone_alt_twentyone" />
-	<item drawable="phone_alt_twentythree" />
-	<item drawable="phone_alt_twentytwo" />
-	<item drawable="phone_alt_two" />
+	<item name="Phone Alt Eight" drawable="phone_alt_eight" />
+	<item name="Phone Alt Eighteen" drawable="phone_alt_eighteen" />
+	<item name="Phone Alt Eleven" drawable="phone_alt_eleven" />
+	<item name="Phone Alt Fifteen" drawable="phone_alt_fifteen" />
+	<item name="Phone Alt Five" drawable="phone_alt_five" />
+	<item name="Phone Alt Four" drawable="phone_alt_four" />
+	<item name="Phone Alt Fourteen" drawable="phone_alt_fourteen" />
+	<item name="Phone Alt Nine" drawable="phone_alt_nine" />
+	<item name="Phone Alt Nineteen" drawable="phone_alt_nineteen" />
+	<item name="Phone Alt Seven" drawable="phone_alt_seven" />
+	<item name="Phone Alt Seventeen" drawable="phone_alt_seventeen" />
+	<item name="Phone Alt Six" drawable="phone_alt_six" />
+	<item name="Phone Alt Sixteen" drawable="phone_alt_sixteen" />
+	<item name="Phone Alt Ten" drawable="phone_alt_ten" />
+	<item name="Phone Alt Thirteen" drawable="phone_alt_thirteen" />
+	<item name="Phone Alt Three" drawable="phone_alt_three" />
+	<item name="Phone Alt Twelve" drawable="phone_alt_twelve" />
+	<item name="Phone Alt Twenty One" drawable="phone_alt_twentyone" />
+	<item name="Phone Alt Twenty Three" drawable="phone_alt_twentythree" />
+	<item name="Phone Alt Twenty Two" drawable="phone_alt_twentytwo" />
+	<item name="Phone Alt Twenty" drawable="phone_alt_twenty" />
+	<item name="Phone Alt Two" drawable="phone_alt_two" />
+	<item name="Phone Alt" drawable="phone_alt" />
+	<item name="Phone" drawable="phone" />
 	<item drawable="phone_clone" />
 	<item drawable="phone_pe" />
 	<item drawable="phonograph" />
@@ -2667,11 +2682,11 @@
 	<item drawable="podcast_go" />
 	<item drawable="podroid" />
 	<item drawable="pods_companion" />
-	<item drawable="pokemon_cafe" />
+	<item name="Pokémon Café Mix" drawable="pokemon_cafe" />
 	<item name="Pokémon Home" drawable="pokemon_home" />
 	<item name="Pokémon Shuffle" drawable="pokemon_shuffle" />
-	<item drawable="pokemon_tcg" />
-	<item drawable="pokemongo" />
+	<item name="Pokémon TCG Online" drawable="pokemon_tcg" />
+	<item name="Pokémon GO" drawable="pokemongo" />
 	<item drawable="polar_flow" />
 	<item drawable="polar_flow_alt" />
 	<item drawable="polaris_office" />
@@ -2843,7 +2858,6 @@
 	<category title="S" />
 	<item drawable="s_converter" />
 	<item drawable="s_health" />
-	<item drawable="s_voice" />
 	<item drawable="saavn" />
 	<item drawable="safari_queue" />
 	<item name="SafeInCloud" drawable="safe__in__cloud" />
@@ -2851,6 +2865,7 @@
 	<item name="SAI" drawable="sai" />
 	<item name="Samosa" drawable="samosa" />
 	<item name="Samsung Care" drawable="samsung_care" />
+	<item name="Samsung Galaxy Labs" drawable="samsung_galaxy_labs" />
 	<item name="Samsung Galaxy Themes" drawable="samsung_galaxy_themes" />
 	<item name="Samsung Game Launcher" drawable="samsung_game_launcher" />
 	<item name="Samsung Gear" drawable="samsung_gear" />
@@ -2860,11 +2875,13 @@
 	<item name="Samsung Link Sharing" drawable="samsung_link_sharing" />
 	<item name="Samsung Max" drawable="samsung_max" />
 	<item name="Samsung Members" drawable="samsung_members" />
+	<item name="Samsung Mobile Print" drawable="samsung_mobile_print" />
 	<item name="Samsung Notes" drawable="samsung_notes" />
 	<item name="Samsung Notes Alt" drawable="samsung_notes_alt" />
 	<item name="Samsung Pass" drawable="samsung_pass" />
 	<item name="Samsung Pay" drawable="samsung_pay" />
 	<item name="Samsung Reminder" drawable="samsung_reminder" />
+	<item name="Samsung S Voice" drawable="samsung_s_voice" />
 	<item name="Samsung Secure Folder" drawable="samsung_secure_folder" />
 	<item name="Samsung Smart Manager" drawable="samsung_smart_manager" />
 	<item name="Samsung Smart Switch" drawable="samsung_smart_switch" />
@@ -2880,7 +2897,7 @@
 	<item drawable="sbb" />
 	<item drawable="sberbank" />
 	<item drawable="sberbank_alt" />
-	<item drawable="scan" />
+	<item name="Scan Me" drawable="scan" />
 	<item drawable="scarlet" />
 	<item name="SCB Easy" drawable="scb_easy" />
 	<item drawable="schalke" />
@@ -2894,7 +2911,8 @@
 	<item name="Scoutmob" drawable="scoutmob" />
 	<item drawable="scrambled_exif" />
 	<item drawable="screen_dimmer" />
-	<item drawable="screen_recorder" />
+	<item name="Screen Recorder Alt" drawable="screen_recorder_alt" />
+	<item name="Screen Recorder" drawable="screen_recorder" />
 	<item drawable="screencam_screen_recorder" />
 	<item drawable="screener" />
 	<item drawable="scribblenauts" />
@@ -2952,16 +2970,16 @@
 	<item drawable="simple_bank" />
 	<item name="Simple Calculator" drawable="simple_calculator" />
 	<item name="Simple Calendar" drawable="simple_calendar" />
-	<item drawable="simple_gallery" />
-	<item drawable="simple_habit" />
-	<item drawable="simple_scrobbler" />
-	<item drawable="simple_scrobbler_alt" />
+	<item name="Simple Gallery" drawable="simple_gallery" />
+	<item name="Simple Habit" drawable="simple_habit" />
+	<item name="Simple Notes" drawable="simple_notes" />
+	<item name="Simple Scrobbler Alt" drawable="simple_scrobbler_alt" />
+	<item name="Simple Scrobbler" drawable="simple_scrobbler" />
 	<item name="Simple Workout Log" drawable="simple_workout_log" />
 	<item drawable="simpledilbert" />
 	<item drawable="simplemind" />
 	<item drawable="simplenote" />
 	<item drawable="simpsons_springfield_game" />
-	<item drawable="sims" />
 	<item drawable="simyo" />
 	<item drawable="singstar" />
 	<item drawable="sirius_xm" />
@@ -2997,7 +3015,7 @@
 	<item drawable="slide" />
 	<item drawable="slidebox" />
 	<item drawable="slowly" />
-	<item drawable="smart_audiobook_player" />
+	<item name="Audiobook" drawable="audiobook" />
 	<item drawable="smart_launcher" />
 	<item drawable="smart_life" />
 	<item drawable="smart_news" />
@@ -3252,6 +3270,7 @@
 	<item drawable="the_post_bank" />
 	<item drawable="the_rock_clock" />
 	<item drawable="the_scene" />
+	<item name="The Sims Mobile" drawable="the_sims" />
 	<item name="The Wall Street Journal" drawable="wallstreet_journal" />
 	<item drawable="the_weather_channel" />
 	<item drawable="theme_chooser" />
@@ -3409,11 +3428,11 @@
 	<item drawable="twilight" />
 	<item drawable="twint" />
 	<item drawable="twitch" />
-	<item name="Twitter Alt Two"  drawable="twitter_alt_two" />
-	<item name="Twitter Alt"  drawable="twitter_alt" />
-	<item name="Twitter Lite Alt Two"  drawable="twitter_lite_alt_two" />
-	<item name="Twitter Lite Alt"  drawable="twitter_lite_alt" />
-	<item name="Twitter Lite"  drawable="twitter_lite" />
+	<item name="Twitter Alt Two" drawable="twitter_alt_two" />
+	<item name="Twitter Alt" drawable="twitter_alt" />
+	<item name="Twitter Lite Alt Two" drawable="twitter_lite_alt_two" />
+	<item name="Twitter Lite Alt" drawable="twitter_lite_alt" />
+	<item name="Twitter Lite" drawable="twitter_lite" />
 	<item name="Twitter" drawable="twitter" />
 	<item name="Two Dots" drawable="two_dots" />
 	<item name="TWRP" drawable="twrp" />
@@ -3480,13 +3499,13 @@
 	<item name="Videoder Video Downloader" drawable="videoder" />
 	<item name="Videostream Chromecast" drawable="videostream" />
 	<item name="Viki" drawable="viki" />
-	<item drawable="vimeo" />
-	<item drawable="vinci" />
-	<item drawable="vine" />
-	<item drawable="viper" />
-	<item drawable="vipps" />
-	<item drawable="virgin_mobile" />
-	<item drawable="virtual_wallet" />
+	<item name="Vimeo" drawable="vimeo" />
+	<item name="Vinci" drawable="vinci" />
+	<item name="Vine" drawable="vine" />
+	<item name="ViPER4Android" drawable="viper" />
+	<item name="Vipps" drawable="vipps" />
+	<item name="Virgin Mobile" drawable="virgin_mobile" />
+	<item name="Virtual Wallet" drawable="virtual_wallet" />
 	<item drawable="visualis" />
 	<item drawable="viu" />
 	<item drawable="vivaldi" />
@@ -3505,6 +3524,7 @@
 	<item drawable="vorrat_barcode_scanner" />
 	<item drawable="vorwerk_my_kobold" />
 	<item name="VPN Unlimited" drawable="vpnunlimited" />
+	<item name="VPN Alt" drawable="vpn_alt" />
 	<item name="VPN" drawable="vpn" />
 	<item name="VPNhub" drawable="vpnhub" />
 	<item name="VR Media Player" drawable="vr_media_player" />
