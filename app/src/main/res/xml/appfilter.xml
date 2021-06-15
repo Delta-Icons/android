@@ -73,6 +73,7 @@
 	<calendar component="ComponentInfo{com.underwood.calendar/com.underwood.calendar.MainActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="calendar_" />
+	<calendar component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.MainActivity}" prefix="calendar_blue_" />
 	<calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
@@ -4644,7 +4645,7 @@
 	<item component="ComponentInfo{org.antivirus/com.antivirus.ui.main.AntivirusMainScreen}" drawable="avg_antivirus" />
 	<item component="ComponentInfo{org.antivirus/com.avast.android.mobilesecurity.app.main.MainActivity}" drawable="avg_antivirus" />
 	<item component="ComponentInfo{org.aussiebroadband.myaussie/org.aussiebroadband.myaussie.MainActivity}" drawable="myaussie" />
-	<item component="ComponentInfo{org.barcodescanner/com.example.barcodescanner.feature.tabs.BottomTabsActivity}" drawable="barcodescanner" />
+	<item component="ComponentInfo{org.barcodescanner/com.example.barcodescanner.feature.tabs.BottomTabsActivity}" drawable="qr_and_barcode_scanner" />
 	<item component="ComponentInfo{org.becu.androidapp/org.cocos2dx.moneymobile.AppActivity}" drawable="becu" />
 	<item component="ComponentInfo{org.bisw.nxbookmarks/org.schabi.ocbookmarks.MainActivity}" drawable="nextcloud_bookmarks" />
 	<item component="ComponentInfo{org.bitbucket.tickytacky.mirrormirror/org.bitbucket.tickytacky.mirrormirror.MainActivity}" drawable="mirror" />
@@ -5176,6 +5177,7 @@
 	<item component="ComponentInfo{ru.tinkoff.invest.course/ru.tinkoff.journal.invest.ui.activities.SplashScreenActivity}" drawable="tinkoff_invest_course" />
 	<item component="ComponentInfo{com.carshering/ru.delimobil.welcome.WelcomeRootActivity}" drawable="delimobil" />
 	<item component="ComponentInfo{com.perm.kate_new_6/com.perm.kate.InitialActivity}" drawable="kate_mobile" />
+	<item component="ComponentInfo{com.perm.kate/com.perm.kate.InitialActivity}" drawable="kate_mobile" />
 	<item component="ComponentInfo{ru.mw/ru.mw.splashScreen.view.SplashScreenActivity}" drawable="qiwi_wallet" />
 	<item component="ComponentInfo{com.deliveryclub/com.deliveryclub.Launcher}" drawable="delivery_club" />
 	<item component="ComponentInfo{ru.yota.android/ru.yota.android.presentation.view.splash.SplashActivity}" drawable="yota" />
@@ -5264,4 +5266,12 @@
 	<item component="ComponentInfo{com.zalora.android/pt.rocket.view.activities.SplashScreenActivity}" drawable="zalora" />
 	<item component="ComponentInfo{aplicaciones.paleta.alterlegionanime/aplicaciones.paleta.alterlegionanime.activities.splash.SplashActivity}" drawable="lucky_patcher" />
 	<item component="ComponentInfo{aplicaciones.paleta.legionanime/aplicaciones.paleta.legionanime.activities.splash.SplashActivity}" drawable="lucky_patcher" />
+	<item component="ComponentInfo{eu.livesport.ErgebnisseLive_com/eu.livesport.LiveSport_cz.SplashScreenActivity}" drawable="flashscore" />
+	<item component="ComponentInfo{eu.livesport.LiveSports_pl2/eu.livesport.LiveSport_cz.SplashScreenActivity}" drawable="flashscore" />
+	<item component="ComponentInfo{eu.livesport.FlashScore_com/eu.livesport.LiveSport_cz.SplashScreenActivity}" drawable="flashscore" />
+	<item component="ComponentInfo{eu.livesport.MeusResultados_com/eu.livesport.LiveSport_cz.SplashScreenActivity}" drawable="flashscore" />
+	<item component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.MainActivity}" drawable="calendar_blue" />
+	<item component="ComponentInfo{com.hld.anzenbokusufake/com.hld.anzenbokusu.calculator}" drawable="calculator" />
+	<item component="ComponentInfo{com.fast.free.unblock.thunder.vpn/com.signallab.thunder.activity.MainActivity}" drawable="thunder_vpn" />
+	<item component="ComponentInfo{photo.editor.photoeditor.photoeditorpro/com.camerasideas.collagemaker.activity.DummyActivity}" drawable="photo_editor_pro" />
 </resources>
