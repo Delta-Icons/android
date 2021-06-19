@@ -247,6 +247,7 @@
 	<item component="ComponentInfo{cl.metro.mobile/c.Splash}" drawable="metro_chile" />
 	<item component="ComponentInfo{cl.recorrido.micritodroid/cl.recorrido.booking.SplashAct_}" drawable="recorrido" />
 	<item component="ComponentInfo{cl.santander.smartphone/cl.santander.smartphone.Carga}" drawable="santander" />
+	<item component="ComponentInfo{cl.uchile.ing.adi.ucursos/cl.uchile.ing.adi.ucursos.activities.MainActivity}" drawable="ucursos" />
 	<item component="ComponentInfo{cl.wom.transformacion.appwommobile/cl.wom.transformacion.appwommobile.actividades.CargaInicialActivity}" drawable="wom" />
 	<item component="ComponentInfo{cm.aptoide.pt/cm.aptoide.pt.view.MainActivity}" drawable="aptoide" />
 	<item component="ComponentInfo{cms.lock/com.cleanmaster.security.applock.ui.MainActivity}" drawable="cm_security" />
@@ -812,6 +813,7 @@
 	<item component="ComponentInfo{com.auxbrain.egginc/com.auxbrain.egginc.EggIncActivity}" drawable="egg_inc" />
 	<item component="ComponentInfo{com.avast.android.cleaner/com.avast.android.cleaner.activity.StartActivity}" drawable="avast_cleanup" />
 	<item component="ComponentInfo{com.avast.android.mobilesecurity/com.avast.android.mobilesecurity.app.main.MainActivity}" drawable="avast" />
+	<item component="ComponentInfo{com.avcrbt.funimate/com.avcrbt.funimate.feature.social.onboarding.StartActivity}" drawable="funimate" />
 	<item component="ComponentInfo{com.aviary.android.feather/com.aviary.android.feather.MainActivity}" drawable="aviary" />
 	<item component="ComponentInfo{com.avira.passwordmanager/com.avira.passwordmanager.activities.SplashActivity}" drawable="avira_pm" />
 	<item component="ComponentInfo{com.avito.android/com.avito.android.Launcher}" drawable="avito" />
@@ -2238,6 +2240,7 @@
 	<item component="ComponentInfo{com.ketchapp.ballz/com.unity3d.player.UnityPlayerActivity}" drawable="ballz" />
 	<item component="ComponentInfo{com.ketchapp.stack/com.unity3d.player.UnityPlayerNativeActivity}" drawable="stack" />
 	<item component="ComponentInfo{com.kevinforeman.nzb360/com.kevinforeman.nzb360.StartupLauncher}" drawable="nzb360" />
+	<item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.SplashActivity}" drawable="tusky" />
 	<item component="ComponentInfo{com.kfactormedia.mycalendarmobile/com.kfactormedia.mycalendarmobile.MyCalendarActivity}" drawable="calendar" />
 	<item component="ComponentInfo{com.kfc.kfcrewards/com.kfc.MainActivity}" drawable="kfc" />
 	<item component="ComponentInfo{com.kfc_polska/com.kfc_polska.ui.activities.OnboardActivity}" drawable="kfc" />
@@ -2834,6 +2837,7 @@
 	<item component="ComponentInfo{com.oculus.home/com.oculus.home.HomeActivity}" drawable="oculus" />
 	<item component="ComponentInfo{com.oculus.twilight/com.oculus.twilight.crossapp.activity.XOCLoginActivity}" drawable="oculus" />
 	<item component="ComponentInfo{com.odin.plesk.mobile/com.odin.plesk.mobile.gui.MainActivity}" drawable="plesk" />
+	<item component="ComponentInfo{com.offerup/com.offerup.MainActivity}" drawable="offerup" />
 	<item component="ComponentInfo{com.official.electronics/com.official.electronics.ui.splash.SplashActivity}" drawable="electronics" />
 	<item component="ComponentInfo{com.ogqcorp.bgh/com.ogqcorp.bgh.activity.MainActivity}" drawable="backgrounds" />
 	<item component="ComponentInfo{com.okcupid.okcupid/com.okcupid.okcupid.activity.MainActivity}" drawable="okcupid" />
@@ -3865,6 +3869,7 @@
 	<item component="ComponentInfo{com.uplexa.upxwallet/com.uplexa.upxwallet.LoginActivity}" drawable="crypto" />
 	<item component="ComponentInfo{com.ups.mobile.android/crc6466778ac8e5630834.SplashActivity}" drawable="ups" />
 	<item component="ComponentInfo{com.upskew.encode/com.upskew.encode.signin.SignInActivity}" drawable="encode" />
+	<item component="ComponentInfo{com.uptodate.android/com.uptodate.android.PermissionAcceptanceActivity}" drawable="uptodate" />
 	<item component="ComponentInfo{com.urbandroid.ddc/com.urbandroid.ddc.activity.TourActivity}" drawable="digital_detox" />
 	<item component="ComponentInfo{com.urbandroid.lux/com.urbandroid.lux.MainActivity}" drawable="twilight" />
 	<item component="ComponentInfo{com.urbandroid.sleep/com.urbandroid.sleep.alarmclock.AlarmClock}" drawable="sleep_as_android" />
@@ -4627,6 +4632,8 @@
 	<item component="ComponentInfo{kynguyen.app.mirror/kynguyen.app.mirror.view.activity.ActSplash}" drawable="mirror" />
 	<item component="ComponentInfo{lapastudio.lapaapp/lapastudio.lapaapp.SplashScreenActivity}" drawable="lapa" />
 	<item component="ComponentInfo{lapastudio.lapaapp/lapastudio.lapaapp.UI.SplashScreenActivity}" drawable="lapa" />
+	<item component="ComponentInfo{launcher.libre.dev/ch.deletescape.lawnchair.LawnchairLauncher}" drawable="librechair_launcher" />
+	<item component="ComponentInfo{launcher.libre.dev/ch.deletescape.lawnchair.settings.ui.SettingsLauncherActivity}" drawable="librechair_settings" />
 	<item component="ComponentInfo{legimi.android.main/legimi.activities.SplashActivity}" drawable="legimi" />
 	<item component="ComponentInfo{livio.pack.lang.en_US/livio.pack.lang.en_US.DictionaryView}" drawable="livio_english" />
 	<item component="ComponentInfo{loseweightapp.loseweightappforwomen.womenworkoutathome/loseweightapp.loseweightappforwomen.womenworkoutathome.activity.SplashActivity}" drawable="workout" />
@@ -5316,9 +5323,4 @@
 	<item component="ComponentInfo{za.com.mrp/za.com.mrp.activity.StoreActivity}" drawable="mrp_fashion" />
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
-	<item component="ComponentInfo{launcher.libre.dev/ch.deletescape.lawnchair.LawnchairLauncher}" drawable="librechair_launcher" />
-	<item component="ComponentInfo{launcher.libre.dev/ch.deletescape.lawnchair.settings.ui.SettingsLauncherActivity}" drawable="librechair_settings" />
-	<item component="ComponentInfo{com.avcrbt.funimate/com.avcrbt.funimate.feature.social.onboarding.StartActivity}" drawable="funimate" />
-	<item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.SplashActivity}" drawable="tusky" />
-	<item component="ComponentInfo{com.offerup/com.offerup.MainActivity}" drawable="offerup" />
 </resources>
