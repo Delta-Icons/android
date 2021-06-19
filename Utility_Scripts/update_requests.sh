@@ -54,3 +54,18 @@ if ((new_count >= old_count)); then
 else
     echo "$new_count Requests Pending (-$(( (old_count - new_count))))"
 fi
+
+if [[ -f new_apps.txt ]]
+then
+    while true; do
+        read -p "Delete new_apps (y/n)?" -n 1 -r
+        case "$REPLY" in 
+          [Yy]* ) rm new_apps.txt
+                  printf "\nDeleted file new_apps.txt\n"
+                  break;;
+          [Nn]* ) echo
+                  exit ;;
+          * ) echo " Please input valid answer.";;
+        esac
+    done
+fi
