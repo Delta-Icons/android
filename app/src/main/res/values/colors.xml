@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--
+        Try to not reference other theme colors, or it may result in
+        an error (android.view.InflateException)
+
+        If you want to reuse colors using referencing, just create a
+        new color and reference it. Do not try to reference existing
+        theme colors.
+        Example -
+        ```
+        Declaring the color
+        <color name="common_color">#FFF</color>
+
+        Referencing the common color
+        <color name="someColor">@color/common_color</color>
+        <color name="anotherColor">@color/common_color</color>
+        ```
+    -->
+
     <color name="colorPrimary">#ECECEC</color>
     <color name="colorPrimaryDark">#222</color>
     <color name="colorAccent">#9ABEFF</color>
