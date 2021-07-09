@@ -1,3 +1,4 @@
+<!--Please avoid automatically sorting categories to keep the current order in place-->
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <version>1</version>
@@ -69,13 +70,13 @@
 	<item name="Files by Google" drawable="google_files" />
 	<item name="Gallery Go by Google Photos" drawable="google_gallery_go" />
 	<item name="Gboard" drawable="google_keyboard" />
+	<item name="Gmail" drawable="google_mail" />
 	<item name="Gmail Alt" drawable="google_mail_alt" />
 	<item name="Gmail Go" drawable="google_mail_go" />
-	<item name="Gmail" drawable="google_mail" />
 	<item name="Google AdSense" drawable="google_ad__sense" />
 	<item name="Google AIY Projects" drawable="google_aiy_projects" />
-	<item name="Google Allo Alt" drawable="google_allo_alt" />
 	<item name="Google Allo" drawable="google_allo" />
+	<item name="Google Allo Alt" drawable="google_allo_alt" />
 	<item name="Google Analytics" drawable="google_analytics" />
 	<item name="Google Apps Device Policy" drawable="google_appsdevicepolicy" />
 	<item name="Google Arts &amp; Culture" drawable="google_arts_and_culture" />
@@ -86,10 +87,10 @@
 	<item name="Google Classroom" drawable="google_classroom" />
 	<item name="Google Cloud Console" drawable="google_cloud_console" />
 	<item name="Google Cloud Search" drawable="google_cloud_search" />
-	<item name="Google Docs Alt" drawable="google_docs_alt" />
 	<item name="Google Docs" drawable="google_docs" />
-	<item name="Google Drive Alt" drawable="google_drive_alt" />
+	<item name="Google Docs Alt" drawable="google_docs_alt" />
 	<item name="Google Drive" drawable="google_drive" />
+	<item name="Google Drive Alt" drawable="google_drive_alt" />
 	<item name="Google Duo" drawable="google_duo" />
 	<item name="Google Earth" drawable="google_earth" />
 	<item name="Google Express" drawable="google_express" />
@@ -97,8 +98,8 @@
 	<item name="Google Family Link for parents" drawable="google_family_link_parents" />
 	<item name="Google Fi" drawable="google_project_fi" />
 	<item name="Google Find My Device" drawable="device_manager" />
-	<item name="Google Fit Alt" drawable="google_fit_alt" />
 	<item name="Google Fit" drawable="google_fit" />
+	<item name="Google Fit Alt" drawable="google_fit_alt" />
 	<item name="Google Go" drawable="google_go" />
 	<item name="Google Home" drawable="google_home" />
 	<item name="Google Inbox" drawable="google_inbox" />
@@ -106,22 +107,22 @@
 	<item name="Google Keep" drawable="google_keep" />
 	<item name="Google Launcher" drawable="google_launcher" />
 	<item name="Google Lens" drawable="google_lens" />
+	<item name="Google Maps" drawable="google_maps" />
 	<item name="Google Maps Alt" drawable="google_maps_alt" />
 	<item name="Google Maps Go" drawable="google_maps_go" />
-	<item name="Google Maps" drawable="google_maps" />
-	<item name="Google Meet Alt" drawable="google_meet_alt" />
 	<item name="Google Meet" drawable="google_meet" />
+	<item name="Google Meet Alt" drawable="google_meet_alt" />
 	<item name="Google My Business" drawable="google_mybusiness" />
 	<item name="Google News &amp; Weather" drawable="google_news_and_weather" />
 	<item name="Google News" drawable="google_news" />
 	<item name="Google One" drawable="google_one" />
 	<item name="Google Opinion Rewards" drawable="google_opinion_rewards" />
-	<item name="Google Pay Alt" drawable="google_pay_alt" />
 	<item name="Google Pay" drawable="google_pay" />
-	<item name="Google Photos Alt Three" drawable="google_photos_alt_three" />
-	<item name="Google Photos Alt Two" drawable="google_photos_alt_two" />
-	<item name="Google Photos Alt" drawable="google_photos_alt" />
+	<item name="Google Pay Alt" drawable="google_pay_alt" />
 	<item name="Google Photos" drawable="google_photos" />
+	<item name="Google Photos Alt" drawable="google_photos_alt" />
+	<item name="Google Photos Alt Two" drawable="google_photos_alt_two" />
+	<item name="Google Photos Alt Three" drawable="google_photos_alt_three" />
 	<item name="Google Pixel Buds" drawable="google_pixel_buds" />
 	<item name="Google Play Books" drawable="google_play_books" />
 	<item name="Google Play Console" drawable="google_play_developer_console" />
@@ -139,14 +140,14 @@
 	<item name="Google Tasks" drawable="google_tasks" />
 	<item name="Google Translate" drawable="google_translate" />
 	<item name="Google Trips" drawable="google_trips" />
+	<item name="Google Voice" drawable="google_voice" />
 	<item name="Google Voice Alt" drawable="google_voice_alt" />
 	<item name="Google Voice Search" drawable="google_voice_search" />
-	<item name="Google Voice" drawable="google_voice" />
 	<item name="Google Wallet" drawable="google_wallet" />
 	<item name="Google Wifi" drawable="google_wifi" />
 	<item name="Google" drawable="google" />
-	<item name="Google+ Alt" drawable="google_plus_alt" />
 	<item name="Google+" drawable="google_plus" />
+	<item name="Google+ Alt" drawable="google_plus_alt" />
 	<item name="Hangouts" drawable="google_hangouts" />
 	<item name="Material Gallery" drawable="material_gallery" />
 	<item name="Measure" drawable="google_measure" />
@@ -156,21 +157,22 @@
 	<item name="Playbook" drawable="google_playbook" />
 	<item name="Recorder" drawable="google_recorder" />
 	<item name="SIM Toolkit" drawable="sim_toolkit" />
+	<item name="Snapseed" drawable="snapseed" />
 	<item name="Socratic" drawable="google_socratic" />
 	<item name="Spaces" drawable="google_spaces" />
 	<item name="Stadia" drawable="google_stadia" />
 	<item name="Wallpapers" drawable="google_wallpapers" />
 	<item name="Wear OS Center" drawable="android_wear_center" />
+	<item name="YouTube" drawable="youtube" />
 	<item name="YouTube Alt" drawable="youtube_alt" />
-	<item name="YouTube Gaming Alt" drawable="youtube_gaming_alt" />
 	<item name="YouTube Gaming" drawable="youtube_gaming" />
+	<item name="YouTube Gaming Alt" drawable="youtube_gaming_alt" />
 	<item name="YouTube Go" drawable="youtube_go" />
 	<item name="YouTube Kids" drawable="youtube_kids" />
 	<item name="YouTube Music" drawable="youtube_music" />
-	<item name="YouTube Studio Alt" drawable="youtube_studio_alt" />
 	<item name="YouTube Studio" drawable="youtube_studio" />
+	<item name="YouTube Studio Alt" drawable="youtube_studio_alt" />
 	<item name="YouTube TV" drawable="youtube_tv" />
-	<item name="YouTube" drawable="youtube" />
 	
 	<category title="Folders" />
 	<item name="Folder Camera" drawable="folder_camera" />
@@ -208,8 +210,8 @@
 	<item name="2GIS" drawable="two_gis" />
 	<item name="30 Day Fitness Challenge" drawable="thirty_day_fitness_challenge" />
 	<item name="365Scores" drawable="three_hundred_sixty_five_scores" />
-	<item name="4PDA Alt" drawable="four_pda_alt" />
 	<item name="4PDA" drawable="four_pda" />
+	<item name="4PDA Alt" drawable="four_pda_alt" />
 	<item name="4shared" drawable="four_shared" />
 	<item name="50 US States Map" drawable="fifty_us_states" />
 	<item name="500 Firepaper" drawable="fivehundred_firepaper" />
@@ -226,7 +228,7 @@
 	<item name="9gag" drawable="nine_gag" />
 
 	<category title="A" />
-	<item name="Aarogya Setu" drawable="health_bridge" />
+	<item name="Aarogya Setu" drawable="aarogya_setu" />
 	<item name="Abbey" drawable="abbey" />
 	<item name="ABC News" drawable="abc_news" />
 	<item name="Abfall Esslingen" drawable="abfall_esslingen" />
@@ -243,8 +245,8 @@
 	<item name="Acorn" drawable="acorn" />
 	<item name="Acorns" drawable="acorns" />
 	<item name="ACT Fibernet" drawable="act_fibernet" />
-	<item name="Action Launcher Alt" drawable="action_launcher_alt" />
 	<item name="Action Launcher" drawable="action_launcher" />
+	<item name="Action Launcher Alt" drawable="action_launcher_alt" />
 	<item name="Action" drawable="action" />
 	<item name="ActionDash" drawable="action_dash" />
 	<item name="ActorDetector" drawable="actor_detector" />
@@ -259,8 +261,8 @@
 	<item name="Adidas Confirmed" drawable="adidas_confirmed" />
 	<item name="Adidas Training" drawable="adidas_training" />
 	<item name="Adidas" drawable="adidas" />
-	<item name="Adobe Capture Alt" drawable="adobe_capture_alt" />
 	<item name="Adobe Capture" drawable="adobe_capture" />
+	<item name="Adobe Capture Alt" drawable="adobe_capture_alt" />
 	<item name="Adobe Clip" drawable="adobe_clip" />
 	<item name="Adobe Comp" drawable="adobe_comp" />
 	<item name="Adobe Creative Cloud" drawable="adobe_cc" />
@@ -274,11 +276,11 @@
 	<item name="Adobe Photoshop Sketch" drawable="adobe_photoshop_sketch" />
 	<item name="Adobe Premiere Rush" drawable="adobe_premiere_rush" />
 	<item name="Adobe Reader" drawable="adobe_reader" />
-	<item name="Adobe Scan Alt" drawable="adobe_scan_alt" />
 	<item name="Adobe Scan" drawable="adobe_scan" />
+	<item name="Adobe Scan Alt" drawable="adobe_scan_alt" />
 	<item name="Adobe Spark Post" drawable="adobe_spark_post" />
-	<item name="Adobe XD Alt" drawable="adobe_xd_alt" />
 	<item name="Adobe XD" drawable="adobe_xd" />
+	<item name="Adobe XD Alt" drawable="adobe_xd_alt" />
 	<item name="ADP" drawable="adp" />
 	<item name="ADV Screen Recorder" drawable="adv_screen_recorder" />
 	<item name="Advanced Download Manager" drawable="adm" />
@@ -304,9 +306,9 @@
 	<item name="AirDroid" drawable="airdroid" />
 	<item name="Airly" drawable="airly" />
 	<item name="Airtable" drawable="airtable" />
+	<item name="Airtel" drawable="airtel" />
 	<item name="Airtel Alt" drawable="airtel_alt" />
 	<item name="Airtel XStream" drawable="airtel_xstream" />
-	<item name="Airtel" drawable="airtel" />
 	<item name="AirVisual" drawable="airvisual" />
 	<item name="Ajio" drawable="ajio" />
 	<item name="Akademika" drawable="akademika" />
@@ -331,18 +333,18 @@
 	<item name="Allegro" drawable="allegro" />
 	<item name="Allstate" drawable="allstate" />
 	<item name="Allstream" drawable="allstream" />
-	<item name="AllTrails Alt" drawable="all__trails_alt" />
 	<item name="AllTrails" drawable="all__trails" />
+	<item name="AllTrails Alt" drawable="all__trails_alt" />
 	<item name="Ally Mobile" drawable="ally_mobile" />
-	<item name="Alto Alt" drawable="alto_alt" />
 	<item name="Alto" drawable="alto" />
+	<item name="Alto Alt" drawable="alto_alt" />
 	<item name="Alto's Adventure" drawable="altos_adventure" />
 	<item name="Alto's Odyssey" drawable="altos_odyssey" />
 	<item name="ALZip" drawable="alzip" />
 	<item name="Amaze File Manager" drawable="amaze_filemanager" />
 	<item name="Amazon A to Z" drawable="amazon_a_to_z" />
-	<item name="Amazon Alexa Alt" drawable="amazon_alexa_alt" />
 	<item name="Amazon Alexa" drawable="amazon_alexa" />
+	<item name="Amazon Alexa Alt" drawable="amazon_alexa_alt" />
 	<item name="Amazon AWS Console" drawable="amazon_aws_console" />
 	<item name="Amazon Drive" drawable="amazon_drive" />
 	<item name="Amazon Flex" drawable="amazon_flex" />
@@ -392,16 +394,16 @@
 	<item name="APKPure" drawable="apkpure" />
 	<item name="APlayer" drawable="aplayer" />
 	<item name="App Cloner" drawable="app_cloner" />
-	<item name="App Drawer " drawable="app_drawer" />
-	<item name="App Drawer Eight" drawable="app_drawer_eight" />
-	<item name="App Drawer Five" drawable="app_drawer_five" />
-	<item name="App Drawer Four" drawable="app_drawer_four" />
-	<item name="App Drawer Nine" drawable="app_drawer_nine" />
-	<item name="App Drawer Seven" drawable="app_drawer_seven" />
-	<item name="App Drawer Six" drawable="app_drawer_six" />
-	<item name="App Drawer Ten" drawable="app_drawer_ten" />
-	<item name="App Drawer Three" drawable="app_drawer_three" />
+	<item name="App Drawer" drawable="app_drawer" />
 	<item name="App Drawer Two" drawable="app_drawer_two" />
+	<item name="App Drawer Three" drawable="app_drawer_three" />
+	<item name="App Drawer Four" drawable="app_drawer_four" />
+	<item name="App Drawer Five" drawable="app_drawer_five" />
+	<item name="App Drawer Six" drawable="app_drawer_six" />
+	<item name="App Drawer Seven" drawable="app_drawer_seven" />
+	<item name="App Drawer Eight" drawable="app_drawer_eight" />
+	<item name="App Drawer Nine" drawable="app_drawer_nine" />
+	<item name="App Drawer Ten" drawable="app_drawer_ten" />
 	<item name="App Lock" drawable="applock" />
 	<item name="App Manager" drawable="app_manager" />
 	<item name="App Source" drawable="app_source" />
@@ -428,18 +430,18 @@
 	<item name="ARD Mediathek" drawable="ard_mediathek" />
 	<item name="Arduino IDE" drawable="arduino_ide" />
 	<item name="ARK" drawable="ark" />
-	<item name="Arknights Alt" drawable="arknights_alt" />
 	<item name="Arknights" drawable="arknights" />
+	<item name="Arknights Alt" drawable="arknights_alt" />
 	<item name="Arlo" drawable="arlo" />
 	<item name="Around" drawable="around" />
 	<item name="Arrow Launcher" drawable="arrow_launcher" />
-	<item name="ArtStation Alt Two" drawable="artstation_alt_two" />
-	<item name="ArtStation Alt" drawable="artstation_alt" />
 	<item name="ArtStation" drawable="artstation" />
+	<item name="ArtStation Alt" drawable="artstation_alt" />
+	<item name="ArtStation Alt Two" drawable="artstation_alt_two" />
 	<item name="Aruba Cloud" drawable="arubacloud" />
 	<item name="ARzone" drawable="ar_zone" />
-	<item name="Asana Alt" drawable="asana_alt" />
 	<item name="Asana" drawable="asana" />
+	<item name="Asana Alt" drawable="asana_alt" />
 	<item name="ASAP Launcher" drawable="asap_launcher" />
 	<item name="ASKfm" drawable="ask_fm" />
 	<item name="Asphalt 8" drawable="asphalt_8" />
@@ -464,8 +466,8 @@
 	<item name="AudioFX" drawable="audiofx" />
 	<item name="AudioLab" drawable="audiolab" />
 	<item name="Audiomack" drawable="audiomack" />
-	<item name="Aurora Droid Alt" drawable="aurora_droid_alt" />
 	<item name="Aurora Droid" drawable="aurora_droid" />
+	<item name="Aurora Droid Alt" drawable="aurora_droid_alt" />
 	<item name="Aurora Store" drawable="aurora_store" />
 	<item name="Authenticator Plus" drawable="mufri_authenticator" />
 	<item name="Authy" drawable="authy" />
@@ -498,9 +500,9 @@
 	<item name="Backgrounds" drawable="backgrounds" />
 	<item name="Backup and Restore" drawable="mediatek_backup" />
 	<item name="BaconReader for Reddit" drawable="bacon_reader" />
+	<item name="Badoo" drawable="badoo" />
 	<item name="Badoo Alt" drawable="badoo_alt" />
 	<item name="Badoo Lite" drawable="badoo_lite" />
-	<item name="Badoo" drawable="badoo" />
 	<item name="Baidu" drawable="baidu" />
 	<item name="Ballz" drawable="ballz" />
 	<item name="Banco do Brasil" drawable="banco_do_brasil" />
@@ -514,8 +516,8 @@
 	<item name="BandLab" drawable="bandlab" />
 	<item name="Bandsintown" drawable="bandsintown" />
 	<item name="Bang &amp; Olufsen" drawable="bang_and_olufsen" />
-	<item name="BanG Dream! Alt" drawable="bang_dream_alt" />
 	<item name="BanG Dream!" drawable="bang_dream" />
+	<item name="BanG Dream! Alt" drawable="bang_dream_alt" />
 	<item name="Banggood" drawable="banggood" />
 	<item name="Bank of America" drawable="bank_of_america" />
 	<item name="Bank" drawable="bank" />
@@ -579,8 +581,8 @@
 	<item name="Bild der Frau Rezepte" drawable="bild_der_frau_rezepte" />
 	<item name="bilibili" drawable="bilibili" />
 	<item name="bima+" drawable="bima_plus" />
-	<item name="Binance Alt" drawable="binance_alt" />
 	<item name="Binance" drawable="binance" />
+	<item name="Binance Alt" drawable="binance_alt" />
 	<item name="Binary Eye" drawable="binary_eye" />
 	<item name="BIOS Beep" drawable="biosbeep" />
 	<item name="Bird" drawable="bird" />
@@ -589,8 +591,8 @@
 	<item name="Bitmoji" drawable="bitmoji" />
 	<item name="BitTorrent" drawable="bit__torrent" />
 	<item name="Bitwarden" drawable="bitwarden" />
-	<item name="Bixby Alt" drawable="bixby_alt" />
 	<item name="Bixby" drawable="bixby" />
+	<item name="Bixby Alt" drawable="bixby_alt" />
 	<item name="bKash" drawable="bkash" />
 	<item name="BlaBlaCar" drawable="bla__bla__car" />
 	<item name="BlackBerry Device Search" drawable="blackberry_device_search" />
@@ -632,8 +634,8 @@
 	<item name="BombSquad" drawable="bomb_squad" />
 	<item name="Book of Unwritten Tales 2" drawable="bookofunwrittentales2" />
 	<item name="Bookdose Path" drawable="bookdose_path" />
-	<item name="Booking.com Alt" drawable="booking_com_alt" />
 	<item name="Booking.com" drawable="booking_com" />
+	<item name="Booking.com Alt" drawable="booking_com_alt" />
 	<item name="Bookmate" drawable="bookmate" />
 	<item name="BookMyShow" drawable="bookmyshow" />
 	<item name="Booksy" drawable="booksy" />
@@ -647,8 +649,8 @@
 	<item name="Bose Connect" drawable="boseconnect" />
 	<item name="Bose Sleep" drawable="bosesleep" />
 	<item name="BOTIM" drawable="botim" />
-	<item name="Bouncer Alt" drawable="bouncer_alt" />
 	<item name="Bouncer" drawable="bouncer" />
+	<item name="Bouncer Alt" drawable="bouncer_alt" />
 	<item name="Box" drawable="box" />
 	<item name="Boxcryptor" drawable="boxcryptor" />
 	<item name="Boxer" drawable="boxer" />
@@ -669,9 +671,9 @@
 	<item name="BRImo" drawable="brimo" />
 	<item name="Bring!" drawable="bring" />
 	<item name="Bromite" drawable="bromite" />
-	<item name="Browser Alt Two" drawable="browser_alt_two" />
-	<item name="Browser Alt" drawable="browser_alt" />
 	<item name="Browser" drawable="browser" />
+	<item name="Browser Alt" drawable="browser_alt" />
+	<item name="Browser Alt Two" drawable="browser_alt_two" />
 	<item name="Brubank" drawable="brubank" />
 	<item name="BSPB" drawable="bspb" />
 	<item name="Bualuang MBanking" drawable="bualuangm" />
@@ -712,7 +714,16 @@
 	<item name="Calculator" drawable="calculator" />
 	<item name="Calculator++" drawable="calculator_plus_plus" />
 	<item name="Calcy IV" drawable="calcy_iv" />
+	<item name="Calendar" drawable="calendar" />
 	<item name="Calendar 1" drawable="calendar_1" />
+	<item name="Calendar 2" drawable="calendar_2" />
+	<item name="Calendar 3" drawable="calendar_3" />
+	<item name="Calendar 4" drawable="calendar_4" />
+	<item name="Calendar 5" drawable="calendar_5" />
+	<item name="Calendar 6" drawable="calendar_6" />
+	<item name="Calendar 7" drawable="calendar_7" />
+	<item name="Calendar 8" drawable="calendar_8" />
+	<item name="Calendar 9" drawable="calendar_9" />
 	<item name="Calendar 10" drawable="calendar_10" />
 	<item name="Calendar 11" drawable="calendar_11" />
 	<item name="Calendar 12" drawable="calendar_12" />
@@ -723,7 +734,6 @@
 	<item name="Calendar 17" drawable="calendar_17" />
 	<item name="Calendar 18" drawable="calendar_18" />
 	<item name="Calendar 19" drawable="calendar_19" />
-	<item name="Calendar 2" drawable="calendar_2" />
 	<item name="Calendar 20" drawable="calendar_20" />
 	<item name="Calendar 21" drawable="calendar_21" />
 	<item name="Calendar 22" drawable="calendar_22" />
@@ -734,16 +744,18 @@
 	<item name="Calendar 27" drawable="calendar_27" />
 	<item name="Calendar 28" drawable="calendar_28" />
 	<item name="Calendar 29" drawable="calendar_29" />
-	<item name="Calendar 3" drawable="calendar_3" />
 	<item name="Calendar 30" drawable="calendar_30" />
 	<item name="Calendar 31" drawable="calendar_31" />
-	<item name="Calendar 4" drawable="calendar_4" />
-	<item name="Calendar 5" drawable="calendar_5" />
-	<item name="Calendar 6" drawable="calendar_6" />
-	<item name="Calendar 7" drawable="calendar_7" />
-	<item name="Calendar 8" drawable="calendar_8" />
-	<item name="Calendar 9" drawable="calendar_9" />
+	<item name="Calendar Blue" drawable="calendar_blue" />
 	<item name="Calendar Blue 1" drawable="calendar_blue_1" />
+	<item name="Calendar Blue 2" drawable="calendar_blue_2" />
+	<item name="Calendar Blue 3" drawable="calendar_blue_3" />
+	<item name="Calendar Blue 4" drawable="calendar_blue_4" />
+	<item name="Calendar Blue 5" drawable="calendar_blue_5" />
+	<item name="Calendar Blue 6" drawable="calendar_blue_6" />
+	<item name="Calendar Blue 7" drawable="calendar_blue_7" />
+	<item name="Calendar Blue 8" drawable="calendar_blue_8" />
+	<item name="Calendar Blue 9" drawable="calendar_blue_9" />
 	<item name="Calendar Blue 10" drawable="calendar_blue_10" />
 	<item name="Calendar Blue 11" drawable="calendar_blue_11" />
 	<item name="Calendar Blue 12" drawable="calendar_blue_12" />
@@ -754,7 +766,6 @@
 	<item name="Calendar Blue 17" drawable="calendar_blue_17" />
 	<item name="Calendar Blue 18" drawable="calendar_blue_18" />
 	<item name="Calendar Blue 19" drawable="calendar_blue_19" />
-	<item name="Calendar Blue 2" drawable="calendar_blue_2" />
 	<item name="Calendar Blue 20" drawable="calendar_blue_20" />
 	<item name="Calendar Blue 21" drawable="calendar_blue_21" />
 	<item name="Calendar Blue 22" drawable="calendar_blue_22" />
@@ -765,17 +776,18 @@
 	<item name="Calendar Blue 27" drawable="calendar_blue_27" />
 	<item name="Calendar Blue 28" drawable="calendar_blue_28" />
 	<item name="Calendar Blue 29" drawable="calendar_blue_29" />
-	<item name="Calendar Blue 3" drawable="calendar_blue_3" />
 	<item name="Calendar Blue 30" drawable="calendar_blue_30" />
 	<item name="Calendar Blue 31" drawable="calendar_blue_31" />
-	<item name="Calendar Blue 4" drawable="calendar_blue_4" />
-	<item name="Calendar Blue 5" drawable="calendar_blue_5" />
-	<item name="Calendar Blue 6" drawable="calendar_blue_6" />
-	<item name="Calendar Blue 7" drawable="calendar_blue_7" />
-	<item name="Calendar Blue 8" drawable="calendar_blue_8" />
-	<item name="Calendar Blue 9" drawable="calendar_blue_9" />
-	<item name="Calendar Blue" drawable="calendar_blue" />
+	<item name="Calendar Brown" drawable="calendar_brown" />
 	<item name="Calendar Brown 1" drawable="calendar_brown_1" />
+	<item name="Calendar Brown 2" drawable="calendar_brown_2" />
+	<item name="Calendar Brown 3" drawable="calendar_brown_3" />
+	<item name="Calendar Brown 4" drawable="calendar_brown_4" />
+	<item name="Calendar Brown 5" drawable="calendar_brown_5" />
+	<item name="Calendar Brown 6" drawable="calendar_brown_6" />
+	<item name="Calendar Brown 7" drawable="calendar_brown_7" />
+	<item name="Calendar Brown 8" drawable="calendar_brown_8" />
+	<item name="Calendar Brown 9" drawable="calendar_brown_9" />
 	<item name="Calendar Brown 10" drawable="calendar_brown_10" />
 	<item name="Calendar Brown 11" drawable="calendar_brown_11" />
 	<item name="Calendar Brown 12" drawable="calendar_brown_12" />
@@ -786,7 +798,6 @@
 	<item name="Calendar Brown 17" drawable="calendar_brown_17" />
 	<item name="Calendar Brown 18" drawable="calendar_brown_18" />
 	<item name="Calendar Brown 19" drawable="calendar_brown_19" />
-	<item name="Calendar Brown 2" drawable="calendar_brown_2" />
 	<item name="Calendar Brown 20" drawable="calendar_brown_20" />
 	<item name="Calendar Brown 21" drawable="calendar_brown_21" />
 	<item name="Calendar Brown 22" drawable="calendar_brown_22" />
@@ -797,17 +808,18 @@
 	<item name="Calendar Brown 27" drawable="calendar_brown_27" />
 	<item name="Calendar Brown 28" drawable="calendar_brown_28" />
 	<item name="Calendar Brown 29" drawable="calendar_brown_29" />
-	<item name="Calendar Brown 3" drawable="calendar_brown_3" />
 	<item name="Calendar Brown 30" drawable="calendar_brown_30" />
 	<item name="Calendar Brown 31" drawable="calendar_brown_31" />
-	<item name="Calendar Brown 4" drawable="calendar_brown_4" />
-	<item name="Calendar Brown 5" drawable="calendar_brown_5" />
-	<item name="Calendar Brown 6" drawable="calendar_brown_6" />
-	<item name="Calendar Brown 7" drawable="calendar_brown_7" />
-	<item name="Calendar Brown 8" drawable="calendar_brown_8" />
-	<item name="Calendar Brown 9" drawable="calendar_brown_9" />
-	<item name="Calendar Brown" drawable="calendar_brown" />
+	<item name="Calendar Cyan" drawable="calendar_cyan" />
 	<item name="Calendar Cyan 1" drawable="calendar_cyan_1" />
+	<item name="Calendar Cyan 2" drawable="calendar_cyan_2" />
+	<item name="Calendar Cyan 3" drawable="calendar_cyan_3" />
+	<item name="Calendar Cyan 4" drawable="calendar_cyan_4" />
+	<item name="Calendar Cyan 5" drawable="calendar_cyan_5" />
+	<item name="Calendar Cyan 6" drawable="calendar_cyan_6" />
+	<item name="Calendar Cyan 7" drawable="calendar_cyan_7" />
+	<item name="Calendar Cyan 8" drawable="calendar_cyan_8" />
+	<item name="Calendar Cyan 9" drawable="calendar_cyan_9" />
 	<item name="Calendar Cyan 10" drawable="calendar_cyan_10" />
 	<item name="Calendar Cyan 11" drawable="calendar_cyan_11" />
 	<item name="Calendar Cyan 12" drawable="calendar_cyan_12" />
@@ -818,7 +830,6 @@
 	<item name="Calendar Cyan 17" drawable="calendar_cyan_17" />
 	<item name="Calendar Cyan 18" drawable="calendar_cyan_18" />
 	<item name="Calendar Cyan 19" drawable="calendar_cyan_19" />
-	<item name="Calendar Cyan 2" drawable="calendar_cyan_2" />
 	<item name="Calendar Cyan 20" drawable="calendar_cyan_20" />
 	<item name="Calendar Cyan 21" drawable="calendar_cyan_21" />
 	<item name="Calendar Cyan 22" drawable="calendar_cyan_22" />
@@ -829,17 +840,18 @@
 	<item name="Calendar Cyan 27" drawable="calendar_cyan_27" />
 	<item name="Calendar Cyan 28" drawable="calendar_cyan_28" />
 	<item name="Calendar Cyan 29" drawable="calendar_cyan_29" />
-	<item name="Calendar Cyan 3" drawable="calendar_cyan_3" />
 	<item name="Calendar Cyan 30" drawable="calendar_cyan_30" />
 	<item name="Calendar Cyan 31" drawable="calendar_cyan_31" />
-	<item name="Calendar Cyan 4" drawable="calendar_cyan_4" />
-	<item name="Calendar Cyan 5" drawable="calendar_cyan_5" />
-	<item name="Calendar Cyan 6" drawable="calendar_cyan_6" />
-	<item name="Calendar Cyan 7" drawable="calendar_cyan_7" />
-	<item name="Calendar Cyan 8" drawable="calendar_cyan_8" />
-	<item name="Calendar Cyan 9" drawable="calendar_cyan_9" />
-	<item name="Calendar Cyan" drawable="calendar_cyan" />
+	<item name="Calendar Gray" drawable="calendar_gray" />
 	<item name="Calendar Gray 1" drawable="calendar_gray_1" />
+	<item name="Calendar Gray 2" drawable="calendar_gray_2" />
+	<item name="Calendar Gray 3" drawable="calendar_gray_3" />
+	<item name="Calendar Gray 4" drawable="calendar_gray_4" />
+	<item name="Calendar Gray 5" drawable="calendar_gray_5" />
+	<item name="Calendar Gray 6" drawable="calendar_gray_6" />
+	<item name="Calendar Gray 7" drawable="calendar_gray_7" />
+	<item name="Calendar Gray 8" drawable="calendar_gray_8" />
+	<item name="Calendar Gray 9" drawable="calendar_gray_9" />
 	<item name="Calendar Gray 10" drawable="calendar_gray_10" />
 	<item name="Calendar Gray 11" drawable="calendar_gray_11" />
 	<item name="Calendar Gray 12" drawable="calendar_gray_12" />
@@ -850,7 +862,6 @@
 	<item name="Calendar Gray 17" drawable="calendar_gray_17" />
 	<item name="Calendar Gray 18" drawable="calendar_gray_18" />
 	<item name="Calendar Gray 19" drawable="calendar_gray_19" />
-	<item name="Calendar Gray 2" drawable="calendar_gray_2" />
 	<item name="Calendar Gray 20" drawable="calendar_gray_20" />
 	<item name="Calendar Gray 21" drawable="calendar_gray_21" />
 	<item name="Calendar Gray 22" drawable="calendar_gray_22" />
@@ -861,17 +872,18 @@
 	<item name="Calendar Gray 27" drawable="calendar_gray_27" />
 	<item name="Calendar Gray 28" drawable="calendar_gray_28" />
 	<item name="Calendar Gray 29" drawable="calendar_gray_29" />
-	<item name="Calendar Gray 3" drawable="calendar_gray_3" />
 	<item name="Calendar Gray 30" drawable="calendar_gray_30" />
 	<item name="Calendar Gray 31" drawable="calendar_gray_31" />
-	<item name="Calendar Gray 4" drawable="calendar_gray_4" />
-	<item name="Calendar Gray 5" drawable="calendar_gray_5" />
-	<item name="Calendar Gray 6" drawable="calendar_gray_6" />
-	<item name="Calendar Gray 7" drawable="calendar_gray_7" />
-	<item name="Calendar Gray 8" drawable="calendar_gray_8" />
-	<item name="Calendar Gray 9" drawable="calendar_gray_9" />
-	<item name="Calendar Gray" drawable="calendar_gray" />
+	<item name="Calendar Green" drawable="calendar_green" />
 	<item name="Calendar Green 1" drawable="calendar_green_1" />
+	<item name="Calendar Green 2" drawable="calendar_green_2" />
+	<item name="Calendar Green 3" drawable="calendar_green_3" />
+	<item name="Calendar Green 4" drawable="calendar_green_4" />
+	<item name="Calendar Green 5" drawable="calendar_green_5" />
+	<item name="Calendar Green 6" drawable="calendar_green_6" />
+	<item name="Calendar Green 7" drawable="calendar_green_7" />
+	<item name="Calendar Green 8" drawable="calendar_green_8" />
+	<item name="Calendar Green 9" drawable="calendar_green_9" />
 	<item name="Calendar Green 10" drawable="calendar_green_10" />
 	<item name="Calendar Green 11" drawable="calendar_green_11" />
 	<item name="Calendar Green 12" drawable="calendar_green_12" />
@@ -882,7 +894,6 @@
 	<item name="Calendar Green 17" drawable="calendar_green_17" />
 	<item name="Calendar Green 18" drawable="calendar_green_18" />
 	<item name="Calendar Green 19" drawable="calendar_green_19" />
-	<item name="Calendar Green 2" drawable="calendar_green_2" />
 	<item name="Calendar Green 20" drawable="calendar_green_20" />
 	<item name="Calendar Green 21" drawable="calendar_green_21" />
 	<item name="Calendar Green 22" drawable="calendar_green_22" />
@@ -893,17 +904,18 @@
 	<item name="Calendar Green 27" drawable="calendar_green_27" />
 	<item name="Calendar Green 28" drawable="calendar_green_28" />
 	<item name="Calendar Green 29" drawable="calendar_green_29" />
-	<item name="Calendar Green 3" drawable="calendar_green_3" />
 	<item name="Calendar Green 30" drawable="calendar_green_30" />
 	<item name="Calendar Green 31" drawable="calendar_green_31" />
-	<item name="Calendar Green 4" drawable="calendar_green_4" />
-	<item name="Calendar Green 5" drawable="calendar_green_5" />
-	<item name="Calendar Green 6" drawable="calendar_green_6" />
-	<item name="Calendar Green 7" drawable="calendar_green_7" />
-	<item name="Calendar Green 8" drawable="calendar_green_8" />
-	<item name="Calendar Green 9" drawable="calendar_green_9" />
-	<item name="Calendar Green" drawable="calendar_green" />
+	<item name="Calendar Orange" drawable="calendar_orange" />
 	<item name="Calendar Orange 1" drawable="calendar_orange_1" />
+	<item name="Calendar Orange 2" drawable="calendar_orange_2" />
+	<item name="Calendar Orange 3" drawable="calendar_orange_3" />
+	<item name="Calendar Orange 4" drawable="calendar_orange_4" />
+	<item name="Calendar Orange 5" drawable="calendar_orange_5" />
+	<item name="Calendar Orange 6" drawable="calendar_orange_6" />
+	<item name="Calendar Orange 7" drawable="calendar_orange_7" />
+	<item name="Calendar Orange 8" drawable="calendar_orange_8" />
+	<item name="Calendar Orange 9" drawable="calendar_orange_9" />
 	<item name="Calendar Orange 10" drawable="calendar_orange_10" />
 	<item name="Calendar Orange 11" drawable="calendar_orange_11" />
 	<item name="Calendar Orange 12" drawable="calendar_orange_12" />
@@ -914,7 +926,6 @@
 	<item name="Calendar Orange 17" drawable="calendar_orange_17" />
 	<item name="Calendar Orange 18" drawable="calendar_orange_18" />
 	<item name="Calendar Orange 19" drawable="calendar_orange_19" />
-	<item name="Calendar Orange 2" drawable="calendar_orange_2" />
 	<item name="Calendar Orange 20" drawable="calendar_orange_20" />
 	<item name="Calendar Orange 21" drawable="calendar_orange_21" />
 	<item name="Calendar Orange 22" drawable="calendar_orange_22" />
@@ -925,17 +936,18 @@
 	<item name="Calendar Orange 27" drawable="calendar_orange_27" />
 	<item name="Calendar Orange 28" drawable="calendar_orange_28" />
 	<item name="Calendar Orange 29" drawable="calendar_orange_29" />
-	<item name="Calendar Orange 3" drawable="calendar_orange_3" />
 	<item name="Calendar Orange 30" drawable="calendar_orange_30" />
 	<item name="Calendar Orange 31" drawable="calendar_orange_31" />
-	<item name="Calendar Orange 4" drawable="calendar_orange_4" />
-	<item name="Calendar Orange 5" drawable="calendar_orange_5" />
-	<item name="Calendar Orange 6" drawable="calendar_orange_6" />
-	<item name="Calendar Orange 7" drawable="calendar_orange_7" />
-	<item name="Calendar Orange 8" drawable="calendar_orange_8" />
-	<item name="Calendar Orange 9" drawable="calendar_orange_9" />
-	<item name="Calendar Orange" drawable="calendar_orange" />
+	<item name="Calendar Purple" drawable="calendar_purple" />
 	<item name="Calendar Purple 1" drawable="calendar_purple_1" />
+	<item name="Calendar Purple 2" drawable="calendar_purple_2" />
+	<item name="Calendar Purple 3" drawable="calendar_purple_3" />
+	<item name="Calendar Purple 4" drawable="calendar_purple_4" />
+	<item name="Calendar Purple 5" drawable="calendar_purple_5" />
+	<item name="Calendar Purple 6" drawable="calendar_purple_6" />
+	<item name="Calendar Purple 7" drawable="calendar_purple_7" />
+	<item name="Calendar Purple 8" drawable="calendar_purple_8" />
+	<item name="Calendar Purple 9" drawable="calendar_purple_9" />
 	<item name="Calendar Purple 10" drawable="calendar_purple_10" />
 	<item name="Calendar Purple 11" drawable="calendar_purple_11" />
 	<item name="Calendar Purple 12" drawable="calendar_purple_12" />
@@ -946,7 +958,6 @@
 	<item name="Calendar Purple 17" drawable="calendar_purple_17" />
 	<item name="Calendar Purple 18" drawable="calendar_purple_18" />
 	<item name="Calendar Purple 19" drawable="calendar_purple_19" />
-	<item name="Calendar Purple 2" drawable="calendar_purple_2" />
 	<item name="Calendar Purple 20" drawable="calendar_purple_20" />
 	<item name="Calendar Purple 21" drawable="calendar_purple_21" />
 	<item name="Calendar Purple 22" drawable="calendar_purple_22" />
@@ -957,17 +968,19 @@
 	<item name="Calendar Purple 27" drawable="calendar_purple_27" />
 	<item name="Calendar Purple 28" drawable="calendar_purple_28" />
 	<item name="Calendar Purple 29" drawable="calendar_purple_29" />
-	<item name="Calendar Purple 3" drawable="calendar_purple_3" />
 	<item name="Calendar Purple 30" drawable="calendar_purple_30" />
 	<item name="Calendar Purple 31" drawable="calendar_purple_31" />
-	<item name="Calendar Purple 4" drawable="calendar_purple_4" />
-	<item name="Calendar Purple 5" drawable="calendar_purple_5" />
-	<item name="Calendar Purple 6" drawable="calendar_purple_6" />
-	<item name="Calendar Purple 7" drawable="calendar_purple_7" />
-	<item name="Calendar Purple 8" drawable="calendar_purple_8" />
-	<item name="Calendar Purple 9" drawable="calendar_purple_9" />
-	<item name="Calendar Purple" drawable="calendar_purple" />
+	<item name="Calendar Red" drawable="calendar_red" />
 	<item name="Calendar Red 1" drawable="calendar_red_1" />
+	<item name="Calendar Red 2" drawable="calendar_red_2" />
+	<item name="Calendar Red 3" drawable="calendar_red_3" />
+	<item name="Calendar Red 4" drawable="calendar_red_4" />
+	<item name="Calendar Red 5" drawable="calendar_red_5" />
+	<item name="Calendar Red 6" drawable="calendar_red_6" />
+	<item name="Calendar Red 7" drawable="calendar_red_7" />
+	<item name="Calendar Red 8" drawable="calendar_red_8" />
+	<item name="Calendar Red 9" drawable="calendar_red_9" />
+	<item name="Calendar White" drawable="calendar_white" />
 	<item name="Calendar Red 10" drawable="calendar_red_10" />
 	<item name="Calendar Red 11" drawable="calendar_red_11" />
 	<item name="Calendar Red 12" drawable="calendar_red_12" />
@@ -978,7 +991,6 @@
 	<item name="Calendar Red 17" drawable="calendar_red_17" />
 	<item name="Calendar Red 18" drawable="calendar_red_18" />
 	<item name="Calendar Red 19" drawable="calendar_red_19" />
-	<item name="Calendar Red 2" drawable="calendar_red_2" />
 	<item name="Calendar Red 20" drawable="calendar_red_20" />
 	<item name="Calendar Red 21" drawable="calendar_red_21" />
 	<item name="Calendar Red 22" drawable="calendar_red_22" />
@@ -989,17 +1001,17 @@
 	<item name="Calendar Red 27" drawable="calendar_red_27" />
 	<item name="Calendar Red 28" drawable="calendar_red_28" />
 	<item name="Calendar Red 29" drawable="calendar_red_29" />
-	<item name="Calendar Red 3" drawable="calendar_red_3" />
 	<item name="Calendar Red 30" drawable="calendar_red_30" />
 	<item name="Calendar Red 31" drawable="calendar_red_31" />
-	<item name="Calendar Red 4" drawable="calendar_red_4" />
-	<item name="Calendar Red 5" drawable="calendar_red_5" />
-	<item name="Calendar Red 6" drawable="calendar_red_6" />
-	<item name="Calendar Red 7" drawable="calendar_red_7" />
-	<item name="Calendar Red 8" drawable="calendar_red_8" />
-	<item name="Calendar Red 9" drawable="calendar_red_9" />
-	<item name="Calendar Red" drawable="calendar_red" />
 	<item name="Calendar White 1" drawable="calendar_white_1" />
+	<item name="Calendar White 2" drawable="calendar_white_2" />
+	<item name="Calendar White 3" drawable="calendar_white_3" />
+	<item name="Calendar White 4" drawable="calendar_white_4" />
+	<item name="Calendar White 5" drawable="calendar_white_5" />
+	<item name="Calendar White 6" drawable="calendar_white_6" />
+	<item name="Calendar White 7" drawable="calendar_white_7" />
+	<item name="Calendar White 8" drawable="calendar_white_8" />
+	<item name="Calendar White 9" drawable="calendar_white_9" />
 	<item name="Calendar White 10" drawable="calendar_white_10" />
 	<item name="Calendar White 11" drawable="calendar_white_11" />
 	<item name="Calendar White 12" drawable="calendar_white_12" />
@@ -1010,7 +1022,6 @@
 	<item name="Calendar White 17" drawable="calendar_white_17" />
 	<item name="Calendar White 18" drawable="calendar_white_18" />
 	<item name="Calendar White 19" drawable="calendar_white_19" />
-	<item name="Calendar White 2" drawable="calendar_white_2" />
 	<item name="Calendar White 20" drawable="calendar_white_20" />
 	<item name="Calendar White 21" drawable="calendar_white_21" />
 	<item name="Calendar White 22" drawable="calendar_white_22" />
@@ -1021,17 +1032,18 @@
 	<item name="Calendar White 27" drawable="calendar_white_27" />
 	<item name="Calendar White 28" drawable="calendar_white_28" />
 	<item name="Calendar White 29" drawable="calendar_white_29" />
-	<item name="Calendar White 3" drawable="calendar_white_3" />
 	<item name="Calendar White 30" drawable="calendar_white_30" />
 	<item name="Calendar White 31" drawable="calendar_white_31" />
-	<item name="Calendar White 4" drawable="calendar_white_4" />
-	<item name="Calendar White 5" drawable="calendar_white_5" />
-	<item name="Calendar White 6" drawable="calendar_white_6" />
-	<item name="Calendar White 7" drawable="calendar_white_7" />
-	<item name="Calendar White 8" drawable="calendar_white_8" />
-	<item name="Calendar White 9" drawable="calendar_white_9" />
-	<item name="Calendar White" drawable="calendar_white" />
+	<item name="Calendar Yellow" drawable="calendar_yellow" />
 	<item name="Calendar Yellow 1" drawable="calendar_yellow_1" />
+	<item name="Calendar Yellow 2" drawable="calendar_yellow_2" />
+	<item name="Calendar Yellow 3" drawable="calendar_yellow_3" />
+	<item name="Calendar Yellow 4" drawable="calendar_yellow_4" />
+	<item name="Calendar Yellow 5" drawable="calendar_yellow_5" />
+	<item name="Calendar Yellow 6" drawable="calendar_yellow_6" />
+	<item name="Calendar Yellow 7" drawable="calendar_yellow_7" />
+	<item name="Calendar Yellow 8" drawable="calendar_yellow_8" />
+	<item name="Calendar Yellow 9" drawable="calendar_yellow_9" />
 	<item name="Calendar Yellow 10" drawable="calendar_yellow_10" />
 	<item name="Calendar Yellow 11" drawable="calendar_yellow_11" />
 	<item name="Calendar Yellow 12" drawable="calendar_yellow_12" />
@@ -1042,7 +1054,6 @@
 	<item name="Calendar Yellow 17" drawable="calendar_yellow_17" />
 	<item name="Calendar Yellow 18" drawable="calendar_yellow_18" />
 	<item name="Calendar Yellow 19" drawable="calendar_yellow_19" />
-	<item name="Calendar Yellow 2" drawable="calendar_yellow_2" />
 	<item name="Calendar Yellow 20" drawable="calendar_yellow_20" />
 	<item name="Calendar Yellow 21" drawable="calendar_yellow_21" />
 	<item name="Calendar Yellow 22" drawable="calendar_yellow_22" />
@@ -1053,36 +1064,27 @@
 	<item name="Calendar Yellow 27" drawable="calendar_yellow_27" />
 	<item name="Calendar Yellow 28" drawable="calendar_yellow_28" />
 	<item name="Calendar Yellow 29" drawable="calendar_yellow_29" />
-	<item name="Calendar Yellow 3" drawable="calendar_yellow_3" />
 	<item name="Calendar Yellow 30" drawable="calendar_yellow_30" />
 	<item name="Calendar Yellow 31" drawable="calendar_yellow_31" />
-	<item name="Calendar Yellow 4" drawable="calendar_yellow_4" />
-	<item name="Calendar Yellow 5" drawable="calendar_yellow_5" />
-	<item name="Calendar Yellow 6" drawable="calendar_yellow_6" />
-	<item name="Calendar Yellow 7" drawable="calendar_yellow_7" />
-	<item name="Calendar Yellow 8" drawable="calendar_yellow_8" />
-	<item name="Calendar Yellow 9" drawable="calendar_yellow_9" />
-	<item name="Calendar Yellow" drawable="calendar_yellow" />
-	<item name="Calendar" drawable="calendar" />
 	<item name="Calibre Cloud" drawable="calibre_cloud" />
 	<item name="Call of Duty Mobile" drawable="call_of_duty_mobile" />
 	<item name="CallApp" drawable="callapp" />
 	<item name="Calm" drawable="calm" />
 	<item name="Calmaria" drawable="calmaria" />
 	<item name="CamCard" drawable="camcard" />
-	<item name="Camera 360" drawable="camera_threesixty" />
-	<item name="Camera Alt Five" drawable="camera_alt_five" />
-	<item name="Camera Alt Five" drawable="camera_fv_five" />
-	<item name="Camera Alt Four" drawable="camera_alt_four" />
-	<item name="Camera Alt Seven" drawable="camera_alt_seven" />
-	<item name="Camera Alt Six" drawable="camera_alt_six" />
-	<item name="Camera Alt Three" drawable="camera_alt_three" />
-	<item name="Camera Alt Two" drawable="camera_alt_two" />
+	<item name="Camera" drawable="camera" />
 	<item name="Camera Alt" drawable="camera_alt" />
+	<item name="Camera Alt Two" drawable="camera_alt_two" />
+	<item name="Camera Alt Three" drawable="camera_alt_three" />
+	<item name="Camera Alt Four" drawable="camera_alt_four" />
+	<item name="Camera Alt Five" drawable="camera_alt_five" />
+	<item name="Camera Alt Six" drawable="camera_alt_six" />
+	<item name="Camera Alt Seven" drawable="camera_alt_seven" />
+	<item name="Camera 360" drawable="camera_threesixty" />
+	<item name="Camera FV-5" drawable="camera_fv_five" />
 	<item name="Camera MX" drawable="camera_mx" />
 	<item name="Camera Retro" drawable="camera_retro" />
 	<item name="Camera Roll" drawable="camera_roll" />
-	<item name="Camera" drawable="camera" />
 	<item name="CamScanner" drawable="cam__scanner" />
 	<item name="Canabalt HD" drawable="canabalt_hd" />
 	<item name="Candid" drawable="candid" />
@@ -1103,13 +1105,14 @@
 	<item name="Carris" drawable="carris" />
 	<item name="CARROT Weather" drawable="carrot_weather" />
 	<item name="Cartwheel" drawable="cartwheel" />
+	<item name="Cash App" drawable="cash_app" />
 	<item name="CashKaro" drawable="cashkaro" />
 	<item name="CASIO EDU+" drawable="casio_edu" />
 	<item name="Casper" drawable="casper" />
 	<item name="Castbox" drawable="castbox" />
 	<item name="Castro" drawable="castro" />
-	<item name="Catcode Alt" drawable="catcode_alt" />
 	<item name="Catcode" drawable="catcode" />
+	<item name="Catcode Alt" drawable="catcode_alt" />
 	<item name="Cathode" drawable="cathode" />
 	<item name="Catima" drawable="catima" />
 	<item name="Catogram" drawable="catogram" />
@@ -1128,6 +1131,7 @@
 	<item name="Change Detection" drawable="change_detection" />
 	<item name="Changes" drawable="changes" />
 	<item name="Charity Miles" drawable="charity_miles" />
+	<item name="Charles Schwab Events" drawable="schwab" />
 	<item name="Charlottesville Area Transit" drawable="cat_bus" />
 	<item name="Chase Mobile" drawable="chase" />
 	<item name="Chefkoch" drawable="chefkoch" />
@@ -1140,16 +1144,16 @@
 	<item name="Chipotle" drawable="chipotle" />
 	<item name="Chipper Cash" drawable="chipper_cash" />
 	<item name="Chomp SMS" drawable="chompsms" />
-	<item name="Chrome Alt Two" drawable="chrome_alt_two" />
+	<item name="Chrome" drawable="chrome" />
 	<item name="Chrome Alt" drawable="chrome_alt" />
+	<item name="Chrome Alt Two" drawable="chrome_alt_two" />
 	<item name="Chrome Beta" drawable="chrome_beta" />
-	<item name="Chrome Canary Alt" drawable="chrome_canary_alt" />
 	<item name="Chrome Canary" drawable="chrome_canary" />
+	<item name="Chrome Canary Alt" drawable="chrome_canary_alt" />
 	<item name="Chrome Dev" drawable="chrome_dev" />
 	<item name="Chrome Remote Desktop" drawable="chrome_remote_desktop" />
-	<item name="Chrome" drawable="chrome" />
-	<item name="Chromium Alt" drawable="chromium_alt" />
 	<item name="Chromium" drawable="chromium" />
+	<item name="Chromium Alt" drawable="chromium_alt" />
 	<item name="Chronus Information Widgets" drawable="chronus" />
 	<item name="Chrooma Keyboard" drawable="chrooma_keyboard" />
 	<item name="Chummy" drawable="chummy" />
@@ -1178,8 +1182,8 @@
 	<item name="clever-tanken.de" drawable="clever_tanken" />
 	<item name="CleverBook" drawable="cleverbook" />
 	<item name="ClickUp" drawable="clickup" />
-	<item name="Clock Alt" drawable="clock_alt" />
 	<item name="Clock" drawable="clock" />
+	<item name="Clock Alt" drawable="clock_alt" />
 	<item name="Clover" drawable="clover" />
 	<item name="Clubhouse" drawable="clubhouse" />
 	<item name="Clue" drawable="clue" />
@@ -1190,10 +1194,10 @@
 	<item name="Coffee" drawable="coffee" />
 	<item name="Coin Master" drawable="coin_master" />
 	<item name="COIN" drawable="coin" />
-	<item name="Coinbase Alt" drawable="coinbase_alt" />
-	<item name="Coinbase Pro Alt" drawable="coinbase_pro_alt" />
-	<item name="Coinbase Pro" drawable="coinbase_pro" />
 	<item name="Coinbase" drawable="coinbase" />
+	<item name="Coinbase Alt" drawable="coinbase_alt" />
+	<item name="Coinbase Pro" drawable="coinbase_pro" />
+	<item name="Coinbase Pro Alt" drawable="coinbase_pro_alt" />
 	<item name="CoinGecko" drawable="coingecko" />
 	<item name="CoinMarketCap" drawable="coinmarketcap" />
 	<item name="coins.ph" drawable="coins_ph" />
@@ -1203,9 +1207,9 @@
 	<item name="Collateral" drawable="collateral" />
 	<item name="Color Switch" drawable="color_switch" />
 	<item name="Colu Digital Wallet" drawable="colu" />
+	<item name="comdirect" drawable="comdirect" />
 	<item name="comdirect Alt" drawable="comdirect_alt" />
 	<item name="comdirect photoTAN" drawable="comdirect_phototan" />
-	<item name="comdirect" drawable="comdirect" />
 	<item name="Cometin" drawable="cometin" />
 	<item name="comico" drawable="comico" />
 	<item name="Comics" drawable="comixology" />
@@ -1217,12 +1221,12 @@
 	<item name="Concepts" drawable="concepts" />
 	<item name="ConnectBot" drawable="connectbot" />
 	<item name="Contact Diary" drawable="contact_diary" />
-	<item name="Contacts Alt Five" drawable="contacts_alt_five" />
-	<item name="Contacts Alt Four" drawable="contacts_alt_four" />
-	<item name="Contacts Alt Three" drawable="contacts_alt_three" />
-	<item name="Contacts Alt Two" drawable="contacts_alt_two" />
-	<item name="Contacts Alt" drawable="contacts_alt" />
 	<item name="Contacts" drawable="contacts" />
+	<item name="Contacts Alt" drawable="contacts_alt" />
+	<item name="Contacts Alt Two" drawable="contacts_alt_two" />
+	<item name="Contacts Alt Three" drawable="contacts_alt_three" />
+	<item name="Contacts Alt Four" drawable="contacts_alt_four" />
+	<item name="Contacts Alt Five" drawable="contacts_alt_five" />
 	<item name="Conversations" drawable="conversations" />
 	<item name="Convertbee" drawable="convertbee" />
 	<item name="ConvertPad" drawable="convertpad" />
@@ -1292,11 +1296,11 @@
 	<item name="Daraz" drawable="daraz" />
 	<item name="Dark Sky" drawable="dark_sky" />
 	<item name="Dart Checker" drawable="dart_checker" />
-	<item name="Dashchan Alt" drawable="dashchan_alt" />
 	<item name="Dashchan" drawable="dashchan" />
+	<item name="Dashchan Alt" drawable="dashchan_alt" />
 	<item name="Dasher" drawable="dasher" />
-	<item name="Dashlane Alt" drawable="dashlane_alt" />
 	<item name="Dashlane" drawable="dashlane" />
+	<item name="Dashlane Alt" drawable="dashlane_alt" />
 	<item name="Datadog" drawable="datadog" />
 	<item name="DAVdroid" drawable="davdroid" />
 	<item name="Daydrem" drawable="daydream" />
@@ -1320,8 +1324,8 @@
 	<item name="De Morgen" drawable="demorgen" />
 	<item name="Dead by Daylight" drawable="dead_by_daylight" />
 	<item name="Dead Cells" drawable="dead_cells" />
-	<item name="Dead Trigger 2" drawable="dead_trigger_2" />
 	<item name="Dead Trigger" drawable="dead_trigger" />
+	<item name="Dead Trigger 2" drawable="dead_trigger_2" />
 	<item name="dean&amp;david" drawable="deananddavid" />
 	<item name="Debal" drawable="debal" />
 	<item name="Debian noroot" drawable="debian_noroot" />
@@ -1336,12 +1340,13 @@
 	<item name="Deliveries" drawable="deliveries" />
 	<item name="Deliveroo" drawable="deliveroo" />
 	<item name="Delivery Club" drawable="delivery_club" />
+	<item name="Delta" drawable="delta" />
 	<item name="Delta Alt" drawable="delta_alt" />
 	<item name="Delta Chat" drawable="deltachat" />
 	<item name="Delta Touch" drawable="delta_touch" />
-	<item name="Delta" drawable="delta" />
 	<item name="Depop" drawable="depop" />
 	<item name="Deputy" drawable="deputy" />
+	<item name="DER SPIEGEL" drawable="spiegel_online" />
 	<item name="Desire" drawable="desire" />
 	<item name="Desjardins" drawable="desjardins" />
 	<item name="Desmos Graphing Calculator" drawable="desmos" />
@@ -1392,8 +1397,8 @@
 	<item name="Dolphin" drawable="dolphin" />
 	<item name="Domino's" drawable="dominos" />
 	<item name="Doodle" drawable="doodle" />
-	<item name="Doordash Alt" drawable="doordash_alt" />
 	<item name="Doordash" drawable="doordash" />
+	<item name="Doordash Alt" drawable="doordash_alt" />
 	<item name="Doot &amp; Spook" drawable="mister_doot" />
 	<item name="Dots" drawable="dots" />
 	<item name="DoubleTwist" drawable="double__twist" />
@@ -1423,8 +1428,8 @@
 	<item name="DU Recorder" drawable="du_recorder" />
 	<item name="DU Updater" drawable="du_updater" />
 	<item name="Dubsmash" drawable="dubsmash" />
-	<item name="DuckDuckGo Alt" drawable="duckduckgo_alt" />
 	<item name="DuckDuckGo" drawable="duckduckgo" />
+	<item name="DuckDuckGo Alt" drawable="duckduckgo_alt" />
 	<item name="Duden" drawable="duden" />
 	<item name="Dumb Ways" drawable="dumb_ways" />
 	<item name="Dunkin" drawable="dunkin" />
@@ -1561,9 +1566,9 @@
 	<item name="FIFA Mobile" drawable="fifa_mobile" />
 	<item name="Figma Mirror" drawable="figma_mirror" />
 	<item name="File Commander" drawable="file_commander" />
-	<item name="File Manager +" drawable="file_manager_plus" />
-	<item name="File Manager Alt" drawable="file_manager_alt" />
 	<item name="File Manager" drawable="file_manager" />
+	<item name="File Manager Alt" drawable="file_manager_alt" />
+	<item name="File Manager +" drawable="file_manager_plus" />
 	<item name="FilterBox" drawable="filter_box" />
 	<item name="Financial Times" drawable="financial_times" />
 	<item name="Find My Apples" drawable="find_my_apples" />
@@ -1573,23 +1578,23 @@
 	<item name="Fineco" drawable="fineco" />
 	<item name="Fing" drawable="fing" />
 	<item name="Fire Emblem Heroes" drawable="fire_emblem_heroes" />
-	<item name="Firefox Alt Three" drawable="firefox_alt_three" />
-	<item name="Firefox Alt Two" drawable="firefox_alt_two" />
-	<item name="Firefox Alt" drawable="firefox_alt" />
-	<item name="Firefox Aurora" drawable="firefox_aurora" />
-	<item name="Firefox Beta Alt Three" drawable="firefox_beta_alt_three" />
-	<item name="Firefox Beta Alt Two" drawable="firefox_beta_alt_two" />
-	<item name="Firefox Beta Alt" drawable="firefox_beta_alt" />
-	<item name="Firefox Beta" drawable="firefox_beta" />
-	<item name="Firefox Focus Alt Two" drawable="firefox_focus_alt_two" />
-	<item name="Firefox Focus Alt" drawable="firefox_focus_alt" />
-	<item name="Firefox Focus" drawable="firefox_focus" />
-	<item name="Firefox Lockwise" drawable="firefox_lockwise" />
-	<item name="Firefox Nightly Alt" drawable="firefox_nightly_alt" />
-	<item name="Firefox Nightly" drawable="firefox_nightly" />
-	<item name="Firefox Preview Alt" drawable="firefox_preview_alt" />
-	<item name="Firefox Preview" drawable="firefox_preview" />
 	<item name="Firefox" drawable="firefox" />
+	<item name="Firefox Alt" drawable="firefox_alt" />
+	<item name="Firefox Alt Two" drawable="firefox_alt_two" />
+	<item name="Firefox Alt Three" drawable="firefox_alt_three" />
+	<item name="Firefox Aurora" drawable="firefox_aurora" />
+	<item name="Firefox Beta" drawable="firefox_beta" />
+	<item name="Firefox Beta Alt" drawable="firefox_beta_alt" />
+	<item name="Firefox Beta Alt Two" drawable="firefox_beta_alt_two" />
+	<item name="Firefox Beta Alt Three" drawable="firefox_beta_alt_three" />
+	<item name="Firefox Focus" drawable="firefox_focus" />
+	<item name="Firefox Focus Alt" drawable="firefox_focus_alt" />
+	<item name="Firefox Focus Alt Two" drawable="firefox_focus_alt_two" />
+	<item name="Firefox Lockwise" drawable="firefox_lockwise" />
+	<item name="Firefox Nightly" drawable="firefox_nightly" />
+	<item name="Firefox Nightly Alt" drawable="firefox_nightly_alt" />
+	<item name="Firefox Preview" drawable="firefox_preview" />
+	<item name="Firefox Preview Alt" drawable="firefox_preview_alt" />
 	<item name="FireTV" drawable="fire__tv" />
 	<item name="first direct" drawable="first_direct" />
 	<item name="Fitbit" drawable="fitbit" />
@@ -1599,8 +1604,8 @@
 	<item name="FitoTrack" drawable="fitotrack" />
 	<item name="Fiverr" drawable="fiverr" />
 	<item name="FL Studio" drawable="fl_studio" />
-	<item name="Flamingo for Twitter Alt" drawable="flamingo_for_twitter_alt" />
 	<item name="Flamingo for Twitter" drawable="flamingo_for_twitter" />
+	<item name="Flamingo for Twitter Alt" drawable="flamingo_for_twitter_alt" />
 	<item name="FlashFire" drawable="flash__fire" />
 	<item name="Flashify" drawable="flashify" />
 	<item name="Flashlight" drawable="flashlight" />
@@ -1616,21 +1621,21 @@
 	<item name="Flipboard" drawable="flipboard" />
 	<item name="Flipkart Online Shopping App" drawable="flipkart" />
 	<item name="Flipp" drawable="flipp" />
-	<item name="FlixBus Alt" drawable="flixbus_alt" />
 	<item name="FlixBus" drawable="flixbus" />
+	<item name="FlixBus Alt" drawable="flixbus_alt" />
 	<item name="Flo" drawable="flo" />
 	<item name="Flock" drawable="flock" />
 	<item name="Flow Free" drawable="flow_free" />
 	<item name="Flow Home" drawable="flow_home" />
-	<item name="Flowwow flowers Alt" drawable="flowwow_flowers_alt" />
 	<item name="Flowwow flowers" drawable="flowwow_flowers" />
+	<item name="Flowwow flowers Alt" drawable="flowwow_flowers_alt" />
 	<item name="flud" drawable="flud" />
 	<item name="Flush" drawable="flush" />
 	<item name="flynx" drawable="flynx" />
 	<item name="flyperlink" drawable="flyperlink" />
 	<item name="FlyTube Music Player for YouTube" drawable="flytube" />
-	<item name="FM Radio Alt" drawable="fm_radio_alt" />
 	<item name="FM Radio" drawable="fm_radio" />
+	<item name="FM Radio Alt" drawable="fm_radio_alt" />
 	<item name="Focus" drawable="focus" />
 	<item name="Focusmeter" drawable="focusmeter" />
 	<item name="Folding@Home" drawable="folding_at_home" />
@@ -1660,8 +1665,8 @@
 	<item name="FreeCharge" drawable="freecharge" />
 	<item name="Freeletics" drawable="freeletics" />
 	<item name="FREENOW" drawable="mytaxi" />
-	<item name="Freezer Alt" drawable="freezer_alt" />
 	<item name="Freezer" drawable="freezer" />
+	<item name="Freezer Alt" drawable="freezer_alt" />
 	<item name="Freshcaller" drawable="freshcaller" />
 	<item name="Freshchat" drawable="freshchat" />
 	<item name="Freshdesk" drawable="freshdesk" />
@@ -1702,8 +1707,8 @@
 	<item name="Genshin Impact" drawable="genshin_impact" />
 	<item name="Geocaching" drawable="geocaching" />
 	<item name="GeoGebra" drawable="geogebra" />
-	<item name="Geometric Weather Alt" drawable="geometric_weather_alt" />
 	<item name="Geometric Weather" drawable="geometric_weather" />
+	<item name="Geometric Weather Alt" drawable="geometric_weather_alt" />
 	<item name="Geometry Dash Meltdown" drawable="geometry_dash_meltdown" />
 	<item name="Geometry Dash World" drawable="geometry_dash_world" />
 	<item name="Geometry Dash" drawable="geometry_dash" />
@@ -1715,8 +1720,8 @@
 	<item name="Ginventory" drawable="ginventory" />
 	<item name="GIPHY CAM" drawable="giphy_cam" />
 	<item name="GIPHY" drawable="giphy" />
-	<item name="GitHub Alt" drawable="github_alt" />
 	<item name="GitHub" drawable="github" />
+	<item name="GitHub Alt" drawable="github_alt" />
 	<item name="Gitskarios for Github" drawable="gitskarios" />
 	<item name="Gitter" drawable="gitter" />
 	<item name="Glan" drawable="glan" />
@@ -1776,8 +1781,8 @@
 	<item name="Habr" drawable="techmedia" />
 	<item name="Hacker News" drawable="hackernews" />
 	<item name="Halifax Mobile Banking" drawable="halifax" />
-	<item name="Halma Alt" drawable="halma_alt" />
 	<item name="Halma" drawable="halma" />
+	<item name="Halma Alt" drawable="halma_alt" />
 	<item name="Handy Art Reference Tool" drawable="handy" />
 	<item name="Handy Krakow" drawable="handy_cracow" />
 	<item name="Hapoalim Bank" drawable="hapoalim_bank" />
@@ -1881,8 +1886,8 @@
 	<item name="Iberia" drawable="iberia" />
 	<item name="ibis Paint X" drawable="ibis_paint_x" />
 	<item name="iCAR" drawable="icar" />
-	<item name="Iceraven Alt" drawable="iceraven_alt" />
 	<item name="Iceraven" drawable="iceraven" />
+	<item name="Iceraven Alt" drawable="iceraven_alt" />
 	<item name="Icon Pack Studio" drawable="icon_pack_studio" />
 	<item name="Icon Pusher" drawable="icon_pusher" />
 	<item name="iFood" drawable="ifood" />
@@ -1920,11 +1925,11 @@
 	<item name="InShot" drawable="inshot_alt" />
 	<item name="Insight Timer" drawable="insight_timer" />
 	<item name="Instacart" drawable="instacart" />
-	<item name="Instagram Alt Three" drawable="instagram_alt_three" />
-	<item name="Instagram Alt Two" drawable="instagram_alt_two" />
-	<item name="Instagram Alt" drawable="instagram_alt" />
-	<item name="Instagram Lite"  drawable="instagram_lite" />
 	<item name="Instagram" drawable="instagram" />
+	<item name="Instagram Alt" drawable="instagram_alt" />
+	<item name="Instagram Alt Two" drawable="instagram_alt_two" />
+	<item name="Instagram Alt Three" drawable="instagram_alt_three" />
+	<item name="Instagram Lite"  drawable="instagram_lite" />
 	<item name="Instapaper" drawable="instapaper" />
 	<item name="InstaSize" drawable="insta__size" />
 	<item name="Inventory and Shopping list Manager" drawable="vorrat" />
@@ -1964,8 +1969,8 @@
 	<item name="Jodel" drawable="jodel" />
 	<item name="Joey for Reddit" drawable="joey" />
 	<item name="Join" drawable="join" />
-	<item name="JOOX Alt" drawable="joox_alt" />
 	<item name="JOOX" drawable="joox" />
+	<item name="JOOX Alt" drawable="joox_alt" />
 	<item name="Joplin" drawable="joplin" />
 	<item name="JotterPad" drawable="jotterpad" />
 	<item name="Journey" drawable="journey" />
@@ -1995,8 +2000,8 @@
 	<item name="Kaspersky" drawable="kaspersky" />
 	<item name="Kate Mobile" drawable="kate_mobile" />
 	<item name="KAYAK" drawable="kayak" />
-	<item name="KDE Connect Alt" drawable="kde_connect_alt" />
 	<item name="KDE Connect" drawable="kde_connect" />
+	<item name="KDE Connect Alt" drawable="kde_connect_alt" />
 	<item name="Keepass2Android Offline" drawable="keepass_to_android_offline" />
 	<item name="Keepass2Android" drawable="keepass_to_android" />
 	<item name="Keeper" drawable="keeper" />
@@ -2012,8 +2017,8 @@
 	<item name="Khan Academy" drawable="khan_academy" />
 	<item name="kicker" drawable="kicker" />
 	<item name="Kickstarter" drawable="kickstarter" />
-	<item name="Kijiji Alt" drawable="kijiji_alt" />
 	<item name="Kijiji" drawable="kijiji" />
+	<item name="Kijiji Alt" drawable="kijiji_alt" />
 	<item name="Kik" drawable="kik" />
 	<item name="KineMaster" drawable="kinemaster" />
 	<item name="KINGDOM HEARTS" drawable="kingdom_hearts" />
@@ -2055,6 +2060,7 @@
 	<item name="körbchen" drawable="koerbchen" />
 	
 	<category title="L" />
+	<item name="L'Appli Société Générale" drawable="societe_generale" />
 	<item name="La Mia Banca" drawable="la_mia_banca" />
 	<item name="LabCoat" drawable="labcoat" />
 	<item name="Language Live" drawable="lingvo_live" />
@@ -2067,16 +2073,16 @@
 	<item name="Lawnchair Launcher" drawable="lawnchair_launcher" />
 	<item name="Layers Manager" drawable="layers_manager" />
 	<item name="Layout from Instagram" drawable="layout_instagram" />
-	<item name="Lazada Alt Two" drawable="lazada_alt_two" />
-	<item name="Lazada Alt" drawable="lazada_alt_one" />
 	<item name="Lazada" drawable="lazada" />
+	<item name="Lazada Alt" drawable="lazada_alt_one" />
+	<item name="Lazada Alt Two" drawable="lazada_alt_two" />
 	<item name="LeafPic" drawable="leaf__pic" />
 	<item name="League+" drawable="league_plus" />
-	<item name="Learn Anywhere Alt" drawable="learn_anywhere_alt" />
 	<item name="Learn Anywhere" drawable="learn_anywhere" />
+	<item name="Learn Anywhere Alt" drawable="learn_anywhere_alt" />
 	<item name="Learn Python" drawable="learn_python" />
-	<item name="Learnneo Alt" drawable="learnneo_alt" />
 	<item name="Learnneo" drawable="learnneo" />
+	<item name="Learnneo Alt" drawable="learnneo_alt" />
 	<item name="leboncoin" drawable="leboncoin" />
 	<item name="Lectio 365" drawable="lectio_365" />
 	<item name="Ledger Live" drawable="ledger_live" />
@@ -2106,8 +2112,8 @@
 	<item name="LibreOffice" drawable="libreoffice" />
 	<item name="LibreTorrent" drawable="libretorrent" />
 	<item name="Librus" drawable="librus" />
-	<item name="lichess.org Alt" drawable="lichess_alt" />
 	<item name="lichess.org" drawable="lichess" />
+	<item name="lichess.org Alt" drawable="lichess_alt" />
 	<item name="Life is Strange" drawable="lifeisstrange" />
 	<item name="Life360" drawable="life360" />
 	<item name="LifeAfter" drawable="lifeafter" />
@@ -2156,8 +2162,8 @@
 	<item name="luca" drawable="luca" />
 	<item name="Luci" drawable="luci" />
 	<item name="Lucky Patcher" drawable="lucky_patcher" />
-	<item name="Ludo King Alt" drawable="ludo_king_alt" />
 	<item name="Ludo King" drawable="ludo_king" />
+	<item name="Ludo King Alt" drawable="ludo_king_alt" />
 	<item name="Lufthansa" drawable="lufthansa" />
 	<item name="LumApps" drawable="lumapps" />
 	<item name="Luno" drawable="luno" />
@@ -2168,9 +2174,9 @@
 	<category title="M" />
 	<item name="m-Indicator" drawable="m_indicator" />
 	<item name="MACH" drawable="mach" />
-	<item name="MacroDroid Alt Two" drawable="macrodroid_alt_two" />
-	<item name="MacroDroid Alt" drawable="macrodroid_alt" />
 	<item name="MacroDroid" drawable="macrodroid" />
+	<item name="MacroDroid Alt" drawable="macrodroid_alt" />
+	<item name="MacroDroid Alt Two" drawable="macrodroid_alt_two" />
 	<item name="Madbarz Fan App" drawable="mad_barz" />
 	<item name="Magic Tiles" drawable="magic_tiles" />
 	<item name="Magisk Manager" drawable="magisk_manager" />
@@ -2190,8 +2196,8 @@
 	<item name="Mario Kart Tour" drawable="mario_kart_tour" />
 	<item name="Marvel Contest of Champions" drawable="marvel_champions" />
 	<item name="Marvel Unlimited" drawable="marvel_unlimited" />
-	<item name="Mastodon Alt" drawable="mastodon_alt" />
 	<item name="Mastodon" drawable="mastodon" />
+	<item name="Mastodon Alt" drawable="mastodon_alt" />
 	<item name="Material Files" drawable="material_files" />
 	<item name="Material Islands" drawable="material_islands" />
 	<item name="Material Notes" drawable="material_notes" />
@@ -2231,13 +2237,13 @@
 	<item name="Mendeley" drawable="mendeley" />
 	<item name="Mercado Libre" drawable="mercadolibre" />
 	<item name="Mercado Pago" drawable="mercado_pago" />
-	<item name="Mercari Alt" drawable="mercari_alt" />
 	<item name="Mercari" drawable="mercari" />
+	<item name="Mercari Alt" drawable="mercari_alt" />
 	<item name="meross" drawable="meross" />
-	<item name="Messenger Alt" drawable="messenger_alt" />
-	<item name="Messenger Lite Alt" drawable="messenger_lite_alt" />
-	<item name="Messenger Lite" drawable="messenger_lite" />
 	<item name="Messenger" drawable="messenger" />
+	<item name="Messenger Alt" drawable="messenger_alt" />
+	<item name="Messenger Lite" drawable="messenger_lite" />
+	<item name="Messenger Lite Alt" drawable="messenger_lite_alt" />
 	<item name="Met Office Weather Forecast" drawable="met_office" />
 	<item name="Metadata Remover" drawable="metadataremover" />
 	<item name="Metal for Facebook &amp; Twitter" drawable="metal" />
@@ -2260,8 +2266,8 @@
 	<item name="Mi Pay" drawable="mi_pay" />
 	<item name="Mi Remote" drawable="mi_remote" />
 	<item name="Mi Scanner" drawable="mi_scanner" />
-	<item name="Mi Security Alt" drawable="mi_security_alt" />
 	<item name="Mi Security" drawable="mi_security" />
+	<item name="Mi Security Alt" drawable="mi_security_alt" />
 	<item name="Mi Services &amp; feedback" drawable="mi_services_and_feedback" />
 	<item name="Mi Store" drawable="mi_store" />
 	<item name="Mi Wi-Fi" drawable="mi_wifi" />
@@ -2273,8 +2279,8 @@
 	<item name="Microsoft Azure" drawable="microsoft_azure" />
 	<item name="Microsoft Bing Search" drawable="microsoft_bing" />
 	<item name="Microsoft Bookings" drawable="microsoft_bookings" />
-	<item name="Microsoft Edge Alt" drawable="microsoft_edge_alt" />
 	<item name="Microsoft Edge" drawable="microsoft_edge" />
+	<item name="Microsoft Edge Alt" drawable="microsoft_edge_alt" />
 	<item name="Microsoft Excel" drawable="microsoft_excel" />
 	<item name="Microsoft Flow" drawable="microsoft_flow" />
 	<item name="Microsoft Groove" drawable="microsoft_groove" />
@@ -2287,8 +2293,8 @@
 	<item name="Microsoft Office" drawable="microsoft_office_hub" />
 	<item name="Microsoft OneDrive" drawable="microsoft_one__drive" />
 	<item name="Microsoft OneNote" drawable="microsoft_one__note" />
-	<item name="Microsoft Outlook Alt" drawable="microsoft_outlook_alt" />
 	<item name="Microsoft Outlook" drawable="microsoft_outlook" />
+	<item name="Microsoft Outlook Alt" drawable="microsoft_outlook_alt" />
 	<item name="Microsoft Planner" drawable="microsoft_planner" />
 	<item name="Microsoft Power Apps" drawable="microsoft_power_apps" />
 	<item name="Microsoft Power BI" drawable="microsoft_power_bi" />
@@ -2296,8 +2302,8 @@
 	<item name="Microsoft Remote Desktop" drawable="microsoft_remote_desktop" />
 	<item name="Microsoft SharePoint" drawable="microsoft_sharepoint" />
 	<item name="Microsoft Surface Audio" drawable="microsoft_surface_audio" />
-	<item name="Microsoft Teams Alt" drawable="microsoft_teams_alt" />
 	<item name="Microsoft Teams" drawable="microsoft_teams" />
+	<item name="Microsoft Teams Alt" drawable="microsoft_teams_alt" />
 	<item name="Microsoft To Do" drawable="microsoft_to_do" />
 	<item name="Microsoft Translator" drawable="microsoft_translator" />
 	<item name="Microsoft Word" drawable="microsoft_word" />
@@ -2377,18 +2383,19 @@
 	<item name="mpv" drawable="mpv" />
 	<item name="Mr Price" drawable="mrp_fashion" />
 	<item name="mSecure" drawable="msecure" />
+	<item name="MSP Manager" drawable="solarwinds_msp_manager" />
 	<item name="mThermo" drawable="mthermo" />
 	<item name="Mubert" drawable="mubert" />
 	<item name="MUBI" drawable="mubi" />
 	<item name="Mullvad VPN" drawable="mullvad_vpn" />
 	<item name="Multiling O Keyboard" drawable="multiling_o_keyboard" />
 	<item name="Munchkin Level Counter" drawable="munchkin" />
-	<item name="Music Alt Five" drawable="music_alt_five" />
-	<item name="Music Alt Four" drawable="music_alt_four" />
-	<item name="Music Alt Three" drawable="music_alt_three" />
-	<item name="Music Alt Two" drawable="music_alt_two" />
-	<item name="Music Alt" drawable="music_alt" />
 	<item name="Music" drawable="music" />
+	<item name="Music Alt" drawable="music_alt" />
+	<item name="Music Alt Two" drawable="music_alt_two" />
+	<item name="Music Alt Three" drawable="music_alt_three" />
+	<item name="Music Alt Four" drawable="music_alt_four" />
+	<item name="Music Alt Five" drawable="music_alt_five" />
 	<item name="MusicBee Remote" drawable="music_bee_remote" />
 	<item name="Musicolet" drawable="musicolet" />
 	<item name="MusicPiped" drawable="musicpiped" />
@@ -2438,9 +2445,9 @@
 	<item name="myRewards Plus" drawable="mypilot" />
 	<item name="MyRogers" drawable="myrogers" />
 	<item name="MySejahtera" drawable="mysejahtera" />
-	<item name="Mysplash Alt Two" drawable="mysplash_alt_two" />
-	<item name="Mysplash Alt" drawable="mysplash_alt" />
 	<item name="Mysplash" drawable="mysplash" />
+	<item name="Mysplash Alt" drawable="mysplash_alt" />
+	<item name="Mysplash Alt Two" drawable="mysplash_alt_two" />
 	<item name="MySports" drawable="my__sports" />
 	<item name="MyStudyLife" drawable="my__study__life" />
 	<item name="MyTelkomsel" drawable="mytelkomsel" />
@@ -2454,6 +2461,7 @@
 	<item name="München Navigator" drawable="muenchen_navigator" />
 
 	<category title="N" />
+	<item name="N-able RMM" drawable="solarwinds_rmm" />
 	<item name="N-ify for Android" drawable="nify" />
 	<item name="N26 Mobile Banking" drawable="n_twenty_six" />
 	<item name="n7player Music Player" drawable="n7player" />
@@ -2479,8 +2487,8 @@
 	<item name="Neko Atsume" drawable="neko_atsume" />
 	<item name="Neko Samurai" drawable="neko_samurai" />
 	<item name="Neos SmartHome" drawable="neos_smarthome" />
-	<item name="Nequi Alt" drawable="nequi_alt" />
 	<item name="Nequi" drawable="nequi" />
+	<item name="Nequi Alt" drawable="nequi_alt" />
 	<item name="Nest" drawable="nest" />
 	<item name="Net10 My Account" drawable="net_ten" />
 	<item name="NetEase Cloud Music" drawable="netease_cloud_music" />
@@ -2632,8 +2640,8 @@
 	<item name="OsmAnd" drawable="osmand" />
 	<item name="OsmAnd+" drawable="osmandplus" />
 	<item name="Oto Music" drawable="oto_music" />
-	<item name="OTOMOTO Alt" drawable="otomoto_alt" />
 	<item name="OTOMOTO" drawable="otomoto" />
+	<item name="OTOMOTO Alt" drawable="otomoto_alt" />
 	<item name="Our Groceries" drawable="our_groceries" />
 	<item name="Out of Milk" drawable="out_of_milk" />
 	<item name="Outbank 360° Banking" drawable="outbank" />
@@ -2670,8 +2678,8 @@
 	<item name="Passngr" drawable="passngr" />
 	<item name="Password Store" drawable="password_store" />
 	<item name="Path" drawable="path" />
-	<item name="Patreon Alt" drawable="patreon_alt" />
 	<item name="Patreon" drawable="patreon" />
+	<item name="Patreon Alt" drawable="patreon_alt" />
 	<item name="Pavlok" drawable="pavlok" />
 	<item name="pawoo" drawable="pawoo" />
 	<item name="Paytm" drawable="pay_tm" />
@@ -2708,30 +2716,30 @@
 	<item name="Philips Hue" drawable="philips_hue" />
 	<item name="Philips TV Remote" drawable="philips_tv_remote" />
 	<item name="Phoenix" drawable="phoenix" />
-	<item name="Phone Alt Eight" drawable="phone_alt_eight" />
-	<item name="Phone Alt Eighteen" drawable="phone_alt_eighteen" />
-	<item name="Phone Alt Eleven" drawable="phone_alt_eleven" />
-	<item name="Phone Alt Fifteen" drawable="phone_alt_fifteen" />
-	<item name="Phone Alt Five" drawable="phone_alt_five" />
-	<item name="Phone Alt Four" drawable="phone_alt_four" />
-	<item name="Phone Alt Fourteen" drawable="phone_alt_fourteen" />
-	<item name="Phone Alt Nine" drawable="phone_alt_nine" />
-	<item name="Phone Alt Nineteen" drawable="phone_alt_nineteen" />
-	<item name="Phone Alt Seven" drawable="phone_alt_seven" />
-	<item name="Phone Alt Seventeen" drawable="phone_alt_seventeen" />
-	<item name="Phone Alt Six" drawable="phone_alt_six" />
-	<item name="Phone Alt Sixteen" drawable="phone_alt_sixteen" />
-	<item name="Phone Alt Ten" drawable="phone_alt_ten" />
-	<item name="Phone Alt Thirteen" drawable="phone_alt_thirteen" />
-	<item name="Phone Alt Three" drawable="phone_alt_three" />
-	<item name="Phone Alt Twelve" drawable="phone_alt_twelve" />
-	<item name="Phone Alt Twenty One" drawable="phone_alt_twentyone" />
-	<item name="Phone Alt Twenty Three" drawable="phone_alt_twentythree" />
-	<item name="Phone Alt Twenty Two" drawable="phone_alt_twentytwo" />
-	<item name="Phone Alt Twenty" drawable="phone_alt_twenty" />
-	<item name="Phone Alt Two" drawable="phone_alt_two" />
-	<item name="Phone Alt" drawable="phone_alt" />
 	<item name="Phone" drawable="phone" />
+	<item name="Phone Alt" drawable="phone_alt" />
+	<item name="Phone Alt Two" drawable="phone_alt_two" />
+	<item name="Phone Alt Three" drawable="phone_alt_three" />
+	<item name="Phone Alt Four" drawable="phone_alt_four" />
+	<item name="Phone Alt Five" drawable="phone_alt_five" />
+	<item name="Phone Alt Six" drawable="phone_alt_six" />
+	<item name="Phone Alt Seven" drawable="phone_alt_seven" />
+	<item name="Phone Alt Eight" drawable="phone_alt_eight" />
+	<item name="Phone Alt Nine" drawable="phone_alt_nine" />
+	<item name="Phone Alt Ten" drawable="phone_alt_ten" />
+	<item name="Phone Alt Eleven" drawable="phone_alt_eleven" />
+	<item name="Phone Alt Twelve" drawable="phone_alt_twelve" />
+	<item name="Phone Alt Thirteen" drawable="phone_alt_thirteen" />
+	<item name="Phone Alt Fourteen" drawable="phone_alt_fourteen" />
+	<item name="Phone Alt Fifteen" drawable="phone_alt_fifteen" />
+	<item name="Phone Alt Sixteen" drawable="phone_alt_sixteen" />
+	<item name="Phone Alt Seventeen" drawable="phone_alt_seventeen" />
+	<item name="Phone Alt Eighteen" drawable="phone_alt_eighteen" />
+	<item name="Phone Alt Nineteen" drawable="phone_alt_nineteen" />
+	<item name="Phone Alt Twenty" drawable="phone_alt_twenty" />
+	<item name="Phone Alt Twenty One" drawable="phone_alt_twentyone" />
+	<item name="Phone Alt Twenty Two" drawable="phone_alt_twentytwo" />
+	<item name="Phone Alt Twenty Three" drawable="phone_alt_twentythree" />
 	<item name="Phone Clone" drawable="phone_clone" />
 	<item name="PhonePe" drawable="phone_pe" />
 	<item name="Phonograph Music Player" drawable="phonograph" />
@@ -2881,8 +2889,8 @@
 	<item name="Quiz House" drawable="quiz_house" />
 	<item name="QuizDuel" drawable="quizduell" />
 	<item name="Quizlet" drawable="quizlet" />
-	<item name="Quoda Alt" drawable="quoda_alt" />
 	<item name="Quoda" drawable="quoda" />
+	<item name="Quoda Alt" drawable="quoda_alt" />
 	<item name="Quora" drawable="quora" />
 	
 	<category title="R" />
@@ -2893,12 +2901,12 @@
 	<item name="RadioDroid" drawable="radiodroid" />
 	<item name="Raiffeisen" drawable="raiffeisen" />
 	<item name="Rain Sounds" drawable="rain_sounds" />
-	<item name="Raindrop.io Alt" drawable="raindrop_alt" />
 	<item name="Raindrop.io" drawable="raindrop" />
+	<item name="Raindrop.io Alt" drawable="raindrop_alt" />
 	<item name="Random Dice" drawable="random_dice" />
 	<item name="Randonautica" drawable="randonautica" />
-	<item name="Rankey Alt" drawable="rankey_alt" />
 	<item name="Rankey" drawable="rankey" />
+	<item name="Rankey Alt" drawable="rankey_alt" />
 	<item name="Rapid 70" drawable="rapid_70" />
 	<item name="Rappi" drawable="rappi" />
 	<item name="RAR" drawable="rar" />
@@ -2909,9 +2917,9 @@
 	<item name="Rebtel" drawable="rebtel" />
 	<item name="Recon" drawable="recon_x" />
 	<item name="recorrido.cl" drawable="recorrido" />
-	<item name="Reddit Alt Two"  drawable="reddit_alt_two" />
-	<item name="Reddit Alt"  drawable="reddit_alt" />
 	<item name="Reddit" drawable="reddit" />
+	<item name="Reddit Alt"  drawable="reddit_alt" />
+	<item name="Reddit Alt Two"  drawable="reddit_alt_two" />
 	<item name="Rediffmail" drawable="rediffmail" />
 	<item name="RedPapers" drawable="redpapers" />
 	<item name="RedReader" drawable="red__reader" />
@@ -2931,6 +2939,8 @@
 	<item name="Retro Music Player" drawable="retro_music_player" />
 	<item name="RetroArch" drawable="retroarch" />
 	<item name="Revolut" drawable="revolut" />
+	<item name="Revue Starlight Re LIVE" drawable="starlight" />
+	<item name="Revue Starlight Re LIVE Alt" drawable="starlight_alt" />
 	<item name="REWE" drawable="rewe" />
 	<item name="English with ReWord" drawable="reword" />
 	<item name="Chinese with ReWord" drawable="reword_chinese" />
@@ -2946,10 +2956,11 @@
 	<item name="RSS Reader for Selfoss" drawable="reader_for_selfoss" />
 	<item name="Ring" drawable="ring" />
 	<item name="Rippple" drawable="rippple" />
+	<item name="RMM N-able Take Control" drawable="solarwinds_take_control" />
 	<item name="RMV" drawable="rmv" />
 	<item name="Roadtrippers" drawable="roadtrippers" />
-	<item name="Robinhood Alt" drawable="robinhood_alt" />
 	<item name="Robinhood" drawable="robinhood" />
+	<item name="Robinhood Alt" drawable="robinhood_alt" />
 	<item name="Roblox" drawable="roblox" />
 	<item name="Roborock" drawable="roborock" />
 	<item name="Rocker Locker" drawable="rocker_locker" />
@@ -2969,10 +2980,10 @@
 	<item name="Routinery" drawable="routinery" />
 	<item name="ruff" drawable="ruff" />
 	<item name="Runkeeper" drawable="runkeeper" />
+	<item name="Runtastic" drawable="runtastic" />
 	<item name="Runtastic Alt" drawable="runtastic_alt" />
 	<item name="Runtastic Road Bike Trails" drawable="runtastic_roadbike" />
 	<item name="Runtastic Workout Timer" drawable="runtastic_timer" />
-	<item name="Runtastic" drawable="runtastic" />
 	<item name="Rush Rally 3" drawable="rush_rally_3" />
 	<item name="Russia Public services" drawable="gosuslugi" />
 	<item name="Russian Post" drawable="russian_post" />
@@ -2993,8 +3004,8 @@
 	<item name="Samsung Care" drawable="samsung_care" />
 	<item name="Samsung Galaxy Apps" drawable="samsung_galaxy_apps" />
 	<item name="Samsung Galaxy Labs" drawable="samsung_galaxy_labs" />
-	<item name="Samsung Galaxy Themes Alt" drawable="samsung_galaxy_themes_alt" />
 	<item name="Samsung Galaxy Themes" drawable="samsung_galaxy_themes" />
+	<item name="Samsung Galaxy Themes Alt" drawable="samsung_galaxy_themes_alt" />
 	<item name="Samsung Game Launcher" drawable="samsung_game_launcher" />
 	<item name="Samsung Gear" drawable="samsung_gear" />
 	<item name="Samsung Good Lock" drawable="samsung_good_lock" />
@@ -3005,8 +3016,8 @@
 	<item name="Samsung Max" drawable="samsung_max" />
 	<item name="Samsung Members" drawable="samsung_members" />
 	<item name="Samsung Mobile Print" drawable="samsung_mobile_print" />
-	<item name="Samsung Notes Alt" drawable="samsung_notes_alt" />
 	<item name="Samsung Notes" drawable="samsung_notes" />
+	<item name="Samsung Notes Alt" drawable="samsung_notes_alt" />
 	<item name="Samsung Pass" drawable="samsung_pass" />
 	<item name="Samsung Pay" drawable="samsung_pay" />
 	<item name="Samsung Reminder" drawable="samsung_reminder" />
@@ -3020,8 +3031,8 @@
 	<item name="Samsung User Manual" drawable="samsung_user_manual" />
 	<item name="Samsung Video" drawable="samsung_video" />
 	<item name="Santander" drawable="santander" />
-	<item name="SaveTo" drawable="saveto" />
 	<item name="SaveMyTime" drawable="save_my_time" />
+	<item name="SaveTo" drawable="saveto" />
 	<item name="SBB Mobile" drawable="sbb" />
 	<item name="SberBank Online" drawable="sberbank" />
 	<item name="SberBank Online Alt" drawable="sberbank_alt" />
@@ -3034,18 +3045,17 @@
 	<item name="School Loop" drawable="school_loop" />
 	<item name="School Planner" drawable="school_planner" />
 	<item name="Schoology" drawable="schoology" />
-	<item name="Charles Schwab Events" drawable="schwab" />
-	<item name="Scoober Alt" drawable="scoober_alt" />
 	<item name="Scoober" drawable="scoober" />
+	<item name="Scoober Alt" drawable="scoober_alt" />
 	<item name="Score! Hero" drawable="score_hero" />
-	<item name="Scotiabank Mobile Banking Alt" drawable="scotiabank_alt" />
 	<item name="Scotiabank Mobile Banking" drawable="scotiabank" />
+	<item name="Scotiabank Mobile Banking Alt" drawable="scotiabank_alt" />
 	<item name="Scottrade" drawable="scottrade" />
 	<item name="Scoutmob" drawable="scoutmob" />
 	<item name="Scrambled Exif" drawable="scrambled_exif" />
 	<item name="Screen Dimmer" drawable="screen_dimmer" />
-	<item name="Screen Recorder Alt" drawable="screen_recorder_alt" />
 	<item name="Screen Recorder" drawable="screen_recorder" />
+	<item name="Screen Recorder Alt" drawable="screen_recorder_alt" />
 	<item name="ScreenCam" drawable="screencam_screen_recorder" />
 	<item name="Screener" drawable="screener" />
 	<item name="Scribblenauts Remix" drawable="scribblenauts" />
@@ -3068,20 +3078,20 @@
 	<item name="Serverauditor" drawable="serverauditor" />
 	<item name="Service NSW" drawable="service_nsw" />
 	<item name="Sesame" drawable="sesame" />
-	<item name="Settings Alt Two" drawable="settings_alt_two" />
-	<item name="Settings Alt" drawable="settings_alt" />
 	<item name="Settings" drawable="settings" />
+	<item name="Settings Alt" drawable="settings_alt" />
+	<item name="Settings Alt Two" drawable="settings_alt_two" />
+	<item name="Shadow Fight 3" drawable="shadow_fight_3" />
 	<item name="Shadowsocks" drawable="shadowsocks" />
 	<item name="Shake-it Alarm" drawable="shake_it_alarm" />
 	<item name="Shakepay" drawable="shakepay" />
 	<item name="SHAREit" drawable="share_it" />
 	<item name="ShareMe" drawable="shareme" />
 	<item name="Shattered Pixel Dungeon" drawable="shattered_pixel_dungeon" />
-	<item name="Shazam" drawable="shazam" />
 	<item name="Shazam Lite" drawable="shazam_lite" />
+	<item name="Shazam" drawable="shazam" />
 	<item name="SHEIN" drawable="shein" />
 	<item name="Shift Tracker" drawable="shift_tracker" />
-	<item name="Showtime Anytime" drawable="sho_anytime" />
 	<item name="Shonen Jump" drawable="shonen_jump" />
 	<item name="Shonen Jump+" drawable="shonen_jump_plus" />
 	<item name="Shoot! I Smoke" drawable="shoot_i_smoke" />
@@ -3092,28 +3102,27 @@
 	<item name="Shortcut to My apps" drawable="shortcut_to_my_apps" />
 	<item name="Should I Answer?" drawable="should_i_answer" />
 	<item name="Showly" drawable="showly" />
+	<item name="Showtime Anytime" drawable="sho_anytime" />
 	<item name="Shpock" drawable="shpock" />
 	<item name="Shuttle Music Player" drawable="shuttle" />
-	<item name="Shadow Fight 3" drawable="shadow_fight_3" />
 	<item name="SideChef" drawable="sidechef" />
 	<item name="Sign for Deezer" drawable="sign_for_deezer" />
 	<item name="Sign for Spotify" drawable="sign_for_spotify" />
 	<item name="Signal" drawable="signal" />
 	<item name="Simeji" drawable="simeji" />
-	<item name="Simple Social" drawable="simple_social" />
-	<item name="simple_social" drawable="simple" />
 	<item name="Simple Calculator" drawable="simple_calculator" />
 	<item name="Simple Calendar" drawable="simple_calendar" />
+	<item name="Simple Dilbert" drawable="simpledilbert" />
 	<item name="Simple Gallery" drawable="simple_gallery" />
 	<item name="Simple Habit" drawable="simple_habit" />
 	<item name="Simple Notes" drawable="simple_notes" />
-	<item name="Simple Scrobbler Alt" drawable="simple_scrobbler_alt" />
 	<item name="Simple Scrobbler" drawable="simple_scrobbler" />
+	<item name="Simple Scrobbler Alt" drawable="simple_scrobbler_alt" />
+	<item name="Simple Social" drawable="simple_social" />
 	<item name="Simple Workout Log" drawable="simple_workout_log" />
-	<item name="Simple Dilbert" drawable="simpledilbert" />
+	<item name="simple_social" drawable="simple" />
 	<item name="SimpleMind" drawable="simplemind" />
 	<item name="Simplenote" drawable="simplenote" />
-	<item name="The Simpsons: Tapped Out" drawable="simpsons_springfield_game" />
 	<item name="simyo" drawable="simyo" />
 	<item name="SingStar Mic" drawable="singstar" />
 	<item name="SiriusXM" drawable="sirius_xm" />
@@ -3123,87 +3132,79 @@
 	<item name="Skrill" drawable="skrill" />
 	<item name="SKRWT" drawable="skrwt" />
 	<item name="Sky" drawable="sky" />
-	<item name="Sky Alt Four" drawable="sky_alt_four" />
 	<item name="Sky Alt One" drawable="sky_alt_one" />
-	<item name="Sky Alt Three" drawable="sky_alt_three" />
 	<item name="Sky Alt Two" drawable="sky_alt_two" />
-	<item name="Sky Wings: Pixel Fighter" drawable="retro_shooting" />
+	<item name="Sky Alt Three" drawable="sky_alt_three" />
+	<item name="Sky Alt Four" drawable="sky_alt_four" />
 	<item name="Sky Map" drawable="sky_map" />
-	<item name="Sky Sports" drawable="sky_sports" />
 	<item name="Sky Sports Scores" drawable="sky_sports_scores" />
+	<item name="Sky Sports" drawable="sky_sports" />
+	<item name="Sky Wings: Pixel Fighter" drawable="retro_shooting" />
 	<item name="SkyCash" drawable="skycash" />
 	<item name="Skyeng" drawable="skyeng" />
-	<item name="Skype Alt"  drawable="skype_alt" />
 	<item name="Skype" drawable="skype" />
-	<item drawable="skype_lite" />
-	<item drawable="skyscanner" />
-	<item drawable="skyward" />
-	<item drawable="slack" />
-	<item drawable="slack_alt" />
-	<item drawable="slacker_radio" />
-	<item drawable="sleep_as_android" />
-	<item drawable="sleep_cycle" />
-	<item drawable="sleep_timer" />
-	<item drawable="sleeperbot" />
-	<item drawable="sleepo" />
-	<item drawable="sleepy_box" />
-	<item drawable="sleepybox" />
-	<item drawable="slice" />
+	<item name="Skype Alt"  drawable="skype_alt" />
+	<item name="Skype Lite" drawable="skype_lite" />
+	<item name="Skyscanner" drawable="skyscanner" />
+	<item name="Skyward Mobile Access" drawable="skyward" />
+	<item name="Slack" drawable="slack" />
+	<item name="Slack Alt" drawable="slack_alt" />
+	<item name="Slacker Radio" drawable="slacker_radio" />
+	<item name="Sleep as Android" drawable="sleep_as_android" />
+	<item name="Sleep Cycle" drawable="sleep_cycle" />
+	<item name="Sleep Timer" drawable="sleep_timer" />
+	<item name="Sleepa" drawable="sleepa" />
+	<item name="Sleeper" drawable="sleeperbot" />
+	<item name="Sleepy Box &amp; Pillow Sounds" drawable="sleepy_box" />
+	<item name="Slice" drawable="slice" />
 	<item name="Slide for Reddit" drawable="slide" />
-	<item drawable="slidebox" />
-	<item drawable="slowly" />
-	<item name="Smart Launcher Alt" drawable="smart_launcher_alt" />
+	<item name="Slidebox" drawable="slidebox" />
+	<item name="SLOWLY" drawable="slowly" />
 	<item name="Smart Launcher" drawable="smart_launcher" />
-	<item drawable="smart_life" />
+	<item name="Smart Launcher Alt" drawable="smart_launcher_alt" />
+	<item name="Smart Life" drawable="smart_life" />
 	<item name="Smart Mirror HD" drawable="mirror" />
-	<item drawable="smart_news" />
-	<item drawable="smart_tools" />
+	<item name="Smart Tools" drawable="smart_tools" />
 	<item name="Smart Tutor" drawable="smart_tutor" />
-	<item drawable="smartcast" />
-	<item drawable="smartstart" />
-	<item drawable="smartthings" />
-	<item drawable="smbc" />
-	<item drawable="smhw" />
+	<item name="SmartNews" drawable="smart_news" />
+	<item name="SmartThings Classic" drawable="smartthings" />
+	<item name="SMBC" drawable="smbc" />
+	<item name="SMHW" drawable="smhw" />
 	<item name="Smiling Mind" drawable="smiling_mind" />
 	<item name="SMS" drawable="sms" />
 	<item name="SMS Alt" drawable="sms_alt" />
-	<item name="SMS Alt Eight" drawable="sms_alt_eight" />
-	<item name="SMS Alt Eleven" drawable="sms_alt_eleven" />
-	<item name="SMS Alt Five" drawable="sms_alt_five" />
-	<item name="SMS Alt Four" drawable="sms_alt_four" />
-	<item name="SMS Alt Nine" drawable="sms_alt_nine" />
-	<item name="SMS Alt Seven" drawable="sms_alt_seven" />
-	<item name="SMS Alt Six" drawable="sms_alt_six" />
-	<item name="SMS Alt Ten" drawable="sms_alt_ten" />
-	<item name="SMS Alt Thirteen" drawable="sms_alt_thirteen" />
-	<item name="SMS Alt Three" drawable="sms_alt_three" />
-	<item name="SMS Alt Twelve" drawable="sms_alt_twelve" />
 	<item name="SMS Alt Two" drawable="sms_alt_two" />
-	<item drawable="sms_backup_and_restore" />
-	<item drawable="sms_organizer" />
-	<item drawable="snapchat" />
-	<item drawable="snapchat_alt" />
-	<item drawable="snapdeal" />
-	<item drawable="snapseed" />
-	<item drawable="snaptube" />
-	<item drawable="snes9x_explus" />
-	<item drawable="snow" />
-	<item drawable="societe_generale" />
-	<item drawable="soda" />
-	<item drawable="sofascore" />
-	<item drawable="sofi" />
-	<item drawable="softethervpn" />
-	<item drawable="solarwinds_msp_manager" />
-	<item drawable="solarwinds_rmm" />
-	<item drawable="solarwinds_take_control" />
-	<item drawable="solid_explorer" />
-	<item drawable="solitaire" />
-	<item drawable="solitaire_decked_out" />
-	<item drawable="solo_launcher" />
-	<item drawable="sololearn" />
-	<item drawable="somnio" />
-	<item drawable="somtoday" />
-	<item drawable="sonic_the_hedgehog_1_classic" />
+	<item name="SMS Alt Three" drawable="sms_alt_three" />
+	<item name="SMS Alt Four" drawable="sms_alt_four" />
+	<item name="SMS Alt Five" drawable="sms_alt_five" />
+	<item name="SMS Alt Six" drawable="sms_alt_six" />
+	<item name="SMS Alt Seven" drawable="sms_alt_seven" />
+	<item name="SMS Alt Eight" drawable="sms_alt_eight" />
+	<item name="SMS Alt Nine" drawable="sms_alt_nine" />
+	<item name="SMS Alt Ten" drawable="sms_alt_ten" />
+	<item name="SMS Alt Eleven" drawable="sms_alt_eleven" />
+	<item name="SMS Alt Twelve" drawable="sms_alt_twelve" />
+	<item name="SMS Alt Thirteen" drawable="sms_alt_thirteen" />
+	<item name="SMS Backup &amp; Restore" drawable="sms_backup_and_restore" />
+	<item name="SMS Organizer" drawable="sms_organizer" />
+	<item name="Snapchat" drawable="snapchat" />
+	<item name="Snapchat" drawable="snapchat_alt" />
+	<item name="Snapdeal Shopping App" drawable="snapdeal" />
+	<item name="Snaptube" drawable="snaptube" />
+	<item name="Snes9x EX+" drawable="snes9x_explus" />
+	<item name="SNOW" drawable="snow" />
+	<item name="SODA" drawable="soda" />
+	<item name="SofaScore" drawable="sofascore" />
+	<item name="SoFi" drawable="sofi" />
+	<item name="SoftEther VPN for Android" drawable="softethervpn" />
+	<item name="Solid Explorer File Manager" drawable="solid_explorer" />
+	<item name="Solitaire" drawable="solitaire" />
+	<item name="Solitaire: Decked Out" drawable="solitaire_decked_out" />
+	<item name="Solo Launcher" drawable="solo_launcher" />
+	<item name="Sololearn" drawable="sololearn" />
+	<item name="Somnio" drawable="somnio" />
+	<item name="SOMtoday Mobiel" drawable="somtoday" />
+	<item name="Sonic the Hedgehog Classic" drawable="sonic_the_hedgehog_1_classic" />
 	<item name="Sonos" drawable="sonos" />
 	<item name="Sony Headphones Connect" drawable="sony_headphones_connect" />
 	<item name="Sony Sketch" drawable="sony_sketch" />
@@ -3212,99 +3213,91 @@
 	<item name="Sophos Mobile Security" drawable="sophos_mobile_security" />
 	<item name="Sophos Secure Workspace" drawable="sophos_secure_workspace" />
 	<item name="Soul Knight" drawable="soul_knight" />
+	<item name="Sound Recorder" drawable="sound_recorder" />
+	<item name="SoundCloud" drawable="soundcloud" />
 	<item name="SoundHound" drawable="sound__hound" />
-	<item drawable="sound_recorder" />
-	<item drawable="soundbrenner_metronome" />
-	<item drawable="soundcloud" />
-	<item drawable="soundrs" />
-	<item drawable="sparda_bank" />
-	<item drawable="sparebank_one" />
-	<item drawable="spark" />
-	<item drawable="sparkasse" />
-	<item drawable="sparkasse_push_tan" />
-	<item drawable="spectrum" />
+	<item name="Soundrs" drawable="soundrs" />
+	<item name="SpardaApp" drawable="sparda_bank" />
+	<item name="SpareBank 1 Mobile Banking" drawable="sparebank_one" />
+	<item name="Spark Email" drawable="spark" />
+	<item name="Sparkasse pushTAN" drawable="sparkasse_push_tan" />
+	<item name="Sparkasse" drawable="sparkasse" />
+	<item name="Spectrum" drawable="spectrum" />
+	<item name="Speed reader" drawable="spritz_reader" />
 	<item name="Speedpass+" drawable="speedpass_plus" />
-	<item drawable="speedtest" />
-	<item drawable="spendee" />
-	<item drawable="spg" />
-	<item drawable="spideroak_one" />
-	<item drawable="spiegel_online" />
-	<item drawable="spin_the_wheel" />
-	<item drawable="splitwise" />
-	<item drawable="sport1" />
-	<item drawable="sport_eins" />
-	<item drawable="sports_ru" />
-	<item drawable="sportschau" />
-	<item drawable="sportscheck" />
-	<item name="Spotify" drawable="spotify" />
+	<item name="Speedtest by Ookla" drawable="speedtest" />
+	<item name="Spendee" drawable="spendee" />
+	<item name="SPG" drawable="spg" />
+	<item name="SpiderOak ONE" drawable="spideroak_one" />
+	<item name="Spin The Wheel" drawable="spin_the_wheel" />
+	<item name="Splitwise" drawable="splitwise" />
+	<item name="SPORT1" drawable="sport_eins" />
+	<item name="Sports.ru" drawable="sports_ru" />
+	<item name="SPORTSCHAU" drawable="sportschau" />
+	<item name="SportScheck" drawable="sportscheck" />
 	<item name="Spotify for Artists" drawable="spotify_artists" />
 	<item name="Spotify Lite" drawable="spotify_lite" />
 	<item name="Spotify Stations" drawable="spotify_stations" />
-	<item drawable="spreaker" />
-	<item drawable="spritz_reader" />
-	<item drawable="square_cash" />
-	<item drawable="square_home" />
-	<item drawable="square_instapic" />
-	<item name="Stack" drawable="stack" />
+	<item name="Spotify" drawable="spotify" />
+	<item name="Spreaker Podcast Player" drawable="spreaker" />
+	<item name="Square Home" drawable="square_home" />
+	<item name="Square InPic" drawable="square_instapic" />
+	<item name="St.George Mobile Banking" drawable="stgeorge_banking" />
 	<item name="Stack Exchange" drawable="stack_exchange" />
 	<item name="Stack Overflow" drawable="stack_overflow" />
+	<item name="Stack" drawable="stack" />
 	<item name="Stagecoach Bus" drawable="stagecoach" />
 	<item name="Stan." drawable="stan" />
 	<item name="Standard Notes" drawable="standardnotes" />
 	<item name="Standoff 2" drawable="standoff_two" />
-	<item name="Starbucks" drawable="starbucks" />
 	<item name="Star Citizen Travel Helper" drawable="star_citizen_travel_helper" />
 	<item name="Star Walk 2" drawable="star_walk_2" />
-	<item name="Stardew Valley" drawable="stardewvalley" />
-	<item drawable="starlight" />
-	<item drawable="starlight_alt" />
-	<item drawable="starling_bank" />
-	<item drawable="startpage" />
 	<item name="Star Wars" drawable="starwars" />
 	<item name="Star Wars: Force Arena" drawable="force_arena" />
-	<item drawable="statping" />
-	<item drawable="stats_royale" />
-	<item drawable="status" />
-	<item drawable="steam" />
-	<item drawable="steam_link" />
-	<item drawable="stellio" />
-	<item drawable="stellio_alt" />
-	<item drawable="stgeorge_banking" />
-	<item drawable="stickerly" />
-	<item drawable="stickmount" />
-	<item drawable="stitch_and_share" />
-	<item drawable="stocard" />
-	<item drawable="stockx" />
-	<item drawable="stoic_mental_health_training" />
-	<item drawable="stoop" />
-	<item drawable="storytel" />
-	<item drawable="stranger_things" />
-	<item drawable="strava" />
-	<item drawable="stream" />
-	<item drawable="stream_tv" />
+	<item name="Starbucks" drawable="starbucks" />
+	<item name="Stardew Valley" drawable="stardewvalley" />
+	<item name="Starling Bank" drawable="starling_bank" />
+	<item name="Startpage Private Search" drawable="startpage" />
+	<item name="Statping" drawable="statping" />
+	<item name="Stats Royale for Clash Royale" drawable="stats_royale" />
+	<item name="Status" drawable="status" />
+	<item name="Steam Link" drawable="steam_link" />
+	<item name="Steam" drawable="steam" />
+	<item name="Stellio" drawable="stellio" />
+	<item name="Stellio Alt" drawable="stellio_alt" />
+	<item name="Sticker.ly" drawable="stickerly" />
+	<item name="StickMount" drawable="stickmount" />
+	<item name="Stitch &amp; Share" drawable="stitch_and_share" />
+	<item name="Stocard" drawable="stocard" />
+	<item name="StockX" drawable="stockx" />
+	<item name="stoic" drawable="stoic_mental_health_training" />
+	<item name="Stoop" drawable="stoop" />
+	<item name="Storytel" drawable="storytel" />
+	<item name="Stranger Things: The Game" drawable="stranger_things" />
+	<item name="Strava" drawable="strava" />
+	<item name="Stream" drawable="stream" />
 	<item name="Streaming for Android" drawable="streaming" />
 	<item name="Stremio" drawable="stremio" />
-	<item drawable="student_planner" />
-	<item drawable="studentvue" />
-	<item drawable="studo" />
-	<item drawable="studydrive" />
-	<item drawable="stylish_text" />
-	<item drawable="subnautica" />
-	<item drawable="subnettable" />
-	<item drawable="substratum" />
-	<item drawable="substratum_alt" />
-	<item drawable="substratum_lite" />
-	<item name="Subtitle Viewer Alt" drawable="subtitle_viewer_alt" />
+	<item name="Student Planner" drawable="student_planner" />
+	<item name="StudentVUE" drawable="studentvue" />
+	<item name="Studo" drawable="studo" />
+	<item name="Studydrive" drawable="studydrive" />
+	<item name="Stylish Text" drawable="stylish_text" />
+	<item name="Subnautica: Companion" drawable="subnautica" />
+	<item name="Subnettable" drawable="subnettable" />
+	<item name="Substratum" drawable="substratum" />
+	<item name="Substratum Alt" drawable="substratum_alt" />
+	<item name="Substratum Lite" drawable="substratum_lite" />
 	<item name="Subtitle Viewer" drawable="subtitle_viewer" />
-	<item name="Subway" drawable="subway" />
+	<item name="Subtitle Viewer Alt" drawable="subtitle_viewer_alt" />
 	<item name="Subway Surfers" drawable="subway_surfers" />
+	<item name="Subway" drawable="subway" />
 	<item name="Sudoku - The Clean One" drawable="sudoku" />
-	<item name="SZ.de" drawable="sueddeutsche" />
 	<item name="Suica" drawable="suica" />
 	<item name="Summoner's Companion for LoL" drawable="summoners_companion" />
 	<item name="Sunnytrack" drawable="sunnytrack" />
-	<item name="Suntimes" drawable="suntimes" />
 	<item name="Suntimes Alarms" drawable="suntimes_alarms" />
+	<item name="Suntimes" drawable="suntimes" />
 	<item name="Super Arc Light" drawable="super_arc_light" />
 	<item name="Super Mario Run" drawable="super_mario_run" />
 	<item name="SuperSU" drawable="supersu" />
@@ -3328,21 +3321,22 @@
 	<item name="Sync for reddit Alt" drawable="sync_alt" />
 	<item name="Syncthing" drawable="syncthing" />
 	<item name="Synology Chat" drawable="synology_chat" />
-	<item name="Synology DS cam" drawable="synology_ds_cam" />
 	<item name="Synology Drive" drawable="synology_ds_drive" />
-	<item name="Synology DS video" drawable="synology_ds_video" />
+	<item name="Synology DS cam" drawable="synology_ds_cam" />
 	<item name="Synology DS note" drawable="synology_dsnote" />
+	<item name="Synology DS video" drawable="synology_ds_video" />
 	<item name="Synology VPN Plus" drawable="synology_vpn" />
 	<item name="SynoManager" drawable="synomanager" />
 	<item name="SysLog" drawable="syslog" />
 	<item name="System app remover" drawable="system_app_safe_remover" />
+	<item name="SZ.de" drawable="sueddeutsche" />
 	<item name="Szkolny.eu" drawable="szkolny" />
 	
 	<category title="T" />
-	<item name="T phone Alt" drawable="t_phone_alt" />
 	<item name="T phone" drawable="t_phone" />
-	<item name="T-Mobile Visual Voicemail Alt" drawable="t_mobile_visual_voicemail_alt" />
+	<item name="T phone Alt" drawable="t_phone_alt" />
 	<item name="T-Mobile Visual Voicemail" drawable="t_mobile_visual_voicemail" />
+	<item name="T-Mobile Visual Voicemail Alt" drawable="t_mobile_visual_voicemail_alt" />
 	<item name="T-Mobile" drawable="t_mobile" />
 	<item name="T. Rowe Price" drawable="t_rowe_price" />
 	<item name="Tab Pro" drawable="tab_pro" />
@@ -3352,15 +3346,15 @@
 	<item name="Tagespresse" drawable="tagespresse" />
 	<item name="tagesschau" drawable="tagesschau" />
 	<item name="Tailscale" drawable="tailscale" />
-	<item name="Takeaway.com Alt" drawable="takeaway_alt" />
 	<item name="Takeaway.com" drawable="takeaway" />
+	<item name="Takeaway.com Alt" drawable="takeaway_alt" />
 	<item name="Talon for Twitter" drawable="talon" />
 	<item name="talque" drawable="talque" />
 	<item name="Tandem" drawable="tandem" />
 	<item name="Tangerine Mobile Banking" drawable="tangerine" />
 	<item name="Tantan" drawable="tantan" />
-	<item name="Taobao Mobile Alt" drawable="taobao_alt" />
 	<item name="Taobao Mobile" drawable="taobao" />
+	<item name="Taobao Mobile Alt" drawable="taobao_alt" />
 	<item name="TAP Air Portugal" drawable="tap_air_portugal" />
 	<item name="Tapas" drawable="tapas" />
 	<item name="Tapatalk" drawable="tapatalk" />
@@ -3382,9 +3376,9 @@
 	<item name="TechnoBase.FM" drawable="technobase" />
 	<item name="TecMundo Notícias" drawable="tecmundo" />
 	<item name="TED" drawable="ted" />
+	<item name="Telegram" drawable="telegram" />
 	<item name="Telegram Alt" drawable="telegram_alt" />
 	<item name="Telegram X" drawable="telegram_x" />
-	<item name="Telegram" drawable="telegram" />
 	<item name="Tellonym" drawable="tellonym" />
 	<item name="Tennis Temple" drawable="tennis_temple" />
 	<item name="Tennis TV" drawable="tennis_tv" />
@@ -3396,18 +3390,20 @@
 	<item name="TeslaUnread" drawable="teslaunread" />
 	<item name="Testy" drawable="testy_hardware_check" />
 	<item name="Tetris" drawable="tetris" />
-	<item name="Texpand Alt" drawable="texpand_alt" />
 	<item name="Texpand" drawable="texpand" />
+	<item name="Texpand Alt" drawable="texpand_alt" />
 	<item name="TextNow" drawable="textnow" />
 	<item name="Textra" drawable="textra" />
 	<item name="Thaichana" drawable="thaichana" />
 	<item name="The Guardian" drawable="the_guardian" />
+	<item name="The Metronome by Soundbrenner" drawable="soundbrenner_metronome" />
 	<item name="The New York Times" drawable="the_new_york_times" />
 	<item name="The Rock Clock" drawable="the_rock_clock" />
+	<item name="The Simpsons: Tapped Out" drawable="simpsons_springfield_game" />
 	<item name="The Sims Mobile" drawable="the_sims" />
 	<item name="The Wall Street Journal" drawable="wallstreet_journal" />
-	<item name="The Wallet Alt" drawable="cardsmobile_alt" />
 	<item name="The Wallet" drawable="cardsmobile" />
+	<item name="The Wallet Alt" drawable="cardsmobile_alt" />
 	<item name="The Weather Channel" drawable="the_weather_channel" />
 	<item name="The Weather Network" drawable="the_weather_network" />
 	<item name="ThemeDIY" drawable="themediy" />
@@ -3427,10 +3423,10 @@
 	<item name="TIER" drawable="tier" />
 	<item name="Tigerball" drawable="tigerball" />
 	<item name="Tigrus Club" drawable="tigrus_club" />
-	<item name="TikTok Alt Two" drawable="tiktok_alt_two" />
-	<item name="TikTok Alt" drawable="tiktok_alt" />
-	<item name="TikTok Lite" drawable="tiktok_lite" />
 	<item name="TikTok" drawable="tiktok" />
+	<item name="TikTok Alt" drawable="tiktok_alt" />
+	<item name="TikTok Alt Two" drawable="tiktok_alt_two" />
+	<item name="TikTok Lite" drawable="tiktok_lite" />
 	<item name="Tile" drawable="tile" />
 	<item name="Tiles" drawable="tiles" />
 	<item name="Tim Hortons" drawable="tim_hortons" />
@@ -3440,9 +3436,9 @@
 	<item name="TimeTune" drawable="time_tune" />
 	<item name="Tinder Lite" drawable="tinder_lite" />
 	<item name="Tinder" drawable="tinder" />
+	<item name="Tinkoff" drawable="tinkoff" />
 	<item name="Tinkoff Alt" drawable="tinkoff_alt" />
 	<item name="Tinkoff Invest Course" drawable="tinkoff_invest_course" />
-	<item name="Tinkoff" drawable="tinkoff" />
 	<item name="Tiny Tiny RSS" drawable="tiny_tiny_rss" />
 	<item name="Tiny Weather Forecast Germany" drawable="tiny_weather_forecast_germany" />
 	<item name="tinyCam Monitor" drawable="tinycam" />
@@ -3450,7 +3446,16 @@
 	<item name="TMB Touch" drawable="tmb_touch" />
 	<item name="TMRW" drawable="tmrw_th" />
 	<item name="To Don't" drawable="to_dont" />
+	<item name="Today Calendar" drawable="today_calendar" />
 	<item name="Today Calendar 1" drawable="today_calendar_1" />
+	<item name="Today Calendar 2" drawable="today_calendar_2" />
+	<item name="Today Calendar 3" drawable="today_calendar_3" />
+	<item name="Today Calendar 4" drawable="today_calendar_4" />
+	<item name="Today Calendar 5" drawable="today_calendar_5" />
+	<item name="Today Calendar 6" drawable="today_calendar_6" />
+	<item name="Today Calendar 7" drawable="today_calendar_7" />
+	<item name="Today Calendar 8" drawable="today_calendar_8" />
+	<item name="Today Calendar 9" drawable="today_calendar_9" />
 	<item name="Today Calendar 10" drawable="today_calendar_10" />
 	<item name="Today Calendar 11" drawable="today_calendar_11" />
 	<item name="Today Calendar 12" drawable="today_calendar_12" />
@@ -3461,7 +3466,6 @@
 	<item name="Today Calendar 17" drawable="today_calendar_17" />
 	<item name="Today Calendar 18" drawable="today_calendar_18" />
 	<item name="Today Calendar 19" drawable="today_calendar_19" />
-	<item name="Today Calendar 2" drawable="today_calendar_2" />
 	<item name="Today Calendar 20" drawable="today_calendar_20" />
 	<item name="Today Calendar 21" drawable="today_calendar_21" />
 	<item name="Today Calendar 22" drawable="today_calendar_22" />
@@ -3472,16 +3476,8 @@
 	<item name="Today Calendar 27" drawable="today_calendar_27" />
 	<item name="Today Calendar 28" drawable="today_calendar_28" />
 	<item name="Today Calendar 29" drawable="today_calendar_29" />
-	<item name="Today Calendar 3" drawable="today_calendar_3" />
 	<item name="Today Calendar 30" drawable="today_calendar_30" />
 	<item name="Today Calendar 31" drawable="today_calendar_31" />
-	<item name="Today Calendar 4" drawable="today_calendar_4" />
-	<item name="Today Calendar 5" drawable="today_calendar_5" />
-	<item name="Today Calendar 6" drawable="today_calendar_6" />
-	<item name="Today Calendar 7" drawable="today_calendar_7" />
-	<item name="Today Calendar 8" drawable="today_calendar_8" />
-	<item name="Today Calendar 9" drawable="today_calendar_9" />
-	<item name="Today Calendar" drawable="today_calendar" />
 	<item name="Today Settings" drawable="today_widget" />
 	<item name="Today Weather" drawable="today_weather" />
 	<item name="Todoist" drawable="todoist" />
@@ -3515,8 +3511,8 @@
 	<item name="Transistor Radio" drawable="transistor" />
 	<item name="transit" drawable="transit" />
 	<item name="TransLoc Rider" drawable="rider" />
-	<item name="Transmission Remote Alt" drawable="transmission_remote_alt" />
 	<item name="Transmission Remote" drawable="transmission_remote" />
+	<item name="Transmission Remote Alt" drawable="transmission_remote_alt" />
 	<item name="Transno" drawable="transno" />
 	<item name="Transportr" drawable="transportr" />
 	<item name="Travelist" drawable="travelist" />
@@ -3542,8 +3538,8 @@
 	<item name="TrueMoney Wallet" drawable="truemoney" />
 	<item name="Trulia Mortgage Calculators" drawable="trulia_mortgage" />
 	<item name="Trulia" drawable="trulia" />
-	<item name="Trust Wallet Alt" drawable="trust_alt" />
 	<item name="Trust Wallet" drawable="trust" />
+	<item name="Trust Wallet Alt" drawable="trust_alt" />
 	<item name="Trusted Contacts" drawable="trusted_contacts" />
 	<item name="TSN" drawable="tsn" />
 	<item name="tTorrent" drawable="ttorrent" />
@@ -3566,12 +3562,12 @@
 	<item name="Twidere for Twitter/Mastodon" drawable="twidere" />
 	<item name="Twilight" drawable="twilight" />
 	<item name="Twitch" drawable="twitch" />
-	<item name="Twitter Alt Two" drawable="twitter_alt_two" />
-	<item name="Twitter Alt" drawable="twitter_alt" />
-	<item name="Twitter Lite Alt Two" drawable="twitter_lite_alt_two" />
-	<item name="Twitter Lite Alt" drawable="twitter_lite_alt" />
-	<item name="Twitter Lite" drawable="twitter_lite" />
 	<item name="Twitter" drawable="twitter" />
+	<item name="Twitter Alt" drawable="twitter_alt" />
+	<item name="Twitter Alt Two" drawable="twitter_alt_two" />
+	<item name="Twitter Lite" drawable="twitter_lite" />
+	<item name="Twitter Lite Alt" drawable="twitter_lite_alt" />
+	<item name="Twitter Lite Alt Two" drawable="twitter_lite_alt_two" />
 	<item name="Two Dots" drawable="two_dots" />
 	<item name="TWRP" drawable="twrp" />
 	<item name="txt" drawable="txt" />
@@ -3653,19 +3649,21 @@
 	<item name="Vimeo" drawable="vimeo" />
 	<item name="Vinci" drawable="vinci" />
 	<item name="Vine" drawable="vine" />
+	<item name="Viper SmartStart" drawable="smartstart" />
 	<item name="ViPER4Android" drawable="viper" />
 	<item name="Vipps" drawable="vipps" />
 	<item name="Virgin Mobile" drawable="virgin_mobile" />
 	<item name="Virtual Wallet" drawable="virtual_wallet" />
 	<item name="Visualis" drawable="visualis" />
 	<item name="Viu" drawable="viu" />
-	<item name="Vivaldi Alt" drawable="vivaldi_alt" />
-	<item name="Vivaldi Browser Snapshot Alt" drawable="vivaldi_snapshot_alt" />
-	<item name="Vivaldi Browser Snapshot" drawable="vivaldi_snapshot" />
 	<item name="Vivaldi" drawable="vivaldi" />
+	<item name="Vivaldi Alt" drawable="vivaldi_alt" />
+	<item name="Vivaldi Browser Snapshot" drawable="vivaldi_snapshot" />
+	<item name="Vivaldi Browser Snapshot Alt" drawable="vivaldi_snapshot_alt" />
 	<item name="Vivino" drawable="vivino" />
-	<item name="VK Alt" drawable="vkontakte_alt" />
+	<item name="VIZIO SmartCast Mobile" drawable="smartcast" />
 	<item name="VK" drawable="vkontakte" />
+	<item name="VK Alt" drawable="vkontakte_alt" />
 	<item name="VLC" drawable="vlc" />
 	<item name="VN" drawable="vn" />
 	<item name="Vocabulary.com" drawable="vocab" />
@@ -3673,11 +3671,11 @@
 	<item name="VOEZ" drawable="voez" />
 	<item name="Voice Recorder Pro" drawable="voice_recorder_pro" />
 	<item name="Voicemail" drawable="voicemail" />
+	<item name="VPN" drawable="vpn" />
 	<item name="VPN Alt" drawable="vpn_alt" />
 	<item name="VPN by Private Internet Access" drawable="pia_vpn" />
 	<item name="VPN Surfshark" drawable="surfshark_vpn" />
 	<item name="VPN Unlimited" drawable="vpnunlimited" />
-	<item name="VPN" drawable="vpn" />
 	<item name="VPNhub" drawable="vpnhub" />
 	<item name="VR Media Player" drawable="vr_media_player" />
 	<item name="VRV" drawable="vrv" />
@@ -3805,13 +3803,14 @@
 	<item name="Xbox" drawable="xbox" />
 	<item name="XBrowser" drawable="xbrowser" />
 	<item name="Xcel Energy" drawable="xcel_energy" />
-	<item name="XDA Feed" drawable="xda_feed" />
-	<item name="XDA Labs Alt" drawable="xda_labs_alt" />
-	<item name="XDA Labs" drawable="xda_labs" />
 	<item name="XDA" drawable="xda_developers" />
+	<item name="XDA Feed" drawable="xda_feed" />
+	<item name="XDA Labs" drawable="xda_labs" />
+	<item name="XDA Labs Alt" drawable="xda_labs_alt" />
 	<item name="Xe" drawable="xe" />
 	<item name="Xender" drawable="xender" />
 	<item name="XEQ" drawable="xeq" />
+	<item name="Xfinity Stream" drawable="stream_tv" />
 	<item name="Xiaomi Wear" drawable="xiaomi_wear" />
 	<item name="XING" drawable="xing" />
 	<item name="XMind" drawable="xmind" />
@@ -3838,8 +3837,8 @@
 	<item name="Yandex.Toloka" drawable="yandex_toloka" />
 	<item name="Yandex.Translate" drawable="yandex_translate" />
 	<item name="Yandex.Weather" drawable="yandex_weather" />
-	<item name="Yatse Alt" drawable="yatse_alt" />
 	<item name="Yatse" drawable="yatse" />
+	<item name="Yatse Alt" drawable="yatse_alt" />
 	<item name="YAZIO" drawable="yazio" />
 	<item name="Yeelight" drawable="yeelight" />
 	<item name="Yelp" drawable="yelp" />
@@ -3855,8 +3854,8 @@
 	<item name="Yonomi" drawable="yonomi" />
 	<item name="Yota" drawable="yota" />
 	<item name="YouTube Music Vanced" drawable="youtube_music_vanced" />
-	<item name="YouTube Vanced Alt" drawable="youtube_vanced_alt" />
 	<item name="YouTube Vanced" drawable="youtube_vanced" />
+	<item name="YouTube Vanced Alt" drawable="youtube_vanced_alt" />
 	<item name="Yr" drawable="yr" />
 	<item name="Yu-Gi-Oh!" drawable="yu_gi_oh" />
 	<item name="Yubico Authenticator" drawable="yubico_authenticator" />
