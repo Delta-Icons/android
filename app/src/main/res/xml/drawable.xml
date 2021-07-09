@@ -155,6 +155,7 @@
 	<item name="PhotoScan by Google Photos" drawable="google_photoscan" />
 	<item name="Playbook" drawable="google_playbook" />
 	<item name="Recorder" drawable="google_recorder" />
+	<item name="SIM Toolkit" drawable="sim_toolkit" />
 	<item name="Socratic" drawable="google_socratic" />
 	<item name="Spaces" drawable="google_spaces" />
 	<item name="Stadia" drawable="google_stadia" />
@@ -1652,6 +1653,7 @@
 	<item name="FOSDEM" drawable="fosdem" />
 	<item name="FotMob" drawable="fotmob" />
 	<item name="Foursquare City Guide" drawable="foursquare" />
+	<item name="Foursquare Swarm" drawable="swarm" />
 	<item name="france.tv" drawable="france_dot_tv" />
 	<item name="Franco Kernel Manager" drawable="franco_kernel_manager" />
 	<item name="Franco Kernel Updater" drawable="franco_kernel_updater" />
@@ -2558,6 +2560,7 @@
 	<item name="nzb360" drawable="nzb360" />
 	
 	<category title="O" />
+	<item name="O'Reilly" drawable="oreilly" />
 	<item name="O'KEY" drawable="o_key" />
 	<item name="o2 Voicemail" drawable="otwo_voicemail" />
 	<item name="oBike-Stationless Bike Sharing" drawable="obike" />
@@ -2979,12 +2982,10 @@
 	<item name="Ryanair" drawable="ryanair" />
 	
 	<category title="S" />
-	<item drawable="s_converter" />
-	<item drawable="s_health" />
-	<item drawable="saavn" />
-	<item drawable="safari_queue" />
-	<item name="SafeInCloud" drawable="safe__in__cloud" />
+	<item name="S Converter" drawable="s_converter" />
+	<item name="Saavn" drawable="saavn" />
 	<item name="Safe Security" drawable="safe_security" />
+	<item name="SafeInCloud" drawable="safe__in__cloud" />
 	<item name="SAI" drawable="sai" />
 	<item name="Samokat" drawable="samokat" />
 	<item name="Samosa" drawable="samosa" />
@@ -2997,14 +2998,15 @@
 	<item name="Samsung Game Launcher" drawable="samsung_game_launcher" />
 	<item name="Samsung Gear" drawable="samsung_gear" />
 	<item name="Samsung Good Lock" drawable="samsung_good_lock" />
+	<item name="Samsung Health" drawable="samsung_health" />
 	<item name="Samsung Help" drawable="samsung_help" />
 	<item name="Samsung Internet" drawable="samsung_internet" />
 	<item name="Samsung Link Sharing" drawable="samsung_link_sharing" />
 	<item name="Samsung Max" drawable="samsung_max" />
 	<item name="Samsung Members" drawable="samsung_members" />
 	<item name="Samsung Mobile Print" drawable="samsung_mobile_print" />
-	<item name="Samsung Notes" drawable="samsung_notes" />
 	<item name="Samsung Notes Alt" drawable="samsung_notes_alt" />
+	<item name="Samsung Notes" drawable="samsung_notes" />
 	<item name="Samsung Pass" drawable="samsung_pass" />
 	<item name="Samsung Pay" drawable="samsung_pay" />
 	<item name="Samsung Reminder" drawable="samsung_reminder" />
@@ -3018,54 +3020,53 @@
 	<item name="Samsung User Manual" drawable="samsung_user_manual" />
 	<item name="Samsung Video" drawable="samsung_video" />
 	<item name="Santander" drawable="santander" />
-	<item drawable="saveto" />
-	<item drawable="save_my_time" />
-	<item drawable="savemytime" />
-	<item drawable="sbb" />
-	<item drawable="sberbank" />
-	<item drawable="sberbank_alt" />
+	<item name="SaveTo" drawable="saveto" />
+	<item name="SaveMyTime" drawable="save_my_time" />
+	<item name="SBB Mobile" drawable="sbb" />
+	<item name="SberBank Online" drawable="sberbank" />
+	<item name="SberBank Online Alt" drawable="sberbank_alt" />
 	<item name="Scala" drawable="scala" />
 	<item name="Scan Me" drawable="scan" />
-	<item drawable="scarlet" />
+	<item name="Scarlet Notes" drawable="scarlet" />
 	<item name="SCB Easy" drawable="scb_easy" />
 	<item name="SCENE" drawable="the_scene" />
-	<item drawable="schalke" />
-	<item drawable="school_loop" />
-	<item drawable="school_planner" />
+	<item name="Schalke 04" drawable="schalke" />
+	<item name="School Loop" drawable="school_loop" />
+	<item name="School Planner" drawable="school_planner" />
 	<item name="Schoology" drawable="schoology" />
-	<item drawable="schwab" />
+	<item name="Charles Schwab Events" drawable="schwab" />
 	<item name="Scoober Alt" drawable="scoober_alt" />
 	<item name="Scoober" drawable="scoober" />
-	<item drawable="score_hero" />
+	<item name="Score! Hero" drawable="score_hero" />
 	<item name="Scotiabank Mobile Banking Alt" drawable="scotiabank_alt" />
 	<item name="Scotiabank Mobile Banking" drawable="scotiabank" />
 	<item name="Scottrade" drawable="scottrade" />
 	<item name="Scoutmob" drawable="scoutmob" />
 	<item name="Scrambled Exif" drawable="scrambled_exif" />
-	<item drawable="screen_dimmer" />
+	<item name="Screen Dimmer" drawable="screen_dimmer" />
 	<item name="Screen Recorder Alt" drawable="screen_recorder_alt" />
 	<item name="Screen Recorder" drawable="screen_recorder" />
-	<item drawable="screencam_screen_recorder" />
-	<item drawable="screener" />
-	<item drawable="scribblenauts" />
-	<item drawable="scribd" />
-	<item drawable="scriptura" />
-	<item drawable="scrittor" />
-	<item drawable="sd_maid" />
-	<item drawable="seafile" />
-	<item drawable="searxer" />
-	<item drawable="seb" />
-	<item drawable="secscanqr" />
+	<item name="ScreenCam" drawable="screencam_screen_recorder" />
+	<item name="Screener" drawable="screener" />
+	<item name="Scribblenauts Remix" drawable="scribblenauts" />
+	<item name="Scribd" drawable="scribd" />
+	<item name="Scriptura" drawable="scriptura" />
+	<item name="Scrittor" drawable="scrittor" />
+	<item name="SD Maid" drawable="sd_maid" />
+	<item name="Seafile" drawable="seafile" />
+	<item name="Searxer" drawable="searxer" />
+	<item name="SEB" drawable="seb" />
+	<item name="SecScanQR" drawable="secscanqr" />
 	<item name="Secure VPN" drawable="secure_vpn" />
-	<item drawable="securepoint" />
-	<item drawable="seeking_alpha" />
+	<item name="Securepoint VPN Clien‪t" drawable="securepoint" />
+	<item name="Seeking Alpha" drawable="seeking_alpha" />
 	<item name="SelfWealth" drawable="selfwealth" />
-	<item drawable="send_anywhere" />
-	<item drawable="sennheiser" />
-	<item drawable="sense" />
-	<item drawable="seriesguide" />
-	<item drawable="serverauditor" />
-	<item drawable="service_nsw" />
+	<item name="Send Anywhere" drawable="send_anywhere" />
+	<item name="Sennheiser Smart Control" drawable="sennheiser" />
+	<item name="Sense Home Energy Monitor" drawable="sense" />
+	<item name="SeriesGuide" drawable="seriesguide" />
+	<item name="Serverauditor" drawable="serverauditor" />
+	<item name="Service NSW" drawable="service_nsw" />
 	<item name="Sesame" drawable="sesame" />
 	<item name="Settings Alt Two" drawable="settings_alt_two" />
 	<item name="Settings Alt" drawable="settings_alt" />
@@ -3073,36 +3074,34 @@
 	<item name="Shadowsocks" drawable="shadowsocks" />
 	<item name="Shake-it Alarm" drawable="shake_it_alarm" />
 	<item name="Shakepay" drawable="shakepay" />
-	<item drawable="share_it" />
-	<item drawable="shareme" />
-	<item drawable="shattered_pixel_dungeon" />
-	<item drawable="shazam" />
-	<item drawable="shazam_lite" />
-	<item drawable="shein" />
-	<item drawable="shift_tracker" />
-	<item drawable="sho_anytime" />
-	<item drawable="shonen_jump" />
+	<item name="SHAREit" drawable="share_it" />
+	<item name="ShareMe" drawable="shareme" />
+	<item name="Shattered Pixel Dungeon" drawable="shattered_pixel_dungeon" />
+	<item name="Shazam" drawable="shazam" />
+	<item name="Shazam Lite" drawable="shazam_lite" />
+	<item name="SHEIN" drawable="shein" />
+	<item name="Shift Tracker" drawable="shift_tracker" />
+	<item name="Showtime Anytime" drawable="sho_anytime" />
+	<item name="Shonen Jump" drawable="shonen_jump" />
 	<item name="Shonen Jump+" drawable="shonen_jump_plus" />
-	<item drawable="shoot_i_smoke" />
-	<item drawable="shop" />
+	<item name="Shoot! I Smoke" drawable="shoot_i_smoke" />
+	<item name="Shop" drawable="shop" />
 	<item name="ShopBack" drawable="shopback" />
-	<item drawable="shopee" />
-	<item drawable="shopify" />
-	<item drawable="shortcut_to_my_apps" />
-	<item drawable="should_i_answer" />
+	<item name="Shopee" drawable="shopee" />
+	<item name="Shopify" drawable="shopify" />
+	<item name="Shortcut to My apps" drawable="shortcut_to_my_apps" />
+	<item name="Should I Answer?" drawable="should_i_answer" />
 	<item name="Showly" drawable="showly" />
-	<item drawable="shpock" />
-	<item drawable="shuttle" />
+	<item name="Shpock" drawable="shpock" />
+	<item name="Shuttle Music Player" drawable="shuttle" />
 	<item name="Shadow Fight 3" drawable="shadow_fight_3" />
-	<item drawable="sidechef" />
-	<item drawable="sideview" />
-	<item drawable="sign_for_deezer" />
-	<item drawable="sign_for_spotify" />
-	<item drawable="signal" />
-	<item drawable="sim_toolkit" />
+	<item name="SideChef" drawable="sidechef" />
+	<item name="Sign for Deezer" drawable="sign_for_deezer" />
+	<item name="Sign for Spotify" drawable="sign_for_spotify" />
+	<item name="Signal" drawable="signal" />
 	<item name="Simeji" drawable="simeji" />
-	<item drawable="simple" />
-	<item drawable="simple_bank" />
+	<item name="Simple Social" drawable="simple_social" />
+	<item name="simple_social" drawable="simple" />
 	<item name="Simple Calculator" drawable="simple_calculator" />
 	<item name="Simple Calendar" drawable="simple_calendar" />
 	<item name="Simple Gallery" drawable="simple_gallery" />
@@ -3111,29 +3110,29 @@
 	<item name="Simple Scrobbler Alt" drawable="simple_scrobbler_alt" />
 	<item name="Simple Scrobbler" drawable="simple_scrobbler" />
 	<item name="Simple Workout Log" drawable="simple_workout_log" />
-	<item drawable="simpledilbert" />
-	<item drawable="simplemind" />
-	<item drawable="simplenote" />
-	<item drawable="simpsons_springfield_game" />
-	<item drawable="simyo" />
-	<item drawable="singstar" />
-	<item drawable="sirius_xm" />
-	<item drawable="skagen_connected" />
-	<item drawable="skater" />
+	<item name="Simple Dilbert" drawable="simpledilbert" />
+	<item name="SimpleMind" drawable="simplemind" />
+	<item name="Simplenote" drawable="simplenote" />
+	<item name="The Simpsons: Tapped Out" drawable="simpsons_springfield_game" />
+	<item name="simyo" drawable="simyo" />
+	<item name="SingStar Mic" drawable="singstar" />
+	<item name="SiriusXM" drawable="sirius_xm" />
+	<item name="Skagen Hybrid Smartwatches" drawable="skagen_connected" />
+	<item name="Skater" drawable="skater" />
 	<item name="SketchBook" drawable="autodesk_sketchbook" />
-	<item drawable="skrill" />
-	<item drawable="skrwt" />
+	<item name="Skrill" drawable="skrill" />
+	<item name="SKRWT" drawable="skrwt" />
 	<item name="Sky" drawable="sky" />
 	<item name="Sky Alt Four" drawable="sky_alt_four" />
 	<item name="Sky Alt One" drawable="sky_alt_one" />
 	<item name="Sky Alt Three" drawable="sky_alt_three" />
 	<item name="Sky Alt Two" drawable="sky_alt_two" />
 	<item name="Sky Wings: Pixel Fighter" drawable="retro_shooting" />
-	<item drawable="sky_map" />
-	<item drawable="sky_sports" />
-	<item drawable="sky_sports_scores" />
+	<item name="Sky Map" drawable="sky_map" />
+	<item name="Sky Sports" drawable="sky_sports" />
+	<item name="Sky Sports Scores" drawable="sky_sports_scores" />
 	<item name="SkyCash" drawable="skycash" />
-	<item drawable="skyeng" />
+	<item name="Skyeng" drawable="skyeng" />
 	<item name="Skype Alt"  drawable="skype_alt" />
 	<item name="Skype" drawable="skype" />
 	<item drawable="skype_lite" />
@@ -3297,49 +3296,47 @@
 	<item drawable="substratum_lite" />
 	<item name="Subtitle Viewer Alt" drawable="subtitle_viewer_alt" />
 	<item name="Subtitle Viewer" drawable="subtitle_viewer" />
-	<item drawable="subway" />
-	<item drawable="subway_surfers" />
-	<item drawable="sudoku" />
-	<item drawable="sueddeutsche" />
-	<item drawable="suica" />
-	<item drawable="summoners_companion" />
-	<item drawable="sunnytrack" />
-	<item drawable="suntimes" />
-	<item drawable="suntimes_alarms" />
-	<item drawable="super_arc_light" />
+	<item name="Subway" drawable="subway" />
+	<item name="Subway Surfers" drawable="subway_surfers" />
+	<item name="Sudoku - The Clean One" drawable="sudoku" />
+	<item name="SZ.de" drawable="sueddeutsche" />
+	<item name="Suica" drawable="suica" />
+	<item name="Summoner's Companion for LoL" drawable="summoners_companion" />
+	<item name="Sunnytrack" drawable="sunnytrack" />
+	<item name="Suntimes" drawable="suntimes" />
+	<item name="Suntimes Alarms" drawable="suntimes_alarms" />
+	<item name="Super Arc Light" drawable="super_arc_light" />
 	<item name="Super Mario Run" drawable="super_mario_run" />
-	<item drawable="supersu" />
-	<item drawable="supertuxkart" />
-	<item drawable="surfshark_vpn" />
-	<item drawable="sushi" />
-	<item drawable="swapcard" />
-	<item drawable="swapfiets" />
-	<item drawable="swarm" />
-	<item drawable="swift_backup" />
-	<item drawable="swift_installer" />
+	<item name="SuperSU" drawable="supersu" />
+	<item name="SuperTuxKart" drawable="supertuxkart" />
+	<item name="Sushi" drawable="sushi" />
+	<item name="Swapcard" drawable="swapcard" />
+	<item name="Swapfiets" drawable="swapfiets" />
+	<item name="Swift Backup" drawable="swift_backup" />
+	<item name="Swift Installer" drawable="swift_installer" />
 	<item name="SwiftKey" drawable="swift__key" />
 	<item name="SwiftScan" drawable="scanbot" />
-	<item drawable="swiggy" />
-	<item drawable="swipe" />
-	<item drawable="swipe_navigation" />
-	<item drawable="swish" />
-	<item drawable="swype" />
-	<item drawable="sygic" />
-	<item drawable="symbolab" />
-	<item drawable="synapse" />
+	<item name="Swiggy" drawable="swiggy" />
+	<item name="Swipe for Facebook" drawable="swipe" />
+	<item name="Swipe Navigation" drawable="swipe_navigation" />
+	<item name="Swish payments" drawable="swish" />
+	<item name="Swype Keyboard" drawable="swype" />
+	<item name="Sygic" drawable="sygic" />
+	<item name="Symbolab" drawable="symbolab" />
+	<item name="Synapse" drawable="synapse" />
 	<item name="Sync for reddit" drawable="sync" />
 	<item name="Sync for reddit Alt" drawable="sync_alt" />
 	<item name="Syncthing" drawable="syncthing" />
-	<item drawable="synology_chat" />
-	<item drawable="synology_ds_cam" />
-	<item drawable="synology_ds_drive" />
-	<item drawable="synology_ds_video" />
-	<item drawable="synology_dsnote" />
-	<item drawable="synology_vpn" />
-	<item drawable="synomanager" />
+	<item name="Synology Chat" drawable="synology_chat" />
+	<item name="Synology DS cam" drawable="synology_ds_cam" />
+	<item name="Synology Drive" drawable="synology_ds_drive" />
+	<item name="Synology DS video" drawable="synology_ds_video" />
+	<item name="Synology DS note" drawable="synology_dsnote" />
+	<item name="Synology VPN Plus" drawable="synology_vpn" />
+	<item name="SynoManager" drawable="synomanager" />
 	<item name="SysLog" drawable="syslog" />
-	<item drawable="system_app_safe_remover" />
-	<item drawable="szkolny" />
+	<item name="System app remover" drawable="system_app_safe_remover" />
+	<item name="Szkolny.eu" drawable="szkolny" />
 	
 	<category title="T" />
 	<item name="T phone Alt" drawable="t_phone_alt" />
@@ -3645,6 +3642,7 @@
 	<item name="Via Browser" drawable="via_browser" />
 	<item name="Viber Messenger" drawable="viber" />
 	<item name="VibrateMode" drawable="vibratemode" />
+	<item name="Video &amp; TV SideView" drawable="sideview" />
 	<item name="Video Downloader for Instagram" drawable="video_downloader_ig" />
 	<item name="Video Player HD" drawable="vqplayer" />
 	<item name="Video Recorder" drawable="video_recorder" />
@@ -3677,6 +3675,7 @@
 	<item name="Voicemail" drawable="voicemail" />
 	<item name="VPN Alt" drawable="vpn_alt" />
 	<item name="VPN by Private Internet Access" drawable="pia_vpn" />
+	<item name="VPN Surfshark" drawable="surfshark_vpn" />
 	<item name="VPN Unlimited" drawable="vpnunlimited" />
 	<item name="VPN" drawable="vpn" />
 	<item name="VPNhub" drawable="vpnhub" />
