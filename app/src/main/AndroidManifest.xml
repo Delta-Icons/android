@@ -200,17 +200,28 @@
 				android:value="@color/muzei_color" />
 		</provider>
 
-		<receiver
-			android:name=".services.ClockWidget"
-			android:label="Clock Widget">
-
+		<receiver android:name=".services.ClockWidget" android:label="Clock Widget">
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
-			<meta-data
-				android:name="android.appwidget.provider"
-				android:resource="@xml/analog_clock" />
+			<meta-data android:name="android.appwidget.provider" android:resource="@xml/analog_clock" />
 		</receiver>
+
+		<!--
+            Uncomment the following code to enable Kustom.
+            Also remove the `<action ... />`s that you don't want.
+        -->
+		<!--<provider
+            android:name="org.kustom.api.Provider"
+            android:authorities="${applicationId}.kustom.provider"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="org.kustom.provider.WIDGETS" />
+                <action android:name="org.kustom.provider.WALLPAPERS" />
+                <action android:name="org.kustom.provider.LOCKSCREENS" />
+                <action android:name="org.kustom.provider.KOMPONENTS" />
+            </intent-filter>
+        </provider>-->
 
 		<!-- This is important -->
 		<provider

@@ -32,7 +32,19 @@
     <color name="muzei_color">#4A4A4A</color>
 
 
-    <!-- CONFIG: HOME -->
+    <!--
+        CONFIG: KUSTOM
+    -->
+    <!-- Kustom Pack title. Defaults to the app's name -->
+    <string name="kustom_pack_title">@string/app_name</string>
+
+    <!-- Description that would be shown in Kustom apps -->
+    <string name="kustom_pack_description">Cool Kustom presets</string>
+
+
+    <!--
+        CONFIG: HOME
+    -->
 
     <!-- Home title must be defined -->
     <string name="home_title">Delta</string>

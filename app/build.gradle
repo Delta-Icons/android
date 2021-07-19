@@ -44,6 +44,12 @@ android {
 		setArchivesBaseName("${parent.name}-v${versionCode}")
 	}
 
+	bundle {
+		language {
+			enableSplit false
+		}
+	}
+
 	buildTypes {
 		release {
 			debuggable false
@@ -71,7 +77,7 @@ dependencies {
 	 * 6. Done
 	 */
 
-	implementation 'com.github.zixpo:candybar:3.11.6'
+	implementation 'com.github.zixpo:candybar:3.11.7'
 
 	// Remove '//' below to Enable OneSignal
 	//implementation 'com.onesignal:OneSignal:3.15.4'
