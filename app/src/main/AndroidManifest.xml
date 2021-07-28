@@ -47,8 +47,8 @@
 			android:name=".activities.MainActivity"
 			android:configChanges="uiMode|orientation|keyboardHidden|screenSize"
 			android:launchMode="singleTop"
-			android:theme="@style/CandyBar.Theme.Splash">
-
+			android:theme="@style/CandyBar.Theme.App">
+			<!-- android:theme="@style/CandyBar.Theme.Splash"> -->
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 			</intent-filter>
@@ -60,7 +60,6 @@
 			</intent-filter>
 			<intent-filter>
 				<action android:name="android.intent.action.GET_CONTENT" />
-
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.OPENABLE" />
 
@@ -233,7 +232,6 @@
 				android:name="android.support.FILE_PROVIDER_PATHS"
 				android:resource="@xml/file_provider_paths" />
 		</provider>
-
 
 	</application>
 
