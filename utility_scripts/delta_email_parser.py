@@ -64,10 +64,8 @@ def parseExisting():
 			apps[elementInfo['ComponentInfo']]['requestDate'] = float(elementInfo['requestDate']) if elementInfo['requestDate'] is not None else mktime(currentDate.timetuple())
 			apps[elementInfo['ComponentInfo']]['count'] = int(elementInfo['count'])
 			apps[elementInfo['ComponentInfo']]['senders'] = []
-	print(apps)
 
 def parseMails():
-	print(apps)
 	for mail in filelist:
 		with open(mail, 'rb') as msg:
 			# Convert Message to String
