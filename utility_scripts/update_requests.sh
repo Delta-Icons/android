@@ -43,12 +43,12 @@ DaySuffix() {
     esac
 }
 
-old_count=$(sed '2!d' "icon_requests.txt")
+old_count=$(sed '2!d' "requests.txt")
 old_count=${old_count:0:4}
 current_date=$(LANG=en_us_88591; date "+%B %-d`DaySuffix` %Y")
-new_count=$(< $"icon_requests.txt" wc -l)
+new_count=$(< $"requests.txt" wc -l)
 new_count="$(( (new_count - 2) / 5))"
-sed -i "2s/.*/$new_count Requests Pending (Updated $current_date)/" icon_requests.txt
+sed -i "2s/.*/$new_count Requests Pending (Updated $current_date)/" requests.txt
 if ((new_count >= old_count)); then
   echo "$new_count Requests Pending (+$(( (new_count - old_count))))"
 else
