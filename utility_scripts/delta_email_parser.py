@@ -148,10 +148,11 @@ Last requested {reqDate}
 
 def writeOutput():
 	newListHeader = """-------------------------------------------------------
-{totalCount} Requests Pending ({date})
+{totalCount} Requested Apps Pending (Updated {date})
 -------------------------------------------------------
 """
-	newList = newListHeader.format( totalCount = sum(ele['count'] for ele in apps.values()), date = date.today().strftime("%d-%m-%Y"))
+	#newList = newListHeader.format( totalCount = len(apps), date = date.today().strftime("%d %m %Y"))
+	newList = newListHeader.format( totalCount = len(apps), date = date.today().strftime("X%d %B %Y").replace("X0","X").replace("X",""))
 	newList += ''.join(newApps)
 
 	requestsFilePath = 'requests.txt' if len(argv) < 4 else argv[3]
