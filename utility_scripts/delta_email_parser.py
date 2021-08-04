@@ -130,7 +130,6 @@ def separateupdatable():
 https://play.google.com/store/apps/details?id={packageName}
 Requested {count} times
 Last requested {reqDate}
-
 	"""
 	with open(argv[2]) as appfilter:
 		appfilter = appfilter.read()
@@ -150,8 +149,9 @@ Last requested {reqDate}
 def writeOutput():
 	newListHeader = """-------------------------------------------------------
 {totalCount} Requests Pending ({date})
--------------------------------------------------------"""
-	newList = newListHeader.format( totalCount = sum(ele['count'] for ele in apps.values()), date = date.today().strftime("%d %m %Y"))
+-------------------------------------------------------
+"""
+	newList = newListHeader.format( totalCount = sum(ele['count'] for ele in apps.values()), date = date.today().strftime("%d-%m-%Y"))
 	newList += ''.join(newApps)
 
 	requestsFilePath = 'requests.txt' if len(argv) < 4 else argv[3]
