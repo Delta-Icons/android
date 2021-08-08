@@ -596,6 +596,7 @@
 	<AppIcon name="com.android.soundrecorder/com.android.soundrecorder.RecordListActivity" image="sound_recorder" />
 	<AppIcon name="com.android.soundrecorder/com.android.soundrecorder.SoundRecorder" image="sound_recorder" />
 	<AppIcon name="com.android.soundrecorder2/com.android.soundrecorder2.SoundRecorder" image="sound_recorder" />
+	<AppIcon name="com.android.stk/com.android.stk.mtk.StkLauncherActivityI" image="sim_toolkit"/>
 	<AppIcon name="com.android.stk/com.android.stk.PrimaryStkMain" image="sim_toolkit" />
 	<AppIcon name="com.android.stk/com.android.stk.StkLauncherActivity" image="sim_toolkit" />
 	<AppIcon name="com.android.stk/com.android.stk.StkLauncherActivity1" image="sim_toolkit" />
@@ -1633,7 +1634,7 @@
 	<AppIcon name="com.github.ashutoshgngwr.noice/com.github.ashutoshgngwr.noice.activity.MainActivity" image="noice" />
 	<AppIcon name="com.github.ashutoshgngwr.noice/com.github.ashutoshgngwr.noice.MainActivity" image="noice" />
 	<AppIcon name="com.github.client/com.github.mobile.ui.user.HomeActivity" image="github" />
-	<AppIcon name="com.github.erictsang.screenfilter.app.android/com.github.erictsang.screenfilter.app.android.activity.MainActivity" image="screen_dimmer" />
+	<AppIcon name="com.github.ericytsang.screenfilter.app.android/com.github.ericytsang.screenfilter.app.android.activity.MainActivity" image="screen_dimmer" />
 	<AppIcon name="com.github.jamesgay.fitnotes/com.github.jamesgay.fitnotes.activity.MainActivity" image="fitnotes" />
 	<AppIcon name="com.github.k1rakishou.chan.fdroid/com.github.k1rakishou.chan.activity.StartActivity" image="kurobaex_fdroid" />
 	<AppIcon name="com.github.muellerma.coffee/com.github.muellerma.coffee.MainActivity" image="coffee"/>
@@ -2880,11 +2881,13 @@
 	<AppIcon name="com.oneplus.backuprestore/com.oneplus.backuprestore.activity.BootActivity" image="one__plus_switch" />
 	<AppIcon name="com.oneplus.calculator/com.oneplus.calculator.Calculator" image="calculator" />
 	<AppIcon name="com.oneplus.calendar/com.android.calendar.AllInOneActivity" image="calendar" />
+	<AppIcon name="com.oneplus.camera/com.oneplus.camera.OPCameraActivity" image="one__plus_camera" />
 	<AppIcon name="com.oneplus.camera/com.oneplus.camera.OPCameraActivity" image="camera" />
 	<AppIcon name="com.oneplus.contacts/com.oneplus.contacts.activities.OPPeopleActivity" image="contacts" />
 	<AppIcon name="com.oneplus.deskclock/com.oneplus.deskclock.DeskClock" image="clock" />
 	<AppIcon name="com.oneplus.dialer/com.android.dialer.oneplus.activity.OPDialtactsActivity" image="phone" />
 	<AppIcon name="com.oneplus.filemanager/com.oneplus.filemanager.HomePageActivity" image="cyanogenmod_file_manager" />
+	<AppIcon name="com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity" image="one__plus_gallery" />
 	<AppIcon name="com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity" image="gallery" />
 	<AppIcon name="com.oneplus.gamespace/com.oneplus.gamespace.ui.main.MainActivity" image="one__plus_game_space" />
 	<AppIcon name="com.oneplus.health.international/com.heytap.health.launch.LaunchActivity" image="one__plus_health" />
@@ -4008,6 +4011,9 @@
 	<AppIcon name="com.valvesoftware.steamlink/com.valvesoftware.steamlink.SteamShellActivity" image="steam_link" />
 	<AppIcon name="com.vanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity" image="youtube_music_vanced" />
 	<AppIcon name="com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" image="youtube_vanced" />
+	<AppIcon name="com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" image="youtube_vanced_alt" />
+	<AppIcon name="com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" image="youtube_vanced_alt_two" />
+	<AppIcon name="com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" image="youtube_vanced_alt_three" />
 	<AppIcon name="com.vanced.manager/com.vanced.manager.ui.core.SplashScreenActivity" image="vanced_manager" />
 	<AppIcon name="com.vanced.manager/com.vanced.manager.ui.SplashScreenActivity" image="vanced_manager" />
 	<AppIcon name="com.vanguard/com.vanguard.shared.PromoActivity" image="vanguard" />
@@ -4367,6 +4373,7 @@
 	<AppIcon name="de.heute.mobile/de.heute.mobile.PlatformSwitch" image="zdf_heute" />
 	<AppIcon name="de.heute.mobile/de.heute.mobile.ui.MainActivity" image="zdf_heute" />
 	<AppIcon name="de.hotel.android/de.hotel.android.app.activity.SearchFormActivity" image="hotel_info" />
+	<AppIcon name="de.hsmw.app/de.hsmw.app.HsmwMainActivity" image="hsmwmobil"/>
 	<AppIcon name="de.hubermedia.android.kompass/de.hubermedia.android.kompass.activity.IntroActivity" image="wanderkarte" />
 	<AppIcon name="de.ikkclassic.android/de.ikkclassic.android.MainActivity" image="meine_ikk_krankenkasse" />
 	<AppIcon name="de.infogatesystem.passngr/de.infogatesystem.passngr.presentation.start.StartActivity" image="passngr" />
@@ -4403,8 +4410,8 @@
 	<AppIcon name="de.mw136.tonuino/de.mw136.tonuino.ui.MainActivity" image="tonuino" />
 	<AppIcon name="de.mygrades/de.mygrades.view.activity.MainActivity" image="my__grades" />
 	<AppIcon name="de.mypostcard.app/de.mypostcard.app.activities.SplashScreenActivityKt" image="mypostcard" />
-	<AppIcon name="de.nebenan.app/de.nebenan.app.ui.main.LaunchActivity" image="nebenan" />
 	<AppIcon name="de.nextbike/net.nextbike.v3.presentation.ui.main.view.MapActivity" image="nextbike" />
+	<AppIcon name="de.nitri.kfzkz/de.nitri.kfzkz.MainActivity" image="kfz_kennzeichen"/>	<AppIcon name="de.nebenan.app/de.nebenan.app.ui.main.LaunchActivity" image="nebenan" />
 	<AppIcon name="de.nullgrad.glimpse/de.nullgrad.glimpse.ui.activities.MainActivity" image="glimpse" />
 	<AppIcon name="de.number26.android/de.number26.machete.android.refactor.presentation.settings.customize_icon.launch_aliases.TealActivityLauncher" image="n_twenty_six" />
 	<AppIcon name="de.offlinethesaurus/de.offlinethesaurus.MainActivity" image="openthesaurus" />
@@ -4792,6 +4799,7 @@
 	<AppIcon name="mark.via.gp/mark.via.ui.activity.BrowserActivity" image="via_browser" />
 	<AppIcon name="mathieumaree.rippple/mathieumaree.rippple.ui.activities.MainActivity" image="rippple" />
 	<AppIcon name="matlog.com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log" />
+	<AppIcon name="maxcom.toolbox.free/maxcom.toolbox.free.ToolBoxMainAct" image="tool_box"/>
 	<AppIcon name="mbanking.NBG/md541e89cb2507290647c577a79f9028261.MainActivity" image="nbg" />
 	<AppIcon name="md.micb.mwb.prod/md.micb.mwb.prod.MainActivity" image="micb_mobile" />
 	<AppIcon name="me.austinhuang.instagrabber/awais.instagrabber.activities.MainActivity" image="barinsta" />
