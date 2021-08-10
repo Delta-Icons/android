@@ -1858,6 +1858,7 @@
 	<item component="ComponentInfo{com.google.android.apps.inbox/com.google.android.apps.bigtop.activities.InitActivity}" drawable="google_inbox" />
 	<item component="ComponentInfo{com.google.android.apps.inbox/com.google.android.apps.bigtop.activities.MainActivity}" drawable="google_inbox" />
 	<item component="ComponentInfo{com.google.android.apps.kids.familylink/com.google.android.apps.kids.familylink.home.HomeActivityV2}" drawable="google_family_link_parents" />
+	<item component="ComponentInfo{com.google.android.apps.kids.familylink/com.google.android.apps.kids.familylink.home.HomeActivity}" drawable="google_family_link_parents" />
 	<item component="ComponentInfo{com.google.android.apps.kids.familylinkhelper/com.google.android.apps.kids.familylinkhelper.home.HomeActivity}" drawable="google_family_link_kids" />
 	<item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="google_news" />
 	<item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity}" drawable="google_maps" />
@@ -2726,6 +2727,7 @@
 	<item component="ComponentInfo{com.microsoft.bing/com.microsoft.sapphire.app.activities.SplashActivity}" drawable="microsoft_bing" />
 	<item component="ComponentInfo{com.microsoft.cortana/com.microsoft.bing.dss.SplashActivity}" drawable="cortana" />
 	<item component="ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}" drawable="microsoft_edge" />
+	<item component="ComponentInfo{com.microsoft.emmx/com.google.android.apps.chrome.Main}" drawable="microsoft_edge" />
 	<item component="ComponentInfo{com.microsoft.exchange.bookings/com.microsoft.exchange.bookings.activity.SplashActivity}" drawable="microsoft_bookings" />
 	<item component="ComponentInfo{com.microsoft.flow/com.microsoft.flow.MainActivity}" drawable="microsoft_flow" />
 	<item component="ComponentInfo{com.microsoft.hyperlapsemobile/hyperlapsemobile.android.startpage}" drawable="microsoft_hyperlapse" />
@@ -5520,7 +5522,6 @@
 	<item component="ComponentInfo{ro.ing.mobile.banking.android.activity/ro.ing.mobile.banking.android.activity.ClientWebViewActivity}" drawable="bank" />
 	<item component="ComponentInfo{ro.ing.mobile.banking.android.activity/ro.ing.mobile.banking.android.activity.main.MainActivity}" drawable="bank" />
 	<item component="ComponentInfo{ro.mercador/pl.tablica2.app.startup.activity.StartupActivity}" drawable="olx" />
-	<item component="ComponentInfo{rocks.poopjournal.Ella/com.unity3d.player.UnityPlayerActivity}" drawable="ella_thegame" />
 	<item component="ComponentInfo{rocks.poopjournal.flashy/com.poopjournal.flashy.MainActivity}" drawable="flashy" />
 	<item component="ComponentInfo{rocks.poopjournal.flashy/rocks.poopjournal.flashy.MainActivity}" drawable="flashy" />
 	<item component="ComponentInfo{rocks.poopjournal.gassi/rocks.poopjournal.gassi.Splash_Screen}" drawable="gassi" />
@@ -5793,4 +5794,5 @@
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
 	<item component="ComponentInfo{com.xero.payday/com.xero.payday.features.startup.StartupActivity}" drawable="xero_me" />
+	<item component="ComponentInfo{com.vivo.weather/com.vivo.weather.WeatherMain}" drawable="weather" />
 </resources>
