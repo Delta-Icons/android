@@ -69,13 +69,10 @@ dependencies {
 	 * CandyBar Material Dashboard Library
 	 *
 	 * How to update?
-	 * 1. See latest version at GitHub, https://github.com/zixpo/candybar/releases
-	 * 2. Change candybar dependency matching latest version
-	 * 3. com.github.zixpo.candybar:$versionNumber
-	 * 4. Sync Project with Gradle Files
-	 * 5. Clean project
-	 * 6. Done
-	 */
+     * Check this update guide for every version
+     *      - https://github.com/zixpo/candybar-sample/wiki/Updating-the-dashboard
+     * If you've missed some versions you've to also follow update guide for those versions
+     */
 
 	implementation 'com.github.zixpo:candybar:3.12.0'
 
