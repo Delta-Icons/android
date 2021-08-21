@@ -78,6 +78,7 @@
 	<calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
+	<calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar" />
 	<item component=":BROWSER" drawable="browser" />
 	<item component=":CALCULATOR" drawable="calculator" />
 	<item component=":CALENDAR" drawable="calendar" />
@@ -277,6 +278,7 @@
 	<item component="ComponentInfo{cms.lock/com.cleanmaster.security.applock.ui.MainActivity}" drawable="cm_security" />
 	<item component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.AllInOneActivity}" drawable="calendar" />
 	<item component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity}" drawable="calendar" />
+	<item component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
 	<item component="ComponentInfo{cn.nubia.email/com.android.email.activity.Welcome}" drawable="aosp_mail" />
 	<item component="ComponentInfo{cn.P2PPetCam.www.iseebiz/cn.P2PPetCam.www.SplashScreenActivity}" drawable="iseebiz" />
 	<item component="ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity}" drawable="wps_office" />
@@ -298,6 +300,7 @@
 	<item component="ComponentInfo{co.mona.android/co.mona.android.SplashActivity}" drawable="cryptocom" />
 	<item component="ComponentInfo{co.myki.android/co.myki.android.LauncherActivity}" drawable="myki" />
 	<item component="ComponentInfo{co.paranoidandroid.camera/com.android.camera.CameraLauncher}" drawable="camera" />
+	<item component="ComponentInfo{com.hmdglobal.app.camera_ulc/com.myos.camera.activity.CameraActivity}" drawable="camera" />
 	<item component="ComponentInfo{co.quizhouse/co.quizhouse.view.activities.LoginActivity}" drawable="quiz_house" />
 	<item component="ComponentInfo{co.slidebox/co.slidebox.controller.startup.WelcomeActivity}" drawable="slidebox" />
 	<item component="ComponentInfo{co.solovpn/co.easy4u.ll.ui.MainActivity}" drawable="vpn" />
@@ -704,6 +707,7 @@
 	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity}" drawable="sim_toolkit" />
 	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherListActivity}" drawable="sim_toolkit" />
 	<item component="ComponentInfo{com.android.stk/com.android.stk.StkMain}" drawable="sim_toolkit" />
+	<item component="ComponentInfo{com.android.stk/com.android.stk.OppoStkLauncherActivity1}" drawable="sim_toolkit" />
 	<item component="ComponentInfo{com.android.stk2/com.android.stk2.StkLauncherActivity}" drawable="sim_toolkit" />
 	<item component="ComponentInfo{com.android.stklct/com.android.stklct.StkMain}" drawable="sim_toolkit" />
 	<item component="ComponentInfo{com.android.systemui/com.android.systemui.flashlight.FlashLightActivity}" drawable="flashlight" />
@@ -3802,6 +3806,7 @@
 	<item component="ComponentInfo{com.squareenix.lis/com.epicgames.ue4.SplashActivity}" drawable="lifeisstrange" />
 	<item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.MainActivity}" drawable="cash_app" />
 	<item component="ComponentInfo{com.ss.android.ugc.trill/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" />
+	<item component="ComponentInfo{com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" />
 	<item component="ComponentInfo{com.ss.popupWidget/com.ss.popupWidget.MainActivity}" drawable="popup_widget_three" />
 	<item component="ComponentInfo{com.ss.squarehome2/com.ss.squarehome2.MainActivity}" drawable="square_home" />
 	<item component="ComponentInfo{com.ss.squarehome2/com.ss.squarehome2.MyPreferencesActivity}" drawable="square_home" />
@@ -5841,4 +5846,17 @@
 	<item component="ComponentInfo{net.snapdrop/net.snapdrop.MainActivity}" drawable="snapdrop" />
 	<item component="ComponentInfo{com.govee.home/com.govee.home.HomeActivity}" drawable="govee_home" />
 	<item component="ComponentInfo{my.com.tngdigital.ewallet/my.com.tngdigital.ewallet.ui.SplashActivity}" drawable="tng_ewallet" />
+	<item component="ComponentInfo{at.erstebank.george/at.beeone.george.SplashScreenActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.fusion.banking/com.fusion.mobilebankingkit.ui.splash.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{hu.otpbank.mobile/hu.otpbank.mobile.ui.StartupActivity}" drawable="bank" />
+	<item component="ComponentInfo{fi.danskebank.mobilepay/dk.danskebank.p2p.ui.login.LoginActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.sv.davivienda.mobilebanking/com.todo1.davivienda.mobileapp.MainActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.android.bbk.lockscreen3/com.android.bbk.lockscreen3.LockScreenActivity}" drawable="vivo_lock" />
+	<item component="ComponentInfo{com.playit.videoplayer/com.quantum.player.ui.activities.MainActivity}" drawable="playit" />
+	<item component="ComponentInfo{com.afterpaymobile/com.afterpaymobile.SplashActivity}" drawable="afterpay" />
+	<item component="ComponentInfo{com.afterpaymobile/com.afterpaymobile.MainActivity}" drawable="afterpay" />
+	<item component="ComponentInfo{it.sephora.sephoraitaly/fr.sephora.aoc2.ui.launcher.LauncherBaseActivity}" drawable="sephora" />
+	<item component="ComponentInfo{com.free.fast.proxy.lion.vpn/com.lion.logic.main.SplashActivity}" drawable="vpn" />
+	<item component="ComponentInfo{com.finchvpn.android/com.finchvpn.android.views.MainActivity}" drawable="vpn" />
+	<item component="ComponentInfo{com.ttech.android.onlineislem/com.ttech.android.onlineislem.ui.splash.SplashActivity}" drawable="turkcell_dijital_operator" />
 </resources>
