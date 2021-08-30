@@ -1,13 +1,13 @@
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'
 
-// Remove '/*' and '*/' below to enable OneSignal
+// TODO: Remove `/*` and `*/` below to enable OneSignal
 /*
 buildscript {
   repositories {
     maven { url 'https://plugins.gradle.org/m2/' }
   }
   dependencies {
-    classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.9'
+    classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.13.4'
   }
 }
 apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
@@ -68,14 +68,14 @@ dependencies {
 	/*
 	 * CandyBar Material Dashboard Library
 	 *
-	 * How to update?
+	 * TODO: How to update the dashboard?!
      * Check this update guide for every version
      *      - https://github.com/zixpo/candybar-sample/wiki/Updating-the-dashboard
      * If you've missed some versions you've to also follow update guide for those versions
      */
 
-	implementation 'com.github.zixpo:candybar:3.12.0'
+	implementation 'com.github.zixpo:candybar:3.12.1'
 
-	// Remove '//' below to Enable OneSignal
-	//implementation 'com.onesignal:OneSignal:3.15.4'
+	// TODO: Remove `//` below to enable OneSignal
+	//implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
 }
