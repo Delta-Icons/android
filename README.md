@@ -11,6 +11,6 @@ If you need help contributing or just want to chat with other contributors feel 
 _This server is __not__ intended for requests!_
 
 ## Contributing
-Please refer tp [CONTRIBUTING.md](https://github.com/Delta-Icons/android/CONTRIBUTING.md)
+Please refer to [CONTRIBUTING.md](https://github.com/Delta-Icons/android/blob/master/CONTRIBUTING.MD)
 
 Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
