@@ -17,8 +17,7 @@ In case you want to contribute to Delta by providing icons please do so by creat
 Color palette
 ![Palette for Delta](https://github.com/Delta-Icons/android/raw/master/Palette.svg) (Right-Click &rarr; Save as)
 
-Color palette in GPL format (Inkscape, Karbon)
-![GPL pallete](https://github.com/Delta-Icons/android/raw/master/Palette.gpl) (Right-Click &rarr; Save as)
+![GPL pallete](https://github.com/Delta-Icons/android/raw/master/Palette.gpl) (Inkscape, Karbon) (Right-Click &rarr; Save as)
 
 Icon template
 ![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/template.svg) (Right-Click &rarr; Save as)
