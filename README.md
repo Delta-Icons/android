@@ -5,6 +5,10 @@
 <h1 align="center" padding="100">Delta Icons</h1>
 <p align="center">Matted out icon pack for custom Android launchers.</p>
 
+## Installation
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
+     alt="Get it on Google Play"
+     height="80">](https://play.google.com/store/apps/details?id=website.leifs.delta)
 
 ## Our Discord Server
 If you need help contributing or just want to chat with other contributors feel free to join us here: https://discord.gg/F9RFqHN <br>
