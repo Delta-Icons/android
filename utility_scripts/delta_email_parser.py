@@ -55,6 +55,8 @@ def removeGreedy(address, element):
 
 def parseExisting():
 	requestBlockQuery = re.compile(r'(?P<Name>.+)\s(?P<ComponentInfo>.+)\shttps:\/\/play.google.com\/store\/apps\/details\?id=.+\sRequested (?P<count>\d+) times\s?(Last requested (?P<requestDate>\d+\.?\d+?))?')
+	if len(argv) < 4:
+		return
 	with open(argv[3], 'r', encoding="utf8") as existingFile:
 		contents = existingFile.read()
 		existingRequests = re.finditer(requestBlockQuery, contents)
@@ -134,8 +136,8 @@ Last requested {reqDate}
 	with open(argv[2]) as appfilter:
 		appfilter = appfilter.read()
 		for (componentInfo, values) in apps.items():
+			componentInfo = componentInfo[:componentInfo.index('/')]
 			if appfilter.find(componentInfo) == -1 and ''.join(newApps).find(componentInfo) == -1:
-				# newApps.append(app['Name'] + '\n' + app['ComponentInfo'] + '\nhttps://play.google.com/store/apps/details?id=' + componentInfo + '\nRequested ' + str(app['count']) + ' times\nLast requested \n\n')
 				newApps.append(objectBlock.format(
 					name = values["Name"],
 					component = values["ComponentInfo"],
