@@ -1538,9 +1538,14 @@
 	<item component="ComponentInfo{com.Dominos/com.Dominos.activity.SplashActivity}" drawable="dominos" />
 	<item component="ComponentInfo{com.dominospizza/com.dominos.activities.InitialLaunchActivity}" drawable="dominos" />
 	<item component="ComponentInfo{com.domobile.applock/com.domobile.applock.LauncherActivity}" drawable="app_lock" />
-	<item component="ComponentInfo{com.donnnno.arcticons.debug/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons" />
+	<item component="ComponentInfo{com.donnnno.arcticons.debug/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons_dark" />
+	<item component="ComponentInfo{com.donnnno.arcticons.debug/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons_dark" />
+	<item component="ComponentInfo{com.donnnno.arcticons.light.debug/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons_light" />
+	<item component="ComponentInfo{com.donnnno.arcticons.light.debug/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons_light" />
 	<item component="ComponentInfo{com.donnnno.arcticons.light/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons_light" />
+	<item component="ComponentInfo{com.donnnno.arcticons.light/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons_light" />
 	<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons_dark" />
+	<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons_dark" />
 	<item component="ComponentInfo{com.doodle.android/com.doodle.activities.SplashActivity}" drawable="doodle" />
 	<item component="ComponentInfo{com.doordash.driverapp/com.doordash.driverapp.ui.login.LauncherActivity}" drawable="dasher" />
 	<item component="ComponentInfo{com.dosse.airpods/com.dosse.airpods.ui.MainActivity}" drawable="openpods" />
