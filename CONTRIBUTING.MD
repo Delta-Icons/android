@@ -15,17 +15,17 @@ In case you want to contribute to Delta by providing icons please do so by creat
 
 ## Resources for Contributions
 Color palette
-![Palette for Delta](https://github.com/Delta-Icons/android/raw/master/Palette.svg) (Right-Click &rarr; Save as)
+![Palette for Delta](https://github.com/Delta-Icons/android/raw/master/resources/Palette.svg) (Right-Click &rarr; Save as)
 
-![Adobe Swatch Exchange Palette](https://github.com/Delta-Icons/android/raw/master/Palette.ase) (Right-Click &rarr; Save as)
+![Adobe Swatch Exchange Palette](https://github.com/Delta-Icons/android/raw/master/resources/Palette.ase) (Right-Click &rarr; Save as)
 
-![GPL pallete](https://github.com/Delta-Icons/android/raw/master/Palette.gpl) (Inkscape, Karbon) (Right-Click &rarr; Save as)
+![GPL pallete](https://github.com/Delta-Icons/android/raw/master/resources/Palette.gpl) (Inkscape, Karbon) (Right-Click &rarr; Save as)
 
 Icon template
-![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/template.svg) (Right-Click &rarr; Save as)
+![Icon Template for Delta](https://github.com/Delta-Icons/android/raw/master/resources/template.svg) (Right-Click &rarr; Save as)
 
 Icon template tutorial
-![Icon Template Tutorial for Delta](https://github.com/Delta-Icons/android/raw/master/template_tutorial.svg) (Right-Click &rarr; Save as)
+![Icon Template Tutorial for Delta](https://github.com/Delta-Icons/android/raw/master/resources/template_tutorial.svg) (Right-Click &rarr; Save as)
 
 Font: [Now](https://www.1001fonts.com/now-font.html) (Use Now Alt from the same family for alternate lowercase "a")
 
