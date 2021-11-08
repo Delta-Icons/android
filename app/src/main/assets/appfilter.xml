@@ -1859,7 +1859,9 @@
 	<item component="ComponentInfo{com.freevpnintouch/com.pages.Starter}" drawable="betternet" />
 	<item component="ComponentInfo{com.freshchat.agent.android/com.freshchat.agent.android.activity.SplashActivity}" drawable="freshchat" />
 	<item component="ComponentInfo{com.freshdesk.helpdesk/com.freshdesk.helpdesk.fdlogic.ui.activity.LoginActivity}" drawable="freshdesk" />
+	<item component="ComponentInfo{com.freshdesk.helpdesk/com.freshdesk.helpdesk.ui.SplashActivity}" drawable="freshdesk" />
 	<item component="ComponentInfo{com.freshworks.freshcaller/com.freshworks.freshcaller.home.HomeActivity}" drawable="freshcaller" />
+	<item component="ComponentInfo{com.freshworks.freshcaller/com.freshworks.freshcaller.splashscreen.SplashScreenActivity}" drawable="freshcaller" />
 	<item component="ComponentInfo{com.fretello.lead/com.fretello.lead.activities.LaunchActivity}" drawable="fretello" />
 	<item component="ComponentInfo{com.frograms.watcha/com.frograms.watcha.feature.base.features.init.view.InitActivity}" drawable="watcha_pedia" />
 	<item component="ComponentInfo{com.frontrow.vlog/com.frontrow.vlog.ui.splash.SplashActivity}" drawable="vn" />
@@ -4387,6 +4389,7 @@
 	<item component="ComponentInfo{com.ticktick.task/com.ticktick.task.activity.MeTaskActivity}" drawable="tick__tick" />
 	<item component="ComponentInfo{com.tier.app/app.LaunchActivity}" drawable="tier" />
 	<item component="ComponentInfo{com.tier.app/com.tier.app.ui.splash.SplashActivity}" drawable="tier" />
+	<item component="ComponentInfo{com.tier.app/com.tier.legacy.ui.splash.SplashActivity}" drawable="tier" />
 	<item component="ComponentInfo{com.timeanddate.worldclock/com.timeanddate.worldclock.Launcher}" drawable="worldclock" />
 	<item component="ComponentInfo{com.tinder.tinderlite/com.tinder.lite.DeviceInfoLauncherActivity}" drawable="tinder_lite" />
 	<item component="ComponentInfo{com.tinder/com.tinder.activities.ActivityLogin}" drawable="tinder" />
@@ -6452,6 +6455,8 @@
 	<item component="ComponentInfo{de.bendix.flux/de.bendix.flux.MainActivity}" drawable="flux_weather" />
 	<item component="ComponentInfo{com.monotype.whatthefont/com.monotype.whatthefont.SplashActivity}" drawable="whatthefont" />
 	<item component="ComponentInfo{com.jabra.moments/com.jabra.moments.ui.splash.SplashActivity}" drawable="sound_plus" />
+	<item component="ComponentInfo{com.wingos.wingcamera/com.wingos.wingcamera.Camera}" drawable="camera" />
+	<item component="ComponentInfo{com.xyzmedia.btswallpaper/com.xyzmedia.btswallpaper.activities.ActivitySplash}" drawable="wallsplash" />
 	<item component="ComponentInfo{dev.corruptedark.diditakemymeds/dev.corruptedark.diditakemymeds.MainActivity}" drawable="ditm_meds" />
 	<item component="ComponentInfo{com.mediafire.android/com.mediafire.android.ui.authentication.AuthenticationActivity}" drawable="mediafire" />
 	<item component="ComponentInfo{com.nisargjhaveri.netspeed/com.nisargjhaveri.netspeed.settings.SettingsActivity}" drawable="netspeed_indicator" />
@@ -6489,4 +6494,32 @@
 	<item component="ComponentInfo{io.getdelta.android/com.delta.MainActivity}" drawable="delta_investment" />
 	<item component="ComponentInfo{org.domestika/org.domestika.splash.presentation.activities.SplashActivity}" drawable="domestika" />
 	<item component="ComponentInfo{com.lemonde.androidapp/com.lemonde.androidapp.application.SwitchAppActivity}" drawable="le_monde" />
+	<item component="ComponentInfo{com.bisimplex.firebooru/com.bisimplex.firebooru.activity.MainActivity}" drawable="anime_boxes" />
+	<item component="ComponentInfo{com.candybar.dev/com.candybar.dev.activities.SplashActivity}" drawable="candybar_dev" />
+	<item component="ComponentInfo{com.tnibler.cryptocam/com.tnibler.cryptocam.MainActivity}" drawable="cryptocam" />
+	<item component="ComponentInfo{de.saschahlusiak.freebloks/de.saschahlusiak.freebloks.game.Freebloks.Activity}" drawable="freebloks" />
+	<item component="ComponentInfo{com.roguetemple.hyperroid/com.roguetemple.hyperroid.HyperRogue}" drawable="hyperrogue" />
+	<item component="ComponentInfo{com.catchingnow.icebox/com.catchingnow.icebox.activity.mainActivity.MainAppActivity}" drawable="ice_box" />
+	<item component="ComponentInfo{nu.tommie.inbrowser/nu.tommie.inbrowser.lib.Inbrowser}" drawable="inbrowser" />
+	<item component="ComponentInfo{com.ero.kinoko/com.ero.kinoko.MainActivity}" drawable="kinoko" />
+	<item component="ComponentInfo{org.koreader.launcher/org.koreader.launcher.MainActivity}" drawable="koreader" />
+	<item component="ComponentInfo{com.limelight/com.limelight.PcView}" drawable="moonlight" />
+	<item component="ComponentInfo{com.iven.musicplayergo/com.iven.musicplayergo.MainActivity}" drawable="music_player_go" />
+	<item component="ComponentInfo{com.iven.musicplayergo/com.iven.musicplayergo.ui.MainActivity}" drawable="music_player_go" />
+	<item component="ComponentInfo{com.evezzon.nightowl/com.evezzon.nightowl.ui.MainActivity}" drawable="night_owl" />
+	<item component="ComponentInfo{one.plaza.nightwaveplaza/one.plaza.nightwaveplaza.MainActivity}" drawable="nightwave_plaza" />
+	<item component="ComponentInfo{tv.parsec.client/tv.parsec.client.MainActivity}" drawable="parsec" />
+	<item component="ComponentInfo{info.guardianproject.pixelknot/info.guardianproject.pixelknot.PixelKnotActivity}" drawable="pixelknot" />
+	<item component="ComponentInfo{info.guardianproject.pixelknot/info.guardianproject.pixelknot.SendActivity}" drawable="pixelknot" />
+	<item component="ComponentInfo{com.kurogame.gplay.punishing.grayraven.en/com.hero.hgsdk.HgSdkAgent}" drawable="punishing_gray_raven" />
+	<item component="ComponentInfo{com.basevelocity.radarscope/com.basevelocity.radarscope.map.RsMapActivity}" drawable="radarscope" />
+	<item component="ComponentInfo{com.deezus.chan/com.deezus.fei.activities.MainActivity}" drawable="read_chan" />
+	<item component="ComponentInfo{eu.kanade.tachiyomi.az/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="tachiyomi_az" />
+	<item component="ComponentInfo{eu.kanade.tachiyomi.sy/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="tachiyomi_sy" />
+	<item component="ComponentInfo{com.dinopoloclub.portaltechnician/com.unity3d.player.UnityPlayerActivity}" drawable="tanas_shape" />
+	<item component="ComponentInfo{com.VandermaesenGames.TECHNUCLEAR/com.unity3d.player.UnityPlayerActivity}" drawable="technuclear" />
+	<item component="ComponentInfo{org.sorz.lab.tinykeepass/org.sorz.lab.tinykeepass.MainActivity}" drawable="tinykeepass" />
+	<item component="ComponentInfo{in.celest.xash3d.hl/in.celest.xash3d.LauncherActivity}" drawable="xash_three_d_fwgs" />
+	<item component="ComponentInfo{com.xc3fff0e.xmanager/com.xc3fff0e.xmanager.SplashActivity}" drawable="xmanager" />
+	<item component="ComponentInfo{jp.co.celsys.clipstudiopaint.galaxystore/com.celsys.pwlegacyandroidhelpers.PWLegacyJniCustomNativeActivityAndroid}" drawable="clip_studio_paint" />
 </resources>
