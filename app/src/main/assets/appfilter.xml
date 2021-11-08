@@ -254,6 +254,7 @@
 	<item component="ComponentInfo{ca.bellmedia.cravetv/awl.application.brand.SplashActivity}" drawable="crave" />
 	<item component="ComponentInfo{ca.blood.giveblood/ca.blood.giveblood.SplashActivity}" drawable="give_blood" />
 	<item component="ComponentInfo{ca.cbc.mobile.android.cbcnewsandroidwebview/ca.cbc.android.news.ui.SplashActivity}" drawable="cbc_news" />
+	<item component="ComponentInfo{ca.cbc.mobile.android.cbcnewsandroidwebview/ca.cbc.android.news.refresh.ui.SplashActivity}" drawable="cbc_news" />
 	<item component="ComponentInfo{ca.chancehorizon.paseo/ca.chancehorizon.paseo.SplashActivity}" drawable="paseo" />
 	<item component="ComponentInfo{ca.gc.ec.weather_app_android.ops/ca.gc.ec.weather_app_android.fragments.MainActivity}" drawable="weather" />
 	<item component="ComponentInfo{ca.honeygarlic.centennial/ca.honeygarlic.agendacore.SchoolAppView}" drawable="cent_central" />
@@ -1858,7 +1859,9 @@
 	<item component="ComponentInfo{com.freevpnintouch/com.pages.Starter}" drawable="betternet" />
 	<item component="ComponentInfo{com.freshchat.agent.android/com.freshchat.agent.android.activity.SplashActivity}" drawable="freshchat" />
 	<item component="ComponentInfo{com.freshdesk.helpdesk/com.freshdesk.helpdesk.fdlogic.ui.activity.LoginActivity}" drawable="freshdesk" />
+	<item component="ComponentInfo{com.freshdesk.helpdesk/com.freshdesk.helpdesk.ui.SplashActivity}" drawable="freshdesk" />
 	<item component="ComponentInfo{com.freshworks.freshcaller/com.freshworks.freshcaller.home.HomeActivity}" drawable="freshcaller" />
+	<item component="ComponentInfo{com.freshworks.freshcaller/com.freshworks.freshcaller.splashscreen.SplashScreenActivity}" drawable="freshcaller" />
 	<item component="ComponentInfo{com.fretello.lead/com.fretello.lead.activities.LaunchActivity}" drawable="fretello" />
 	<item component="ComponentInfo{com.frograms.watcha/com.frograms.watcha.feature.base.features.init.view.InitActivity}" drawable="watcha_pedia" />
 	<item component="ComponentInfo{com.frontrow.vlog/com.frontrow.vlog.ui.splash.SplashActivity}" drawable="vn" />
@@ -4386,6 +4389,7 @@
 	<item component="ComponentInfo{com.ticktick.task/com.ticktick.task.activity.MeTaskActivity}" drawable="tick__tick" />
 	<item component="ComponentInfo{com.tier.app/app.LaunchActivity}" drawable="tier" />
 	<item component="ComponentInfo{com.tier.app/com.tier.app.ui.splash.SplashActivity}" drawable="tier" />
+	<item component="ComponentInfo{com.tier.app/com.tier.legacy.ui.splash.SplashActivity}" drawable="tier" />
 	<item component="ComponentInfo{com.timeanddate.worldclock/com.timeanddate.worldclock.Launcher}" drawable="worldclock" />
 	<item component="ComponentInfo{com.tinder.tinderlite/com.tinder.lite.DeviceInfoLauncherActivity}" drawable="tinder_lite" />
 	<item component="ComponentInfo{com.tinder/com.tinder.activities.ActivityLogin}" drawable="tinder" />
@@ -6409,10 +6413,6 @@
 	<item component="ComponentInfo{org.duckdodo.baikoh/com.unity3d.player.UnityPlayerActivity}" drawable="baikoh" />
 	<item component="ComponentInfo{com.samsung.android.app.spage/com.samsung.android.app.spage.main.LauncherActivity}" drawable="samsung_free" />
 	<item component="ComponentInfo{com.saggitt.omega/com.saggitt.omega.OmegaLauncher}" prefix="omega_launcher" />
-	<item component="ComponentInfo{au.net.abc.iview/au.net.abc.iview.ui.splash.LaunchActivity}" drawable="abc_iview" />
-	<item component="ComponentInfo{au.gov.ato.mygovid.droid/au.gov.ato.myGovID.LaunchActivity}" drawable="mygovid" />
-	<item component="ComponentInfo{au.gov.dhs.expressplus.medicare/au.gov.dhs.medicare.activities.LauncherActivity}" drawable="medicare" />
-	<item component="ComponentInfo{au.gov.ato.ATOTax/crc64d4b1f14aed59e235.SplashScreen}" drawable="ato" />
 	<item component="ComponentInfo{de.lbb.amazon/de.lbb.kkb.ui.activities.SplashActivity}" drawable="amazon_visa" />
 	<item component="ComponentInfo{com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity}" drawable="another_notes" />
 	<item component="ComponentInfo{moe.zhs.caffeine/moe.zhs.caffeine.MainActivity}" drawable="caffeine_kso" />
@@ -6455,4 +6455,6 @@
 	<item component="ComponentInfo{de.bendix.flux/de.bendix.flux.MainActivity}" drawable="flux_weather" />
 	<item component="ComponentInfo{com.monotype.whatthefont/com.monotype.whatthefont.SplashActivity}" drawable="whatthefont" />
 	<item component="ComponentInfo{com.jabra.moments/com.jabra.moments.ui.splash.SplashActivity}" drawable="sound_plus" />
+	<item component="ComponentInfo{com.wingos.wingcamera/com.wingos.wingcamera.Camera}" drawable="camera" />
+	<item component="ComponentInfo{com.xyzmedia.btswallpaper/com.xyzmedia.btswallpaper.activities.ActivitySplash}" drawable="wallsplash" />
 </resources>
