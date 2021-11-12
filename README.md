@@ -20,4 +20,8 @@ _This server is __not__ intended for requests!_
 ## Contributing
 Please refer to [CONTRIBUTING.md](https://github.com/Delta-Icons/android/blob/master/CONTRIBUTING.MD)
 
-Licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+## License
+
+The app is built with the [CandyBar Dashboard](https://github.com/zixpo/candybar) licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+The icons are licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
