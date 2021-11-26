@@ -760,6 +760,7 @@
 	<item component="ComponentInfo{com.android.settings/com.android.settings.MiuiPasswordGuardActivity}" drawable="settings" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.MiuiSettings}" drawable="settings" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.Settings$EdgeSettingsActivity}" drawable="settings" />
+	<item component="ComponentInfo{com.android.settings/com.android.settings.Settings$SecuritySettingsActivity}" drawable="settings" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.Settings$SprdManageApplicationsActivity}" drawable="settings" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.Settings$WifiApSettingsActivity}" drawable="settings" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.SettingsTabActivity}" drawable="settings" />
@@ -5041,6 +5042,7 @@
 	<item component="ComponentInfo{com.zerofasting.zero/com.zerofasting.zero.MainActivity}" drawable="zero_tracker" />
 	<item component="ComponentInfo{com.zerotier.one/com.zerotier.one.ui.NetworkListActivity}" drawable="zerotier_one" />
 	<item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok_lite" />
+	<item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.main.homepage.MainActivity}" drawable="tiktok_lite" />
 	<item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" />
 	<item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.trill.splash.I18nSplashActivity}" drawable="tiktok" />
 	<item component="ComponentInfo{com.zhiliaoapp.musically/com.zhiliaoapp.musically.MainActivity}" drawable="tiktok" />
@@ -5892,6 +5894,7 @@
 	<item component="ComponentInfo{net.tandem/net.tandem.ui.MainActivity}" drawable="tandem" />
 	<item component="ComponentInfo{net.techet.netanalyzerlite.an/net.techet.netanalyzerlite.an.activity.MainActivity}" drawable="network_analyzer" />
 	<item component="ComponentInfo{net.torguard.openvpn.client/net.torguard.openvpn.client.MainActivity}" drawable="torguard" />
+	<item component="ComponentInfo{net.torguard.openvpn.client/net.torguard.openvpn.client.LauncherActivity}" drawable="torguard" />
 	<item component="ComponentInfo{net.trippedout.android.facets/net.trippedout.android.facets.activity.SplashActivity}" drawable="facets" />
 	<item component="ComponentInfo{net.tsapps.appsales/net.tsapps.appsales.ui.main.MainActivity}" drawable="appsales" />
 	<item component="ComponentInfo{net.typeblog.shelter/net.typeblog.shelter.ui.DummyActivity}" drawable="shelter" />
@@ -6626,4 +6629,21 @@
 	<item component="ComponentInfo{com.cribasoft.HoursTrackerFree.Android/md56c7f5e8182bd4e657c3ff096b36faa90.SplashActivity}" drawable="hours_tracker" />
 	<item component="ComponentInfo{com.cengage.mobile.mindtap/com.cengage.mobile.mindtap.MainActivity}" drawable="cengage" />
 	<item component="ComponentInfo{notizen.basic.notes.notas.note.notepad/notizen.basic.notes.notas.note.notepad.main.SplashActivity}" drawable="quickmemo" />
+	<item component="ComponentInfo{org.whiteglow.keepmynotes/org.whiteglow.keepmynotes.activity.MainActivity}" drawable="quickmemo" />
+	<item component="ComponentInfo{com.bng.calculator/com.bng.calc.MainActivity}" drawable="calculator" />
+	<item component="ComponentInfo{org.stjr.srb2/org.stjr.srb2.SRB2Game}" drawable="sonic_robo_blast_2" />
+	<item component="ComponentInfo{com.thomasdemirgil.basit.app/com.thomasdemirgil.basit.app.MainActivity}" drawable="basit" />
+	<item component="ComponentInfo{free.pastel.icons.ddt/free.pastel.icons.ddt.activities.SplashActivity}" drawable="halo_icon" />
+	<item component="ComponentInfo{hukkwgt.kustom.pack/org.kustom.api.dashboard.DashboardActivity}" drawable="huk_kwgt" />
+	<item component="ComponentInfo{com.zooper.huk/com.afollestad.polar.ui.SplashScreen}" drawable="huk_zooper" />
+	<item component="ComponentInfo{com.jndapp.lux.free.iconpack/com.jndapp.lux.free.iconpack.MainActivity}" drawable="lux_icon" />
+	<item component="ComponentInfo{com.jndapp.lux.iconpack/com.jndapp.lux.iconpack.MainActivity}" drawable="lux_icon" />
+	<item component="ComponentInfo{mermaid.launcher.theme.ddt/mermaid.launcher.theme.ddt.activities.SplashActivity}" drawable="mermaid_icon" />
+	<item component="ComponentInfo{pl.patrykgoworowski.mintyfree/pl.patrykgoworowski.mintyfree.MainActivity}" drawable="minty_icons_free" />
+	<item component="ComponentInfo{pl.patrykgoworowski.mintypro/pl.patrykgoworowski.mintypro.MainActivity}" drawable="minty_icons_pro" />
+	<item component="ComponentInfo{de.moooon.arcylicons/de.moooon.arcylicons.MainActivity}" drawable="mondstern_acrylic_icons" />
+	<item component="ComponentInfo{com.jndapp.square.nexa.iconpack/com.jndapp.square.nexa.iconpack.MainActivity}" drawable="nexa_icon_pack" />
+	<item component="ComponentInfo{com.cyberlink.powerdirector.DRA140225_01/com.cyberlink.powerdirector.splash.SplashActivity}" drawable="powerdirector" />
+	<item component="ComponentInfo{com.adraxas.squirclx/com.adraxas.squirclx.MainActivity}" drawable="squirclx" />
+	<item component="ComponentInfo{unicorn.icons.theme.ddt/unicorn.icons.theme.ddt.activities.SplashActivity}" drawable="unicorn_icon" />
 </resources>
