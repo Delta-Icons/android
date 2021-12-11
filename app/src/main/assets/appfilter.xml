@@ -76,6 +76,7 @@
 	<calendar component="ComponentInfo{com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.MainActivity}" prefix="calendar_blue_" />
+	<calendar component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.main.MainActivity}" prefix="calendar_blue_" />
 	<calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
@@ -2243,6 +2244,7 @@
 	<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivitygoogle_mail}" drawable="google_mail" />
 	<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="google_mail" />
 	<item component="ComponentInfo{com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsActivity}" drawable="google_play_services" />
+	<item component="ComponentInfo{com.google.android.gms/org.microg.gms.ui.SettingsActivity}" drawable="microg" />
 	<item component="ComponentInfo{com.google.android.gms/org.microg.gms.ui.SettingsActivityLauncher}" drawable="microg" />
 	<item component="ComponentInfo{com.google.android.GoogleCamera.Urnyx/com.android.camera.CameraLauncher}" drawable="camera" />
 	<item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="camera" />
@@ -3041,6 +3043,7 @@
 	<item component="ComponentInfo{com.maxelus.asteroidspacklivewallpaper/com.maxelus.asteroidspacklivewallpaper.OpenApp}" drawable="asteroids_pack" />
 	<item component="ComponentInfo{com.MAXGo/com.hbo.phone.MainLaunchCoreActivity}" drawable="max_go" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer.unlock/com.maxmpz.audioplayer.unlock.LauncherRedirectorActivity}" drawable="poweramp" />
+	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.black_round}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.classic}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.round}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.standard_adaptive}" drawable="poweramp" />
@@ -4689,6 +4692,7 @@
 	<item component="ComponentInfo{com.teslamotors.tesla/com.teslamotors.tesla.LoginActivity}" drawable="tesla" />
 	<item component="ComponentInfo{com.teslamotors.tesla/com.teslamotors.TeslaApp.MainActivity}" drawable="tesla" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff006064}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff673ab7_bare}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff00897b}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff0097a7}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff0277bd}" drawable="textra" />
@@ -6929,4 +6933,5 @@
 	<item component="ComponentInfo{za.com.mrp/za.com.mrp.activity.StoreActivity}" drawable="mrp_fashion" />
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
+	<item component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.main.MainActivity}" drawable="calendar_blue"/>
 </resources>
