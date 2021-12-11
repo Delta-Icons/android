@@ -442,6 +442,7 @@
 	<AppIcon name="com.americanexpress.android.acctsvcs.ca/com.americanexpress.android.intl.app.view.activity.SplashActivity" image="amex_mobile" />
 	<AppIcon name="com.americanexpress.android.acctsvcs.uk/com.americanexpress.android.intl.app.view.activity.SplashActivity" image="amex_mobile" />
 	<AppIcon name="com.americanexpress.android.acctsvcs.us/com.americanexpress.android.acctsvcs.us.firstuse.StartupActivity" image="amex_mobile" />
+	<AppIcon name="com.americanexpress.android.acctsvcs.mx/com.americanexpress.android.intl.app.view.activity.SplashActivity" image="amex_mobile" />
 	<AppIcon name="com.anaapps.bibliaemportugues/com.anaapps.bibliaemportugues.Splash" image="bible" />
 	<AppIcon name="com.ancestry.android.apps.ancestry/com.ancestry.android.apps.launch.LaunchActivity" image="ancestry" />
 	<AppIcon name="com.and.games505.TerrariaPaid/com.codeglue.terraria.Terraria" image="terraria" />
@@ -2963,12 +2964,12 @@
 	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.round" image="poweramp" />
 	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.standard_adaptive" image="poweramp" />
 	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity" image="poweramp" />
-	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.white_play_adaptive" image="poweramp" />
-	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.zap_adaptive" image="poweramp" />
-	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.zap_plain_adaptive" image="poweramp" />
-	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.zap_round" image="poweramp" />
+	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.white_play_adaptive" image="poweramp_inverted" />
+	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.zap_adaptive" image="poweramp_zap" />
+	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.zap_plain_adaptive" image="poweramp_zap" />
+	<AppIcon name="com.maxmpz.audioplayer/com.maxmpz.audioplayer.zap_round" image="poweramp_zap" />
 	<AppIcon name="com.maxmpz.equalizer/com.maxmpz.equalizer.standard_adaptive" image="poweramp_equalizer" />
-	<AppIcon name="com.maxmpz.equalizer/com.maxmpz.equalizer.white_play_adaptive" image="poweramp_equalizer" />
+	<AppIcon name="com.maxmpz.equalizer/com.maxmpz.equalizer.white_play_adaptive" image="poweramp_equalizer_inverted" />
 	<AppIcon name="com.maxpatchs.ango/com.maxpatchs.ango.HomeActivity" image="ango" />
 	<AppIcon name="com.maxwen.deskclock/com.maxwen.deskclock.SplashActivity" image="clock" />
 	<AppIcon name="com.maybank2u.life/com.zoontek.rnbootsplash.RNBootSplashActivity" image="mae" />
@@ -6849,4 +6850,6 @@
 	<AppIcon name="za.com.mrp/za.com.mrp.activity.StoreActivity" image="mrp_fashion" />
 	<AppIcon name="zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity" image="clock" />
 	<AppIcon name="zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity" image="file_manager" />
+	<AppIcon name="musicplayer.hdvideoplayer.backgroundmusic/musicplayer.hdvideoplayer.backgroundmusic.myActivities.MainActivity" image="music_alt_three" />
+	<AppIcon name="com.amaan.wallfever/com.amaan.wallfever.MainActivity" image="wallsplash" />
 </Theme>
