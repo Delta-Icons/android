@@ -22,9 +22,9 @@ Usage notes:
 
 ![Palette for Delta](https://github.com/Delta-Icons/android/raw/master/resources/Palette.svg) (Right-Click &rarr; Save as)
 
-![Adobe Swatch Exchange Palette](https://github.com/Delta-Icons/android/raw/master/resources/Palette.ase) (Right-Click &rarr; Save as)
+[Adobe Swatch Exchange Palette](https://github.com/Delta-Icons/android/raw/master/resources/Palette.ase) (Right-Click &rarr; Save as)
 
-![GPL pallete](https://github.com/Delta-Icons/android/raw/master/resources/Palette.gpl) (Inkscape, Karbon) (Right-Click &rarr; Save as)
+[GPL pallete](https://github.com/Delta-Icons/android/raw/master/resources/Palette.gpl) (Inkscape, Karbon) (Right-Click &rarr; Save as)
 
 ### Icon template
 <img src="https://github.com/Delta-Icons/android/raw/master/resources/template.svg" width="177" height="177">
