@@ -189,7 +189,7 @@
 	<AppIcon name="ca.blood.giveblood/ca.blood.giveblood.SplashActivity" image="give_blood" />
 	<AppIcon name="ca.cbc.mobile.android.cbcnewsandroidwebview/ca.cbc.android.news.refresh.ui.SplashActivity" image="cbc_news" />
 	<AppIcon name="ca.cbc.mobile.android.cbcnewsandroidwebview/ca.cbc.android.news.ui.SplashActivity" image="cbc_news" />
-	<AppIcon name="ca.chancehorizon.paseo/ca.chancehorizon.paseo.SplashActivity" image="paseo" />
+	<AppIcon name="ComponentInfo{ca.chancehorizon.paseo/ca.chancehorizon.paseo.MainActivity}" drawable="paseo"/>
 	<AppIcon name="ca.dominospizza/com.dominos.loadingscreen.HomeActivity" image="dominos" />
 	<AppIcon name="ca.gc.ec.weather_app_android.ops/ca.gc.ec.weather_app_android.fragments.MainActivity" image="weather" />
 	<AppIcon name="ca.honeygarlic.centennial/ca.honeygarlic.agendacore.SchoolAppView" image="cent_central" />
@@ -3674,7 +3674,6 @@
 	<AppIcon name="com.plexapp.android/com.plexapp.plex.activities.mobile.PickUserActivity" image="plex" />
 	<AppIcon name="com.plexapp.android/com.plexapp.plex.activities.SplashActivity" image="plex" />
 	<AppIcon name="com.pliablepixels.zmninja_pro/com.pliablepixels.zmninja_pro.MainActivity" image="zmninja" />
-	<AppIcon name="com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log" />
 	<AppIcon name="com.pms.cameranextmod7/com.android.camera.CameraLauncher" image="camera" />
 	<AppIcon name="com.pnc.ecommerce.mobile.vw.android/com.pnc.ecommerce.mobile.vw.android.signOn.LogInActivity" image="virtual_wallet" />
 	<AppIcon name="com.pnc.ecommerce.mobile/com.fisglobal.lfi.pnc.ui.MainActivity" image="bank" />
@@ -5918,7 +5917,7 @@
 	<AppIcon name="mark.via.gp/mark.via.Shell" image="via_browser" />
 	<AppIcon name="mark.via.gp/mark.via.ui.activity.BrowserActivity" image="via_browser" />
 	<AppIcon name="mathieumaree.rippple/mathieumaree.rippple.ui.activities.MainActivity" image="rippple" />
-	<AppIcon name="matlog.com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log" />
+	<AppIcon name="com.pluscubed.matloglibre/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log"/>
 	<AppIcon name="maxcom.toolbox.free/maxcom.toolbox.free.ToolBoxMainAct" image="tool_box" />
 	<AppIcon name="mbanking.NBG/md541e89cb2507290647c577a79f9028261.MainActivity" image="nbg" />
 	<AppIcon name="md.micb.mwb.prod/md.micb.mwb.prod.MainActivity" image="micb_mobile" />
@@ -6911,10 +6910,10 @@
 	<AppIcon name="com.wakdev.wdnfc/com.wakdev.nfctools.free.views.MainActivityFree" image="nfc_tools" />
 	<AppIcon name="rikka.safetynetchecker/rikka.safetynetchecker.main.MainActivity" image="yasnac"/>
 	<AppIcon name="br.com.timbrasil.meutim/com.accenture.meutim.activities.SplashScreenActivity" image="meu_tim"/>
-	<AppIcon name="ComponentInfo{com.lofipeople.blinddrive/com.unity3d.player.UnityPlayerActivity}" drawable="blind_drive"/>
-	<AppIcon name="ComponentInfo{it.gsd.mobileapp/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="gsd"/>
-	<AppIcon name="ComponentInfo{cf.theonewiththebraid.guerrilla_mail/cf.theonewiththebraid.guerrilla_mail.MainActivity}" drawable="guerrilla_mail"/>
-	<AppIcon name="ComponentInfo{com.emanuelef.remote_capture/com.emanuelef.remote_capture.activities.MainActivity}" drawable="pcapdroid"/>
-	<AppIcon name="ComponentInfo{com.Psyonix.RL2D/com.epicgames.ue4.SplashActivity}" drawable="rl_sideswipe"/>
-	<AppIcon name="ComponentInfo{com.perflyst.twire/com.perflyst.twire.activities.StartUpActivity}" drawable="twire"/>
+	<AppIcon name="com.lofipeople.blinddrive/com.unity3d.player.UnityPlayerActivity" image="blind_drive"/>
+	<AppIcon name="it.gsd.mobileapp/com.zoontek.rnbootsplash.RNBootSplashActivity" image="gsd"/>
+	<AppIcon name="cf.theonewiththebraid.guerrilla_mail/cf.theonewiththebraid.guerrilla_mail.MainActivity" image="guerrilla_mail"/>
+	<AppIcon name="com.emanuelef.remote_capture/com.emanuelef.remote_capture.activities.MainActivity" image="pcapdroid"/>
+	<AppIcon name="com.Psyonix.RL2D/com.epicgames.ue4.SplashActivity" image="rl_sideswipe"/>
+	<AppIcon name="com.perflyst.twire/com.perflyst.twire.activities.StartUpActivity" image="twire"/>
 </Theme>
