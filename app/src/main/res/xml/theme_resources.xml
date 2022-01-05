@@ -189,7 +189,7 @@
 	<AppIcon name="ca.blood.giveblood/ca.blood.giveblood.SplashActivity" image="give_blood" />
 	<AppIcon name="ca.cbc.mobile.android.cbcnewsandroidwebview/ca.cbc.android.news.refresh.ui.SplashActivity" image="cbc_news" />
 	<AppIcon name="ca.cbc.mobile.android.cbcnewsandroidwebview/ca.cbc.android.news.ui.SplashActivity" image="cbc_news" />
-	<AppIcon name="ca.chancehorizon.paseo/ca.chancehorizon.paseo.SplashActivity" image="paseo" />
+	<AppIcon name="ComponentInfo{ca.chancehorizon.paseo/ca.chancehorizon.paseo.MainActivity}" drawable="paseo"/>
 	<AppIcon name="ca.dominospizza/com.dominos.loadingscreen.HomeActivity" image="dominos" />
 	<AppIcon name="ca.gc.ec.weather_app_android.ops/ca.gc.ec.weather_app_android.fragments.MainActivity" image="weather" />
 	<AppIcon name="ca.honeygarlic.centennial/ca.honeygarlic.agendacore.SchoolAppView" image="cent_central" />
@@ -227,6 +227,7 @@
 	<AppIcon name="ch.lieferservice.android/com.takeaway.android.activity.Splash" image="takeaway" />
 	<AppIcon name="ch.pboos.android.SleepTimer/ch.pboos.android.SleepTimer.ActivityMain" image="sleep_timer" />
 	<AppIcon name="ch.protonmail.android/ch.protonmail.android.activities.SplashActivity" image="proton__mail" />
+	<AppIcon name="ch.protonmail.android/ch.protonmail.android.mailbox.presentation.MailboxActivity" image="protonmail"/>
 	<AppIcon name="ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity" image="protonvpn" />
 	<AppIcon name="ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity" image="bring" />
 	<AppIcon name="ch.sbb.mobile.android.b2c/ch.sbb.mobile.android.lib.MainActivity" image="sbb" />
@@ -1864,9 +1865,8 @@
 	<AppIcon name="com.franco.focus.lite/com.franco.focus.lite.activities.Main" image="focus" />
 	<AppIcon name="com.franco.focus/com.franco.focus.Original" image="focus" />
 	<AppIcon name="com.franco.gratus/com.franco.gratus.activities.MainActivity" image="gratus" />
-	<AppIcon name="com.franco.kernel/a.spl" image="franco_kernel_manager" />
+	<AppIcon name="com.franco.kernel/com.franco.kernel.activities.SplashActivity" image="franco_kernel_manager" />
 	<AppIcon name="com.franco.kernel/com.franco.kernel.activities.MainActivity" image="franco_kernel_updater" />
-	<AppIcon name="com.franco.kernel/com.franco.kernel.activities.SplashActivity" image="franco_kernel_updater" />
 	<AppIcon name="com.franco.kernel/com.franco.kernel.Original" image="franco_kernel_updater" />
 	<AppIcon name="com.franco.timer/com.franco.timer.activities.MainActivity" image="five_two_one_seven" />
 	<AppIcon name="com.free.fast.proxy.lion.vpn/com.lion.logic.main.SplashActivity" image="vpn" />
@@ -3674,7 +3674,6 @@
 	<AppIcon name="com.plexapp.android/com.plexapp.plex.activities.mobile.PickUserActivity" image="plex" />
 	<AppIcon name="com.plexapp.android/com.plexapp.plex.activities.SplashActivity" image="plex" />
 	<AppIcon name="com.pliablepixels.zmninja_pro/com.pliablepixels.zmninja_pro.MainActivity" image="zmninja" />
-	<AppIcon name="com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log" />
 	<AppIcon name="com.pms.cameranextmod7/com.android.camera.CameraLauncher" image="camera" />
 	<AppIcon name="com.pnc.ecommerce.mobile.vw.android/com.pnc.ecommerce.mobile.vw.android.signOn.LogInActivity" image="virtual_wallet" />
 	<AppIcon name="com.pnc.ecommerce.mobile/com.fisglobal.lfi.pnc.ui.MainActivity" image="bank" />
@@ -5918,7 +5917,7 @@
 	<AppIcon name="mark.via.gp/mark.via.Shell" image="via_browser" />
 	<AppIcon name="mark.via.gp/mark.via.ui.activity.BrowserActivity" image="via_browser" />
 	<AppIcon name="mathieumaree.rippple/mathieumaree.rippple.ui.activities.MainActivity" image="rippple" />
-	<AppIcon name="matlog.com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log" />
+	<AppIcon name="com.pluscubed.matloglibre/com.pluscubed.logcat.ui.LogcatActivity" image="mat__log"/>
 	<AppIcon name="maxcom.toolbox.free/maxcom.toolbox.free.ToolBoxMainAct" image="tool_box" />
 	<AppIcon name="mbanking.NBG/md541e89cb2507290647c577a79f9028261.MainActivity" image="nbg" />
 	<AppIcon name="md.micb.mwb.prod/md.micb.mwb.prod.MainActivity" image="micb_mobile" />
@@ -6937,4 +6936,12 @@
 	<AppIcon name="com.womboai.wombo/com.womboai.wombo.MainActivity" image="wombo" />
 	<AppIcon name="com.womboai.wombodream/com.womboai.wombodream.MainActivity" image="wombo_dream" />
 	<AppIcon name="su.xash.engine/su.xash.engine.LauncherActivity" image="xash_three_d_fwgs" />
+  	<AppIcon name="com.lofipeople.blinddrive/com.unity3d.player.UnityPlayerActivity" image="blind_drive" />
+	<AppIcon name="it.gsd.mobileapp/com.zoontek.rnbootsplash.RNBootSplashActivity" image="gsd"/>
+	<AppIcon name="cf.theonewiththebraid.guerrilla_mail/cf.theonewiththebraid.guerrilla_mail.MainActivity" image="guerrilla_mail" />
+	<AppIcon name="com.emanuelef.remote_capture/com.emanuelef.remote_capture.activities.MainActivity" image="pcapdroid" />
+	<AppIcon name="com.Psyonix.RL2D/com.epicgames.ue4.SplashActivity" image="rl_sideswipe" />
+	<AppIcon name="com.perflyst.twire/com.perflyst.twire.activities.StartUpActivity" image="twire" />
+	<AppIcon name="me.proton.android.calendar/me.proton.android.calendar.presentation.main.MainActivity" image="proton_calendar" />
+	<AppIcon name="com.pryshedko.materialpods/com.pryshedko.materialpods.MainActivity" image="material_pods" />
 </Theme>
