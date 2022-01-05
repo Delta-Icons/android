@@ -81,7 +81,7 @@
 	<calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
-	<calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar" />
+	<calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<item component=":BROWSER" drawable="browser" />
 	<item component=":CALCULATOR" drawable="calculator" />
 	<item component=":CALENDAR" drawable="calendar" />
@@ -274,6 +274,7 @@
 	<item component="ComponentInfo{ca.blood.giveblood/ca.blood.giveblood.SplashActivity}" drawable="give_blood" />
 	<item component="ComponentInfo{ca.cbc.mobile.android.cbcnewsandroidwebview/ca.cbc.android.news.refresh.ui.SplashActivity}" drawable="cbc_news" />
 	<item component="ComponentInfo{ca.cbc.mobile.android.cbcnewsandroidwebview/ca.cbc.android.news.ui.SplashActivity}" drawable="cbc_news" />
+	<item component="ComponentInfo{ca.chancehorizon.paseo/ca.chancehorizon.paseo.MainActivity}" drawable="paseo"/>
 	<item component="ComponentInfo{ca.chancehorizon.paseo/ca.chancehorizon.paseo.SplashActivity}" drawable="paseo" />
 	<item component="ComponentInfo{ca.dominospizza/com.dominos.loadingscreen.HomeActivity}" drawable="dominos" />
 	<item component="ComponentInfo{ca.gc.ec.weather_app_android.ops/ca.gc.ec.weather_app_android.fragments.MainActivity}" drawable="weather" />
@@ -362,6 +363,7 @@
 	<item component="ComponentInfo{co.mona.android/co.mona.android.SplashActivity}" drawable="cryptocom" />
 	<item component="ComponentInfo{co.myki.android/co.myki.android.LauncherActivity}" drawable="myki" />
 	<item component="ComponentInfo{co.paranoidandroid.camera/com.android.camera.CameraLauncher}" drawable="camera" />
+	<item component="ComponentInfo{com.google.android.GoogleCamMGC/com.android.camera.CameraLauncher}" drawable="camera" />
 	<item component="ComponentInfo{co.quizhouse/co.quizhouse.view.activities.LoginActivity}" drawable="quiz_house" />
 	<item component="ComponentInfo{co.slidebox/co.slidebox.controller.startup.WelcomeActivity}" drawable="slidebox" />
 	<item component="ComponentInfo{co.solovpn/co.easy4u.ll.ui.MainActivity}" drawable="vpn" />
@@ -5067,6 +5069,7 @@
 	<item component="ComponentInfo{com.virblue.mystudylife/crc6405c1126c8fdd504f.SplashScreen}" drawable="my__study__life" />
 	<item component="ComponentInfo{com.virblue.mystudylife/md58d9c9037a471b8a8307d52bf3798b504.SplashScreen}" drawable="my__study__life" />
 	<item component="ComponentInfo{com.virginmobile.colombia/com.virginmobile.colombia.ui.activity.AccessControlActivity}" drawable="virgin_mobile" />
+	<item component="ComponentInfo{cl.virginmobile.m.virgin/cl.mbsolutions.virginmobile.app.MainActivity}" drawable="virgin_mobile" />
 	<item component="ComponentInfo{com.vishnuraghav.enrecipes/com.tns.NativeScriptActivity}" drawable="enrecipes" />
 	<item component="ComponentInfo{com.visiblemobile.flagship/com.visiblemobile.flagship.splash.ui.SplashActivity}" drawable="visible" />
 	<item component="ComponentInfo{com.vitotechnology.StarWalk2Free/com.google.firebase.MessagingUnityPlayerActivity}" drawable="star_walk_2" />
@@ -7004,4 +7007,5 @@
 	<item component="ComponentInfo{com.calculator.hideu/com.calculator.hideu.SplashActivity}" drawable="calculator" />
 	<item component="ComponentInfo{com.tct.dialer/com.android.dialer.app.DialtactsActivity}" drawable="phone" />
 	<item component="ComponentInfo{nz.co.vodafone.android.myaccount/nz.co.vodafone.android.myaccount.MainActivity}" drawable="vodafone" />
+	<item component="ComponentInfo{ua.com.coxo.dominos/io.fitel.dominos.general.activity.LaunchActivity}" drawable="dominos" />
 </resources>
