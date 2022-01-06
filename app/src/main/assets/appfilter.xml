@@ -81,12 +81,9 @@
 	<calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
-<<<<<<< HEAD
 	<calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
-=======
 	<calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar" />
 	<calendar component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.main.MainActivity}" prefix="proton_calendar_" />
->>>>>>> e1fea33fe489c9cc30e8b2f0138f4377c61d9890
 	<item component=":BROWSER" drawable="browser" />
 	<item component=":CALCULATOR" drawable="calculator" />
 	<item component=":CALENDAR" drawable="calendar" />
@@ -7038,7 +7035,7 @@
 	<item component="ComponentInfo{com.womboai.wombo/com.womboai.wombo.MainActivity}" drawable="wombo" />
 	<item component="ComponentInfo{com.womboai.wombodream/com.womboai.wombodream.MainActivity}" drawable="wombo_dream" />
 	<item component="ComponentInfo{su.xash.engine/su.xash.engine.LauncherActivity}" drawable="xash_three_d_fwgs" />
-  	<item component="ComponentInfo{com.lofipeople.blinddrive/com.unity3d.player.UnityPlayerActivity}" drawable="blind_drive" />
+  <item component="ComponentInfo{com.lofipeople.blinddrive/com.unity3d.player.UnityPlayerActivity}" drawable="blind_drive" />
 	<item component="ComponentInfo{it.gsd.mobileapp/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="gsd"/>
 	<item component="ComponentInfo{cf.theonewiththebraid.guerrilla_mail/cf.theonewiththebraid.guerrilla_mail.MainActivity}" drawable="guerrilla_mail" />
 	<item component="ComponentInfo{com.emanuelef.remote_capture/com.emanuelef.remote_capture.activities.MainActivity}" drawable="pcapdroid" />
@@ -7049,4 +7046,7 @@
 	<item component="ComponentInfo{com.stake.stake/com.stake.stake.MainActivity}" drawable="stake" />
 	<item component="ComponentInfo{hu.nemzetimobilfizetes.mobiljegyapp/hu.nemzetimobilfizetes.mobiljegy.ui.authentication.AuthenticationActivity}" drawable="mobiljegy" />
 	<item component="ComponentInfo{net.slickdeals.android/net.slickdeals.android.SlickdealsLauncher}" drawable="slickdeals" />
+	<item component="ComponentInfo{it.fastweb.myfastweb/it.fastweb.myfastweb.activities.SplashActivity}" drawable="myfastweb" />
+	<item component="ComponentInfo{it.telecomitalia.centodiciannove/it.tim.mytim.SplashActivity}" drawable="meu_tim" />
+	<item component="ComponentInfo{it.wind.myWind/it.wind.myWind.SplashActivity}" drawable="windtre" />
 </resources>
