@@ -719,6 +719,7 @@
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FmMainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FMRadioActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.InfinixFmMainActivity}" drawable="fm_radio" />
+	<item component="ComponentInfo{com.ilv.vradio/com.ilv.vradio.MainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraLauncher}" drawable="camera" />
 	<item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="gallery" />
 	<item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="gallery" />
@@ -6457,10 +6458,11 @@
 	<item component="ComponentInfo{org.freecodecamp/com.example.freecodecamp.MainActivity}" drawable="freecodecamp" />
 	<item component="ComponentInfo{org.freedownloadmanager.fdm/org.freedownloadmanager.fdm.MyActivity}" drawable="freedownloadmanager" />
 	<item component="ComponentInfo{org.gdroid.gdroid/org.gdroid.gdroid.MainActivity}" drawable="g_droid" />
-	<item component="ComponentInfo{org.geogebra.android/org.geogebra.android.android.activity.GraphingCalculatorSplashScreenActivity_}" drawable="geogebra" />
-	<item component="ComponentInfo{org.geogebra.android/org.geogebra.android.android.activity.SplashScreenActivity_}" drawable="geogebra" />
-	<item component="ComponentInfo{org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity_}" drawable="geogebra" />
-	<item component="ComponentInfo{org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity}" drawable="geogebra" />
+	<item component="ComponentInfo{org.geogebra.android/org.geogebra.android.android.activity.GraphingCalculatorSplashScreenActivity_}" drawable="geogebra_graphing_calculator" />
+	<item component="ComponentInfo{org.geogebra.android/org.geogebra.android.android.activity.SplashScreenActivity_}" drawable="geogebra_graphing_calculator" />
+	<item component="ComponentInfo{org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity_}" drawable="geogebra_graphing_calculator" />
+	<item component="ComponentInfo{org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity}" drawable="geogebra_graphing_calculator" />
+	<item component="ComponentInfo{org.geogebra.android.calculator.suite/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity}" drawable="geogebra_calculator_suite" />
 	<item component="ComponentInfo{org.geometerplus.zlibrary.ui.android/org.geometerplus.android.fbreader.FBReader}" drawable="fbreader" />
 	<item component="ComponentInfo{org.goldenquran.freesoft/org.goldenquran.freesoft.Splashscreen}" drawable="quran_indonesia" />
 	<item component="ComponentInfo{org.herac.tuxguitar.android.activity.admob/org.herac.tuxguitar.android.activity.TGActivity}" drawable="guitar_pro" />
@@ -7162,6 +7164,14 @@
 	<item component="ComponentInfo{com.communauto.reservauto/com.communauto.reservauto.CommunautoActivity}" drawable="communauto" />
 	<item component="ComponentInfo{com.eightd.biximobile/com.citibikenyc.citibike.ui.main.SplashActivity}" drawable="bixi" />
 	<item component="ComponentInfo{com.samsung.sree/com.samsung.sree.ui.MainActivity}" drawable="samsung_global_goals" />
+	<item component="ComponentInfo{com.fss.indus/com.fss.indus.IndusMobile}" drawable="bank" />
+	<item component="ComponentInfo{bri.delivery.brimobile/bri.delivery.launcher.LauncherGrid2}" drawable="bank" />
+	<item component="ComponentInfo{fr.creditagricole.androidapp/fr.creditagricole.androidapp.activities.identification.ConnectionActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.kbc.mobile.android.phone.kbc/com.kbc.mobile.android.mbk.activities.SplashScreenActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.mercantilbanco.mercantilmovil/com.mercantilbanco.mercantilmovil.mmpx}" drawable="bank" />
+	<item component="ComponentInfo{com.kuto.vpn/com.kuto.vpn.KTActivitySplash}" drawable="vpn" />
+	<item component="ComponentInfo{app.dhoom2020/app.dhoom2020.activity.Launcher}" drawable="vpn" />
+	<item component="ComponentInfo{com.vpn.free.hotspot.secure.vpnify/com.vpn.free.hotspot.secure.vpnify.MainActivity}" drawable="vpnify" />
 	<item component="ComponentInfo{dk.tacit.android.foldersync.lite/dk.tacit.android.foldersync.activity.MainActivity}" drawable="folder_sync"/>
 	<item component="ComponentInfo{dk.tacit.android.foldersync.full/dk.tacit.android.foldersync.activity.MainActivity}" drawable="folder_sync_pro"/>
 	<item component="ComponentInfo{com.schibsted.bomnegocio.androidApp/com.schibsted.scm.nextgenapp.main.MainActivity}" drawable="olx_brasil" />
