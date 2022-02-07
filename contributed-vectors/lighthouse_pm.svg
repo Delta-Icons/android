@@ -1,4 +1,15 @@
-<svg width="192" height="192" version="1.1" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
- <rect x="32" y="8" width="128" height="176" rx="10.079" opacity=".63" stroke-width="1.0068" style="fill:#56595b;opacity:1"/>
- <path d="m96 20a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12zm0 4a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z" style="fill:#fff;paint-order:stroke fill markers"/>
+<svg width="192" height="192" version="1.1" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient837" x1="32" x2="160" y1="16" y2="168" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#ff837d" offset="0"/>
+   <stop style="stop-color:#8c72bd" offset=".25"/>
+   <stop style="stop-color:#728dbe" offset=".5"/>
+   <stop style="stop-color:#9abeff" offset=".75"/>
+   <stop style="stop-color:#98dc9a" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="32" y="8" width="128" height="176" rx="10.079" opacity=".63" stroke-width="1.0068" style="fill:url(#linearGradient837);opacity:1"/>
+ <rect x="64" y="52" width="64" height="88" ry="8" style="fill:#56595b;paint-order:stroke fill markers"/>
+ <circle cx="96" cy="64" r="8" style="fill:#fff;paint-order:stroke fill markers"/>
+ <circle cx="96" cy="64" r="4" style="fill:#56595b;paint-order:stroke fill markers"/>
 </svg>
