@@ -1,0 +1,30 @@
+<svg width="192" height="192" version="1.1" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient865" x1="96" x2="96" y1="180" y2="12" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#9abeff" offset="0"/>
+   <stop style="stop-color:#ff837d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient897" x1="8" x2="72" y1="96" y2="96" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#f9de81" offset="0"/>
+   <stop style="stop-color:#f9de81;stop-opacity:0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient897-2" x1="8" x2="72" y1="96" y2="96" gradientTransform="translate(-192)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#bd9aff" offset="0"/>
+   <stop style="stop-color:#bd9aff;stop-opacity:.052885" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient897-2-7-6" x1="8" x2="72" y1="8" y2="72" gradientTransform="translate(0,-192)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#98dc9a" offset="0"/>
+   <stop style="stop-color:#98dc9a;stop-opacity:.25" offset="1"/>
+  </linearGradient>
+ </defs>
+ <circle cx="96" cy="96" r="88" opacity=".63" style="fill:url(#linearGradient865);opacity:1"/>
+ <circle cx="96" cy="96" r="88" style="fill:url(#linearGradient897)"/>
+ <circle transform="scale(1,-1)" cx="96" cy="-96" r="88" style="fill:url(#linearGradient897-2-7-6)"/>
+ <ellipse transform="scale(-1,1)" cx="-96" cy="96" r="88" style="fill:url(#linearGradient897-2)"/>
+ <path d="m96 8a88 88 0 0 0-88 88 88 88 0 0 0 88 88 88 88 0 0 0 88-88 88 88 0 0 0-88-88zm0 44a44 44 0 0 1 44 44 44 44 0 0 1-44 44 44 44 0 0 1-44-44 44 44 0 0 1 44-44z" style="opacity:.25"/>
+ <path d="m88 116s0 4 4 4h8c4 0 4-4 4-4v-8l-8-8-8 8z" style="fill:#fff"/>
+ <path d="m76 88s-4 0-4 4v8c0 4 4 4 4 4h8l8-8-8-8z" style="fill:#fff"/>
+ <path d="m104 76s0-4-4-4h-8c-4 0-4 4-4 4v8l8 8 8-8z" style="fill:#fff"/>
+ <path d="m116 104s4 0 4-4v-8c0-4-4-4-4-4h-8l-8 8 8 8z" style="fill:#fff"/>
+ <circle cx="96" cy="96" r="88" style="opacity:0;paint-order:stroke fill markers"/>
+</svg>
