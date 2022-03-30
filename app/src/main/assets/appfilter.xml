@@ -755,6 +755,7 @@
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FmMainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FMRadioActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.fmradio/com.android.fmradio.InfinixFmMainActivity}" drawable="fm_radio" />
+	<item component="ComponentInfo{com.tcl.fmradio/com.tct.fmradio.utils.BaseActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraLauncher}" drawable="camera" />
 	<item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="gallery" />
 	<item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="gallery" />
@@ -2834,6 +2835,7 @@
 	<item component="ComponentInfo{com.infrasofttech.MahaBank/com.infrasofttech.MahaBank.MahaBank}" drawable="bank" />
 	<item component="ComponentInfo{com.infraware.office.link/com.infraware.service.ActLauncher}" drawable="polaris_office" />
 	<item component="ComponentInfo{com.ing.banking/com.ing.banking.features.welcome.WelcomeActivity}" drawable="ing" />
+	<item component="ComponentInfo{com.ing.banking/com.ing.banking.framework.features.welcome.WelcomeActivity}" drawable="ing" />
 	<item component="ComponentInfo{com.ing.diba.mbbr2/com.ing.diba.ibbr.ui.MainActivity}" drawable="ing" />
 	<item component="ComponentInfo{com.ing.diba.smartsecure2/com.ing.diba.smartsecure2.StartActivity}" drawable="ing_smart_secure" />
 	<item component="ComponentInfo{com.ing.mobile/com.ing.mobile.app.activities.SplashActivity}" drawable="ing" />
@@ -5591,6 +5593,7 @@
 	<item component="ComponentInfo{com.woi.liputan6.android/com.woi.liputan6.android.activity.Splash}" drawable="liputansix" />
 	<item component="ComponentInfo{com.wolfram.android.alpha/com.wolfram.android.alpha.activity.SplashScreenActivity}" drawable="wolfram_alpha" />
 	<item component="ComponentInfo{com.wolfram.android.alpha/com.wolfram.android.alpha.activity.WolframAlpha}" drawable="wolfram_alpha" />
+	<item component="ComponentInfo{com.wolfram.android.alpha/com.wolfram.android.alphalibrary.activity.SplashScreenActivity}" drawable="wolfram_alpha" />
 	<item component="ComponentInfo{com.wolt.android/com.wolt.android.activities.LauncherActivity}" drawable="wolt" />
 	<item component="ComponentInfo{com.wolt.android/com.wolt.android.activities.MainActivity}" drawable="wolt" />
 	<item component="ComponentInfo{com.womboai.wombo/com.womboai.wombo.MainActivity}" drawable="wombo" />
@@ -6660,7 +6663,7 @@
 	<item component="ComponentInfo{net.minetest.minetest/net.minetest.minetest.MainActivity}" drawable="minetest" />
 	<item component="ComponentInfo{net.moneykit.sbw/net.moneykit.sbw.SBWBaseActivity}" drawable="bank" />
 	<item component="ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.ui.MainActivity}" drawable="mullvad_vpn" />
-	<item component="ComponentInfo{net.musegearfinder.app/net.musegearfinder.app.MainActivity}" drawable="musegear" />
+	<item component="ComponentInfo{net.musegearfinder.app/net.musegearfinder.app.MainActivity}" drawable="musegear_finder" />
 	<item component="ComponentInfo{net.myanimelist.app/net.myanimelist.presentation.activity.HomeActivity}" drawable="myanimelist" />
 	<item component="ComponentInfo{net.nhiroki.bluelineconsole/net.nhiroki.bluelineconsole.applicationMain.MainActivity}" drawable="blue_line_console" />
 	<item component="ComponentInfo{net.nurik.roman.muzei/com.google.android.apps.muzei.MuzeiActivity}" drawable="muzei" />
@@ -7556,4 +7559,6 @@
 	<item component="ComponentInfo{za.com.mrp/za.com.mrp.activity.StoreActivity}" drawable="mrp_fashion" />
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
+	<item component="ComponentInfo{com.cnvcs.chess/com.cnvcs.App}" drawable="chess" />
+	<item component="ComponentInfo{com.mobisystems.msdict.embedded.wireless.oxford.dictofengandconcthes/com.mobisystems.msdict.viewer.EulaActivity}" drawable="dictionary" />
 </resources>
