@@ -38,5 +38,5 @@ Usage notes:
 [Now](https://www.1001fonts.com/now-font.html) (Use Now Alt from the same family for alternate lowercase "a")
 
 ### Gathering ComponentInfo from apps
-[Icon Pusher](https://iconpusher.com/) by southpaw.dev
-[Icon Request](https://github.com/Kaiserdragon2/IconRequest/releases) by [Kaiserdragon2](https://github.com/Kaiserdragon2)
+- [Icon Pusher](https://iconpusher.com/) by southpaw.dev
+- [Icon Request](https://github.com/Kaiserdragon2/IconRequest/releases) by [Kaiserdragon2](https://github.com/Kaiserdragon2)
