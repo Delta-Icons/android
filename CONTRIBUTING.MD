@@ -39,3 +39,4 @@ Usage notes:
 
 ### Gathering ComponentInfo from apps
 [Icon Pusher](https://iconpusher.com/) by southpaw.dev
+[Icon Request](https://github.com/Kaiserdragon2/IconRequest/releases) by [Kaiserdragon2](https://github.com/Kaiserdragon2)
