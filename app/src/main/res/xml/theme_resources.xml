@@ -200,6 +200,7 @@
 	<AppIcon name="br.com.gabba.Caixa/br.com.gabba.Caixa.SplashActivity" image="caixa" />
 	<AppIcon name="br.com.intermedium/br.com.intermedium.splash.SplashActivity" image="banco_inter" />
 	<AppIcon name="br.com.neon/br.com.neon.features.login.ui.activities.HomeOnboardingActivity" image="neon" />
+	<AppIcon name="com.neonbanking.app/com.neonbanking.app.MainActivity" image="neonbanking"/>
 	<AppIcon name="br.com.original.bank/br.com.original.bank.view.activity.Home" image="bank" />
 	<AppIcon name="br.com.tapps.myboo/br.com.tapps.love.SplashActivity" image="my_boo" />
 	<AppIcon name="br.com.timbrasil.meutim/com.accenture.meutim.activities.SplashScreenActivity" image="meu_tim"/>
@@ -254,7 +255,7 @@
 	<AppIcon name="ch.icoaching.typewise/ch.icoaching.wrio.app.IonicActivity" image="typewise" />
 	<AppIcon name="ch.lieferservice.android/com.takeaway.android.activity.Splash" image="takeaway" />
 	<AppIcon name="ch.pboos.android.SleepTimer/ch.pboos.android.SleepTimer.ActivityMain" image="sleep_timer" />
-	<AppIcon name="ch.postfinance.android/ch.postfinance.android.splashscreen.SplashScreenActivity" image="post_finance" />
+	<AppIcon name="ch.postfinance.android/ch.postfinance.android.splashscreen.presentation.SplashScreenActivity" image="postfinance" />
 	<AppIcon name="ch.protonmail.android/ch.protonmail.android.activities.SplashActivity" image="proton__mail" />
 	<AppIcon name="ch.protonmail.android/ch.protonmail.android.mailbox.presentation.MailboxActivity" image="protonmail"/>
 	<AppIcon name="ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity" image="protonvpn" />
@@ -2088,6 +2089,7 @@
 	<AppIcon name="com.gameloft.android.ANMP.GloftA8HM/com.gameloft.android.ANMP.GloftA8HM.MainActivity" image="asphalt_8" />
 	<AppIcon name="com.gameloft.android.ANMP.GloftA9HM/com.gameloft.android.ANMP.GloftA9HM.MainActivity" image="asphalt_9" />
 	<AppIcon name="com.gamelounge.chroomakeyboard/org.smc.inputmethod.indic.settings.StartActivity" image="chrooma_keyboard" />
+	<AppIcon name="com.gamelounge.chrooma_lwp.android/com.gamelounge.chrooma_lwp.android.SetWallpaperActivity" image="chrooma_live_wallpaper" />
 	<AppIcon name="com.gameparadiso.milkchoco/org.cocos2dx.cpp.AppActivity" image="milkchoco"/>
 	<AppIcon name="com.gamepass.beta/com.gamepass.MainActivity" image="xboxgamepass_beta" />
 	<AppIcon name="com.gamepass.samsung/com.gamepass.MainActivity" image="xboxgamepass" />
@@ -4063,6 +4065,7 @@
 	<AppIcon name="com.quora.android/com.quora.android.LauncherActivity" image="quora" />
 	<AppIcon name="com.quora.android/com.quora.android.LaunchFromUrlActivity" image="quora" />
 	<AppIcon name="com.quran.labs.androidquran/com.quran.labs.androidquran.QuranDataActivity" image="quran_indonesia" />
+	<AppIcon name="com.qxl.Client/ch.ricardo.ui.MainActivity" image="ricardo"/>
 	<AppIcon name="com.radefffactory.dices/com.radefffactory.dices.ConsentActivity" image="random_dice" />
 	<AppIcon name="com.radiocom/com.radiocom.activities.LauncherActivity" image="fm_radio" />
 	<AppIcon name="com.radiocom/com.radiocom.splash.SplashScreenActivity" image="radio_com" />
@@ -4915,6 +4918,7 @@
 	<AppIcon name="com.target.socsav/com.target.socsav.activity.LoginActivity" image="cartwheel" />
 	<AppIcon name="com.target.ui/com.target.ui.activity.NavigationActivity" image="target" />
 	<AppIcon name="com.taskade.mobile/com.taskade.mobile.MainActivity" image="taskade" />
+	<AppIcon name="com.tautulli.tautulli_remote/io.flutter.embedding.android.FlutterActivity" image="tautulli_remote"/>
 	<AppIcon name="com.taxis99/com.didi.sdk.app.DidiLoadDexActivity" image="ninetynine" />
 	<AppIcon name="com.tbig.playerpro/com.tbig.playerpro.MusicBrowserActivity" image="playerpro" />
 	<AppIcon name="com.tblenovo.lenovotips/com.tblenovo.lenovotips.ui.activity.WelcomeActivity" image="lenovo_tips" />
@@ -7332,6 +7336,7 @@
 	<AppIcon name="tv.parsec.client/tv.parsec.client.MainActivity" image="parsec" />
 	<AppIcon name="tv.periscope.android/tv.periscope.android.LaunchActivity" image="periscope" />
 	<AppIcon name="tv.plex.labs.plexamp/com.plexamp.MainActivity" image="plexamp" />
+	<AppIcon name="tv.plex.labs.dash/tv.plex.labs.dashboard.MainActivity}" image="plex_dash"/>
 	<AppIcon name="tv.pluto.android/tv.pluto.android.EntryPoint" image="pluto_tv" />
 	<AppIcon name="tv.telequebec/uk.tva.template.LaunchScreenActivity" image="tele_quebec" />
 	<AppIcon name="tv.tou.android/tv.tou.android.splash.views.activities.SplashScreenActivity" image="ici_tout_tv" />
@@ -7516,4 +7521,9 @@
 	<AppIcon name="com.medtronic.diabetes.minimedmobile.eu/com.medtronic.minimed.ui.startupwizard.SplashScreenActivity" image="medtronic_minimed" />
 	<AppIcon name="com.timetac/com.timetac.dashboard.DashboardActivity" image="timetac" />
 	<AppIcon name="xyz.jienan.xkcd/xyz.jienan.xkcd.home.MainActivity" image="xkcd" />
+	<AppIcon name="com.nousguide.android.ndr/com.nousguide.android.ndr.MainActivity" image="ndr_radio"/>
+	<AppIcon name="com.dvdb.bergnotes/com.dvdb.dnotes.MainActivity" image="quickmemo"/>
+	<AppIcon name="org.qosp.notes/org.qosp.notes.ui.MainActivity" image="quickmemo"/>
+	<AppIcon name="com.popular.android.mibanco/com.popular.android.mibanco.IntroScreen" image="bank"/>
+	<AppIcon name="info.kfsoft.stickynote/info.kfsoft.stickynote.MainActivity" image="stickynote_widget"/>
 </Theme>
