@@ -25,7 +25,6 @@
 		android:supportsRtl="true"
 		android:theme="@style/CandyBar.Theme.App"
 		tools:ignore="GoogleAppIndexingWarning,GoogleAppIndexingUrlError"
-		tools:replace="android:icon"
 		tools:targetApi="n">
 
 		<activity
@@ -33,7 +32,8 @@
 			android:launchMode="singleTop"
 			android:noHistory="true"
 			android:screenOrientation="portrait"
-			android:theme="@style/CandyBar.Theme.Splash">
+			android:theme="@style/CandyBar.Theme.Splash"
+			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -45,10 +45,10 @@
 
 		<activity
 			android:name=".activities.MainActivity"
-			android:configChanges="uiMode|orientation|keyboardHidden|screenSize"
 			android:launchMode="singleTop"
-			android:theme="@style/CandyBar.Theme.App">
-			<!-- android:theme="@style/CandyBar.Theme.Splash"> -->
+			android:theme="@style/CandyBar.Theme.App"
+			android:configChanges="uiMode|orientation|keyboardHidden|screenSize"
+			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 			</intent-filter>
@@ -199,7 +199,10 @@
 				android:value="@color/muzei_color" />
 		</provider>
 
-		<receiver android:name=".services.ClockWidget" android:label="Clock Widget">
+		<receiver
+			android:name=".services.ClockWidget"
+			android:label="Clock Widget"
+			android:exported="false">
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>

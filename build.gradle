@@ -22,8 +22,8 @@ allprojects {
     rootProject.ext {
         // BuildTools = "30.0.0"
         MinSdk = 16
-        TargetSdk = 30
-        CompileSdk = 30
+        TargetSdk = 32
+        CompileSdk = 32
         SupportLibrary = "27.1.1"
     }
 }
