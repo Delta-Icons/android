@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
-	package="website.leifs.delta"
-	android:installLocation="auto">
+	android:installLocation="auto"
+	package="website.leifs.delta">
 
 	<!-- If you are not using donation and premium request, you need to remove BILLING permission -->
 	<uses-permission android:name="com.android.vending.BILLING" />
 
 	<!-- If you are not using license checker, you need to remove CHECK_LICENSE permission -->
-	<!--    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />-->
+	<!--    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> -->
 
 	<supports-screens
 		android:largeScreens="true"
@@ -17,14 +17,14 @@
 		android:xlargeScreens="true" />
 
 	<application
+		tools:ignore="GoogleAppIndexingWarning,GoogleAppIndexingUrlError"
 		android:name=".applications.CandyBar"
 		android:allowBackup="true"
-		android:icon="@mipmap/icon"
-		android:label="@string/app_name"
+		android:icon="@mipmap/ic_launcher"
 		android:networkSecurityConfig="@xml/network_config"
+		android:label="@string/app_name"
 		android:supportsRtl="true"
 		android:theme="@style/CandyBar.Theme.App"
-		tools:ignore="GoogleAppIndexingWarning,GoogleAppIndexingUrlError"
 		tools:targetApi="n">
 
 		<activity
@@ -187,9 +187,9 @@
 		<provider
 			android:name=".services.MuzeiService"
 			android:authorities="${applicationId}.ArtProvider"
+			android:label="@string/muzei_art_source_name"
 			android:description="@string/muzei_art_source_desc"
 			android:exported="true"
-			android:label="@string/muzei_art_source_name"
 			android:permission="com.google.android.apps.muzei.api.ACCESS_PROVIDER">
 			<intent-filter>
 				<action android:name="com.google.android.apps.muzei.api.MuzeiArtProvider" />
