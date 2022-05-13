@@ -2,21 +2,21 @@
 <resources>
 
     <!--
-        Try to not reference other theme colors, or it may result in
-        an error (android.view.InflateException)
+            Try to not reference other theme colors, or it may result in
+            an error (android.view.InflateException)
 
-        If you want to reuse colors using referencing, just create a
-        new color and reference it. Do not try to reference existing
-        theme colors.
-        Example -
-        ```
-        Declaring the color
-        <color name="common_color">#FFF</color>
+            If you want to reuse colors using referencing, just create a
+            new color and reference it. Do not try to reference existing
+            theme colors.
+            Example -
+            ```
+            Declaring the color
+            <color name="common_color">#FFF</color>
 
-        Referencing the common color
-        <color name="someColor">@color/common_color</color>
-        <color name="anotherColor">@color/common_color</color>
-        ```
+            Referencing the common color
+            <color name="someColor">@color/common_color</color>
+            <color name="anotherColor">@color/common_color</color>
+            ```
     -->
 
     <color name="colorPrimary">#ECECEC</color>
@@ -26,9 +26,14 @@
     <color name="darkColorPrimary">#222222</color>
     <color name="darkColorPrimaryDark">#111111</color>
     <color name="darkColorAccent">#ff837d</color>
-    <color name="darkColorAccentSecondary">#b75752</color>
+    <!-- <color name="darkColorAccentSecondary">#b75752</color> -->
 
-    <!-- Navigation Bar Must be solid color, no alpha -->
+    <!-- Shortcut Icon -->
+    <color name="shortcutIconBackground">#1A73E9</color> <!-- to edit -->
+    <color name="shortcutIconForeground">#FFF</color> <!-- to edit -->
+
+    <!-- Navigation Bar
+    * Must be solid color, no alpha -->
     <color name="navigationBar">#56595B</color>
     <color name="navigationBarDark">#000000</color>
 
@@ -36,12 +41,17 @@
     <color name="splashColor">#222222</color>
 
     <!-- Navigation View -->
-    <color name="navigationViewTitle">#56595B</color>
+    <color name="navigationViewHeaderBackground">#00FFFFFF</color> <!-- to edit-->
+    <color name="navigationViewHeaderBackgroundDark">#33000000</color> <!-- to edit-->
+    <color name="navigationViewTitle">#414345</color>
     <color name="navigationViewTitleBack">#33000000</color>
+
     <color name="navigationViewText">#56595B</color>
     <color name="navigationViewTextDark">#FFFFFF</color>
     <color name="navigationViewTextSelected">#9ABEFF</color>
     <color name="navigationViewTextSelectedDark">#b75752</color>
+    <color name="navigationViewSelectedBackground">#222222</color> <!-- to edit-->
+    <color name="navigationViewSelectedBackgroundDark">#222222</color> <!-- to edit-->
 
     <!-- Swipe Refresh -->
     <color name="swipeRefresh">#ff837d</color>
@@ -51,12 +61,14 @@
     <color name="toolbarIconDark">#FFFFFFFF</color>
 
     <!-- Toolbar Search -->
+    <!--
     <color name="searchToolbar">#56595B</color>
     <color name="searchToolbarDark">#222</color>
     <color name="searchToolbarIcon">#56595B</color>
     <color name="searchToolbarIconDark">#4A4A4A</color>
     <color name="searchToolbarHintText">#44000000</color>
     <color name="searchToolbarHintTextDark">#44FFFFFF</color>
+    -->
 
     <!-- Tab -->
     <color name="tabIndicator">#9ABEFF</color>
@@ -69,10 +81,16 @@
     <!-- Card -->
     <color name="cardBackground">#FFFFFF</color>
     <color name="cardBackgroundDark">#2C2C2C</color>
-    <color name="cardRipple">#10000000</color>
-    <color name="cardRippleDark">#10000000</color>
+    <color name="cardStroke">#20000000</color>
+    <color name="cardStrokeDark">#20FFFFFF</color>
+    <!--
     <color name="cardSelected">#20000000</color>
     <color name="cardSelectedDark">#20FFFFFF</color>
+    -->
+
+    <!-- Ripple -->
+    <color name="rippleColor">#10000000</color>
+    <color name="rippleColorDark">#10000000</color>
     <color name="rippleAccent">#2243C0FF</color>
     <color name="rippleAccentDark">#22ff837d</color>
 
@@ -83,18 +101,25 @@
     <color name="primaryTextDark">#EEFFFFFF</color>
     <color name="secondaryText">#A0A5AF</color>
     <color name="secondaryTextDark">#99FFFFFF</color>
+    <!--
     <color name="hintText">#44FFFFFF</color>
     <color name="hintTextDark">#44FFFFFF</color>
+    -->
+
     <color name="dividerList">#EEEEEE</color>
     <color name="dividerListDark">#00FFFFFF</color>
 
     <!-- Fast Scroll -->
+    <!--
     <color name="fastScrollHandle">#757575</color>
     <color name="fastScrollHandleDark">#B2B2B2</color>
+     -->
 
     <!-- Popup Bubble -->
+    <!--
     <color name="popupBubble">#ff837d</color>
     <color name="popupBubbleText">#222</color>
+    -->
 
     <!-- Wallpaper Preview -->
     <color name="wallpaperStatusBar">#88000000</color>
