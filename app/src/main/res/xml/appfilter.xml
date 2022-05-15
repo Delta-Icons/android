@@ -1505,7 +1505,7 @@
 	<item component="ComponentInfo{com.cleevio.spendee/com.cleevio.spendee.MainActivity}" drawable="spendee" />
 	<item component="ComponentInfo{com.cleevio.spendee/com.cleevio.spendee.screens.dashboard.main.DashboardActivity}" drawable="spendee" />
 	<item component="ComponentInfo{com.cleevio.spendee/com.cleevio.spendee.ui.MainActivity}" drawable="spendee" />
-	<item component="ComponentInfo{com.clickup.app/com.clickup.app.MainActivity}" drawable="clickup" />
+	<item component="ComponentInfo{com.clickup.app/com.clickup.app.MainActivity}" drawable="clickup_old" />
 	<item component="ComponentInfo{com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.MainActivity}" drawable="one_square_four" />
 	<item component="ComponentInfo{com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.SplashActivity}" drawable="one_square_four" />
 	<item component="ComponentInfo{com.cloudmosa.puffin/com.cloudmosa.app.LemonActivity}" drawable="puffin" />
@@ -6755,6 +6755,7 @@
 	<item component="ComponentInfo{media.merlins.drawing/com.google.androidbrowserhelper.trusted.LauncherActivity}" drawable="malmal_community_drawing" />
 	<item component="ComponentInfo{media.music.fmlisten.musicplayer/media.music.fmlisten.musicplayer.splashActivity}" drawable="music_alt_three" />
 	<item component="ComponentInfo{meditofoundation.medito/meditofoundation.medito.MainActivity}" drawable="medito" />
+	<item component="ComponentInfo{meditofoundation.medito/com.ryanheise.audioservice.AudioServiceActivity}" drawable="medito"/>
 	<item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.LauncherActivity}" drawable="mega" />
 	<item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivityLollipop}" drawable="mega" />
 	<item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivity}" drawable="mega" />
@@ -7828,4 +7829,5 @@
 	<item component="ComponentInfo{net.infojobs.mobile.android/com.infojobs.app.choosecountry.view.activity.phone.ChooseCountryActivity}" drawable="infojobs" />
 	<item component="ComponentInfo{gov.va.mobileapp/gov.va.mobileapp.MainActivity}" drawable="va" />
 	<item component="ComponentInfo{dev.patrickgold.florisboard.debug/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard_debug"/>
+	<item component="ComponentInfo{co.mangotechnologies.clickup/co.mangotechnologies.clickup.MainActivity}" drawable="clickup" />
 </resources>
