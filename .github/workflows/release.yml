@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout to master
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Set variables
@@ -19,6 +19,12 @@ jobs:
           FILENAME=delta-$VERSION
           echo "FILENAME=$FILENAME" >> $GITHUB_ENV
           echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Create changelog
+        run: |
+          cat << EOF > changelog.md
+          $(grep '^ *<item>' app/src/main/res/values/changelog.xml | sed -r 's|<[^>]*>(]]>)?||g; s|^ *|- |g')
+          EOF
 
       - name: Restore license
         run: |
@@ -64,13 +70,6 @@ jobs:
           name: ${{ env.FILENAME }}
           path: ${{ env.FILENAME }}.apk
           retention-days: 30
-
-      - name: Generate changelog
-        run: |
-          cat << EOF > changelog.md
-          ## Changelog
-          $(grep '^ *<item>' app/src/main/res/values/changelog.xml | sed -r 's|<[^>]*>(]]>)?||g; s|^ *|- |g')
-          EOF
 
       - name: Create release
         uses: softprops/action-gh-release@v1
