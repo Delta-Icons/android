@@ -67,7 +67,7 @@ jobs:
           AMOUNT=$(sed -n '/category title="New"/,/category title="Google"/p' app/src/main/res/xml/drawable.xml | grep 'item name' | wc -l)
           echo "AMOUNT=$AMOUNT" >> $GITHUB_ENV
 
-      - name: Replace changelog
+      - name: Replace app changelog
         run: |
           cat << EOF > app/src/main/res/values/changelog.xml
           <?xml version="1.0" encoding="utf-8"?>
@@ -113,6 +113,13 @@ jobs:
           path: delta-${{ env.VERSION }}.apk
           retention-days: 30
 
+      - name: Generate changelog
+        run: |
+          cat << EOF > changelog.md
+          - ${{ env.AMOUNT }} new icons
+          - Full changelog will be on release!
+          EOF
+
       - name: Create pre-release
         uses: softprops/action-gh-release@v1
         with:
@@ -120,4 +127,4 @@ jobs:
           prerelease: true
           name: ${{ env.VERSION }}
           tag_name: ${{ env.VERSION }}
-          body: '${{ env.AMOUNT }} new icons<br>Full changelog will be on release!'
+          body_path: changelog.md

@@ -71,7 +71,6 @@ jobs:
           ## Changelog
           $(grep '^ *<item>' app/src/main/res/values/changelog.xml | sed -r 's|<[^>]*>(]]>)?||g; s|^ *|- |g')
           EOF
-          echo "<<< changelog.md"; cat changelog.md
 
       - name: Create release
         uses: softprops/action-gh-release@v1
