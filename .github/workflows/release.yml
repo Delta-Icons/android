@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
@@ -82,12 +81,12 @@ jobs:
           tag_name: ${{ env.VERSION }}
           body_path: changelog.md
 
-      - name: Upload to Play Store
-        uses: r0adkll/upload-google-play@v1
-        continue-on-error: true
-        with:
-          serviceAccountJson: ${{ secrets.SERVICE_ACCOUNT_JSON }}
-          packageName: website.leifs.delta
-          releaseFiles: ${{ env.FILENAME }}.aab
-          track: production
-          mappingFile: app/build/outputs/mapping/release/mapping.txt
+      # - name: Upload to Play Store
+      #   uses: r0adkll/upload-google-play@v1
+      #   continue-on-error: true
+      #   with:
+      #     serviceAccountJson: ${{ secrets.SERVICE_ACCOUNT_JSON }}
+      #     packageName: website.leifs.delta
+      #     releaseFiles: ${{ env.FILENAME }}.aab
+      #     track: production
+      #     mappingFile: app/build/outputs/mapping/release/mapping.txt
