@@ -62,6 +62,24 @@ jobs:
           sed -i "s|versionName .*|versionName \"$VERSION_NAME\"|; s|versionCode .*|versionCode $VERSION_CODE|" app/build.gradle
           echo "VERSION=$VERSION_NAME" >> $GITHUB_ENV
 
+      - name: Count new icons
+        run: |
+          AMOUNT=$(sed -n '/category title="New"/,/category title="Google"/p' app/src/main/res/xml/drawable.xml | grep 'item name' | wc -l)
+          echo "AMOUNT=$AMOUNT" >> $GITHUB_ENV
+
+      - name: Replace changelog
+        run: |
+          cat << EOF > app/src/main/res/values/changelog.xml
+          <?xml version="1.0" encoding="utf-8"?>
+          <resources>
+              <string name="changelog_date"></string>
+              <string-array name="changelog">
+                  <item><![CDATA[<font color=#ff837d>${{ env.AMOUNT }}</font>]]> new icons</item>
+                  <item>Full changelog will be on release!</item>
+              </string-array>
+          </resources>
+          EOF
+
       - name: Restore license
         run: |
           mkdir -v app/src/main/java/website/leifs/delta/licenses && cd $_
@@ -102,4 +120,4 @@ jobs:
           prerelease: true
           name: ${{ env.VERSION }}
           tag_name: ${{ env.VERSION }}
-          body: 'Auto-built pre-release'
+          body: '${{ env.AMOUNT }} new icons<br>Full changelog will be on release!'
