@@ -1,8 +1,8 @@
 name: 'Beta'
 
 on:
-  push:
-    branches: dev
+  # push:
+  #   branches: dev
   workflow_dispatch:
 
 jobs:
@@ -53,9 +53,14 @@ jobs:
               if [[ "$pre" != "-rc" ]]; then preversion=1; else ((++preversion)); fi; fi
               pre="-rc$preversion";;
             esac; echo ${major}.${minor}.${patch}${pre}; }
+          CURRENT_VERSION=$(grep 'versionName ' app/build.gradle | awk '{print $2}' | sed 's|\"||g; s|\r$||g')
           LATEST_VERSION=${{ steps.latest_version.outputs.tag_name }}
           if [[ $LATEST_VERSION != *"beta"* ]]; then NEXT_VERSION=$(semver $LATEST_VERSION bug)
-          else NEXT_VERSION=$LATEST_VERSION; fi; echo "VERSION=$(semver $NEXT_VERSION beta)" >> $GITHUB_ENV
+          else NEXT_VERSION=$LATEST_VERSION; fi
+          VERSION_NAME=$(semver $NEXT_VERSION beta)
+          VERSION_CODE=$(echo $VERSION_NAME | sed 's|-.*||; s|\.||g')
+          sed -i "s|versionName .*|versionName \"$VERSION_NAME\"|; s|versionCode .*|versionCode $VERSION_CODE|" app/build.gradle
+          echo "VERSION=$VERSION_NAME" >> $GITHUB_ENV
 
       - name: Restore license
         run: |

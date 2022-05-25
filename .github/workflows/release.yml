@@ -1,8 +1,8 @@
 name: 'Release'
 
 on:
-  push:
-    branches: master
+  # push:
+  #   branches: master
   workflow_dispatch:
 
 jobs:
@@ -81,6 +81,7 @@ jobs:
           tag_name: ${{ env.VERSION }}
           body_path: changelog.md
 
+      ### uncomment later
       # - name: Upload to Play Store
       #   uses: r0adkll/upload-google-play@v1
       #   continue-on-error: true
