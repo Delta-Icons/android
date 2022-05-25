@@ -102,3 +102,4 @@ jobs:
           prerelease: true
           name: ${{ env.VERSION }}
           tag_name: ${{ env.VERSION }}
+          body: 'Auto-built pre-release'
