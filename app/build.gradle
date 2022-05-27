@@ -13,17 +13,7 @@ apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 apply plugin: 'com.android.application'
 
 android {
-
 	compileSdkVersion rootProject.ext.CompileSdk
-	// buildToolsVersion rootProject.ext.BuildTools
-
-	android.applicationVariants.all { variant ->
-		variant.outputs.all { output ->
-			def appName = parent.name
-			def fileName = appName.replace(" ", "_")
-			outputFileName = "$fileName-v${variant.versionName}.apk"
-		}
-	}
 
 	defaultConfig {
 		applicationId "website.leifs.delta"
@@ -31,7 +21,6 @@ android {
 		targetSdkVersion rootProject.ext.TargetSdk
 		versionCode 168
 		versionName "1.6.8"
-		// testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 		multiDexEnabled true
 
 		// Naming app bundles
