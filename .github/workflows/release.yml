@@ -32,14 +32,15 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Build AAB
+      - name: Set up License Key
         env:
           LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
+        run: echo LICENSE_KEY="$LICENSE_KEY" > local.properties
+
+      - name: Build AAB
         run: bash gradlew bundleRelease
 
       - name: Build APK
-        env:
-          LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
         run: bash gradlew assembleRelease
 
       - name: Move AAB and APK

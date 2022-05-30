@@ -1,6 +1,5 @@
 plugins {
 	id 'com.android.application'
-    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
@@ -49,7 +48,4 @@ dependencies {
      */
 
 	implementation 'com.github.zixpo:candybar:3.14.2'
-
-	// TODO: Remove `//` below to enable OneSignal
-	//implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
 }
