@@ -1,0 +1,106 @@
+name: 'Beta'
+
+on:
+  # push:
+  #   branches: dev
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Get latest version
+        uses: InsonusK/get-latest-release@v1.0.1
+        id: latest_version
+        with:
+          myToken: ${{ github.token }}
+          exclude_types: draft
+          view_top: 1
+
+      - name: Bump version
+        run: |
+          SCRIPT=https://raw.githubusercontent.com/christian-draeger/increment-semantic-version/c04c50b6ca32272b43e9693183f65dd65121a743/entrypoint.sh
+          source <(cat << EOF
+          semver() {
+            $(curl -s $SCRIPT | sed -n '/^main() {$/,/esac$/p' | sed '1d')
+            $(echo 'echo ${major}.${minor}.${patch}${pre}'); }
+          EOF
+          )
+          LATEST_VERSION=$(echo ${{ steps.latest_version.outputs.tag_name }} | sed -r 's|v\.?||')
+          if [[ $LATEST_VERSION != *"beta"* ]]; then NEXT_VERSION=$(semver $LATEST_VERSION bug)
+          else NEXT_VERSION=$LATEST_VERSION; fi
+          VERSION_NAME=$(semver $NEXT_VERSION beta)
+          VERSION_CODE=$(echo $VERSION_NAME | sed 's|-.*||; s|\.||g')
+          sed -i "s|versionName .*|versionName \"$VERSION_NAME\"|; s|versionCode .*|versionCode $VERSION_CODE|" app/build.gradle
+          echo "VERSION=v$VERSION_NAME" >> $GITHUB_ENV
+
+      - name: Count new icons
+        run: |
+          AMOUNT=$(sed -n '/category title="New"/,/category title="Google"/p' app/src/main/res/xml/drawable.xml | grep 'item name' | wc -l)
+          echo "AMOUNT=$AMOUNT" >> $GITHUB_ENV
+
+      - name: Create GitHub changelog
+        run: |
+          cat << EOF > changelog.md
+          - ${{ env.AMOUNT }} new icons
+          - Full changelog will be on release!
+          EOF
+
+      - name: Create Delta changelog
+        run: |
+          cat << EOF > app/src/main/res/values/changelog.xml
+          <?xml version="1.0" encoding="utf-8"?>
+          <resources>
+              <string name="changelog_date"></string>
+              <string-array name="changelog">
+                  <item><![CDATA[<font color=#ff837d>${{ env.AMOUNT }}</font>]]> new icons</item>
+                  <item>Full changelog will be on release!</item>
+              </string-array>
+          </resources>
+          EOF
+
+      - name: Restore license
+        run: |
+          mkdir -v app/src/main/java/website/leifs/delta/licenses && cd $_
+          echo -e "${{ secrets.LICENSE_JAVA }}" | base64 -d > License.java
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Build APK
+        run: bash gradlew assembleRelease
+
+      - name: Sign APK
+        uses: r0adkll/sign-android-release@v1
+        with:
+          releaseDirectory: app/build/outputs/apk/release
+          signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
+          keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
+          keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
+          alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
+
+      - name: Rename APK
+        run: mv -v ${{ env.SIGNED_RELEASE_FILE }} delta-${{ env.VERSION }}.apk
+
+      - name: Upload APK in artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: delta-${{ env.VERSION }}
+          path: delta-${{ env.VERSION }}.apk
+          retention-days: 30
+
+      - name: Create pre-release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: delta-${{ env.VERSION }}.apk
+          prerelease: true
+          name: ${{ env.VERSION }}
+          tag_name: ${{ env.VERSION }}
+          body_path: changelog.md
