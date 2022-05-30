@@ -26,11 +26,6 @@ jobs:
           $(grep '^ *<item>' app/src/main/res/values/changelog.xml | sed -r 's|<[^>]*>(]]>)?||g; s|^ *|- |g')
           EOF
 
-      - name: Restore license
-        run: |
-          mkdir -v app/src/main/java/website/leifs/delta/licenses && cd $_
-          echo -e "${{ secrets.LICENSE_JAVA }}" | base64 -d > License.java
-
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
@@ -38,9 +33,13 @@ jobs:
           java-version: 17
 
       - name: Build AAB
+        env:
+          LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
         run: bash gradlew bundleRelease
 
       - name: Build APK
+        env:
+          LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
         run: bash gradlew assembleRelease
 
       - name: Move AAB and APK

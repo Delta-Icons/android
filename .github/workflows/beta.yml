@@ -58,15 +58,10 @@ jobs:
               <string name="changelog_date"></string>
               <string-array name="changelog">
                   <item><![CDATA[<font color=#ff837d>${{ env.AMOUNT }}</font>]]> new icons</item>
-                  <item>Full changelog will be on release!</item>
+                  <item>Full changelog will be published upon release!</item>
               </string-array>
           </resources>
           EOF
-
-      - name: Restore license
-        run: |
-          mkdir -v app/src/main/java/website/leifs/delta/licenses && cd $_
-          echo -e "${{ secrets.LICENSE_JAVA }}" | base64 -d > License.java
 
       - name: Set up JDK
         uses: actions/setup-java@v3
@@ -76,6 +71,8 @@ jobs:
 
       - name: Build APK
         run: bash gradlew assembleRelease
+        env:
+          LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
 
       - name: Sign APK
         uses: r0adkll/sign-android-release@v1

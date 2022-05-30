@@ -12,7 +12,6 @@ bin/
 gen/
 out/
 
-app/src/main/java/website/leifs/delta/licenses/License.java
 .idea/
 
 # Gradle files
@@ -57,3 +56,7 @@ email/
 .project
 new_drawable.xml
 local.properties
+
+*.pyc
+__pycache__/
+utility_scripts/emails/
