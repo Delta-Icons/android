@@ -75,8 +75,7 @@
 	<calendar component="ComponentInfo{com.underwood.calendar/com.underwood.calendar.MainActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.underwood.calendar_beta/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.MainActivity}" prefix="calendar_blue_" />
-	<calendar component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.main.MainActivity}" prefix="calendar_blue_" />
+	<calendar component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.MainActivity}" prefix="proton_calendar_" />
 	<calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
@@ -359,10 +358,10 @@
 	<item component="ComponentInfo{ch.pboos.android.SleepTimer/ch.pboos.android.SleepTimer.ActivityMain}" drawable="sleep_timer" />
 	<item component="ComponentInfo{ch.postfinance.android/ch.postfinance.android.splashscreen.presentation.SplashScreenActivity}" drawable="postfinance" />
 	<item component="ComponentInfo{ch.postfinance.twint.android/ch.twint.payment.ui.activities.start.StartActivity}" drawable="twint_postfinance" />
-	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.activities.SplashActivity}" drawable="proton__mail" />
-	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.mailbox.presentation.MailboxActivity}" drawable="proton__mail" />
-	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.mailbox.presentation.ui.MailboxActivity}" drawable="proton__mail" />
-	<item component="ComponentInfo{ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="protonvpn" />
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.activities.SplashActivity}" drawable="proton_mail" />
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.mailbox.presentation.MailboxActivity}" drawable="proton_mail" />
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.mailbox.presentation.ui.MailboxActivity}" drawable="proton_mail" />
+	<item component="ComponentInfo{ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="proton_vpn" />
 	<item component="ComponentInfo{ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity}" drawable="bring" />
 	<item component="ComponentInfo{ch.sbb.mobile.android.b2c/ch.sbb.mobile.android.lib.MainActivity}" drawable="sbb" />
 	<item component="ComponentInfo{ch.sbb.mobile.android.b2c/ch.sbb.mobile.android.vnext.splashscreen.SplashScreenActivity}" drawable="sbb" />
@@ -6810,9 +6809,8 @@
 	<item component="ComponentInfo{me.nanoleaf.nanoleaf/me.nanoleaf.nanoleaf.activities.SplashActivity}" drawable="nanoleaf" />
 	<item component="ComponentInfo{me.phh.superuser/com.koushikdutta.superuser.MainActivityity}" drawable="supersu" />
 	<item component="ComponentInfo{me.pou.app/me.pou.app.App}" drawable="pou" />
-	<item component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.main.MainActivity}" drawable="calendar_blue" />
 	<item component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.main.MainActivity}" drawable="proton_calendar" />
-	<item component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.MainActivity}" drawable="calendar_blue" />
+	<item component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.MainActivity}" drawable="proton_calendar" />
 	<item component="ComponentInfo{me.ramilego.liko12/me.ramilego.liko12.LikoActivity}" drawable="liko_twelve" />
 	<item component="ComponentInfo{me.saket.press/press.home.HomeActivity}" drawable="press" />
 	<item component="ComponentInfo{me.scan.android.client/me.scan.android.client.ui.ScanActivity}" drawable="qr_code_reader" />
@@ -7897,4 +7895,29 @@
     <item component="ComponentInfo{com.nothing.smartcenter/com.nothing.smart.index.activity.WelcomeActivity}" drawable="ear_one" />
     <item component="ComponentInfo{com.infinitecampus.student.campusportalhybrid/com.campusportalhybrid.MainActivity}" drawable="campus_student" />
     <item component="ComponentInfo{com.btpn.dc/com.jenius2.MainActivity}" drawable="jenius" />
+	<item component="ComponentInfo{pan.alexander.tordnscrypt.stable/pan.alexander.tordnscrypt.MainActivity}" drawable="invizible_pro" />
+	<item component="ComponentInfo{pan.alexander.tordnscrypt.gp/pan.alexander.tordnscrypt.MainActivity}" drawable="invizible_pro" />
+	<item component="ComponentInfo{air.com.RustyLake.CubeEscapeParadox/air.com.RustyLake.CubeEscapeParadox.AppEntry}" drawable="cube_escape_paradox" />
+	<item component="ComponentInfo{taxi.android.driver/com.mytaxi.driver.feature.login.launcher.LauncherActivity}" drawable="free_now_driver" />
+	<item component="ComponentInfo{nz.govt.health.covidpassverifier/com.verifierapprn.MainActivity}" drawable="nz_pass_verifier" />
+	<item component="ComponentInfo{com.evilduck.musiciankit/com.evilduck.musiciankit.pearlets.home.HomeActivity}" drawable="perfect_ear" />
+	<item component="ComponentInfo{com.arvest.arvestgo/com.arvest.arvestgo.splash.SplashActivity}" drawable="arvest_go" />
+	<item component="ComponentInfo{com.lookandfeel.cleanerforwhatsapp/com.lookandfeel.cleanerforwhatsapp.SplashscreenActivity}" drawable="cleaner_whatsapp" />
+	<item component="ComponentInfo{com.hornet.android/com.hornet.android.activity.SplashActivity}" drawable="hornet" />
+	<item component="ComponentInfo{app.meditasyon/app.meditasyon.ui.splash.view.SplashActivity}" drawable="meditopia" />
+	<item component="ComponentInfo{valecard.Beneficio.App/valecard.Beneficio.App.ui.intro.SplashActivity}" drawable="valecard" />
+	<item component="ComponentInfo{phosphorus.app.usage.screen.time/phosphorus.appusage.main.PermissionActivity}" drawable="digitox" />
+	<item component="ComponentInfo{com.orange.rn.dop/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="orange_flex" />
+	<item component="ComponentInfo{com.cardwise.xpenditure/com.rydoo.mobile.MainActivity}" drawable="rydoo" />
+	<item component="ComponentInfo{com.sube.app/md5ae54c0f472b9295e018b8c356a7e9b38.MainActivity}" drawable="sube" />
+	<item component="ComponentInfo{com.ting.dashboard/com.ting.dashboard.SplashActivity}" drawable="ting" />
+	<item component="ComponentInfo{au.com.amaysim.android/au.com.amaysim.poc.android.MainActivity}" drawable="amaysim" />
+	<item component="ComponentInfo{com.bitdefender.antivirus/com.bitdefender.antivirus.activities.StartActivity}" drawable="bitdefender_antivirus" />
+	<item component="ComponentInfo{com.cabify.rider/com.cabify.rider.presentation.splash.SplashActivity}" drawable="cabify" />
+	<item component="ComponentInfo{com.chivo.wallet/host.exp.exponent.MainActivity}" drawable="chivo" />
+	<item component="ComponentInfo{jbl.stc.com/jbl.stc.com.activity.SplashActivity}" drawable="jbl_headphones" />
+	<item component="ComponentInfo{com.niyo.equitassavingsaccount/com.niyo.niyoequitas.ui.splash.SplashScreenActivity}" drawable="niyox" />
+	<item component="ComponentInfo{com.mobillium.papara/com.mobillium.papara.ui.splash.SplashActivity}" drawable="papara" />
+	<item component="ComponentInfo{cz.nakit.eocko.wallet/dgc.app.wallet.system.MainActivity}" drawable="tecka" />
+	<item component="ComponentInfo{com.vodafone.selfservis/com.vodafone.selfservis.modules.splash.activities.SplashActivity}" drawable="vodafone" />
 </resources>
