@@ -47,7 +47,7 @@ jobs:
         run: |
           cat << EOF > changelog.md
           - ${{ env.AMOUNT }} new icons
-          - Full changelog will be on release!
+          - Full changelog will be published upon release!
           EOF
 
       - name: Create Delta changelog
@@ -70,9 +70,7 @@ jobs:
           java-version: 17
 
       - name: Set up License Key
-        env:
-          LICENSE_KEY: ${{ secrets.LICENSE_KEY }}
-        run: echo LICENSE_KEY="$LICENSE_KEY" > local.properties
+        run: echo LICENSE_KEY="${{ secrets.LICENSE_KEY }}" > local.properties
 
       - name: Build APK
         run: bash gradlew assembleRelease
