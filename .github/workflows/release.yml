@@ -22,7 +22,8 @@ jobs:
 
       - name: Create changelog
         run: |
-          cat << EOF > changelog.md
+          mkdir -v changelog
+          cat << EOF > changelog/whatsnew-en-US
           $(grep '^ *<item>' app/src/main/res/values/changelog.xml | sed -r 's|<[^>]*>(]]>)?||g; s|^ *|- |g')
           EOF
 
@@ -32,7 +33,10 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Set up License Key
+      - name: Restore service_account.json
+        run: echo "${{ secrets.SERVICE_ACCOUNT_BASE64 }}" | base64 -d > service_account.json
+
+      - name: Set up license key
         run: echo LICENSE_KEY="${{ secrets.LICENSE_KEY }}" > local.properties
 
       - name: Build AAB
@@ -77,13 +81,13 @@ jobs:
           tag_name: ${{ env.VERSION }}
           body_path: changelog.md
 
-      ### uncomment later
-      # - name: Upload to Play Store
-      #   uses: r0adkll/upload-google-play@v1
-      #   continue-on-error: true
-      #   with:
-      #     serviceAccountJson: ${{ secrets.SERVICE_ACCOUNT_JSON }}
-      #     packageName: website.leifs.delta
-      #     releaseFiles: ${{ env.FILENAME }}.aab
-      #     track: production
-      #     mappingFile: app/build/outputs/mapping/release/mapping.txt
+      - name: Publish in Google Play
+        uses: r0adkll/upload-google-play@v1.0.15
+        continue-on-error: true
+        with:
+          serviceAccountJson: service_account.json
+          packageName: website.leifs.delta
+          releaseFiles: ${{ env.FILENAME }}.aab
+          track: production
+          mappingFile: app/build/outputs/mapping/release/mapping.txt
+          whatsNewDirectory: changelog
