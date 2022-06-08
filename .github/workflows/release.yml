@@ -79,7 +79,7 @@ jobs:
           files: ${{ env.FILENAME }}.apk
           name: ${{ env.VERSION }}
           tag_name: ${{ env.VERSION }}
-          body_path: changelog.md
+          body_path: changelog/whatsnew-en-US
 
       - name: Publish in Google Play
         uses: r0adkll/upload-google-play@v1.0.15
@@ -91,3 +91,4 @@ jobs:
           track: production
           mappingFile: app/build/outputs/mapping/release/mapping.txt
           whatsNewDirectory: changelog
+          inAppUpdatePriority: 5
