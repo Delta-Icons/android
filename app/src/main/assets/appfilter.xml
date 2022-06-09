@@ -407,6 +407,7 @@
 	<item component="ComponentInfo{cn.wq.myandroidtools/cn.wq.myandroidtoolspro.MainActivity}" drawable="myandroidtools" />
 	<item component="ComponentInfo{cn.xender/cn.xender.ui.activity.SplashActivity}" drawable="xender" />
 	<item component="ComponentInfo{cn.zte.music/cn.zte.music.activity.MusicBrowserActivity}" drawable="music" />
+	<item component="ComponentInfo{cn.zte.recorder/cn.zte.recorder.RecordHomeActivity}" drawable="google_recorder" />
 	<item component="ComponentInfo{co.benx.weverse/co.benx.weverse.ui.scene.splash.SplashActivity}" drawable="weverse" />
 	<item component="ComponentInfo{co.bird.android/co.bird.android.app.feature.main.MainActivity}" drawable="bird" />
 	<item component="ComponentInfo{co.bitx.android.wallet/co.bitx.android.wallet.app.MainActivity}" drawable="luno" />
@@ -629,8 +630,6 @@
 	<item component="ComponentInfo{com.android.BBKClock/com.android.BBKClock.Timer}" drawable="clock" />
 	<item component="ComponentInfo{com.android.bbkmusic/com.android.bbkmusic.WidgetToTrackActivity}" drawable="music_alt_three" />
 	<item component="ComponentInfo{com.android.bbksoundrecorder/com.android.activity.ReclistActivity}" drawable="sound_recorder" />
-	<item component="ComponentInfo{com.andrwq.recorder/com.andrwq.recorder.RecorderActivity}" drawable="sound_recorder" />
-	<item component="ComponentInfo{com.vivo.soundrecorder/com.vivo.activity.ReclistActivity}" drawable="sound_recorder" />
 	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="aosp_browser" />
 	<item component="ComponentInfo{com.android.browser/com.android.browser.launch.SplashActivity}" drawable="aosp_browser" />
 	<item component="ComponentInfo{com.android.browser/com.opera.Opera}" drawable="aosp_browser" />
@@ -913,6 +912,7 @@
 	<item component="ComponentInfo{com.androidcentral.app/com.androidcentral.app.HomeActivity}" drawable="android_central" />
 	<item component="ComponentInfo{com.androidvip.hebf/com.androidvip.hebf.MainActivity}" drawable="hebf" />
 	<item component="ComponentInfo{com.androidvip.hebfpro/com.androidvip.hebfpro.activity.LoginActivity}" drawable="hebf" />
+	<item component="ComponentInfo{com.andrwq.recorder/com.andrwq.recorder.RecorderActivity}" drawable="sound_recorder" />
 	<item component="ComponentInfo{com.anghami/com.anghami.activities.SplashActivity_}" drawable="anghami" />
 	<item component="ComponentInfo{com.angrydoughnuts.android.alarmclock/com.angrydoughnuts.android.alarmclock.AlarmClockActivity}" drawable="alarm_klock" />
 	<item component="ComponentInfo{com.animelab.android.handset/com.animelab.android.activities.MainActivity}" drawable="animelab" />
@@ -974,6 +974,7 @@
 	<item component="ComponentInfo{com.appseleration.android.selfcare/com.vis.meinvodafone.view.activity.launch.VfLaunchBaseActivity}" drawable="vodafone" />
 	<item component="ComponentInfo{com.appseleration.android.selfcare/com.vis.meinvodafone.view.activity.load.VfLoadPhoneActivity}" drawable="vodafone" />
 	<item component="ComponentInfo{com.appsorama.kleptocats/com.unity3d.player.UnityPlayerNativeActivity}" drawable="kleptocats" />
+	<item component="ComponentInfo{com.appstar.callrecorder/com.appstar.callrecorder.MainActivity}" drawable="call_recorder" />
 	<item component="ComponentInfo{com.apusapps.browser/com.apusapps.browser.main.AppEnterActivity}" drawable="apus_browser" />
 	<item component="ComponentInfo{com.apusapps.browser/com.superapps.browser.main.AppEnterActivity}" drawable="apus_browser" />
 	<item component="ComponentInfo{com.aral.aral/com.aral.aral.SplashActivity}" drawable="aral" />
@@ -3331,7 +3332,6 @@
 	<item component="ComponentInfo{com.lge.fmradio/com.lge.fmradio.FmRadioActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.lge.fmradio/com.lge.fmradio.IntroActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.lge.hifirecorder/com.lge.hifirecorder.LaunchHifiRecorder}" drawable="google_recorder" />
-	<item component="ComponentInfo{cn.zte.recorder/cn.zte.recorder.RecordHomeActivity}" drawable="google_recorder" />
 	<item component="ComponentInfo{com.lge.launcher3/com.lge.launcher3.LauncherExtension}" drawable="lg_home" />
 	<item component="ComponentInfo{com.lge.lgworld/com.lge.lgworld.ui.activity.MainActivity}" drawable="lg_smart_world" />
 	<item component="ComponentInfo{com.lge.music/com.lge.music.MusicBrowserActivity}" drawable="music" />
@@ -5756,6 +5756,7 @@
 	<item component="ComponentInfo{com.vivo.FMRadio/com.vivo.FMRadio.FMRadio}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.vivo.gallery/com.android.gallery3d.vivo.GalleryTabActivity}" drawable="gallery" />
 	<item component="ComponentInfo{com.vivo.notes/com.vivo.notes.Notes}" drawable="quickmemo" />
+	<item component="ComponentInfo{com.vivo.soundrecorder/com.vivo.activity.ReclistActivity}" drawable="sound_recorder" />
 	<item component="ComponentInfo{com.vivo.weather/com.vivo.weather.WeatherMain}" drawable="weather" />
 	<item component="ComponentInfo{com.viz.wsj.android/com.vizmanga.android.vizmangalib.activities.SplashActivity}" drawable="shonen_jump" />
 	<item component="ComponentInfo{com.vizio.vue.launcher/com.vizio.vue.launcher.activities.InitializationActivity}" drawable="smartcast" />
@@ -7340,6 +7341,7 @@
 	<item component="ComponentInfo{org.schabi.newpipe/org.schabi.newpipe.VideoItemListActivity}" drawable="newpipe" />
 	<item component="ComponentInfo{org.schabi.newpipelegacy/org.schabi.newpipelegacy.MainActivity}" drawable="newpipe_legacy" />
 	<item component="ComponentInfo{org.shadowice.flocke.andotp/org.shadowice.flocke.andotp.Activities.MainActivity}" drawable="andotp" />
+	<item component="ComponentInfo{org.skvalex.cr/org.skvalex.cr.LauncherActivity}" drawable="call_recorder" />
 	<item component="ComponentInfo{org.softeg.slartus.forpdaplus/org.softeg.slartus.forpdaplus.MainActivity}" drawable="four_pda" />
 	<item component="ComponentInfo{org.solovyev.android.calculator/org.solovyev.android.calculator.CalculatorActivity}" drawable="calculator_plus_plus" />
 	<item component="ComponentInfo{org.sorz.lab.tinykeepass/org.sorz.lab.tinykeepass.MainActivity}" drawable="tinykeepass" />
@@ -7958,6 +7960,4 @@
 	<item component="ComponentInfo{za.com.mrp/za.com.mrp.activity.StoreActivity}" drawable="mrp_fashion" />
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
-	<item component="ComponentInfo{com.appstar.callrecorder/com.appstar.callrecorder.MainActivity}" drawable="call_recorder" />
-	<item component="ComponentInfo{org.skvalex.cr/org.skvalex.cr.LauncherActivity}" drawable="call_recorder" />
 </resources>

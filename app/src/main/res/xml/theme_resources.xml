@@ -321,6 +321,7 @@
 	<AppIcon name="cn.wq.myandroidtools/cn.wq.myandroidtoolspro.MainActivity" image="myandroidtools" />
 	<AppIcon name="cn.xender/cn.xender.ui.activity.SplashActivity" image="xender" />
 	<AppIcon name="cn.zte.music/cn.zte.music.activity.MusicBrowserActivity" image="music" />
+	<AppIcon name="cn.zte.recorder/cn.zte.recorder.RecordHomeActivity" image="google_recorder" />
 	<AppIcon name="co.benx.weverse/co.benx.weverse.ui.scene.splash.SplashActivity" image="weverse" />
 	<AppIcon name="co.bird.android/co.bird.android.app.feature.main.MainActivity" image="bird" />
 	<AppIcon name="co.bitx.android.wallet/co.bitx.android.wallet.app.MainActivity" image="luno" />
@@ -543,8 +544,6 @@
 	<AppIcon name="com.android.BBKClock/com.android.BBKClock.Timer" image="clock" />
 	<AppIcon name="com.android.bbkmusic/com.android.bbkmusic.WidgetToTrackActivity" image="music_alt_three" />
 	<AppIcon name="com.android.bbksoundrecorder/com.android.activity.ReclistActivity" image="sound_recorder" />
-	<AppIcon name="com.andrwq.recorder/com.andrwq.recorder.RecorderActivity" image="sound_recorder" />
-	<AppIcon name="com.vivo.soundrecorder/com.vivo.activity.ReclistActivity" image="sound_recorder" />
 	<AppIcon name="com.android.browser/com.android.browser.BrowserActivity" image="aosp_browser" />
 	<AppIcon name="com.android.browser/com.android.browser.launch.SplashActivity" image="aosp_browser" />
 	<AppIcon name="com.android.browser/com.opera.Opera" image="aosp_browser" />
@@ -827,6 +826,7 @@
 	<AppIcon name="com.androidcentral.app/com.androidcentral.app.HomeActivity" image="android_central" />
 	<AppIcon name="com.androidvip.hebf/com.androidvip.hebf.MainActivity" image="hebf" />
 	<AppIcon name="com.androidvip.hebfpro/com.androidvip.hebfpro.activity.LoginActivity" image="hebf" />
+	<AppIcon name="com.andrwq.recorder/com.andrwq.recorder.RecorderActivity" image="sound_recorder" />
 	<AppIcon name="com.anghami/com.anghami.activities.SplashActivity_" image="anghami" />
 	<AppIcon name="com.angrydoughnuts.android.alarmclock/com.angrydoughnuts.android.alarmclock.AlarmClockActivity" image="alarm_klock" />
 	<AppIcon name="com.animelab.android.handset/com.animelab.android.activities.MainActivity" image="animelab" />
@@ -888,6 +888,7 @@
 	<AppIcon name="com.appseleration.android.selfcare/com.vis.meinvodafone.view.activity.launch.VfLaunchBaseActivity" image="vodafone" />
 	<AppIcon name="com.appseleration.android.selfcare/com.vis.meinvodafone.view.activity.load.VfLoadPhoneActivity" image="vodafone" />
 	<AppIcon name="com.appsorama.kleptocats/com.unity3d.player.UnityPlayerNativeActivity" image="kleptocats" />
+	<AppIcon name="com.appstar.callrecorder/com.appstar.callrecorder.MainActivity" image="call_recorder" />
 	<AppIcon name="com.apusapps.browser/com.apusapps.browser.main.AppEnterActivity" image="apus_browser" />
 	<AppIcon name="com.apusapps.browser/com.superapps.browser.main.AppEnterActivity" image="apus_browser" />
 	<AppIcon name="com.aral.aral/com.aral.aral.SplashActivity" image="aral" />
@@ -3247,7 +3248,6 @@
 	<AppIcon name="com.lge.fmradio/com.lge.fmradio.FmRadioActivity" image="fm_radio" />
 	<AppIcon name="com.lge.fmradio/com.lge.fmradio.IntroActivity" image="fm_radio" />
 	<AppIcon name="com.lge.hifirecorder/com.lge.hifirecorder.LaunchHifiRecorder" image="google_recorder" />
-	<AppIcon name="cn.zte.recorder/cn.zte.recorder.RecordHomeActivity" image="google_recorder" />
 	<AppIcon name="com.lge.launcher3/com.lge.launcher3.LauncherExtension" image="lg_home" />
 	<AppIcon name="com.lge.lgworld/com.lge.lgworld.ui.activity.MainActivity" image="lg_smart_world" />
 	<AppIcon name="com.lge.music/com.lge.music.MusicBrowserActivity" image="music" />
@@ -5672,6 +5672,7 @@
 	<AppIcon name="com.vivo.FMRadio/com.vivo.FMRadio.FMRadioActivity" image="fm_radio" />
 	<AppIcon name="com.vivo.gallery/com.android.gallery3d.vivo.GalleryTabActivity" image="gallery" />
 	<AppIcon name="com.vivo.notes/com.vivo.notes.Notes" image="quickmemo" />
+	<AppIcon name="com.vivo.soundrecorder/com.vivo.activity.ReclistActivity" image="sound_recorder" />
 	<AppIcon name="com.vivo.weather/com.vivo.weather.WeatherMain" image="weather" />
 	<AppIcon name="com.viz.wsj.android/com.vizmanga.android.vizmangalib.activities.SplashActivity" image="shonen_jump" />
 	<AppIcon name="com.vizio.vue.launcher/com.vizio.vue.launcher.activities.InitializationActivity" image="smartcast" />
@@ -7258,6 +7259,7 @@
 	<AppIcon name="org.schabi.newpipe/org.schabi.newpipe.VideoItemListActivity" image="newpipe" />
 	<AppIcon name="org.schabi.newpipelegacy/org.schabi.newpipelegacy.MainActivity" image="newpipe_legacy" />
 	<AppIcon name="org.shadowice.flocke.andotp/org.shadowice.flocke.andotp.Activities.MainActivity" image="andotp" />
+	<AppIcon name="org.skvalex.cr/org.skvalex.cr.LauncherActivity" image="call_recorder" />
 	<AppIcon name="org.softeg.slartus.forpdaplus/org.softeg.slartus.forpdaplus.MainActivity" image="four_pda" />
 	<AppIcon name="org.solovyev.android.calculator/org.solovyev.android.calculator.CalculatorActivity" image="calculator_plus_plus" />
 	<AppIcon name="org.sorz.lab.tinykeepass/org.sorz.lab.tinykeepass.MainActivity" image="tinykeepass" />
@@ -7876,6 +7878,4 @@
 	<AppIcon name="za.com.mrp/za.com.mrp.activity.StoreActivity" image="mrp_fashion" />
 	<AppIcon name="zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity" image="clock" />
 	<AppIcon name="zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity" image="file_manager" />
-	<AppIcon name="com.appstar.callrecorder/com.appstar.callrecorder.MainActivity" image="call_recorder" />
-	<AppIcon name="org.skvalex.cr/org.skvalex.cr.LauncherActivity" image="call_recorder" />
 </Theme>
