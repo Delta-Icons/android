@@ -70,6 +70,9 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      - name: Restore service_account.json
+        run: echo "${{ secrets.SERVICE_ACCOUNT_BASE64 }}" | base64 -d > service_account.json
+
       - name: Set up License Key
         run: echo LICENSE_KEY="${{ secrets.LICENSE_KEY }}" > local.properties
 
