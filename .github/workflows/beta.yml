@@ -1,8 +1,6 @@
 name: 'Beta'
 
 on:
-  # push:
-  #   branches: dev
   workflow_dispatch:
 
 jobs:
@@ -10,122 +8,115 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout
-        uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
 
-      - name: Get latest version
-        uses: InsonusK/get-latest-release@v1.0.1
-        id: latest_version
-        with:
-          myToken: ${{ github.token }}
-          exclude_types: draft
-          view_top: 1
+    - name: Set up JDK
+      uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 17
 
-      - name: Bump version
-        run: |
-          SCRIPT=https://raw.githubusercontent.com/christian-draeger/increment-semantic-version/c04c50b6ca32272b43e9693183f65dd65121a743/entrypoint.sh
-          source <(cat << EOF
-          semver() {
-            $(curl -s $SCRIPT | sed -n '/^main() {$/,/esac$/p' | sed '1d')
-            $(echo 'echo ${major}.${minor}.${patch}${pre}'); }
-          EOF
-          )
-          LATEST_VERSION=$(echo ${{ steps.latest_version.outputs.tag_name }} | sed -r 's|v\.?||')
-          if [[ $LATEST_VERSION != *"beta"* ]]; then NEXT_VERSION=$(semver $LATEST_VERSION bug)
-          else NEXT_VERSION=$LATEST_VERSION; fi
-          VERSION_NAME=$(semver $NEXT_VERSION beta)
-          VERSION_CODE=$(echo $VERSION_NAME | sed 's|-.*||; s|\.||g')
-          sed -i "s|versionName .*|versionName \"$VERSION_NAME\"|; s|versionCode .*|versionCode $VERSION_CODE|" app/build.gradle
-          echo "VERSION=v$VERSION_NAME" >> $GITHUB_ENV
+    - name: Get latest release version
+      uses: InsonusK/get-latest-release@v1.0.1
+      id: latest_version
+      with:
+        myToken: ${{ github.token }}
+        exclude_types: draft
+        view_top: 1
 
-      - name: Count new icons
-        run: |
-          AMOUNT=$(sed -n '/category title="New"/,/category title="Google"/p' app/src/main/res/xml/drawable.xml | grep 'item name' | wc -l)
-          echo "AMOUNT=$AMOUNT" >> $GITHUB_ENV
+    - name: Bump version
+      run: |
+        SCRIPT=https://raw.githubusercontent.com/christian-draeger/increment-semantic-version/c04c50b6ca32272b43e9693183f65dd65121a743/entrypoint.sh
+        source <(cat << EOF
+        semver() {
+          $(curl -s $SCRIPT | sed -n '/^main() {$/,/esac$/p' | sed '1d')
+          $(echo 'echo ${major}.${minor}.${patch}${pre}'); }
+        EOF
+        )
+        LATEST_VERSION=$(echo ${{ steps.latest_version.outputs.tag_name }} | sed -r 's|v\.?||')
+        if [[ $LATEST_VERSION != *"beta"* ]]; then NEXT_VERSION=$(semver $LATEST_VERSION bug)
+        else NEXT_VERSION=$LATEST_VERSION; fi
+        VERSION_NAME=$(semver $NEXT_VERSION beta)
+        VERSION_CODE=$(echo $VERSION_NAME | sed 's|-.*||; s|\.||g')
+        sed -i "s|versionName .*|versionName \"$VERSION_NAME\"|; s|versionCode .*|versionCode $VERSION_CODE|" app/build.gradle
+        echo "VERSION=v$VERSION_NAME" >> $GITHUB_ENV
+        echo "FILENAME=delta-v$VERSION_NAME" >> $GITHUB_ENV
 
-      - name: Create GitHub & Google Play changelog
-        run: |
-          mkdir -v changelog
-          cat << EOF > changelog/whatsnew-en-US
-          - ${{ env.AMOUNT }} new icons
-          - Full changelog will be published upon release!
-          EOF
+    - name: Create changelog
+      run: |
+        AMOUNT=$(sed -n '/category title="New"/,/category title="Google"/p' app/src/main/res/xml/drawable.xml | grep 'item name' | wc -l)
+        mkdir -v changelog && cd $_
+        cat << EOF > whatsnew-en-US
+        - $AMOUNT new icons
+        - Full changelog will be published upon release!
+        EOF
+        cat << EOF > ../app/src/main/res/values/changelog.xml
+        <?xml version="1.0" encoding="utf-8"?>
+        <resources>
+            <string name="changelog_date"></string>
+            <string-array name="changelog">
+                <item><![CDATA[<font color=#ff837d>$AMOUNT</font>]]> new icons</item>
+                <item>Full changelog will be published upon release!</item>
+            </string-array>
+        </resources>
+        EOF
 
-      - name: Create Delta changelog
-        run: |
-          cat << EOF > app/src/main/res/values/changelog.xml
-          <?xml version="1.0" encoding="utf-8"?>
-          <resources>
-              <string name="changelog_date"></string>
-              <string-array name="changelog">
-                  <item><![CDATA[<font color=#ff837d>${{ env.AMOUNT }}</font>]]> new icons</item>
-                  <item>Full changelog will be published upon release!</item>
-              </string-array>
-          </resources>
-          EOF
+    - name: Restore the license key
+      run: echo LICENSE_KEY="${{ secrets.LICENSE_KEY }}" > local.properties
 
-      - name: Set up JDK
-        uses: actions/setup-java@v3
-        with:
-          distribution: temurin
-          java-version: 17
+    - name: Restore the service account
+      run: echo "${{ secrets.SERVICE_ACCOUNT_BASE64 }}" | base64 -d > service_account.json
 
-      - name: Restore service_account.json
-        run: echo "${{ secrets.SERVICE_ACCOUNT_BASE64 }}" | base64 -d > service_account.json
+    - name: Build AAB
+      run: bash gradlew bundleRelease
 
-      - name: Set up License Key
-        run: echo LICENSE_KEY="${{ secrets.LICENSE_KEY }}" > local.properties
+    - name: Build APK
+      run: bash gradlew assembleRelease
 
-      - name: Build AAB
-        run: bash gradlew bundleRelease
+    - name: Move AAB and APK
+      run: |
+        mkdir -v build && cd $_
+        mv -v ../app/build/outputs/bundle/release/*.aab delta.aab
+        mv -v ../app/build/outputs/apk/release/*.apk delta.apk
 
-      - name: Build APK
-        run: bash gradlew assembleRelease
+    - name: Sign AAB and APK
+      uses: r0adkll/sign-android-release@v1
+      with:
+        releaseDirectory: build
+        signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
+        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
+        keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
+        alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
 
-      - name: Move AAB and APK
-        run: |
-          mkdir -v build && cd $_
-          mv -v ../app/build/outputs/bundle/release/*.aab delta.aab
-          mv -v ../app/build/outputs/apk/release/*.apk delta.apk
+    - name: Rename AAB and APK
+      run: |
+        mv -v build/*.aab ${{ env.FILENAME }}.aab
+        mv -v build/*.apk ${{ env.FILENAME }}.apk
 
-      - name: Sign AAB and APK
-        uses: r0adkll/sign-android-release@v1
-        with:
-          releaseDirectory: build
-          signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
-          keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
-          keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
-          alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
+    - name: Upload APK in Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.FILENAME }}
+        path: ${{ env.FILENAME }}.apk
+        retention-days: 30
 
-      - name: Rename AAB and APK
-        run: |
-          cd build
-          mv -v delta.aab ../${{ env.FILENAME }}.aab
-          mv -v delta-signed.apk ../${{ env.FILENAME }}.apk
+    - name: Create a GitHub pre-release
+      uses: softprops/action-gh-release@v1
+      with:
+        prerelease: true
+        files: ${{ env.FILENAME }}.apk
+        name: ${{ env.VERSION }}
+        tag_name: ${{ env.VERSION }}
+        body_path: changelog/whatsnew-en-US
 
-      - name: Upload APK in artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: delta-${{ env.VERSION }}
-          path: delta-${{ env.VERSION }}.apk
-          retention-days: 30
-
-      - name: Create pre-release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: delta-${{ env.VERSION }}.apk
-          prerelease: true
-          name: ${{ env.VERSION }}
-          tag_name: ${{ env.VERSION }}
-          body_path: changelog/whatsnew-en-US
-
-      - name: Publish in Google Play
-        uses: r0adkll/upload-google-play@v1.0.15
-        with:
-          serviceAccountJson: service_account.json
-          packageName: website.leifs.delta
-          releaseFiles: ${{ env.FILENAME }}.aab
-          track: beta
-          mappingFile: app/build/outputs/mapping/release/mapping.txt
-          whatsNewDirectory: changelog
-          inAppUpdatePriority: 5
+    - name: Publish a pre-release to Google Play
+      uses: r0adkll/upload-google-play@v1.0.15
+      with:
+        track: beta
+        releaseFiles: ${{ env.FILENAME }}.aab
+        serviceAccountJson: service_account.json
+        packageName: website.leifs.delta
+        mappingFile: app/build/outputs/mapping/release/mapping.txt
+        whatsNewDirectory: changelog
+        inAppUpdatePriority: 5

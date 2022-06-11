@@ -1,8 +1,6 @@
 name: 'Release'
 
 on:
-  # push:
-  #   branches: master
   workflow_dispatch:
 
 jobs:
@@ -10,85 +8,83 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout
-        uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
 
-      - name: Set variables
-        run: |
-          VERSION=v$(grep 'versionName ' app/build.gradle | awk '{print $2}' | sed 's|\"||g; s|\r$||g')
-          FILENAME=delta-$VERSION
-          echo "FILENAME=$FILENAME" >> $GITHUB_ENV
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
+    - name: Set up JDK
+      uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 17
 
-      - name: Create changelog
-        run: |
-          mkdir -v changelog
-          cat << EOF > changelog/whatsnew-en-US
-          $(grep '^ *<item>' app/src/main/res/values/changelog.xml | sed -r 's|<[^>]*>(]]>)?||g; s|^ *|- |g')
-          EOF
+    - name: Set up version variable
+      run: |
+        VERSION=v$(grep 'versionName ' app/build.gradle | awk '{print $2}' | sed 's|\"||g; s|\r$||g')
+        FILENAME=delta-$VERSION
+        echo "FILENAME=$FILENAME" >> $GITHUB_ENV
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      - name: Set up JDK
-        uses: actions/setup-java@v3
-        with:
-          distribution: temurin
-          java-version: 17
+    - name: Create changelog
+      run: |
+        mkdir -v changelog && cd $_
+        cat << EOF > whatsnew-en-US
+        $(grep '^ *<item>' ../app/src/main/res/values/changelog.xml | sed -r 's|<[^>]*>(]]>)?||g; s|^ *|- |g')
+        EOF
 
-      - name: Restore service_account.json
-        run: echo "${{ secrets.SERVICE_ACCOUNT_BASE64 }}" | base64 -d > service_account.json
+    - name: Restore the license key
+      run: echo LICENSE_KEY="${{ secrets.LICENSE_KEY }}" > local.properties
 
-      - name: Set up license key
-        run: echo LICENSE_KEY="${{ secrets.LICENSE_KEY }}" > local.properties
+    - name: Restore the service account
+      run: echo "${{ secrets.SERVICE_ACCOUNT_BASE64 }}" | base64 -d > service_account.json
 
-      - name: Build AAB
-        run: bash gradlew bundleRelease
+    - name: Build AAB
+      run: bash gradlew bundleRelease
 
-      - name: Build APK
-        run: bash gradlew assembleRelease
+    - name: Build APK
+      run: bash gradlew assembleRelease
 
-      - name: Move AAB and APK
-        run: |
-          mkdir -v build && cd $_
-          mv -v ../app/build/outputs/bundle/release/*.aab delta.aab
-          mv -v ../app/build/outputs/apk/release/*.apk delta.apk
+    - name: Move AAB and APK
+      run: |
+        mkdir -v build && cd $_
+        mv -v ../app/build/outputs/bundle/release/*.aab delta.aab
+        mv -v ../app/build/outputs/apk/release/*.apk delta.apk
 
-      - name: Sign AAB and APK
-        uses: r0adkll/sign-android-release@v1
-        with:
-          releaseDirectory: build
-          signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
-          keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
-          keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
-          alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
+    - name: Sign AAB and APK
+      uses: r0adkll/sign-android-release@v1
+      with:
+        releaseDirectory: build
+        signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
+        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
+        keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
+        alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
 
-      - name: Rename AAB and APK
-        run: |
-          cd build
-          mv -v delta.aab ../${{ env.FILENAME }}.aab
-          mv -v delta-signed.apk ../${{ env.FILENAME }}.apk
+    - name: Rename AAB and APK
+      run: |
+        mv -v build/*.aab ${{ env.FILENAME }}.aab
+        mv -v build/*.apk ${{ env.FILENAME }}.apk
 
-      - name: Upload APK in artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: ${{ env.FILENAME }}
-          path: ${{ env.FILENAME }}.apk
-          retention-days: 30
+    - name: Upload APK in Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.FILENAME }}
+        path: ${{ env.FILENAME }}.apk
+        retention-days: 30
 
-      - name: Create release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: ${{ env.FILENAME }}.apk
-          name: ${{ env.VERSION }}
-          tag_name: ${{ env.VERSION }}
-          body_path: changelog/whatsnew-en-US
+    - name: Create a GitHub release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: ${{ env.FILENAME }}.apk
+        name: ${{ env.VERSION }}
+        tag_name: ${{ env.VERSION }}
+        body_path: changelog/whatsnew-en-US
 
-      - name: Publish in Google Play
-        uses: r0adkll/upload-google-play@v1.0.15
-        continue-on-error: true
-        with:
-          serviceAccountJson: service_account.json
-          packageName: website.leifs.delta
-          releaseFiles: ${{ env.FILENAME }}.aab
-          track: production
-          mappingFile: app/build/outputs/mapping/release/mapping.txt
-          whatsNewDirectory: changelog
-          inAppUpdatePriority: 5
+    - name: Publish a release to Google Play
+      uses: r0adkll/upload-google-play@v1.0.15
+      with:
+        track: production
+        releaseFiles: ${{ env.FILENAME }}.aab
+        serviceAccountJson: service_account.json
+        packageName: website.leifs.delta
+        mappingFile: app/build/outputs/mapping/release/mapping.txt
+        whatsNewDirectory: changelog
+        inAppUpdatePriority: 5
