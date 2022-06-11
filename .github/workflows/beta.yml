@@ -91,8 +91,9 @@ jobs:
 
     - name: Rename AAB and APK
       run: |
-        mv -v build/*.aab ${{ env.FILENAME }}.aab
-        mv -v build/*.apk ${{ env.FILENAME }}.apk
+        cd build
+        mv -v build/delta.aab ../${{ env.FILENAME }}.aab
+        mv -v build/delta-signed.apk ../${{ env.FILENAME }}.apk
 
     - name: Upload APK in Artifacts
       uses: actions/upload-artifact@v3
