@@ -43,9 +43,10 @@ jobs:
           AMOUNT=$(sed -n '/category title="New"/,/category title="Google"/p' app/src/main/res/xml/drawable.xml | grep 'item name' | wc -l)
           echo "AMOUNT=$AMOUNT" >> $GITHUB_ENV
 
-      - name: Create GitHub changelog
+      - name: Create GitHub & Google Play changelog
         run: |
-          cat << EOF > changelog.md
+          mkdir -v changelog
+          cat << EOF > changelog/whatsnew-en-US
           - ${{ env.AMOUNT }} new icons
           - Full changelog will be published upon release!
           EOF
@@ -69,23 +70,38 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      - name: Restore service_account.json
+        run: echo "${{ secrets.SERVICE_ACCOUNT_BASE64 }}" | base64 -d > service_account.json
+
       - name: Set up License Key
         run: echo LICENSE_KEY="${{ secrets.LICENSE_KEY }}" > local.properties
+
+      - name: Build AAB
+        run: bash gradlew bundleRelease
 
       - name: Build APK
         run: bash gradlew assembleRelease
 
-      - name: Sign APK
+      - name: Move AAB and APK
+        run: |
+          mkdir -v build && cd $_
+          mv -v ../app/build/outputs/bundle/release/*.aab delta.aab
+          mv -v ../app/build/outputs/apk/release/*.apk delta.apk
+
+      - name: Sign AAB and APK
         uses: r0adkll/sign-android-release@v1
         with:
-          releaseDirectory: app/build/outputs/apk/release
+          releaseDirectory: build
           signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
           keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
           keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
           alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
 
-      - name: Rename APK
-        run: mv -v ${{ env.SIGNED_RELEASE_FILE }} delta-${{ env.VERSION }}.apk
+      - name: Rename AAB and APK
+        run: |
+          cd build
+          mv -v delta.aab ../${{ env.FILENAME }}.aab
+          mv -v delta-signed.apk ../${{ env.FILENAME }}.apk
 
       - name: Upload APK in artifacts
         uses: actions/upload-artifact@v3
@@ -101,4 +117,15 @@ jobs:
           prerelease: true
           name: ${{ env.VERSION }}
           tag_name: ${{ env.VERSION }}
-          body_path: changelog.md
+          body_path: changelog/whatsnew-en-US
+
+      - name: Publish in Google Play
+        uses: r0adkll/upload-google-play@v1.0.15
+        with:
+          serviceAccountJson: service_account.json
+          packageName: website.leifs.delta
+          releaseFiles: ${{ env.FILENAME }}.aab
+          track: beta
+          mappingFile: app/build/outputs/mapping/release/mapping.txt
+          whatsNewDirectory: changelog
+          inAppUpdatePriority: 5
