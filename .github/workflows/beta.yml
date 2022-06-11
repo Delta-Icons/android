@@ -38,7 +38,7 @@ jobs:
         if [[ $LATEST_VERSION != *"beta"* ]]; then NEXT_VERSION=$(semver $LATEST_VERSION bug)
         else NEXT_VERSION=$LATEST_VERSION; fi
         VERSION_NAME=$(semver $NEXT_VERSION beta)
-        VERSION_CODE=$(echo $VERSION_NAME | sed 's|-.*||; s|\.||g')
+        VERSION_CODE=$(echo $VERSION_NAME | tr -dc '0-9')
         sed -i "s|versionName .*|versionName \"$VERSION_NAME\"|; s|versionCode .*|versionCode $VERSION_CODE|" app/build.gradle
         echo "VERSION=v$VERSION_NAME" >> $GITHUB_ENV
         echo "FILENAME=delta-v$VERSION_NAME" >> $GITHUB_ENV
