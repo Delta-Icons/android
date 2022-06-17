@@ -101,7 +101,7 @@
 
     <!-- Enables the new flat and outline styled cards everywhere -->
     <!-- Crashes Delta when true so disabling this for now -wokija -->
-    <bool name="use_flat_card">false</bool>
+    <bool name="use_flat_card">true</bool>
 
 
     <!--
@@ -134,7 +134,7 @@
         CONFIG: ICONS
     -->
     <!-- Enable/disable icons sorting
-        Disabling this will improve performance and icons will load faster (because there is no sorting to do) 
+        Disabling this will improve performance and icons will load faster (because there is no sorting to do)
 
         Switched to false, sorting done inside drawable XML files instead -wokija  -->
     <bool name="enable_icons_sort">false</bool>
