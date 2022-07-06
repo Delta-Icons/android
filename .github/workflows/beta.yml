@@ -45,7 +45,7 @@ jobs:
 
     - name: Create changelog
       run: |
-        AMOUNT=$(sed -n '/category title="New"/,/category title="Google"/p' app/src/main/res/xml/drawable.xml | grep 'item drawable' | wc -l)
+        AMOUNT=$(sed -n '/category title="New"/,/category title="Google"/p' app/src/main/res/xml/drawable.xml | grep '<item' | wc -l)
         mkdir -v changelog && cd $_
         cat << EOF > whatsnew-en-US
         - $AMOUNT new icons
