@@ -3,7 +3,7 @@ In case you want to contribute to Delta by providing icons please do so by creat
 - Vectors (SVG, EPS, PDF, ...) go to the `contributed-vectors` folder 
 	-  Please keep filenames in lowercase alphabet with underscores
 - 192 * 192 pixel PNG file `icon_name.png` goes to `app/src/main/res/drawable-nodpi`
-- Name of the icon in these files, in this format `<item drawable="icon_name" />` (Add a duplicate line inside `New` Category)
+- Name of the icon in these files, in this format `<item drawable="icon_name" />` in its respective category as well as a duplicate line inside `New` Category to show latest icons to users:
 	- `app/src/main/assets/drawable.xml` 
 	- `app/src/main/res/xml/drawable.xml`
 - ComponentInfo has to be in the following files according to their format (At the end preferably for readability purpose):
