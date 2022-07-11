@@ -10,7 +10,7 @@ In case you want to contribute to Delta by providing icons please do so by creat
 	- `app/src/main/assets/appfilter.xml`
 	- `app/src/main/res/xml/appfilter.xml`
 	- ~~`app/src/main/res/xml/appmap.xml`~~ - Dropped support as of March 2021
-	- `app/src/main/res/xml/theme_resources.xml`
+	- ~~`app/src/main/res/xml/theme_resources.xml`~~ - Dropped support as of July 2022
 - Give yourself an entry at the bottom of `app/src/main/res/xml/contributors.xml`
 
 ## Resources for Contributions
