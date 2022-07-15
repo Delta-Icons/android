@@ -1645,6 +1645,7 @@
 	<item component="ComponentInfo{com.coloros.soundrecorder/oppo.multimedia.soundrecorder.filebrowser.BrowseFile}" drawable="sound_recorder" />
 	<item component="ComponentInfo{com.coloros.soundrecorder/oppo.multimedia.soundrecorder.RecorderActivity}" drawable="sound_recorder" />
 	<item component="ComponentInfo{com.coloros.video/com.oplus.video.SplashActivity}" drawable="video" />
+	<item component="ComponentInfo{com.coloros.video/com.oplus.video.ui.VideoListActivity}" drawable="video" />
 	<item component="ComponentInfo{com.coloros.video/com.oplus.video.VideoListActivity}" drawable="video" />
 	<item component="ComponentInfo{com.coloros.video/com.oppo.video.SplashActivity}" drawable="video" />
 	<item component="ComponentInfo{com.coloros.video/com.oppo.video.VideoListActivity}" drawable="video" />
@@ -4074,6 +4075,7 @@
 	<item component="ComponentInfo{com.nianticproject.ingress/com.nianticproject.ingress.IngressActivity}" drawable="ingress" />
 	<item component="ComponentInfo{com.nianticproject.ingress/com.nianticproject.ingress.NemesisActivity}" drawable="ingress" />
 	<item component="ComponentInfo{com.nic.mparivahan/com.nic.mparivahan.activity.SplashActivity}" drawable="mparivahan" />
+	<item component="ComponentInfo{com.nic.mparivahan/com.nic.mparivahan.Welcome.SplashScreen}" drawable="mparivahan" />
 	<item component="ComponentInfo{com.nicehash.metallum/com.nicehash.metallum.ui.activity.SplashActivity}" drawable="nicehash" />
 	<item component="ComponentInfo{com.nicolasbrailo.vlcfreemote/com.nicolasbrailo.vlcfreemote.MainActivity}" drawable="vlcfreemote" />
 	<item component="ComponentInfo{com.nike.ntc/com.nike.ntc.onboarding.OnboardingSplashActivity}" drawable="nike_training_club" />
@@ -4928,6 +4930,7 @@
 	<item component="ComponentInfo{com.simplecity.shuttle/com.simplecity.amp_library.ui.activities.SplashActivity}" drawable="shuttle" />
 	<item component="ComponentInfo{com.simplehabit.simplehabitapp/com.simplehabit.simplehabitapp.ui.auth.splash.SplashActivity}" drawable="simple_habit" />
 	<item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity.Orange}" drawable="simple_calculator" />
+	<item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity.Green}" drawable="simple_calculator_green" />
 	<item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Amber}" drawable="calendar_orange" />
 	<item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue_grey}" drawable="calendar_blue" />
 	<item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue}" drawable="calendar_blue" />
@@ -7143,6 +7146,7 @@
 	<item component="ComponentInfo{nebbiakwgt.kustom.pack/org.kustom.api.dashboard.DashboardActivity}" drawable="nebbia_kwgt" />
 	<item component="ComponentInfo{nebbiaprokwgt.kustom.pack/org.kustom.api.dashboard.DashboardActivity}" drawable="nebbia_pro_kwgt" />
 	<item component="ComponentInfo{nekox.messenger/org.telegram.ui.LaunchActivity}" drawable="nekogramx" />
+	<item component="ComponentInfo{nekox.messenger/org.telegram.messenger.DefaultIcon}" drawable="nekogramx" />
 	<item component="ComponentInfo{net.activitywatch.android/net.activitywatch.android.MainActivity}" drawable="activitywatch" />
 	<item component="ComponentInfo{net.aljazeera.english/net.aljazeera.english.activity.SplashScreenActivity}" drawable="aljazeera" />
 	<item component="ComponentInfo{net.ays.PROD585754/net.ays.PROD585754.AralStakemeierLippstadt}" drawable="aral" />
@@ -8143,6 +8147,7 @@
 	<item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.SplashActivity}" drawable="delta" />
 	<item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.StartActivity}" drawable="delta" />
 	<item component="ComponentInfo{widget.dd.com.overdrop.free/widget.dd.com.overdrop.activity.SplashScreenActivity}" drawable="overdrop" />
+	<item component="ComponentInfo{widget.dd.com.overdrop.free/widget.dd.com.overdrop.free.alias.DefaultIconAlias}" drawable="overdrop" />
 	<item component="ComponentInfo{wiktoria.goroch.bible_kjva.AOUSFCKLLRSGYXYC/king.james.bible.android.activity.LaunchActivity}" drawable="bible" />
 	<item component="ComponentInfo{wit.android.bcpBankingApp.activoBank/wit.android.bcpBankingApp.ui.activities.SplashScreenActivity}" drawable="bank" />
 	<item component="ComponentInfo{wit.android.bcpBankingApp.millennium/wit.android.bcpBankingApp.ui.activities.SplashScreenActivity}" drawable="bank" />
@@ -8198,4 +8203,8 @@
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
 	<item component="ComponentInfo{es.unicajabanco.app/es.univia.unicajamovil.core.views.activities.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.msf.kbank.mobile/com.msf.kbank.mobile.launcher_d5e15a74df3d33e17b26d16a879646bfef34a86881463b2b8442d76af1f6f1f4}" drawable="bank" />
+	<item component="ComponentInfo{rc.appradio.android/com.radiocanada.audio.ui.main.DeepLinkActivity}" drawable="radio_canada_ohdio" />
+	<item component="ComponentInfo{com.nothing.camera/com.nothing.camera.activity.CameraActivity}" drawable="camera" />
+	<item component="ComponentInfo{com.chinatrust.mobilebank/com.chinatrust.mobilebank.MainActivity}" drawable="bank" />
 </resources>
