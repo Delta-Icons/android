@@ -3585,6 +3585,7 @@
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.black_round}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.classic}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.rounded_play_inverted_mu}" drawable="poweramp_inverted" />
+	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.white_round}" drawable="poweramp_inverted" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.round}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.standard_adaptive}" drawable="poweramp" />
 	<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.StartupActivity}" drawable="poweramp" />
@@ -5817,6 +5818,7 @@
 	<item component="ComponentInfo{com.uniqlo.ru.catalogue/com.uniqlo.ru.catalogue.activity.WelcomeActivity}" drawable="uniqlo" />
 	<item component="ComponentInfo{com.uniqlo.tw.catalogue/com.uniqlo.ja.catalogue.MainActivity}" drawable="uniqlo" />
 	<item component="ComponentInfo{com.uniqlo.usa.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.HomeActivity}" drawable="uniqlo" />
+	<item component="ComponentInfo{com.uniqlo.fr.catalogue/com.uniqlo.ja.catalogue.MainActivity}" drawable="uniqlo" />
 	<item component="ComponentInfo{com.united.mobile.android/com.united.mobile.android.SplashScreen}" drawable="united_airlines" />
 	<item component="ComponentInfo{com.united.mobile.android/com.united.mobile.android.ui.splash.SplashActivity}" drawable="united_airlines" />
 	<item component="ComponentInfo{com.universallauncher.universallauncher/com.android.launcher3.Launcher}" drawable="flick_launcher" />
@@ -7581,8 +7583,8 @@
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.AquaIcon}" drawable="telegram" />
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram" />
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" />
-	<item component="ComponentInfo{org.telegram.plus/org.telegram.messenger.DefaultIcon}" drawable="plus" />
-	<item component="ComponentInfo{org.telegram.plus/org.telegram.ui.LaunchActivity}" drawable="plus" />
+	<item component="ComponentInfo{org.telegram.plus/org.telegram.messenger.DefaultIcon}" drawable="messenger_plus" />
+	<item component="ComponentInfo{org.telegram.plus/org.telegram.ui.LaunchActivity}" drawable="messenger_plus" />
 	<item component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity}" drawable="signal" />
 	<item component="ComponentInfo{org.thunderdog.challegram/org.thunderdog.challegram.MainActivity}" drawable="telegram_x" />
 	<item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotMainActivity}" drawable="orbot" />
@@ -8215,5 +8217,9 @@
 	<item component="ComponentInfo{com.chinatrust.mobilebank/com.chinatrust.mobilebank.MainActivity}" drawable="bank" />
 	<item component="ComponentInfo{ru.yoo.money/ru.yoo.money.entryPoint.presentation.EntryPointActivity}" drawable="yoomoney" />
 	<item component="ComponentInfo{de.moekadu.tuner/de.moekadu.tuner.MainActivity}" drawable="tuner" />
-	<item component="ComponentInfo{com.simplemobiletools.applauncher/com.simplemobiletools.applauncher.activities.SplashActivity.Orange}" drawable="simple_app_launcher" />
+	<item component="ComponentInfo{com.ifs.androidmobilebanking.fiid3331/com.banking.bankinglibrary.activities.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.youdao.note/com.youdao.note.activity2.SplashActivity}" drawable="quickmemo" />
+	<item component="ComponentInfo{com.nll.cb/com.nll.cb.DefaultAlias}" drawable="phone_alt_eight" />
+	<item component="ComponentInfo{org.telegram.plus/org.telegram.messenger.TurboIcon}" drawable="messenger_plus_turbo" />
+	<item component="ComponentInfo{com.ecoledirecte.edmobile/com.ecoledirecte.edmobile.MainActivity}" drawable="ecoledirecte" />
 </resources>
