@@ -867,7 +867,7 @@
 	<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="downloads" />
 	<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadsListTab}" drawable="downloads" />
 	<item component="ComponentInfo{com.android.providers.downloads/com.android.providers.downloads.ui.DownloadList}" drawable="downloads" />
-	<item component="ComponentInfo{com.android.quicksearchbox/com.android.quicksearchbox.SearchActivity}" drawable="miui_quick_search" />
+	<item component="ComponentInfo{com.android.quicksearchbox/com.android.quicksearchbox.SearchActivity}" drawable="xiaomi_search" />
 	<item component="ComponentInfo{com.android.samsung.utilityapp/com.android.samsung.utilityapp.app.presentation.welcomepage.WelcomeActivity}" drawable="samsung_galaxy_labs" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.dual.DualManagerAppActivity}" drawable="settings" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.framework.activity.HtcSettings}" drawable="settings" />
@@ -3810,7 +3810,7 @@
 	<item component="ComponentInfo{com.mittorn.virgloverlay/com.mittorn.virgloverlay.MainActivity}" drawable="virgl" />
 	<item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.CalculatorActivity}" drawable="calculator" />
 	<item component="ComponentInfo{com.miui.compass/com.miui.compass.CompassActivity}" drawable="compass" />
-	<item component="ComponentInfo{com.miui.enbbs/com.miui.miuibbs.activity.WelcomeActivity}" drawable="miui_forum" />
+	<item component="ComponentInfo{com.miui.enbbs/com.miui.miuibbs.activity.WelcomeActivity}" drawable="xiaomi_miui_forum" />
 	<item component="ComponentInfo{com.miui.fm/com.miui.fmradio.FmActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.miui.fm/com.miui.fmradio.FmRadioActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.miui.gallery/com.miui.gallery.activity.HomePageActivity}" drawable="gallery" />
@@ -3821,7 +3821,7 @@
 	<item component="ComponentInfo{com.miui.player/com.miui.player.home.LauncherActivity}" drawable="music" />
 	<item component="ComponentInfo{com.miui.player/com.miui.player.ui.MusicBrowserActivity}" drawable="music" />
 	<item component="ComponentInfo{com.miui.playerlite/com.miui.player.ui.MusicBrowserActivity}" drawable="music" />
-	<item component="ComponentInfo{com.miui.screenrecorder/com.miui.screenrecorder.activity.ScreenRecorderHomeActivity}" drawable="miui_screen_recorder" />
+	<item component="ComponentInfo{com.miui.screenrecorder/com.miui.screenrecorder.activity.ScreenRecorderHomeActivity}" drawable="xiaomi_screen_recorder" />
 	<item component="ComponentInfo{com.miui.securitycenter/com.miui.securityscan.MainActivity}" drawable="mi_security" />
 	<item component="ComponentInfo{com.miui.video/com.miui.video.HomeActivity}" drawable="video" />
 	<item component="ComponentInfo{com.miui.videoplayer/com.miui.video.global.app.LauncherActivity}" drawable="sony_video" />
@@ -8273,4 +8273,5 @@
 	<item component="ComponentInfo{com.drhowdydoo.meminfo/com.drhowdydoo.meminfo.MainActivity}" drawable="meminfo" />
 	<item component="ComponentInfo{com.podverse/com.podverse.MainActivity}" drawable="podverse" />
 	<item component="ComponentInfo{com.podverse.fdroid/com.podverse.fdroid.MainActivity}" drawable="podverse" /
+	<item component="ComponentInfo{com.miui.bugreport/com.miui.bugreport.ui.MainTabActivity}" drawable="mi_feedback" /
 </resources>
