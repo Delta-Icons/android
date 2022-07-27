@@ -27,18 +27,30 @@ jobs:
 
     - name: Bump version
       run: |
-        SCRIPT=https://raw.githubusercontent.com/christian-draeger/increment-semantic-version/c04c50b6ca32272b43e9693183f65dd65121a743/entrypoint.sh
-        source <(cat << EOF
-        semver() {
-          $(curl -s $SCRIPT | sed -n '/^main() {$/,/esac$/p' | sed '1d')
-          $(echo 'echo ${major}.${minor}.${patch}${pre}'); }
+        cat << EOF > bump.py
+        import re
+        latest_version = '${{ steps.latest_version.outputs.tag_name }}'
+        if 'beta' in latest_version:
+          base_version = re.sub('-beta.*$', '', latest_version)
+          beta_version = str(int(re.sub('^.*-beta', '', latest_version)) + 1)
+        else:
+          base_version = latest_version
+          beta_version = '0'
+          base_version = list(map(int, base_version.split('.')))
+          base_version[2] += 1
+          for n in range(2):
+            if base_version[2-n] > 9:
+            base_version[2-n] = 0
+            base_version[1-n] += 1
+          base_version = '.'.join(str(x) for x in base_version)
+        version_code = base_version.replace('.', '') + beta_version.rjust(3, '0')
+        version_name = base_version + '-beta' + beta_version
+        print(f'''\
+        VERSION_CODE={version_code}
+        VERSION_NAME={version_name}\
+        ''')
         EOF
-        )
-        LATEST_VERSION=$(echo ${{ steps.latest_version.outputs.tag_name }} | sed -r 's|v\.?||')
-        if [[ $LATEST_VERSION != *"beta"* ]]; then NEXT_VERSION=$(semver $LATEST_VERSION bug)
-        else NEXT_VERSION=$LATEST_VERSION; fi
-        VERSION_NAME=$(semver $NEXT_VERSION beta)
-        VERSION_CODE=$(echo $VERSION_NAME | tr -dc '0-9')
+        eval $(python3 bump.py)
         sed -i "s|versionName .*|versionName \"$VERSION_NAME\"|; s|versionCode .*|versionCode $VERSION_CODE|" app/build.gradle
         echo "VERSION=v$VERSION_NAME" >> $GITHUB_ENV
         echo "FILENAME=delta-v$VERSION_NAME" >> $GITHUB_ENV
