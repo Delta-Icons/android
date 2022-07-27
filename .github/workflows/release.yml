@@ -20,7 +20,7 @@ jobs:
     - name: Set up version variable
       run: |
         VERSION=v$(grep 'versionName ' app/build.gradle | awk '{print $2}' | sed 's|\"||g; s|\r$||g')
-        FILENAME=delta-$VERSION
+        FILENAME=delta-v$VERSION
         echo "FILENAME=$FILENAME" >> $GITHUB_ENV
         echo "VERSION=$VERSION" >> $GITHUB_ENV
 
