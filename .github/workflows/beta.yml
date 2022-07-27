@@ -40,8 +40,8 @@ jobs:
           base_version[2] += 1
           for n in range(2):
             if base_version[2-n] > 9:
-            base_version[2-n] = 0
-            base_version[1-n] += 1
+              base_version[2-n] = 0
+              base_version[1-n] += 1
           base_version = '.'.join(str(x) for x in base_version)
         version_code = base_version.replace('.', '') + beta_version.rjust(3, '0')
         version_name = base_version + '-beta' + beta_version
