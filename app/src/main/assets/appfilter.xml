@@ -317,6 +317,7 @@
 	<item component="ComponentInfo{br.com.eventim.mobile.app.Android/mobile.app.Android.activity.StartupActivity}" drawable="eventim" />
 	<item component="ComponentInfo{br.com.gabba.Caixa/br.com.gabba.Caixa.SplashActivity}" drawable="caixa" />
 	<item component="ComponentInfo{br.com.intermedium/br.com.intermedium.splash.SplashActivity}" drawable="banco_inter" />
+	<item component="ComponentInfo{br.com.meupag/br.com.p20.splash.SplashScreenActivity}" drawable="bank" />
 	<item component="ComponentInfo{br.com.neon/br.com.neon.features.login.ui.activities.HomeOnboardingActivity}" drawable="neon" />
 	<item component="ComponentInfo{br.com.original.bank/br.com.original.bank.view.activity.Home}" drawable="bank" />
 	<item component="ComponentInfo{br.com.sicredimobi.smart/br.com.sicredimobi.smart.sicredimobi}" drawable="sicredi" />
@@ -4799,6 +4800,8 @@
 	<item component="ComponentInfo{com.samruston.weather/com.samruston.weather.MainActivity}" drawable="weather_timeline" />
 	<item component="ComponentInfo{com.samruston.weather/com.samruston.weather.ui.MainActivity}" drawable="weather_timeline" />
 	<item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="contacts" />
+	<item component="ComponentInfo{com.samsung.android.app.galaxyfinder/com.samsung.android.app.galaxyfinder.GalaxyFinderMainLauncher}" drawable="samsung_finder" />
+	<item component="ComponentInfo{com.samsung.android.app.galaxyraw/com.samsung.android.app.galaxyraw.GalaxyRaw}" drawable="samsung_expert_raw" />
 	<item component="ComponentInfo{com.samsung.android.app.memo/com.samsung.android.app.memo.Main}" drawable="quickmemo" />
 	<item component="ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity}" drawable="samsung_notes" />
 	<item component="ComponentInfo{com.samsung.android.app.reminder/com.samsung.android.app.reminder.ui.LaunchMainActivity}" drawable="samsung_reminder" />
@@ -4844,6 +4847,7 @@
 	<item component="ComponentInfo{com.samsung.android.soundassistant/com.sec.android.soundassistant.activities.MainActivity}" drawable="samsung_soundassistant" />
 	<item component="ComponentInfo{com.samsung.android.spay/com.samsung.android.spay.ui.SpayMainActivity}" drawable="samsung_pay" />
 	<item component="ComponentInfo{com.samsung.android.spdfnote/spdfnote.control.ui.filemanager.MainHomeActivity}" drawable="write_on_pdf" />
+	<item component="ComponentInfo{com.samsung.android.themedesigner/com.samsung.android.themedesigner.SplashActivity}" drawable="samsung_theme_park" />
 	<item component="ComponentInfo{com.samsung.android.themestore/com.samsung.android.themestore.activity.Launcher}" drawable="samsung_galaxy_themes" />
 	<item component="ComponentInfo{com.samsung.android.video/com.samsung.android.video.list.activity.VideoList}" drawable="samsung_video" />
 	<item component="ComponentInfo{com.samsung.android.videolist/com.samsung.android.videolist.list.activity.VideoList}" drawable="samsung_video" />
@@ -7804,6 +7808,7 @@
 	<item component="ComponentInfo{pe.com.scotiabank.blpm.android.client/pe.com.scotiabank.blpm.android.client.cams.splash.SplashActivity}" drawable="scotiabank" />
 	<item component="ComponentInfo{pedometer.steptracker.calorieburner.stepcounter/steptracker.stepcounter.pedometer.activity.SplashActivity}" drawable="step_counter" />
 	<item component="ComponentInfo{period.tracker.calendar.ovulation.women.fertility.cycle/period.tracker.calendar.ovulation.women.fertility.cycle.ui.splash.SplashActivity}" drawable="period_calendar" />
+	<item component="ComponentInfo{ph.com.globe.globeonesuperapp/ph.com.globe.globeonesuperapp.BaseActivity}" drawable="globeone" />
 	<item component="ComponentInfo{ph.com.metrobank.metrobankdirectmobile/ph.com.metrobank.metrobankdirectmobile.MainActivity}" drawable="bank" />
 	<item component="ComponentInfo{ph.gomo.gomoph/ph.gomo.gomoph.MainActivity}" drawable="gomo_ph" />
 	<item component="ComponentInfo{ph.spacedesk.beta/ph.spacedesk.httpwww.spacedesk.SAActivityConnect}" drawable="spacedesk" />
@@ -8372,8 +8377,4 @@
 	<item component="ComponentInfo{za.com.mrp/za.com.mrp.activity.StoreActivity}" drawable="mrp_fashion" />
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
-	<item component="ComponentInfo{ph.com.globe.globeonesuperapp/ph.com.globe.globeonesuperapp.BaseActivity}" drawable="globeone" />
-	<item component="ComponentInfo{com.samsung.android.app.galaxyraw/com.samsung.android.app.galaxyraw.GalaxyRaw}" drawable="samsung_expert_raw" />
-	<item component="ComponentInfo{com.samsung.android.app.galaxyfinder/com.samsung.android.app.galaxyfinder.GalaxyFinderMainLauncher}" drawable="samsung_finder" />
-	<item component="ComponentInfo{com.samsung.android.themedesigner/com.samsung.android.themedesigner.SplashActivity}" drawable="samsung_theme_park" />
 </resources>
