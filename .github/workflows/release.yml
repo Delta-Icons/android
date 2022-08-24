@@ -20,7 +20,7 @@ jobs:
     - name: Set up version variable
       run: |
         VERSION=v$(grep 'versionName ' app/build.gradle | awk '{print $2}' | sed 's|\"||g; s|\r$||g')
-        FILENAME=delta-v$VERSION
+        FILENAME=delta-$VERSION
         echo "FILENAME=$FILENAME" >> $GITHUB_ENV
         echo "VERSION=$VERSION" >> $GITHUB_ENV
 
@@ -79,16 +79,16 @@ jobs:
         tag_name: ${{ env.VERSION }}
         body_path: changelog/whatsnew-en-US
 
-    - name: Publish a release to Google Play beta channel
-      uses: r0adkll/upload-google-play@v1.0.15
-      with:
-        track: beta
-        releaseFiles: ${{ env.FILENAME }}.aab
-        serviceAccountJson: service_account.json
-        packageName: website.leifs.delta
-        mappingFile: app/build/outputs/mapping/release/mapping.txt
-        whatsNewDirectory: changelog
-        inAppUpdatePriority: 5
+    # - name: Publish a release to Google Play beta channel
+    #   uses: r0adkll/upload-google-play@v1.0.15
+    #   with:
+    #     track: beta
+    #     releaseFiles: ${{ env.FILENAME }}.aab
+    #     serviceAccountJson: service_account.json
+    #     packageName: website.leifs.delta
+    #     mappingFile: app/build/outputs/mapping/release/mapping.txt
+    #     whatsNewDirectory: changelog
+    #     inAppUpdatePriority: 5
 
     - name: Publish a release to Google Play production channel
       uses: r0adkll/upload-google-play@v1.0.15
