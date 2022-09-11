@@ -179,13 +179,6 @@
         It needs the option "config_json" to be configured in order to work -->
     <bool name="json_check_before_request">false</bool>
 
-    <!-- Adds signature that the icon pack is installed from Play Store.
-        When enabled adds a PNG image (__r_icon.png) to icon request ZIP if the app is installed from Play Store.
-        Also the color of the signature icon would be different for every versionCode, it's there so that any user
-        won't be able to add the icon to the ZIP manually to fake that they installed the app from Play Store.
-        So, don't forget to check what color is the signature icon before releasing update of your icon pack. -->
-    <bool name="enable_ps_signature">false</bool>
-
     <!-- Enable or disable premium icon request
         In premium request, your users will purchase a premium request product (which you specify in the "License.java" file)
         Later they can use the premium request product to do premium icon request.
