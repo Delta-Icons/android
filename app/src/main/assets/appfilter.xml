@@ -2784,7 +2784,7 @@
 	<item component="ComponentInfo{com.google.android.apps.shopping.express/com.google.android.apps.shopping.express.activity.PreMainActivity}" drawable="google_express" />
 	<item component="ComponentInfo{com.google.android.apps.social.spaces/com.google.android.apps.social.spaces.HomeActivity}" drawable="google_spaces" />
 	<item component="ComponentInfo{com.google.android.apps.subscriptions.red/com.google.android.apps.subscriptions.red.LauncherActivity}" drawable="google_one" />
-	<item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivitySecondLauncher}" drawable="google_duo" />
+	<item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivitySecondLauncher}" drawable="google_meet" />
 	<item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}" drawable="google_duo" />
 	<item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}" drawable="google_tasks" />
 	<item component="ComponentInfo{com.google.android.apps.tips/com.google.android.apps.tips.TipsMain}" drawable="pixel_tips" />
@@ -8203,6 +8203,7 @@
 	<item component="ComponentInfo{org.zwanoo.android.speedtest/com.ookla.mobile4.screens.main.MainActivity}" drawable="speedtest" />
 	<item component="ComponentInfo{org.zwanoo.android.speedtest/com.ookla.mobile4.screens.wizard.GDPRWizardActivity}" drawable="speedtest" />
 	<item component="ComponentInfo{org.zwanoo.android.speedtest/com.ookla.speedtest.softfacade.MainActivity}" drawable="speedtest" />
+	<item component="ComponentInfo{com.msc.speedtest/com.tt.newspeed.screen.splash.SplashActivityNew}" drawable="speedtest" />
 	<item component="ComponentInfo{osmanonurkoc.papirus/osmanonurkoc.papirus.MainActivity}" drawable="papirus_adaptive" />
 	<item component="ComponentInfo{oss.krtirtho.spotube/com.ryanheise.audioservice.AudioServiceActivity}" drawable="spotube" />
 	<item component="ComponentInfo{ovo.id/ovo.id.auth_refactor.presentation.activity.StartingActivity}" drawable="ovo" />
@@ -8825,6 +8826,15 @@
 	<item component="ComponentInfo{com.github.cvzi.screenshottile/com.github.cvzi.screenshottile.activities.MainActivity}" drawable="screenshot_tile"/>
 	<item component="ComponentInfo{com.tomfong.simpleqr/com.tomfong.simpleqr.MainActivity}" drawable="simple_qr"/>
 	<item component="ComponentInfo{com.github.muellerma.coffee/com.github.muellerma.coffee.activities.MainActivity}" drawable="coffee"/>
+	<item component="ComponentInfo{com.gpn.azs/com.gpn.azs.main.MainActivity}" drawable="gazpromneft" />
+	<item component="ComponentInfo{ru.myauchan.droid/crc6459f82684e172cd40.StartActivity}" drawable="auchan" />
+	<item component="ComponentInfo{ru.chitaigorod.mobile/ru.handh.chitaigorod.ui.start.StartActivity}" drawable="chitai_gorod" />
+	<item component="ComponentInfo{com.dartit.RTcabinet/com.dartit.rtcabinet.ui.SplashActivity}" drawable="rostelecom" />
+	<item component="ComponentInfo{ru.rambler.mail/ru.rambler.mail.MainActivity}" drawable="rambler_mail" />
+	<item component="ComponentInfo{com.contentekb.edemrf/com.contentekb.edemrf.MainActivity}" drawable="edem_rf" />
+	<item component="ComponentInfo{com.housesigma.android/com.housesigma.android.MainActivity}" drawable="house_sigma"/>
+	<item component="ComponentInfo{com.sharkninja.shark/com.sharkninja.shark.v2.LaunchActivity}" drawable="shark_vacuum" />
+	<item component="ComponentInfo{com.thehomedepotca/com.thehomedepotca.app.splash.activity.SplashActivity}" drawable="the_home_depot" />
 	<item component="ComponentInfo{app.revanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music_revanced" />
 	<item component="ComponentInfo{com.feteps.projeto.aprendapython/com.feteps.projeto.aprendapython.MainActivity}" drawable="aprenda_python" />
 	<item component="ComponentInfo{com.bazoef.chessboard/com.bazoef.chessboard.activities.MainActivity}" drawable="chessboard" />
@@ -8841,25 +8851,6 @@
 	<item component="ComponentInfo{dk.bec.android.mb1.b00019.prod/dk.bec.android.mb1.b00019.prod.launcher_aecbe5b2d3743daea8dbf7dc111b970485c770ac4a3db8667dc8444bfe8277e7}" drawable="bank" />
 	<item component="ComponentInfo{com.bracbank.astha/com.bracbank.astha.MainActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.westalabamabank.mobile/nz.co.wc593afed.q43d2f697.habda356d.wc7c30f75}" drawable="bank" />
-	<item component="ComponentInfo{com.feteps.projeto.aprendapython/com.feteps.projeto.aprendapython.MainActivity}" drawable="aprenda_python" />
-	<item component="ComponentInfo{com.bazoef.chessboard/com.bazoef.chessboard.activities.MainActivity}" drawable="chessboard" />
-	<item component="ComponentInfo{it.feltrinelli/it.feltrinelli.ui.splash.SplashActivity}" drawable="feltrinelli" />
-	<item component="ComponentInfo{com.radiofrance.radio.franceinter.android/com.radiofrance.radio.franceinter.android.ui.activity.StarterActivity}" drawable="france_inter" />
-	<item component="ComponentInfo{com.codium.hydrocoach/com.codium.hydrocoach.ui.MainActivity}" drawable="hydro_coach" />
-	<item component="ComponentInfo{com.johnemulators.johngbc/com.johnemulators.common.RomListActivity}" drawable="john_gbc" />
-	<item component="ComponentInfo{com.nhn.android.nmap/com.naver.map.LaunchActivity}" drawable="naver_map" />
-	<item component="ComponentInfo{ussr.razar.youtube_dl/ussr.razar.youtube_dl.MainActivityEX}" drawable="powertube" />
-	<item component="ComponentInfo{io.github.krlvm.powertunnel.android/io.github.krlvm.powertunnel.android.activities.SplashActivity}" drawable="powertunnel" />
 	<item component="ComponentInfo{io.github.vvb2060.magisk/com.topjohnwu.magisk.ui.MainActivity}" drawable="magisk_manager" />
-	<item component="ComponentInfo{com.gpn.azs/com.gpn.azs.main.MainActivity}" drawable="gazpromneft" />
-	<item component="ComponentInfo{ru.myauchan.droid/crc6459f82684e172cd40.StartActivity}" drawable="auchan" />
-	<item component="ComponentInfo{ru.chitaigorod.mobile/ru.handh.chitaigorod.ui.start.StartActivity}" drawable="chitai_gorod" />
-	<item component="ComponentInfo{com.dartit.RTcabinet/com.dartit.rtcabinet.ui.SplashActivity}" drawable="rostelecom" />
-	<item component="ComponentInfo{ru.rambler.mail/ru.rambler.mail.MainActivity}" drawable="rambler_mail" />
-	<item component="ComponentInfo{com.contentekb.edemrf/com.contentekb.edemrf.MainActivity}" drawable="edem_rf" />
-	<item component="ComponentInfo{com.housesigma.android/com.housesigma.android.MainActivity}" drawable="house_sigma"/>
-	<item component="ComponentInfo{com.sharkninja.shark/com.sharkninja.shark.v2.LaunchActivity}" drawable="shark_vacuum" />
-	<item component="ComponentInfo{com.thehomedepotca/com.thehomedepotca.app.splash.activity.SplashActivity}" drawable="the_home_depot" />
-	<item component="ComponentInfo{com.msc.speedtest/com.tt.newspeed.screen.splash.SplashActivityNew}" drawable="speedtest" />
-	<item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivitySecondLauncher}" drawable="google_meet" />
+	<item component="ComponentInfo{com.amaze.fileutilities/com.amaze.fileutilities.home_page.MainActivity}" drawable="amaze_utilities" />
 </resources>
