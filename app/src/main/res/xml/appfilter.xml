@@ -183,8 +183,8 @@
 	<item component="ComponentInfo{app.organicmaps/com.mapswithme.maps.DownloadResourcesActivity}" drawable="organic_maps" />
 	<item component="ComponentInfo{app.qrcode/app.qrcode.MainActivity}" drawable="qr_code_reader" />
 	<item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube_revanced" />
-	<item component="ComponentInfo{app.revanced.manager.flutter/app.revanced.manager.flutter.MainActivity}" drawable="youtube_revanced"/>
-	<item component="ComponentInfo{app.revanced.manager/app.revanced.manager.MainActivity}" drawable="youtube_revanced"/>
+	<item component="ComponentInfo{app.revanced.manager.flutter/app.revanced.manager.flutter.MainActivity}" drawable="revanced_manager"/>
+	<item component="ComponentInfo{app.revanced.manager/app.revanced.manager.MainActivity}" drawable="revanced_manager"/>
 	<item component="ComponentInfo{app.seeneva.reader/app.seeneva.reader.screen.MainActivity}" drawable="seeneva" />
 	<item component="ComponentInfo{app.siggi.android.link/app.siggi.android.link.MainActivity}" drawable="hyper_link" />
 	<item component="ComponentInfo{app.skydroid/app.skydroid.MainActivity}" drawable="skydroid" />
@@ -8835,4 +8835,5 @@
 	<item component="ComponentInfo{com.housesigma.android/com.housesigma.android.MainActivity}" drawable="house_sigma"/>
 	<item component="ComponentInfo{com.sharkninja.shark/com.sharkninja.shark.v2.LaunchActivity}" drawable="shark_vacuum" />
 	<item component="ComponentInfo{com.thehomedepotca/com.thehomedepotca.app.splash.activity.SplashActivity}" drawable="the_home_depot" />
+	<item component="ComponentInfo{app.revanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music_revanced" />
 </resources>
