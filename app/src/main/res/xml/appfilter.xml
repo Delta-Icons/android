@@ -81,7 +81,9 @@
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
 	<calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar" />
+	<calendar component="ComponentInfo{com.huawei.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
+	<calendar component="ComponentInfo{com.mi.calendar.agenda/com.icalendar.os.activity.SplashScreenActivity}" prefix="calendar_" />
+	<calendar component="ComponentInfo{com.transsion.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{me.proton.android.calendar/me.proton.android.calendar.presentation.main.MainActivity}" prefix="proton_calendar_" />
 	<item component=":BROWSER" drawable="browser" />
 	<item component=":CALCULATOR" drawable="calculator" />
@@ -1753,6 +1755,9 @@
 	<item component="ComponentInfo{com.coloros.backuprestore/com.oplus.phoneclone.PhoneCloneMainActivity}" drawable="oppo_clone_phone" />
 	<item component="ComponentInfo{com.coloros.calculator/com.android.calculator2.Calculator}" drawable="calculator" />
 	<item component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
+	<item component="ComponentInfo{com.huawei.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
+	<item component="ComponentInfo{com.mi.calendar.agenda/com.icalendar.os.activity.SplashScreenActivity}" drawable="calendar" />
+	<item component="ComponentInfo{com.transsion.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
 	<item component="ComponentInfo{com.coloros.compass/com.coloros.compass.flat.FlatCompass}" drawable="compass" />
 	<item component="ComponentInfo{com.coloros.compass2/com.coloros.compass.flat.FlatCompass}" drawable="compass" />
 	<item component="ComponentInfo{com.coloros.filemanager/com.coloros.filemanager.ad.SplashActivity}" drawable="file_manager" />
@@ -4513,6 +4518,7 @@
 	<item component="ComponentInfo{com.oculus.twilight/com.oculus.twilight.crossapp.activity.XOCLoginActivity}" drawable="oculus" />
 	<item component="ComponentInfo{com.odin.plesk.mobile/com.odin.plesk.mobile.gui.MainActivity}" drawable="plesk" />
 	<item component="ComponentInfo{com.odysee.app/com.odysee.app.MainActivity}" drawable="odysee" />
+	<item component="ComponentInfo{com.odysee.floss/com.odysee.floss.MainActivity}" drawable="odysee" />
 	<item component="ComponentInfo{com.offerup/com.offerup.MainActivity}" drawable="offerup" />
 	<item component="ComponentInfo{com.official.electronics/com.official.electronics.ui.splash.SplashActivity}" drawable="electronics" />
 	<item component="ComponentInfo{com.offline.bible/com.offline.bible.ui.splash.LaunchActivity}" drawable="bible" />
@@ -8911,4 +8917,6 @@
 	<item component="ComponentInfo{com.gcteam.tonote/com.gcteam.tonote.ui.MainActivity}" drawable="quickmemo" />
 	<item component="ComponentInfo{de.westnordost.streetcomplete/de.westnordost.streetcomplete.screens.MainActivity}" drawable="streetcomplete" />
 	<item component="ComponentInfo{com.transsion.smartpanel/com.transsion.gamemode.activity.GameSpaceActivity}" drawable="xarena" />
+	<item component="ComponentInfo{com.bitkub/com.bitkub.MainActivity}" drawable="crypto" />
+	<item component="ComponentInfo{com.cryptopanic.android/com.cryptopanic.android.SplashActivity}" drawable="crypto" />
 </resources>
