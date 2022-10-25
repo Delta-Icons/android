@@ -134,6 +134,7 @@
 	<item component="ComponentInfo{air.com.RustyLake.CubeEscapeParadox/air.com.RustyLake.CubeEscapeParadox.AppEntry}" drawable="cube_escape_paradox" />
 	<item component="ComponentInfo{air.com.ubisoft.brawl.halla.platform.fighting.action.pvp/air.com.ubisoft.brawl.halla.platform.fighting.action.pvp.AppEntry}" drawable="brawlhalla" />
 	<item component="ComponentInfo{air.com.unit9.bkFrApp/air.com.unit9.bkFrApp.MainActivity}" drawable="burger_king" />
+	<item component="ComponentInfo{com.emn8.mobilem8.nativeapp.bk/com.emn8.mobilem8.nativeapp.bk.MainActivity}" drawable="burger_king" />
 	<item component="ComponentInfo{air.com.vudu.air.DownloaderTablet/air.com.vudu.air.DownloaderTablet.SplashScreenActivity}" drawable="vudu" />
 	<item component="ComponentInfo{air.com.vudu.air.DownloaderTablet/com.vudu.android.app.ui.splashscreen.SplashScreenActivity}" drawable="vudu" />
 	<item component="ComponentInfo{air.de.projektionisten.efa.app.gvh/air.de.projektionisten.efa.app.gvh.MainActivity}" drawable="gvh" />
@@ -174,6 +175,7 @@
 	<item component="ComponentInfo{app.grapheneos.apps/org.grapheneos.apps.client.ui.container.MainActivity}" drawable="graphene_apps" />
 	<item component="ComponentInfo{app.grapheneos.camera.play/app.grapheneos.camera.ui.activities.MainActivity}" drawable="secure_camera" />
 	<item component="ComponentInfo{app.grapheneos.camera/app.grapheneos.camera.ui.activities.MainActivity}" drawable="camera" />
+	<item component="ComponentInfo{xprocamera.hd.camera/xprocamera.hd.camera.splash.SplashActivity}" drawable="camera" />
 	<item component="ComponentInfo{app.grapheneos.pdfviewer.play/app.grapheneos.pdfviewer.PdfViewer}" drawable="secure_pdf_viewer" />
 	<item component="ComponentInfo{app.grapheneos.pdfviewer/app.grapheneos.pdfviewer.PdfViewer}" drawable="secure_pdf_viewer" />
 	<item component="ComponentInfo{app.halma/app.halma.AndroidLauncher}" drawable="halma" />
@@ -334,6 +336,7 @@
 	<item component="ComponentInfo{berlin.unitedwestream.app/berlin.unitedwestream.app.MainActivity}" drawable="united_we_stream_berlin" />
 	<item component="ComponentInfo{bg.raiffeisen.mobilepay/bank.raiffeisen.mobilepay.activity.SplashScreenActivity}" drawable="bank" />
 	<item component="ComponentInfo{bible.king.james.app/king.james.bible.android.activity.LaunchActivity}" drawable="bible" />
+	<item component="ComponentInfo{ua.mybible/ua.mybible.activity.SplashScreen}" drawable="bible" />
 	<item component="ComponentInfo{bitpit.launcher/bitpit.launcher.ui.HomeActivity}" drawable="niagara_launcher" />
 	<item component="ComponentInfo{bn.ereader/bn.ereader.app.ui.SplashActivity}" drawable="nook" />
 	<item component="ComponentInfo{bnb.com.bo.bnbmovil/bnb.bnbmovil.loginBiometric.FakeLauncherActivity}" drawable="bank" />
@@ -766,9 +769,12 @@
 	<item component="ComponentInfo{com.android.camera/com.android.camera.CameraLauncher}" drawable="camera" />
 	<item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="camera" />
 	<item component="ComponentInfo{com.android.camera/com.android.camera.GalleryPicker}" drawable="gallery" />
+	<item component="ComponentInfo{com.brave.browser_nightly/com.google.android.apps.chrome.Main}" drawable="brave_nightly" />
+	<item component="ComponentInfo{albums.gallery.photo.folder.picasa.app.web.gallery/albums.gallery.photo.folder.picasa.app.web.gallery.activities.SplashActivity}" drawable="gallery" />
 	<item component="ComponentInfo{com.android.camera/com.android.camera.module.camera.CameraActivity}" drawable="camera" />
 	<item component="ComponentInfo{com.android.camera/com.android.camera.view.CameraActivity}" drawable="camera" />
 	<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="camera" />
+	<item component="ComponentInfo{photo.android.hd.camera/com.android.camera.activity.SplashActivity}" drawable="camera" />
 	<item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="chrome" />
 	<item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="chrome" />
 	<item component="ComponentInfo{com.android.contacts/com.android.contacts.activites.ContactFrontDoor}" drawable="contacts" />
@@ -3627,6 +3633,8 @@
 	<item component="ComponentInfo{com.kirkbushman.redditoria/com.kirkbushman.redditoria.app.activities.SplashActivity}" drawable="redditoria" />
 	<item component="ComponentInfo{com.kitasoft.screenrec/com.kitasoft.screenrec.Launch}" drawable="easy_screen_recorder" />
 	<item component="ComponentInfo{com.kitkagames.fallbuddies/com.unity3d.player.UnityPlayerActivity}" drawable="stumble_guys" />
+	<item component="ComponentInfo{com.kitkagames.fallbuddies/com.pollock_roe.AppOpenAdActivity}" drawable="stumble_guys" />
+	<item component="ComponentInfo{media.music.musicplayer/com.ijoysoft.music.activity.WelcomeActivity}" drawable="music_alt_two" />
 	<item component="ComponentInfo{com.kiwiapple.taiwansuperweather/com.kiwiapple.taiwansuperweather.SplashActivity}" drawable="weather" />
 	<item component="ComponentInfo{com.kiwibrowser.browser.dev/com.google.android.apps.chrome.Main}" drawable="kiwi_browser" />
 	<item component="ComponentInfo{com.kiwibrowser.browser/com.google.android.apps.chrome.Main}" drawable="kiwi_browser" />
@@ -5400,6 +5408,7 @@
 	<item component="ComponentInfo{com.shitismoke.app/host.exp.exponent.experience.ShellAppActivity}" drawable="shoot_i_smoke" />
 	<item component="ComponentInfo{com.shopback.app/com.shopback.app.core.ui.splash.SplashActivity}" drawable="shopback" />
 	<item component="ComponentInfo{com.shopee.ar/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" />
+	<item component="ComponentInfo{com.shopee.pl/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" />
 	<item component="ComponentInfo{com.shopee.br/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" />
 	<item component="ComponentInfo{com.shopee.co/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" />
 	<item component="ComponentInfo{com.shopee.id/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" />
@@ -6132,6 +6141,7 @@
 	<item component="ComponentInfo{com.Tobit.android.Slitte6235203254/com.Tobit.android.slitte.SlitteSplashScreenActivity}" drawable="schalke" />
 	<item component="ComponentInfo{com.tocaboca.tocalifeworld/com.google.android.gms.security.ProviderInstall}" drawable="toca_life_world" />
 	<item component="ComponentInfo{com.tocaboca.tocalifeworld/com.tocaboca.activity.TocaBocaMainActivity}" drawable="toca_life_world" />
+	<item component="ComponentInfo{com.tocaboca.tocalifeworld/com.me.game.pm_tools.MainActivity}" drawable="toca_life_world" />
 	<item component="ComponentInfo{com.today_in.hh/hamburg.aino.splash.SplashActivity}" drawable="aino" />
 	<item component="ComponentInfo{com.todo1.davivienda.mobileapp/com.todo1.davivienda.mobileapp.MainActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.todo1.mobile/com.todo1.mobile.launcher_048f5484a80a34a06ff04ee21b9c1054f82e54e1c6d85790962931ca5b531f2d}" drawable="bancolombia_personas" />
