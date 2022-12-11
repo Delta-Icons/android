@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:installLocation="auto"
-    package="website.leifs.delta">
+    android:installLocation="auto">
 
     <!-- If you are not using donation and premium request, you need to remove BILLING permission -->
     <uses-permission android:name="com.android.vending.BILLING" />

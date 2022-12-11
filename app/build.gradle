@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
 	compileSdkVersion rootProject.ext.CompileSdk
 
+	namespace 'website.leifs.delta'
+
 	defaultConfig {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
@@ -45,5 +47,5 @@ dependencies {
      * If you've missed some versions you've to also follow update guide for those versions
      */
 
-	implementation 'com.github.zixpo:candybar:3.15.0'
+	implementation 'com.github.zixpo:candybar:3.16.0'
 }
