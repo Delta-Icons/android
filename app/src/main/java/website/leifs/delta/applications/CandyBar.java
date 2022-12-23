@@ -35,10 +35,10 @@ public class CandyBar extends CandyBarApplication {
         configuration.setShadowEnabled(false);
         configuration.setDashboardThemingEnabled(false);
         configuration.setCategoryForTabAllIcons(new String[] {
-                "Google", "Folders", "Calendar", "#", "A", "B", "C", "D", "E", "F", "G", "H", "I",
+                "Google", "Folders", "Calendar", "Alts", "#", "A", "B", "C", "D", "E", "F", "G", "H", "I",
                 "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
         });
-        
+
         return configuration;
     }
 }
