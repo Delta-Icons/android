@@ -160,6 +160,7 @@
 	<item component="ComponentInfo{amirz.rootless.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}" drawable="rootless_launcher" />
 	<item component="ComponentInfo{amirz.shade/amirz.shade.ShadeLauncher}" drawable="ruthless_launcher" />
 	<item component="ComponentInfo{android.AbcApplication/au.net.abc.apollo.splashscreen.SplashScreenActivity}" drawable="abc_news" />
+	<item component="ComponentInfo{android.AbcApplication/au.net.abc.apollo.homescreen.HomeScreenActivity}" drawable="abc_news" />
 	<item component="ComponentInfo{android.androidVNC/android.androidVNC.androidVNC}" drawable="androidvnc" />
 	<item component="ComponentInfo{andromedaforkwgt.kustom.pack/org.kustom.api.dashboard.DashboardActivity}" drawable="andromeda_kwgt" />
 	<item component="ComponentInfo{ani.saikou.beta/ani.saikou.MainActivity}" drawable="saikou" />
@@ -777,6 +778,7 @@
 	<item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="amazon_prime_video" />
 	<item component="ComponentInfo{com.amazon.avod/com.amazon.avod.client.activity.HomeScreenActivity}" drawable="amazon_video" />
 	<item component="ComponentInfo{com.amazon.aws.console.mobile/com.amazon.aws.console.mobile.ui.LoginActivity}" drawable="amazon_aws_console" />
+	<item component="ComponentInfo{com.amazon.aws.console.mobile/com.amazon.aws.console.mobile.ui.LegacyLoginActivity}" drawable="amazon_aws_console" />
 	<item component="ComponentInfo{com.amazon.camera/com.amazon.camera.AmazonCameraActivity}" drawable="camera" />
 	<item component="ComponentInfo{com.amazon.clouddrive.photos/com.amazon.clouddrive.photos.display.LauncherActivity}" drawable="amazon_photos" />
 	<item component="ComponentInfo{com.amazon.clouddrive.photos/com.amazon.photos.activity.LauncherActivity}" drawable="amazon_photos" />
@@ -4580,6 +4582,7 @@
 	<item component="ComponentInfo{com.microsoft.launcher/com.microsoft.launcher.EntryActivity}" drawable="microsoft_launcher" />
 	<item component="ComponentInfo{com.microsoft.launcher/com.microsoft.launcher.Launcher}" drawable="microsoft_launcher" />
 	<item component="ComponentInfo{com.microsoft.math/com.microsoft.bing.reactnative.lib.MainActivity}" drawable="microsoft_math" />
+	<item component="ComponentInfo{com.microsoft.math/com.microsoft.sapphire.app.main.SapphireMainActivity}" drawable="microsoft_math" />
 	<item component="ComponentInfo{com.microsoft.microsoftsolitairecollection/com.smokingguninc.engine.framework.SgiLauncherActivity}" drawable="solitaire" />
 	<item component="ComponentInfo{com.microsoft.mobile.polymer/com.microsoft.mobile.polymer.ui.MainActivity}" drawable="microsoft_kaizala" />
 	<item component="ComponentInfo{com.microsoft.msa.authenticator/com.microsoft.onlineid.authenticator.LauncherActivity}" drawable="microsoft_account" />
@@ -10541,4 +10544,6 @@
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
 	<item component="ComponentInfo{zualra.b.epx/i.o}" drawable="magisk_manager" />
+	<item component="ComponentInfo{com.duns.padiapp/com.duns.padiapp.presentation.SplashActivity}" drawable="padi" />
+	<item component="ComponentInfo{au.com.ticketek/ticketek.com.au.ticketek.ui.splashscreen.SplashScreenActivity}" drawable="ticketek" />
 </resources>
