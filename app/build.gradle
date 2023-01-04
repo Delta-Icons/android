@@ -30,6 +30,26 @@ android {
 			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 		}
 	}
+	flavorDimensions "variant"
+	productFlavors {
+		play {
+			dimension "variant"
+			resValue "string", "app_name", "Delta"
+			matchingFallbacks = ["play"]
+		}
+		foss {
+			dimension "variant"
+			applicationIdSuffix '.foss'
+			resValue "string", "app_name", "Delta"
+			matchingFallbacks = ["foss"]
+		}
+	}
+
+	sourceSets {
+		play { java.srcDirs = ['src/play/java/'] }
+		foss { java.srcDirs = ['src/foss/java/'] }
+
+	}
 
 	compileOptions {
 		sourceCompatibility JavaVersion.VERSION_1_8
@@ -47,5 +67,6 @@ dependencies {
      * If you've missed some versions you've to also follow update guide for those versions
      */
 
-	implementation 'com.github.zixpo:candybar:3.16.1'
+	playImplementation 'com.github.zixpo:candybar:3.16.1'
+	fossImplementation 'com.github.Donnnno:candybar-foss:3.16.1'
 }
