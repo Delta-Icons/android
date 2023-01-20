@@ -822,7 +822,7 @@
 	<item component="ComponentInfo{com.amc/com.amc.mobileapp.MainActivity}" drawable="amc_theatres" />
 	<item component="ComponentInfo{com.amd.link/com.amd.link.view.activities.SplashActivity}" drawable="amd_link" />
 	<item component="ComponentInfo{com.amdroidalarmclock.amdroid/com.amdroidalarmclock.amdroid.MainActivity}" drawable="amdroid" />
-	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.au/com.americanexpress.android.intl.app.view.activity.SplashInitializationActivity}" drawable="amex_au" />
+	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.au/com.americanexpress.android.intl.app.view.activity.SplashInitializationActivity}" drawable="amex_mobile" />
 	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.ca/com.americanexpress.android.intl.app.view.activity.SplashActivity}" drawable="amex_mobile" />
 	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.mx/com.americanexpress.android.intl.app.view.activity.SplashActivity}" drawable="amex_mobile" />
 	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.uk/com.americanexpress.android.intl.app.view.activity.SplashActivity}" drawable="amex_mobile" />
@@ -3148,7 +3148,7 @@
 	<item component="ComponentInfo{com.goodreads.beta/com.goodreads.kindle.ui.activity.SplashActivity}" drawable="goodreads" />
 	<item component="ComponentInfo{com.goodreads/com.goodreads.android.activity.MainActivity}" drawable="goodreads" />
 	<item component="ComponentInfo{com.goodreads/com.goodreads.kindle.ui.activity.SplashActivity}" drawable="goodreads" />
-	<item component="ComponentInfo{com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity}" drawable="sound_amplifier" />
+	<item component="ComponentInfo{com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity}" drawable="google_sound_amplifier" />
 	<item component="ComponentInfo{com.google.android.apps.access.wifi.consumer/com.google.android.apps.access.wifi.consumer.app.MainActivity}" drawable="google_wifi" />
 	<item component="ComponentInfo{com.google.android.apps.accessibility.auditor/com.google.android.apps.accessibility.auditor.ui.MainActivity}" drawable="google_accessibility_scanner" />
 	<item component="ComponentInfo{com.google.android.apps.accessibility.maui.actionblocks/com.google.android.apps.accessibility.maui.actionblocks.home.HomeActivity}" drawable="google_action_blocks" />
@@ -6172,8 +6172,8 @@
 	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Blue}" drawable="simple_calculator_blue" />
 	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Brown}" drawable="simple_calculator_brown" />
 	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Cyan}" drawable="simple_calculator_cyan" />
-	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Deep_orange}" drawable="simple_calculatordeeporange" />
-	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Deep_purple}" drawable="simple_calculator_deep_purple" />
+	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Deep_orange}" drawable="simple_calculator_deeporange" />
+	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Deep_purple}" drawable="simple_calculator_deeppurple" />
 	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Green}" drawable="simple_calculator_green" />
 	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Grey_black}" drawable="simple_calculator_greyblack" />
 	<item component="ComponentInfo{com.simplemobiletools.calculcator.pro/com.simplemobiletools.calculcator.pro.activities.SplashActivity.Indigo}" drawable="simple_calculator_indigo" />
@@ -7278,8 +7278,8 @@
 	<item component="ComponentInfo{com.threestar.gallery/com.android.gallery.activities.SplashActivity}" drawable="gallery" />
 	<item component="ComponentInfo{com.thunderst.radio/com.thunderst.radio.FMRadioMainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.ticketmaster.mobile.android.na/com.ticketmaster.mobile.android.library.activity.MainActivity}" drawable="ticketmaster" />
-	<item component="ComponentInfo{com.ticktick.task/com.ticktick.task.activity.MeTaskActivity}" drawable="ticktick" />
-	<item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_default}" drawable="ticktick" />
+	<item component="ComponentInfo{com.ticktick.task/com.ticktick.task.activity.MeTaskActivity}" drawable="tick__tick" />
+	<item component="ComponentInfo{com.ticktick.task/com.ticktick.task.HomeAlia_default}" drawable="tick__tick" />
 	<item component="ComponentInfo{com.tier.app/app.LaunchActivity}" drawable="tier" />
 	<item component="ComponentInfo{com.tier.app/com.tier.app.ui.splash.SplashActivity}" drawable="tier" />
 	<item component="ComponentInfo{com.tier.app/com.tier.legacy.ui.splash.SplashActivity}" drawable="tier" />
@@ -8674,6 +8674,7 @@
 	<item component="ComponentInfo{fr.gouv.android.stopcovid/com.lunabeestudio.stopcovid.activity.OnBoardingActivity}" drawable="anticovid" />
 	<item component="ComponentInfo{fr.gouv.android.stopcovid/com.lunabeestudio.stopcovid.activity.SplashScreenActivity}" drawable="anticovid" />
 	<item component="ComponentInfo{fr.gouv.etalab.mastodon/app.fedilab.android.activities.MainActivity.Fediverse}" drawable="fedilab" />
+	<item component="ComponentInfo{fr.gouv.etalab.mastodon/app.fedilab.android.activities.MainActivity.Bubbles}" drawable="fedilab" />
 	<item component="ComponentInfo{fr.hsbc.hsbcfrance/com.firstdirect.bankingonthego.activities.SplashActivity}" drawable="hsbc" />
 	<item component="ComponentInfo{fr.jouv.etalab.mastodon/app.fedilab.android.activities.MainActivity}" drawable="fedilab" />
 	<item component="ComponentInfo{fr.laposte.lapostemobile/fr.laposte.lapostemobile.SplashScreenLauncher}" drawable="la_poste" />
