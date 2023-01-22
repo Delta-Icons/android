@@ -1,0 +1,97 @@
+name: Build FOSS
+run-name: foss @ ${{ github.sha }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_name:
+        description: Version name
+        default: 1.0.0
+        required: true
+      version_code:
+        description: Version code
+        default: 100000
+        required: true
+      sign:
+        description: Sign APK
+        default: false
+        type: boolean
+
+env:
+  filename: delta-v${{ inputs.version_name }}-foss
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Setup Java
+      uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 17
+
+    - name: Change version
+      run: |
+        python - << EOF
+        import re
+
+        target = 'app/build.gradle'
+
+        regexp_version_code = re.compile('versionCode (\d+)')
+        regexp_version_name = re.compile('versionName "(\d+\.\d+\.\d+(-beta\d+)?)"')
+
+        with open(target, 'r+') as file:
+          content = file.read()
+          content = re.sub(regexp_version_code, f'versionCode ${{ inputs.version_code }}', content)
+          content = re.sub(regexp_version_name, f'versionName "${{ inputs.version_name }}"', content)
+          file.seek(0)
+          file.write(content)
+          file.truncate()
+        EOF
+
+    - name: Create changelog
+      run: |
+        cat << EOF > app/src/main/res/values/changelog.xml
+        <?xml version="1.0" encoding="utf-8"?>
+        <resources>
+            <string name="changelog_date"></string>
+            <string-array name="changelog">
+                <item><![CDATA[<font color=#ff837d><item>¯\\_(ツ)_/¯</item></font>]]></item>
+            </string-array>
+        </resources>
+        EOF
+
+    - name: Build APK
+      run: bash gradlew assembleFoss
+
+    - name: Move unsigned APK
+      run: mv -v app/build/outputs/apk/foss/release/*.apk ${{ env.filename }}-unsigned.apk
+
+    - name: Sign APK
+      uses: r0adkll/sign-android-release@v1
+      if: inputs.sign == true
+      id: sign_step
+      with:
+        releaseDirectory: .
+        signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
+        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
+        keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
+        alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
+
+    - name: Move signed APK
+      if: inputs.sign == true
+      run: mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}-signed.apk
+
+    - name: Upload APK in Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.filename }}
+        retention-days: 90
+        path: |
+          ${{ env.filename }}-signed.apk
+          ${{ env.filename }}-unsigned.apk

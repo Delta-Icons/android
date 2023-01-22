@@ -1,0 +1,287 @@
+name: Build All
+run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: Release type
+        default: beta
+        type: choice
+        options:
+        - beta
+        - prod
+      publish:
+        description: Publish in Google Play
+        type: boolean
+        default: true
+      all_images:
+        description: Optimize all images
+        type: boolean
+        default: false
+      compression:
+        description: Optimizing level
+        type: choice
+        default: 2
+        options:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+      changelog_1:
+        description: Changelog line 1
+      changelog_2:
+        description: Changelog line 2
+      changelog_3:
+        description: Changelog line 3
+      changelog_4:
+        description: Changelog line 4
+      changelog_5:
+        description: Changelog line 5
+
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PA_TOKEN }}
+
+    - name: Setup Java
+      uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 17
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install -y optipng
+        sudo pip install natsort
+
+    - name: Bump version
+      run: |
+        python - << EOF >> $GITHUB_ENV
+        import re
+
+        target = 'app/build.gradle'
+        regexp_version_code = re.compile('versionCode (\d+)')
+        regexp_version_name = re.compile('versionName "((\d+\.\d+\.\d+)(-beta(\d+))?)"')
+        is_beta = 'true' if '${{ inputs.release_type }}' == 'beta' else 'false'
+
+        with open(target, 'r+') as file:
+
+          content = file.read()
+          latest_version = re.search(regexp_version_name, content)
+
+          full_version = latest_version.group(1)
+          base_version = latest_version.group(2)
+          beta_version = str(int(latest_version.group(4) if latest_version.group(4) else '-1') + 1)
+          build_number = str(int(re.search(regexp_version_code, content).group(1)[-3:]) + 1)
+
+          if '${{ inputs.release_type }}' == 'prod':
+            if not 'beta' in full_version:
+              base_version = list(map(int, base_version.split('.')))
+              base_version[2] += 1
+              for n in range(2):
+                if base_version[2-n] > 9:
+                  base_version[2-n] = 0
+                  base_version[1-n] += 1
+              new_version = '.'.join(str(x) for x in base_version)
+              build_number = '0'
+            else:
+              new_version = base_version
+            version_code = new_version.replace('.', '') + build_number.rjust(3, '0')
+            version_name = new_version
+          else:
+            base_version = list(map(int, base_version.split('.')))
+            if not 'beta' in full_version:
+              build_number = '0'
+              base_version[2] += 1
+            for n in range(2):
+              if base_version[2-n] > 9:
+                base_version[2-n] = 0
+                base_version[1-n] += 1
+            new_version = '.'.join(str(x) for x in base_version)
+            version_code = new_version.replace('.', '') + build_number.rjust(3, '0')
+            version_name = new_version + '-beta' + beta_version
+
+          content = re.sub(regexp_version_code, f'versionCode {version_code}', content)
+          content = re.sub(regexp_version_name, f'versionName "{version_name}"', content)
+
+          file.seek(0)
+          file.write(content)
+          file.truncate()
+
+          print(f'is_beta={is_beta}')
+          print(f'filename=delta-v{version_name}')
+          print(f'version=v{version_name}')
+          print(f'version_code={version_code}')
+          print(f'version_name={version_name}')
+        EOF
+
+    - name: Restore configs from secrets
+      run: |
+        echo "LICENSE_KEY=${{ secrets.LICENSE_KEY }}" > local.properties
+        echo "${{ secrets.SERVICE_ACCOUNT_BASE64 }}" | base64 -d > service_account.json
+
+    - name: Create a changelog
+      run: |
+        mkdir -v changelog && cd $_
+
+        changelog_txt=whatsnew-en-US
+        changelog_xml=../app/src/main/res/values/changelog.xml
+        drawable_xml=../app/src/main/res/xml/drawable.xml
+        amount=$(sed -n '/category title="New"/,/category title="Google"/p' $drawable_xml | grep '<item' | wc -l)
+
+        changelog_1='${{ inputs.changelog_1 }}'
+        changelog_2='${{ inputs.changelog_2 }}'
+        changelog_3='${{ inputs.changelog_3 }}'
+        changelog_4='${{ inputs.changelog_4 }}'
+        changelog_5='${{ inputs.changelog_5 }}'
+
+        echo "- $amount new icons" > $changelog_txt
+
+        cat << EOF > $changelog_xml
+        <?xml version="1.0" encoding="utf-8"?>
+        <resources>
+            <string name="changelog_date"></string>
+            <string-array name="changelog">
+                <item><![CDATA[<font color=#ff837d>$amount</font>]]> new icons</item>
+        EOF
+
+        for n in $(seq 1 5); do
+          changelog="changelog_${n}"
+          if [ ! -z "${!changelog}" ]; then
+            echo "- ${!changelog}" >> $changelog_txt
+            echo "        <item>${!changelog}</item>" >> $changelog_xml
+          fi
+        done
+
+        if [[ '${{ inputs.release_type }}' == 'beta' ]]; then
+          message="Full changelog will be published upon release!"
+          echo "- $message" >> $changelog_txt
+          echo "        <item>$message</item>" >> $changelog_xml
+        fi
+
+        cat << EOF >> $changelog_xml
+            </string-array>
+        </resources>
+        EOF
+
+    - name: Optimize PNGs
+      continue-on-error: true
+      run: |
+        if [[ ${{ inputs.all_images }} == true ]]; then
+          echo '> Optimizing all PNGs'
+          ls app/src/main/res/drawable-nodpi/*.png | xargs -P 50 optipng -o${{ inputs.compression }}
+        else
+          git fetch --tags
+          latest_tag=$(git tag --sort version:refname | tail -n 1)
+          if [[ $latest_tag ]]; then
+            echo '> Optimizing PNGs since last tag'
+            git diff --name-only $(git tag --sort version:refname | tail -n 1) -- '***.png' | xargs -P 50 optipng -o${{ inputs.compression }}
+          else
+            echo '> No tags found, skip optimizing'
+          fi
+        fi
+
+    - name: Sort drawables
+      run: |
+        python utility_scripts/sort_drawable.py app/src/main/assets/drawable.xml
+        cp new_drawable.xml app/src/main/assets/drawable.xml
+        cp new_drawable.xml app/src/main/res/xml/drawable.xml
+
+    - name: Build APK
+      run: bash gradlew assemblePlay
+
+    - name: Build AAB
+      run: bash gradlew bundlePlay
+
+    - name: Build APK FOSS
+      run: bash gradlew assembleFoss
+
+    - name: Move unsigned builds
+      run: |
+        mv -v app/build/outputs/apk/play/release/*.apk   delta-play.apk
+        mv -v app/build/outputs/apk/foss/release/*.apk   delta-foss.apk
+        mv -v app/build/outputs/bundle/playRelease/*.aab delta-play.aab
+
+    - name: Sign builds
+      uses: r0adkll/sign-android-release@v1
+      with:
+        releaseDirectory: .
+        signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
+        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
+        keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
+        alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
+
+    - name: Rename signed builds
+      run: |
+        mv -v delta-play-signed.apk ${{ env.filename }}.apk
+        mv -v delta-foss-signed.apk ${{ env.filename }}-foss.apk
+        mv -v delta-play.aab ${{ env.filename }}.aab
+
+    - name: Upload APKs in Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.filename }}
+        path: '${{ env.filename }}*.apk'
+        retention-days: 90
+
+    - name: Create a GitHub release
+      uses: softprops/action-gh-release@v0.1.15
+      with:
+        prerelease: ${{ env.is_beta }}
+        files: '${{ env.filename }}*.apk'
+        name: ${{ env.version }}
+        tag_name: ${{ env.version }}
+        body_path: changelog/whatsnew-en-US
+
+    - name: Publish in Google Play beta channel
+      uses: r0adkll/upload-google-play@v1.0.19
+      if: inputs.publish == true
+      with:
+        track: beta
+        releaseFiles: ${{ env.filename }}.aab
+        serviceAccountJson: service_account.json
+        packageName: website.leifs.delta
+        mappingFile: app/build/outputs/mapping/playRelease/mapping.txt
+        whatsNewDirectory: changelog
+        inAppUpdatePriority: 5
+
+    - name: Publish in Google Play production channel
+      uses: r0adkll/upload-google-play@v1.0.19
+      if: ${{ (inputs.release_type == 'production') && (inputs.publish == true) }}
+      with:
+        track: production
+        releaseFiles: ${{ env.filename }}.aab
+        serviceAccountJson: service_account.json
+        packageName: website.leifs.delta
+        mappingFile: app/build/outputs/mapping/playRelease/mapping.txt
+        whatsNewDirectory: changelog
+        inAppUpdatePriority: 5
+
+    - name: Clean up 'New' category
+      if: ${{ inputs.release_type == 'prod' }}
+      run: |
+        sed -i '7,/^$/c\\' new_drawable.xml
+        cp new_drawable.xml app/src/main/assets/drawable.xml
+        cp new_drawable.xml app/src/main/res/xml/drawable.xml
+
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: ${{ env.version }} released
+        file_pattern: 'app/build.gradle app/src/main/res/drawable-nodpi/*.png app/src/main/assets/drawable.xml app/src/main/res/xml/drawable.xml'
