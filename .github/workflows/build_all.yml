@@ -250,10 +250,11 @@ jobs:
         body_path: changelog/whatsnew-en-US
 
     - name: Publish in Google Play beta channel
-      uses: r0adkll/upload-google-play@v1.0.15
+      uses: r0adkll/upload-google-play@v1.0.19
       if: inputs.publish == true
       with:
         track: beta
+        status: completed
         releaseFiles: ${{ env.filename }}.aab
         serviceAccountJson: service_account.json
         packageName: website.leifs.delta
@@ -262,10 +263,11 @@ jobs:
         inAppUpdatePriority: 5
 
     - name: Publish in Google Play production channel
-      uses: r0adkll/upload-google-play@v1.0.15
+      uses: r0adkll/upload-google-play@v1.0.19
       if: ${{ (inputs.release_type == 'production') && (inputs.publish == true) }}
       with:
         track: production
+        status: completed
         releaseFiles: ${{ env.filename }}.aab
         serviceAccountJson: service_account.json
         packageName: website.leifs.delta
