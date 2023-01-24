@@ -193,7 +193,7 @@ jobs:
           latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
           if [[ $latest_tag ]]; then
             echo '> Optimizing PNGs since last release'
-            git diff --name-only $(git tag --sort version:refname | tail -n 1) -- '***.png' | xargs -P 50 optipng -o${{ inputs.optimize_level }}
+            git diff --name-only $latest_tag -- '***.png' | xargs -P 50 optipng -o${{ inputs.optimize_level }}
           else
             echo '> No release found, skip optimizing'
           fi
