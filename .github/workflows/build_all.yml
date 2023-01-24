@@ -250,7 +250,7 @@ jobs:
         body_path: changelog/whatsnew-en-US
 
     - name: Publish in Google Play beta channel
-      uses: r0adkll/upload-google-play@v1.0.19
+      uses: r0adkll/upload-google-play@v1.0.15
       if: inputs.publish == true
       with:
         track: beta
@@ -262,7 +262,7 @@ jobs:
         inAppUpdatePriority: 5
 
     - name: Publish in Google Play production channel
-      uses: r0adkll/upload-google-play@v1.0.19
+      uses: r0adkll/upload-google-play@v1.0.15
       if: ${{ (inputs.release_type == 'production') && (inputs.publish == true) }}
       with:
         track: production
