@@ -18,12 +18,16 @@ on:
         description: Publish in Google Play
         type: boolean
         default: true
-      all_images:
-        description: Optimize all images
+      optimize:
+        description: Optimize PNG
         type: boolean
-        default: false
-      compression:
-        description: Optimizing level
+        default: true
+      optimize_since:
+        description: Only PNGs since latest release
+        type: boolean
+        default: true
+      optimize_level:
+        description: Optimization level
         type: choice
         default: 2
         options:
@@ -181,23 +185,25 @@ jobs:
         EOF
 
     - name: Optimize PNGs
+      if: inputs.optimize == true
       continue-on-error: true
       run: |
-        if [[ ${{ inputs.all_images }} == true ]]; then
-          echo '> Optimizing all PNGs'
-          ls app/src/main/res/drawable-nodpi/*.png | xargs -P 50 optipng -o${{ inputs.compression }}
-        else
+        if [[ ${{ inputs.optimize_since }} == true ]]; then
           git fetch --tags
-          latest_tag=$(git tag --sort version:refname | tail -n 1)
+          latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
           if [[ $latest_tag ]]; then
-            echo '> Optimizing PNGs since last tag'
-            git diff --name-only $(git tag --sort version:refname | tail -n 1) -- '***.png' | xargs -P 50 optipng -o${{ inputs.compression }}
+            echo '> Optimizing PNGs since last release'
+            git diff --name-only $(git tag --sort version:refname | tail -n 1) -- '***.png' | xargs -P 50 optipng -o${{ inputs.optimize_level }}
           else
-            echo '> No tags found, skip optimizing'
+            echo '> No release found, skip optimizing'
           fi
+        else
+          echo '> Optimizing all PNGs'
+          ls app/src/main/res/drawable-nodpi/*.png | xargs -P 50 optipng -o${{ inputs.optimize_level }}
         fi
 
     - name: Sort drawables
+      if: inputs.release_type == 'prod'
       run: |
         python utility_scripts/sort_drawable.py app/src/main/assets/drawable.xml
         cp new_drawable.xml app/src/main/assets/drawable.xml
@@ -276,7 +282,7 @@ jobs:
         inAppUpdatePriority: 5
 
     - name: Clean up 'New' category
-      if: ${{ inputs.release_type == 'prod' }}
+      if: inputs.release_type == 'prod'
       run: |
         sed -i '7,/^$/c\\' new_drawable.xml
         cp new_drawable.xml app/src/main/assets/drawable.xml
