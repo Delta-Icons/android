@@ -131,6 +131,10 @@ In case you want to contribute to Delta by providing icons please do so by creat
 
 ## Icon Template
 
+### Notes
+
+- If the original logo doesn't contain small details or doesn't make up most of the background layer (circle/square/etc.) as designed, keep the logo size between 73-80px
+
 |<img src="https://github.com/Delta-Icons/android/raw/master/resources/template.svg" width="177" height="177">|<img src="https://github.com/Delta-Icons/android/raw/master/resources/template_tutorial.svg" width="547,705" height="600">|
 |---|---|
 
