@@ -40,12 +40,12 @@ public class CandyBar extends CandyBarApplication {
         });
 
         DonationLink[] donationLinks = new DonationLink[]{
-                new DonationLink(
+                // new DonationLink(
                         // You can use png file (without extension) inside drawable-nodpi folder or url
-                        "paypal",
-                        "PayPal",
-                        "Support us on Paypal",
-                        "https://www.paypal.me/")
+                        // "paypal",
+                        // "PayPal",
+                        // "Support us on Paypal",
+                        // "https://www.paypal.me/")
 
         };
         configuration.setDonationLinks(donationLinks);
