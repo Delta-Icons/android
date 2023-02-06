@@ -239,22 +239,6 @@ jobs:
         mv -v delta-foss-signed.apk ${{ env.filename }}-foss.apk
         mv -v delta-play.aab ${{ env.filename }}.aab
 
-    - name: Upload APKs in Artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: ${{ env.filename }}
-        path: '${{ env.filename }}*.apk'
-        retention-days: 90
-
-    - name: Create a GitHub release
-      uses: softprops/action-gh-release@v0.1.15
-      with:
-        prerelease: ${{ env.is_beta }}
-        files: '${{ env.filename }}*.apk'
-        name: ${{ env.version }}
-        tag_name: ${{ env.version }}
-        body_path: changelog/whatsnew-en-US
-
     - name: Publish in Google Play beta channel
       uses: r0adkll/upload-google-play@v1.0.19
       if: inputs.publish == true
@@ -270,7 +254,7 @@ jobs:
 
     - name: Publish in Google Play production channel
       uses: r0adkll/upload-google-play@v1.0.19
-      if: ${{ (inputs.release_type == 'production') && (inputs.publish == true) }}
+      if: ${{ (inputs.release_type == 'prod') && (inputs.publish == true) }}
       with:
         track: production
         status: completed
@@ -280,6 +264,13 @@ jobs:
         mappingFile: app/build/outputs/mapping/playRelease/mapping.txt
         whatsNewDirectory: changelog
         inAppUpdatePriority: 5
+
+    - name: Upload APKs in Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.filename }}
+        path: '${{ env.filename }}*.apk'
+        retention-days: 90
 
     - name: Clean up 'New' category
       if: inputs.release_type == 'prod'
@@ -293,3 +284,12 @@ jobs:
       with:
         commit_message: ${{ env.version }} released
         file_pattern: 'app/build.gradle app/src/main/res/drawable-nodpi/*.png app/src/main/assets/drawable.xml app/src/main/res/xml/drawable.xml'
+
+    - name: Create a GitHub release
+      uses: softprops/action-gh-release@v0.1.15
+      with:
+        prerelease: ${{ env.is_beta }}
+        files: '${{ env.filename }}*.apk'
+        name: ${{ env.version }}
+        tag_name: ${{ env.version }}
+        body_path: changelog/whatsnew-en-US
