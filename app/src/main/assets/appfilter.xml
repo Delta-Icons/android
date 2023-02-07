@@ -1550,8 +1550,8 @@
 	<item component="ComponentInfo{com.bestbuy.android/com.bestbuy.android.activity.HomeScreen}" drawable="best_buy" />
 	<item component="ComponentInfo{com.bestweatherfor.bibleoffline_pt_ra/com.bestweatherfor.bibleoffline_pt_ra.bibleoffline.splash.Splash}" drawable="bible" />
 	<item component="ComponentInfo{com.beta.colorselector/com.colorselector.ui.DashBoard}" drawable="pipette" />
-	<item component="ComponentInfo{com.betafish.adblocksbrowser/com.betafish.sbrowser.contentblocker.MainPreferences}" drawable="adblock_for_samsung_browser" />
-	<item component="ComponentInfo{com.betafish.adblocksbrowser/org.adblockplus.adblockplussbrowser.app.ui.LauncherActivity}" drawable="adblock_for_samsung_browser" />
+	<item component="ComponentInfo{com.betafish.adblocksbrowser/com.betafish.sbrowser.contentblocker.MainPreferences}" drawable="adblock" />
+	<item component="ComponentInfo{com.betafish.adblocksbrowser/org.adblockplus.adblockplussbrowser.app.ui.LauncherActivity}" drawable="adblock" />
 	<item component="ComponentInfo{com.bethsoft.falloutcompanionapp/com.unity3d.player.UnityPlayerNativeActivity}" drawable="fallout_pip_boy" />
 	<item component="ComponentInfo{com.bethsoft.falloutshelter/com.bhvr.Prime31MainActivityWithMemoryWarning}" drawable="fallout_shelter" />
 	<item component="ComponentInfo{com.bethsoft.theelderscrollslegends/com.unity3d.player.UnityPlayerActivity}" drawable="the_elder_scrolls_legends" />
@@ -3362,7 +3362,7 @@
 	<item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.froyo.VideosActivity}" drawable="google_play_movies" />
 	<item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.honeycomb.VideosActivity}" drawable="google_play_movies" />
 	<item component="ComponentInfo{com.google.android.vr.home/com.google.android.apps.vr.home.app.MainActivity}" drawable="daydream" />
-	<item component="ComponentInfo{com.google.android.wearable.app/com.google.android.clockwork.companion.launcher.LauncherActivity}" drawable="android_wear" />
+	<item component="ComponentInfo{com.google.android.wearable.app/com.google.android.clockwork.companion.launcher.LauncherActivity}" drawable="google_wear_os" />
 	<item component="ComponentInfo{com.google.android.wearable.app/com.google.android.clockwork.companion.StatusActivity}" drawable="android_wear" />
 	<item component="ComponentInfo{com.google.android.webview.dev/org.chromium.android_webview.devui.LauncherActivity}" drawable="webview_devtools" />
 	<item component="ComponentInfo{com.google.android.webview/org.chromium.android_webview.devui.LauncherActivity}" drawable="android_system_webview" />
@@ -3613,7 +3613,7 @@
 	<item component="ComponentInfo{com.hrs.android/com.hrs.android.home.SideMenuActivity}" drawable="hrs" />
 	<item component="ComponentInfo{com.hrs.b2c.android/com.hrs.android.home.SideMenuActivity}" drawable="hrs" />
 	<item component="ComponentInfo{com.hs.helloscheduling/com.hs.helloscheduling.CordovaApp}" drawable="tracksmart_scheduling" />
-	<item component="ComponentInfo{com.hsv.freeadblockerbrowser/com.google.android.apps.chrome.Main}" drawable="adblock_browser" />
+	<item component="ComponentInfo{com.hsv.freeadblockerbrowser/com.google.android.apps.chrome.Main}" drawable="fab_adblocker_browser" />
 	<item component="ComponentInfo{com.htc.album/com.htc.album.AlbumMain.ActivityMainCarousel}" drawable="gallery" />
 	<item component="ComponentInfo{com.htc.album/com.htc.album.AlbumMain.ActivityMainDropList}" drawable="gallery" />
 	<item component="ComponentInfo{com.htc.album/com.htc.album.AlbumMain.ActivityMainTabHost}" drawable="gallery" />
@@ -4649,7 +4649,7 @@
 	<item component="ComponentInfo{com.microsoft.msapps/com.microsoft.msapps.SplashActivity}" drawable="microsoft_power_apps" />
 	<item component="ComponentInfo{com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity}" drawable="microsoft_excel" />
 	<item component="ComponentInfo{com.microsoft.office.excel/com.microsoft.office.excel.excelMainActivity}" drawable="microsoft_excel" />
-	<item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="microsoft_office_hub" />
+	<item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="microsoft_365" />
 	<item component="ComponentInfo{com.microsoft.office.officelens/com.microsoft.office.apphost.LaunchActivity}" drawable="microsoft_office_lens" />
 	<item component="ComponentInfo{com.microsoft.office.officelens/com.microsoft.office.officelens.MainActivity}" drawable="microsoft_office_lens" />
 	<item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMLauncherActivity}" drawable="microsoft_one__note" />
@@ -7961,7 +7961,7 @@
 	<item component="ComponentInfo{com.xiaomi.gameboosterglobal/com.xiaomi.gameboosterglobal.home.HomeActivity}" drawable="mi_game_turbo" />
 	<item component="ComponentInfo{com.xiaomi.hm.health/cn.com.smartdevices.bracelet.activity.MainActivity}" drawable="mi__fit" />
 	<item component="ComponentInfo{com.xiaomi.hm.health/cn.com.smartdevices.bracelet.activity.StartUpActivity}" drawable="mi__fit" />
-	<item component="ComponentInfo{com.xiaomi.hm.health/com.xiaomi.hm.health.activity.StartUpActivity}" drawable="mi__fit" />
+	<item component="ComponentInfo{com.xiaomi.hm.health/com.xiaomi.hm.health.activity.StartUpActivity}" drawable="zepp_life" />
 	<item component="ComponentInfo{com.xiaomi.midrop/com.xiaomi.midrop.SplashScreen}" drawable="shareme" />
 	<item component="ComponentInfo{com.xiaomi.mipicks/com.xiaomi.mipicks.DefaultAlias}" drawable="getapps" />
 	<item component="ComponentInfo{com.xiaomi.mipicks/com.xiaomi.mipicks.MiPicksAlias}" drawable="getapps" />
@@ -9553,7 +9553,7 @@
 	<item component="ComponentInfo{org.adaway/org.adaway.ui.BaseActivity}" drawable="adaway" />
 	<item component="ComponentInfo{org.adaway/org.adaway.ui.home.HomeActivity}" drawable="adaway" />
 	<item component="ComponentInfo{org.adaway/org.adaway.ui.MainActivity}" drawable="adaway" />
-	<item component="ComponentInfo{org.adblockplus.adblockplussbrowser/org.adblockplus.sbrowser.contentblocker.MainPreferences}" drawable="adblock_for_samsung_internet" />
+	<item component="ComponentInfo{org.adblockplus.adblockplussbrowser/org.adblockplus.sbrowser.contentblocker.MainPreferences}" drawable="adblock_plus" />
 	<item component="ComponentInfo{org.adblockplus.browser/com.google.android.apps.chrome.Main}" drawable="adblock_browser" />
 	<item component="ComponentInfo{org.adw.launcher/org.adw.launcher.LauncherActivity}" drawable="adw_launcher" />
 	<item component="ComponentInfo{org.airvpn.eddie/org.airvpn.eddie.MainActivity}" drawable="airvpn" />
@@ -11005,4 +11005,13 @@
 	<item component="ComponentInfo{br.com.taglivros.tomo.app/br.com.taglivros.tomo.app.MainActivity}" drawable="tag_livros" />
 	<item component="ComponentInfo{com.xplora.xplorao2o/com.xplora.xplorao2o.activity.SplashActivity}" drawable="xplora" />
 	<item component="ComponentInfo{network.loki.messenger.fdroid/network.loki.messenger.RoutingActivity}" drawable="session" />
+	<item component="ComponentInfo{com.rocketshipapps.adblockfast/com.rocketshipapps.adblockfast.MainActivity}" drawable="adblock_fast" />
+	<item component="ComponentInfo{com.nick.mowen.albatross/com.nick.mowen.albatross.main.MainActivity}" drawable="albatross" />
+	<item component="ComponentInfo{dev.leonlatsch.photok/dev.leonlatsch.photok.MainLauncher}" drawable="photok" />
+	<item component="ComponentInfo{com.piggybankng.piggy/com.piggybankng.piggy.SplashActivity}" drawable="piggyvest" />
+	<item component="ComponentInfo{com.prisma3d.prisma3d/com.prisma.prismaplugin.UnityPlayerActivityStatusBar}" drawable="prisma3d" />
+	<item component="ComponentInfo{com.mcu.reolink/com.android.bc.login.WelcomeActivity}" drawable="reolink" />
+	<item component="ComponentInfo{com.showmax.app/com.showmax.app.feature.uiFragments.mobile.UIFragmentsActivity}" drawable="showmax" />
+	<item component="ComponentInfo{com.theathletic/com.theathletic.activity.SplashActivity}" drawable="the_athletic" />
+	<item component="ComponentInfo{com.uptodown/com.uptodown.activities.MainActivityScrollable}" drawable="uptodown_app_store" />
 </resources>
