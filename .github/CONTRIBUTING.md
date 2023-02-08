@@ -2,7 +2,7 @@
 
 In case you want to contribute to Delta by providing icons please do so by creating a vector-based icon, cloning this repo and issuing a pull request with regards to these points:
 
-- Vectors (SVG, EPS, PDF, …) go to the [contributed-vectors](https://github.com/Delta-Icons/android/tree/master/contributed-vectors) folder (_please keep filenames in lowercase alphabet with underscores!_)
+- Vectors (SVG, EPS, PDF, …) go to the [resources/vectors](https://github.com/Delta-Icons/android/tree/master/resources/vectors) folder (_please keep filenames in lowercase alphabet with underscores!_)
 
 - 192×192 pixel PNG file `icon_name.png` goes to [app/src/main/res/drawable-nodpi](https://github.com/Delta-Icons/android/tree/master/app/src/main/res/drawable-nodpi)
 
@@ -39,13 +39,13 @@ In case you want to contribute to Delta by providing icons please do so by creat
 <details>
   <summary>Full</summary>
   <br>
-  <img src="https://github.com/Delta-Icons/android/raw/master/resources/Palette.svg">
+  <img src="https://github.com/Delta-Icons/android/raw/master/resources/palettes/palette.svg">
 </details>
 
 <details>
   <summary>Simple</summary>
   <br>
-  <center><img src="https://github.com/Delta-Icons/android/raw/master/resources/palette_simplified.svg"></center>
+  <center><img src="https://github.com/Delta-Icons/android/raw/master/resources/palettes/palette_simplified.svg"></center>
 </details>
 
 <details>
@@ -125,9 +125,9 @@ In case you want to contribute to Delta by providing icons please do so by creat
 
 ### Misc
 
-- [Adobe Swatch Exchange Palette](https://github.com/Delta-Icons/android/raw/master/resources/Palette.ase) (Illustrator, Photoshop)
+- [Adobe Swatch Exchange Palette](https://github.com/Delta-Icons/android/raw/master/resources/palettes/palette.ase) (Illustrator, Photoshop)
 
-- [GPL Pallete](https://github.com/Delta-Icons/android/raw/master/resources/Palette.gpl) (Inkscape, Karbon)
+- [GPL Pallete](https://github.com/Delta-Icons/android/raw/master/resources/palettes/palette.gpl) (Inkscape, Karbon)
 
 ## Icon Template
 
@@ -135,7 +135,7 @@ In case you want to contribute to Delta by providing icons please do so by creat
 
 - If the original logo doesn't contain small details or doesn't make up most of the background layer (circle/square/etc.) as designed, keep the logo size between 73-80px
 
-|<img src="https://github.com/Delta-Icons/android/raw/master/resources/template.svg" width="177" height="177">|<img src="https://github.com/Delta-Icons/android/raw/master/resources/template_tutorial.svg" width="547,705" height="600">|
+|<img src="https://github.com/Delta-Icons/android/raw/master/resources/templates/template.svg" width="177" height="177">|<img src="https://github.com/Delta-Icons/android/raw/master/resources/templates/template_tutorial.svg" width="547,705" height="600">|
 |---|---|
 
 ## Font
