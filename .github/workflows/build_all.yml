@@ -160,7 +160,7 @@ jobs:
         candybar_play=../app/src/play/java/website/leifs/delta/applications/CandyBar.java
         candybar_foss=../app/src/foss/java/website/leifs/delta/applications/CandyBar.java
         sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" $candybar_play
-        cp $candybar_play $candybar_foss
+        sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" $candybar_foss
 
         changelog_1='${{ inputs.changelog_1 }}'
         changelog_2='${{ inputs.changelog_2 }}'

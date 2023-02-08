@@ -36,7 +36,6 @@ public class CandyBar extends CandyBarApplication {
             // "PayPal",
             // "Support us on Paypal",
             // "https://www.paypal.me/")
-
         });
         
         return configuration;
