@@ -54,7 +54,7 @@
         If you want to use a solid color, you can put the hex color code here
         ex: <string name="home_image">#000000</string>
         -->
-    <string name="home_image">app_index</string>
+    <string name="home_image">ic_home_header</string>
 
     <!-- Home image style
         Available choices:
@@ -63,7 +63,7 @@
         - landscape
         - square
     -->
-    <string name="home_image_style">square</string>
+    <string name="home_image_style">card_square</string>
 
     <!-- Description which will be shown in the home page.
         Put your markup/text inside of `<![CDATA[` and `]]>`
@@ -74,21 +74,23 @@
         -->
     <string name="home_description">
         <![CDATA[
-            Pastel coloured side-project.
-            To aid with development please take a look at the repo which can be found at:
-            <a href="https://github.com/Delta-Icons/android">https://github.com/Delta-Icons/android</a>
+            <p>It is an <a href="https://github.com/Delta-Icons/android">open source</a> pastel coloured icon pack.</p>
+            <br>
+            <p>Created by <a href="https://leifs.website">Leif Niemczik</a> and helped by <a href="https://github.com/Delta-Icons/android/graphs/contributors">awesome people</a>.</p>
+            <br>
+            <p>Feel free to <a href="https://discord.gg/F9RFqHN">join our Discord server</a> if you need help contributing or just want to chat with other contributors. By the way, the server is not intended for icon requests!</p>
         ]]>
     </string>
 
     <!-- Link to your app's Rate and Review page.
         Leave this empty to disable the "Rate and Review" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
-    <string name="rate_and_review_link"></string>
+    <string name="rate_and_review_link">https://play.google.com/store/apps/details?id=website.leifs.delta</string>
 
     <!-- Link to your app's main page. It will be used when your user shares your app using "Share" button.
         Leave this empty to disable the "Share" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
-    <string name="share_link"></string>
+    <string name="share_link">https://play.google.com/store/apps/details?id=website.leifs.delta</string>
 
     <!-- Enable "Check for update" button.
         It needs the option "config_json" to be configured in order to work -->
@@ -116,7 +118,7 @@
         If you want to use a solid color, you can put the hex color code here
         ex: <string name="navigation_view_header">#000000</string>
         -->
-    <string name="navigation_view_header">nav_header</string>
+    <string name="navigation_view_header">ic_nav_header</string>
 
     <!-- Navigation view header text
         Leave empty if you don't want to show any text -->
@@ -271,20 +273,20 @@
         If you want to use an image from url, just put the url here
         If you want to use an image stored in the project ("drawable" folder)
         just put the image's name here without the extension (ex: about_profile_image.png -> about_profile_image) -->
-    <string name="about_profile_image">about_image</string>
+    <string name="about_profile_image">ic_splash_screen</string>
 
     <!-- The BIG text which is shown above the description and below the about profile image -->
-    <string name="about_title">Leif Niemczik</string>
+    <string name="about_title">Pastel Goodness</string>
 
     <!-- The description which is shown below the about title.
         Put your markup/text inside of `<![CDATA[` and `]]>`
         ex: `<![CDATA[ There are - <b>Bold</b> <i>Italic</i> <u>Underline</u> <a href="url">Link</a> ]]>` -->
     <string name="about_desc">
         <![CDATA[
-            Frontend-Dev and Designer from Germany, currently studying computer science &amp;
-            media and doing side projects like this in my free time.
+            Delta is a passion project by me, <a href="https://leifs.website">Leif Niemczik</a>, <a href="https://github.com/Delta-Icons/android">open sourced</a> and helped by <a href="https://github.com/Delta-Icons/android/graphs/contributors">awesome people</a>. Starting off as a beautification for my homescreen it has since become a top-ranking app in Google Play and was featured in the #myandroid-campaign as well as quite a few places on the internet. With over a million downloads and 7000+ icons I want to open it up to other platforms like iOS and macOS with the help of the community that built around it.
         ]]>
     </string>
+
 
     <!-- Social links which will be shown in the about section.
 
@@ -296,9 +298,9 @@
         ex: <string-array name="about_social_links"></string-array>
         -->
     <string-array name="about_social_links">
-        <item>https://github.com/Delta-Icons/android</item>
-        <item>https://delta-icons.github.io/</item>
+        <item>https://delta-icons.github.io</item>
         <item>delta.iconpack@gmail.com</item>
+        <item>https://discord.gg/F9RFqHN</item>
     </string-array>
 
     <!-- Contributors dialog
