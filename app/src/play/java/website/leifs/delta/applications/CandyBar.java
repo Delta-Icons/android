@@ -22,13 +22,13 @@ public class CandyBar extends CandyBarApplication {
         configuration.setShowTabAllIcons(true);
         configuration.setShowTabIconsCount(true);
         configuration.setTabAllIconsTitle("All");
-        
+
         configuration.setCategoryForTabAllIcons(new String[] {
             "Google", "System", "Folders", "Calendar", "Alts", "#",
             "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
             "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
         });
-        
+
         return configuration;
     }
 }
