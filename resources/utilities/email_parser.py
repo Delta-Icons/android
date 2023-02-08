@@ -43,8 +43,8 @@ newApps = []
 
 # Filters to limit backlog
 currentDate = date.today()
-monthsLimit = 6
-minRequests = 5
+monthsLimit = 12
+minRequests = 3
 
 # Remove people sending more than X requests
 def removeGreedy(address, element):
@@ -136,17 +136,20 @@ Last requested {reqDate}
 	with open(argv[2]) as appfilter:
 		appfilter = appfilter.read()
 		for (componentInfo, values) in apps.items():
-			componentInfo = componentInfo[:componentInfo.index('/')]
-			if appfilter.find(componentInfo) == -1 and ''.join(newApps).find(componentInfo) == -1:
-				newApps.append(objectBlock.format(
-					name = values["Name"],
-					component = values["ComponentInfo"],
-					packageName = values["ComponentInfo"][0:values["ComponentInfo"].index('/')],
-					count = values["count"],
-					reqDate = values["requestDate"],
-				))
-			elif appfilter.find(componentInfo) != -1 and ''.join(updatable).find(componentInfo) == -1:
-				updatable.append(values['Name'] + '\n' + values['ComponentInfo'] + '\n\n')
+			try:
+				componentInfo = componentInfo[:componentInfo.index('/')]
+				if appfilter.find(componentInfo) == -1 and ''.join(newApps).find(componentInfo) == -1:
+					newApps.append(objectBlock.format(
+						name = values["Name"],
+						component = values["ComponentInfo"],
+						packageName = values["ComponentInfo"][0:values["ComponentInfo"].index('/')],
+						count = values["count"],
+						reqDate = values["requestDate"],
+					))
+				elif appfilter.find(componentInfo) != -1 and ''.join(updatable).find(componentInfo) == -1:
+					updatable.append(values['Name'] + '\n' + values['ComponentInfo'] + '\n\n')
+			except:
+				pass
 
 def writeOutput():
 	newListHeader = """-------------------------------------------------------
