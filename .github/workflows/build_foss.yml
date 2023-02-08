@@ -54,6 +54,17 @@ jobs:
           file.truncate()
         EOF
 
+    - name: Set custom icons count
+      run: |
+        drawable_xml=app/src/main/res/xml/drawable.xml
+        drawable_lines=$(grep '<item' $drawable_xml | sort)
+        summary=$(echo "$drawable_lines" | wc -l)
+        amount_all=$(echo "$drawable_lines" | uniq | wc -l)
+        amount_new=$(( $summary - $amount_all ))
+        shortcut=java/website/leifs/delta/applications/CandyBar.java
+        sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" app/src/foss/$shortcut
+        sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" app/src/play/$shortcut
+
     - name: Create changelog
       run: |
         cat << EOF > app/src/main/res/values/changelog.xml

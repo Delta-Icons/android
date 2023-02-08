@@ -144,17 +144,23 @@ jobs:
           print(f'version_name={version_name}')
         EOF
 
-    - name: Create a changelog
+    - name: Create a changelog and set custom icons count
       run: |
         mkdir changelog && cd $_
 
         changelog_txt=whatsnew-en-US
         changelog_xml=../app/src/main/res/values/changelog.xml
         drawable_xml=../app/src/main/res/xml/drawable.xml
+
         drawable_lines=$(grep '<item' $drawable_xml | sort)
         summary=$(echo "$drawable_lines" | wc -l)
         amount_all=$(echo "$drawable_lines" | uniq | wc -l)
         amount_new=$(( $summary - $amount_all ))
+
+        candybar_play=../app/src/play/java/website/leifs/delta/applications/CandyBar.java
+        candybar_foss=../app/src/foss/java/website/leifs/delta/applications/CandyBar.java
+        sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" $candybar_play
+        cp $candybar_play $candybar_foss
 
         changelog_1='${{ inputs.changelog_1 }}'
         changelog_2='${{ inputs.changelog_2 }}'
@@ -292,7 +298,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: 'New ${{ inputs.release_type }} release: ${{ env.version }}'
-        file_pattern: 'app/build.gradle app/src/main/*'
+        file_pattern: 'app/build.gradle app/src/main/* app/src/foss/* app/src/play/*'
 
     - name: Create a GitHub release
       uses: softprops/action-gh-release@v0.1.15
