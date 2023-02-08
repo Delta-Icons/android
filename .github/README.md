@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" src="https://github.com/Delta-Icons/android/raw/master/resources/delta_logo.svg"/>
+  <img width="200" src="https://github.com/Delta-Icons/android/raw/master/resources/branding/logo.svg"/>
 </p>
 
 <h2 align="center" padding="100">Delta Icons</h2>
