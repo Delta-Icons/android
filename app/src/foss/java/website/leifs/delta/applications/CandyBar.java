@@ -20,7 +20,6 @@ public class CandyBar extends CandyBarApplication {
         configuration.setIncludeIconRequestToEmailBody(true);
         configuration.setShadowEnabled(false);
         configuration.setShowTabAllIcons(true);
-        configuration.setShowTabIconsCount(true);
         configuration.setTabAllIconsTitle("All");
 
         configuration.setCategoryForTabAllIcons(new String[] {
