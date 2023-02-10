@@ -22,9 +22,9 @@ jobs:
       run: |
         cd resources/utilities
         sudo pip install -r requirements.txt
-        python email_dumper.py -u ${{ secrets.EMAIL_ADDRESS }} \
-                               -p ${{ secrets.EMAIL_PASSWORD }} \
-                               -r ${{ secrets.EMAIL_FOLDER }}
+        python email_dumper.py -u "${{ secrets.EMAIL_ADDRESS }}" \
+                               -p "${{ secrets.EMAIL_PASSWORD }}" \
+                               -r "${{ secrets.EMAIL_FOLDER }}"
         python email_parser.py emails ../../app/src/main/res/xml/appfilter.xml ../requests.txt 2>&1 /dev/null
 
     - name: Commit changes
