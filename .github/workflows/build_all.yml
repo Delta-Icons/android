@@ -64,8 +64,8 @@ jobs:
     - name: Wait if requests are updating
       uses: lewagon/wait-on-check-action@v1.2.0
       with:
-        ref: ${{ github.ref }}
-        check-name: 'Update'
+        ref: master
+        check-name: update
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         wait-interval: 10
 
