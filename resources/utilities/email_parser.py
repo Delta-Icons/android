@@ -87,7 +87,7 @@ def parseMails():
 			if sender.groups()[0] not in addresses:
 				addresses[sender.groups()[0]] = 1
 			elif addresses[sender.groups()[0]] == requestlimit:
-				print('XXXXXX ---- We have a greedy one: ', sender.groups()[0])
+				#print('XXXXXX ---- We have a greedy one: ', sender.groups()[0])
 				for key, value in apps.items():
 					value = removeGreedy(sender.groups()[0], value)
 				continue
@@ -104,7 +104,7 @@ def parseMails():
 						apps[key]['count'] += 1
 						apps[key]['senders'].append(sender.groups()[0])
 						continue
-				print('\n/// The following message could not be handled:\n',emailBody,'\n')
+				#print('\n/// The following message could not be handled:\n',emailBody,'\n')
 			else:
 				tempDict = appInfo.groupdict()
 				if tempDict['ComponentInfo'] in apps:
