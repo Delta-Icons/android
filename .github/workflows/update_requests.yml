@@ -13,14 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: Wait if apps are building
-      uses: lewagon/wait-on-check-action@v1.2.0
-      with:
-        ref: master
-        check-name: build
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        wait-interval: 10
-
     - name: Checkout
       uses: actions/checkout@v3
       with:
