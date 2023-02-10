@@ -1,0 +1,42 @@
+name: Update Requests
+run-name: requests @ ${{ github.sha }}
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Wait if apps are building
+      uses: lewagon/wait-on-check-action@v1.2.0
+      with:
+        ref: ${{ github.ref }}
+        check-name: 'Build'
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        wait-interval: 10
+
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PA_TOKEN }}
+
+    - name: Update requests
+      run: |
+        cd resources/utilities
+        sudo pip install -r requirements.txt
+        python email_dumper.py -u ${{ secrets.EMAIL_ADDRESS }} \
+                               -p ${{ secrets.EMAIL_PASSWORD }} \
+                               -r ${{ secrets.EMAIL_FOLDER }}
+        python email_parser.py emails ../../app/src/main/res/xml/appfilter.xml ../requests.txt 2>&1 /dev/null
+
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: 'Update requests.txt'
+        file_pattern: 'resources/requests.txt'
