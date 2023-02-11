@@ -77,7 +77,7 @@ jobs:
       run: |
         sudo apt-get update -y
         sudo apt-get install -y optipng
-        sudo pip install -r resources\utilities\requirements.txt
+        sudo pip install -r resources/utilities/requirements.txt
 
     - name: Restore configs from secrets
       run: |
