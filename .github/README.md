@@ -22,8 +22,8 @@
     <img src="https://img.shields.io/static/v1?labelColor=56595b&color=97db99&logo=google-play&logoColor=ffffff&label=google play&style=for-the-badge&message=get"/>
   </a>
 
-  <a href="https://apt.izzysoft.de/fdroid/index/apk/website.leifs.delta">
-    <img src="https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=izzyondroid&style=for-the-badge&message=get"/>
+  <a href="https://f-droid.org/packages/website.leifs.delta.foss">
+    <img src="https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get"/>
   </a>
 </p>
 
