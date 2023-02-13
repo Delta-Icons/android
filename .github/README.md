@@ -4,7 +4,7 @@
 
 <h2 align="center" padding="100">Delta Icons</h2>
 
-<p align="center">Matted out icon pack for custom Android launchers</p>
+<p align="center">Minimalistic pastel icon pack for Android</p>
 
 
 ## Installation
