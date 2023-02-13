@@ -141,6 +141,7 @@ In case you want to contribute to Delta by providing icons please do so by creat
 ## Font
 
 - [Now Font](https://www.1001fonts.com/now-font.html?text=Delta%20Icons) (_use Now Alt from the same family for alternate lowercase 'a' letter_)
+- [Aleo Font](https://www.1001fonts.com/aleo-font.html?text=Delta%20Icons) (_optionally use it when Serif is needed_)
 
 ## Gathering ComponentInfo
 
