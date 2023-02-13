@@ -146,20 +146,20 @@ jobs:
 
     - name: Create a changelog and set custom icons count
       run: |
-        mkdir changelog && cd $_
+        mkdir changelog
 
-        path=..
-        changelog_txt=whatsnew-en-US
-        changelog_xml=$path/app/src/main/res/values/changelog.xml
-        drawable_xml=$path/app/src/main/res/xml/drawable.xml
+        changelog_txt=metadata/en-US/changelogs/${{ env.version_code }}.txt
+        changelog_tmp=changelog/whatsnew-en-US
+        changelog_xml=app/src/main/res/values/changelog.xml
+        drawable_xml=app/src/main/res/xml/drawable.xml
 
         drawable_lines=$(grep '<item' $drawable_xml | sort)
         summary=$(echo "$drawable_lines" | wc -l)
         amount_all=$(echo "$drawable_lines" | uniq | wc -l)
         amount_new=$(( $summary - $amount_all ))
 
-        candybar_play=$path/app/src/play/java/website/leifs/delta/applications/CandyBar.java
-        candybar_foss=$path/app/src/foss/java/website/leifs/delta/applications/CandyBar.java
+        candybar_play=app/src/play/java/website/leifs/delta/applications/CandyBar.java
+        candybar_foss=app/src/foss/java/website/leifs/delta/applications/CandyBar.java
         sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" $candybar_play
         sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" $candybar_foss
 
@@ -199,7 +199,10 @@ jobs:
         </resources>
         EOF
 
+        cp $changelog_txt $changelog_tmp
         cat $changelog_xml
+
+        echo "changelog=$changelog_tmp" >> $GITHUB_ENV
 
     - name: Optimize PNGs
       if: inputs.optimize == true
@@ -299,7 +302,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: 'New ${{ inputs.release_type }} release: ${{ env.version }}'
-        file_pattern: 'app/build.gradle app/src/main/* app/src/foss/* app/src/play/*'
+        file_pattern: 'app/build.gradle app/src/main/* app/src/foss/* app/src/play/* metadata'
 
     - name: Create a GitHub release
       uses: softprops/action-gh-release@v0.1.15
@@ -308,7 +311,7 @@ jobs:
         files: '${{ env.filename }}*.apk'
         name: ${{ env.version }}
         tag_name: ${{ env.version }}
-        body_path: changelog/whatsnew-en-US
+        body_path: ${{ env.changelog }}
 
     - name: Clear category 'New'
       if: inputs.release_type == 'prod'
