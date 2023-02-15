@@ -14,11 +14,11 @@ target_file = abspath(arg[1])
 
 categories = [
 	"New",
+	"Alts",
+	"Calendar",
+	"Folders",
 	"Google",
 	"System",
-	"Folders",
-	"Calendar",
-	"Alts",
 	"#"
 ]
 
