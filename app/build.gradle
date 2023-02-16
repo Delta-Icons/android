@@ -9,8 +9,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 177004
-		versionName "1.7.7-beta4"
+		versionCode 177005
+		versionName "1.7.7-beta5"
 		multiDexEnabled true
 
 		// Naming app bundles
@@ -52,8 +52,8 @@ android {
 	}
 
 	compileOptions {
-		sourceCompatibility JavaVersion.VERSION_1_8
-		targetCompatibility JavaVersion.VERSION_1_8
+		sourceCompatibility JavaVersion.VERSION_11
+		targetCompatibility JavaVersion.VERSION_11
 	}
 }
 
