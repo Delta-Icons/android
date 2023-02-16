@@ -307,7 +307,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: 'New ${{ inputs.release_type }} release: ${{ env.version }}'
-        file_pattern: 'app/build.gradle app/src/main/* app/src/foss/* app/src/play/* metadata'
+        file_pattern: 'app/build.gradle app/src/main/* app/src/foss/* app/src/play/* metadata resources/'
 
     - name: Create a GitHub release
       uses: softprops/action-gh-release@v0.1.15
