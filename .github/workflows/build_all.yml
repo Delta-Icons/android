@@ -144,6 +144,10 @@ jobs:
           print(f'version_name={version_name}')
         EOF
 
+    - name: Add new icons
+      run: |
+        python resources/utilities/add_icons_wrapper.py
+
     - name: Create a changelog and set custom icons count
       run: |
         mkdir changelog
@@ -203,6 +207,7 @@ jobs:
         cat $changelog_xml
 
         echo "changelog=$changelog_tmp" >> $GITHUB_ENV
+
 
     - name: Optimize PNGs
       if: inputs.optimize == true
