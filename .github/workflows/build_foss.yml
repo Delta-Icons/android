@@ -85,6 +85,12 @@ jobs:
         </resources>
         EOF
 
+    - name: Sort drawables
+      run: |
+        python resources/utilities/sort_drawable.py app/src/main/assets/drawable.xml
+        cp -v new_drawable.xml app/src/main/assets/drawable.xml
+        cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
+
     - name: Build APK
       run: bash gradlew assembleFoss
 
