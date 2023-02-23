@@ -63,11 +63,12 @@ def parse_category(title, target):
 
 	array = [i for n, i in enumerate(array) if i not in array[n + 1:]]
 
-	if any(category in title for category in categories_no_encode):
-		return sorted(array, key=lambda x: x["name"])
-	else:
-		return sorted(array, key=lambda x: x["name"].encode("ascii", "ignore").lower())
+	# if any(category in title for category in categories_no_encode):
+	# 	return sorted(array, key=lambda x: x["name"])
+	# else:
+	# 	return sorted(array, key=lambda x: x["name"].encode("ascii", "ignore").lower())
 
+	return sorted(array, key=lambda x: x["name"])
 
 with open(target_file, "r") as file:
 	xml = file.readlines()
