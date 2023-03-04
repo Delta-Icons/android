@@ -120,12 +120,3 @@ jobs:
         path: |
           ${{ env.filename }}-signed.apk
           ${{ env.filename }}-unsigned.apk
-
-    - name: Upload assets in Artifacts
-      uses: actions/upload-artifact@v3
-      if: always()
-      with:
-        name: assets
-        retention-days: 90
-        path: |
-          app/src/main/assets/*
