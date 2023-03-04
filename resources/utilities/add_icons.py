@@ -176,39 +176,51 @@ if include_drawable:
         if not re.search(categories[1], content, re.IGNORECASE): out.fail(f"{filename}: category '{category}' not found")
         if re.search(drawable_entry, content, re.IGNORECASE): out.warn(f"{filename}: drawable '{name}' exists")
         else:
+            # file.seek(0)
+            # content_list = file.readlines()
+            # drawables_count = 0
+            # entries = []
+            # category_name = category
+            # for occurence, category in enumerate(categories):
+            #     index = False
+            #     scroll = False
+            #     stop = False
+            #     category_sorted = []
+            #     category_unsorted = []
+            #     for line in content_list:
+            #         search = re.search(re.compile(category, re.IGNORECASE), line)
+            #         if search:
+            #             categories[occurence] = search.group(0)
+            #             scroll = True
+            #             continue
+            #         if re.search('^\t?$', line): scroll = False
+            #         if scroll: category_unsorted.append(line.strip())
+            #     category_sorted = sorted(category_unsorted + [drawable_entry])
+            #     for category in category_unsorted:
+            #         if re.search(drawable_entry, category): stop = True
+            #     if stop: continue
+            #     for line in category_sorted:
+            #         if re.search(drawable_entry, line):
+            #             index = category_sorted.index(line)
+            #             break
+            #     if index:
+            #         pattern = category_sorted[index-1]
+            #         entries += [pattern]
+            #         replace = fr'{pattern}\n\t{drawable_entry}'
+            #         content = re.sub(pattern, replace, content, occurence + 1)
+            #         drawables_count += 1
             file.seek(0)
             content_list = file.readlines()
             drawables_count = 0
-            entries = []
             category_name = category
-            for occurence, category in enumerate(categories):
-                index = False
-                scroll = False
-                stop = False
-                category_sorted = []
-                category_unsorted = []
-                for line in content_list:
-                    search = re.search(re.compile(category, re.IGNORECASE), line)
-                    if search:
-                        categories[occurence] = search.group(0)
-                        scroll = True
-                        continue
-                    if re.search('^$', line): scroll = False
-                    if scroll: category_unsorted.append(line.strip())
-                category_sorted = sorted(category_unsorted + [drawable_entry])
-                for category in category_unsorted:
-                    if re.search(drawable_entry, category): stop = True
-                if stop: continue
-                for line in category_sorted:
-                    if re.search(drawable_entry, line):
-                        index = category_sorted.index(line)
-                        break
-                if index:
-                    pattern = category_sorted[index-1]
-                    entries += [pattern]
-                    replace = fr'{pattern}\n\t{drawable_entry}'
-                    content = re.sub(pattern, replace, content, occurence + 1)
-                    drawables_count += 1
+            entries = []
+
+            for category in categories:
+                replace = fr'{category}\n\t{drawable_entry}'
+                entries += [category]
+                content = re.sub(category, replace, content)
+                drawables_count += 1
+
             if drawables_count > 0:
                 write(file, content)
                 out.done(f'{filename}: {dry_run_prefix + "added"} 2 entries')
@@ -216,8 +228,6 @@ if include_drawable:
                 for id, entry in enumerate(entries):
                     if verbose:
                         out.verb(categories[id])
-                        out.verb()
-                        out.verb(f'  {entry}')
                         out.verb(out.add.format(drawable_entry))
                         out.verb()
                 changes = True

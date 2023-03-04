@@ -5,6 +5,8 @@ from os.path import abspath, basename, dirname, realpath
 
 from yaml import safe_load as yaml
 
+from natsort import natsorted as sorted
+
 
 work_dir = dirname(realpath(__file__))
 delta_dir = abspath(f'{work_dir}/../..')
@@ -28,7 +30,7 @@ content = '''\
 
 with open(target_file) as file:
     try:
-        icons = [(k,v) for k,v in yaml(file).items()]
+        icons = sorted([(k,v) for k,v in yaml(file).items()])[::-1]
     except:
         print(f"'{basename(target_file)}' seems to be empty")
         exit(1)
