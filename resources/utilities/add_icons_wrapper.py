@@ -37,9 +37,9 @@ with open(target_file) as file:
 for icon in icons:
     drawable = icon[0]
     compinfos = ' '.join(icon[1])
-    # print(f'[draw] {drawable}')
     command = f'python {target_script} -P {delta_dir} -raidI -n {drawable}'
     if compinfos: command += f' -c {compinfos}'
+    else: command += f' -C Alts'
     execute(command)
     if not icons[-1][0] == drawable: print()
 
