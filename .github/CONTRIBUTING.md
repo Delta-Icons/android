@@ -156,6 +156,9 @@ If the existing icon rebranded, don't overwrite it with a new one, do the follow
 
 ## Gathering ComponentInfo
 
+ComponentInfo is what your launcher uses to know which apps get which icons in our icon pack.
+
+You may use these tools to find each app's СomponentInfo(s):
 - [Icon Pusher](https://iconpusher.com/) by [Southpaw](https://southpaw.dev)
 - [Icon Request](https://github.com/Kaiserdragon2/IconRequest/releases) by [Kaiserdragon2](https://github.com/Kaiserdragon2)
 
