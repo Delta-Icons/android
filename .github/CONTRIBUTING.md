@@ -29,7 +29,7 @@ Description of categories and what they are for:
 - `#`: icons whose name starts with a number (or, to be more clear, with an underscore followed by a number, e.g. `_2048`)
 - `A-Z`: icons which don't fit in previous categories must be placed in a category based on the first letter of its name
 
-## Tips
+## Rules
 
 - Keep `LF` line endings in files (`CLRF` breaks our CI/CD)
 - SVG, PNG and drawable names must be the same
@@ -151,8 +151,10 @@ If the existing icon rebranded, don't overwrite it with a new one, do the follow
 
 ## Font
 
-- [Now Font](https://www.1001fonts.com/now-font.html?text=Delta%20Icons) (_use Now Alt from the same family for alternate lowercase 'a' letter_)
-- [Aleo Font](https://www.1001fonts.com/aleo-font.html?text=Delta%20Icons) (_optionally use it when Serif is needed_)
+> If the original icon consists of just one or two letters, you may trace that letter instead of using these fonts
+
+- [Now](https://www.1001fonts.com/now-font.html?text=Delta%20Icons) (Sans-serif) — <u>main font</u>; use Now Alt from the same family for alternate lowercase 'a' letter
+- [Aleo](https://www.1001fonts.com/aleo-font.html?text=Delta%20Icons) (Serif) — use it only when Serif is needed
 
 ## Gathering ComponentInfo
 
@@ -164,8 +166,9 @@ You may use these tools to find each app's СomponentInfo(s):
 
 ## Icon Template
 
-### Tips
+### Rules
 
+- Canvas must be 192x192px, the icon size according to the template below
 - If the original logo doesn't contain small details or doesn't make up most of the background layer (circle/square/etc.) as designed, keep the logo size between 73-80px
 
 |<img src="https://github.com/Delta-Icons/android/raw/master/resources/templates/template.svg" width="177" height="177">|<img src="https://github.com/Delta-Icons/android/raw/master/resources/templates/template_tutorial.svg" width="547,705" height="600">|
@@ -173,7 +176,7 @@ You may use these tools to find each app's СomponentInfo(s):
 
 ## Colors
 
-### Tips 
+### Rules 
 
 - Davy's grey ( <img src="https://placehold.co/15x15/56595B/56595B.png" height="8"> `#56595B` ) as default Black
 
