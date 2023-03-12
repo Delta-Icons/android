@@ -69,54 +69,57 @@ def parseExisting():
 
 def parseMails():
 	for mail in filelist:
-		with open(mail, 'rb') as msg:
-			# Convert Message to String
-			msg = BytesParser(policy=policy.default).parse(msg)
-			parsed= msg.get_body(preferencelist=('plain'))
-			# Skip if body is empty
-			if parsed is None:
-				continue
-			emailBody = parsed.get_content()
+		try:
+			with open(mail, 'rb') as msg:
+				# Convert Message to String
+				msg = BytesParser(policy=policy.default).parse(msg)
+				parsed= msg.get_body(preferencelist=('plain'))
+				# Skip if body is empty
+				if parsed is None:
+					continue
+				emailBody = parsed.get_content()
 
-			# Check if sender exists
-			sender = re.search(eMailQuery, msg['From'])
-			if sender is None:
-				continue
+				# Check if sender exists
+				sender = re.search(eMailQuery, msg['From'])
+				if sender is None:
+					continue
 
-			# check if sender crossed limit
-			if sender.groups()[0] not in addresses:
-				addresses[sender.groups()[0]] = 1
-			elif addresses[sender.groups()[0]] == requestlimit:
-				#print('XXXXXX ---- We have a greedy one: ', sender.groups()[0])
-				for key, value in apps.items():
-					value = removeGreedy(sender.groups()[0], value)
-				continue
-			else:
-				addresses[sender.groups()[0]] += 1
-
-			appInfo = re.search(appInfoQuery, emailBody)
-
-			# AppInfo could not automatically be extracted
-			if appInfo is None:
-				# Search for String appearance of existing ComponentInfos in E-Mail body
-				for key, value in apps.items():
-					if key in emailBody:
-						apps[key]['count'] += 1
-						apps[key]['senders'].append(sender.groups()[0])
-						continue
-				#print('\n/// The following message could not be handled:\n',emailBody,'\n')
-			else:
-				tempDict = appInfo.groupdict()
-				if tempDict['ComponentInfo'] in apps:
-					apps[tempDict['ComponentInfo']]['count'] = apps[tempDict['ComponentInfo']]['count'] + 1
-					apps[tempDict['ComponentInfo']]['senders'].append(sender.groups()[0])
+				# check if sender crossed limit
+				if sender.groups()[0] not in addresses:
+					addresses[sender.groups()[0]] = 1
+				elif addresses[sender.groups()[0]] == requestlimit:
+					#print('XXXXXX ---- We have a greedy one: ', sender.groups()[0])
+					for key, value in apps.items():
+						value = removeGreedy(sender.groups()[0], value)
+					continue
 				else:
-					tempDict['count'] = 1
-					tempDict['senders'] = [sender.groups()[0]]
-					apps[tempDict['ComponentInfo']] = tempDict
-				#Update date of last request
-				if 'requestDate' not in apps[tempDict['ComponentInfo']] or apps[tempDict['ComponentInfo']]['requestDate'] < mktime(parsedate(msg['date'])):
-						apps[tempDict['ComponentInfo']]['requestDate'] = mktime(parsedate(msg['Date']))
+					addresses[sender.groups()[0]] += 1
+
+				appInfo = re.search(appInfoQuery, emailBody)
+
+				# AppInfo could not automatically be extracted
+				if appInfo is None:
+					# Search for String appearance of existing ComponentInfos in E-Mail body
+					for key, value in apps.items():
+						if key in emailBody:
+							apps[key]['count'] += 1
+							apps[key]['senders'].append(sender.groups()[0])
+							continue
+					#print('\n/// The following message could not be handled:\n',emailBody,'\n')
+				else:
+					tempDict = appInfo.groupdict()
+					if tempDict['ComponentInfo'] in apps:
+						apps[tempDict['ComponentInfo']]['count'] = apps[tempDict['ComponentInfo']]['count'] + 1
+						apps[tempDict['ComponentInfo']]['senders'].append(sender.groups()[0])
+					else:
+						tempDict['count'] = 1
+						tempDict['senders'] = [sender.groups()[0]]
+						apps[tempDict['ComponentInfo']] = tempDict
+					#Update date of last request
+					if 'requestDate' not in apps[tempDict['ComponentInfo']] or apps[tempDict['ComponentInfo']]['requestDate'] < mktime(parsedate(msg['date'])):
+							apps[tempDict['ComponentInfo']]['requestDate'] = mktime(parsedate(msg['Date']))
+		except:
+			pass
 
 def diffMonth(d1, d2):
     return (d1.year - d2.year) * 12 + d1.month - d2.month
