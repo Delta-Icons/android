@@ -392,3 +392,9 @@ apteki_plus:
 notify_for_amazfit:
   - com.mc.amazfit1/com.mc.miband1.ui.MainActivityNight
   - com.mc.amazfit1/com.mc.miband1.ui.MainActivity
+
+notify_for_smartwatches:
+  - com.mc.notify/com.mc.notify.ui.MainActivityNight
+  - com.mc.notify/com.mc.notify.ui.MainActivity
+
+notify_for_smartwatches_alt_1: {}
