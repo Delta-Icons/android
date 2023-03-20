@@ -33,7 +33,7 @@ with open(target_file) as file:
         icons = sorted([(k,v) for k,v in yaml(file).items()])[::-1]
     except:
         print(f"'{basename(target_file)}' seems to be empty")
-        exit(1)
+        exit(0)
 
 
 for icon in icons:
