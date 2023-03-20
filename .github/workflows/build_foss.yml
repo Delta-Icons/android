@@ -97,8 +97,15 @@ jobs:
     - name: Move unsigned APK
       run: mv -v app/build/outputs/apk/foss/release/*.apk ${{ env.filename }}-unsigned.apk
 
+    - name: Upload unsigned APK in Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ env.filename }}-unsigned
+        retention-days: 7
+        path: ${{ env.filename }}-unsigned.apk
+
     - name: Sign APK
-      uses: r0adkll/sign-android-release@v1
+      uses: kevin-david/zipalign-sign-android-release@v1.1
       if: inputs.sign == true
       id: sign_step
       with:
@@ -112,11 +119,10 @@ jobs:
       if: inputs.sign == true
       run: mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}-signed.apk
 
-    - name: Upload APK in Artifacts
+    - name: Upload signed APK in Artifacts
       uses: actions/upload-artifact@v3
+      if: inputs.sign == true
       with:
-        name: ${{ env.filename }}
-        retention-days: 90
-        path: |
-          ${{ env.filename }}-signed.apk
-          ${{ env.filename }}-unsigned.apk
+        name: ${{ env.filename }}-signed
+        retention-days: 7
+        path: ${{ env.filename }}-signed.apk
