@@ -6,8 +6,8 @@ In case you wanna contribute to Delta you need:
 
 - basic knowledge of `git`
 - a fork of this repo
-- a SVG icon
-- a 192x192px PNG icon
+- an SVG icon
+- an 192x192px PNG icon
 - ComponentInfo(s) of the target app ([?](#gathering-componentinfo))
 
 ## Info
@@ -168,7 +168,7 @@ You may use these tools to find each app's СomponentInfo(s):
 
 ### Rules
 
-- Canvas must be 192x192px, the icon size according to the template below
+- Canvas size must be 192x192px, the icon size according to the template below
 - If the original logo doesn't contain small details or doesn't make up most of the background layer (circle/square/etc.) as designed, keep the logo size between 73-80px
 
 |<img src="https://github.com/Delta-Icons/android/raw/master/resources/templates/template.svg" width="177" height="177">|<img src="https://github.com/Delta-Icons/android/raw/master/resources/templates/template_tutorial.svg" width="547,705" height="600">|
