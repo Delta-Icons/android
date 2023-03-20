@@ -380,6 +380,35 @@ lcl_paiement_mobile:
 lcl_pro_entreprises:
   - fr.lcl.android.entreprise/fr.lcl.android.entreprise.ui.activities.AuthenticationActivity
 
+atomic:
+  - com.jlindemann.science/com.jlindemann.science.activities.SplashActivity
+
+crypto:
+  - com.kokoschka.michael.crypto/com.kokoschka.michael.crypto.ui.views.MainActivity 
+
+disconnect:
+  - com.porg.blocker/com.porg.blocker.MainActivity
+
+disconnect_alt: {}
+
+image_resizer:
+  - ru.tech.imageresizershrinker/ru.tech.imageresizershrinker.main_screen.MainActivity
+
+imprint:
+  - com.polywise.lucid/com.polywise.lucid.ui.screens.onboarding.OnboardingActivity
+
+ireader:
+  - ir.kazemcodes.infinityreader/org.ireader.app.MainActivity
+
+keyoxide:
+  - org.keyoxide.keyoxide/org.keyoxide.keyoxide_flutter.MainActivity
+
+wormhole:
+  - eu.heili.wormhole/eu.heili.wormhole.MainActivity
+
+xkcdviewer:
+  - de.stoupas.xkcd/de.stoupas.xkcd.MainActivity 
+
 lampa:
   - ru.twicker.lampa/ru.twicker.lampa.ui.MainActivity
 
