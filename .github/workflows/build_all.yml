@@ -256,7 +256,7 @@ jobs:
         fi
 
     - name: Sign builds
-      uses: r0adkll/sign-android-release@v1
+      uses: kevin-david/zipalign-sign-android-release@v1.1
       with:
         releaseDirectory: .
         signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
@@ -274,11 +274,19 @@ jobs:
           mv -v delta-play.aab ${{ env.filename }}.aab
         fi
 
-    - name: Upload APKs in Artifacts
+    - name: Upload APK in Artifacts
       uses: actions/upload-artifact@v3
       with:
         name: ${{ env.filename }}
-        path: '${{ env.filename }}*.apk'
+        path: ${{ env.filename }}.apk
+        retention-days: 90
+
+    - name: Upload FOSS APK in Artifacts
+      uses: actions/upload-artifact@v3
+      if: inputs.build_foss == true
+      with:
+        name: ${{ env.filename }}-foss
+        path: ${{ env.filename }}-foss.apk
         retention-days: 90
 
     - name: Upload AAB in Google Play beta channel
