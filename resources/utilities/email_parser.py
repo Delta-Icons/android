@@ -64,7 +64,7 @@ def parseExisting():
 			elementInfo = req.groupdict()
 			apps[elementInfo['ComponentInfo']] = elementInfo
 			apps[elementInfo['ComponentInfo']]['requestDate'] = float(elementInfo['requestDate']) if elementInfo['requestDate'] is not None else mktime(currentDate.timetuple())
-			apps[elementInfo['ComponentInfo']]['count'] = int(elementInfo['count'])
+			apps[elementInfo['ComponentInfo']]['count'] = int(elementInfo['count']) if int(elementInfo['count']) >= 1 else 1
 			apps[elementInfo['ComponentInfo']]['senders'] = []
 
 def parseMails():
@@ -171,11 +171,12 @@ def writeOutput():
 			fileTwo.write(''.join(updatable))
 
 def main():
+	global apps
 	if len(argv) > 2:
 		parseExisting()
 	filterOld()
 	parseMails()
-	sorted(apps.values(), key=lambda item: item['count'], reverse=True)
+	apps = dict(sorted(apps.items(), key=lambda item: item[1]['count'], reverse=True))
 	separateupdatable()
 	writeOutput()
 
