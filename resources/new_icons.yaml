@@ -8,18 +8,60 @@
 #
 # new_icon_2_alt_1: {}
 #
+
 amazon_workspaces:
-   - com.amazon.workspaces/crc64047a0d770568f918.MainActivity
+  - com.amazon.workspaces/crc64047a0d770568f918.MainActivity
+
 equate:
-   - com.llamacorp.equate/com.llamacorp.equate.view.CalcActivity
+  - com.llamacorp.equate/com.llamacorp.equate.view.CalcActivity
+
 freezeyou:
-   - cf.playhi.freezeyou/cf.playhi.freezeyou.ThirdIcon
-   - cf.playhi.freezeyou/cf.playhi.freezeyou.MainActivity
+  - cf.playhi.freezeyou/cf.playhi.freezeyou.ThirdIcon
+  - cf.playhi.freezeyou/cf.playhi.freezeyou.MainActivity
+
 hushed:
-   - com.hushed.release/com.hushed.base.landing.SplashActivity
+  - com.hushed.release/com.hushed.base.landing.SplashActivity
+
 pagerduty:
-   - com.pagerduty.android/com.pagerduty.android.feature.main.view.ui.MainActivity
+  - com.pagerduty.android/com.pagerduty.android.feature.main.view.ui.MainActivity
+
 sensi:
-   - com.asynchrony.emerson.sensi/com.emerson.sensi.splash.SplashActivity
+  - com.asynchrony.emerson.sensi/com.emerson.sensi.splash.SplashActivity
+
 towaste:
-   - ca.toronto.torontowastewizard/ca.toronto.torontowastewizard.presentation.start.SplashActivity
+  - ca.toronto.torontowastewizard/ca.toronto.torontowastewizard.presentation.start.SplashActivity
+
+verifit:
+    - com.whatever.verifit/com.example.verifit.ui.MainActivity
+
+snipd:
+    - ai.topicfinder.podcastdiscovery/ai.topicfinder.podcastdiscovery.MainActivity
+
+setedit:
+    - io.github.muntashirakon.setedit/io.github.muntashirakon.setedit.EditorActivity
+
+oneshot:
+    - de.ptrlx.oneshot/de.ptrlx.oneshot.feature_diary.presentation.diary.MainActivity
+
+moshidon_nightly:
+    - org.joinmastodon.android.moshinda.nightly/org.joinmastodon.android.MainActivity
+
+moshidon_nightly_alt: {}
+
+moshidon_debug:
+    - org.joinmastodon.android.moshinda.debug/org.joinmastodon.android.MainActivity
+
+lowleveldetector:
+    - net.imknown.android.forefrontinfo/net.imknown.android.forefrontinfo.ui.MainActivity
+
+simple_alarm_clock:
+    - com.better.alarm/com.better.alarm.presenter.AlarmsListActivity
+
+clock_you:
+  - com.bnyro.clock/com.bnyro.clock.ui.MainActivity
+
+tasky:
+  - com.thatsmanmeet.taskyapp/com.thatsmanmeet.taskyapp.MainActivity
+
+wifi_widget:
+  - com.w2sv.wifiwidget/com.w2sv.wifiwidget.ui.screens.home.HomeActivity
