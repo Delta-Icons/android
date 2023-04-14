@@ -9,30 +9,30 @@
 # new_icon_2_alt_1: {}
 #
 verifit:
-    - com.whatever.verifit/com.example.verifit.ui.MainActivity
+  - com.whatever.verifit/com.example.verifit.ui.MainActivity
 
 snipd:
-    - ai.topicfinder.podcastdiscovery/ai.topicfinder.podcastdiscovery.MainActivity
+  - ai.topicfinder.podcastdiscovery/ai.topicfinder.podcastdiscovery.MainActivity
 
 setedit:
-    - io.github.muntashirakon.setedit/io.github.muntashirakon.setedit.EditorActivity
+  - io.github.muntashirakon.setedit/io.github.muntashirakon.setedit.EditorActivity
 
 oneshot:
-    - de.ptrlx.oneshot/de.ptrlx.oneshot.feature_diary.presentation.diary.MainActivity
+  - de.ptrlx.oneshot/de.ptrlx.oneshot.feature_diary.presentation.diary.MainActivity
 
 moshidon_nightly:
-    - org.joinmastodon.android.moshinda.nightly/org.joinmastodon.android.MainActivity
+  - org.joinmastodon.android.moshinda.nightly/org.joinmastodon.android.MainActivity
 
 moshidon_nightly_alt_1: {}
 
 moshidon_debug:
-    - org.joinmastodon.android.moshinda.debug/org.joinmastodon.android.MainActivity
+  - org.joinmastodon.android.moshinda.debug/org.joinmastodon.android.MainActivity
 
 lowleveldetector:
-    - net.imknown.android.forefrontinfo/net.imknown.android.forefrontinfo.ui.MainActivity
+  - net.imknown.android.forefrontinfo/net.imknown.android.forefrontinfo.ui.MainActivity
 
 simple_alarm_clock:
-    - com.better.alarm/com.better.alarm.presenter.AlarmsListActivity
+  - com.better.alarm/com.better.alarm.presenter.AlarmsListActivity
 
 clock_you:
   - com.bnyro.clock/com.bnyro.clock.ui.MainActivity
@@ -42,3 +42,27 @@ tasky:
 
 wifi_widget:
   - com.w2sv.wifiwidget/com.w2sv.wifiwidget.ui.screens.home.HomeActivity
+
+intellect:
+  - co.intellect.app/co.intellect.app.MainActivity
+
+accuradio:
+  - com.slipstream.accuradio/com.slipstream.accuradio.ui.NavigatorActivity
+
+audius:
+  - co.audius.app/co.audius.app.MainActivity
+
+elsa_speak:
+  - us.nobarriers.elsa/us.nobarriers.elsa.screens.launcher.LauncherActivity
+
+easy_japanese:
+  - mobi.eup.jpnews/mobi.eup.jpnews.activity.MainActivity
+
+atmosphere:
+  - com.peakpocketstudios.atmosphere/com.peakpocketstudios.atmosphere50.splashscreen.SplashScreenActivity
+
+atmosphere_lullaby:
+  - com.peakpocketstudios.atmospherelullaby/peakpocketstudios.com.atmospherelullaby.ActivitySplashScreen
+
+atmosphere_binaural_therapy:
+  - com.peakpocketstudios.atmospherebinauraltherapy/com.peakpocketstudios.atmospherebinauraltherapy.activities.Splash
