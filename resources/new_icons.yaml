@@ -11,9 +11,18 @@
 discover_killer:
   - com.kieronquinn.app.discoverkiller/com.kieronquinn.app.discoverkiller.ui.activities.MainActivity
 
+camera:
+  - com.shamim.cam/com.android.camera.CameraLauncher
+
+favo:
+  - app.flow.favo/com.unity3d.player.UnityPlayerActivity
+
 gallery_for_android:
   - com.dot.gallery/com.dot.gallery.MainActivity
 
+location_indicator_whitelist:
+  - fr.netstat.locationindicatorwhitelist/fr.netstat.locationindicatorwhitelist.MainActivity
+  
 musicmax:
   - com.maximillianleonov.musicmax/com.maximillianleonov.musicmax.MusicmaxActivity
 
