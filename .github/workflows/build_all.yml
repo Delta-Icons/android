@@ -225,7 +225,6 @@ jobs:
         fi
 
     - name: Sort drawables
-      if: inputs.release_type == 'prod'
       run: |
         python resources/utilities/sort_drawable.py app/src/main/assets/drawable.xml
         cp -v new_drawable.xml app/src/main/assets/drawable.xml
@@ -336,3 +335,9 @@ jobs:
       with:
         commit_message: 'Post-release cleanup'
         file_pattern: 'app/src/main/*'
+
+    - name: Update the website
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: deploy.yml
+        repo: ${{ github.repository_owner }}/delta-icons.github.io
