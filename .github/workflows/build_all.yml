@@ -341,3 +341,4 @@ jobs:
       with:
         workflow: deploy.yml
         repo: ${{ github.repository_owner }}/delta-icons.github.io
+        token: ${{ secrets.PA_TOKEN }}
