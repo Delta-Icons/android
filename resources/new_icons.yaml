@@ -9,6 +9,9 @@
 # new_icon_2_alt_1: {}
 #
 
+edeka:
+   - de.edeka.genuss/edeka.digital.app.edeka2020.ui.SplashActivity
+
 ac_unity:
    - com.ubisoft.assassin.unity.companion/com.nora.unity_custom_activity.NoraCustomActivity
    
@@ -165,6 +168,24 @@ voloco:
 pluot:
    - app.cordes.pluot/app.cordes.pluot.home.LaunchActivity
 
+_2fas:
+   - com.twofasapp/com.twofasapp.ui.main.StartActivity
+
+linkbox:
+   - me.loyko.ronald.linkbox/me.loyko.ronald.linkbox.MainActivity
+
+presently:
+   - journal.gratitude.com.gratitudejournal/journal.gratitude.com.gratitudejournal.ContainerActivity
+
+unitto:
+   - com.sadellie.unitto/com.sadellie.unitto.MainActivity
+
+ytdlnis:
+   - com.deniscerri.ytdl/com.deniscerri.ytdlnis.MainActivity
+
+stack:
+   - me.tylerbwong.stack/me.tylerbwong.stack.ui.MainActivity
+
 cmc_markets:
    - com.cmcmarkets.android.cfd/com.cmcmarkets.android.activities.InitialLoadingFragmentActivity
 
@@ -274,3 +295,15 @@ carinfo:
 
 basic_call_recorder:
   - com.chiller3.bcr/com.chiller3.bcr.SettingsActivity
+
+btech:
+   - com.btechapp/com.btechapp.presentation.ui.splash.SplashActivity
+   
+every_circuit:
+   - com.everycircuit.free/com.everycircuit.HomeLauncher
+   
+exodus_privacy:
+   - org.eu.exodus_privacy.exodusprivacy/org.eu.exodus_privacy.exodusprivacy.MainActivity
+   
+proto_circuit_simulator:
+   - com.proto.circuitsimulator/com.proto.circuitsimulator.splash.SplashActivity
