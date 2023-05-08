@@ -253,7 +253,7 @@ jobs:
         fi
 
     - name: Sign builds
-      uses: kevin-david/zipalign-sign-android-release@v1.1
+      uses: kevin-david/zipalign-sign-android-release@v1.1.1
       with:
         releaseDirectory: .
         signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
