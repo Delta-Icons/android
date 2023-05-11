@@ -31,9 +31,9 @@ content = '''\
 with open(target_file) as file:
     try:
         icons = sorted([(k,v) for k,v in yaml(file).items()])[::-1]
-    except:
-        print(f"'{basename(target_file)}' seems to be empty")
-        exit(0)
+    except Exception as error:
+        print(f"error: {error}")
+        exit(1)
 
 
 for icon in icons:
