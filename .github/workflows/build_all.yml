@@ -22,27 +22,6 @@ on:
         description: Publish in Google Play
         type: boolean
         default: true
-      optimize:
-        description: Optimize PNG
-        type: boolean
-        default: true
-      optimize_since:
-        description: Only PNGs since latest release
-        type: boolean
-        default: true
-      optimize_level:
-        description: Optimization level
-        type: choice
-        default: 2
-        options:
-        - 0
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7
       changelog_1:
         description: Changelog line 1
       changelog_2:
@@ -207,21 +186,15 @@ jobs:
 
 
     - name: Optimize PNGs
-      if: inputs.optimize == true
       continue-on-error: true
       run: |
-        if [[ ${{ inputs.optimize_since }} == true ]]; then
-          latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
-          echo "> Latest tag is $latest_tag"
-          if [[ $latest_tag ]]; then
-            echo '> Optimizing PNGs since last release'
-            git diff --name-only $latest_tag -- '***.png' | xargs -P 50 optipng -o${{ inputs.optimize_level }}
-          else
-            echo '> No release found, skip optimizing'
-          fi
+        latest_tag=$(git tag --sort version:refname | grep -v "beta" | tail -n 1)
+        echo "Latest tag is $latest_tag"
+        if [[ $latest_tag ]]; then
+          echo "Optimizing PNGs since last release"
+          git diff --name-only $latest_tag -- "***.png" | xargs -P 50 optipng -o2
         else
-          echo '> Optimizing all PNGs'
-          ls app/src/main/res/drawable-nodpi/*.png | xargs -P 50 optipng -o${{ inputs.optimize_level }}
+          echo 'No release found, skip optimizing'
         fi
 
     - name: Sort drawables
@@ -270,14 +243,14 @@ jobs:
           mv -v delta-play.aab ${{ env.filename }}.aab
         fi
 
-    - name: Upload APK in Artifacts
+    - name: Upload APK to Artifacts
       uses: actions/upload-artifact@v3
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk
         retention-days: 90
 
-    - name: Upload FOSS APK in Artifacts
+    - name: Upload APK FOSS to Artifacts
       uses: actions/upload-artifact@v3
       if: inputs.build_foss == true
       with:
@@ -285,7 +258,7 @@ jobs:
         path: ${{ env.filename }}-foss.apk
         retention-days: 90
 
-    - name: Upload AAB in Google Play beta channel
+    - name: Upload AAB to Google Play beta channel
       uses: r0adkll/upload-google-play@v1.0.19
       if: inputs.publish == true
       with:
