@@ -29,22 +29,23 @@ content = '''\
 
 
 with open(target_file) as file:
-    try:
-        icons = sorted([(k,v) for k,v in yaml(file).items()])[::-1]
-    except Exception as error:
-        print(f"error: {error}")
-        exit(1)
-
-
-for icon in icons:
-    drawable = icon[0]
-    compinfos = ' '.join(icon[1])
-    command = f'python {target_script} -P {delta_dir} -raidI -n {drawable}'
-    if compinfos: command += f' -c {compinfos}'
-    else: command += f' -C Alts'
-    execute(command)
-    if not icons[-1][0] == drawable: print()
-
-
-with open(target_file, 'w', newline='') as file:
-    file.write(content)
+    file_parsed = yaml(file)
+    if file_parsed is not None:
+        try:
+            icons = sorted([(k,v) for k,v in file_parsed.items()])[::-1]
+            for icon in icons:
+                drawable = icon[0]
+                compinfos = ' '.join(icon[1])
+                command = f'python {target_script} -P {delta_dir} -raidI -n {drawable}'
+                if compinfos: command += f' -c {compinfos}'
+                else: command += f' -C Alts'
+                print(f'> {drawable}')
+                execute(command)
+                if not icons[-1][0] == drawable: print()
+            with open(target_file, 'w', newline='') as file:
+                file.write(content)
+        except Exception as error:
+            print(error)
+            exit(1)
+    else:
+        print(f'warn: looks like {basename(target_file)} is empty')

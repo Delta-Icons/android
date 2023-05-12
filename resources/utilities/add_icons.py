@@ -169,7 +169,7 @@ else: out.info('started in dry mode')
 
 if include_drawable:
     filename = 'drawable.xml'
-    with open(drawable_files[0], 'r+', newline=blank) as file:
+    with open(drawable_files[0], 'r+', encoding='utf-8', newline=blank) as file:
         content = file.read()
         drawable_entry = f'<item drawable="{name}" />'
         categories = ['<category title="New" />', f'<category title="{category}" />']
@@ -238,7 +238,7 @@ if include_appfilter:
     filename = 'appfilter.xml'
     if not compinfos: out.warn(f'{filename}: no compinfos passed')
     else:
-        with open(appfilter_files[0], 'r+', newline=blank) as file:
+        with open(appfilter_files[0], 'r+', encoding='utf-8', newline=blank) as file:
             content = file.read()
             pattern = '</resources>'
             replace = blank
@@ -266,7 +266,7 @@ if include_requests:
     filename = 'requests.txt'
     if not compinfos: out.warn(f'{filename}: no compinfos passed')
     else:
-        with open(requests_file, 'r+', newline=blank) as file:
+        with open(requests_file, 'r+', encoding='utf-8', newline=blank) as file:
             content = file.read()
             lines = []
             lines_count = 0
