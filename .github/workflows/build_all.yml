@@ -124,7 +124,7 @@ jobs:
 
     - name: Add new icons
       run: |
-        python resources/utilities/add_icons_wrapper.py
+        python -u resources/utilities/add_icons_wrapper.py
 
     - name: Create a changelog and set custom icons count
       run: |
