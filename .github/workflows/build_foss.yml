@@ -13,6 +13,8 @@ on:
         default: 100000
         required: true
 
+concurrency: ${{ github.ref }}
+
 env:
   filename: delta-v${{ inputs.version_name }}-foss
 

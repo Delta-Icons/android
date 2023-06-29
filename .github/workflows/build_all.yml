@@ -4,6 +4,8 @@ run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
 permissions:
   contents: write
 
+concurrency: ${{ github.ref }}
+
 on:
   workflow_dispatch:
     inputs:
