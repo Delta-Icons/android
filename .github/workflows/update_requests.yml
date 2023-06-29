@@ -4,6 +4,8 @@ run-name: requests @ ${{ github.sha }}
 permissions:
   contents: write
 
+concurrency: ${{ github.ref }}
+
 on:
   workflow_dispatch:
 
