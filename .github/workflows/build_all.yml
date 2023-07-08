@@ -194,7 +194,7 @@ jobs:
         echo "Latest tag is $latest_tag"
         if [[ $latest_tag ]]; then
           echo "Optimizing PNGs since last release"
-          git diff --name-only $latest_tag -- "***.png" | xargs -P 50 optipng -o2
+          optipng $(git diff --name-only $latest_tag -- "***.png")
         else
           echo 'No release found, skip optimizing'
         fi
