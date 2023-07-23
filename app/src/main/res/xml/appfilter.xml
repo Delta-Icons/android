@@ -1480,7 +1480,7 @@
 	<item component="ComponentInfo{com.august.luna/com.august.luna.ui.startup.LandingPage}" drawable="august" />
 	<item component="ComponentInfo{com.aurora.adroid/com.aurora.adroid.ui.generic.activity.SplashActivity}" drawable="aurora_droid" />
 	<item component="ComponentInfo{com.aurora.services/com.aurora.services.view.ui.activities.AuroraActivity}" drawable="aurora_services" />
-	<item component="ComponentInfo{com.aurora.store.nightly/com.aurora.store.view.ui.onboarding.OnboardingActivity}" drawable="aurora_store" />
+	<item component="ComponentInfo{com.aurora.store.nightly/com.aurora.store.view.ui.onboarding.OnboardingActivity}" drawable="aurora_store_nightly" />
 	<item component="ComponentInfo{com.aurora.store/com.aurora.store.ui.single.activity.SplashActivity}" drawable="aurora_store" />
 	<item component="ComponentInfo{com.aurora.store/com.aurora.store.view.ui.onboarding.OnboardingActivity}" drawable="aurora_store" />
 	<item component="ComponentInfo{com.aurora.warden/com.aurora.warden.ui.activities.AuroraActivity}" drawable="warden" />
@@ -11901,7 +11901,7 @@
 	<item component="ComponentInfo{com.chiller3.rsaf/com.chiller3.rsaf.SettingsActivity}" drawable="rsaf" />
 	<item component="ComponentInfo{alarm.clock.calendar.reminder.pro/home.Activity_List}" drawable="reminder_pro" />
 	<item component="ComponentInfo{com.skyd.raca/com.skyd.raca.ui.activity.MainActivity}" drawable="raca" />
-	<item component="ComponentInfo{com.thehcj.quacker/com.jonjomckay.fritter.MainActivity}" drawable="squawker" />
+	<item component="ComponentInfo{com.thehcj.quacker/com.jonjomckay.fritter.MainActivity}" drawable="quacker" />
 	<item component="ComponentInfo{org.ca.squawkerorg.ca.squawker.MainActivity}" drawable="squawker" />
 	<item component="ComponentInfo{at.paysafecard.android/at.paysafecard.android.LauncherActivity}" drawable="paysafecard" />
 	<item component="ComponentInfo{com.skyd.nightscreen/com.skyd.nightscreen.ui.activity.MainActivity}" drawable="nightscreen" />
@@ -12083,4 +12083,5 @@
 	<item component="ComponentInfo{com.apex.plus/com.apex.plus.MainActivity}" drawable="apex_pro" />
 	<item component="ComponentInfo{com.kl3jvi.animity/com.kl3jvi.animity.ui.activities.login.LoginActivity}" drawable="animity" />
 	<item component="ComponentInfo{tech.laihz.alga.arm64/tech.laihz.alga.MainActivity}" drawable="alga" />
+	<item component="ComponentInfo{com.aurora.store.nightly/com.aurora.store.MainActivity}" drawable="aurora_store_nightly" />
 </resources>
