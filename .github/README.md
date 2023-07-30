@@ -1,20 +1,15 @@
 <p align="center">
-  <img width="200" src="https://github.com/Delta-Icons/android/raw/master/resources/branding/logo.svg"/>
+  <img width="200" src="./header.svg"/>
 </p>
 
-<h2 align="center" padding="100">Delta Icons</h2>
-
-<p align="center">Minimalistic pastel icon pack for Android</p>
-
-
-## Installation
+<h2 align="center" padding="100">Delta Icons for Android</h2>
 
 <p align="center">
-  <a href="https://github.com/Delta-Icons/android/releases/latest">
+  <a href="../../../releases/latest">
     <img src="https://img.shields.io/github/v/release/Delta-Icons/android?labelColor=56595b&color=a6c6ff&logo=github&logoColor=ffffff&label=release&style=for-the-badge"/>
   </a>
 
-  <a href="https://github.com/Delta-Icons/android/releases">
+  <a href="../../../releases">
     <img src="https://img.shields.io/github/v/release/Delta-Icons/android?labelColor=56595b&color=f8c28d&logo=github&logoColor=ffffff&include_prereleases&label=beta&style=for-the-badge"/>
   </a>
 
@@ -29,7 +24,7 @@
 
 ## Contributing
 
-Please refer to **[contribution guidelines](https://github.com/Delta-Icons/android/blob/master/.github/CONTRIBUTING.md)**.
+Please refer to **[contribution guidelines](./CONTRIBUTING.md)**.
 
 
 ## Discord

@@ -12,10 +12,8 @@ on:
         description: Version code
         default: 100000
         required: true
-      sign:
-        description: Sign APK
-        default: false
-        type: boolean
+
+concurrency: ${{ github.ref }}
 
 env:
   filename: delta-v${{ inputs.version_name }}-foss
@@ -33,7 +31,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         distribution: temurin
-        java-version: 17
+        java-version: 18
 
     - name: Install dependencies
       run: |
@@ -41,7 +39,7 @@ jobs:
 
     - name: Add new icons
       run: |
-        python resources/utilities/add_icons_wrapper.py
+        python -u resources/utilities/add_icons_wrapper.py
 
     - name: Change version
       run: |
@@ -97,16 +95,8 @@ jobs:
     - name: Move unsigned APK
       run: mv -v app/build/outputs/apk/foss/release/*.apk ${{ env.filename }}-unsigned.apk
 
-    - name: Upload unsigned APK in Artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: ${{ env.filename }}-unsigned
-        retention-days: 7
-        path: ${{ env.filename }}-unsigned.apk
-
     - name: Sign APK
-      uses: kevin-david/zipalign-sign-android-release@v1.1
-      if: inputs.sign == true
+      uses: kevin-david/zipalign-sign-android-release@v1.1.1
       id: sign_step
       with:
         releaseDirectory: .
@@ -116,13 +106,11 @@ jobs:
         alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
 
     - name: Move signed APK
-      if: inputs.sign == true
-      run: mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}-signed.apk
+      run: mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}.apk
 
     - name: Upload signed APK in Artifacts
       uses: actions/upload-artifact@v3
-      if: inputs.sign == true
       with:
-        name: ${{ env.filename }}-signed
+        name: ${{ env.filename }}
         retention-days: 7
-        path: ${{ env.filename }}-signed.apk
+        path: ${{ env.filename }}.apk

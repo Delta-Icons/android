@@ -4,6 +4,8 @@ run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
 permissions:
   contents: write
 
+concurrency: ${{ github.ref }}
+
 on:
   workflow_dispatch:
     inputs:
@@ -22,27 +24,6 @@ on:
         description: Publish in Google Play
         type: boolean
         default: true
-      optimize:
-        description: Optimize PNG
-        type: boolean
-        default: true
-      optimize_since:
-        description: Only PNGs since latest release
-        type: boolean
-        default: true
-      optimize_level:
-        description: Optimization level
-        type: choice
-        default: 2
-        options:
-        - 0
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7
       changelog_1:
         description: Changelog line 1
       changelog_2:
@@ -68,7 +49,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         distribution: temurin
-        java-version: 17
+        java-version: 18
 
     - name: Install dependencies
       run: |
@@ -143,7 +124,7 @@ jobs:
 
     - name: Add new icons
       run: |
-        python resources/utilities/add_icons_wrapper.py
+        python -u resources/utilities/add_icons_wrapper.py
 
     - name: Create a changelog and set custom icons count
       run: |
@@ -207,25 +188,18 @@ jobs:
 
 
     - name: Optimize PNGs
-      if: inputs.optimize == true
       continue-on-error: true
       run: |
-        if [[ ${{ inputs.optimize_since }} == true ]]; then
-          latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
-          echo "> Latest tag is $latest_tag"
-          if [[ $latest_tag ]]; then
-            echo '> Optimizing PNGs since last release'
-            git diff --name-only $latest_tag -- '***.png' | xargs -P 50 optipng -o${{ inputs.optimize_level }}
-          else
-            echo '> No release found, skip optimizing'
-          fi
+        latest_tag=$(git tag --sort version:refname | grep -v "beta" | tail -n 1)
+        echo "Latest tag is $latest_tag"
+        if [[ $latest_tag ]]; then
+          echo "Optimizing PNGs since last release"
+          optipng $(git diff --name-only $latest_tag -- "***.png")
         else
-          echo '> Optimizing all PNGs'
-          ls app/src/main/res/drawable-nodpi/*.png | xargs -P 50 optipng -o${{ inputs.optimize_level }}
+          echo 'No release found, skip optimizing'
         fi
 
     - name: Sort drawables
-      if: inputs.release_type == 'prod'
       run: |
         python resources/utilities/sort_drawable.py app/src/main/assets/drawable.xml
         cp -v new_drawable.xml app/src/main/assets/drawable.xml
@@ -253,7 +227,7 @@ jobs:
         fi
 
     - name: Sign builds
-      uses: kevin-david/zipalign-sign-android-release@v1.1
+      uses: kevin-david/zipalign-sign-android-release@v1.1.1
       with:
         releaseDirectory: .
         signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
@@ -271,14 +245,14 @@ jobs:
           mv -v delta-play.aab ${{ env.filename }}.aab
         fi
 
-    - name: Upload APK in Artifacts
+    - name: Upload APK to Artifacts
       uses: actions/upload-artifact@v3
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk
         retention-days: 90
 
-    - name: Upload FOSS APK in Artifacts
+    - name: Upload APK FOSS to Artifacts
       uses: actions/upload-artifact@v3
       if: inputs.build_foss == true
       with:
@@ -286,7 +260,7 @@ jobs:
         path: ${{ env.filename }}-foss.apk
         retention-days: 90
 
-    - name: Upload AAB in Google Play beta channel
+    - name: Upload AAB to Google Play beta channel
       uses: r0adkll/upload-google-play@v1.0.19
       if: inputs.publish == true
       with:
@@ -336,3 +310,10 @@ jobs:
       with:
         commit_message: 'Post-release cleanup'
         file_pattern: 'app/src/main/*'
+
+    - name: Update the website
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: deploy.yml
+        repo: ${{ github.repository_owner }}/delta-icons.github.io
+        token: ${{ secrets.PA_TOKEN }}

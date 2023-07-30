@@ -9,8 +9,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 179000
-		versionName "1.7.9-beta0"
+		versionCode 182001
+		versionName "1.8.2-beta1"
 		multiDexEnabled true
 
 		// Naming app bundles
@@ -67,6 +67,6 @@ dependencies {
      * If you've missed some versions you've to also follow update guide for those versions
      */
 
-	playImplementation 'com.github.zixpo:candybar:3.16.2'
-	fossImplementation 'com.github.Donnnno:candybar-foss:3.16.2'
+	playImplementation 'com.github.zixpo:candybar:3.18.3'
+	fossImplementation 'com.github.Donnnno:candybar-foss:3.18.3'
 }

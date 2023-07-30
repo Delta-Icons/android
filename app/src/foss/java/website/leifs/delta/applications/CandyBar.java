@@ -2,8 +2,15 @@ package website.leifs.delta.applications;
 
 import androidx.annotation.NonNull;
 import candybar.lib.applications.CandyBarApplication;
+import website.leifs.delta.R;
 
 public class CandyBar extends CandyBarApplication {
+
+    @NonNull
+    @Override
+    public Class<?> getDrawableClass() {
+        return R.drawable.class;
+    }
 
     @NonNull
     @Override
@@ -12,7 +19,7 @@ public class CandyBar extends CandyBarApplication {
         Configuration configuration = new Configuration();
 
         configuration.setAutomaticIconsCountEnabled(false);
-        configuration.setCustomIconsCount(8243);
+        configuration.setCustomIconsCount(8658);
         configuration.setDashboardThemingEnabled(false);
         configuration.setGenerateAppFilter(true);
         configuration.setGenerateAppMap(false);
