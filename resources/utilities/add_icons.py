@@ -311,7 +311,7 @@ try:
             target = icons_dst_files[index]
             folder = 'vectors' if format == 'svg' else 'drawable-nodpi'
             if not exists(source): out.warn(f"{filename}: not found in '{basename(icons_dir)}'")
-            elif exists(target): out.warn(f"{filename}: found in '{folder}'")
+            elif exists(target): out.fail(f"{filename}: found in '{folder}'")
             else:
                 git_arguments += [target]
                 diff = compare(source, target) if exists(target) else False
@@ -343,7 +343,7 @@ try:
                 for line in diff: out.verb(text=line.strip(), code=out.reset)
             changes = True
         else: out.warn('git: no changes to commit')
-    if not changes: out.warn('nothing to do')
+    if not changes: out.fail('nothing to do')
     else:
         if dry_run: out.info(f'yay, I can do something!')
         else: out.info(f'yay, I did something!')
