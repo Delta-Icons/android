@@ -8,3 +8,18 @@
 #
 # new_icon_2_alt_1: {}
 #
+
+termux:
+  - com.termux.tasker/com.termux.tasker.activities.TermuxTaskerActivity
+
+winamp:
+  - com.winamp.release/com.winamp.winamp.activities.MainActivity
+
+winamp_alt_1: {}
+
+vk_x:
+  - ua.itaysonlab.vkx/ua.itaysonlab.vkx.VkxIcon
+
+wolfram_alpha:
+  - com.wolfram.android.alpha/com.wolfram.android.alphalibrary.activity.WolframAlphaActivity
+  - com.wolfram.android.alphapro/com.wolfram.android.alphapro.activity.ProUserOnBoardingActivity
