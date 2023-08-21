@@ -25,7 +25,10 @@ wolfram_alpha:
   - com.wolfram.android.alphapro/com.wolfram.android.alphapro.activity.ProUserOnBoardingActivity
 
 day_one:
- - com.dayoneapp.dayone/com.dayoneapp.dayone.main.SplashActivity
+  - com.dayoneapp.dayone/com.dayoneapp.dayone.main.SplashActivity
 
 flow_launcher:
- - com.app.flowlauncher/com.app.flowlauncher.homeScreen.HomeActivity
+  - com.app.flowlauncher/com.app.flowlauncher.homeScreen.HomeActivity
+
+sync:
+  - io.syncapps.lemmy_sync/io.syncapps.lemmy_sync.ui.activities.HomeActivity.Default
