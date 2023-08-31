@@ -61,10 +61,11 @@ with open(target_file) as file:
                 drawable = icon[0]
                 compinfos = ' '.join(icon[1])
                 command = f'python {target_script} -P {delta_dir} -raidI -n {drawable}'
-                if compinfos: command += f' -c {compinfos}'
-                else:
+                if compinfos:
+                    command += f' -c {compinfos}'
                     if drawable.startswith('google_'): command += f' -C Google'
-                    else: command += f' -C Alts'
+                else:
+                    command += f' -C Alts'
                 print(f'> {drawable}')
                 execute(command)
                 if not icons[-1][0] == drawable: print()
