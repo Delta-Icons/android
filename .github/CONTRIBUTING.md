@@ -156,6 +156,10 @@ If the existing icon rebranded, don't overwrite it with a new one, do the follow
 - [Now](https://www.1001fonts.com/now-font.html?text=Delta%20Icons) (Sans-serif) — <u>main font</u>; use Now Alt from the same family for alternate lowercase 'a' letter
 - [Aleo](https://www.1001fonts.com/aleo-font.html?text=Delta%20Icons) (Serif) — use it only when Serif is needed
 
+## Requests
+
+If you wanna help close icon requests from users, you can take a look at [resources/requests.txt](../../../tree/master/resources/requests.txt) where all requests are stored. The file updates periodically.
+
 ## Gathering ComponentInfo
 
 ComponentInfo is what your launcher uses to know which apps get which icons in our icon pack.
