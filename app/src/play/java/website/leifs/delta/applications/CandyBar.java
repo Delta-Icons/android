@@ -28,7 +28,9 @@ public class CandyBar extends CandyBarApplication {
         configuration.setShadowEnabled(false);
         configuration.setShowTabAllIcons(true);
         configuration.setTabAllIconsTitle("All");
-
+        configuration.setExcludedCategoryForSearch(new String[] {
+            "New"
+        });
         configuration.setCategoryForTabAllIcons(new String[] {
             "Google", "System", "Folders", "Calendar", "Alts", "#",
             "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
