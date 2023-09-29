@@ -35,6 +35,12 @@ public class CandyBar extends CandyBarApplication {
             "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
         });
 
+        configuration.setFilterRequestHandler((request) -> {
+            String pkg = request.getPackageName();
+            if (pkg == null) return true;
+            return !(pkg.startsWith("org.chromium.webapk") || pkg.startsWith("com.sec.android.app.sbrowser.webapk"));
+        });
+
         return configuration;
     }
 }
