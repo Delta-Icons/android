@@ -65,7 +65,8 @@ with open(target_file) as file:
                     command += f' -c {compinfos}'
                     if drawable.startswith('google_'): command += f' -C Google'
                 else:
-                    command += f' -C Alts'
+                    if '_alt_' in drawable:
+                        command += f' -C Alts'
                 print(f'> {drawable}')
                 execute(command)
                 if not icons[-1][0] == drawable: print()

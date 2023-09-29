@@ -168,26 +168,6 @@ gltool:
 revanced_manager:
   - app.rvx.manager.flutter/app.revanced.manager.flutter.MainActivity
 
-youtube:
-  - org.chromium.webapk.afbcbfcece0dde55a_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity
-
-unsplash:
-  - org.chromium.webapk.ad028895249ab63e3_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity
-
-twitter:
-  - org.chromium.webapk.a687728b904321974_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity
-  - org.chromium.webapk.aaced1d34b1015ca6_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity
-
-reddit:
-  - org.chromium.webapk.a260d4e42c34742fb_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity
-  - org.chromium.webapk.a63f7f6497c7d8414_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity
-
-microsoft_outlook:
-  - org.chromium.webapk.a59c92e66e5d89822_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity
-
-pinterest:
-  - org.chromium.webapk.a131b8dd5b6604b28_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity
-
 alzubda:
   - com.live.alzubda.newsapp/com.live.alzubda.newsapp.MainActivity
 
@@ -212,7 +192,7 @@ play_deals:
 relabs:
   - io.aayush.relabs/io.aayush.relabs.MainActivity
 
-windy:
+windy_weather:
   - com.techyminati.windy/com.techyminati.windy.MainActivity
 
 flipper_zero:
@@ -248,14 +228,28 @@ timeuntil:
 aware:
   - org.twentyninek.app.cupcake/org.twentyninek.app.cupcake.MainActivity
 
-forest:
+forest_focus:
   - pl.bk20.forest/pl.bk20.forest.core.presentation.SplashActivity
 
-anilist:
-  - pwa.dummy/pwa.dummy
+anilist: {}
 
-cryptee:
-  - pwa.dummy/pwa.dummy
+cryptee: {}
+
+amarok:
+  - deltazero.amarok/deltazero.amarok.ui.MainActivity
+  - deltazero.amarok.foss/deltazero.amarok.launcher.default
+
+calces:
+  - advanced.scientific.calculator.calc991.plus/advanced.scientific.calculator.calc991.plus.splash.SplashScreenActivity
+
+keepassdx_unlocker:
+  - com.kunzisoft.keepass.pro/com.kunzisoft.keepass.pro.ContributorActivity
+
+keepassdx_key_driver:
+  - com.kunzisoft.hardware.key/com.kunzisoft.hardware.key.SettingActivity
+
+db_navigator:
+  - de.hafas.android.db/db.vendo.android.vendigator.view.main.MainActivity
 
 ayugram:
   - com.radolyn.ayugram/com.exteragram.messenger.DefaultIcon
