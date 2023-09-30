@@ -161,6 +161,8 @@ jobs:
         EOF
 
         if [[ '${{ inputs.release_type }}' == 'prod' ]]; then
+          echo "- Fixed icons not applying properly" >> $changelog_txt
+          echo "        <item>Fixed icons not applying properly</item>" >> $changelog_xml
           for n in $(seq 1 4); do
             changelog="changelog_${n}"
             if [ ! -z "${!changelog}" ]; then
