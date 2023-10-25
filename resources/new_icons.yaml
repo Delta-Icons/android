@@ -26,5 +26,8 @@ dantotsu:
 futo_voice_input:
   - org.futo.voiceinput/org.futo.voiceinput.settings.SettingsActivity
 
-yuzu:
+yuzu_emulator:
   - org.yuzu.yuzu_emu/org.yuzu.yuzu_emu.ui.main.MainActivity
+
+yuzu_emulator_early_access:
+  - org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.ui.main.MainActivity
