@@ -1,0 +1,23 @@
+name: Conflicts Check
+run-name: Conflicts Check @ ${{ github.sha }}
+
+on:
+  push:
+    paths:
+      - 'resources/utilities/icons/**'
+      - 'resources/new_icons.yaml'
+
+jobs:
+  build:
+    name: Conflicts Check
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: sudo pip install -r resources/utilities/requirements.txt
+
+    - name: Add new icons
+      run: python -u resources/utilities/add_icons_wrapper.py
