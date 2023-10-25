@@ -26,8 +26,18 @@ dantotsu:
 futo_voice_input:
   - org.futo.voiceinput/org.futo.voiceinput.settings.SettingsActivity
 
-yuzu:
+yuzu_emulator:
   - org.yuzu.yuzu_emu/org.yuzu.yuzu_emu.ui.main.MainActivity
+
+yuzu_emulator_early_access:
+  - org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.ui.main.MainActivity
+
+peercoin_wallet:
+  - com.coinerella.peercoin/com.coinerella.peercoin.MainActivity
+
+buienradar:
+  - com.supportware.Buienradar/nl.rtl.buienradar.main.MainActivity
 
 habitnow:
   - com.habitnow/com.habit.now.apps.activities.splashActivity.StartingActivity
+
