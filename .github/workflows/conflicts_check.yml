@@ -2,10 +2,12 @@ name: Conflicts Check
 run-name: conflicts @ ${{ github.sha }}
 
 on:
-  push:
+  pull_request:
     paths:
       - 'resources/utilities/icons/**'
       - 'resources/new_icons.yaml'
+      - 'resources/vectors/**'
+      - 'app/src/main/rec/drawable-nodpi/**'
 
 jobs:
   build:
