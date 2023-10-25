@@ -1,5 +1,5 @@
 name: Conflicts Check
-run-name: Conflicts Check @ ${{ github.sha }}
+run-name: conflicts @ ${{ github.sha }}
 
 on:
   push:
