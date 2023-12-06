@@ -41,3 +41,30 @@ ente_auth:
 
 terminal:
   - com.termux.nix/com.termux.app.TermuxActivity
+
+aster_launcher:
+  - com.series.aster.launcher/com.series.aster.launcher.ui.activities.MainActivity
+
+colorblendr:
+  - com.drdisagree.colorblendr/com.drdisagree.colorblendr.ui.activities.MainActivity
+
+kanji_dojo:
+  - ua.syt0r.kanji.fdroid/ua.syt0r.kanji.presentation.screen.main.FdroidMainActivity
+
+oss_document_scanner:
+  - com.akylas.documentscanner/com.akylas.documentscanner.MainActivity
+
+retro_stack:
+  - ro.hume.cosmin.retrostack/ro.hume.cosmin.retrostack.AndroidLauncher
+
+save_locally:
+  - com.mateusrodcosta.apps.share2storage/com.mateusrodcosta.apps.share2storage.MainActivity
+
+solitaire_cg_re:
+  - net.sourceforge.solitaire_cg_re/net.sourceforge.solitaire_cg_re.SolitaireCGRE
+
+timeplanner:
+  - ru.aleshin.timeplanner/ru.aleshin.timeplanner.presentation.ui.main.MainActivity
+
+yatoo:
+  - com.paultirk.yatoo/com.paultirk.yatoo.MainActivity
