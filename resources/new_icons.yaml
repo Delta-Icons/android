@@ -226,34 +226,64 @@ unchained:
   - com.github.livingwithhippos.unchained/com.github.livingwithhippos.unchained.base.MainActivity
 
 bigin:
-- com.zoho.bigin/com.zoho.ignite.setup.splashscreen.SplashScreenActivity
+  - com.zoho.bigin/com.zoho.ignite.setup.splashscreen.SplashScreenActivity
 
 campaigns:
-- com.zoho.campaigns/com.zoho.campaigns.LauncherActivity
+  - com.zoho.campaigns/com.zoho.campaigns.LauncherActivity
 
 creator:
-- com.zoho.creator.a/com.zoho.creator.a.SplashScreen
+  - com.zoho.creator.a/com.zoho.creator.a.SplashScreen
 
 qntrl:
-- com.zoho.blueprint/com.zoho.zohoflow.MainActivity
+  - com.zoho.blueprint/com.zoho.zohoflow.MainActivity
 
 show:
-- com.zoho.show.app/com.zoho.zohoshow.anzs.ShowListingActivity
+  - com.zoho.show.app/com.zoho.zohoshow.anzs.ShowListingActivity
 
 writer:
-- com.zoho.writer/com.zoho.writer.activity.LauncherActivity
+  - com.zoho.writer/com.zoho.writer.activity.LauncherActivity
 
 zoho_assist_customer:
-- com.zoho.assist.agent/com.zoho.assist.agent.activity.DialogActivity
+  - com.zoho.assist.agent/com.zoho.assist.agent.activity.DialogActivity
 
 zoho_billing:
-- com.zoho.zsm/com.zoho.invoice.launcher.MainActivity
+  - com.zoho.zsm/com.zoho.invoice.launcher.MainActivity
 
 zoho_expense:
-- com.zoho.expense/activities.MainActivity
+  - com.zoho.expense/activities.MainActivity
 
 zoho_forms:
-- com.zoho.forms.a/com.zoho.forms.a.SplashScreen
+  - com.zoho.forms.a/com.zoho.forms.a.SplashScreen
 
 zoho_inventory:
-- com.zoho.inventory/com.zoho.invoice.launcher.MainActivity
+  - com.zoho.inventory/com.zoho.invoice.launcher.MainActivity
+
+zoho_learn:
+  - com.zoho.learn/com.zoho.learn.activity.SplashScreenActivity
+
+zoho_meeting:
+  - com.zoho.meeting/com.zoho.meeting.view.activity.SplashActivity
+
+zoho_payroll:
+  - com.zoho.payroll/com.zoho.payroll.ui.launch.LauncherActivity
+
+zoho_sheet:
+  - com.zoho.sheet.android/com.zoho.sheet.android.doclisting.DocListingActivity
+
+zoho_social:
+  - com.zoho.zohosocial/com.zoho.zohosocial.login.view.RedirectingActivity
+
+zoho_sprints:
+  - com.zoho.sprints/com.zoho.sprints.MainActivity
+
+zoho_teaminbox:
+  - com.zoho.teaminbox/com.zoho.teaminbox.ui.SplashActivity
+
+zoho_todo:
+  - com.zoho.mail.task/com.zoho.mail.task.ui.activity.OnBoardingActivity
+
+zoho_vault:
+  - com.zoho.vault/com.zoho.vault.ui.login.WelcomeActivity
+
+zoho_webinar:
+  - com.zoho.webinar/com.zoho.webinar.view.activity.WebinarLaunchActivity
