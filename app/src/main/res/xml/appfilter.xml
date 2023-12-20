@@ -88,6 +88,7 @@
 	<calendar component="ComponentInfo{org.sufficientlysecure.localcalendar/org.sufficientlysecure.localcalendar.ui.MainActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendarplus.ACalendarPlus}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ree.calendar.schedule.reminder.todo.agenda.note.reminder.alarm/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
+	<calendar component="ComponentInfo{com.libremobileos.etar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="today_calendar_" />
 	<item component=":BROWSER" drawable="browser" />
 	<item component=":CALCULATOR" drawable="calculator" />
@@ -13189,4 +13190,6 @@
 	<item component="ComponentInfo{com.airlock.iam.a2fa/com.futurae.mobileapp.ui.home.HomeActivity}" drawable="airlock" />
 	<item component="ComponentInfo{com.adobe.ims.accountaccess/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="adobe_account_access" />
 	<item component="ComponentInfo{com.adda247.app/com.adda247.modules.home.HomeActivity}" drawable="adda247" />
+	<item component="ComponentInfo{org.eu.droid_ng.jellyfish/acr.browser.lightning.SplashActivity}" drawable="lineageos_jelly_browser" />
+	<item component="ComponentInfo{com.libremobileos.recorder/org.lineageos.recorder.RecorderActivity}" drawable="sound_recorder" />
 </resources>
