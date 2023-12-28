@@ -155,9 +155,8 @@ if include_icons and not ignore_errors:
 
 for compinfo in compinfos:
     match = re.search(r'^(.*?)\/[\w+.$]+', compinfo)
-    if match:
-        if compinfo != match.group(0):
-            out.fail(f"compinfo '{compinfo}' not looks valid")
+    if not match:
+        out.fail(f"compinfo '{compinfo}' not looks valid")
 
 include_all += include_requests
 
