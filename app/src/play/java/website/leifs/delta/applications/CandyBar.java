@@ -20,7 +20,7 @@ public class CandyBar extends CandyBarApplication {
 
         configuration.setAutomaticIconsCountEnabled(false);
         configuration.setCustomIconsCount(9833);
-        configuration.setDashboardThemingEnabled(false);
+        configuration.setDashboardThemingEnabled(true);
         configuration.setGenerateAppFilter(true);
         configuration.setGenerateAppMap(false);
         configuration.setGenerateThemeResources(true);

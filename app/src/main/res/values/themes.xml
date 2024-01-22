@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CandyBar.Theme.App.DayNight" parent="CandyBar.Theme.Base">
+        <item name="cb_colorPrimary">#ECECEC</item>
+        <item name="cb_colorPrimaryDark">#222</item>
+        <item name="cb_colorAccent">#9ABEFF</item>
+
+        <!-- Navigation Bar -->
+        <item name="cb_navigationBar">#56595B</item>
+
+        <!-- Splash Screen -->
+        <item name="cb_splashColor">#222222</item>
+
+        <!-- Navigation View -->
+        <item name="cb_navigationViewHeaderBackground">#00FFFFFF</item>
+        <item name="cb_navigationViewTitle">#414345</item>
+        <item name="cb_navigationViewTitleBack">#33000000</item>
+
+        <item name="cb_navigationViewText">#56595B</item>
+        <item name="cb_navigationViewTextSelected">#9ABEFF</item>
+        <item name="cb_navigationViewSelectedBackground">#222222</item>
+        <item name="cb_navigationViewRippleColor">#10000000</item>
+
+        <!-- Swipe Refresh -->
+        <item name="cb_swipeRefresh">#ff837d</item>
+
+        <!-- Tap Intro -->
+        <item name="cb_tapIntroTitle">?cb_mainBackground</item>
+        <item name="cb_tapIntroDescription">?cb_mainBackground</item>
+        <item name="cb_tapIntroCircleInner">?cb_primaryText</item>
+        <item name="cb_tapIntroCircleOuter">?cb_secondaryText</item>
+
+        <!-- Toolbar -->
+        <item name="cb_toolbarIcon">#FF56595B</item>
+
+        <!-- Tab -->
+        <item name="cb_tabIndicator">#9ABEFF</item>
+        <item name="cb_tabText">#56595B</item>
+        <item name="cb_tabTextSelected">#56595B</item>
+
+        <!-- Card -->
+        <item name="cb_cardBackground">#FFFFFF</item>
+        <item name="cb_cardStroke">#20000000</item>
+
+        <!-- Ripple -->
+        <item name="cb_rippleColor">#10000000</item>
+        <item name="cb_rippleAccent">#2243C0FF</item>
+
+        <!-- Attributes -->
+        <item name="cb_mainBackground">#ECECEC</item>
+        <item name="cb_primaryText">#56595B</item>
+        <item name="cb_secondaryText">#A0A5AF</item>
+
+        <item name="cb_dividerList">#EEEEEE</item>
+
+        <!-- Wallpaper Preview -->
+        <item name="cb_wallpaperStatusBar">#88000000</item>
+        <item name="cb_wallpaperToolbar">#66000000</item>
+    </style>
+</resources>
