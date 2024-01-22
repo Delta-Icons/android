@@ -1,98 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--
-            Try to not reference other theme colors, or it may result in
-            an error (android.view.InflateException)
-
-            If you want to reuse colors using referencing, just create a
-            new color and reference it. Do not try to reference existing
-            theme colors.
-            Example -
-            ```
-            Declaring the color
-            <color name="common_color">#FFF</color>
-
-            Referencing the common color
-            <color name="someColor">@color/common_color</color>
-            <color name="anotherColor">@color/common_color</color>
-            ```
-    -->
-    <color name="ic_launcher_background">#56595B</color>
-
-    <color name="colorPrimary">#ECECEC</color>
-    <color name="colorPrimaryDark">#222</color>
-    <color name="colorAccent">#9ABEFF</color>
-
-    <color name="darkColorPrimary">#222222</color>
-    <color name="darkColorPrimaryDark">#111111</color>
-    <color name="darkColorAccent">#ff837d</color>
-
-    <!-- Shortcut Icon -->
-    <color name="shortcutIconBackground">#1A73E9</color>
+    <color name="splashColor">#FFF</color>
+    <!-- Shortcut Icons -->
+    <color name="shortcutIconBackground">#26C484</color>
     <color name="shortcutIconForeground">#FFF</color>
 
-    <!-- Navigation Bar
-    * Must be solid color, no alpha -->
-    <color name="navigationBar">#56595B</color>
-    <color name="navigationBarDark">#000000</color>
-
-    <!-- Splash Screen -->
-    <color name="splashColor">#222222</color>
-
-    <!-- Navigation View -->
-    <color name="navigationViewHeaderBackground">#00FFFFFF</color>
-    <color name="navigationViewHeaderBackgroundDark">#33000000</color>
-    <color name="navigationViewTitle">#414345</color>
-    <color name="navigationViewTitleBack">#33000000</color>
-
-    <color name="navigationViewText">#56595B</color>
-    <color name="navigationViewTextDark">#FFFFFF</color>
-    <color name="navigationViewTextSelected">#9ABEFF</color>
-    <color name="navigationViewTextSelectedDark">#b75752</color>
-    <color name="navigationViewSelectedBackground">#222222</color>
-    <color name="navigationViewSelectedBackgroundDark">#222222</color>
-
-    <!-- Swipe Refresh -->
-    <color name="swipeRefresh">#ff837d</color>
-
-    <!-- Toolbar -->
-    <color name="toolbarIcon">#FF56595B</color>
-    <color name="toolbarIconDark">#FFFFFFFF</color>
-
-    <!-- Tab -->
-    <color name="tabIndicator">#9ABEFF</color>
-    <color name="tabIndicatorDark">#ff837d</color>
-    <color name="tabText">#56595B</color>
-    <color name="tabTextDark">#44FFFFFF</color>
-    <color name="tabTextSelected">#56595B</color>
-    <color name="tabTextSelectedDark">#FFFFFF</color>
-
-    <!-- Card -->
-    <color name="cardBackground">#FFFFFF</color>
-    <color name="cardBackgroundDark">#2C2C2C</color>
-    <color name="cardStroke">#20000000</color>
-    <color name="cardStrokeDark">#20FFFFFF</color>
-
-    <!-- Ripple -->
-    <color name="rippleColor">#10000000</color>
-    <color name="rippleColorDark">#10000000</color>
-    <color name="rippleAccent">#2243C0FF</color>
-    <color name="rippleAccentDark">#22ff837d</color>
-
-    <!-- Attributes -->
-    <color name="mainBackground">#ECECEC</color>
-    <color name="mainBackgroundDark">#222222</color>
-    <color name="primaryText">#56595B</color>
-    <color name="primaryTextDark">#EEFFFFFF</color>
-    <color name="secondaryText">#A0A5AF</color>
-    <color name="secondaryTextDark">#99FFFFFF</color>
-
-    <color name="dividerList">#EEEEEE</color>
-    <color name="dividerListDark">#00FFFFFF</color>
-
-    <!-- Wallpaper Preview -->
-    <color name="wallpaperStatusBar">#88000000</color>
-    <color name="wallpaperToolbar">#66000000</color>
+    <color name="ic_launcher_background">#56595b</color>
 
 </resources>
