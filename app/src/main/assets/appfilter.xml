@@ -32,6 +32,7 @@
 	<calendar component="ComponentInfo{com.motorola.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.motorola.calendar/com.motorola.calendar.LaunchActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
+	<calendar component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.sec.android.app.latin.launcher.calendar/com.sec.android.app.latin.launcher.calendar.Launcher}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Amber}" prefix="calendar_orange_" />
 	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue_grey}" prefix="calendar_blue_" />
@@ -6422,7 +6423,6 @@
 	<item component="ComponentInfo{com.samsung.android.biometrics.service/com.android.camera.CameraLauncher}" drawable="camera" />
 	<item component="ComponentInfo{com.samsung.android.bixby.agent/com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity}" drawable="bixby" />
 	<item component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" />
-	<item component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" drawable="calendar" />
 	<item component="ComponentInfo{com.samsung.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
 	<item component="ComponentInfo{com.samsung.android.contacts/com.android.dialer.DialtactsActivity}" drawable="phone" />
 	<item component="ComponentInfo{com.samsung.android.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="contacts" />
