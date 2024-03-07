@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<scale factor="1" />
+	<calendar component="ComponentInfo{deltazero.amarok/deltazero.amarok.launcher.calendar}" prefix="calendar_white_" />
+	<calendar component="ComponentInfo{deltazero.amarok.foss/deltazero.amarok.launcher.calendar}" prefix="calendar_white_" />
 	<calendar component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
