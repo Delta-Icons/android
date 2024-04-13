@@ -34,19 +34,37 @@ cats_and_soup:
   - com.netflix.NGP.CatsSoup/com.unity3d.player.UnityPlayerActivity
 
 apkupdater:
-    - com.apkupdater.ci/com.apkupdater.ui.activity.MainActivity
+  - com.apkupdater.ci/com.apkupdater.ui.activity.MainActivity
 
 camera:
-    - com.google.android.GoogleCameraLMC88/com.android.camera.CameraLauncher
+  - com.google.android.GoogleCameraLMC88/com.android.camera.CameraLauncher
     
 image_toolbox:
-    - ru.tech.imageresizershrinker/ru.tech.imageresizershrinker.app.presentation.AppActivity
+  - ru.tech.imageresizershrinker/ru.tech.imageresizershrinker.app.presentation.AppActivity
     
 philips_tv_remote:
-    - com.tpvision.philipstvapp2/com.tpvision.philipstvapp2.JeevesLauncherActivity
+  - com.tpvision.philipstvapp2/com.tpvision.philipstvapp2.JeevesLauncherActivity
     
 stocks_widget:
-    - com.stock.widget/com.stock.widget.activity.home.HomeActivity
+  - com.stock.widget/com.stock.widget.activity.home.HomeActivity
     
 yemeksepeti:
-    - com.inovel.app.yemeksepeti/com.deliveryhero.homescreen.container.ui.compose.UserHomeContainerComposeActivity
+  - com.inovel.app.yemeksepeti/com.deliveryhero.homescreen.container.ui.compose.UserHomeContainerComposeActivity
+
+cutemusic:
+  - com.sosauce.cutemusic/com.sosauce.cutemusic.MainActivity
+
+disky:
+  - de.felixnuesse.disky/de.felixnuesse.disky.MainActivity
+
+meteo_weather_greece:
+  - com.vitabytes.meteoweathergr/com.example.meteoweather.MainActivity
+
+open_paper_view:
+  - net.phbwt.paperwork/net.phbwt.paperwork.ui.MainActivity
+
+raven:
+  - kshib.raven/kshib.raven.MainActivity
+
+recording_webcam:
+  - com.box.project.recording_app/com.box.project.recording_app.MainActivity
