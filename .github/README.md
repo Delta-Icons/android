@@ -40,3 +40,14 @@ Please refer to **[contribution guidelines](./CONTRIBUTING.md)**.
 </p>
 
 
+## Telegram
+
+📰 Follow the Telegram channel to get the latest news and don't miss the events!
+
+<p align="center">
+  <a href="https://t.me/deltaicons">
+    <img src="https://img.shields.io/badge/updates-delta?style=for-the-badge&logo=telegram&logoColor=ffffff&label=Telegram&labelColor=56595b&color=9abeff"/>
+  </a>
+</p>
+
+
