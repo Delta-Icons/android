@@ -8,3 +8,12 @@
 #
 # new_icon_2_alt_1: {}
 #
+
+tailscale:
+  - com.tailscale.ipn/org.gioui.GioActivity
+  - com.tailscale.ipn/com.tailscale.ipn.IPNActivity
+  - com.tailscale.ipn/com.tailscale.ipn.MainActivity
+
+merlin_bird_id:
+  - com.labs.merlinbirdid.app/com.labs.merlinbirdid.app.SplashScreenActivity
+  - com.labs.merlinbirdid.app/edu.cornell.birds.merlin.onboarding.OnBoardingActivity
