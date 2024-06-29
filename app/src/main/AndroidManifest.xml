@@ -9,6 +9,9 @@
     <!-- If you are not using license checker, you need to remove CHECK_LICENSE permission -->
     <!-- <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> -->
 
+    <!-- If you are using OneSignal then you need to uncomment this line -->
+    <!--<uses-permission android:name="android.permission.POST_NOTIFICATIONS" />-->
+
     <supports-screens
         android:smallScreens="true"
         android:normalScreens="true"
