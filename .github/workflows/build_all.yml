@@ -4,8 +4,6 @@ run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
 permissions:
   contents: write
 
-concurrency: ${{ github.ref }}
-
 on:
   workflow_dispatch:
     inputs:
@@ -207,6 +205,12 @@ jobs:
         cp -v new_drawable.xml app/src/main/assets/drawable.xml
         cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
 
+    - name: Commit changes
+      run: |
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+        git commit -a -m "New ${{ inputs.release_type }} release: ${{ env.version }}"
+
     - name: Build APK
       run: bash gradlew assemblePlay
 
@@ -284,11 +288,11 @@ jobs:
         inapp-update-priority: 5
         user-fraction: 1.0
 
-    - name: Commit pre-release changes
-      uses: stefanzweifel/git-auto-commit-action@v5
+    - name: Push changes
+      uses: ad-m/github-push-action@master
       with:
-        commit_message: 'New ${{ inputs.release_type }} release: ${{ env.version }}'
-        file_pattern: 'app/build.gradle app/src/main/* app/src/foss/* app/src/play/* metadata resources/'
+        github_token: ${{ secrets.PA_TOKEN }}
+        branch: ${{ github.ref }}
 
     - name: Create a GitHub release
       uses: softprops/action-gh-release@v2
@@ -306,8 +310,8 @@ jobs:
         cp -v new_drawable.xml app/src/main/assets/drawable.xml
         cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
 
-    - name: Commit post-release changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Post-release cleanup
+      uses: stefanzweifel/git-auto-commit-action@v5
       if: inputs.release_type == 'prod'
       with:
         commit_message: 'Post-release cleanup'
