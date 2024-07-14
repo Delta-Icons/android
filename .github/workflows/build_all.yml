@@ -4,6 +4,9 @@ run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
 permissions:
   contents: write
 
+concurrency:
+  group: delta
+
 on:
   workflow_dispatch:
     inputs:

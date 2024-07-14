@@ -4,7 +4,8 @@ run-name: requests @ ${{ github.sha }}
 permissions:
   contents: write
 
-concurrency: ${{ github.ref }}
+concurrency:
+  group: delta
 
 on:
   workflow_dispatch:
