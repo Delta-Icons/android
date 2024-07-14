@@ -52,9 +52,14 @@ jobs:
         distribution: temurin
         java-version: 18
 
+    - name: Setup Git
+      run: |
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+
     - name: Install dependencies
       run: |
-        sudo apt-get update -y
+        sudo apt-get update
         sudo apt-get install -y optipng
         sudo pip install -r resources/utilities/requirements.txt
 
@@ -210,9 +215,14 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config user.name "github-actions[bot]"
-        git commit -a -m "New ${{ inputs.release_type }} release: ${{ env.version }}"
+        git add \
+          app/build.gradle \
+          app/src/main/* \
+          app/src/foss/* \
+          app/src/play/* \
+          metadata/ \
+          resources/
+        git commit -m "New release: ${{ env.version }}"
 
     - name: Build APK
       run: bash gradlew assemblePlay
@@ -282,7 +292,7 @@ jobs:
         whatsNewDirectory: changelog
         inAppUpdatePriority: 5
 
-    - name: Promote beta build to production channel
+    - name: Promote beta to prod channel
       uses: kevin-david/promote-play-release@v1.1.0
       if: ${{ (inputs.release_type == 'prod') && (inputs.publish == true) }}
       with:
@@ -321,6 +331,7 @@ jobs:
         file_pattern: 'app/src/main/*'
 
     - name: Update the website
+      if: ${{ (inputs.release_type == 'prod') && (github.repository_owner == 'Delta-Icons') }}
       uses: benc-uk/workflow-dispatch@v1
       with:
         workflow: deploy.yml
