@@ -40,13 +40,13 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.PA_TOKEN }}
         fetch-depth: 0
 
     - name: Setup Java
-      uses: actions/setup-java@v3
+      uses: actions/setup-java@v4
       with:
         distribution: temurin
         java-version: 18
@@ -248,14 +248,14 @@ jobs:
         fi
 
     - name: Upload APK to Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk
         retention-days: 90
 
     - name: Upload APK FOSS to Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: inputs.build_foss == true
       with:
         name: ${{ env.filename }}-foss
@@ -263,7 +263,7 @@ jobs:
         retention-days: 90
 
     - name: Upload AAB to Google Play beta channel
-      uses: r0adkll/upload-google-play@v1.0.19
+      uses: r0adkll/upload-google-play@v1
       if: inputs.publish == true
       with:
         track: beta
@@ -276,7 +276,7 @@ jobs:
         inAppUpdatePriority: 5
 
     - name: Promote beta build to production channel
-      uses: kevin-david/promote-play-release@v1.0.0
+      uses: kevin-david/promote-play-release@v1.1.0
       if: ${{ (inputs.release_type == 'prod') && (inputs.publish == true) }}
       with:
         service-account-json-raw: ${{ secrets.SERVICE_ACCOUNT }}
@@ -285,13 +285,13 @@ jobs:
         user-fraction: 1.0
 
     - name: Commit pre-release changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: 'New ${{ inputs.release_type }} release: ${{ env.version }}'
         file_pattern: 'app/build.gradle app/src/main/* app/src/foss/* app/src/play/* metadata resources/'
 
     - name: Create a GitHub release
-      uses: softprops/action-gh-release@v0.1.15
+      uses: softprops/action-gh-release@v2
       with:
         prerelease: ${{ env.is_beta }}
         files: '${{ env.filename }}*.apk'
