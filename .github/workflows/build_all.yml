@@ -54,7 +54,7 @@ jobs:
 
     - name: Setup Git
       run: |
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
 
     - name: Install dependencies
@@ -222,7 +222,9 @@ jobs:
           app/src/play/* \
           metadata/ \
           resources/
-        git commit -m "New release: ${{ env.version }}"
+        git commit \
+          -m "New release: ${{ env.version }}" \
+          --author "Co-authored-by: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
 
     - name: Build APK
       run: bash gradlew assemblePlay
