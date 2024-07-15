@@ -4,7 +4,8 @@ run-name: requests @ ${{ github.sha }}
 permissions:
   contents: write
 
-concurrency: ${{ github.ref }}
+concurrency:
+  group: delta
 
 on:
   workflow_dispatch:
@@ -16,7 +17,7 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.PA_TOKEN }}
 

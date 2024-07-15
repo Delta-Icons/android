@@ -4,7 +4,8 @@ run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
 permissions:
   contents: write
 
-concurrency: ${{ github.ref }}
+concurrency:
+  group: delta
 
 on:
   workflow_dispatch:
@@ -40,20 +41,25 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.PA_TOKEN }}
         fetch-depth: 0
 
     - name: Setup Java
-      uses: actions/setup-java@v3
+      uses: actions/setup-java@v4
       with:
         distribution: temurin
         java-version: 18
 
+    - name: Setup Git
+      run: |
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+
     - name: Install dependencies
       run: |
-        sudo apt-get update -y
+        sudo apt-get update
         sudo apt-get install -y optipng
         sudo pip install -r resources/utilities/requirements.txt
 
@@ -207,6 +213,19 @@ jobs:
         cp -v new_drawable.xml app/src/main/assets/drawable.xml
         cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
 
+    - name: Commit changes
+      run: |
+        git add \
+          app/build.gradle \
+          app/src/main/* \
+          app/src/foss/* \
+          app/src/play/* \
+          metadata/ \
+          resources/
+        git commit \
+          -m "New release: ${{ env.version }}" \
+          --author "Co-authored-by: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+
     - name: Build APK
       run: bash gradlew assemblePlay
 
@@ -248,14 +267,14 @@ jobs:
         fi
 
     - name: Upload APK to Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk
         retention-days: 90
 
     - name: Upload APK FOSS to Artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: inputs.build_foss == true
       with:
         name: ${{ env.filename }}-foss
@@ -263,7 +282,7 @@ jobs:
         retention-days: 90
 
     - name: Upload AAB to Google Play beta channel
-      uses: r0adkll/upload-google-play@v1.0.19
+      uses: r0adkll/upload-google-play@v1
       if: inputs.publish == true
       with:
         track: beta
@@ -275,8 +294,8 @@ jobs:
         whatsNewDirectory: changelog
         inAppUpdatePriority: 5
 
-    - name: Promote beta build to production channel
-      uses: kevin-david/promote-play-release@v1.0.0
+    - name: Promote beta to prod channel
+      uses: kevin-david/promote-play-release@v1.1.0
       if: ${{ (inputs.release_type == 'prod') && (inputs.publish == true) }}
       with:
         service-account-json-raw: ${{ secrets.SERVICE_ACCOUNT }}
@@ -284,14 +303,14 @@ jobs:
         inapp-update-priority: 5
         user-fraction: 1.0
 
-    - name: Commit pre-release changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Push changes
+      uses: ad-m/github-push-action@master
       with:
-        commit_message: 'New ${{ inputs.release_type }} release: ${{ env.version }}'
-        file_pattern: 'app/build.gradle app/src/main/* app/src/foss/* app/src/play/* metadata resources/'
+        github_token: ${{ secrets.PA_TOKEN }}
+        branch: ${{ github.ref }}
 
     - name: Create a GitHub release
-      uses: softprops/action-gh-release@v0.1.15
+      uses: softprops/action-gh-release@v2
       with:
         prerelease: ${{ env.is_beta }}
         files: '${{ env.filename }}*.apk'
@@ -306,14 +325,15 @@ jobs:
         cp -v new_drawable.xml app/src/main/assets/drawable.xml
         cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
 
-    - name: Commit post-release changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Post-release cleanup
+      uses: stefanzweifel/git-auto-commit-action@v5
       if: inputs.release_type == 'prod'
       with:
         commit_message: 'Post-release cleanup'
         file_pattern: 'app/src/main/*'
 
     - name: Update the website
+      if: ${{ (inputs.release_type == 'prod') && (github.repository_owner == 'Delta-Icons') }}
       uses: benc-uk/workflow-dispatch@v1
       with:
         workflow: deploy.yml
