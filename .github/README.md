@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" src="./header.svg"/>
+  <img width="200" src="./images/header.svg"/>
 </p>
 
 <h2 align="center" padding="100">Delta Icons for Android</h2>
@@ -49,5 +49,3 @@ Please refer to **[contribution guidelines](./CONTRIBUTING.md)**.
     <img src="https://img.shields.io/badge/updates-delta?style=for-the-badge&logo=telegram&logoColor=ffffff&label=Telegram&labelColor=56595b&color=9abeff"/>
   </a>
 </p>
-
-
