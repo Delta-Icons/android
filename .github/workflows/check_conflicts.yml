@@ -2,7 +2,6 @@ name: Check Conflicts
 run-name: conflicts @ ${{ github.sha }}
 
 on:
-  push:
   pull_request:
     paths:
       - resources/utilities/icons/**
