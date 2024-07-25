@@ -12,7 +12,7 @@ on:
 
 jobs:
   update:
-    name: Update
+    name: Update Requests
     runs-on: ubuntu-latest
     steps:
 
@@ -21,17 +21,29 @@ jobs:
       with:
         token: ${{ secrets.PA_TOKEN }}
 
-    - name: Update requests
+    - name: Export variables
+      run: bash .github/scripts/variables.sh >> $GITHUB_ENV
+
+    - name: Install dependencies
       run: |
-        cd resources/utilities
+        cd ${{ env.sd }}
         sudo pip install -r requirements.txt
-        python email_dumper.py -u "${{ secrets.EMAIL_ADDRESS }}" \
-                               -p "${{ secrets.EMAIL_PASSWORD }}" \
-                               -r "${{ secrets.EMAIL_FOLDER }}"
-        python email_parser.py emails ../../app/src/main/res/xml/appfilter.xml ../requests.txt 2>&1 /dev/null
+
+    - name: Dump emails
+      run: |
+        cd ${{ env.sd }}
+        python email_dumper.py \
+          -u '${{ secrets.EMAIL_ADDRESS }}'  \
+          -p '${{ secrets.EMAIL_PASSWORD }}' \
+          -r '${{ secrets.EMAIL_FOLDER }}'
+        
+    - name: Parse emails
+      run: |
+        cd ${{ env.sd }}
+        python email_parser.py 
 
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: 'Update requests.txt'
-        file_pattern: 'resources/requests.txt'
+        commit_message: Auto-update requests.yml
+        file_pattern: contribs/requests.yml

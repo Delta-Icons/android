@@ -27,6 +27,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
+    - name: Export variables
+      run: bash .github/scripts/variables.sh >> $GITHUB_ENV
+
     - name: Setup Java
       uses: actions/setup-java@v4
       with:
@@ -35,11 +38,13 @@ jobs:
 
     - name: Install dependencies
       run: |
-        sudo pip install -r resources/utilities/requirements.txt
+        cd ${{ env.sd }}
+        sudo pip install -r requirements.txt
 
     - name: Add new icons
       run: |
-        python -u resources/utilities/add_icons_wrapper.py
+        cd ${{ env.sd }}
+        python -u add_icons_wrapper.py
 
     - name: Change version
       run: |
@@ -85,9 +90,11 @@ jobs:
 
     - name: Sort drawables
       run: |
-        python resources/utilities/sort_drawable.py app/src/main/assets/drawable.xml
-        cp -v new_drawable.xml app/src/main/assets/drawable.xml
-        cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
+        cd ${{ env.sd }}
+        python sort_appfilter.py ${{ env.a1 }}
+        python sort_drawable.py ${{ env.d1 }}
+        echo ${{ env.a1 }} ${{ env.a2 }} | xargs -n 1 cp -fv new_appfilter.xml
+        echo ${{ env.d1 }} ${{ env.d2 }} | xargs -n 1 cp -fv new_drawable.xml
 
     - name: Build APK
       run: bash gradlew assembleFoss

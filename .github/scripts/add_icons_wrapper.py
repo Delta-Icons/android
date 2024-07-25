@@ -4,15 +4,16 @@ from os import system as execute
 from os import name as platform
 from os.path import abspath, basename, dirname, realpath
 
+from natsort import natsorted as sorted
 from yaml import safe_load as yaml
 
-from natsort import natsorted as sorted
+from resolve_paths import paths
 
 
-work_dir = dirname(realpath(__file__))
-delta_dir = abspath(f'{work_dir}/../..')
-target_file = abspath(f'{work_dir}/../new_icons.yaml')
-target_script = abspath(f'{work_dir}/add_icons.py')
+work_dir = paths['scripts']
+delta_dir = paths['root']
+target_file = paths['icons']
+target_script = work_dir + '/add_icons.py'
 
 null = '>NUL 2>NUL' if platform == 'nt' else '>/dev/null 2>&1'
 
@@ -49,6 +50,7 @@ with open(target_file) as file:
                 if status != 0:
                     print(f'> {drawable}:')
                     execute(f'{command} -D')
+                    print(command)
                     print()
                     errors.append(drawable)
 

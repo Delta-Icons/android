@@ -1,0 +1,33 @@
+name: Check Conflicts
+run-name: conflicts @ ${{ github.sha }}
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - resources/utilities/icons/**
+      - resources/new_icons.yaml
+      - resources/vectors/**
+      - app/src/main/rec/drawable-nodpi/**
+
+jobs:
+  build:
+    name: Check Conflicts
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Export variables
+      run: bash .github/scripts/variables.sh >> $GITHUB_ENV
+
+    - name: Install dependencies
+      run: |
+        cd ${{ env.sd }}
+        sudo pip install -r requirements.txt
+
+    - name: Add new icons in dry mode
+      run: |
+        cd ${{ env.sd }}
+        python -u add_icons_wrapper.py

@@ -13,6 +13,8 @@ from shutil import move
 from subprocess import check_output as get_output
 from sys import argv as args
 
+import requests_parser
+from resolve_paths import paths
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-n', '--name', metavar='NAME', help='the name of a drawable entry')
@@ -53,26 +55,24 @@ force = options.force
 name = options.name
 path = options.path
 
-
 if path: delta_dir = abspath(path)
 else: delta_dir = dirname(realpath(__file__ + '/../..')) # if the script placed in utility_scripts
 
-work_dir = dirname(realpath(__file__))
-icons_dir = abspath(f'{work_dir}/icons')
-
-
-appfilter_files = [ abspath(f'{delta_dir}/app/src/main/res/xml/appfilter.xml'),
-                    abspath(f'{delta_dir}/app/src/main/assets/appfilter.xml')]
-drawable_files  = [ abspath(f'{delta_dir}/app/src/main/res/xml/drawable.xml'),
-                    abspath(f'{delta_dir}/app/src/main/assets/drawable.xml')]
-icons_src_files = [ abspath(f'{icons_dir}/{name}.png'),
-                    abspath(f'{icons_dir}/{name}.svg')]
-icons_dst_files = [ abspath(f'{delta_dir}/app/src/main/res/drawable-nodpi/{name}.png'),
-                    abspath(f'{delta_dir}/resources/vectors/{name}.svg')]
-requests_file   =   abspath(f'{delta_dir}/resources/requests.txt')
+work_dir = paths['scripts']
+icons_dir = paths['src']['dir']
+appfilter_files = paths['appfilter']
+drawable_files = paths['drawable']
+requests_file = paths['requests']
+icons_src_files = [
+    paths['src']['png'].format(name),
+    paths['src']['svg'].format(name)
+]
+icons_dst_files = [
+    paths['dst']['png'].format(name),
+    paths['dst']['svg'].format(name)
+]
 
 git_arguments = appfilter_files + drawable_files + [requests_file]
-
 
 blank = ''
 changes = False
@@ -263,34 +263,31 @@ if include_appfilter:
 
 
 if include_requests:
-    filename = 'requests.txt'
+    filename = 'requests.yml'
     if not compinfos: out.warn(f'{filename}: no compinfos passed')
     else:
-        with open(requests_file, 'r+', encoding='utf-8', newline=blank) as file:
-            content = file.read()
-            lines = []
-            lines_count = 0
-            for compinfo in compinfos:
-                try:
-                    pattern = fr'\n.*\n.*{re.escape(compinfo)}.*\n.*\nRequested.*\n.*\n\t'
-                    match = re.search(pattern, content)
-                    lines.append(re.findall(pattern, content)[0].splitlines()[1:6])
-                    if match:
-                        content = re.sub(pattern, blank, content)
-                        lines_count += 1
-                except: continue
-            if lines_count > 0:
-                write(file, content)
-                entry = 'entry' if lines_count == 1 else 'entries'
-                out.done(f'{filename}: {dry_run_prefix + "removed"} {lines_count} {entry}')
-                if verbose:
+        requests = requests_parser.read(requests_file)
+        lines = []
+        for compinfo in compinfos:
+            if compinfo in requests:
+                lines.append(compinfo)
+                requests.pop(compinfo)
+
+        lines_count = len(lines)
+
+        if not dry_run: requests_parser.write(requests_file, requests)
+
+        if lines_count > 0:
+            entry = 'entry' if lines_count == 1 else 'entries'
+            out.done(f'{filename}: {dry_run_prefix + "removed"} {lines_count} {entry}')
+            if verbose:
+                out.verb()
+                for group in lines:
+                    for entry in group: out.verb(out.rem.format(entry))
                     out.verb()
-                    for group in lines:
-                        for entry in group: out.verb(out.rem.format(entry))
-                        out.verb()
-                changes = True
-            else:
-                out.warn(f'{filename}: no entries found to delete')
+            changes = True
+        else:
+            out.warn(f'{filename}: no entries found to delete')
 
 
 try:
