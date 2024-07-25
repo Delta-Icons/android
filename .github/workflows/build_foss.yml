@@ -90,9 +90,11 @@ jobs:
 
     - name: Sort drawables
       run: |
-        python resources/utilities/sort_drawable.py app/src/main/assets/drawable.xml
-        cp -v new_drawable.xml app/src/main/assets/drawable.xml
-        cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
+        cd ${{ env.sd }}
+        python sort_appfilter.py ${{ env.a1 }}
+        python sort_drawable.py ${{ env.d1 }}
+        echo ${{ env.a1 }} ${{ env.a2 }} | xargs -n 1 cp -fv new_appfilter.xml
+        echo ${{ env.d1 }} ${{ env.d2 }} | xargs -n 1 cp -fv new_drawable.xml
 
     - name: Build APK
       run: bash gradlew assembleFoss

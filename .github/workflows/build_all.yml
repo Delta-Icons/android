@@ -149,11 +149,13 @@ jobs:
           echo 'No release found, skip optimizing'
         fi
 
-    - name: Sort drawables
+    - name: Sort appfilter and drawable
       run: |
-        python ${{ env.sd }}/sort_drawable.py app/src/main/assets/drawable.xml
-        cp -v new_drawable.xml app/src/main/assets/drawable.xml
-        cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
+        cd ${{ env.sd }}
+        python sort_appfilter.py ${{ env.a1 }}
+        python sort_drawable.py ${{ env.d1 }}
+        echo ${{ env.a1 }} ${{ env.a2 }} | xargs -n 1 cp -fv new_appfilter.xml
+        echo ${{ env.d1 }} ${{ env.d2 }} | xargs -n 1 cp -fv new_drawable.xml
 
     - name: Commit changes
       run: |
@@ -263,9 +265,9 @@ jobs:
     - name: Clear category 'New'
       if: inputs.release_type == 'prod'
       run: |
+        cd ${{ env.sd }}
         sed -i '7,/^$/c\\' new_drawable.xml
-        cp -v new_drawable.xml app/src/main/assets/drawable.xml
-        cp -v new_drawable.xml app/src/main/res/xml/drawable.xml
+        echo ${{ env.d1 }} ${{ env.d2 }} | xargs -n 1 cp -fv new_drawable.xml
 
     - name: Post-release cleanup
       uses: stefanzweifel/git-auto-commit-action@v5
