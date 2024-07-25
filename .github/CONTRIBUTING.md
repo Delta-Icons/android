@@ -50,9 +50,9 @@ Don't forget to give yourself an entry at the bottom of [app/src/main/res/xml/co
 
 > **This method is only for adding new icons or linking ComponentInfo(s) with existing icons!** 
 
-1. Add `new_icon.svg` and `new_icon.png` to [resources/utilities/icons](../../../tree/master/resources/utilities/icons) directory
+1. Add `new_icon.svg` and `new_icon.png` to [contribs/icons](../../../tree/master/contribs/icons) directory
 
-2. Append the icon name with ComponentInfo(s) to [resources/new_icons.yaml](https://github.com/Delta-Icons/android/blob/master/resources/new_icons.yaml) with any of the next formats:
+2. Append the icon name with ComponentInfo(s) to [contribs/icons.yml](https://github.com/Delta-Icons/android/blob/master/contribs/icons.yml) with any of the next formats:
 
     2.1. The new icon with the ComponentInfo.
 
@@ -158,7 +158,7 @@ If the existing icon rebranded, don't overwrite it with a new one, do the follow
 
 ## Requests
 
-If you wanna help close icon requests from users, you can take a look at [resources/requests.txt](../../../tree/master/resources/requests.txt) where all requests are stored. The file updates periodically.
+If you wanna help close icon requests from users, you can take a look at [contribs/requests.yml](../../../tree/master/contribs/requests.yml) where all requests are stored. The file updates periodically.
 
 ## Gathering ComponentInfo
 
