@@ -27,6 +27,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
+    - name: Export variables
+      run: bash .github/scripts/variables.sh >> $GITHUB_ENV
+
     - name: Setup Java
       uses: actions/setup-java@v4
       with:
@@ -35,11 +38,13 @@ jobs:
 
     - name: Install dependencies
       run: |
-        sudo pip install -r resources/utilities/requirements.txt
+        cd ${{ env.sd }}
+        sudo pip install -r requirements.txt
 
     - name: Add new icons
       run: |
-        python -u resources/utilities/add_icons_wrapper.py
+        cd ${{ env.sd }}
+        python -u add_icons_wrapper.py
 
     - name: Change version
       run: |
