@@ -22,7 +22,7 @@ on:
         type: boolean
         default: true
       publish:
-        description: Publish in Google Play
+        description: Publish the app
         type: boolean
         default: true
       changelog_1:
@@ -174,11 +174,13 @@ jobs:
       run: bash gradlew assemblePlay
 
     - name: Build AAB
-      if: inputs.publish == true
+      if: |
+        inputs.publish == true
       run: bash gradlew bundlePlay
 
     - name: Build APK FOSS
-      if: inputs.build_foss == true
+      if: |
+        inputs.build_foss == true
       run: bash gradlew assembleFoss
 
     - name: Move unsigned builds
@@ -219,7 +221,8 @@ jobs:
 
     - name: Upload APK FOSS to Artifacts
       uses: actions/upload-artifact@v4
-      if: inputs.build_foss == true
+      if: |
+        inputs.build_foss == true
       with:
         name: ${{ env.filename }}-foss
         path: ${{ env.filename }}-foss.apk
@@ -227,7 +230,8 @@ jobs:
 
     - name: Upload AAB to Google Play beta channel
       uses: r0adkll/upload-google-play@v1
-      if: inputs.publish == true
+      if: |
+        inputs.publish == true
       with:
         track: beta
         status: completed
@@ -240,7 +244,9 @@ jobs:
 
     - name: Promote beta to prod channel
       uses: kevin-david/promote-play-release@v1.1.0
-      if: ${{ (inputs.release_type == 'prod') && (inputs.publish == true) }}
+      if: |
+        inputs.release_type == 'prod' &&
+        inputs.publish == true
       with:
         service-account-json-raw: ${{ secrets.SERVICE_ACCOUNT }}
         package-name: ${{ vars.PACKAGE_NAME }}
@@ -249,12 +255,16 @@ jobs:
 
     - name: Push changes
       uses: ad-m/github-push-action@master
+      if: |
+        inputs.publish == true
       with:
         github_token: ${{ secrets.PA_TOKEN }}
         branch: ${{ github.ref }}
 
     - name: Create a GitHub release
       uses: softprops/action-gh-release@v2
+      if: |
+        inputs.publish == true
       with:
         prerelease: ${{ env.is_beta }}
         files: '${{ env.filename }}*.apk'
@@ -263,7 +273,9 @@ jobs:
         body_path: ${{ env.changelog }}
 
     - name: Clear category 'New'
-      if: inputs.release_type == 'prod'
+      if: |
+        inputs.release_type == 'prod' &&
+        inputs.publish == true
       run: |
         cd ${{ env.sd }}
         sed -i '7,/^$/c\\' new_drawable.xml
@@ -271,13 +283,18 @@ jobs:
 
     - name: Post-release cleanup
       uses: stefanzweifel/git-auto-commit-action@v5
-      if: inputs.release_type == 'prod'
+      if: |
+        inputs.release_type == 'prod' &&
+        inputs.publish == true
       with:
         commit_message: 'Post-release cleanup'
         file_pattern: 'app/src/main/*'
 
     - name: Update the website
-      if: ${{ (inputs.release_type == 'prod') && (github.repository_owner == 'Delta-Icons') }}
+      if: |
+        github.repository_owner == 'Delta-Icons' &&
+        inputs.release_type == 'prod' &&
+        inputs.publish == true
       uses: benc-uk/workflow-dispatch@v1
       with:
         workflow: deploy.yml
