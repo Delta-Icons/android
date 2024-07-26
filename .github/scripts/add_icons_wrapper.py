@@ -7,6 +7,7 @@ from os.path import abspath, basename, dirname, realpath
 from natsort import natsorted as sorted
 from yaml import safe_load as yaml
 
+import requests_parser
 from resolve_paths import paths
 
 
@@ -14,6 +15,7 @@ work_dir = paths['scripts']
 delta_dir = paths['root']
 target_file = paths['icons']
 target_script = work_dir + '/add_icons.py'
+requests_file = paths['requests']
 
 null = '>NUL 2>NUL' if platform == 'nt' else '>/dev/null 2>&1'
 
@@ -30,6 +32,7 @@ content = '''\
 #
 '''
 
+requests = requests_parser.read(requests_file)
 
 with open(target_file) as file:
     file_parsed = yaml(file)
@@ -41,7 +44,7 @@ with open(target_file) as file:
             for icon in icons:
                 drawable = icon[0]
                 compinfos = ' '.join(icon[1])
-                command = f'python {target_script} -P {delta_dir} -raidI -n {drawable}'
+                command = f'python {target_script} -P {delta_dir} -aidI -n {drawable}'
                 if compinfos: command += f' -c {compinfos}'
                 else:
                     if drawable.startswith('google_'): command += f' -C Google'
@@ -62,10 +65,14 @@ with open(target_file) as file:
             for icon in icons:
                 drawable = icon[0]
                 compinfos = ' '.join(icon[1])
-                command = f'python {target_script} -P {delta_dir} -raidI -n {drawable}'
+                command = f'python {target_script} -P {delta_dir} -aidI -n {drawable}'
+
                 if compinfos:
                     command += f' -c {compinfos}'
                     if drawable.startswith('google_'): command += f' -C Google'
+                    for compinfo in compinfos:
+                        if compinfo in requests:
+                            requests.pop(compinfo)
                 else:
                     if '_alt_' in drawable:
                         command += f' -C Alts'
@@ -73,9 +80,11 @@ with open(target_file) as file:
                 execute(command)
                 if not icons[-1][0] == drawable: print()
 
-
             with open(target_file, 'w', newline='') as file:
                 file.write(content)
+
+            requests_parser.write(requests_file, requests)
+
         except Exception as error:
             print(error)
             exit(1)
