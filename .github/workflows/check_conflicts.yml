@@ -5,9 +5,7 @@ on:
   workflow_dispatch:
   pull_request:
     paths:
-      - resources/utilities/icons/**
-      - resources/new_icons.yaml
-      - resources/vectors/**
+      - contribs/**
       - app/src/main/rec/drawable-nodpi/**
 
 jobs:
