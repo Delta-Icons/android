@@ -24,12 +24,12 @@ def format_paths():
             'png': f'{root}/app/src/main/res/drawable-nodpi/{{}}.png'
         },
         'appfilter': [
-            f'{root}/app/src/main/res/xml/appfilter.xml',
-            f'{root}/app/src/main/assets/appfilter.xml'
+            f'{root}/app/src/main/assets/appfilter.xml',
+            f'{root}/app/src/main/res/xml/appfilter.xml'
         ],
         'drawable': [
-            f'{root}/app/src/main/res/xml/drawable.xml',
-            f'{root}/app/src/main/assets/drawable.xml'
+            f'{root}/app/src/main/assets/drawable.xml',
+            f'{root}/app/src/main/res/xml/drawable.xml'
         ]
     }
 
