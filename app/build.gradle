@@ -14,7 +14,7 @@ android {
 		multiDexEnabled true
 
 		// Naming app bundles
-		setArchivesBaseName("${parent.name}-v${versionCode}")
+		setArchivesBaseName("delta-v${versionName}")
 	}
 
 	bundle {
