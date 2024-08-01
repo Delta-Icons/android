@@ -165,7 +165,7 @@ jobs:
         python sort_appfilter.py -o
         python sort_drawable.py -o
         cp -fv ${{ env.a1 }} ${{ env.a2 }}
-        cp -fv ${{ env.d1 }} ${{ env.a2 }}
+        cp -fv ${{ env.d1 }} ${{ env.d2 }}
 
     - name: Commit pre-build changes
       run: |

@@ -34,10 +34,10 @@ jobs:
           -u '${{ secrets.EMAIL_ADDRESS }}'  \
           -p '${{ secrets.EMAIL_PASSWORD }}' \
           -r '${{ secrets.EMAIL_FOLDER }}'
-        
+
     - name: Parse emails
       run: |
-        python -u email_parser.py 
+        python -u email_parser.py
 
     - name: Parse requests.yml
       run: |
