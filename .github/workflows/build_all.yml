@@ -26,13 +26,20 @@ on:
         type: boolean
         default: true
       changelog_1:
-        description: Changelog line 1
+        description: Changelog 1
       changelog_2:
-        description: Changelog line 2
+        description: Changelog 2
       changelog_3:
-        description: Changelog line 3
+        description: Changelog 3
       changelog_4:
-        description: Changelog line 4
+        description: Changelog 4
+
+env:
+  token: ${{ secrets.PA_TOKEN || github.token }}
+  organization: Delta-Icons
+  current_repo: ${{ github.repository }}
+  website_repo: Delta-Icons/delta-icons.github.io
+  package_name: website.leifs.delta
 
 jobs:
   build:
@@ -43,11 +50,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.PA_TOKEN }}
+        token: ${{ env.token }}
         fetch-depth: 0
 
     - name: Export variables
-      run: bash .github/scripts/variables.sh >> $GITHUB_ENV
+      run: |
+        python -u .github/scripts/resolve_paths.py -p >> $GITHUB_ENV
 
     - name: Setup Java
       uses: actions/setup-java@v4
@@ -55,24 +63,29 @@ jobs:
         distribution: temurin
         java-version: 18
 
-    - name: Install deps and configure tools
+    - name: Install dependencies
       run: |
-        echo "LICENSE_KEY=${{ secrets.LICENSE_KEY }}" > local.properties
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git config user.name "github-actions[bot]"
         sudo apt-get update
         sudo apt-get install -y optipng
         sudo pip install -r ${{ env.sd }}/requirements.txt
 
+    - name: Configure tools
+      run: |
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        cat << EOF >> $GITHUB_ENV
+        coauthor='Co-authored-by: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>'
+        EOF
+
     - name: Bump version
       run: |
-        cd ${{ env.sd }}
-        python -u bump_version.py -t ${{ inputs.release_type }} >> $GITHUB_ENV
+        python \
+          -u ${{ env.sd }}/bump_version.py -p \
+          -t ${{ inputs.release_type }} >> $GITHUB_ENV
 
     - name: Add new icons
       run: |
-        cd ${{ env.sd }}
-        python -u add_icons_wrapper.py
+        python -u ${{ env.sd }}/add_icons_wrapper.py
 
     - name: Create a changelog and set custom icons count
       run: |
@@ -136,15 +149,12 @@ jobs:
 
         echo "changelog=$changelog_tmp" >> $GITHUB_ENV
 
-
-    - name: Optimize PNGs
-      continue-on-error: true
+    - name: Optimize images
       run: |
-        latest_tag=$(git tag --sort version:refname | grep -v "beta" | tail -n 1)
-        echo "Latest tag is $latest_tag"
+        latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
         if [[ $latest_tag ]]; then
-          echo "Optimizing PNGs since last release"
-          optipng $(git diff --name-only $latest_tag -- "***.png")
+          echo "Latest tag is $latest_tag; optimizing images since this tag"
+          optipng $(git diff --name-only $latest_tag -- "***.png") || true
         else
           echo 'No release found, skip optimizing'
         fi
@@ -152,49 +162,50 @@ jobs:
     - name: Sort appfilter and drawable
       run: |
         cd ${{ env.sd }}
-        python sort_appfilter.py ${{ env.a1 }}
-        python sort_drawable.py ${{ env.d1 }}
-        echo ${{ env.a1 }} ${{ env.a2 }} | xargs -n 1 cp -fv new_appfilter.xml
-        echo ${{ env.d1 }} ${{ env.d2 }} | xargs -n 1 cp -fv new_drawable.xml
+        python sort_appfilter.py -o
+        python sort_drawable.py -o
+        cp -fv ${{ env.a1 }} ${{ env.a2 }}
+        cp -fv ${{ env.d1 }} ${{ env.a2 }}
 
-    - name: Commit changes
+    - name: Commit pre-build changes
       run: |
         git add \
           app/build.gradle \
-          app/src/main/* \
-          app/src/foss/* \
-          app/src/play/* \
+          app/src/ \
+          contribs/ \
           metadata/ \
-          contribs/
-        git commit \
-          -m "New release: ${{ env.version }}" \
-          --author "Co-authored-by: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+          resources/vectors/
+        git commit -m 'Release: ${{ env.version }}' --author "${{ env.coauthor }}"
 
     - name: Build APK
-      run: bash gradlew assemblePlay
+      run: |
+        bash gradlew assemblePlay
 
     - name: Build AAB
+      run: |
+        bash gradlew bundlePlay
       if: |
         inputs.publish == true
-      run: bash gradlew bundlePlay
 
     - name: Build APK FOSS
+      run: |
+        bash gradlew assembleFoss
       if: |
         inputs.build_foss == true
-      run: bash gradlew assembleFoss
 
     - name: Move unsigned builds
       run: |
-        mv -v app/build/outputs/apk/play/release/*.apk delta-play.apk
-        if [[ ${{ inputs.build_foss }} == true ]]; then
-          mv -v app/build/outputs/apk/foss/release/*.apk delta-foss.apk
+        builds=$(find . -regextype posix-egrep -regex '.*-(release|unsigned).(aab|apk)$')
+        if [ -z "${builds}" ]; then
+          echo 'no builds found'
+          exit 1
         fi
-        if [[ ${{ inputs.publish }} == true ]]; then
-          mv -v app/build/outputs/bundle/playRelease/*.aab delta-play.aab
-        fi
+        for build in ${builds[@]}; do
+          mv -v $build . 2> /dev/null || true
+        done
 
     - name: Sign builds
-      uses: kevin-david/zipalign-sign-android-release@v1.1.1
+      uses: kevin-david/zipalign-sign-android-release@main
       with:
         releaseDirectory: .
         signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
@@ -204,99 +215,101 @@ jobs:
 
     - name: Rename signed builds
       run: |
-        mv -v delta-play-signed.apk ${{ env.filename }}.apk
-        if [[ ${{ inputs.build_foss }} == true ]]; then
-          mv -v delta-foss-signed.apk ${{ env.filename }}-foss.apk
-        fi
-        if [[ ${{ inputs.publish }} == true ]]; then
-          mv -v delta-play.aab ${{ env.filename }}.aab
-        fi
+        rm -v *unsigned.apk
+        mv -v *foss*.apk ${{ env.filename }}-foss.apk 2> /dev/null || true
+        mv -v *play*.apk ${{ env.filename }}.apk 2> /dev/null || true
+        mv -v *play*.aab ${{ env.filename }}.aab 2> /dev/null || true
 
-    - name: Upload APK to Artifacts
+    - name: Upload APKs to Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.filename }}
-        path: ${{ env.filename }}.apk
+        path: ${{ env.filename }}*.apk
+        if-no-files-found: error
         retention-days: 90
 
-    - name: Upload APK FOSS to Artifacts
-      uses: actions/upload-artifact@v4
-      if: |
-        inputs.build_foss == true
-      with:
-        name: ${{ env.filename }}-foss
-        path: ${{ env.filename }}-foss.apk
-        retention-days: 90
-
-    - name: Upload AAB to Google Play beta channel
-      uses: r0adkll/upload-google-play@v1
-      if: |
-        inputs.publish == true
-      with:
-        track: beta
-        status: completed
-        releaseFiles: ${{ env.filename }}.aab
-        serviceAccountJsonPlainText: ${{ secrets.SERVICE_ACCOUNT }}
-        packageName: ${{ vars.PACKAGE_NAME }}
-        mappingFile: app/build/outputs/mapping/playRelease/mapping.txt
-        whatsNewDirectory: changelog
-        inAppUpdatePriority: 5
-
-    - name: Promote beta to prod channel
-      uses: kevin-david/promote-play-release@v1.1.0
-      if: |
-        inputs.release_type == 'prod' &&
-        inputs.publish == true
-      with:
-        service-account-json-raw: ${{ secrets.SERVICE_ACCOUNT }}
-        package-name: ${{ vars.PACKAGE_NAME }}
-        inapp-update-priority: 5
-        user-fraction: 1.0
-
-    - name: Push changes
+    - name: Push pre-build changes
       uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ env.token }}
+        branch: ${{ github.ref }}
       if: |
         inputs.publish == true
-      with:
-        github_token: ${{ secrets.PA_TOKEN }}
-        branch: ${{ github.ref }}
 
     - name: Create a GitHub release
       uses: softprops/action-gh-release@v2
-      if: |
-        inputs.publish == true
       with:
         prerelease: ${{ env.is_beta }}
         files: '${{ env.filename }}*.apk'
         name: ${{ env.version }}
         tag_name: ${{ env.version }}
         body_path: ${{ env.changelog }}
-
-    - name: Clear category 'New'
       if: |
-        inputs.release_type == 'prod' &&
         inputs.publish == true
+
+    - name: Commit post-release changes
       run: |
-        cd ${{ env.sd }}
-        sed -i '7,/^$/c\\' new_drawable.xml
-        echo ${{ env.d1 }} ${{ env.d2 }} | xargs -n 1 cp -fv new_drawable.xml
-
-    - name: Post-release cleanup
-      uses: stefanzweifel/git-auto-commit-action@v5
+        sed -i '7,/^$/c\\' ${{ env.d1 }} ${{ env.d2 }}
+        git add ${{ env.d1 }} ${{ env.d2 }}
+        git commit -m "Cleanup: ${{ env.version }}" --author "${{ env.coauthor }}"
       if: |
         inputs.release_type == 'prod' &&
         inputs.publish == true
+
+    - name: Push post-release changes
+      uses: ad-m/github-push-action@master
       with:
-        commit_message: 'Post-release cleanup'
-        file_pattern: 'app/src/main/*'
+        github_token: ${{ env.token }}
+        branch: ${{ github.ref }}
+      if: |
+        inputs.release_type == 'prod' &&
+        inputs.publish == true
+
+    - name: Upload AAB to Google Play beta channel
+      uses: r0adkll/upload-google-play@v1
+      with:
+        track: beta
+        status: completed
+        releaseFiles: ${{ env.filename }}.aab
+        serviceAccountJsonPlainText: ${{ secrets.SERVICE_ACCOUNT }}
+        packageName: ${{ env.package_name }}
+        mappingFile: app/build/outputs/mapping/playRelease/mapping.txt
+        whatsNewDirectory: changelog
+        inAppUpdatePriority: 5
+      if: |
+        github.repository_owner == env.organization &&
+        inputs.publish == true
+
+    - name: Promote beta to production channel
+      uses: kevin-david/promote-play-release@v1.1.0
+      with:
+        service-account-json-raw: ${{ secrets.SERVICE_ACCOUNT }}
+        package-name: ${{ env.package_name }}
+        inapp-update-priority: 5
+        user-fraction: 1.0
+      if: |
+        github.repository_owner == env.organization &&
+        inputs.release_type == 'prod' &&
+        inputs.publish == true
 
     - name: Update the website
-      if: |
-        github.repository_owner == 'Delta-Icons' &&
-        inputs.release_type == 'prod' &&
-        inputs.publish == true
       uses: benc-uk/workflow-dispatch@v1
       with:
+        token: ${{ env.token }}
+        repo: ${{ env.website_repo }}
         workflow: deploy.yml
-        repo: ${{ github.repository_owner }}/delta-icons.github.io
-        token: ${{ secrets.PA_TOKEN }}
+      if: |
+        github.repository_owner == env.organization &&
+        inputs.release_type == 'prod' &&
+        inputs.publish == true
+
+    - name: Update the requests list
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        repo: ${{ github.repository }}
+        workflow: update_requests.yml
+        token: ${{ env.token }}
+      if: |
+        github.repository_owner == env.organization &&
+        inputs.release_type == 'prod' &&
+        inputs.publish == true

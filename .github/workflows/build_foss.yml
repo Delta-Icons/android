@@ -10,7 +10,7 @@ on:
         required: true
       version_code:
         description: Version code
-        default: 100000
+        default: '100000'
         required: true
 
 concurrency: ${{ github.ref }}
@@ -28,7 +28,8 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Export variables
-      run: bash .github/scripts/variables.sh >> $GITHUB_ENV
+      run: |
+        python -u .github/scripts/resolve_paths.py -p >> $GITHUB_ENV
 
     - name: Setup Java
       uses: actions/setup-java@v4
@@ -88,36 +89,39 @@ jobs:
         </resources>
         EOF
 
-    - name: Sort drawables
+    - name: Sort appfilter and drawable
       run: |
         cd ${{ env.sd }}
-        python sort_appfilter.py ${{ env.a1 }}
-        python sort_drawable.py ${{ env.d1 }}
-        echo ${{ env.a1 }} ${{ env.a2 }} | xargs -n 1 cp -fv new_appfilter.xml
-        echo ${{ env.d1 }} ${{ env.d2 }} | xargs -n 1 cp -fv new_drawable.xml
+        python sort_appfilter.py -o
+        python sort_drawable.py -o
+        cp -fv ${{ env.a1 }} ${{ env.a2 }}
+        cp -fv ${{ env.d1 }} ${{ env.a2 }}
 
     - name: Build APK
-      run: bash gradlew assembleFoss
+      run: |
+        bash gradlew assembleFoss
 
     - name: Move unsigned APK
-      run: mv -v app/build/outputs/apk/foss/release/*.apk ${{ env.filename }}-unsigned.apk
+      run: |
+        mv -v app/build/outputs/apk/foss/release/*.apk .
 
     - name: Sign APK
-      uses: kevin-david/zipalign-sign-android-release@v1.1.1
+      uses: kevin-david/zipalign-sign-android-release@main
       id: sign_step
       with:
-        releaseDirectory: .
-        signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
-        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
-        keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
         alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
+        keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
+        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
+        signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
+        releaseDirectory: .
 
     - name: Move signed APK
-      run: mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}.apk
+      run: |
+        mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}.apk
 
     - name: Upload signed APK in Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.filename }}
-        retention-days: 7
         path: ${{ env.filename }}.apk
+        retention-days: 90

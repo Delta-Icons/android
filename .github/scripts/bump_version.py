@@ -1,18 +1,26 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python
 
 import argparse, re
+
+from os.path import join
 
 from resolve_paths import paths
 
 
 argparser = argparse.ArgumentParser(description='Bump release version')
-argparser.add_argument('-t', dest='type',
-                             help='type of release [beta|prod]',
-                             default='beta')
+argparser.add_argument('-t', '--type',
+                       dest='type',
+                       help='type of release [beta|prod]',
+                       default='beta')
+argparser.add_argument('-p', '--print',
+                       dest='print',
+                       help='print variables for shell exporting',
+                       default=False,
+                       action=argparse.BooleanOptionalAction)
 args = argparser.parse_args()
 
 
-target = paths['root'] + '/app/build.gradle'
+target = join(paths['root'], 'app/build.gradle')
 
 regexp_version_code = re.compile('versionCode (\d+)')
 regexp_version_name = re.compile('versionName "((\d+\.\d+\.\d+)(-beta(\d+))?)"')
@@ -62,6 +70,7 @@ with open(target, 'r+') as file:
     file.write(content)
     file.truncate()
 
+if args.print:
     print(f'is_beta={is_beta}')
     print(f'filename=delta-v{version_name}')
     print(f'version=v{version_name}')

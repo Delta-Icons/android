@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 
-import argparse
 import base64
 import copy
 import io
 import re
 import os
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from hashlib import sha1
 from zipfile import ZipFile
 

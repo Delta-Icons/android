@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 
+import argparse, re, sys
+import xml.etree.ElementTree as ET
 from datetime import datetime
+from difflib import SequenceMatcher
 
 import yaml
-
 from natsort import natsorted as sorted
 
+from resolve_paths import paths
 
-class CustomDumper(yaml.SafeDumper):
+
+class YamlNewLines(yaml.SafeDumper):
     # https://github.com/yaml/pyyaml/issues/127#issuecomment-525800484
     def write_line_break(self, data=None):
         super().write_line_break(data)
@@ -16,6 +20,31 @@ class CustomDumper(yaml.SafeDumper):
 
     def increase_indent(self, flow=False, indentless=False):
         return super().increase_indent(flow, False)
+
+filename = 'requests.yml'
+
+
+parser = argparse.ArgumentParser(description=f'parse {filename}')
+
+parser.add_argument('-f', '--format',
+                    dest='format',
+                    choices=['xml', 'yml'],
+                    help='output in specific format')
+parser.add_argument('-r', '--remove',
+                    dest='remove',
+                    help=f'remove existing compinfos from {filename}',
+                    default=False,
+                    action=argparse.BooleanOptionalAction)
+parser.add_argument('-s', '--sort',
+                    dest='sort',
+                    help='sort by specific value',
+                    choices=['name', 'ratio', 'request'],
+                    default='ratio')
+parser.add_argument('-H', '--hide-ratios',
+                    dest='hide_ratios',
+                    help='hide ratios in output',
+                    default=False,
+                    action=argparse.BooleanOptionalAction)
 
 
 def read(path):
@@ -34,7 +63,71 @@ def write(path, data):
         # header message with total number of requested icons and last time update
         header = (f"# {len(data)} requested apps pending \n"
                   f"# updated {datetime.today().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        dump = yaml.dump(data, Dumper=CustomDumper, allow_unicode=True, indent=4, sort_keys=False)
+        dump = yaml.dump(data, Dumper=YamlNewLines, allow_unicode=True, indent=4, sort_keys=False)
         file.seek(0)
         file.write(header + dump)
         file.truncate()
+
+def main():
+    requests = read(paths['requests'])
+    updatable = {}
+
+    with open(paths['appfilter'][0], 'r') as file:
+        appfilter = ET.ElementTree(ET.fromstring(file.read())).getroot()
+
+    for item in appfilter:
+        try:
+            compinfo = re.search('ComponentInfo{(.*)}', item.attrib['component']).group(1)
+            id = compinfo.split('/')[0]
+            name = item.attrib['drawable']
+
+            for request in requests:
+                if id not in request: continue
+                diff = SequenceMatcher(None, request, compinfo).ratio()
+                ratio = round(diff, 2)
+
+                if ratio == 1.0:
+                    requests.pop(compinfo)
+                    continue
+                
+                if ratio >= 0.75:
+                    if request in updatable:
+                        if updatable[request]['ratio'] < ratio:
+                            ratio = updatable[request]['ratio']
+
+                    updatable[request] = {
+                        'name': name,
+                        'ratio': ratio,
+                        'request': request
+                    }
+        except:
+            continue
+
+    updatable = dict(sorted(updatable.items(), key=lambda x: x[1][args.sort]))
+
+    if args.remove:
+        write(paths['requests'], requests)
+
+    for [key, value] in updatable.items():
+        name = value['name']
+        ratio = int(value['ratio'] * 100)
+        
+        match args.format:
+            case 'xml':
+                ratios = f'<!-- {ratio}% --> ' if not args.hide_ratios else ''
+                print(ratios + f'<item component="ComponentInfo{{{key}}}" drawable="{name}" />')
+            case 'yml':
+                ratios = f' # {ratio}%' if not args.hide_ratios else ''
+                print(f'{name}:'+ ratios)
+                print(f'  - {key}\n')
+            case _:
+                ratios = f'[{ratio}%] ' if not args.hide_ratios else ''
+                print(ratios + f'{name} -> {key}')
+
+if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        args = parser.parse_args()
+    else:
+        parser.print_help()
+        sys.exit(1)
+    main()
