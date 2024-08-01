@@ -89,7 +89,7 @@ def main():
                 if ratio == 1.0:
                     requests.pop(compinfo)
                     continue
-                
+
                 if ratio >= 0.75:
                     if request in updatable:
                         if updatable[request]['ratio'] < ratio:
@@ -111,7 +111,7 @@ def main():
     for [key, value] in updatable.items():
         name = value['name']
         ratio = int(value['ratio'] * 100)
-        
+
         match args.format:
             case 'xml':
                 ratios = f'<!-- {ratio}% --> ' if not args.hide_ratios else ''

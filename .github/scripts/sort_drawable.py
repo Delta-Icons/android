@@ -50,7 +50,7 @@ def transform(xml):
     else:
         xml = re.sub(r'/>\n(\n\t<)', r'/>\1/category>\1', xml) # add </category> after latest <item/>
         xml = re.sub(r'(</resources>)', r'\t</category>\n\1', xml) # add </category> before </resources>
-        xml = re.sub(r'(<category title=".*") />', r'\1>', xml) # remove slash from <category/> 
+        xml = re.sub(r'(<category title=".*") />', r'\1>', xml) # remove slash from <category/>
     return xml
 
 

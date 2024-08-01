@@ -55,41 +55,43 @@ for file in os.listdir(EMAILS_DIR):
     if not file.endswith('.eml'): continue
     if not os.path.isfile(file): continue
 
-    with open(file, 'rb') as file:
-        mail = mailparser.parse_from_bytes(file.read())
+    try:
+        with open(file, 'rb') as file:
+            mail = mailparser.parse_from_bytes(file.read())
 
-        sender = mail.from_[0][1]
+            sender = mail.from_[0][1]
 
-        if sender in greedy_users:
-            if greedy_users[sender] > GREEDY_COUNTER: continue
+            if sender in greedy_users:
+                if greedy_users[sender] > GREEDY_COUNTER: continue
 
-        date = mail.date
+            date = mail.date
 
-        attachments = decode_zip(mail.attachments[0]['payload'])
-        xml = xmltodict.parse(attachments.read('appfilter.xml'), process_comments=True)['resources']
+            attachments = decode_zip(mail.attachments[0]['payload'])
+            xml = xmltodict.parse(attachments.read('appfilter.xml'), process_comments=True)['resources']
 
-        name = xml['#comment']
-        compinfo = re.search('ComponentInfo{(.*)}', xml['item']['@component'], re.IGNORECASE).group(1)
-        id = compinfo.split('/')[0]
+            name = xml['#comment']
+            compinfo = re.search('ComponentInfo{(.*)}', xml['item']['@component'], re.IGNORECASE).group(1)
+            id = compinfo.split('/')[0]
 
-        if sender not in greedy_users: greedy_users[sender] = 1
+            if sender not in greedy_users: greedy_users[sender] = 1
 
-        if compinfo not in requests:
-            requests[compinfo] = {
-                'name': name,
-                'reqt': 1,
-                'reql': date,
-                'hash': sha1(compinfo.encode()).hexdigest(),
-                'urls': [url.format(id) for url in STORES]
-            }
-            print(f'[NEW] [{date}] {compinfo}')
-        else:
-            greedy_users[sender] += 1
-            requests[compinfo]['reqt'] += 1
-            if requests[compinfo]['reql'] < date:
-                requests[compinfo]['reql'] = date
-            print(f'[N++] [{date}] {compinfo}')
-
+            if compinfo not in requests:
+                requests[compinfo] = {
+                    'name': name,
+                    'reqt': 1,
+                    'reql': date,
+                    'hash': sha1(compinfo.encode()).hexdigest(),
+                    'urls': [url.format(id) for url in STORES]
+                }
+                print(f'[NEW] [{date}] {compinfo}')
+            else:
+                greedy_users[sender] += 1
+                requests[compinfo]['reqt'] += 1
+                if requests[compinfo]['reql'] < date:
+                    requests[compinfo]['reql'] = date
+                print(f'[N++] [{date}] {compinfo}')
+    except:
+        continue
 
 
 write(REQUESTS_FILE, requests)
