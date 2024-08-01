@@ -39,6 +39,10 @@ jobs:
       run: |
         python -u email_parser.py 
 
+    - name: Parse requests.yml
+      run: |
+        python -u requests_parser.py -r
+
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
