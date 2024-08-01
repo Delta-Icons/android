@@ -2,7 +2,7 @@
 
 from os import system as execute
 from os import name as platform
-from os.path import abspath, basename, dirname, realpath
+from os.path import basename
 
 from natsort import natsorted as sorted
 from yaml import safe_load as yaml

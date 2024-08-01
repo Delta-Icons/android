@@ -14,6 +14,9 @@ jobs:
   update:
     name: Update Requests
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .github/scripts
     steps:
 
     - name: Checkout
@@ -21,29 +24,23 @@ jobs:
       with:
         token: ${{ secrets.PA_TOKEN }}
 
-    - name: Export variables
-      run: bash .github/scripts/variables.sh >> $GITHUB_ENV
-
     - name: Install dependencies
       run: |
-        cd ${{ env.sd }}
         sudo pip install -r requirements.txt
 
     - name: Dump emails
       run: |
-        cd ${{ env.sd }}
-        python email_dumper.py \
+        python -u email_dumper.py \
           -u '${{ secrets.EMAIL_ADDRESS }}'  \
           -p '${{ secrets.EMAIL_PASSWORD }}' \
           -r '${{ secrets.EMAIL_FOLDER }}'
         
     - name: Parse emails
       run: |
-        cd ${{ env.sd }}
-        python email_parser.py 
+        python -u email_parser.py 
 
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Auto-update requests.yml
+        commit_message: Update requests.yml
         file_pattern: contribs/requests.yml

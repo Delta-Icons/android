@@ -4,37 +4,37 @@ import argparse, re
 
 from datetime import datetime
 from os import mkdir
-from os.path import dirname, exists, realpath
+from os.path import exists
 
 from redbox import EmailBox as redbox
 
 
 parser = argparse.ArgumentParser(description='Dump a IMAP folder into .eml files')
-parser.add_argument('-s',
+parser.add_argument('-s', '--host',
                     dest='host',
                     help='IMAP host',
                     default='imap.gmail.com')
-parser.add_argument('-P',
+parser.add_argument('-P', '--port',
                     dest='port',
                     help='IMAP port',
                     default=993)
-parser.add_argument('-u',
+parser.add_argument('-u', '--username',
                     dest='username',
                     help='IMAP username',
                     required=True)
-parser.add_argument('-p',
+parser.add_argument('-p', '--password',
                     dest='password',
                     help='IMAP password',
                     required=True)
-parser.add_argument('-r',
+parser.add_argument('-r', '--remote',
                     dest='remote',
                     help='Remote folder to download',
                     default='INBOX')
-parser.add_argument('-l',
+parser.add_argument('-l', '--local',
                     dest='local',
                     help='Local folder where to save .eml files',
                     default=f'emails')
-parser.add_argument('-U',
+parser.add_argument('-U', '--unread',
                     dest='unread',
                     help='Keep emails unread in the inbox',
                     default=False,

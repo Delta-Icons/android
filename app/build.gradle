@@ -14,7 +14,7 @@ android {
 		multiDexEnabled true
 
 		// Naming app bundles
-		setArchivesBaseName("${parent.name}-v${versionCode}")
+		setArchivesBaseName("delta-v${versionName}")
 	}
 
 	bundle {
@@ -67,6 +67,26 @@ dependencies {
      * If you've missed some versions you've to also follow update guide for those versions
      */
 
-	playImplementation 'com.github.zixpo:candybar:3.20.1'
-	fossImplementation 'com.github.donnnno:candybar-foss:3.20.1'
+	playImplementation 'com.github.zixpo:candybar:3.20.2'
+	fossImplementation 'com.github.donnnno:candybar-foss:3.20.2'
 }
+
+// Code for automatically copying appfilter.xml and drawable.xml
+// from `res/xml` directory to `assets` directory
+
+// flameshikari: we don't need that I guess. the workflow does that
+// https://github.com/zixpo/candybar-sample/wiki/Updating-the-dashboard#from-v3201-to-v3202
+
+// tasks.register('copyXMLs') {
+//     ['appfilter.xml', 'drawable.xml'].each { file ->
+//         copy {
+//             from "$projectDir/src/main/res/xml/$file"
+//             into "$projectDir/src/main/assets/"
+//         }
+//     }
+// }
+// tasks.configureEach { task ->
+//     if (task.name == 'assembleDebug' || task.name == 'assembleRelease') {
+//         task.dependsOn copyXMLs
+//     }
+// }
