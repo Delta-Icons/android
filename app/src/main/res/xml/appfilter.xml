@@ -237,6 +237,7 @@
 	<item component="ComponentInfo{app.cordes.pluot/app.cordes.pluot.activities.SplashActivity}" drawable="pluot" />
 	<item component="ComponentInfo{app.cordes.pluot/app.cordes.pluot.home.LaunchActivity}" drawable="pluot" />
 	<item component="ComponentInfo{app.crossword.yourealwaysbe.forkyz/app.crossword.yourealwaysbe.BrowseActivity}" drawable="forkyz" />
+	<item component="ComponentInfo{app.crossword.yourealwaysbe.forkyz.BrowseActivity}" drawable="forkyz" />
 	<item component="ComponentInfo{app.crossword.yourealwaysbe.forkyzscanner/app.crossword.yourealwaysbe.forkyzscanner.ForkyzScannerActivity}" drawable="forkyz_scanner" />
 	<item component="ComponentInfo{app.dapk.st/app.dapk.st.MainActivity}" drawable="smalltalk" />
 	<item component="ComponentInfo{app.dhoom2020/app.dhoom2020.activity.Launcher}" drawable="vpn" />
@@ -4506,7 +4507,8 @@
 	<item component="ComponentInfo{com.google.ar.lens/com.google.vr.apps.ornament.app.lens.LensLauncherActivity}" drawable="google_lens" />
 	<item component="ComponentInfo{com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.LauncherActivity}" drawable="google_live_transcribe" />
 	<item component="ComponentInfo{com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity}" drawable="google_live_transcribe" />
-	<item component="ComponentInfo{com.google.chromeremotedesktop/org.chromium.chromoting.Chromoting}" drawable="chrome_remote_desktop" />
+	<item component="ComponentInfo{com.google.chromeremotedesktop/org.chromium.chromoting.Chromoting}" drawable="chrome_remote_desktop" />\
+	<item component="ComponentInfo{com.google.android.apps.earth.flutter.EarthFlutterActivity}" drawable="google_earth" />
 	<item component="ComponentInfo{com.google.earth/com.google.android.apps.earth.EarthActivity}" drawable="google_earth" />
 	<item component="ComponentInfo{com.google.earth/com.google.earth.EarthActivity}" drawable="google_earth" />
 	<item component="ComponentInfo{com.google.earth/com.google.earth.MainActivity}" drawable="google_earth" />
@@ -4672,6 +4674,7 @@
 	<item component="ComponentInfo{com.hbo.hbonow/com.hbo.go.LaunchActivity}" drawable="hbo_max" />
 	<item component="ComponentInfo{com.hbo.hbonow/com.hbo.hbonow.MainActivity}" drawable="hbo_max" />
 	<item component="ComponentInfo{com.hbwares.wordfeud.free/com.hbwares.wordfeud.ui.WordFeudActivity}" drawable="wordfeud" />
+	<item component="ComponentInfo{com.hbwares.wordfeud.ui.WordFeudActivity}" drawable="wordfeud premium" />
 	<item component="ComponentInfo{com.hcceg.veg.compassionfree/com.sisow.hcvg.healthydiningguide.app.splash.ui.SplashScreenActivity}" drawable="happycow" />
 	<item component="ComponentInfo{com.hcom.android/com.expedia.bookings.activity.SearchActivity}" drawable="hotels_com" />
 	<item component="ComponentInfo{com.hdfcbank.payzapp/com.apollorncontainer.activities.SplashActivity}" drawable="payzapp" />
