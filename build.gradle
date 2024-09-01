@@ -22,6 +22,12 @@ allprojects {
         TargetSdk = 34
         CompileSdk = 34
     }
+
+    configurations.all {
+        resolutionStrategy {
+            force 'com.github.KeepSafe:TapTargetView:1.13.0'
+        }
+    }
 }
 
 // tasks.register('clean', Delete) {
