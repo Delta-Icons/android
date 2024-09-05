@@ -22,13 +22,19 @@ allprojects {
         TargetSdk = 34
         CompileSdk = 34
     }
+/*
+// fixed with candybar 3.20.3
 
     configurations.all {
         resolutionStrategy {
             force 'com.github.KeepSafe:TapTargetView:1.13.0'
         }
     }
+
+ */
 }
+
+
 
 // tasks.register('clean', Delete) {
 //     delete rootProject.layout.buildDirectory
