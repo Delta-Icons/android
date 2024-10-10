@@ -86,3 +86,30 @@ phone_pe:
 
 usertesting:
   - com.usertesting.recorder.krsna/com.usertesting.recorder.startup.splash.SplashActivity
+
+audio_editor_and_music_editor:
+  - com.audio.editor.musiceditor.audioeditor/com.editor.audioeditor.ui.activity.SplashActivity
+
+daily_dev:
+  - dev.daily/dev.daily.LauncherActivity
+
+my_notes:
+  - net.kreosoft.android.mynotes/net.kreosoft.android.mynotes.controller.LaunchActivity
+
+poste_italiane:
+  - com.posteitaliane.spim/it.posteitaliane.df_home.splash.SplashActivity
+
+qr_barcode_scanner:
+  - com.barcode.qrcode.scanner.reader.pro/com.barcode.qrcode.scanner.reader.pro.activity.MainActivity
+
+settings_database_provider:
+  - com.netvor.settings.database.editor/com.netvor.settings.database.editor.view.ui.LauncherActivity
+
+temp_mail_io:
+  - io.tempmail.android/io.tempmail.mvp.root.RootActivity
+
+tile_shortcuts:
+  - com.tombayley.tileshortcuts/com.tombayley.tileshortcuts.app.ui.home.MainActivity
+
+windows_app:
+  - com.microsoft.rdc.androidx.beta/com.microsoft.windowsapp.ui.HomeActivity
