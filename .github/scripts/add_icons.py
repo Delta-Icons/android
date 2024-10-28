@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-n', '--name', metavar='NAME', help='the name of a drawable entry')
 parser.add_argument('-c', '--compinfos', metavar='NAME', action='append', default=[], nargs='+', help='include one or multiple compinfos')
 parser.add_argument('-a', '--include-appfilter', action='store_true', help='process the appfilter.xml file')
-parser.add_argument('-d', '--include_drawable', action='store_true', help='process the drawable.xml file', )
+parser.add_argument('-d', '--include-drawable', action='store_true', help='process the drawable.xml file')
 parser.add_argument('-C', '--category', metavar='NAME', help='add to a specific category instead of the named one')
 parser.add_argument('-r', '--include-requests', action='store_true', help='process the requests.txt file')
 parser.add_argument('-i', '--include-icons', action='store_true', help='move icons to the target folders')
@@ -153,6 +153,8 @@ if include_icons and not ignore_errors:
         for test_file in icons_dst_files:
             if exists(test_file): out.fail(f"icon '{test_file}' exists in target folder, use -f option to overwrite it")
 
+compinfos = [*{*compinfos}] # https://stackoverflow.com/a/60518033
+
 for compinfo in compinfos:
     match = re.search(r'^(.*?)\/[\w+.$]+', compinfo)
     if not match:
@@ -173,6 +175,7 @@ if include_drawable:
         content = file.read()
         drawable_entry = f'<item drawable="{name}" />'
         categories = ['<category title="New" />', f'<category title="{category}" />']
+        if category == 'New': out.fail(f"{filename}: category '{category}' can't be used")
         if not re.search(categories[1], content, re.IGNORECASE): out.fail(f"{filename}: category '{category}' not found")
         if re.search(drawable_entry, content, re.IGNORECASE): out.warn(f"{filename}: drawable '{name}' exists")
         else:
@@ -223,7 +226,7 @@ if include_drawable:
 
             if drawables_count > 0:
                 write(file, content)
-                out.done(f'{filename}: {dry_run_prefix + "added"} 2 entries')
+                out.done(f'{filename}: {dry_run_prefix + "added"} 2 entries in \'New\' and \'{category_name}\'')
                 out.verb()
                 for id, entry in enumerate(entries):
                     if verbose:
