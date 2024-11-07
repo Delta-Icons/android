@@ -177,27 +177,32 @@ hsbc:
 
 volkswagen:
   - com.volkswagen.weconnect/com.volkswagen.weconnect.SingleActivity
+  - com.vw.carnet.release/com.vw.myVW.activities.RoutingActivity
 
 dominos:
   - au.com.dominos.olo.android.app/com.arizona.MainActivity
 
 weather:
   - tr.gov.mgm.meteorolojihavadurumu/tr.gov.mgm.meteorolojihavadurumu.SplashActivity
+  - com.ilmeteo.android.ilmeteo/com.ilmeteo.android.ilmeteo.SplashActivity
 
 bible:
   - bible.kjvbible.audio.plan.verse/com.bible.verse.KinjMainActivity
   - com.bestweatherfor.bibleoffline_pt_kja/com.bestweatherfor.bibleoffline_pt_ra.bibleoffline.splash.Splash
   - org.mcgi.app.bible/org.mcgi.app.bible.MainActivity
   - com.bible.holy.bible.for.women/com.offline.bible.IconDefault
+  - com.epsoftgroup.lasantabiblia/com.epsoftgroup.lasantabiblia.activities.SplashSetupActivity
 
 wallsplash:
   - com.goodwallpapers.tapety_3d_vectorial/com.goodwallpapers.wallpapers3d.MainActivity
+  - one4studio.wallpaper.one4wall/one4studio.wallpaper.one4wall.MainActivity
 
 discord_goth:
   - com.discord/com.discord.main.MainBrandDark
 
 file_manager:
   - org.aospstudio.files/com.aospstudio.shortcuts.MainActivity
+  - com.filemanager.managefile.fileexplorer.fileextractor/com.dani.example.presentation.ui.activities.main.MainActivity
 
 kia_connect:
   - com.kia.connect.eu/hmns.global.mobile.pages.splash.SplashActivity
@@ -207,3 +212,18 @@ simple_tools_music_player_greyblack:
 
 clock_alt_1:
   - com.egert.clock/com.egert.clock.MainActivity
+
+go_launcher:
+  - com.gau.go.launcherex/com.jiubang.golauncher.GOLauncherFacade
+
+sudoku:
+  - com.feathergamesuk.sudoku/com.godot.game.GodotApp
+
+bbva:
+  - com.bbva.italy/com.bbva.woody.app.modules.initial.splash.view.SplashActivity
+
+droidfish:
+  - org.petero.droidfish/org.petero.droidfish.DroidFish
+
+screen_recorder:
+  - us.rec.screen/com.zipoapps.premiumhelper.ui.splash.PHSplashActivity
