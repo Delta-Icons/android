@@ -125,6 +125,7 @@
 	<item component="ComponentInfo{ahaflix.tv/com.viewlift.mobile.AppCMSLaunchActivity}" drawable="aha" />
 	<item component="ComponentInfo{ahapps.controlthescreenorientation/ahapps.controlthescreenorientation.MainActivity}" drawable="control_screen_rotation" />
 	<item component="ComponentInfo{ai.blurrr.video/ai.blurrr.video.MainActivity}" drawable="blurrr" />
+	<item component="ComponentInfo{ai.character.app/ai.character.app.MainActivityDefault}" drawable="character_ai" />
 	<item component="ComponentInfo{ai.character.app/ai.character.app.MainActivity}" drawable="character_ai" />
 	<item component="ComponentInfo{ai.dreamily.app/com.dreamilyai.dreamily_ai.MainActivity}" drawable="dreamily" />
 	<item component="ComponentInfo{ai.inflection.pi/ai.inflection.pi.MainActivity}" drawable="pi_personal_ai" />
@@ -159,7 +160,6 @@
 	<item component="ComponentInfo{air.com.RustyLake.CubeEscapeTheMill/air.com.RustyLake.CubeEscapeTheMill.AppEntry}" drawable="cube_escape_the_mill" />
 	<item component="ComponentInfo{air.com.RustyLake.CubeEscapeTheatre/air.com.RustyLake.CubeEscapeTheatre.AppEntry}" drawable="cube_escape_theatre" />
 	<item component="ComponentInfo{air.com.adobe.connectpro/air.com.adobe.connectpro.AppEntry}" drawable="adobe_connect_classic" />
-	<item component="ComponentInfo{com.adobe.connect.android.mobile/com.adobe.connect.android.mobile.view.homepage.SplashScreenActivity}" drawable="adobe_connect_classic" />
 	<item component="ComponentInfo{air.com.adobe.pstouchphone/air.com.adobe.pstouchphone.AppEntry}" drawable="adobe_ps_touch" />
 	<item component="ComponentInfo{air.com.amanitadesign.chuchel.gp/air.com.amanitadesign.chuchel.gp.AIRAppEntry}" drawable="chuchel" />
 	<item component="ComponentInfo{air.com.bartbonte.black/air.com.bartbonte.black.AppEntry}" drawable="bartbonte_black" />
@@ -273,6 +273,7 @@
 	<item component="ComponentInfo{app.halma/app.halma.AndroidLauncher}" drawable="halma" />
 	<item component="ComponentInfo{app.hiddify.com/com.hiddify.hiddify.MainActivity}" drawable="hiddify" />
 	<item component="ComponentInfo{app.hkTransport/app.hkTransport.MainActivity}" drawable="hk_transport" />
+	<item component="ComponentInfo{app.hoarder.hoardermobile/app.hoarder.hoardermobile.MainActivity}" drawable="hoarder_app" />
 	<item component="ComponentInfo{app.homey/app.homey.MainActivity}" drawable="homey" />
 	<item component="ComponentInfo{app.humanforest/com.example.forest_app.MainActivity}" drawable="forest_ebike_sharing" />
 	<item component="ComponentInfo{app.imps.unity/app.imps.activities.Splash}" drawable="unity_bank" />
@@ -313,6 +314,7 @@
 	<item component="ComponentInfo{app.qrcode/app.qrcode.MainActivity}" drawable="qr_code_reader" />
 	<item component="ComponentInfo{app.revanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music_revanced" />
 	<item component="ComponentInfo{app.revanced.android.gms/org.microg.gms.ui.SettingsActivity}" drawable="microg_settings" />
+	<item component="ComponentInfo{app.revanced.android.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos" />
 	<item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube_revanced" />
 	<item component="ComponentInfo{app.revanced.manager.flutter.debug/app.revanced.manager.flutter.MainActivity}" drawable="revanced_manager" />
 	<item component="ComponentInfo{app.revanced.manager.flutter/app.revanced.manager.flutter.MainActivity}" drawable="revanced_manager" />
@@ -355,7 +357,8 @@
 	<item component="ComponentInfo{app.wako/app.wako.MainActivity}" drawable="wako" />
 	<item component="ComponentInfo{app.walling.mandroid/app.walling.mandroid.MainActivity}" drawable="walling" />
 	<item component="ComponentInfo{app.zenly.locator/app.zenly.locator.MainActivity}" drawable="zenly" />
-	<item component="ComponentInfo{app.zophop/app.zophop.ui.activities.SplashScreen}" drawable="chalo" />
+	<item component="ComponentInfo{app.zimly.backup/app.zimly.backup.MainActivity}" drawable="zimly" />
+<item component="ComponentInfo{app.zophop/app.zophop.ui.activities.SplashScreen}" drawable="chalo" />
 	<item component="ComponentInfo{app.zxtune/app.zxtune.MainActivity}" drawable="zxtune" />
 	<item component="ComponentInfo{appinventor.ai_cancadrilo.madbarz2/appinventor.ai_cancadrilo.madbarz2.Screen1}" drawable="mad_barz" />
 	<item component="ComponentInfo{appinventor.ai_pmathijssen.fosdem_xml_12/appinventor.ai_pmathijssen.fosdem_xml_12.Screen1}" drawable="fosdem" />
@@ -442,6 +445,7 @@
 	<item component="ComponentInfo{au.com.crazytel.crazyphone.android/cz.acrobits.softphone.LauncherAlias}" drawable="crazyphone" />
 	<item component="ComponentInfo{au.com.cua.mb/au.com.cua.mb.GSBank}" drawable="bank" />
 	<item component="ComponentInfo{au.com.cusa.android/com.fusion.mobilebankingkit.ui.splash.SplashActivity}" drawable="credit_union_sa" />
+	<item component="ComponentInfo{au.com.dominos.olo.android.app/com.arizona.MainActivity}" drawable="dominos" />
 	<item component="ComponentInfo{au.com.donateblood.donorapp.prod/au.com.donateblood.donorapp.MainActivity}" drawable="red_cross" />
 	<item component="ComponentInfo{au.com.fuel7eleven/au.com.sevenelevenapp.ui.DeepLinkActivity}" drawable="_7_eleven" />
 	<item component="ComponentInfo{au.com.hotdoc.android.hotdoc/au.com.hotdoc.android.hotdoc.MainActivity}" drawable="hotdoc" />
@@ -562,6 +566,7 @@
 	<item component="ComponentInfo{berlin.unitedwestream.app/berlin.unitedwestream.app.MainActivity}" drawable="united_we_stream_berlin" />
 	<item component="ComponentInfo{bg.raiffeisen.mobilepay/bank.raiffeisen.mobilepay.activity.SplashScreenActivity}" drawable="bank" />
 	<item component="ComponentInfo{bible.king.james.app/king.james.bible.android.activity.LaunchActivity}" drawable="bible" />
+	<item component="ComponentInfo{bible.kjvbible.audio.plan.verse/com.bible.verse.KinjMainActivity}" drawable="bible" />
 	<item component="ComponentInfo{bigfont.enlargefont.largerfont.changefontsize/volio.tech.bigfont.MainActivity}" drawable="big_font_enlarge_font" />
 	<item component="ComponentInfo{bike.cowboy.app/bike.cowboy.app.features.splashscreen.SplashScreenActivity}" drawable="cowboy" />
 	<item component="ComponentInfo{bin.mt.plus.canary/bin.mt.plus.MainLightIcon}" drawable="mt_manager" />
@@ -643,6 +648,7 @@
 	<item component="ComponentInfo{by4a.setedit22/by4a.setedit.EditorActivity}" drawable="set_edit" />
 	<item component="ComponentInfo{by.a1.selfcare/com.tag.selfcare.tagselfcare.Launcher}" drawable="my_a1" />
 	<item component="ComponentInfo{by.green.tuber/by.green.tuber.MainActivity}" drawable="greentuber" />
+	<item component="ComponentInfo{by.lwo.oplati/by.lwo.oplati.base.MainActivity}" drawable="oplati" />
 	<item component="ComponentInfo{by.mts.client/ru.stream.mymts.MainActivity}" drawable="my_mts" />
 	<item component="ComponentInfo{by.st.priormobile/by.priorbank.authentication.splash.SplashActivity}" drawable="bank" />
 	<item component="ComponentInfo{bz.zaa.mibudsm8/bz.zaa.mibudsm8.MiuiHeadsetActivity}" drawable="mi_buds_m8" />
@@ -669,6 +675,8 @@
 	<item component="ComponentInfo{ca.eggs.eggtimer/ca.eggs.eggtimer.activity.LoadingScreenActivity}" drawable="eggtimer" />
 	<item component="ComponentInfo{ca.gc.cbsa.coronavirus/ca.gc.cbsa.canarrive.landing.AppLaunchRoutingActivity}" drawable="arrivecan" />
 	<item component="ComponentInfo{ca.gc.ec.weather_app_android.ops/ca.gc.ec.weather_app_android.fragments.MainActivity}" drawable="weather" />
+	<item component="ComponentInfo{ca.grics.mozaik.portail.parents/ca.grics.mozaik.portail.RootActivity}" drawable="mparent" />
+	<item component="ComponentInfo{ca.gwl.group.groupnet/ca.gwl.group.groupnet.ui.presentation.MainActivity}" drawable="canada_life" />
 	<item component="ComponentInfo{ca.honeygarlic.centennial/ca.honeygarlic.agendacore.SchoolAppView}" drawable="cent_central" />
 	<item component="ComponentInfo{ca.koho/ca.koho.MainActivity}" drawable="koho" />
 	<item component="ComponentInfo{ca.lapresse.android.lapressemobile/ca.lapresse.android.lapressemobile.StartupActivity}" drawable="la_presse" />
@@ -710,6 +718,7 @@
 	<item component="ComponentInfo{cc.echonet.coolmicapp/cc.echonet.coolmicapp.MainActivity}" drawable="cool_mic" />
 	<item component="ComponentInfo{cc.forestapp/cc.forestapp.activities.launch.LaunchActivity}" drawable="forest" />
 	<item component="ComponentInfo{cc.forestapp/cc.forestapp.applications.SplashActivity}" drawable="forest" />
+	<item component="ComponentInfo{cc.honista.app/com.app.launcher_0}" drawable="honista" />
 	<item component="ComponentInfo{cc.relive.reliveapp/cc.relive.reliveapp.MainActivity}" drawable="relive" />
 	<item component="ComponentInfo{cc.relive.reliveapp/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="relive" />
 	<item component="ComponentInfo{cc.taylorzhang.subtune/cc.taylorzhang.subtune.ui.MainActivity}" drawable="subtune" />
@@ -859,6 +868,7 @@
 	<item component="ComponentInfo{co.crystalapp.crystal/org.adblockplus.sbrowser.contentblocker.MainPreferences}" drawable="crystal_adblock" />
 	<item component="ComponentInfo{co.easy4u.writer/co.easy4u.writer.ui.DirListActivity}" drawable="writer_plus" />
 	<item component="ComponentInfo{co.feeld/co.feeld.Default}" drawable="feeld" />
+	<item component="ComponentInfo{co.feeld/co.feeld.MainActivityDefault}" drawable="feeld_dating" />
 	<item component="ComponentInfo{co.friendlyworld.chummy/co.friendlyworld.chummy.activities_new.LoginActivity}" drawable="chummy" />
 	<item component="ComponentInfo{co.happybits.marcopolo/co.happybits.marcopolo.ui.screens.splash.SplashActivity}" drawable="marco_polo" />
 	<item component="ComponentInfo{co.hellocode.exist/co.hellocode.exist.TabActivity}" drawable="exist" />
@@ -1036,6 +1046,7 @@
 	<item component="ComponentInfo{com.UNSH.Manikin/com.unity3d.player.UnityPlayerActivity}" drawable="manikin" />
 	<item component="ComponentInfo{com.UnluckyDuck.Drifto/com.unity3d.player.UnityPlayerActivity}" drawable="drifto" />
 	<item component="ComponentInfo{com.VCB/com.VCB.activities.home.SplashActivity}" drawable="bank" />
+	<item component="ComponentInfo{com.Vali98.ChatterUI/com.Vali98.ChatterUI.MainActivity}" drawable="chatterui" />
 	<item component="ComponentInfo{com.VandermaesenGames.TECHNUCLEAR/com.unity3d.player.UnityPlayerActivity}" drawable="technuclear" />
 	<item component="ComponentInfo{com.VodafoneIreland.MyVodafone/com.VodafoneIreland.MyVodafone.MainActivity}" drawable="vodafone" />
 	<item component="ComponentInfo{com.WhatsApp2Plus/com.WhatsApp2Plus.2}" drawable="whatsapp" />
@@ -1144,6 +1155,7 @@
 	<item component="ComponentInfo{com.adobe.analyticsdashboards/com.adobe.analyticsdashboards.MainActivity}" drawable="adobe_analytics" />
 	<item component="ComponentInfo{com.adobe.cc/com.adobe.cc.SplashScreen}" drawable="adobe_cc" />
 	<item component="ComponentInfo{com.adobe.comp/com.adobe.comp.activities.SplashScreenActivity}" drawable="adobe_comp" />
+	<item component="ComponentInfo{com.adobe.connect.android.mobile/com.adobe.connect.android.mobile.view.homepage.SplashScreenActivity}" drawable="adobe_connect_classic" />
 	<item component="ComponentInfo{com.adobe.cq.mobile.payback/com.valtech.payback.presentation.ui.activities.IntroductionActivity}" drawable="payback" />
 	<item component="ComponentInfo{com.adobe.creativeapps.draw/com.adobe.creativeapps.draw.activity.SplashActivity}" drawable="adobe_draw" />
 	<item component="ComponentInfo{com.adobe.creativeapps.gather/com.adobe.creativeapps.gather.activity.GatherSplashScreenActivity}" drawable="adobe_capture" />
@@ -1171,6 +1183,7 @@
 	<item component="ComponentInfo{com.adpmobile.android/com.adpmobile.android.auth.ui.AuthAppActivity}" drawable="adp" />
 	<item component="ComponentInfo{com.adraxas.squirclx/com.adraxas.squirclx.MainActivity}" drawable="squirclx" />
 	<item component="ComponentInfo{com.adriaandejongh.hiddenfolks/com.unity3d.player.UnityPlayerActivity}" drawable="hidden_folks" />
+	<item component="ComponentInfo{com.adrienblc.habitstracker/com.adrienblc.habitstracker.MainActivity}" drawable="habits_streak" />
 	<item component="ComponentInfo{com.adrientruong.grades/com.adrientruong.grades.MainActivity}" drawable="grades" />
 	<item component="ComponentInfo{com.adsk.sketchbook/com.adsk.sketchbook.SketchBook}" drawable="sketchbook" />
 	<item component="ComponentInfo{com.adsk.sketchbookhdexpress/com.adsk.sketchbook.SketchBook}" drawable="sketchbook" />
@@ -1346,6 +1359,7 @@
 	<item component="ComponentInfo{com.amazon.aws.console.mobile/com.amazon.aws.console.mobile.ui.LegacyLoginActivity}" drawable="amazon_aws_console" />
 	<item component="ComponentInfo{com.amazon.aws.console.mobile/com.amazon.aws.console.mobile.ui.LoginActivity}" drawable="amazon_aws_console" />
 	<item component="ComponentInfo{com.amazon.camera/com.amazon.camera.AmazonCameraActivity}" drawable="camera" />
+	<item component="ComponentInfo{com.amazon.chime/com.xodee.client.activity.Main}" drawable="amazon_chime" />
 	<item component="ComponentInfo{com.amazon.clouddrive.photos/com.amazon.clouddrive.photos.display.LauncherActivity}" drawable="amazon_photos" />
 	<item component="ComponentInfo{com.amazon.clouddrive.photos/com.amazon.photos.activity.LauncherActivity}" drawable="amazon_photos" />
 	<item component="ComponentInfo{com.amazon.dee.app/com.amazon.dee.app.Launcher}" drawable="amazon_alexa" />
@@ -1382,6 +1396,7 @@
 	<item component="ComponentInfo{com.amdroidalarmclock.amdroid/com.amdroidalarmclock.amdroid.MainActivity}" drawable="amdroid" />
 	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.au/com.americanexpress.android.intl.app.view.activity.SplashInitializationActivity}" drawable="amex_mobile" />
 	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.ca/com.americanexpress.android.intl.app.view.activity.SplashActivity}" drawable="amex_mobile" />
+	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.ca/com.americanexpress.android.intl.app.view.activity.SplashInitializationActivity}" drawable="amex_mobile" />
 	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.mx/com.americanexpress.android.intl.app.view.activity.SplashActivity}" drawable="amex_mobile" />
 	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.mx/com.americanexpress.android.intl.app.view.activity.SplashInitializationActivity}" drawable="amex_mobile" />
 	<item component="ComponentInfo{com.americanexpress.android.acctsvcs.uk/com.americanexpress.android.intl.app.view.activity.SplashActivity}" drawable="amex_mobile" />
@@ -1564,9 +1579,9 @@
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}" drawable="phone" />
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.HQDialtactsActivity}" drawable="phone" />
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.TwelveKeyDialer}" drawable="phone" />
-	<item component="ComponentInfo{com.android.dialer/com.android.dialer.app.calllog.CallLogActivity}" drawable="phone" />
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.app.ContactsTabByAlias}" drawable="contacts" />
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="phone" />
+	<item component="ComponentInfo{com.android.dialer/com.android.dialer.app.calllog.CallLogActivity}" drawable="phone" />
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.dialpad}" drawable="phone" />
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="phone" />
 	<item component="ComponentInfo{com.android.dialer/com.oneplus.contacts.activities.OPDialtactsActivity}" drawable="phone" />
@@ -1650,6 +1665,7 @@
 	<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadActivity}" drawable="downloads" />
 	<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="downloads" />
 	<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadsListTab}" drawable="downloads" />
+	<item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.activity.DownloadListEntry}" drawable="xiaomi_downloads" />
 	<item component="ComponentInfo{com.android.providers.downloads/com.android.providers.downloads.ui.DownloadList}" drawable="downloads" />
 	<item component="ComponentInfo{com.android.quicksearchbox/com.android.quicksearchbox.SearchActivity}" drawable="xiaomi_search" />
 	<item component="ComponentInfo{com.android.samsung.utilityapp/com.android.samsung.utilityapp.app.presentation.welcomepage.WelcomeActivity}" drawable="samsung_galaxy_labs" />
@@ -1729,6 +1745,7 @@
 	<item component="ComponentInfo{com.androidvip.sysctlgui/com.androidvip.sysctlgui.ui.start.StartActivity}" drawable="sysctl_gui" />
 	<item component="ComponentInfo{com.andropenoffice/aoo.android.TopActivity}" drawable="andropen_office" />
 	<item component="ComponentInfo{com.andropenoffice/aoo.android.X11Activity}" drawable="andropen_office" />
+	<item component="ComponentInfo{com.androxus.touchthenotch/com.androxus.touchthenotch.ui.activities.MainActivity}" drawable="action_notch" />
 	<item component="ComponentInfo{com.andrwq.recorder/com.andrwq.recorder.RecorderActivity}" drawable="sound_recorder" />
 	<item component="ComponentInfo{com.anghami/com.anghami.activities.SplashActivity_}" drawable="anghami" />
 	<item component="ComponentInfo{com.angkas.passenger/com.whitewidget.angkas.customer.splash.SplashActivity}" drawable="angkas" />
@@ -2203,6 +2220,7 @@
 	<item component="ComponentInfo{com.bbva.bbvacontigo/com.bbva.woody.app.modules.initial.splash.view.SplashActivity}" drawable="bbva" />
 	<item component="ComponentInfo{com.bbva.bbvacontigo/com.bbva.woody.phone.modules.initial.splash.view.SplashActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.bbva.compassBuzz/com.bbva.compassBuzz.modules.initialization.StartActivity}" drawable="bbva" />
+	<item component="ComponentInfo{com.bbva.italy/com.bbva.woody.app.modules.initial.splash.view.SplashActivity}" drawable="bbva" />
 	<item component="ComponentInfo{com.bbva.nxt_argentina/com.bbva.glomohybrid.splash.presentation.view.SplashActivity}" drawable="bbva" />
 	<item component="ComponentInfo{com.bbva.nxt_peru/com.bbva.glomohybrid.splash.presentation.view.SplashActivity}" drawable="bbva" />
 	<item component="ComponentInfo{com.bca.mybca.omni.android/com.bca.mybca.omni.android.presentation.splashscreenrevamp.SplashScreenActivity}" drawable="mybca" />
@@ -2270,6 +2288,7 @@
 	<item component="ComponentInfo{com.bestbuy.android/com.bestbuy.android.activity.HomeScreen}" drawable="best_buy" />
 	<item component="ComponentInfo{com.bestbuy.android/com.bestbuy.android.activity.SplashActivity}" drawable="best_buy" />
 	<item component="ComponentInfo{com.bestfuncoolapps.TakeYourPills/com.bestfuncoolapps.TakeYourPills.MainActivity}" drawable="rxdroid" />
+	<item component="ComponentInfo{com.bestweatherfor.bibleoffline_pt_kja/com.bestweatherfor.bibleoffline_pt_ra.bibleoffline.splash.Splash}" drawable="bible" />
 	<item component="ComponentInfo{com.bestweatherfor.bibleoffline_pt_ra/com.bestweatherfor.bibleoffline_pt_ra.bibleoffline.splash.Splash}" drawable="bible" />
 	<item component="ComponentInfo{com.bet365SportsCA.Bet365_Application/com.bet365.sportsbook.AppDelegate}" drawable="bet365" />
 	<item component="ComponentInfo{com.beta.bcard/com.beta.bcard.MainActivity}" drawable="bizconnect" />
@@ -2293,6 +2312,7 @@
 	<item component="ComponentInfo{com.bewakoof.bewakoof/com.bewakoof.bewakoof.MainActivity}" drawable="bewakoof" />
 	<item component="ComponentInfo{com.beyondsw.touchmaster/com.beyondsw.ui.TouchActivity}" drawable="assistive_touch_menu" />
 	<item component="ComponentInfo{com.beyondthewhiteboard.johnnyutah/com.btwb.bunk.MainActivity}" drawable="btwb" />
+	<item component="ComponentInfo{com.bfl.merchant/com.bfl.merchant.ui.splash.SplashActivity}" drawable="bajaj_finserv" />
 	<item component="ComponentInfo{com.bgmenu.android/com.takeaway.android.activity.Splash}" drawable="takeaway" />
 	<item component="ComponentInfo{com.bhvr.deadbydaylight/com.epicgames.ue4.SplashActivity}" drawable="dead_by_daylight" />
 	<item component="ComponentInfo{com.bibas.worksclocks/com.bibas.worksclocks.ActivityMainApplication}" drawable="work_log" />
@@ -2300,6 +2320,7 @@
 	<item component="ComponentInfo{com.bibit.bibitid/com.bibit.bibitid.features.navigation.NavigationActivity}" drawable="bibit" />
 	<item component="ComponentInfo{com.bibit.bibitid/com.bibit.bibitid.features.webview.MainActivity}" drawable="bibit" />
 	<item component="ComponentInfo{com.bibit.bibitid/com.bibit.bibitid.ui.BibitActivity}" drawable="bibit" />
+	<item component="ComponentInfo{com.bible.holy.bible.for.women/com.offline.bible.IconDefault}" drawable="bible" />
 	<item component="ComponentInfo{com.bibleproject/com.bibleproject.MainActivity}" drawable="bible_project" />
 	<item component="ComponentInfo{com.bibleproject/host.exp.exponent.MainActivity}" drawable="bible_project" />
 	<item component="ComponentInfo{com.bibliocommons.opl/com.bibliocommons.ui.activities.splash.SplashActivity}" drawable="opl_mobile" />
@@ -2408,6 +2429,7 @@
 	<item component="ComponentInfo{com.blockfi.mobile/com.blockfi.rogue.common.presentation.splash.SplashActivity}" drawable="blockfi" />
 	<item component="ComponentInfo{com.blockfolio.blockfolio/com.blockfolio.blockfolio.SplashActivity}" drawable="blockfolio" />
 	<item component="ComponentInfo{com.blogspot.byterevapps.lollipopscreenrecorder/com.blogspot.byterevapps.lollipopscreenrecorder.MainActivity}" drawable="adv_screen_recorder" />
+	<item component="ComponentInfo{com.blogspot.yashas003.colorpalette/com.blogspot.yashas003.colorpalette.activities.SplashScreen}" drawable="color_palette" />
 	<item component="ComponentInfo{com.bloomberg.android.plus/com.bloomberg.android.plus.MainActivity}" drawable="bloomberg" />
 	<item component="ComponentInfo{com.bluebubbles.messaging/com.bluebubbles.messaging.MainActivity}" drawable="bluebubbles" />
 	<item component="ComponentInfo{com.bluecord/com.discord.app.AppActivity$Main}" drawable="bluecord" />
@@ -2496,6 +2518,7 @@
 	<item component="ComponentInfo{com.bradesco/br.com.bradesco.integrador.splash.SplashIcon05}" drawable="bradesco" />
 	<item component="ComponentInfo{com.bradesco/br.com.bradesco.integrador.splash.SplashIconDefault}" drawable="bradesco" />
 	<item component="ComponentInfo{com.bradesco/br.com.bradesco.integrador.splash.SplashScreen}" drawable="bradesco" />
+	<item component="ComponentInfo{com.brainfm.app/com.brainfm.app.MainActivity}" drawable="brain_fm" />
 	<item component="ComponentInfo{com.brainium.solitaire/com.brainium.solitaire.SolitaireLoader}" drawable="solitaire" />
 	<item component="ComponentInfo{com.brainium.solitairefree/com.brainium.solitairefree.SolitaireFreeLoader}" drawable="solitaire" />
 	<item component="ComponentInfo{com.brainscape.mobile.portal/com.brainscape.MainActivity}" drawable="brainscape_flashcards" />
@@ -2520,6 +2543,7 @@
 	<item component="ComponentInfo{com.brotato.shooting.survivors.action.roguelike/com.unity3d.player.UnityPlayerActivity}" drawable="brotato" />
 	<item component="ComponentInfo{com.brotato.shooting.survivors.games.paid.android/com.unity3d.player.UnityPlayerActivity}" drawable="brotato" />
 	<item component="ComponentInfo{com.brother.mfc.brprint/com.brother.mfc.brprint.v2.ui.top.SplashActivity}" drawable="printer" />
+	<item component="ComponentInfo{com.brother.printservice/com.brother.printservice.settings.SettingsActivity}" drawable="brother_print_service" />
 	<item component="ComponentInfo{com.brouken.player/com.brouken.player.PlayerActivity}" drawable="just_player" />
 	<item component="ComponentInfo{com.brubank/com.brubank.android.ui.activities.LandingActivity}" drawable="brubank" />
 	<item component="ComponentInfo{com.brunosousa.drawbricks/com.brunosousa.drawbricks.SplashScreenActivity}" drawable="draw_bricks" />
@@ -2659,6 +2683,7 @@
 	<item component="ComponentInfo{com.captaingames.golf/com.captaingames.golf.CrustyActivity}" drawable="desert_golfing" />
 	<item component="ComponentInfo{com.capybara.calculator/com.capybara.calculator.MainActivity}" drawable="simple_calculator_converter" />
 	<item component="ComponentInfo{com.capyreader.app.free/com.capyreader.app.MainActivity}" drawable="capy_reader" />
+	<item component="ComponentInfo{com.capyreader.app/com.capyreader.app.MainActivity}" drawable="capy_reader" />
 	<item component="ComponentInfo{com.cara.harveys/com.cara.harveys.MainActivity}" drawable="harveys" />
 	<item component="ComponentInfo{com.caracolu.alterego/com.unity3d.player.UnityPlayerActivity}" drawable="alter_ego" />
 	<item component="ComponentInfo{com.caraproject.app/com.caraproject.app.MainActivity}" drawable="cara" />
@@ -2689,6 +2714,7 @@
 	<item component="ComponentInfo{com.catfixture.inputbridge/com.catfixture.inputbridge.ui.activity.main.MainActivity}" drawable="inputbridge" />
 	<item component="ComponentInfo{com.cathaybk.mymobibank.android/com.cathaybk.nemo.android.MmbActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.catholicmatch.app/com.catholicmatch.app.MainActivity}" drawable="catholicmatch" />
+	<item component="ComponentInfo{com.cavagrill.cavagrill.android.app/com.cavagrill.cavagrill.android.app.MainActivity}" drawable="cava" />
 	<item component="ComponentInfo{com.caydey.ffshare/com.caydey.ffshare.MainActivity}" drawable="ffshare" />
 	<item component="ComponentInfo{com.cbc.mobilebanking/com.cbc.mobilebanking.MainActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.cbord.get/com.cbord.get.MainActivity}" drawable="get_mobile" />
@@ -2831,6 +2857,7 @@
 	<item component="ComponentInfo{com.cjin.pokegenie.standard/com.canjin.pokegenie.MainActivity}" drawable="poke_genie" />
 	<item component="ComponentInfo{com.clairmail.fth/com.fifththird.mobilebanking.activity.LoginActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.clairmail.sccu.mbanking/com.orcc.MainActivity}" drawable="space_coast_cu_mobile" />
+	<item component="ComponentInfo{com.claro.pe.miclaro/com.everis.miclaro.view.activity.SplashScreenActivity}" drawable="mi_claro" />
 	<item component="ComponentInfo{com.claroColombia.contenedor/com.speedymovil.contenedor.gui.activities.AppsContainerActivity}" drawable="claro" />
 	<item component="ComponentInfo{com.clarocolombia.miclaro/com.clarocolombia.miclaro.activities.Splash}" drawable="mi_claro" />
 	<item component="ComponentInfo{com.classcharts.android.student/com.classcharts.android.student.MainActivity}" drawable="classcharts_students" />
@@ -3011,6 +3038,7 @@
 	<item component="ComponentInfo{com.cooperativebank.bank/com.coop.mainapp.features.splash.SplashActivity}" drawable="the_cooperative_bank" />
 	<item component="ComponentInfo{com.coppel.coppelapp/com.coppel.coppelapp.Splash.view.SplashActivity}" drawable="coppel" />
 	<item component="ComponentInfo{com.coppi.bestbuy/com.bestbuy.android.activity.HomeScreenActivity}" drawable="best_buy" />
+	<item component="ComponentInfo{com.cordylussoftware.nocta/com.cordylussoftware.nocta.MainActivity}" drawable="nocta" />
 	<item component="ComponentInfo{com.coremobility.app.vnotes/com.coremobility.app.vnotes.CM_VnoteInbox}" drawable="voicemail" />
 	<item component="ComponentInfo{com.cornago.stefano.lapse/com.cornago.stefano.lapse.activities.StartActivity}" drawable="lapse" />
 	<item component="ComponentInfo{com.corphish.quicktools/com.corphish.quicktools.activities.MainActivity}" drawable="text_tools" />
@@ -3367,6 +3395,7 @@
 	<item component="ComponentInfo{com.discord/com.discord.MainActivity}" drawable="discord" />
 	<item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="discord" />
 	<item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainBrandDark}" drawable="discord_goth" />
 	<item component="ComponentInfo{com.discord/com.discord.main.MainController}" drawable="discord" />
 	<item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="discord" />
 	<item component="ComponentInfo{com.discord/com.discord.main.MainGalaxy}" drawable="discord" />
@@ -3584,6 +3613,7 @@
 	<item component="ComponentInfo{com.ea.game.pvz2_na/com.popcap.PvZ2.PvZ2GameActivity}" drawable="pvz2" />
 	<item component="ComponentInfo{com.ea.game.pvz2_row/com.popcap.PvZ2.PvZ2GameActivity}" drawable="pvz2" />
 	<item component="ComponentInfo{com.ea.game.pvzfree_row/com.ea.game.pvzfree_row.COPPAActivity}" drawable="pvz" />
+	<item component="ComponentInfo{com.ea.game.pvzfree_row/com.ea.game.pvzfree_row.PvZActivity}" drawable="pvz" />
 	<item component="ComponentInfo{com.ea.game.simcitymobile_row/com.ea.common.LaunchActivity}" drawable="simcity_buildit" />
 	<item component="ComponentInfo{com.ea.game.simpsons4_row/com.ea.simpsons.SimpsonsSplashScreen}" drawable="the_simpsons_tapped_out" />
 	<item component="ComponentInfo{com.ea.game.starwarscapital_row/com.ea.games.capitalgames.CapitalGamesActivity}" drawable="star_wars_galaxy_of_heroes" />
@@ -3658,6 +3688,7 @@
 	<item component="ComponentInfo{com.eero.android/com.eero.android.v3.features.splash.SplashActivity}" drawable="eero" />
 	<item component="ComponentInfo{com.efgh.customer/com.efgh.customer.MainActivity}" drawable="valu" />
 	<item component="ComponentInfo{com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin}" drawable="alipay" />
+	<item component="ComponentInfo{com.egert.clock/com.egert.clock.MainActivity}" drawable="clock_alt_1" />
 	<item component="ComponentInfo{com.egyptianbanks.instapay/com.olive.insta_pay.activity.SplashActivity}" drawable="instapay" />
 	<item component="ComponentInfo{com.ehi.enterprise.android/com.ehi.enterprise.android.ui.splash.SplashActivity}" drawable="enterprise" />
 	<item component="ComponentInfo{com.eightd.biximobile/com.citibikenyc.citibike.ui.main.SplashActivity}" drawable="bixi" />
@@ -3728,6 +3759,7 @@
 	<item component="ComponentInfo{com.epifi.paisa/com.epifi.paisa.ui.splash.SplashActivity}" drawable="fi_money" />
 	<item component="ComponentInfo{com.epiphany.lunadiary/com.epiphany.lunadiary.activity.IntroActivity}" drawable="luna_diary" />
 	<item component="ComponentInfo{com.epiphany.lunadiary/com.epiphany.lunadiary.home.IntroActivity}" drawable="luna_diary" />
+	<item component="ComponentInfo{com.epsoftgroup.lasantabiblia/com.epsoftgroup.lasantabiblia.activities.SplashSetupActivity}" drawable="bible" />
 	<item component="ComponentInfo{com.epson.epsonsmart/com.epson.epsonsmart.controller.splash.SplashActivity}" drawable="printer" />
 	<item component="ComponentInfo{com.epson.iprojection/com.epson.iprojection.ui.activities.start.Activity_StartSplash}" drawable="epson_iprojection" />
 	<item component="ComponentInfo{com.epsxe.ePSXe/com.epsxe.ePSXe.ePSXe}" drawable="epsxe" />
@@ -3837,6 +3869,7 @@
 	<item component="ComponentInfo{com.eyefilter.nightmode.bluelightfilter/com.eyefilter.nightmode.bluelightfilter.ui.WelcomeActivity}" drawable="blue_light_filter" />
 	<item component="ComponentInfo{com.eyemed.app.aetna/com.eyemed.app.members.ui.login.LoginActivity}" drawable="aetna" />
 	<item component="ComponentInfo{com.f0x1d.dnsmanager/com.f0x1d.dnsmanager.ui.activity.MainActivity}" drawable="no_icon" />
+	<item component="ComponentInfo{com.f0x1d.logfox/com.f0x1d.logfox.presentation.ui.activity.MainActivity}" drawable="logfox" />
 	<item component="ComponentInfo{com.f0x1d.logfox/com.f0x1d.logfox.ui.activity.MainActivity}" drawable="logfox" />
 	<item component="ComponentInfo{com.f0x1d.sense/com.f0x1d.sense.ui.activity.MainActivity}" drawable="openai_sense" />
 	<item component="ComponentInfo{com.f1soft.esewa/com.f1soft.esewa.activity.SplashScreenActivity}" drawable="esewa" />
@@ -3881,6 +3914,7 @@
 	<item component="ComponentInfo{com.fantrax.www.twa/com.fantrax.www.twa.LauncherActivity}" drawable="fantrax_fantasy_sports" />
 	<item component="ComponentInfo{com.fanzetech.holyquran/com.fanzetech.holyquran.QuranSplashView}" drawable="al_quran_indonesia" />
 	<item component="ComponentInfo{com.farlightgames.igame.gp/com.farlightgames.igame.SplashActivity}" drawable="afk_journey" />
+	<item component="ComponentInfo{com.farmatodo.app.ve/com.farmatodo.app.ftdapp.MainActivity}" drawable="farmatodo" />
 	<item component="ComponentInfo{com.farmerbb.appnotifier/com.farmerbb.appnotifier.ui.MainActivity}" drawable="appnotifier" />
 	<item component="ComponentInfo{com.farmerbb.notepad/com.farmerbb.notepad.MainActivity}" drawable="quickmemo" />
 	<item component="ComponentInfo{com.farmerbb.taskbar/com.farmerbb.taskbar.MainActivity}" drawable="taskbar" />
@@ -3912,6 +3946,7 @@
 	<item component="ComponentInfo{com.fcbanking.grip/com.banno.grip.startup.StartupActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.fd.accessplusecs.aqua/uk.co.newday.creditcard.splash.ui.SplashActivity}" drawable="aqua" />
 	<item component="ComponentInfo{com.fd.accessplusecs.aqua/uk.co.newday.creditcard.ui.splash.SplashActivity}" drawable="aqua" />
+	<item component="ComponentInfo{com.feathergamesuk.sudoku/com.godot.game.GodotApp}" drawable="sudoku" />
 	<item component="ComponentInfo{com.fedex.ida.android/com.fedex.ida.android.views.core.FedExHOME}" drawable="fedex" />
 	<item component="ComponentInfo{com.fediphoto.lineage/com.fediphoto.lineage.StartActivity}" drawable="fediphoto" />
 	<item component="ComponentInfo{com.fedmobile/in.co.federalbank.federalbank.SplashScreenActivity}" drawable="bank" />
@@ -3958,6 +3993,7 @@
 	<item component="ComponentInfo{com.fihtdc.music/com.fihtdc.music.ui.activities.MainActivity}" drawable="music" />
 	<item component="ComponentInfo{com.fiio.music/com.fiio.music.activity.SplashActivity}" drawable="fiio_music" />
 	<item component="ComponentInfo{com.fiistudio.fiinote/com.fiistudio.fiinote.editor.FiiNote}" drawable="quickmemo" />
+	<item component="ComponentInfo{com.filemanager.managefile.fileexplorer.fileextractor/com.dani.example.presentation.ui.activities.main.MainActivity}" drawable="file_manager" />
 	<item component="ComponentInfo{com.fillobotto.mp3tagger/activities.MainActivity}" drawable="automatag" />
 	<item component="ComponentInfo{com.filmic.filmicpro/com.filmic.activity.FilmicActivity}" drawable="filmic_pro" />
 	<item component="ComponentInfo{com.filo.student/com.filo.student.MainActivity}" drawable="filo" />
@@ -4257,6 +4293,7 @@
 	<item component="ComponentInfo{com.garmin.android.apps.messenger/com.garmin.android.apps.messenger.activity.MainActivity}" drawable="garmin_messenger" />
 	<item component="ComponentInfo{com.garmin.connectiq/com.garmin.connectiq.ui.startup.StartupActivity}" drawable="garmin_connect_iq_store" />
 	<item component="ComponentInfo{com.gateio.gateio/com.gateio.gateio.activity.SplashActivity}" drawable="gate_io" />
+	<item component="ComponentInfo{com.gau.go.launcherex/com.jiubang.golauncher.GOLauncherFacade}" drawable="go_launcher" />
 	<item component="ComponentInfo{com.gaudium.skoob/com.gaudium.skoob.MainActivity}" drawable="skoob" />
 	<item component="ComponentInfo{com.gazetki.gazetki/com.gazetki.gazetki2.activities.SplashActivity}" drawable="blix" />
 	<item component="ComponentInfo{com.gbros.tabslite/com.gbros.tabslite.HomeActivity}" drawable="tabs_lite" />
@@ -4346,6 +4383,7 @@
 	<item component="ComponentInfo{com.giffgaffmobile.controller/com.giffgaffmobile.controller.SplashActivity}" drawable="giffgaff" />
 	<item component="ComponentInfo{com.gimb.paydirekt.app/com.gimb.paydirekt.app.splash.view.SplashActivity}" drawable="giropay" />
 	<item component="ComponentInfo{com.ginnypix.kujicam/com.ginnypix.kujicam.main.SplashActivity}" drawable="kuji_cam" />
+	<item component="ComponentInfo{com.gionee.gallery/com.gionee.gallery.sb.app.GnGallery}" drawable="gallery" />
 	<item component="ComponentInfo{com.giovannibozzano.wakeblock/com.giovannibozzano.wakeblock.layout.activities.ActivitySplash}" drawable="wakeblock" />
 	<item component="ComponentInfo{com.giphy.messenger/com.giphy.messenger.app.MainAccom.giphy.camera/com.giphy.dev.ui.MainActivitytivity}" drawable="giphy_cam" />
 	<item component="ComponentInfo{com.giphy.messenger/com.giphy.messenger.app.MainActivity}" drawable="giphy" />
@@ -4427,6 +4465,7 @@
 	<item component="ComponentInfo{com.github.standardadb/com.github.standardadb.SplashActivity}" drawable="adb_manager" />
 	<item component="ComponentInfo{com.github.stenzek.duckstation/com.github.stenzek.duckstation.MainActivity}" drawable="duckstation" />
 	<item component="ComponentInfo{com.github.stsaz.phiola/com.github.stsaz.phiola.MainActivity}" drawable="phiola" />
+	<item component="ComponentInfo{com.github.superadb/com.github.superadb.SplashActivity}" drawable="adb_shell" />
 	<item component="ComponentInfo{com.github.thewierdnut.endless_mobile/com.github.thewierdnut.endless_mobile.ESActivity}" drawable="endless_sky" />
 	<item component="ComponentInfo{com.github.tianma8023.xposed.smscode/com.github.tianma8023.xposed.smscode.HomeActivityAlias}" drawable="xposedsmscode" />
 	<item component="ComponentInfo{com.github.tmo1.sms_ie/com.github.tmo1.sms_ie.MainActivity}" drawable="sms_import_export" />
@@ -4510,6 +4549,7 @@
 	<item component="ComponentInfo{com.goodreads/com.goodreads.android.activity.MainActivity}" drawable="goodreads" />
 	<item component="ComponentInfo{com.goodreads/com.goodreads.kindle.ui.activity.RoutingActivity}" drawable="goodreads" />
 	<item component="ComponentInfo{com.goodreads/com.goodreads.kindle.ui.activity.SplashActivity}" drawable="goodreads" />
+	<item component="ComponentInfo{com.goodwallpapers.tapety_3d_vectorial/com.goodwallpapers.wallpapers3d.MainActivity}" drawable="wallsplash" />
 	<item component="ComponentInfo{com.goodwy.audiobook/voice.app.features.MainActivity}" drawable="playbook" />
 	<item component="ComponentInfo{com.goodwy.audiobooklite/com.goodwy.audiobooklite.features.MainActivity}" drawable="playbook_lite" />
 	<item component="ComponentInfo{com.goodwy.audiobooklite/voice.app.features.MainActivity}" drawable="playbook_lite" />
@@ -4632,6 +4672,7 @@
 	<item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}" drawable="google_gallery_go" />
 	<item component="ComponentInfo{com.google.android.apps.pixel.agent/com.google.android.apps.pixel.agent.app.ui.browser.BrowserActivity}" drawable="pixel_screenshots" />
 	<item component="ComponentInfo{com.google.android.apps.pixel.creativeassistant/com.google.android.apps.pixel.merlin.tiktok.app.BlockAppActivity}" drawable="google_pixel_studio" />
+	<item component="ComponentInfo{com.google.android.apps.pixel.health/com.google.android.apps.pixel.health.thermometer.ThermometerHomeActivity}" drawable="pixel_thermometer" />
 	<item component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.play.console.mobile.MainActivity}" drawable="google_play_developer_console" />
 	<item component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity}" drawable="google_play_developer_console" />
 	<item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.ConversationListActivity}" drawable="google_photos" />
@@ -4803,6 +4844,7 @@
 	<item component="ComponentInfo{com.grability.rappi/com.grability.app.splash.SplashActivity}" drawable="rappi" />
 	<item component="ComponentInfo{com.grability.rappi/com.rappi.discovery.onboarding.impl.activities.RappiMainEntryActivity}" drawable="rappi" />
 	<item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.Home}" drawable="grab" />
+	<item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.common.alias.DefaultLauncherAlias}" drawable="grab" />
 	<item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.presentation.newface.NewFace}" drawable="grab" />
 	<item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.splash.SplashActivity}" drawable="grab" />
 	<item component="ComponentInfo{com.grailr.carrotweather/com.grailr.carrotweather.view.MainActivity}" drawable="carrot_weather" />
@@ -4931,8 +4973,8 @@
 	<item component="ComponentInfo{com.hardcodecoder.pulsemusic/com.hardcodecoder.pulsemusic.activities.main.SplashActivity}" drawable="pulse_music" />
 	<item component="ComponentInfo{com.harley_davidson.ride_planner/com.harleydavidson.rideplanner.onboarding.SplashActivity}" drawable="harley_davidson" />
 	<item component="ComponentInfo{com.harman.ble.jbllink/com.harman.jbl.portable.WelcomeActivity}" drawable="jbl_portable" />
-	<item component="ComponentInfo{com.harvestapp/com.harvestapp.app.Harvest}" drawable="harvest" />
 	<item component="ComponentInfo{com.harvestapp/com.harvestapp.MainActivity}" drawable="harvest" />
+	<item component="ComponentInfo{com.harvestapp/com.harvestapp.app.Harvest}" drawable="harvest" />
 	<item component="ComponentInfo{com.hasbro.riskbigscreen/com.google.firebase.MessagingUnityPlayerActivity}" drawable="risk" />
 	<item component="ComponentInfo{com.hash.prism/com.hash.prism.MainActivity}" drawable="prism" />
 	<item component="ComponentInfo{com.hashnode.hashnode/com.hashnode.hashnode.MainActivity}" drawable="hashnode" />
@@ -5036,16 +5078,16 @@
 	<item component="ComponentInfo{com.hm.goe/com.hm.goe.app.home.HomeActivity}" drawable="h_and_m" />
 	<item component="ComponentInfo{com.hm.goe/com.hm.goe.startup.StartupActivity}" drawable="h_and_m" />
 	<item component="ComponentInfo{com.hm/com.hm.app.SplashActivity}" drawable="h_and_m" />
-	<item component="ComponentInfo{com.hmdglobal.app.camera_ulc/com.myos.camera.activity.CameraActivity}" drawable="camera" />
+	<item component="ComponentInfo{com.hmdglobal.US601.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
 	<item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.CameraActivity}" drawable="camera" />
 	<item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.GuideActivity}" drawable="camera" />
+	<item component="ComponentInfo{com.hmdglobal.app.camera_ulc/com.myos.camera.activity.CameraActivity}" drawable="camera" />
 	<item component="ComponentInfo{com.hmdglobal.app.cameralite/com.hmdglobal.app.cameralite.GuideActivity}" drawable="camera" />
-	<item component="ComponentInfo{com.hmdglobal.app.fmradio/com.hmdglobal.app.fmradio.FmMainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.hmdglobal.app.fmradio/com.hmdglobal.app.fmradio.FMRadio}" drawable="fm_radio" />
+	<item component="ComponentInfo{com.hmdglobal.app.fmradio/com.hmdglobal.app.fmradio.FmMainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.hmdglobal.app.wingcamera/com.hmdglobal.app.wingcamera.CameraActivity}" drawable="camera" />
 	<item component="ComponentInfo{com.hmdglobal.camera2/com.android.camera.CameraLauncher}" drawable="camera" />
 	<item component="ComponentInfo{com.hmdglobal.camera2lite/com.android.camera.CameraLauncher}" drawable="camera" />
-	<item component="ComponentInfo{com.hmdglobal.US601.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts" />
 	<item component="ComponentInfo{com.hmdglobal.support/com.hmdglobal.support.ui.EntryActivity}" drawable="my_phone" />
 	<item component="ComponentInfo{com.hmdglobal.support/com.hmdglobal.support.ui.welcome.WelcomeActivity}" drawable="my_phone" />
 	<item component="ComponentInfo{com.hnb.DigitalApp/com.hnb.DigitalApp.Splash}" drawable="bank" />
@@ -5256,6 +5298,7 @@
 	<item component="ComponentInfo{com.ilixa.mosaic/com.ilixa.mosaic.ui.MainActivity}" drawable="mosaic_art_lab" />
 	<item component="ComponentInfo{com.illusionman1212.lyricsgrabbr/com.illusionman1212.lyricsgrabbr.MainActivity}" drawable="lyrics_grabbr" />
 	<item component="ComponentInfo{com.illusivereflection.berbausimulator/com.godot.game.GodotApp}" drawable="ber_bausimulator" />
+	<item component="ComponentInfo{com.ilmeteo.android.ilmeteo/com.ilmeteo.android.ilmeteo.SplashActivity}" drawable="weather" />
 	<item component="ComponentInfo{com.iloen.melon/com.iloen.melon.MusicBrowserActivity}" drawable="melon" />
 	<item component="ComponentInfo{com.ilv.vradio/com.ilv.vradio.MainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.imageline.FLM/com.imageline.FLM.FLMActivity}" drawable="fl_studio" />
@@ -5270,8 +5313,8 @@
 	<item component="ComponentInfo{com.imgflip.twa/com.imgflip.twa.LauncherActivity}" drawable="imgflip" />
 	<item component="ComponentInfo{com.imgur.mobile/com.imgur.mobile.Launcher}" drawable="imgur" />
 	<item component="ComponentInfo{com.imgur.mobile/com.imgur.mobile.MainActivity}" drawable="imgur" />
-	<item component="ComponentInfo{com.immediasemi.android.blink/com.immediasemi.blink.activities.MainActivity}" drawable="blink" />
 	<item component="ComponentInfo{com.immediasemi.android.blink/com.immediasemi.blink.MainActivity}" drawable="blink" />
+	<item component="ComponentInfo{com.immediasemi.android.blink/com.immediasemi.blink.activities.MainActivity}" drawable="blink" />
 	<item component="ComponentInfo{com.immersive.chinese/com.immersive.chinese.Activity.SplashActivity}" drawable="immersive_chinese" />
 	<item component="ComponentInfo{com.imo.android.imoim/com.imo.android.imoim.activities.Home}" drawable="imo" />
 	<item component="ComponentInfo{com.imo.android.imoim/com.imo.android.imoim.home.Home}" drawable="imo" />
@@ -5438,9 +5481,11 @@
 	<item component="ComponentInfo{com.itemstudio.castro/com.itemstudio.castro.containers.PrimaryContainerActivity}" drawable="castro" />
 	<item component="ComponentInfo{com.itemstudio.castro/com.itemstudio.castro.screens.main_activity.MainActivity}" drawable="castro" />
 	<item component="ComponentInfo{com.iternio.abrpapp/com.iternio.abrpapp.MainActivity}" drawable="a_better_routeplanner" />
+	<item component="ComponentInfo{com.itrack.adrenalinbelaru581466/com.itrack.mobifitnessdemo.activity.SplashActivity}" drawable="adrenalin" />
 	<item component="ComponentInfo{com.itsaky.androidide/com.itsaky.androidide.activities.SplashActivity}" drawable="androidide" />
 	<item component="ComponentInfo{com.itunestoppodcastplayer.app/com.itunestoppodcastplayer.app.StartupActivity}" drawable="podcast_republic" />
 	<item component="ComponentInfo{com.iudesk.android.photo.editor/app.activity.MainActivity}" drawable="photo_editor" />
+	<item component="ComponentInfo{com.ivanovsky.passnotes/com.ivanovsky.passnotes.presentation.StartActivity}" drawable="keepassvault" />
 	<item component="ComponentInfo{com.iven.iconify/com.iven.vectorify.ui.MainActivity}" drawable="vectorify_da_home" />
 	<item component="ComponentInfo{com.iven.musicplayergo/com.iven.musicplayergo.MainActivity}" drawable="music_player_go" />
 	<item component="ComponentInfo{com.iven.musicplayergo/com.iven.musicplayergo.ui.MainActivity}" drawable="music_player_go" />
@@ -5533,6 +5578,7 @@
 	<item component="ComponentInfo{com.jio.jse/com.jio.jse.mobile.ui.activity.SplashScreenActivity}" drawable="jiojoin" />
 	<item component="ComponentInfo{com.jio.media.jiobeats/com.jio.media.mobile.apps.jiobeats.splash.SplashScreen}" drawable="jiosaavn" />
 	<item component="ComponentInfo{com.jio.media.ondemand/com.jio.media.ondemand.view.HomeActivity}" drawable="jiocinema" />
+	<item component="ComponentInfo{com.jio.media.ondemand/com.v18.voot.features.home.ui.JVHomeActivity}" drawable="jiocinema" />
 	<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.activities.StartAllAppView}" drawable="myjio" />
 	<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.DashboardActivity}" drawable="myjio" />
 	<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.SplashActivity}" drawable="myjio" />
@@ -5608,6 +5654,7 @@
 	<item component="ComponentInfo{com.jrummy.apps.build.prop.editor/com.jrummy.apps.build.prop.editor.MainActivity}" drawable="build__prop_editor" />
 	<item component="ComponentInfo{com.jrummy.busybox.installer/com.jrummy.busybox.installer.MainActivity}" drawable="jrummy_busybox" />
 	<item component="ComponentInfo{com.jrummy.busybox.installer/com.jrummy.busybox.installer.activities.MainActivity}" drawable="jrummy_busybox" />
+	<item component="ComponentInfo{com.jrustonapps.myauroraforecast/com.jrustonapps.myauroraforecast.controllers.MainActivity}" drawable="my_aurora_forecast" />
 	<item component="ComponentInfo{com.jrustonapps.myauroraforecastpro/com.jrustonapps.myauroraforecast.controllers.MainActivity}" drawable="my_aurora_forecast" />
 	<item component="ComponentInfo{com.jrustonapps.mymoonphase/com.jrustonapps.mymoonphase.controllers.MainActivity}" drawable="my_moon_phase" />
 	<item component="ComponentInfo{com.jrzheng.supervpnfree/com.supersoft.supervpnfree.activity.MainActivity}" drawable="vpn" />
@@ -5717,6 +5764,7 @@
 	<item component="ComponentInfo{com.kg.app.sportdiary/com.kg.app.sportdiary.activities.MainActivity}" drawable="workout" />
 	<item component="ComponentInfo{com.kgurgul.cpuinfo/com.kgurgul.cpuinfo.features.HostActivity}" drawable="cpu_info" />
 	<item component="ComponentInfo{com.khuttun.notificationnotes/com.khuttun.notificationnotes.MainActivity}" drawable="notification_notes" />
+	<item component="ComponentInfo{com.kia.connect.eu/hmns.global.mobile.pages.splash.SplashActivity}" drawable="kia_connect" />
 	<item component="ComponentInfo{com.kia.uvo.in.prd/hmns.global.mobile.pages.splash.SplashActivity}" drawable="kia_connect" />
 	<item component="ComponentInfo{com.kiacanada.uvo/com.hata.telematics.screen.splash.SplashActivity}" drawable="kia_connect" />
 	<item component="ComponentInfo{com.kick.mobile/com.kick.mobile.MainActivity}" drawable="kick" />
@@ -5793,6 +5841,7 @@
 	<item component="ComponentInfo{com.kokoschka.michael.weather/com.kokoschka.michael.weather.ui.views.MainActivity}" drawable="weather" />
 	<item component="ComponentInfo{com.kokteyl.mackolik/com.perform.livescores.presentation.views.activities.SplashActivity}" drawable="mackolik" />
 	<item component="ComponentInfo{com.komoe.kmumamusumegp/jp.co.cygames.umamusume_activity.UmamusumeActivity}" drawable="uma_musume" />
+	<item component="ComponentInfo{com.komorebi.SimpleCalendar/com.sawadaru.calendar.ui.SplashActivity}" drawable="simple_calendar_easy_planner" />
 	<item component="ComponentInfo{com.kompasproductions.summertimesaga/org.renpy.android.PythonSDLActivity}" drawable="summertime_saga" />
 	<item component="ComponentInfo{com.konasl.nagad/com.konasl.dfs.ui.splash.SplashActivity}" drawable="nagad" />
 	<item component="ComponentInfo{com.konecty.rocket.chat/com.konecty.rocket.chat.MainActivity}" drawable="rocket_chat" />
@@ -5960,8 +6009,8 @@
 	<item component="ComponentInfo{com.lenovo.FileBrowser2/com.lenovo.FileBrowser.activities.FileBrowserMain}" drawable="cyanogenmod_file_manager" />
 	<item component="ComponentInfo{com.lenovo.FileBrowser/com.lenovo.FileBrowser.activities.FileBrowserMain}" drawable="lenovo_file_browser" />
 	<item component="ComponentInfo{com.lenovo.StkSelection/com.lenovo.StkSelection.StkSelection}" drawable="sim_toolkit" />
-	<item component="ComponentInfo{com.lenovo.anyshare.gps/com.lenovo.anyshare.ApMainActivity}" drawable="share_it" />
 	<item component="ComponentInfo{com.lenovo.anyshare.gps/com.lenovo.anyshare.ApMainActivityA}" drawable="share_it" />
+	<item component="ComponentInfo{com.lenovo.anyshare.gps/com.lenovo.anyshare.ApMainActivity}" drawable="share_it" />
 	<item component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthActivityNew}" drawable="calendar" />
 	<item component="ComponentInfo{com.lenovo.app.Calendar/com.lenovo.app.Calendar.MonthUI}" drawable="calendar" />
 	<item component="ComponentInfo{com.lenovo.calendar/com.lenovo.calendar.AllInOneActivity}" drawable="calendar" />
@@ -6056,6 +6105,7 @@
 	<item component="ComponentInfo{com.linecorp.tw.linemusic/com.naver.vibe.SplashActivity}" drawable="line_music" />
 	<item component="ComponentInfo{com.linegames.sl/io.gamepot.unity.plugin.GamePotSDKActivity}" drawable="smash_legends" />
 	<item component="ComponentInfo{com.linepaytw.upay/com.linepaytw.upay.biz.main.LaunchActivity}" drawable="line_pay" />
+	<item component="ComponentInfo{com.lingodeer.plus/com.lingo.lingoskill.ui.SplashActivity}" drawable="lingodeer_plus" />
 	<item component="ComponentInfo{com.lingodeer/com.lingo.lingoskill.ui.base.SplashActivity}" drawable="lingodeer" />
 	<item component="ComponentInfo{com.lingshot.languagelearn/com.lingshot.languagelearn.MainActivity}" drawable="lingshot" />
 	<item component="ComponentInfo{com.linguee.linguee/com.linguee.linguee.MainActivity}" drawable="linguee_dictionary" />
@@ -6417,6 +6467,7 @@
 	<item component="ComponentInfo{com.mercariapp.mercari/com.mercari.denali.MainActivity}" drawable="mercari" />
 	<item component="ComponentInfo{com.mercariapp.mercari/com.mercari.ramen.LaunchActivity}" drawable="mercari" />
 	<item component="ComponentInfo{com.mercariapp.mercari/com.mercari.ramen.launch.LaunchActivity}" drawable="mercari" />
+	<item component="ComponentInfo{com.merkost.suby/com.merkost.suby.MainActivity}" drawable="suby" />
 	<item component="ComponentInfo{com.merkuryinnovations.geeni/com.smart.ThingSplashActivity}" drawable="geeni" />
 	<item component="ComponentInfo{com.merkuryinnovations.geeni/com.smart.TuyaSplashActivity}" drawable="geeni" />
 	<item component="ComponentInfo{com.meross.meross/com.meross.meross.ui.start.FirstCheckActivity}" drawable="meross" />
@@ -6612,6 +6663,7 @@
 	<item component="ComponentInfo{com.miui.calculator.go/com.miui.calculator.cal.CalculatorActivity}" drawable="calculator" />
 	<item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.CalculatorActivity}" drawable="calculator" />
 	<item component="ComponentInfo{com.miui.compass/com.miui.compass.CompassActivity}" drawable="compass" />
+	<item component="ComponentInfo{com.miui.creation/com.miui.creation.ui.activity.CreationHomeActivity}" drawable="mi_canvas" />
 	<item component="ComponentInfo{com.miui.enbbs/com.miui.miuibbs.activity.WelcomeActivity}" drawable="xiaomi_miui_forum" />
 	<item component="ComponentInfo{com.miui.fm/com.miui.fmradio.FmActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.miui.fm/com.miui.fmradio.FmRadioActivity}" drawable="fm_radio" />
@@ -6695,6 +6747,7 @@
 	<item component="ComponentInfo{com.mobolize.cira.shield/com.mobophiles.cacheengine.vpn.VpnSimpleCacheFrontActivity}" drawable="cira_canadian_shield" />
 	<item component="ComponentInfo{com.mobond.mindicator/com.mobond.mindicator.SplashUI}" drawable="m_indicator" />
 	<item component="ComponentInfo{com.modelmakertools.simplemindpro/com.modelmakertools.simplemindpro.SimpleMindProEditorActivity}" drawable="simplemind" />
+	<item component="ComponentInfo{com.mods.maps.mine/com.mods.maps.mine.ui.MainActivity}" drawable="mods_maps_skin_for_minecraft" />
 	<item component="ComponentInfo{com.moez.QKSMS/com.moez.QKSMS.feature.main.MainActivity}" drawable="qksms" />
 	<item component="ComponentInfo{com.moimob.drinkable/com.moimob.drinkable.MainActivity}" drawable="drinkable" />
 	<item component="ComponentInfo{com.moiseum.dailyart2/eu.eastcodes.dailybase.views.main.SplashActivity}" drawable="dailyart" />
@@ -6771,6 +6824,7 @@
 	<item component="ComponentInfo{com.motorola.cn.compass/com.motorola.cn.compass.CompassActivity}" drawable="compass" />
 	<item component="ComponentInfo{com.motorola.cn.deskclock/com.motorola.cn.deskclock.DeskClock}" drawable="clock" />
 	<item component="ComponentInfo{com.motorola.contextual.smartrules2/com.motorola.contextaware.ui.GalleryActivity}" drawable="moto_assist" />
+	<item component="ComponentInfo{com.motorola.dolby.dolbyui.ui/com.motorola.dolby.dolbyui.ui.LauncherActivity}" drawable="dolby_atmos" />
 	<item component="ComponentInfo{com.motorola.dolby.dolbyui/com.motorola.dolby.dolbyui.ui.LauncherActivity}" drawable="dolby_atmos" />
 	<item component="ComponentInfo{com.motorola.dolby.dolbyui/com.motorola.dolby.dolbyui.ui.welcome.WelcomeActivity}" drawable="dolby_atmos" />
 	<item component="ComponentInfo{com.motorola.fmplayer/com.motorola.fmplayer.ChangeThemeActivity}" drawable="fm_radio" />
@@ -7117,6 +7171,7 @@
 	<item component="ComponentInfo{com.nintendo.zaka/com.nintendo.npf.sdk.internal.app.NintendoAccountActivity}" drawable="mario_kart_tour" />
 	<item component="ComponentInfo{com.nintendo.zama/com.nhnent.matcha.PeachUnityPlayerActivity}" drawable="dr_mario_world" />
 	<item component="ComponentInfo{com.nintendo.zara/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity}" drawable="super_mario_run" />
+	<item component="ComponentInfo{com.nintendo.znba/com.nintendo.znba.MainActivity}" drawable="nintendo_music" />
 	<item component="ComponentInfo{com.nintendo.znca/com.nintendo.coral.ui.boot.BootActivity}" drawable="nintendo_switch_online" />
 	<item component="ComponentInfo{com.nintendo.znca/crc64e1ce91bfba58d316.MainActivity}" drawable="nintendo_switch_online" />
 	<item component="ComponentInfo{com.nintendo.znca/md5e14d8df872e237c80839f608ad2933ea.MainActivity}" drawable="nintendo_switch_online" />
@@ -7458,6 +7513,7 @@
 	<item component="ComponentInfo{com.painless.pc/com.painless.pc.settings.LaunchActivity}" drawable="power_toggles" />
 	<item component="ComponentInfo{com.pallo.passiontimerscoped/com.pallo.passiontimerscoped.MainActivity}" drawable="yeolpumta" />
 	<item component="ComponentInfo{com.palmtronix.shreddit.v1/com.palmtronix.shreddit.v1.view.AuthenticateActivity}" drawable="shreddit" />
+	<item component="ComponentInfo{com.panasonic.technicsaudioconnect/com.panasonic.audioconnect.ui.view.SplashActivity}" drawable="simple_tools_music_player_greyblack" />
 	<item component="ComponentInfo{com.pandaexpress.app/com.pandaexpress.app.MainActivity}" drawable="panda_express" />
 	<item component="ComponentInfo{com.pandavpnfree.androidproxy/com.pandavpn.androidproxy.ui.SplashActivity}" drawable="vpn" />
 	<item component="ComponentInfo{com.pandora.android/com.pandora.android.LauncherActivity}" drawable="pandora" />
@@ -7497,7 +7553,9 @@
 	<item component="ComponentInfo{com.paultirk.yatoo/com.paultirk.yatoo.MainActivity}" drawable="yatoo" />
 	<item component="ComponentInfo{com.pavelrekun.skit/com.pavelrekun.skit.base.BaseActivity}" drawable="skit" />
 	<item component="ComponentInfo{com.pavelrekun.tilla.premium/com.pavelrekun.tilla.base.BaseActivity}" drawable="tilla" />
+	<item component="ComponentInfo{com.pavelrekun.tilla.premium/com.pavelrekun.tilla.navigation.NavigationActivity}" drawable="tilla" />
 	<item component="ComponentInfo{com.pavelrekun.tilla/com.pavelrekun.tilla.base.BaseActivity}" drawable="tilla" />
+	<item component="ComponentInfo{com.pavelrekun.tilla/com.pavelrekun.tilla.navigation.NavigationActivity}" drawable="tilla" />
 	<item component="ComponentInfo{com.pavlenko.Habo/com.pavlenko.Habo.MainActivity}" drawable="habo" />
 	<item component="ComponentInfo{com.pavlok3.core/com.pavlok3.core.MainActivity}" drawable="pavlok" />
 	<item component="ComponentInfo{com.pavlok3.core/com.pavlok3.core.ui.SplashActivity}" drawable="pavlok" />
@@ -7577,6 +7635,7 @@
 	<item component="ComponentInfo{com.phenix.cajou/com.phenix.cajou.MainActivity}" drawable="phenix" />
 	<item component="ComponentInfo{com.phhhoto.android/com.phhhoto.android.ui.login.SplashActivity}" drawable="phhhoto" />
 	<item component="ComponentInfo{com.philips.lighting.hue2/com.philips.lighting.hue2.ContentActivity}" drawable="philips_hue" />
+	<item component="ComponentInfo{com.philkes.notallyx/com.philkes.notallyx.presentation.activity.main.MainActivity}" drawable="notallyx" />
 	<item component="ComponentInfo{com.phonepe.app/com.phonepe.app.ui.activity.Navigator_MainActivity}" drawable="phone_pe" />
 	<item component="ComponentInfo{com.phonepe.app/com.phonepe.app.v4.nativeapps.splash.Navigator_SplashActivity}" drawable="phone_pe" />
 	<item component="ComponentInfo{com.phonevalley.progressive/com.phonevalley.progressive.common.activities.SplashActivity}" drawable="progressive" />
@@ -7703,6 +7762,7 @@
 	<item component="ComponentInfo{com.pokemon.pokemontcgl/com.pokemon.pokemontcgl.UnityPlayerActivity}" drawable="pokemon_tcg_live" />
 	<item component="ComponentInfo{com.polar.mirror/com.polar.mirror.MainActivity}" drawable="mirror_foss" />
 	<item component="ComponentInfo{com.polar.nextcloudservices/com.polar.nextcloudservices.SettingsActivity}" drawable="nextcloud" />
+	<item component="ComponentInfo{com.polestar.explore/com.polestar.explore.ui.MainActivity}" drawable="polestar" />
 	<item component="ComponentInfo{com.polywise.lucid/com.polywise.lucid.ui.screens.onboarding.OnboardingActivity}" drawable="imprint" />
 	<item component="ComponentInfo{com.pomelogames.MarsGame/com.unity3d.player.UnityPlayerActivity}" drawable="mars_mars" />
 	<item component="ComponentInfo{com.pomodoneappmobile/com.pomodoneappmobile.MainActivity}" drawable="pomodone" />
@@ -7836,6 +7896,7 @@
 	<item component="ComponentInfo{com.quadpay.quadpay/com.quadpay.quadpay.SplashActivity}" drawable="zip" />
 	<item component="ComponentInfo{com.quadren.arc/com.quadren.arc.MainActivity}" drawable="arc" />
 	<item component="ComponentInfo{com.qualcomm.stk/com.qualcomm.stk.StkLauncherActivity2}" drawable="sim_toolkit" />
+	<item component="ComponentInfo{com.qualitrain.fitness/com.netpulse.mobile.launch.LaunchActivity}" drawable="egym_wellpass" />
 	<item component="ComponentInfo{com.quantfury/com.quantfury.activities.SplashActivity}" drawable="quantfury" />
 	<item component="ComponentInfo{com.quarzo.fourinarow/com.quarzo.fourinarow.AndroidLauncher}" drawable="_4_in_a_row" />
 	<item component="ComponentInfo{com.qubogo.iot/app.qubogo.iot.ui.splash.SplashActivity}" drawable="qubopro" />
@@ -7997,6 +8058,7 @@
 	<item component="ComponentInfo{com.resultadosfutbol.mobile/com.rdf.resultados_futbol.ui.splash.SplashActivity}" drawable="besoccer" />
 	<item component="ComponentInfo{com.retroarch.aarch64/com.retroarch.browser.mainmenu.MainMenuActivity}" drawable="retroarch" />
 	<item component="ComponentInfo{com.retroarch/com.retroarch.browser.mainmenu.MainMenuActivity}" drawable="retroarch" />
+	<item component="ComponentInfo{com.revanced.net.revancedmanager/com.revanced.net.revancedmanager.MainActivity}" drawable="revanced_manager" />
 	<item component="ComponentInfo{com.reverb.app/com.reverb.app.browse.BrowseActivity}" drawable="reverb" />
 	<item component="ComponentInfo{com.revolgenx.anilib/com.revolgenx.anilib.activity.SplashActivity}" drawable="anilib" />
 	<item component="ComponentInfo{com.revolut.junior/com.revolut.junior.feature.app_theme.api.LauncherActivity}" drawable="revolut_junior" />
@@ -8018,6 +8080,7 @@
 	<item component="ComponentInfo{com.rhmsoft.pulsar.pro/com.rhmsoft.play.MainActivity}" drawable="pulsar" />
 	<item component="ComponentInfo{com.rhmsoft.pulsar/com.rhmsoft.play.MainActivity}" drawable="pulsar" />
 	<item component="ComponentInfo{com.ribsky.ridna/com.ribsky.ridna.ui.MainActivity}" drawable="ridna" />
+	<item component="ComponentInfo{com.ricohimaging.imagesync/com.ricohimaging.imagesync.TitleActivity}" drawable="image_sync" />
 	<item component="ComponentInfo{com.ridewith/com.google.android.apps.ridematch.ui.main.MainActivity}" drawable="waze_carpool" />
 	<item component="ComponentInfo{com.ridewithgps.mobile/com.ridewithgps.mobile.activity.RWGPSDashActivity}" drawable="ride_with_gps" />
 	<item component="ComponentInfo{com.ridgebotics.ridgescout/com.ridgebotics.ridgescout.MainActivity}" drawable="ridgescout" />
@@ -8138,6 +8201,7 @@
 	<item component="ComponentInfo{com.runtastic.android.results.lite/com.runtastic.android.results.activities.LoginTourActivity}" drawable="adidas_training" />
 	<item component="ComponentInfo{com.runtastic.android.timer/com.runtastic.android.timer.activities.StartUpActivity}" drawable="runtastic_timer" />
 	<item component="ComponentInfo{com.runtastic.android/com.runtastic.android.activities.StartActivity}" drawable="runtastic" />
+	<item component="ComponentInfo{com.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube_revanced_alt_7" />
 	<item component="ComponentInfo{com.ryanair.cheapflights/com.ryanair.cheapflights.ui.SplashScreenActivity}" drawable="ryanair" />
 	<item component="ComponentInfo{com.ryansteckler.nlpunbounce/com.ryansteckler.nlpunbounce.Settings-Alias}" drawable="amplify" />
 	<item component="ComponentInfo{com.ryzac.codecademygo/host.exp.exponent.MainActivity}" drawable="codecademy_go" />
@@ -8276,8 +8340,8 @@
 	<item component="ComponentInfo{com.samsung.android.wonderland.wallpaper/com.samsung.android.wonderland.wallpaper.settings.StartupActivity}" drawable="samsung_wonderland" />
 	<item component="ComponentInfo{com.samsung.attvvm/com.samsung.attvvm.ui.VVMActivity}" drawable="voicemail" />
 	<item component="ComponentInfo{com.samsung.ecomm.global.gbr/com.samsung.ecomm.global.shop_app.MainActivity}" drawable="samsung_shop" />
-	<item component="ComponentInfo{com.samsung.ecomm.global.in/com.samsung.ecomm.global.in.SampleActivity}" drawable="samsung_shop" />
 	<item component="ComponentInfo{com.samsung.ecomm.global.in/com.samsung.ecomm.MainActivity}" drawable="samsung_shop" />
+	<item component="ComponentInfo{com.samsung.ecomm.global.in/com.samsung.ecomm.global.in.SampleActivity}" drawable="samsung_shop" />
 	<item component="ComponentInfo{com.samsung.everglades.video/com.samsung.everglades.video.VideoMain}" drawable="samsung_video" />
 	<item component="ComponentInfo{com.samsung.helphub/com.samsung.helphub.HelpHubLauncherActivity}" drawable="samsung_help" />
 	<item component="ComponentInfo{com.samsung.kidsplay/com.nirvana.NirvanaActivity}" drawable="samsung_kids_plus" />
@@ -8417,6 +8481,7 @@
 	<item component="ComponentInfo{com.securenettech.cove6production/com.securenettech.cove6production.MainActivity}" drawable="cove_security" />
 	<item component="ComponentInfo{com.securew2.paladin/com.securew2.paladin.android.activity.MainActivity}" drawable="securew2" />
 	<item component="ComponentInfo{com.security.xvpn.z35kb/com.security.xvpn.z35kb.SplashActivity}" drawable="vpn" />
+	<item component="ComponentInfo{com.securitybank.bbx/com.securitybank.bbx.MainActivity}" drawable="security_bank" />
 	<item component="ComponentInfo{com.securitybank.online/com.securitybank.online.app.activity.EntryActivity}" drawable="security_bank_online" />
 	<item component="ComponentInfo{com.secuso.privacyFriendlyCodeScanner/com.secuso.privacyfriendlycodescanner.qrscanner.ui.activities.SplashActivity}" drawable="secuso_qr_scanner" />
 	<item component="ComponentInfo{com.secuso.torchlight2/com.secuso.torchlight2.ui.SplashActivity}" drawable="secuso_torchlight" />
@@ -8538,6 +8603,7 @@
 	<item component="ComponentInfo{com.shub39.grit/com.shub39.grit.MainActivity}" drawable="grit" />
 	<item component="ComponentInfo{com.shub39.rush/com.shub39.rush.MainActivity}" drawable="rush" />
 	<item component="ComponentInfo{com.shutterfly/com.shutterfly.activity.ShutterflyLauncherActivity}" drawable="shutterfly" />
+	<item component="ComponentInfo{com.shvenergy.liquigas/com.shv.consumerportals.MainActivity}" drawable="myliquigas" />
 	<item component="ComponentInfo{com.siber.roboform/com.siber.roboform.StarterActivity}" drawable="roboform" />
 	<item component="ComponentInfo{com.sidechef.sidechef/com.sidechef.sidechef.activity.SplashActivity}" drawable="sidechef" />
 	<item component="ComponentInfo{com.sierrawireless.mhswatcher/com.sierrawireless.mhswatcher.MainScreen}" drawable="netgear_mobile" />
@@ -9539,6 +9605,7 @@
 	<item component="ComponentInfo{com.streamlabs.slobsrc/com.streamlabs.slobsrc.MainActivity}" drawable="streamlabs_controller" />
 	<item component="ComponentInfo{com.streamlabs/com.streamlabs.live.ui.main.HomeActivity}" drawable="streamlabs" />
 	<item component="ComponentInfo{com.streamline.justtherecipe/com.streamline.justtherecipe.MainActivity}" drawable="just_the_recipe" />
+	<item component="ComponentInfo{com.streetvoice.streetvoice/com.streetvoice.streetvoice.view.SplashActivity}" drawable="streetvoice" />
 	<item component="ComponentInfo{com.streetwriters.notesnook/com.streetwriters.notesnook.MainActivity}" drawable="notesnook" />
 	<item component="ComponentInfo{com.stremio.one/com.stremio.MainActivity}" drawable="stremio" />
 	<item component="ComponentInfo{com.stresscodes.wallp/com.stresscodes.wallp.CustomSplashScreen}" drawable="walp" />
@@ -9737,6 +9804,7 @@
 	<item component="ComponentInfo{com.tct.soundrecorder.bb/com.tct.soundrecorder.SoundRecorder}" drawable="sound_recorder" />
 	<item component="ComponentInfo{com.tct.weather/com.tct.weather.MainActivity}" drawable="weather" />
 	<item component="ComponentInfo{com.td.insurance/com.td.insurance.activities.view.SplashActivity}" drawable="td_bank" />
+	<item component="ComponentInfo{com.td.mbna/com.td.mbna.splash.SplashActivity}" drawable="mbna" />
 	<item component="ComponentInfo{com.td/com.td.mobile.controllers.StartupActivity}" drawable="bank" />
 	<item component="ComponentInfo{com.tdameritrade.mobile3/com.tdameritrade.mobile3.activities.HomeActivity}" drawable="td_ameritrade" />
 	<item component="ComponentInfo{com.tdbank/com.td.dcts.android.us.app.MainActivity}" drawable="td_bank" />
@@ -9830,38 +9898,38 @@
 	<item component="ComponentInfo{com.teslamotors.tesla/com.teslamotors.tesla.LoginActivity}" drawable="tesla" />
 	<item component="ComponentInfo{com.testbook.tbapp/com.testbook.tbapp.android.SplashActivity}" drawable="testbook" />
 	<item component="ComponentInfo{com.testbook.tbapp/com.testbook.tbapp.android.router.RouterActivity}" drawable="testbook" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff006064}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff00695c}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff00897b}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff0097a7}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff00b8d4}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff0277bd}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff0d47a1}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff1976d2_bare}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff1a237e}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff1b5e20}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff212121_bare}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff2196f3_bare}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff263238}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff29b6f6}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff2e7d32}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff304ffe}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff311b92_bare}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff33691e}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff3e2723}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff43a047}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff4db6ac}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff5e35b1}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff673ab7_bare}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff69f0ae}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff7e57c2}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff9c27b0}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff29b6f6}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff43a047}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff69f0ae}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff81c784_bare}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff90a4ae}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff9c27b0}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff0097a7}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff0277bd}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff304ffe}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff311b92_bare}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff673ab7_bare}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff00695c}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff00897b}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff1976d2_bare}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff2196f3_bare}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff006064}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff33691e}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff212121_bare}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ff263238}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ffc62828}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ffe57373_bare}" drawable="textra" />
-	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_fff06292}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_fff57f17}" drawable="textra" />
+	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_fff06292}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ffff6f00_bare}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.Main_ffffffff}" drawable="textra" />
 	<item component="ComponentInfo{com.textra/com.mplus.lib.ui.main.Main}" drawable="textra" />
@@ -9900,8 +9968,8 @@
 	<item component="ComponentInfo{com.thesouledstore/com.thesouledstore.SplashActivity}" drawable="the_souled_store" />
 	<item component="ComponentInfo{com.thespaghettidetective.android/com.thespaghettidetective.MainActivity}" drawable="octoprint" />
 	<item component="ComponentInfo{com.thestorygraph.thestorygraph/com.thestorygraph.thestorygraph.MainActivity}" drawable="storygraph" />
-	<item component="ComponentInfo{com.theswitchbot.switchbot/com.theswitchbot.switchbot.index.ui.SplashActivity}" drawable="switchbot" />
 	<item component="ComponentInfo{com.theswitchbot.switchbot/com.theswitchbot.switchbot.SplashActivity}" drawable="switchbot" />
+	<item component="ComponentInfo{com.theswitchbot.switchbot/com.theswitchbot.switchbot.index.ui.SplashActivity}" drawable="switchbot" />
 	<item component="ComponentInfo{com.thetileapp.tile/com.thetileapp.tile.activities.IntroActivity}" drawable="tile" />
 	<item component="ComponentInfo{com.thetileapp.tile/com.thetileapp.tile.activities.MainActivity}" drawable="tile" />
 	<item component="ComponentInfo{com.thetrainline/com.thetrainline.activities.home_screen.SplashScreenActivity}" drawable="trainline" />
@@ -10229,6 +10297,7 @@
 	<item component="ComponentInfo{com.transsion.fmradio/com.funbase.xradio.activity.SplashActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.transsion.fmradio/com.transsion.fmradio.FmMainActivity}" drawable="fm_radio" />
 	<item component="ComponentInfo{com.transsion.hilauncher/com.android.launcher3.DynamicVirtualEntryActivity}" drawable="hios_launcher" />
+	<item component="ComponentInfo{com.transsion.notebook/com.transsion.notebook.NotesList}" drawable="quickmemo" />
 	<item component="ComponentInfo{com.transsion.phonemaster/com.cyin.himgr.ads.SplashActivity}" drawable="phone_master" />
 	<item component="ComponentInfo{com.transsion.smartmessage/com.android.messaging.ui.conversationlist.ConversationListActivity}" drawable="sms_alt_3" />
 	<item component="ComponentInfo{com.transsion.smartpanel/com.transsion.gamemode.activity.GameSpaceActivity}" drawable="xarena" />
@@ -10313,6 +10382,7 @@
 	<item component="ComponentInfo{com.turbochilli.rollingsky/com.turbochilli.rollingsky.AppActivity}" drawable="rolling_sky" />
 	<item component="ComponentInfo{com.tureng.sozluk/com.tureng.sozluk.MainActivity}" drawable="tureng_dictionary" />
 	<item component="ComponentInfo{com.turkcell.bip/com.turkcell.bip.ui.main.BiPActivity}" drawable="bip" />
+	<item component="ComponentInfo{com.turkishairlines.mobile/com.turkishairlines.mobile.ui.ACSplash}" drawable="turkish_airlines" />
 	<item component="ComponentInfo{com.turner.cardwars/com.kungfufactory.androidplugin.KFFActivity}" drawable="card_wars" />
 	<item component="ComponentInfo{com.turner.cnvideoapp/com.turner.cnvideoapp.top.AppActivity}" drawable="cartoon_network" />
 	<item component="ComponentInfo{com.turner.pocketmorties/com.appboy.unity.prime31compatible.AppboyUnityPlayerActivity}" drawable="pocket_mortys" />
@@ -10495,11 +10565,13 @@
 	<item component="ComponentInfo{com.usm.ddfkrake/com.twp.dda.StartupActivity}" drawable="diedreifragezeichen" />
 	<item component="ComponentInfo{com.usm.ddfquiz/usm.diedreifragezeichenquiz.FullscreenActivity}" drawable="diedreifragezeichen" />
 	<item component="ComponentInfo{com.usm.ddfschattenhelden/com.twp.lib.StartupActivity}" drawable="diedreifragezeichen" />
+	<item component="ComponentInfo{com.usmleworld/com.uworld.ui.activity.LoginActivity}" drawable="uworld_medical" />
 	<item component="ComponentInfo{com.usps/com.usps.mobile.SplashScreenActivity}" drawable="usps" />
 	<item component="ComponentInfo{com.ust.sheetzretapp/com.sheetz.consumermobile.login.SplashActivity}" drawable="sheetz" />
 	<item component="ComponentInfo{com.ustwo.monumentvalley2/com.unity3d.player.UnityPlayerActivity}" drawable="monument_valley_2" />
 	<item component="ComponentInfo{com.ustwo.monumentvalley2/com.ustwo.androidplugins.MainActivity}" drawable="monument_valley_2" />
 	<item component="ComponentInfo{com.ustwo.monumentvalley.underground/com.ustwo.deviceutil.MainActivity}" drawable="monument_valley" />
+	<item component="ComponentInfo{com.ustwo.monumentvalley/com.unity3d.player.UnityPlayerActivity}" drawable="monument_valley" />
 	<item component="ComponentInfo{com.ustwo.monumentvalley/com.ustwo.deviceutil.MainActivity}" drawable="monument_valley" />
 	<item component="ComponentInfo{com.utec.utec/com.utec.utec.ui.user.LoginHomeActivity}" drawable="u_tec" />
 	<item component="ComponentInfo{com.utorrent.client.pro/com.bittorrent.app.Main}" drawable="my__torrent" />
@@ -10548,6 +10620,7 @@
 	<item component="ComponentInfo{com.vector123.whiteborder/com.vector123.blank.activity.HomeActivity}" drawable="white_border" />
 	<item component="ComponentInfo{com.vectorunit.cobalt.googleplay/com.vectorunit.cobalt.MainActivity}" drawable="beach_buggy_racing_2" />
 	<item component="ComponentInfo{com.vedaant.sanskritlearner/com.vedaant.sanskritlearner.MainActivity}" drawable="sanskrit" />
+	<item component="ComponentInfo{com.vedasapps.flashcards/com.vedasapps.flashcards.MainActivity}" drawable="ankipro" />
 	<item component="ComponentInfo{com.veetaw.quake/com.veetaw.quake.MainActivity}" drawable="quake_earthquakes" />
 	<item component="ComponentInfo{com.vega/com.vega.MainActivity}" drawable="vega" />
 	<item component="ComponentInfo{com.velocity.frequentflyer/com.velocity.frequentflyer.navigation.RouteActivity}" drawable="velocity" />
@@ -10609,6 +10682,7 @@
 	<item component="ComponentInfo{com.virginaustralia.vaapp/com.virginaustralia.vaapp.StartingActivity}" drawable="virgin_australia" />
 	<item component="ComponentInfo{com.virginmobile.colombia/com.virginmobile.colombia.ui.activity.AccessControlActivity}" drawable="virgin_mobile" />
 	<item component="ComponentInfo{com.virginmobile.uae/com.virginmobile.uae.activity.IntroActivity}" drawable="virgin_mobile" />
+	<item component="ComponentInfo{com.virginpulse.virginpulse/com.virginpulse.features.splash.presentation.SplashActivity}" drawable="virgin_pulse" />
 	<item component="ComponentInfo{com.virginvoyages.sailorapp/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="virgin_voyages" />
 	<item component="ComponentInfo{com.virtual_pen/com.virtual_pen.MainActivity}" drawable="android_virtual_pen" />
 	<item component="ComponentInfo{com.virtualapplications.play/com.virtualapplications.play.MainActivity}" drawable="play_emulator" />
@@ -10664,10 +10738,12 @@
 	<item component="ComponentInfo{com.vodafone.mCare/com.vodafone.mCare.ui.HomeActivity}" drawable="vodafone" />
 	<item component="ComponentInfo{com.vodafone.selfservis/com.vodafone.selfservis.modules.splash.activities.SplashActivity}" drawable="vodafone" />
 	<item component="ComponentInfo{com.vodemn.lightmeter/com.vodemn.lightmeter.MainActivity}" drawable="lightmeter" />
+	<item component="ComponentInfo{com.volkswagen.weconnect/com.volkswagen.weconnect.SingleActivity}" drawable="volkswagen" />
 	<item component="ComponentInfo{com.voltmobi.yakitoriya/com.voltmobi.yakitoriya.ui.main.MainActivity}" drawable="yakitoriya" />
 	<item component="ComponentInfo{com.volumestories.flutterapp/com.ryanheise.audioservice.AudioServiceActivity}" drawable="volume_stories" />
 	<item component="ComponentInfo{com.volutopia.forgeofneon3d/com.volutopia.forgeofneon3d.MainActivity}" drawable="forge_of_neon" />
 	<item component="ComponentInfo{com.volvmedia.volvapp/com.volvmedia.volvapp.MainActivity}" drawable="volv" />
+	<item component="ComponentInfo{com.vonglasow.michael.satstat/com.vonglasow.michael.satstat.ui.MainActivity}" drawable="satstat" />
 	<item component="ComponentInfo{com.vont.smartlight/com.vont.smartlight.ui.WelcomeActivity}" drawable="vont_home" />
 	<item component="ComponentInfo{com.vorwerk.cookidoo/com.cookidoo.android.presentation.splash.SplashScreenActivity}" drawable="thermomix_cookidoo" />
 	<item component="ComponentInfo{com.votorantim.bvpd/br.com.votorantim.bvpd.bank.MainActivity}" drawable="bank" />
@@ -10701,6 +10777,7 @@
 	<item component="ComponentInfo{com.vuclip.viu/com.vuclip.viu.ui.screens.MainActivity}" drawable="viu" />
 	<item component="ComponentInfo{com.vulog.carshare.kia/com.repsol.wible.presentation.splash.SplashActivity}" drawable="wible" />
 	<item component="ComponentInfo{com.vuze.torrent.downloader/com.vuze.torrent.downloader.activity.MainActivity}" drawable="vuze" />
+	<item component="ComponentInfo{com.vw.carnet.release/com.vw.myVW.activities.RoutingActivity}" drawable="volkswagen" />
 	<item component="ComponentInfo{com.vzw.hss.myverizon/com.vzw.hss.myverizon.ui.activities.LauncherActivity}" drawable="my_verizon" />
 	<item component="ComponentInfo{com.w2sv.filenavigator/com.w2sv.filenavigator.MainActivity}" drawable="file_navigator" />
 	<item component="ComponentInfo{com.w2sv.wifiwidget/com.w2sv.wifiwidget.ui.screens.home.HomeActivity}" drawable="wifi_widget" />
@@ -11157,6 +11234,7 @@
 	<item component="ComponentInfo{com.zhiliaoapp.musicallylite/com.zhiliaoapp.musically.activity.SplashActivity}" drawable="tiktok" />
 	<item component="ComponentInfo{com.ziadoua.zcalc/com.ziadoua.zcalc.MainActivity}" drawable="zcalc" />
 	<item component="ComponentInfo{com.ziadoua.zcard/com.ziadoua.zcard.MainActivity}" drawable="zcard" />
+	<item component="ComponentInfo{com.ziiforce.soonta/com.ziiforce.chameleon.MainActivity}" drawable="soonta" />
 	<item component="ComponentInfo{com.zillow.android.zillowmap/com.zillow.android.re.ui.SplashScreenActivity}" drawable="zillow" />
 	<item component="ComponentInfo{com.zilok.ouicar/com.zilok.ouicar.ui.LaunchActivity}" drawable="ouicar" />
 	<item component="ComponentInfo{com.zimperium.zanti/com.zimperium.zanti.MainActivity}" drawable="zanti" />
@@ -11251,6 +11329,7 @@
 	<item component="ComponentInfo{cr.fi.bncr.bnmovil.bncr/cr.fi.bncr.bnmovil.bncr.SplashScreenActivity}" drawable="simpleinnovation_period_calendar" />
 	<item component="ComponentInfo{crabhands.android/crc64e490453898eea56d.SplashActivity}" drawable="crabhands" />
 	<item component="ComponentInfo{craigs.pro.plus/craigs.pro.library.SplashAndLoadParams}" drawable="cpro" />
+	<item component="ComponentInfo{cris.icms.ntes/cris.icms.ntes.LaunchApp}" drawable="ntes" />
 	<item component="ComponentInfo{cris.org.in.prs.ima/cris.org.in.ima.activities.IRCTCConnectActivity}" drawable="irctc_rail_connect" />
 	<item component="ComponentInfo{crumbl.cookies/com.crumbl.ui.SplashActivity}" drawable="crumblr" />
 	<item component="ComponentInfo{cs14.pixelperfect.iconpack.novadark/com.candybar.dev.activities.SplashActivity}" drawable="nova_dark" />
@@ -11345,7 +11424,9 @@
 	<item component="ComponentInfo{de.beowulf.libretranslater/de.beowulf.libretranslater.MainActivity}" drawable="libretranslator" />
 	<item component="ComponentInfo{de.beowulf.wetter/de.beowulf.wetter.activities.LaunchActivity}" drawable="weather" />
 	<item component="ComponentInfo{de.bildungscentrum.android.campus/campus.android.bildungscentrum.de.ocmobil.activity.LoginActivity}" drawable="online_campus" />
+	<item component="ComponentInfo{de.blau.android/de.blau.android.Splash}" drawable="vespucci" />
 	<item component="ComponentInfo{de.blinkt.openvpn/de.blinkt.openvpn.activities.MainActivity}" drawable="openvpn_for_android" />
+	<item component="ComponentInfo{de.blitzer.plus/com.eifrig.blitzerde.activity.splash.SplashActivity}" drawable="blitzer_de" />
 	<item component="ComponentInfo{de.blitzer.plus/de.blitzer.activity.SplashScreen}" drawable="blitzer_de" />
 	<item component="ComponentInfo{de.blitzer/de.blitzer.activity.SplashScreen}" drawable="blitzer_de" />
 	<item component="ComponentInfo{de.bmw.connected.mobile20.na/com.mobileconnected.MainActivity}" drawable="bmw_connected" />
@@ -11445,6 +11526,7 @@
 	<item component="ComponentInfo{de.flixbus.app/de.flixbus.app.Main}" drawable="flixbus" />
 	<item component="ComponentInfo{de.flixbus.app/de.meinfernbus.Main}" drawable="flixbus" />
 	<item component="ComponentInfo{de.florianisme.wakeonlan/de.florianisme.wakeonlan.ui.MainActivity}" drawable="wake_on_lan" />
+	<item component="ComponentInfo{de.freehamburger/de.freehamburger.MainActivity}" drawable="hamburger" />
 	<item component="ComponentInfo{de.funke.bdf.rezepte/de.proofit.rezepte.SplashActivity}" drawable="bild_der_frau_rezepte" />
 	<item component="ComponentInfo{de.geeksfactory.opacclient/de.geeksfactory.opacclient.frontend.MainActivity}" drawable="webopac" />
 	<item component="ComponentInfo{de.gematik.ti.erp.app/de.gematik.ti.erp.app.MainActivity}" drawable="e_rezept" />
@@ -11776,6 +11858,7 @@
 	<item component="ComponentInfo{dev.jahir.blueprint.app/dev.jahir.blueprint.app.MainActivity}" drawable="blueprint" />
 	<item component="ComponentInfo{dev.jdtech.jellyfin/dev.jdtech.jellyfin.MainActivity}" drawable="findroid" />
 	<item component="ComponentInfo{dev.jhale.binaryclock/dev.jhale.binaryclock.MainActivity}" drawable="binaryclock" />
+	<item component="ComponentInfo{dev.jyotiraditya.fluidac/dev.jyotiraditya.fluidac.MainActivity}" drawable="fluidac" />
 	<item component="ComponentInfo{dev.kdrag0n.android12ext/dev.kdrag0n.android12ext.ui.main.MainActivity}" drawable="android_12_extensions" />
 	<item component="ComponentInfo{dev.kdrag0n.dyntheme/dev.kdrag0n.dyntheme.ui.main.MainActivity}" drawable="repainter" />
 	<item component="ComponentInfo{dev.kraimoz.mangex_studio/dev.kraimoz.mangex_studio.MainActivity}" drawable="mangex" />
@@ -11810,6 +11893,7 @@
 	<item component="ComponentInfo{dev.soupslurpr.transcribro/dev.soupslurpr.transcribro.MainActivity}" drawable="transcribro" />
 	<item component="ComponentInfo{dev.southpaw.iconpusher/dev.southpaw.iconpusher.AppListerActivity}" drawable="icon_pusher" />
 	<item component="ComponentInfo{dev.suyu.suyu_emu/dev.suyu.suyu_emu.ui.main.MainActivity}" drawable="suyu" />
+	<item component="ComponentInfo{dev.tberghuis.btmacrokb/dev.tberghuis.btmacrokb.MainActivity}" drawable="auto_typer" />
 	<item component="ComponentInfo{dev.theolm.wwc/dev.theolm.wwc.ui.dialog.MainActivity}" drawable="chatlaunch_for_whatsapp" />
 	<item component="ComponentInfo{dev.uint.qrserv/dev.uint.qrserv.MainActivity}" drawable="qserv" />
 	<item component="ComponentInfo{dev.ukanth.iconmanager/dev.ukanth.iconmgr.MainActivity}" drawable="micopacks" />
@@ -11875,6 +11959,7 @@
 	<item component="ComponentInfo{ec.otecel.tuenti/ec.otecel.tuenti.SplashActivity}" drawable="tuenti" />
 	<item component="ComponentInfo{ecg.move.ca/ecg.move.SplashActivity}" drawable="kijiji_autos" />
 	<item component="ComponentInfo{eco.tachyon.android/eco.tachyon.android.SplashActivity}" drawable="vpn" />
+	<item component="ComponentInfo{edenred.mx.mobile.services/edenred.mx.mobile.services.MainActivity}" drawable="edenred_wallet" />
 	<item component="ComponentInfo{edu.berkeley.boinc/edu.berkeley.boinc.SplashActivity}" drawable="boinc" />
 	<item component="ComponentInfo{edu.cornell.birds.ebird/edu.cornell.birds.ebird.activities.FeatureStart}" drawable="ebird" />
 	<item component="ComponentInfo{edu.hm.cs.tape.bbb_app/edu.hm.cs.tape.bbb_app.MainActivity}" drawable="bbb" />
@@ -12055,6 +12140,7 @@
 	<item component="ComponentInfo{fm.weareone.player/player.core.activities.MainActivity_}" drawable="technobase" />
 	<item component="ComponentInfo{fonts.keyboard.text.emoji/fonts.keyboard.text.emoji.ui.MainActivity}" drawable="fonts_keyboard" />
 	<item component="ComponentInfo{foundation.e.apps/foundation.e.apps.MainActivity}" drawable="app_lounge" />
+	<item component="ComponentInfo{foundation.e.browser/com.google.android.apps.chrome.Main}" drawable="browser" />
 	<item component="ComponentInfo{foundation.e.camera/net.sourceforge.opencamera.MainActivity}" drawable="camera" />
 	<item component="ComponentInfo{foundation.e.mail/com.fsck.k9.activity.MessageList}" drawable="e_os_mail" />
 	<item component="ComponentInfo{foundation.e.message/com.moez.QKSMS.feature.main.MainActivity}" drawable="e_os_messages" />
@@ -12196,6 +12282,7 @@
 	<item component="ComponentInfo{grasea.familife/xe.UF}" drawable="familymart" />
 	<item component="ComponentInfo{gripe.everything.infinityforeverything/ml.docilealligator.infinityforreddit.activities.MainActivity}" drawable="infinity_for_everything" />
 	<item component="ComponentInfo{grit.storytel.app/grit.storytel.app.MainActivity}" drawable="storytel" />
+	<item component="ComponentInfo{grootlab.rescribe/grootlab.rescribe.MainActivity}" drawable="rescribe" />
 	<item component="ComponentInfo{gt.com.bi.zigi/gt.com.bi.zigi.MainActivity}" drawable="zigi" />
 	<item component="ComponentInfo{habittracker.todolist.tickit.daily.planner/habittracker.todolist.tickit.daily.planner.feature.main.SplashActivity}" drawable="habit_tracker" />
 	<item component="ComponentInfo{hacking.learnhacking.learn.hack.ethicalhacking.programming.coding.hackerx.cybersecurity/com.projectx.hackerx.MainActivity}" drawable="hackerx" />
@@ -12303,6 +12390,7 @@
 	<item component="ComponentInfo{in.gov.uidai.mAadhaarPlus/in.gov.uidai.mAadhaarPlus.MainActivity}" drawable="maadhaar" />
 	<item component="ComponentInfo{in.gov.umang.negd.g2c/in.gov.umang.negd.g2c.kotlin.ui.splash.SplashActivity}" drawable="umang" />
 	<item component="ComponentInfo{in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity}" drawable="ashell_you" />
+	<item component="ComponentInfo{in.hsbc.hsbcindia/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" />
 	<item component="ComponentInfo{in.indwealth/com.indwealth.android.ui.splash.SplashActivity}" drawable="indmoney" />
 	<item component="ComponentInfo{in.krosbits.musicolet/in.krosbits.musicolet.MusicActivity}" drawable="musicolet" />
 	<item component="ComponentInfo{in.lucidify.dairybook/in.lucidify.diarybook.ui.main.ActivityMain}" drawable="diary_book" />
@@ -12314,6 +12402,7 @@
 	<item component="ComponentInfo{in.org.npci.upiapp/ikua.D}" drawable="bhim" />
 	<item component="ComponentInfo{in.org.npci.upiapp/in.org.npci.upiapp.HomeActivity}" drawable="bhim" />
 	<item component="ComponentInfo{in.org.npci.upiapp/mpacjhvlt.n}" drawable="bhim" />
+	<item component="ComponentInfo{in.org.npci.upiapp/pqzfrpu.ae}" drawable="bhim" />
 	<item component="ComponentInfo{in.org.npci.upiapp/uuqkxbixh.J}" drawable="bhim" />
 	<item component="ComponentInfo{in.plackal.lovecyclesfree/in.plackal.lovecyclesfree.activity.SplashActivity}" drawable="maya" />
 	<item component="ComponentInfo{in.redbus.android/in.redbus.android.root.SplashScreen}" drawable="redbus" />
@@ -12397,6 +12486,7 @@
 	<item component="ComponentInfo{io.ente.auth.independent/io.ente.auth.MainActivity}" drawable="ente_auth" />
 	<item component="ComponentInfo{io.ente.auth/io.ente.auth.MainActivity}" drawable="ente_auth" />
 	<item component="ComponentInfo{io.ente.photos.fdroid/io.ente.photos.MainActivity}" drawable="ente" />
+	<item component="ComponentInfo{io.ente.photos.independent/io.ente.photos.MainActivity}" drawable="ente" />
 	<item component="ComponentInfo{io.faceapp/io.faceapp.MainActivity}" drawable="face_app" />
 	<item component="ComponentInfo{io.filen.app/io.filen.app.MainActivity}" drawable="filen" />
 	<item component="ComponentInfo{io.filmtime/io.filmtime.MainActivity}" drawable="film_time" />
@@ -12419,6 +12509,7 @@
 	<item component="ComponentInfo{io.github.divverent.aaaaxy/io.github.divverent.aaaaxy.MainActivity}" drawable="aaaaxy" />
 	<item component="ComponentInfo{io.github.dkter.aaaaa/io.github.dkter.aaaaa.MainActivity}" drawable="aaaaa" />
 	<item component="ComponentInfo{io.github.domi04151309.podscompanion/io.github.domi04151309.podscompanion.activities.SplashActivity}" drawable="pods_companion" />
+	<item component="ComponentInfo{io.github.domi04151309.powerapp/io.github.domi04151309.powerapp.activities.SplashActivity}" drawable="powerapp" />
 	<item component="ComponentInfo{io.github.dovecoteescapee.byedpi/io.github.dovecoteescapee.byedpi.activities.MainActivity}" drawable="byedpi" />
 	<item component="ComponentInfo{io.github.drumber.kitsune/io.github.drumber.kitsune.ui.main.MainActivity}" drawable="kitsune" />
 	<item component="ComponentInfo{io.github.forkmaintainers.iceraven/io.github.forkmaintainers.iceraven.App}" drawable="iceraven" />
@@ -12576,6 +12667,7 @@
 	<item component="ComponentInfo{iq.oodi.com/iq.oodi.com.SplashActivity}" drawable="oodi" />
 	<item component="ComponentInfo{ir.ilmili.telegraph/org.telegram.messenger.DefaultIcon}" drawable="graph_messenger" />
 	<item component="ComponentInfo{ir.kazemcodes.infinityreader/org.ireader.app.MainActivity}" drawable="ireader" />
+	<item component="ComponentInfo{ir.remote.smg.tv/ir.remote.smg.tv.MainActivity}" drawable="ir_remote" />
 	<item component="ComponentInfo{is.arionbanki.android/is.arionbanki.android.activities.LauncherActivity}" drawable="bank" />
 	<item component="ComponentInfo{is.island.app/is.island.app.MainActivity}" drawable="island_is" />
 	<item component="ComponentInfo{is.shortcut/com.voxel.launcher3.Launcher}" drawable="evie" />
@@ -12723,6 +12815,7 @@
 	<item component="ComponentInfo{jp.co.dwango.seiga.manga.android/jp.co.dwango.seiga.manga.android.ui.view.activity.SplashActivity}" drawable="nico_nico_manga" />
 	<item component="ComponentInfo{jp.co.family.familymart_app/jp.co.family.familymart.presentation.splash.SplashActivity}" drawable="familymart" />
 	<item component="ComponentInfo{jp.co.fenrir.android.sleipnir_black/com.fenrir_inc.sleipnir.main.MainActivity}" drawable="sleipnir" />
+	<item component="ComponentInfo{jp.co.hit_point.nekoatsume2/com.unity3d.player.UnityPlayerActivity}" drawable="neko_atsume_2" />
 	<item component="ComponentInfo{jp.co.hit_point.nekoatsume/jp.co.hit_point.nekoatsume.GActivity}" drawable="neko_atsume" />
 	<item component="ComponentInfo{jp.co.imagineer.sumikkogurashi.sumisumi/jp.co.imagineer.sumikkogurashi.sumisumi.AppActivity}" drawable="sumisumi" />
 	<item component="ComponentInfo{jp.co.istyle.atcosme/cosme.istyle.co.jp.uidapp.presentation.appstart.SplashActivity}" drawable="cosme" />
@@ -12753,6 +12846,7 @@
 	<item component="ComponentInfo{jp.co.spike_chunsoft.DRA/com.unity3d.player.UnityPlayerActivity}" drawable="danganronpa_s" />
 	<item component="ComponentInfo{jp.co.spike_chunsoft.DRV3/com.unity3d.player.UnityPlayerActivity}" drawable="danganronpa_v3" />
 	<item component="ComponentInfo{jp.co.taito.groovecoasterzero/jp.co.taito.groovecoasterzero.BootActivity}" drawable="groove_coaster_2" />
+	<item component="ComponentInfo{jp.co.toyota.mytoyotaplus/jp.co.toyota.mytoyotaplus.activity.MainActivity}" drawable="toyota" />
 	<item component="ComponentInfo{jp.co.translimit.braindots/org.cocos2dx.cpp.AppActivity}" drawable="brain_dots" />
 	<item component="ComponentInfo{jp.co.yahoo.android.apps.transit/jp.co.yahoo.android.apps.transit.Transit}" drawable="yahoo_japan_transit" />
 	<item component="ComponentInfo{jp.co.yahoo.android.weather.type1/jp.co.yahoo.android.weather.type1.WeatherDetail}" drawable="yahoo_weather" />
@@ -12808,6 +12902,7 @@
 	<item component="ComponentInfo{jp.pokemon.pokemoncafemix/com.geniussonority.app.TartNativeActivity}" drawable="pokemon_cafe" />
 	<item component="ComponentInfo{jp.pokemon.pokemonhome/com.unity3d.player.UnityPlayerActivity}" drawable="pokemon_home" />
 	<item component="ComponentInfo{jp.pokemon.pokemonsleep/jp.pokemon.pokemonsleep.commonutility.UnityPlayerActivity}" drawable="pokemon_sleep" />
+	<item component="ComponentInfo{jp.pokemon.pokemontcgp/com.unity3d.player.UnityPlayerActivity}" drawable="pokemon_tgc_pocket" />
 	<item component="ComponentInfo{jp.pokemon.pokemonunite/com.nishiki.pgame.n.PGameActivity}" drawable="pokemon_unite" />
 	<item component="ComponentInfo{jp.pokemon.pokemonunite/com.nishiki.pgame.n.PGameLauncherActivity}" drawable="pokemon_unite" />
 	<item component="ComponentInfo{jp.pokemon.poketoru/com.havok.Vision.NativeLibLoader}" drawable="pokemon_shuffle" />
@@ -12819,6 +12914,7 @@
 	<item component="ComponentInfo{jp.snowlife01.android.voicerecorderpro/jp.snowlife01.android.voicerecorderpro.MainActivity}" drawable="voice_recorder_pro" />
 	<item component="ComponentInfo{jp.studyplus.android.app/jp.studyplus.android.app.ui.splash.SplashActivity}" drawable="studyplus" />
 	<item component="ComponentInfo{jp.takoboto/md57ad91dd16d2201fa70bc474fe64b7e4e.MainActivity}" drawable="takoboto" />
+	<item component="ComponentInfo{jp.tokyodisneyresort.portalapp/jp.tokyodisneyresort.portalapp.ui.main.MainActivity}" drawable="tokyo_disney_resort" />
 	<item component="ComponentInfo{jp.wowow.wod/jp.wowow.wod.feature.host.WowowMainActivity}" drawable="wowow" />
 	<item component="ComponentInfo{jp.zozo.android.town/jp.starttoday.zozo.zozotown.main.presentation.screen.main.MainActivity}" drawable="zozo_town" />
 	<item component="ComponentInfo{juloo.keyboard2/juloo.keyboard2.LauncherActivity}" drawable="unexpected_keyboard" />
@@ -12888,6 +12984,7 @@
 	<item component="ComponentInfo{lemonklwp.kustom.pack/org.kustom.api.dashboard.DashboardActivity}" drawable="lemon_klwp" />
 	<item component="ComponentInfo{lequipe.fr/lequipe.fr.newhome.MainActivity}" drawable="lequipe" />
 	<item component="ComponentInfo{live.mehiz.mpvkt/live.mehiz.mpvkt.MainActivity}" drawable="mpvkt" />
+	<item component="ComponentInfo{livio.pack.lang.de_DE/livio.pack.lang.de_DE.DictionaryView}" drawable="german_dictionary_alt_1" />
 	<item component="ComponentInfo{livio.pack.lang.en_US/livio.pack.lang.en_US.DictionaryView}" drawable="english_dictionary" />
 	<item component="ComponentInfo{logo.com.mbanking/psb.com.mbanking.feature.preloader.PreLoaderActivity}" drawable="promsvyazbank" />
 	<item component="ComponentInfo{losebellyfat.flatstomach.absworkout.fatburning/losebellyfat.flatstomach.absworkout.fatburning.activity.StartActivity}" drawable="abs_workout_belly_fat" />
@@ -13078,6 +13175,7 @@
 	<item component="ComponentInfo{money.expense.budget.wallet.manager.track.finance.tracker/meevii.beatles.moneymanage.ui.activity.SplashActivity}" drawable="money_manager" />
 	<item component="ComponentInfo{money.jupiter/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="jupiter" />
 	<item component="ComponentInfo{money.jupiter/money.jupiter.MainActivity}" drawable="jupiter" />
+	<item component="ComponentInfo{money.super.payments/com.supermoney.payments.MainActivity}" drawable="supermoney" />
 	<item component="ComponentInfo{movistar.android.app/com.tuenti.messenger.ui.activity.MainActivity}" drawable="mi_movistar" />
 	<item component="ComponentInfo{movistar.android.app/movistar.android.app.MainActivity}" drawable="mi_movistar" />
 	<item component="ComponentInfo{mozilla.lockbox/mozilla.lockbox.view.RootActivity}" drawable="firefox_lockwise" />
@@ -13147,6 +13245,7 @@
 	<item component="ComponentInfo{net.brazzi64.riffstudio/net.brazzi64.riffstudio.RiffStudioActivity}" drawable="riff_studio" />
 	<item component="ComponentInfo{net.cachapa.libra/net.cachapa.libra.MainActivity}" drawable="libra" />
 	<item component="ComponentInfo{net.casimirlab.frigoligo/net.casimirlab.frigoligo.MainActivity}" drawable="frigoligo" />
+	<item component="ComponentInfo{net.chordify.chordify/net.chordify.chordify.presentation.activities.navigation.NavigationActivity}" drawable="chordify" />
 	<item component="ComponentInfo{net.christianbeier.droidvnc_ng/net.christianbeier.droidvnc_ng.MainActivity}" drawable="droidvnc_ng" />
 	<item component="ComponentInfo{net.conntac.htp/net.conntac.app.ConntacQtActivity}" drawable="mein_htp" />
 	<item component="ComponentInfo{net.countrymania.morse/net.countrymania.morse.MainActivity}" drawable="morsemania" />
@@ -13320,6 +13419,7 @@
 	<item component="ComponentInfo{net.techet.netanalyzer.an/net.techet.netanalyzer.an.activity.MainActivity}" drawable="network_analyzer" />
 	<item component="ComponentInfo{net.techet.netanalyzerlite.an/net.techet.netanalyzerlite.an.activity.MainActivity}" drawable="network_analyzer" />
 	<item component="ComponentInfo{net.thunderbird.android.beta/com.fsck.k9.activity.MessageList}" drawable="thunderbird_beta" />
+	<item component="ComponentInfo{net.thunderbird.android/com.fsck.k9.activity.MessageList}" drawable="thunderbird" />
 	<item component="ComponentInfo{net.tjado.usbgadget/net.tjado.usbgadget.MainActivity}" drawable="usb_gadget_tool" />
 	<item component="ComponentInfo{net.tonysoft.bookmory/net.tonysoft.bookmory.MainActivity}" drawable="bookmory" />
 	<item component="ComponentInfo{net.torguard.openvpn.client/net.torguard.openvpn.client.LauncherActivity}" drawable="torguard" />
@@ -13375,6 +13475,7 @@
 	<item component="ComponentInfo{ninja.sesame.app.edge/ninja.sesame.app.edge.activities.MainActivity}" drawable="sesame" />
 	<item component="ComponentInfo{nithra.tamilcalender/nithra.tamilcalender.Splash_Screen}" drawable="nithra_tamil_calendar" />
 	<item component="ComponentInfo{nl.afas.pocket2/nl.afas.pocket2.MainActivity}" drawable="afas_pocket" />
+	<item component="ComponentInfo{nl.appyhapps.healthsync/nl.appyhapps.healthsync.MainActivity}" drawable="health_sync" />
 	<item component="ComponentInfo{nl.asnbank.asnbankieren/com.service2media.m2active.client.android.M2ActiveClient}" drawable="bank" />
 	<item component="ComponentInfo{nl.burgerking.app/crc64054d4b9df8b0d8a8.SplashActivity}" drawable="burger_king" />
 	<item component="ComponentInfo{nl.cz.app/nl.cz.app.MainActivity}" drawable="cz" />
@@ -13428,6 +13529,7 @@
 	<item component="ComponentInfo{no.dnb.vipps/com.dnb.vipps.ui.activities.SplashActivity}" drawable="vipps" />
 	<item component="ComponentInfo{no.finn.android/no.finn.android.ui.homepage.HomeActivity}" drawable="finn_no" />
 	<item component="ComponentInfo{no.forlagshuset.akademika/no.forlagshuset.akademika.AkademikaActivity}" drawable="akademika" />
+	<item component="ComponentInfo{no.mobitroll.kahoot.android/no.mobitroll.kahoot.android.Default}" drawable="kahoot" />
 	<item component="ComponentInfo{no.mobitroll.kahoot.android/no.mobitroll.kahoot.android.application.SplashActivity}" drawable="kahoot" />
 	<item component="ComponentInfo{no.nrk.yr/no.nrk.yr.StartActivity}" drawable="yr" />
 	<item component="ComponentInfo{no.ruter.reise/no.ruter.app.feature.startup.StartupActivity}" drawable="ruter" />
@@ -13440,6 +13542,7 @@
 	<item component="ComponentInfo{nodomain.freeyourgadget.gadgetbridge/nodomain.freeyourgadget.gadgetbridge.ControlCenter}" drawable="gadgetbridge" />
 	<item component="ComponentInfo{nodomain.freeyourgadget.gadgetbridge/nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2}" drawable="gadgetbridge" />
 	<item component="ComponentInfo{noice.app/noice.app.modules.onboarding.activity.SplashActivity}" drawable="noice_podcast" />
+	<item component="ComponentInfo{note.notesapp.notebook.notepad.stickynotes.colornote/note.notesapp.notebook.notepad.stickynotes.colornote.activity.Splash}" drawable="quickmemo" />
 	<item component="ComponentInfo{notepad.note.notas.notes.notizen/notepad.note.notas.notes.notizen.main.SplashActivity}" drawable="blacknote" />
 	<item component="ComponentInfo{notes.notepad.checklist.calendar.todolist.notebook/notes.notepad.checklist.calendar.todolist.notebook.page.WelcomeActivity}" drawable="notepad" />
 	<item component="ComponentInfo{notion.id/notion.local.id.MainActivity}" drawable="notion" />
@@ -13478,6 +13581,7 @@
 	<item component="ComponentInfo{om.alaraby/com.alaraby.MainActivity}" drawable="alaraby" />
 	<item component="ComponentInfo{om.roozbehzarei.filester/com.roozbehzarei.filester.ui.MainActivity}" drawable="filester" />
 	<item component="ComponentInfo{one4studio.iconpack.lenaadaptive/com.candybar.dev.activities.SplashActivity}" drawable="lena_adaptive" />
+	<item component="ComponentInfo{one4studio.wallpaper.one4wall/one4studio.wallpaper.one4wall.MainActivity}" drawable="wallsplash" />
 	<item component="ComponentInfo{one.librem.chat/im.vector.activity.VectorLauncherActivity}" drawable="librem_chat" />
 	<item component="ComponentInfo{one.librem.mail/com.fsck.k9.activity.Accounts}" drawable="librem_mail" />
 	<item component="ComponentInfo{one.librem.mail/com.fsck.k9.activity.MessageList}" drawable="librem_mail" />
@@ -13532,6 +13636,7 @@
 	<item component="ComponentInfo{org.andstatus.todoagenda/org.andstatus.todoagenda.MainActivity}" drawable="todo_agenda" />
 	<item component="ComponentInfo{org.antivirus/com.antivirus.ui.main.AntivirusMainScreen}" drawable="avg_antivirus" />
 	<item component="ComponentInfo{org.antivirus/com.avast.android.mobilesecurity.app.main.MainActivity}" drawable="avg_antivirus" />
+	<item component="ComponentInfo{org.aospstudio.files/com.aospstudio.shortcuts.MainActivity}" drawable="file_manager" />
 	<item component="ComponentInfo{org.application.shikiapp/org.application.shikiapp.MainActivity}" drawable="shikiapp" />
 	<item component="ComponentInfo{org.artsoft.rocksndiamonds/org.artsoft.rocksndiamonds.RocksNDiamonds}" drawable="rocks_n_diamonds" />
 	<item component="ComponentInfo{org.asafonov.blockbuster/org.asafonov.arkanoid.MainActivity}" drawable="block_buster" />
@@ -13678,20 +13783,272 @@
 	<item component="ComponentInfo{org.forkclient.messenger.beta/org.telegram.messenger.DefaultIcon}" drawable="forkgram" />
 	<item component="ComponentInfo{org.forkgram.messenger/org.telegram.messenger.DefaultIcon}" drawable="forkgram" />
 	<item component="ComponentInfo{org.forkgram.messenger/org.telegram.ui.LaunchActivity}" drawable="forkgram" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Amber}" drawable="fossify_calculator_amber" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Blue_Grey}" drawable="fossify_calculator_blue_grey" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Blue}" drawable="fossify_calculator_blue" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Brown}" drawable="fossify_calculator_brown" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Cyan}" drawable="fossify_calculator_cyan" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Deep_Orange}" drawable="fossify_calculator_deep_orange" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Deep_Purple}" drawable="fossify_calculator_deep_purple" />
 	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Green}" drawable="fossify_calculator" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Grey_Black}" drawable="fossify_calculator_grey_black" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Indigo}" drawable="fossify_calculator_indigo" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Light_Blue}" drawable="fossify_calculator_light_blue" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Light_Green}" drawable="fossify_calculator_light_green" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Lime}" drawable="fossify_calculator_lime" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Orange}" drawable="fossify_calculator_orange" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Pink}" drawable="fossify_calculator_pink" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Purple}" drawable="fossify_calculator_purple" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Red}" drawable="fossify_calculator_red" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Teal}" drawable="fossify_calculator_teal" />
+	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Yellow}" drawable="fossify_calculator_yellow" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Amber}" drawable="fossify_calendar_amber" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Blue_Grey}" drawable="fossify_calendar_blue_grey" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Blue}" drawable="fossify_calendar_blue" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Brown}" drawable="fossify_calendar_brown" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Cyan}" drawable="fossify_calendar_cyan" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Deep_Orange}" drawable="fossify_calendar_deep_orange" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Deep_Purple}" drawable="fossify_calendar_deep_purple" />
 	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Green}" drawable="fossify_calendar" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Grey_Black}" drawable="fossify_calendar_grey_black" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Indigo}" drawable="fossify_calendar_indigo" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Light_Blue}" drawable="fossify_calendar_light_blue" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Light_Green}" drawable="fossify_calendar_light_green" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Lime}" drawable="fossify_calendar_lime" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Orange}" drawable="fossify_calendar_orange" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Pink}" drawable="fossify_calendar_pink" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Purple}" drawable="fossify_calendar_purple" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Red}" drawable="fossify_calendar_red" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Teal}" drawable="fossify_calendar_teal" />
+	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Yellow}" drawable="fossify_calendar_yellow" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Amber}" drawable="fossify_camera_amber" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Blue_Grey}" drawable="fossify_camera_blue_grey" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Blue}" drawable="fossify_camera_blue" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Brown}" drawable="fossify_camera_brown" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Cyan}" drawable="fossify_camera_cyan" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Deep_Orange}" drawable="fossify_camera_deep_orange" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Deep_Purple}" drawable="fossify_camera_deep_purple" />
 	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Green}" drawable="fossify_camera" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Grey_Black}" drawable="fossify_camera_grey_black" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Indigo}" drawable="fossify_camera_indigo" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Light_Blue}" drawable="fossify_camera_light_blue" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Light_Green}" drawable="fossify_camera_light_green" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Lime}" drawable="fossify_camera_lime" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Orange}" drawable="fossify_camera_orange" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Pink}" drawable="fossify_camera_pink" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Purple}" drawable="fossify_camera_purple" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Red}" drawable="fossify_camera_red" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Teal}" drawable="fossify_camera_teal" />
+	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Yellow}" drawable="fossify_camera_yellow" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Amber}" drawable="fossify_clock_amber" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Blue_Grey}" drawable="fossify_clock_blue_grey" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Blue}" drawable="fossify_clock_blue" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Brown}" drawable="fossify_clock_brown" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Cyan}" drawable="fossify_clock_cyan" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Deep_Orange}" drawable="fossify_clock_deep_orange" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Deep_Purple}" drawable="fossify_clock_deep_purple" />
 	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Green}" drawable="fossify_clock" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Grey_Black}" drawable="fossify_clock_grey_black" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Indigo}" drawable="fossify_clock_indigo" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Light_Blue}" drawable="fossify_clock_light_blue" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Light_Green}" drawable="fossify_clock_light_green" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Lime}" drawable="fossify_clock_lime" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Orange}" drawable="fossify_clock_orange" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Pink}" drawable="fossify_clock_pink" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Purple}" drawable="fossify_clock_purple" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Red}" drawable="fossify_clock_red" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Teal}" drawable="fossify_clock_teal" />
+	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Yellow}" drawable="fossify_clock_yellow" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Amber}" drawable="fossify_contacts_amber" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Blue_Grey}" drawable="fossify_contacts_blue_grey" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Blue}" drawable="fossify_contacts_blue" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Brown}" drawable="fossify_contacts_brown" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Cyan}" drawable="fossify_contacts_cyan" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Deep_Orange}" drawable="fossify_contacts_deep_orange" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Deep_Purple}" drawable="fossify_contacts_deep_purple" />
 	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Green}" drawable="fossify_contacts" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Grey_Black}" drawable="fossify_contacts_grey_black" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Indigo}" drawable="fossify_contacts_indigo" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Light_Blue}" drawable="fossify_contacts_light_blue" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Light_Green}" drawable="fossify_contacts_light_green" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Lime}" drawable="fossify_contacts_lime" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Orange}" drawable="fossify_contacts_orange" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Pink}" drawable="fossify_contacts_pink" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Purple}" drawable="fossify_contacts_purple" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Red}" drawable="fossify_contacts_red" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Teal}" drawable="fossify_contacts_teal" />
+	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Yellow}" drawable="fossify_contacts_yellow" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Amber}" drawable="fossify_file_manager_amber" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Blue_Grey}" drawable="fossify_file_manager_blue_grey" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Blue}" drawable="fossify_file_manager_blue" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Brown}" drawable="fossify_file_manager_brown" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Cyan}" drawable="fossify_file_manager_cyan" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Deep_Orange}" drawable="fossify_file_manager_deep_orange" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Deep_Purple}" drawable="fossify_file_manager_deep_purple" />
 	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Green}" drawable="fossify_file_manager" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Grey_Black}" drawable="fossify_file_manager_grey_black" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Indigo}" drawable="fossify_file_manager_indigo" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Light_Blue}" drawable="fossify_file_manager_light_blue" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Light_Green}" drawable="fossify_file_manager_light_green" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Lime}" drawable="fossify_file_manager_lime" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Orange}" drawable="fossify_file_manager_orange" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Pink}" drawable="fossify_file_manager_pink" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Purple}" drawable="fossify_file_manager_purple" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Red}" drawable="fossify_file_manager_red" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Teal}" drawable="fossify_file_manager_teal" />
+	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Yellow}" drawable="fossify_file_manager_yellow" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Amber}" drawable="fossify_gallery_amber" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Blue_Grey}" drawable="fossify_gallery_blue_grey" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Blue}" drawable="fossify_gallery_blue" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Brown}" drawable="fossify_gallery_brown" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Cyan}" drawable="fossify_gallery_cyan" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Deep_Orange}" drawable="fossify_gallery_deep_orange" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Deep_Purple}" drawable="fossify_gallery_deep_purple" />
 	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Green}" drawable="fossify_gallery" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Grey_Black}" drawable="fossify_gallery_grey_black" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Indigo}" drawable="fossify_gallery_indigo" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Light_Blue}" drawable="fossify_gallery_light_blue" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Light_Green}" drawable="fossify_gallery_light_green" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Lime}" drawable="fossify_gallery_lime" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Orange}" drawable="fossify_gallery_orange" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Pink}" drawable="fossify_gallery_pink" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Purple}" drawable="fossify_gallery_purple" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Red}" drawable="fossify_gallery_red" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Teal}" drawable="fossify_gallery_teal" />
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Yellow}" drawable="fossify_gallery_yellow" />
 	<item component="ComponentInfo{org.fossify.home/org.fossify.home.activities.SplashActivity.Green}" drawable="fossify_launcher" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Amber}" drawable="fossify_keyboard_amber" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Blue_Grey}" drawable="fossify_keyboard_blue_grey" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Blue}" drawable="fossify_keyboard_blue" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Brown}" drawable="fossify_keyboard_brown" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Cyan}" drawable="fossify_keyboard_cyan" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Deep_Orange}" drawable="fossify_keyboard_deep_orange" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Deep_Purple}" drawable="fossify_keyboard_deep_purple" />
 	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Green}" drawable="fossify_keyboard" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Grey_Black}" drawable="fossify_keyboard_grey_black" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Indigo}" drawable="fossify_keyboard_indigo" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Light_Blue}" drawable="fossify_keyboard_light_blue" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Light_Green}" drawable="fossify_keyboard_light_green" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Lime}" drawable="fossify_keyboard_lime" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Orange}" drawable="fossify_keyboard_orange" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Pink}" drawable="fossify_keyboard_pink" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Purple}" drawable="fossify_keyboard_purple" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Red}" drawable="fossify_keyboard_red" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Teal}" drawable="fossify_keyboard_teal" />
+	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Yellow}" drawable="fossify_keyboard_yellow" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Amber}" drawable="fossify_launcher_amber" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Blue_Grey}" drawable="fossify_launcher_blue_grey" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Blue}" drawable="fossify_launcher_blue" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Brown}" drawable="fossify_launcher_brown" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Cyan}" drawable="fossify_launcher_cyan" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Deep_Orange}" drawable="fossify_launcher_deep_orange" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Deep_Purple}" drawable="fossify_launcher_deep_purple" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Grey_Black}" drawable="fossify_launcher_grey_black" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Indigo}" drawable="fossify_launcher_indigo" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Light_Blue}" drawable="fossify_launcher_light_blue" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Light_Green}" drawable="fossify_launcher_light_green" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Lime}" drawable="fossify_launcher_lime" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Orange}" drawable="fossify_launcher_orange" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Pink}" drawable="fossify_launcher_pink" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Purple}" drawable="fossify_launcher_purple" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Red}" drawable="fossify_launcher_red" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Teal}" drawable="fossify_launcher_teal" />
+	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Yellow}" drawable="fossify_launcher_yellow" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Amber}" drawable="fossify_messages_amber" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Blue_Grey}" drawable="fossify_messages_blue_grey" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Blue}" drawable="fossify_messages_blue" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Brown}" drawable="fossify_messages_brown" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Cyan}" drawable="fossify_messages_cyan" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Deep_Orange}" drawable="fossify_messages_deep_orange" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Deep_Purple}" drawable="fossify_messages_deep_purple" />
 	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Green}" drawable="fossify_messages" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Grey_Black}" drawable="fossify_messages_grey_black" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Indigo}" drawable="fossify_messages_indigo" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Light_Blue}" drawable="fossify_messages_light_blue" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Light_Green}" drawable="fossify_messages_light_green" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Lime}" drawable="fossify_messages_lime" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Orange}" drawable="fossify_messages_orange" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Pink}" drawable="fossify_messages_pink" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Purple}" drawable="fossify_messages_purple" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Red}" drawable="fossify_messages_red" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Teal}" drawable="fossify_messages_teal" />
+	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Yellow}" drawable="fossify_messages_yellow" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Amber}" drawable="fossify_music_player_amber" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Blue_Grey}" drawable="fossify_music_player_blue_grey" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Blue}" drawable="fossify_music_player_blue" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Brown}" drawable="fossify_music_player_brown" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Cyan}" drawable="fossify_music_player_cyan" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Deep_Orange}" drawable="fossify_music_player_deep_orange" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Deep_Purple}" drawable="fossify_music_player_deep_purple" />
 	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Green}" drawable="fossify_music_player" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Grey_Black}" drawable="fossify_music_player_grey_black" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Indigo}" drawable="fossify_music_player_indigo" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Light_Blue}" drawable="fossify_music_player_light_blue" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Light_Green}" drawable="fossify_music_player_light_green" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Lime}" drawable="fossify_music_player_lime" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Orange}" drawable="fossify_music_player_orange" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Pink}" drawable="fossify_music_player_pink" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Purple}" drawable="fossify_music_player_purple" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Red}" drawable="fossify_music_player_red" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Teal}" drawable="fossify_music_player_teal" />
+	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Yellow}" drawable="fossify_music_player_yellow" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Amber}" drawable="fossify_notes_amber" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue_Grey}" drawable="fossify_notes_blue_grey" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue}" drawable="fossify_notes_blue" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Brown}" drawable="fossify_notes_brown" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Cyan}" drawable="fossify_notes_cyan" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_Orange}" drawable="fossify_notes_deep_orange" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_Purple}" drawable="fossify_notes_deep_purple" />
 	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Green}" drawable="fossify_notes" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Grey_Black}" drawable="fossify_notes_grey_black" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Indigo}" drawable="fossify_notes_indigo" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_Blue}" drawable="fossify_notes_light_blue" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_Green}" drawable="fossify_notes_light_green" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Lime}" drawable="fossify_notes_lime" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Orange}" drawable="fossify_notes_orange" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Pink}" drawable="fossify_notes_pink" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Purple}" drawable="fossify_notes_purple" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Red}" drawable="fossify_notes_red" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Teal}" drawable="fossify_notes_teal" />
+	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Yellow}" drawable="fossify_notes_yellow" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Amber}" drawable="fossify_phone_amber" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Blue_Grey}" drawable="fossify_phone_blue_grey" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Blue}" drawable="fossify_phone_blue" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Brown}" drawable="fossify_phone_brown" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Cyan}" drawable="fossify_phone_cyan" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Deep_Orange}" drawable="fossify_phone_deep_orange" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Deep_Purple}" drawable="fossify_phone_deep_purple" />
 	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Green}" drawable="fossify_phone" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Grey_Black}" drawable="fossify_phone_grey_black" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Indigo}" drawable="fossify_phone_indigo" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Light_Blue}" drawable="fossify_phone_light_blue" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Light_Green}" drawable="fossify_phone_light_green" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Lime}" drawable="fossify_phone_lime" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Orange}" drawable="fossify_phone_orange" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Pink}" drawable="fossify_phone_pink" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Purple}" drawable="fossify_phone_purple" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Red}" drawable="fossify_phone_red" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Teal}" drawable="fossify_phone_teal" />
+	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Yellow}" drawable="fossify_phone_yellow" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Amber}" drawable="fossify_voice_recorder_amber" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Blue_Grey}" drawable="fossify_voice_recorder_blue_grey" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Blue}" drawable="fossify_voice_recorder_blue" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Brown}" drawable="fossify_voice_recorder_brown" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Cyan}" drawable="fossify_voice_recorder_cyan" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Deep_Orange}" drawable="fossify_voice_recorder_deep_orange" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Deep_Purple}" drawable="fossify_voice_recorder_deep_purple" />
 	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Green}" drawable="fossify_voice_recorder" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Grey_Black}" drawable="fossify_voice_recorder_grey_black" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Indigo}" drawable="fossify_voice_recorder_indigo" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Light_Blue}" drawable="fossify_voice_recorder_light_blue" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Light_Green}" drawable="fossify_voice_recorder_light_green" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Lime}" drawable="fossify_voice_recorder_lime" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Orange}" drawable="fossify_voice_recorder_orange" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Pink}" drawable="fossify_voice_recorder_pink" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Purple}" drawable="fossify_voice_recorder_purple" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Red}" drawable="fossify_voice_recorder_red" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Teal}" drawable="fossify_voice_recorder_teal" />
+	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Yellow}" drawable="fossify_voice_recorder_yellow" />
 	<item component="ComponentInfo{org.fox.ttrss/org.fox.ttrss.LaunchActivity}" drawable="tiny_tiny_rss" />
 	<item component="ComponentInfo{org.frap129.spectrum/org.frap129.spectrum.SplashActivity}" drawable="spectrum" />
 	<item component="ComponentInfo{org.freecodecamp/com.example.freecodecamp.MainActivity}" drawable="freecodecamp" />
@@ -13827,6 +14184,7 @@
 	<item component="ComponentInfo{org.malwarebytes.antimalware/org.malwarebytes.antimalware.ui.RoutingActivity}" drawable="malwarebytes" />
 	<item component="ComponentInfo{org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity}" drawable="twidere" />
 	<item component="ComponentInfo{org.mattvchandler.a2050/org.mattvchandler.a2050.MainActivity}" drawable="_2050" />
+	<item component="ComponentInfo{org.mcgi.app.bible/org.mcgi.app.bible.MainActivity}" drawable="bible" />
 	<item component="ComponentInfo{org.mcxa.vortaro/org.mcxa.vortaro.MainActivity}" drawable="senreta_vortaro" />
 	<item component="ComponentInfo{org.menuforyou.loyalty/org.menuforyou.loyalty.MainActivity}" drawable="tigrus_club" />
 	<item component="ComponentInfo{org.metabrainz.android/org.metabrainz.android.presentation.features.dashboard.DashboardActivity}" drawable="musicbrainz" />
@@ -13903,6 +14261,7 @@
 	<item component="ComponentInfo{org.pbskids.video/org.pbskids.video.activities.SplashActivity}" drawable="pbs_kids" />
 	<item component="ComponentInfo{org.pdfsam.pdfmerge/org.pdfsam.pdfmerge.MainActivity}" drawable="pdf_merge" />
 	<item component="ComponentInfo{org.pegasus_frontend.android/org.pegasus_frontend.android.MainActivity}" drawable="pegasus_fe" />
+	<item component="ComponentInfo{org.petero.droidfish/org.petero.droidfish.DroidFish}" drawable="droidfish" />
 	<item component="ComponentInfo{org.pgnapps.pk2/org.pgnapps.pk2.PK2Activity}" drawable="pekka_kana_2" />
 	<item component="ComponentInfo{org.piepmeyer.gauguin/org.piepmeyer.gauguin.ui.main.MainActivity}" drawable="gauguin" />
 	<item component="ComponentInfo{org.pierre2324.nogravity/org.pierre2324.nogravity.StartupScreen}" drawable="nogravityapp" />
@@ -13941,6 +14300,7 @@
 	<item component="ComponentInfo{org.readera/com.readera.MainActivity}" drawable="readera" />
 	<item component="ComponentInfo{org.rems.rsdkv5/org.rems.rsdkv5.Launcher}" drawable="rsdkv5" />
 	<item component="ComponentInfo{org.residualvm.residualvm/org.residualvm.residualvm.ResidualVMActivity}" drawable="residualvm" />
+	<item component="ComponentInfo{org.rrl.solitaire.master.pro/org.rrl.solitaire.master.pro.AndroidLauncher}" drawable="solitaire" />
 	<item component="ComponentInfo{org.runnerup.free/org.runnerup.view.MainLayout}" drawable="runnerup" />
 	<item component="ComponentInfo{org.sajeg.fallingblocks/com.godot.game.GodotApp}" drawable="falling_blocks" />
 	<item component="ComponentInfo{org.samo_lego.canta/org.samo_lego.canta.MainActivity}" drawable="canta" />
@@ -14297,6 +14657,7 @@
 	<item component="ComponentInfo{pro.listy/pro.listy.presentation.MainActivity}" drawable="listy" />
 	<item component="ComponentInfo{pro.vitalii.andropods/pro.vitalii.andropods.PreferencesActivity}" drawable="andropods" />
 	<item component="ComponentInfo{prod.com.pingidentity.pingid/com.accells.access.AppMgr}" drawable="pingid" />
+	<item component="ComponentInfo{prod.com.pingidentity.pingid/com.pingidentity.v2.ui.screens.splash.PingIdSplashActivity}" drawable="pingid" />
 	<item component="ComponentInfo{production.smartbikemobility.customer/product.clicklabs.jugnoo.SplashNewActivity}" drawable="smartbike" />
 	<item component="ComponentInfo{project.vivid.hex.bodhi/project.vivid.hex.bodhi.activities.HexLauncherActivity}" drawable="hex_installer" />
 	<item component="ComponentInfo{project.vivid.hex.bodhi/project.vivid.hex.sharedthemes.activities.ThemesShowcaseActivity}" drawable="hex_hexified" />
@@ -14338,6 +14699,7 @@
 	<item component="ComponentInfo{qrcodereader.barcodescanner.scan.qrscanner/qrcodereader.barcodescanner.scan.qrscanner.page.SplashActivity}" drawable="qr_code_reader" />
 	<item component="ComponentInfo{quebec.artm.chrono/quebec.artm.chrono.ui.main.MainActivity}" drawable="chrono" />
 	<item component="ComponentInfo{quick.read.app/adambl4.issisttalkback.presentation.view.MainActivity}" drawable="quickify" />
+	<item component="ComponentInfo{r.r.refreezer/r.r.refreezer.MainActivity}" drawable="refreezer" />
 	<item component="ComponentInfo{radiotime.player/radiotime.player.Main}" drawable="tunein_radio" />
 	<item component="ComponentInfo{radiotime.player/radiotime.player.TuneInRadioPro}" drawable="tunein_radio" />
 	<item component="ComponentInfo{radiotime.player/tunein.player.pro.Activity}" drawable="tunein_radio" />
@@ -14920,6 +15282,7 @@
 	<item component="ComponentInfo{tachiyomi.mangadex/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="neko" />
 	<item component="ComponentInfo{taco.apkmirror/taco.apkmirror.activities.MainActivity}" drawable="apkmirror" />
 	<item component="ComponentInfo{taco.scoop/taco.scoop.ui.activity.MainActivity}" drawable="scoop" />
+	<item component="ComponentInfo{tageditor.automatictageditor.audiotagging.audioedit.mp3edit/com.code.app.view.main.MainActivity}" drawable="smart_mp3_tag_editor" />
 	<item component="ComponentInfo{takka.me.app/takka.me.app.MainActivity}" drawable="takka" />
 	<item component="ComponentInfo{taxi.android.client/com.mytaxi.passenger.startup.impl.ui.RouterActivity}" drawable="freenow" />
 	<item component="ComponentInfo{taxi.android.client/taxi.android.client.feature.startup.ui.StartupActivity}" drawable="freenow" />
@@ -14970,6 +15333,7 @@
 	<item component="ComponentInfo{tools.photo.hd.camera/com.android.camera.LaunchActivity}" drawable="camera_alt_1" />
 	<item component="ComponentInfo{town.pony.game/town.pony.game.MainActivity}" drawable="pony_town" />
 	<item component="ComponentInfo{town.robin.toadua/town.robin.toadua.MainActivity}" drawable="toadua" />
+	<item component="ComponentInfo{tr.gov.mgm.meteorolojihavadurumu/tr.gov.mgm.meteorolojihavadurumu.SplashActivity}" drawable="weather" />
 	<item component="ComponentInfo{tr.gov.turkiye.edevlet.kapisi/tr.gov.turkiye.edevlet.kapisi.ui.splash.SplashActivity}" drawable="e_devlet" />
 	<item component="ComponentInfo{travel.ticketless.app.lothian/travel.ticketless.app.activities.splashScreen.SplashScreenActivity}" drawable="bus_and_tram" />
 	<item component="ComponentInfo{trendyol.com/com.trendyol.common.splash.impl.ui.SplashActivity}" drawable="trendyol" />
@@ -15130,6 +15494,7 @@
 	<item component="ComponentInfo{us.mobilepassport/us.mobilepassport.ui.welcome.WelcomeActivity}" drawable="mobile_passport" />
 	<item component="ComponentInfo{us.nobarriers.elsa/us.nobarriers.elsa.screens.launcher.LauncherActivity}" drawable="elsa_speak" />
 	<item component="ComponentInfo{us.personals/us.personals.MainActivity}" drawable="lex" />
+	<item component="ComponentInfo{us.rec.screen/com.zipoapps.premiumhelper.ui.splash.PHSplashActivity}" drawable="screen_recorder" />
 	<item component="ComponentInfo{us.spotco.carrion/us.spotco.carrion.MainActivity}" drawable="carrion" />
 	<item component="ComponentInfo{us.spotco.extirpater/us.spotco.extirpater.MainActivity}" drawable="extirpater" />
 	<item component="ComponentInfo{us.spotco.fennec_dos/us.spotco.fennec_dos.App}" drawable="mull" />
@@ -15259,6 +15624,7 @@
 	<item component="ComponentInfo{xyz.penpencil.physicswala/com.penpencil.physicswallah.SplashActivityAliasNormal}" drawable="pw" />
 	<item component="ComponentInfo{xyz.penpencil.physicswala/com.penpencil.physicswallah.activity.SplashActivity}" drawable="pw" />
 	<item component="ComponentInfo{xyz.regulad.supir/xyz.regulad.supir.MainActivity}" drawable="supir" />
+	<item component="ComponentInfo{xyz.rtrvr.pillo/xyz.rtrvr.pillo.ui.main.MainActivity}" drawable="pillo" />
 	<item component="ComponentInfo{xyz.tberghuis.floatingtimer/xyz.tberghuis.floatingtimer.MainActivity}" drawable="floating_timer" />
 	<item component="ComponentInfo{xyz.thefor.habits.habits/xyz.thefor.habits.habits.MainActivity}" drawable="thefor_habit_tracker" />
 	<item component="ComponentInfo{xyz.wingio.dimett/xyz.wingio.dimett.ui.activity.MainActivity}" drawable="dimett" />
@@ -15285,6 +15651,7 @@
 	<item component="ComponentInfo{yqtrack.app/yqtrack.app.MainActivity}" drawable="_17track" />
 	<item component="ComponentInfo{yqtrack.app/yqtrack.app.ui.splash.SplashActivity}" drawable="_17track" />
 	<item component="ComponentInfo{yru.iiec.pydroid3/ru.iiec.pydroid.MainActivity}" drawable="pydroid_python_ide" />
+	<item component="ComponentInfo{yt.rvx.noname.exe/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube_revanced_alt_7" />
 	<item component="ComponentInfo{yuh.yuh.finelock/yuh.yuh.finelock.M}" drawable="fine_lock" />
 	<item component="ComponentInfo{yuh.yuh.finelock/yuh.yuh.finelock.T}" drawable="fine_lock" />
 	<item component="ComponentInfo{yuku.alkitab.kjv/yuku.alkitab.base.IsiActivity}" drawable="quick_bible" />
@@ -15303,256 +15670,4 @@
 	<item component="ComponentInfo{zombie.survival.craft.z/ru.kv3dunityext.permissions.MainActivity}" drawable="last_day_on_earth_survival" />
 	<item component="ComponentInfo{zte.com.cn.alarmclock/zte.com.cn.alarmclock.activity.AlarmClockActivity}" drawable="clock" />
 	<item component="ComponentInfo{zte.com.cn.filer/zte.com.cn.filer.FileMgrActivity}" drawable="file_manager" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Amber}" drawable="fossify_calculator_amber" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Blue}" drawable="fossify_calculator_blue" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Blue_Grey}" drawable="fossify_calculator_blue_grey" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Brown}" drawable="fossify_calculator_brown" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Cyan}" drawable="fossify_calculator_cyan" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Deep_Orange}" drawable="fossify_calculator_deep_orange" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Deep_Purple}" drawable="fossify_calculator_deep_purple" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Grey_Black}" drawable="fossify_calculator_grey_black" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Indigo}" drawable="fossify_calculator_indigo" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Light_Blue}" drawable="fossify_calculator_light_blue" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Light_Green}" drawable="fossify_calculator_light_green" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Lime}" drawable="fossify_calculator_lime" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Orange}" drawable="fossify_calculator_orange" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Pink}" drawable="fossify_calculator_pink" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Purple}" drawable="fossify_calculator_purple" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Red}" drawable="fossify_calculator_red" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Teal}" drawable="fossify_calculator_teal" />
-	<item component="ComponentInfo{org.fossify.calculator/org.fossify.calculator.activities.SplashActivity.Yellow}" drawable="fossify_calculator_yellow" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Amber}" drawable="fossify_calendar_amber" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Blue}" drawable="fossify_calendar_blue" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Blue_Grey}" drawable="fossify_calendar_blue_grey" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Brown}" drawable="fossify_calendar_brown" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Cyan}" drawable="fossify_calendar_cyan" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Deep_Orange}" drawable="fossify_calendar_deep_orange" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Deep_Purple}" drawable="fossify_calendar_deep_purple" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Grey_Black}" drawable="fossify_calendar_grey_black" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Indigo}" drawable="fossify_calendar_indigo" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Light_Blue}" drawable="fossify_calendar_light_blue" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Light_Green}" drawable="fossify_calendar_light_green" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Lime}" drawable="fossify_calendar_lime" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Orange}" drawable="fossify_calendar_orange" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Pink}" drawable="fossify_calendar_pink" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Purple}" drawable="fossify_calendar_purple" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Red}" drawable="fossify_calendar_red" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Teal}" drawable="fossify_calendar_teal" />
-	<item component="ComponentInfo{org.fossify.calendar/org.fossify.calendar.activities.SplashActivity.Yellow}" drawable="fossify_calendar_yellow" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Amber}" drawable="fossify_camera_amber" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Blue}" drawable="fossify_camera_blue" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Blue_Grey}" drawable="fossify_camera_blue_grey" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Brown}" drawable="fossify_camera_brown" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Cyan}" drawable="fossify_camera_cyan" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Deep_Orange}" drawable="fossify_camera_deep_orange" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Deep_Purple}" drawable="fossify_camera_deep_purple" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Grey_Black}" drawable="fossify_camera_grey_black" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Indigo}" drawable="fossify_camera_indigo" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Light_Blue}" drawable="fossify_camera_light_blue" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Light_Green}" drawable="fossify_camera_light_green" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Lime}" drawable="fossify_camera_lime" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Orange}" drawable="fossify_camera_orange" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Pink}" drawable="fossify_camera_pink" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Purple}" drawable="fossify_camera_purple" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Red}" drawable="fossify_camera_red" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Teal}" drawable="fossify_camera_teal" />
-	<item component="ComponentInfo{org.fossify.camera/org.fossify.camera.activities.SplashActivity.Yellow}" drawable="fossify_camera_yellow" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Amber}" drawable="fossify_clock_amber" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Blue}" drawable="fossify_clock_blue" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Blue_Grey}" drawable="fossify_clock_blue_grey" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Brown}" drawable="fossify_clock_brown" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Cyan}" drawable="fossify_clock_cyan" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Deep_Orange}" drawable="fossify_clock_deep_orange" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Deep_Purple}" drawable="fossify_clock_deep_purple" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Grey_Black}" drawable="fossify_clock_grey_black" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Indigo}" drawable="fossify_clock_indigo" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Light_Blue}" drawable="fossify_clock_light_blue" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Light_Green}" drawable="fossify_clock_light_green" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Lime}" drawable="fossify_clock_lime" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Orange}" drawable="fossify_clock_orange" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Pink}" drawable="fossify_clock_pink" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Purple}" drawable="fossify_clock_purple" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Red}" drawable="fossify_clock_red" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Teal}" drawable="fossify_clock_teal" />
-	<item component="ComponentInfo{org.fossify.clock/org.fossify.clock.activities.SplashActivity.Yellow}" drawable="fossify_clock_yellow" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Amber}" drawable="fossify_contacts_amber" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Blue}" drawable="fossify_contacts_blue" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Blue_Grey}" drawable="fossify_contacts_blue_grey" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Brown}" drawable="fossify_contacts_brown" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Cyan}" drawable="fossify_contacts_cyan" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Deep_Orange}" drawable="fossify_contacts_deep_orange" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Deep_Purple}" drawable="fossify_contacts_deep_purple" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Grey_Black}" drawable="fossify_contacts_grey_black" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Indigo}" drawable="fossify_contacts_indigo" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Light_Blue}" drawable="fossify_contacts_light_blue" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Light_Green}" drawable="fossify_contacts_light_green" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Lime}" drawable="fossify_contacts_lime" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Orange}" drawable="fossify_contacts_orange" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Pink}" drawable="fossify_contacts_pink" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Purple}" drawable="fossify_contacts_purple" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Red}" drawable="fossify_contacts_red" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Teal}" drawable="fossify_contacts_teal" />
-	<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Yellow}" drawable="fossify_contacts_yellow" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Amber}" drawable="fossify_file_manager_amber" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Blue}" drawable="fossify_file_manager_blue" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Blue_Grey}" drawable="fossify_file_manager_blue_grey" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Brown}" drawable="fossify_file_manager_brown" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Cyan}" drawable="fossify_file_manager_cyan" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Deep_Orange}" drawable="fossify_file_manager_deep_orange" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Deep_Purple}" drawable="fossify_file_manager_deep_purple" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Grey_Black}" drawable="fossify_file_manager_grey_black" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Indigo}" drawable="fossify_file_manager_indigo" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Light_Blue}" drawable="fossify_file_manager_light_blue" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Light_Green}" drawable="fossify_file_manager_light_green" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Lime}" drawable="fossify_file_manager_lime" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Orange}" drawable="fossify_file_manager_orange" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Pink}" drawable="fossify_file_manager_pink" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Purple}" drawable="fossify_file_manager_purple" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Red}" drawable="fossify_file_manager_red" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Teal}" drawable="fossify_file_manager_teal" />
-	<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Yellow}" drawable="fossify_file_manager_yellow" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Amber}" drawable="fossify_gallery_amber" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Blue}" drawable="fossify_gallery_blue" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Blue_Grey}" drawable="fossify_gallery_blue_grey" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Brown}" drawable="fossify_gallery_brown" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Cyan}" drawable="fossify_gallery_cyan" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Deep_Orange}" drawable="fossify_gallery_deep_orange" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Deep_Purple}" drawable="fossify_gallery_deep_purple" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Grey_Black}" drawable="fossify_gallery_grey_black" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Indigo}" drawable="fossify_gallery_indigo" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Light_Blue}" drawable="fossify_gallery_light_blue" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Light_Green}" drawable="fossify_gallery_light_green" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Lime}" drawable="fossify_gallery_lime" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Orange}" drawable="fossify_gallery_orange" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Pink}" drawable="fossify_gallery_pink" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Purple}" drawable="fossify_gallery_purple" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Red}" drawable="fossify_gallery_red" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Teal}" drawable="fossify_gallery_teal" />
-	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Yellow}" drawable="fossify_gallery_yellow" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Amber}" drawable="fossify_keyboard_amber" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Blue}" drawable="fossify_keyboard_blue" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Blue_Grey}" drawable="fossify_keyboard_blue_grey" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Brown}" drawable="fossify_keyboard_brown" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Cyan}" drawable="fossify_keyboard_cyan" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Deep_Orange}" drawable="fossify_keyboard_deep_orange" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Deep_Purple}" drawable="fossify_keyboard_deep_purple" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Grey_Black}" drawable="fossify_keyboard_grey_black" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Indigo}" drawable="fossify_keyboard_indigo" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Light_Blue}" drawable="fossify_keyboard_light_blue" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Light_Green}" drawable="fossify_keyboard_light_green" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Lime}" drawable="fossify_keyboard_lime" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Orange}" drawable="fossify_keyboard_orange" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Pink}" drawable="fossify_keyboard_pink" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Purple}" drawable="fossify_keyboard_purple" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Red}" drawable="fossify_keyboard_red" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Teal}" drawable="fossify_keyboard_teal" />
-	<item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Yellow}" drawable="fossify_keyboard_yellow" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Amber}" drawable="fossify_launcher_amber" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Blue}" drawable="fossify_launcher_blue" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Blue_Grey}" drawable="fossify_launcher_blue_grey" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Brown}" drawable="fossify_launcher_brown" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Cyan}" drawable="fossify_launcher_cyan" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Deep_Orange}" drawable="fossify_launcher_deep_orange" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Deep_Purple}" drawable="fossify_launcher_deep_purple" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Grey_Black}" drawable="fossify_launcher_grey_black" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Indigo}" drawable="fossify_launcher_indigo" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Light_Blue}" drawable="fossify_launcher_light_blue" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Light_Green}" drawable="fossify_launcher_light_green" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Lime}" drawable="fossify_launcher_lime" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Orange}" drawable="fossify_launcher_orange" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Pink}" drawable="fossify_launcher_pink" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Purple}" drawable="fossify_launcher_purple" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Red}" drawable="fossify_launcher_red" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Teal}" drawable="fossify_launcher_teal" />
-	<item component="ComponentInfo{org.fossify.launcher/org.fossify.launcher.activities.SplashActivity.Yellow}" drawable="fossify_launcher_yellow" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Amber}" drawable="fossify_messages_amber" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Blue}" drawable="fossify_messages_blue" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Blue_Grey}" drawable="fossify_messages_blue_grey" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Brown}" drawable="fossify_messages_brown" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Cyan}" drawable="fossify_messages_cyan" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Deep_Orange}" drawable="fossify_messages_deep_orange" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Deep_Purple}" drawable="fossify_messages_deep_purple" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Grey_Black}" drawable="fossify_messages_grey_black" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Indigo}" drawable="fossify_messages_indigo" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Light_Blue}" drawable="fossify_messages_light_blue" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Light_Green}" drawable="fossify_messages_light_green" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Lime}" drawable="fossify_messages_lime" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Orange}" drawable="fossify_messages_orange" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Pink}" drawable="fossify_messages_pink" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Purple}" drawable="fossify_messages_purple" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Red}" drawable="fossify_messages_red" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Teal}" drawable="fossify_messages_teal" />
-	<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Yellow}" drawable="fossify_messages_yellow" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Amber}" drawable="fossify_music_player_amber" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Blue}" drawable="fossify_music_player_blue" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Blue_Grey}" drawable="fossify_music_player_blue_grey" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Brown}" drawable="fossify_music_player_brown" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Cyan}" drawable="fossify_music_player_cyan" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Deep_Orange}" drawable="fossify_music_player_deep_orange" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Deep_Purple}" drawable="fossify_music_player_deep_purple" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Grey_Black}" drawable="fossify_music_player_grey_black" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Indigo}" drawable="fossify_music_player_indigo" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Light_Blue}" drawable="fossify_music_player_light_blue" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Light_Green}" drawable="fossify_music_player_light_green" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Lime}" drawable="fossify_music_player_lime" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Orange}" drawable="fossify_music_player_orange" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Pink}" drawable="fossify_music_player_pink" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Purple}" drawable="fossify_music_player_purple" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Red}" drawable="fossify_music_player_red" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Teal}" drawable="fossify_music_player_teal" />
-	<item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Yellow}" drawable="fossify_music_player_yellow" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Amber}" drawable="fossify_notes_amber" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue}" drawable="fossify_notes_blue" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Blue_Grey}" drawable="fossify_notes_blue_grey" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Brown}" drawable="fossify_notes_brown" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Cyan}" drawable="fossify_notes_cyan" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_Orange}" drawable="fossify_notes_deep_orange" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Deep_Purple}" drawable="fossify_notes_deep_purple" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Grey_Black}" drawable="fossify_notes_grey_black" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Indigo}" drawable="fossify_notes_indigo" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_Blue}" drawable="fossify_notes_light_blue" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Light_Green}" drawable="fossify_notes_light_green" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Lime}" drawable="fossify_notes_lime" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Orange}" drawable="fossify_notes_orange" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Pink}" drawable="fossify_notes_pink" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Purple}" drawable="fossify_notes_purple" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Red}" drawable="fossify_notes_red" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Teal}" drawable="fossify_notes_teal" />
-	<item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Yellow}" drawable="fossify_notes_yellow" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Amber}" drawable="fossify_phone_amber" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Blue}" drawable="fossify_phone_blue" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Blue_Grey}" drawable="fossify_phone_blue_grey" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Brown}" drawable="fossify_phone_brown" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Cyan}" drawable="fossify_phone_cyan" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Deep_Orange}" drawable="fossify_phone_deep_orange" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Deep_Purple}" drawable="fossify_phone_deep_purple" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Grey_Black}" drawable="fossify_phone_grey_black" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Indigo}" drawable="fossify_phone_indigo" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Light_Blue}" drawable="fossify_phone_light_blue" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Light_Green}" drawable="fossify_phone_light_green" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Lime}" drawable="fossify_phone_lime" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Orange}" drawable="fossify_phone_orange" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Pink}" drawable="fossify_phone_pink" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Purple}" drawable="fossify_phone_purple" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Red}" drawable="fossify_phone_red" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Teal}" drawable="fossify_phone_teal" />
-	<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Yellow}" drawable="fossify_phone_yellow" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Amber}" drawable="fossify_voice_recorder_amber" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Blue}" drawable="fossify_voice_recorder_blue" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Blue_Grey}" drawable="fossify_voice_recorder_blue_grey" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Brown}" drawable="fossify_voice_recorder_brown" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Cyan}" drawable="fossify_voice_recorder_cyan" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Deep_Orange}" drawable="fossify_voice_recorder_deep_orange" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Deep_Purple}" drawable="fossify_voice_recorder_deep_purple" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Grey_Black}" drawable="fossify_voice_recorder_grey_black" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Indigo}" drawable="fossify_voice_recorder_indigo" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Light_Blue}" drawable="fossify_voice_recorder_light_blue" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Light_Green}" drawable="fossify_voice_recorder_light_green" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Lime}" drawable="fossify_voice_recorder_lime" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Orange}" drawable="fossify_voice_recorder_orange" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Pink}" drawable="fossify_voice_recorder_pink" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Purple}" drawable="fossify_voice_recorder_purple" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Red}" drawable="fossify_voice_recorder_red" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Teal}" drawable="fossify_voice_recorder_teal" />
-	<item component="ComponentInfo{org.fossify.voicerecorder/org.fossify.voicerecorder.activities.SplashActivity.Yellow}" drawable="fossify_voice_recorder_yellow" />
 </resources>
