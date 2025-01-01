@@ -158,6 +158,7 @@ If the existing icon rebranded, don't overwrite it with a new one, do the follow
 # Resources
 
 > _For saving templates/palettes locally do: **Right-Click** &rarr; **Save As**_
+> [Figma Icon Template (+variables)](https://www.figma.com/design/02aiFRSLkikcw8mpBAnoDA/Delta-Icon-Template?m=auto&t=qyLH05AMDzZwAI2s-1)
 
 ## Font
 
@@ -294,6 +295,8 @@ You may use these tools to find each app's СomponentInfo(s):
 - [Adobe Swatch Exchange Palette](../../../raw/master/resources/palettes/palette.ase) (Illustrator, Photoshop)
 
 - [GPL Pallete](../../../raw/master/resources/palettes/palette.gpl) (Inkscape, Karbon)
+
+- [Figma Icon Template (+variables)](https://www.figma.com/design/02aiFRSLkikcw8mpBAnoDA/Delta-Icon-Template?m=auto&t=qyLH05AMDzZwAI2s-1)
 
 # Building via GitHub Actions
 
