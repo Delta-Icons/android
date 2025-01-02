@@ -9,8 +9,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 199002
-		versionName "1.9.9"
+		versionCode 200000
+		versionName "2.0.0-beta0"
 		multiDexEnabled true
 
 		// Naming app bundles
