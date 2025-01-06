@@ -185,6 +185,7 @@ You may use these tools to find each app's СomponentInfo(s):
 
 - Canvas size must be 192x192px, the icon size according to the template below
 - If the original logo doesn't contain small details or doesn't make up most of the background layer (circle/square/etc.) as designed, keep the logo size between 73-80px
+- The rounded corners of squares and rectangles have a corner radius of 10px
 
 |<img src="../../../raw/master/resources/templates/template.svg" width="177" height="177">|<img src="../../../raw/master/resources/templates/template_tutorial.svg" width="547,705" height="600">|
 |---|---|
