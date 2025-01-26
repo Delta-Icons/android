@@ -17,6 +17,14 @@ on:
         options:
         - beta
         - prod
+      version_type:
+        description: Version type
+        default: minor
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
       build_foss:
         description: Build FOSS
         type: boolean
@@ -80,8 +88,9 @@ jobs:
     - name: Bump version
       run: |
         python \
-          -u ${{ env.sd }}/bump_version.py -p \
-          -t ${{ inputs.release_type }} >> $GITHUB_ENV
+          -u ${{ env.sd }}/bump_version.py -e -w \
+          -r ${{ inputs.release_type }} \
+          -v ${{ inputs.version_type }} >> $GITHUB_ENV
 
     - name: Add new icons
       run: |
