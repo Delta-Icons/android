@@ -151,13 +151,7 @@ jobs:
 
     - name: Optimize images
       run: |
-        latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
-        if [[ $latest_tag ]]; then
-          echo "Latest tag is $latest_tag; optimizing images since this tag"
-          optipng $(git diff --name-only $latest_tag -- "***.png") || true
-        else
-          echo 'No release found, skip optimizing'
-        fi
+        bash ${{ env.sd }}/optimize_images.sh
 
     - name: Sort appfilter and drawable
       run: |
