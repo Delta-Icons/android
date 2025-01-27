@@ -17,6 +17,14 @@ on:
         options:
         - beta
         - prod
+      version_type:
+        description: Version type
+        default: minor
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
       build_foss:
         description: Build FOSS
         type: boolean
@@ -25,14 +33,9 @@ on:
         description: Publish the app
         type: boolean
         default: true
-      changelog_1:
-        description: Changelog 1
-      changelog_2:
-        description: Changelog 2
-      changelog_3:
-        description: Changelog 3
-      changelog_4:
-        description: Changelog 4
+      changelog:
+        description: Changelog (b64 encoded)
+
 
 env:
   token: ${{ secrets.PA_TOKEN || github.token }}
@@ -80,84 +83,21 @@ jobs:
     - name: Bump version
       run: |
         python \
-          -u ${{ env.sd }}/bump_version.py -p \
-          -t ${{ inputs.release_type }} >> $GITHUB_ENV
+          -u ${{ env.sd }}/bump_version.py -e -w \
+          -r ${{ inputs.release_type }} \
+          -v ${{ inputs.version_type }} >> $GITHUB_ENV
 
     - name: Add new icons
       run: |
         python -u ${{ env.sd }}/add_icons_wrapper.py
 
-    - name: Create a changelog and set custom icons count
+    - name: Set icon count
       run: |
-        mkdir changelog
-
-        changelog_txt=metadata/en-US/changelogs/${{ env.version_code }}.txt
-        changelog_tmp=changelog/whatsnew-en-US
-        changelog_xml=app/src/main/res/values/changelog.xml
-        drawable_xml=app/src/main/res/xml/drawable.xml
-
-        drawable_lines=$(grep '<item' $drawable_xml | sort)
-        summary=$(echo "$drawable_lines" | wc -l)
-        amount_all=$(echo "$drawable_lines" | uniq | wc -l)
-        amount_new=$(( $summary - $amount_all ))
-
-        candybar_play=app/src/play/java/website/leifs/delta/applications/CandyBar.java
-        candybar_foss=app/src/foss/java/website/leifs/delta/applications/CandyBar.java
-        sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" $candybar_play
-        sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" $candybar_foss
-
-        changelog_1='${{ inputs.changelog_1 }}'
-        changelog_2='${{ inputs.changelog_2 }}'
-        changelog_3='${{ inputs.changelog_3 }}'
-        changelog_4='${{ inputs.changelog_4 }}'
-
-        echo "- $amount_new new icons, $amount_all in total" > $changelog_txt
-
-        cat << EOF > $changelog_xml
-        <?xml version="1.0" encoding="utf-8"?>
-        <resources>
-            <string name="changelog_date"></string>
-            <string-array name="changelog">
-                <item><![CDATA[<font color=#ff837d>$amount_new</font> new icons, <font color=#ff837d>$amount_all</font> in total]]></item>
-        EOF
-
-        if [[ '${{ inputs.release_type }}' == 'prod' ]]; then
-          echo "- Fixed icons not applying properly" >> $changelog_txt
-          echo "        <item>Fixed icons not applying properly</item>" >> $changelog_xml
-          for n in $(seq 1 4); do
-            changelog="changelog_${n}"
-            if [ ! -z "${!changelog}" ]; then
-              echo "- ${!changelog}" >> $changelog_txt
-              echo "        <item>${!changelog}</item>" >> $changelog_xml
-            fi
-          done
-        fi
-
-        if [[ '${{ inputs.release_type }}' == 'beta' ]]; then
-          message="Full changelog will be published upon release!"
-          echo "- $message" >> $changelog_txt
-          echo "        <item>$message</item>" >> $changelog_xml
-        fi
-
-        cat << EOF >> $changelog_xml
-            </string-array>
-        </resources>
-        EOF
-
-        cp $changelog_txt $changelog_tmp
-        cat $changelog_xml
-
-        echo "changelog=$changelog_tmp" >> $GITHUB_ENV
+        python ${{ env.sd }}/count_icons.py -w
 
     - name: Optimize images
       run: |
-        latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
-        if [[ $latest_tag ]]; then
-          echo "Latest tag is $latest_tag; optimizing images since this tag"
-          optipng $(git diff --name-only $latest_tag -- "***.png") || true
-        else
-          echo 'No release found, skip optimizing'
-        fi
+        bash ${{ env.sd }}/optimize_images.sh
 
     - name: Sort appfilter and drawable
       run: |
@@ -166,6 +106,24 @@ jobs:
         python sort_drawable.py -o
         cp -fv ${{ env.a1 }} ${{ env.a2 }}
         cp -fv ${{ env.d1 }} ${{ env.d2 }}
+
+    - name: Create changelog
+      run: |
+        mkdir changelog
+
+        changelog_txt=metadata/en-US/changelogs/${{ env.version_code }}.txt
+        changelog_tmp=changelog/whatsnew-en-US
+        changelog_xml=app/src/main/res/values/changelog.xml
+
+        python ${{ env.sd }}/create_changelog.py -p -w \
+                -r ${{ inputs.release_type }} \
+                -d '${{ inputs.changelog }}' \
+                -t $changelog_txt \
+                -x $changelog_xml
+
+        cp $changelog_txt $changelog_tmp
+
+        echo "changelog=$changelog_tmp" >> $GITHUB_ENV
 
     - name: Commit pre-build changes
       run: |
