@@ -61,6 +61,8 @@ with open(target, 'r+') as file:
             case 'patch': version_name = version_name.bump_patch()
 
     if args.release_type == 'prod':
+        if version_name.prerelease:
+            version_name = version_name.bump_prerelease(token='beta')
         version_code = build_version_code(version_name)
         version_name = version_name.finalize_version()
     else:
