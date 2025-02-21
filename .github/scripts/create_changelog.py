@@ -15,7 +15,7 @@ parser.add_argument('-d', '--data',
 parser.add_argument('-r', '--release-type',
                     dest='release_type',
                     help='type of release',
-                    choices=['beta', 'prod'],
+                    choices=['prod', 'beta', 'foss'],
                     default='beta')
 parser.add_argument('-p', '--print',
                     dest='print',
@@ -54,27 +54,31 @@ def main():
     ET.SubElement(resources, 'string', name='changelog_date')
     changelog = ET.SubElement(resources, 'string-array', name='changelog')
 
-    text = f'{icons_new} new icons, {icons_total} in total'
-    ET.SubElement(changelog, 'item').text = text
-    txt.append('- ' + text)
-
-    if args.release_type == 'prod':
-        
-        text = f'Fixed icons not applying properly'
+    if args.release_type != 'foss':
+        text = f'{icons_new} new icons, {icons_total} in total'
         ET.SubElement(changelog, 'item').text = text
         txt.append('- ' + text)
 
-        for line in data.splitlines():
-            line = line.strip()
-            if not line: continue
-            line = re.sub('^-+', '', line).strip()
-            ET.SubElement(changelog, 'item').text = line
-            txt.append('- ' + line)
+    match args.release_type:
+        case 'prod':
+            text = f'Fixed icons not applying properly'
+            ET.SubElement(changelog, 'item').text = text
+            txt.append('- ' + text)
 
-    else:
-        text = 'Full changelog will be published upon release!'
-        ET.SubElement(changelog, 'item').text = text
-        txt.append('- ' + text)
+            for line in data.splitlines():
+                line = line.strip()
+                if not line: continue
+                line = re.sub('^-+', '', line).strip()
+                ET.SubElement(changelog, 'item').text = line
+                txt.append('- ' + line)
+        case 'beta':
+            text = 'Full changelog will be published upon release!'
+            ET.SubElement(changelog, 'item').text = text
+            txt.append('- ' + text)
+        case 'foss':
+            text = 'This is a FOSS build for testing purposes!'
+            ET.SubElement(changelog, 'item').text = text
+            txt.append('- ' + text)
 
 
     tree = ET.ElementTree(resources)
