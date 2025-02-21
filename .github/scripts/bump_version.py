@@ -10,6 +10,10 @@ from resolve_paths import paths
 
 
 argparser = argparse.ArgumentParser(description='Bump release version')
+
+argparser.add_argument('-c', '--custom',
+                       dest='custom',
+                       help='custom version name and code (format: \'name|code\')')
 argparser.add_argument('-r', '--release-type',
                        dest='release_type',
                        help='type of release',
@@ -52,22 +56,25 @@ def build_version_code(version):
 with open(target, 'r+') as file:
     content = file.read()
 
-    version_name = semver.VersionInfo.parse(re.search(regexp_version_name, content).group(1))
-
-    if not version_name.prerelease:
-        match args.version_type:
-            case 'major': version_name = version_name.bump_major()
-            case 'minor': version_name = version_name.bump_minor()
-            case 'patch': version_name = version_name.bump_patch()
-
-    if args.release_type == 'prod':
-        if version_name.prerelease:
-            version_name = version_name.bump_prerelease(token='beta')
-        version_code = build_version_code(version_name)
-        version_name = version_name.finalize_version()
+    if args.custom:
+        version_name, version_code = args.custom.split('|')
     else:
-        version_name = version_name.bump_prerelease(token='beta')
-        version_code = build_version_code(version_name)
+        version_name = semver.VersionInfo.parse(re.search(regexp_version_name, content).group(1))
+
+        if not version_name.prerelease:
+            match args.version_type:
+                case 'major': version_name = version_name.bump_major()
+                case 'minor': version_name = version_name.bump_minor()
+                case 'patch': version_name = version_name.bump_patch()
+
+        if args.release_type == 'prod':
+            if version_name.prerelease:
+                version_name = version_name.bump_prerelease(token='beta')
+            version_code = build_version_code(version_name)
+            version_name = version_name.finalize_version()
+        else:
+            version_name = version_name.bump_prerelease(token='beta')
+            version_code = build_version_code(version_name)
 
     if not args.env:
         print(f'Name: {version_name}')
