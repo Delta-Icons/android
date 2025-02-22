@@ -3,20 +3,8 @@ run-name: foss @ ${{ github.sha }}
 
 on:
   workflow_dispatch:
-    inputs:
-      version_name:
-        description: Version name
-        default: 1.0.0
-        required: true
-      version_code:
-        description: Version code
-        default: '100000'
-        required: true
 
 concurrency: ${{ github.ref }}
-
-env:
-  filename: delta-v${{ inputs.version_name }}-foss
 
 jobs:
   build:
@@ -27,67 +15,38 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Export variables
-      run: |
-        python -u .github/scripts/resolve_paths.py -p >> $GITHUB_ENV
-
     - name: Setup Java
       uses: actions/setup-java@v4
       with:
         distribution: temurin
         java-version: 18
 
+    - name: Export variables
+      run: |
+        python -u .github/scripts/resolve_paths.py -p >> $GITHUB_ENV
+
     - name: Install dependencies
       run: |
-        cd ${{ env.sd }}
-        sudo pip install -r requirements.txt
+        sudo pip install -r ${{ env.sd }}/requirements.txt
 
     - name: Add new icons
       run: |
-        cd ${{ env.sd }}
-        python -u add_icons_wrapper.py
+        python -u ${{ env.sd }}/add_icons_wrapper.py
 
-    - name: Change version
+    - name: Set version
       run: |
-        python - << EOF
-        import re
+        echo "filename=delta-${GITHUB_SHA::7}-foss" >> $GITHUB_ENV
+        python -u ${{ env.sd }}/bump_version.py -w \
+               -c "${GITHUB_SHA::7}|$(date +%s)"
 
-        target = 'app/build.gradle'
-
-        regexp_version_code = re.compile('versionCode (\d+)')
-        regexp_version_name = re.compile('versionName "(\d+\.\d+\.\d+(-beta\d+)?)"')
-
-        with open(target, 'r+') as file:
-          content = file.read()
-          content = re.sub(regexp_version_code, f'versionCode ${{ inputs.version_code }}', content)
-          content = re.sub(regexp_version_name, f'versionName "${{ inputs.version_name }}"', content)
-          file.seek(0)
-          file.write(content)
-          file.truncate()
-        EOF
-
-    - name: Set custom icons count
+    - name: Set icon count
       run: |
-        drawable_xml=app/src/main/res/xml/drawable.xml
-        drawable_lines=$(grep '<item' $drawable_xml | sort)
-        summary=$(echo "$drawable_lines" | wc -l)
-        amount_all=$(echo "$drawable_lines" | uniq | wc -l)
-        amount_new=$(( $summary - $amount_all ))
-        shortcut=java/website/leifs/delta/applications/CandyBar.java
-        sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" app/src/foss/$shortcut
-        sed -i "s|setCustomIconsCount\(.*\);|setCustomIconsCount\($amount_all\);|" app/src/play/$shortcut
+        python ${{ env.sd }}/count_icons.py -w
 
     - name: Create changelog
       run: |
-        cat << EOF > app/src/main/res/values/changelog.xml
-        <?xml version="1.0" encoding="utf-8"?>
-        <resources>
-            <string name="changelog_date"></string>
-            <string-array name="changelog">
-                <item><![CDATA[<font color=#ff837d><item>¯\\_(ツ)_/¯</item></font>]]></item>
-            </string-array>
-        </resources>
-        EOF
+        python ${{ env.sd }}/create_changelog.py -p -w -r foss \
+               -x app/src/main/res/values/changelog.xml
 
     - name: Sort appfilter and drawable
       run: |
@@ -124,4 +83,4 @@ jobs:
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk
-        retention-days: 90
+        retention-days: 7
