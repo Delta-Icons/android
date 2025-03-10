@@ -269,5 +269,4 @@ jobs:
         token: ${{ env.token }}
       if: |
         github.repository_owner == env.organization &&
-        inputs.release_type == 'prod' &&
         inputs.publish == true
