@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import re
 
 from os import system as execute
 from os import name as platform
@@ -97,10 +98,11 @@ for icon in icons:
             if compinfo in requests:
                 requests.pop(compinfo)
     else:
-        if '_alt_' in icon:
+        if re.match('^.*_alt_[0-9]+$', name):
             category = 'Alts'
 
     if category: command += f' -C {quote(category)}'
+
 
     print(f'[icon] {name}')
     status = execute(f'{command}')
