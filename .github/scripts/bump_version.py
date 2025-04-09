@@ -4,17 +4,34 @@ import argparse, re
 
 from os.path import join
 
+import semver
+
 from resolve_paths import paths
 
 
 argparser = argparse.ArgumentParser(description='Bump release version')
-argparser.add_argument('-t', '--type',
-                       dest='type',
-                       help='type of release [beta|prod]',
+
+argparser.add_argument('-c', '--custom',
+                       dest='custom',
+                       help='custom version name and code (format: \'name|code\')')
+argparser.add_argument('-r', '--release-type',
+                       dest='release_type',
+                       help='type of release',
+                       choices=['beta', 'prod'],
                        default='beta')
-argparser.add_argument('-p', '--print',
-                       dest='print',
+argparser.add_argument('-v', '--version-type',
+                       dest='version_type',
+                       help='bump specific position',
+                       choices=['patch', 'minor', 'major'],
+                       default='minor')
+argparser.add_argument('-e', '--env',
+                       dest='env',
                        help='print variables for shell exporting',
+                       default=False,
+                       action=argparse.BooleanOptionalAction)
+argparser.add_argument('-w', '--write',
+                       dest='write',
+                       help='write to file',
                        default=False,
                        action=argparse.BooleanOptionalAction)
 args = argparser.parse_args()
@@ -23,54 +40,55 @@ args = argparser.parse_args()
 target = join(paths['root'], 'app/build.gradle')
 
 regexp_version_code = re.compile('versionCode (\d+)')
-regexp_version_name = re.compile('versionName "((\d+\.\d+\.\d+)(-beta(\d+))?)"')
-is_beta = 'true' if args.type == 'beta' else 'false'
+regexp_version_name = re.compile('versionName "((\d+\.\d+\.\d+)(-beta\.?(\d+))?)"')
+is_beta = 'true' if args.release_type == 'beta' else 'false'
+
+
+def build_version_code(version):
+    major = str(version.major)
+    minor = str(version.minor).zfill(2)
+    patch = str(version.patch)
+    beta = '00' if version.prerelease is None else \
+           ''.join(filter(str.isdigit, version_name.prerelease)).zfill(2)
+    return int(major + minor + patch + beta)
+
 
 with open(target, 'r+') as file:
-
     content = file.read()
-    latest_version = re.search(regexp_version_name, content)
 
-    full_version = latest_version.group(1)
-    base_version = latest_version.group(2)
-    beta_version = str(int(latest_version.group(4) if latest_version.group(4) else '-1') + 1)
-    build_number = str(int(re.search(regexp_version_code, content).group(1)[-3:]) + 1)
-
-    if args.type == 'prod':
-        if not 'beta' in full_version:
-            base_version = list(map(int, base_version.split('.')))
-            base_version[2] += 1
-            for n in range(2):
-                if base_version[2-n] > 9:
-                    base_version[2-n] = 0
-                    base_version[1-n] += 1
-            new_version = '.'.join(str(x) for x in base_version)
-            build_number = '0'
-        else:
-            new_version = base_version
-        version_code = new_version.replace('.', '') + build_number.rjust(3, '0')
-        version_name = new_version
+    if args.custom:
+        version_name, version_code = args.custom.split('|')
     else:
-        base_version = list(map(int, base_version.split('.')))
-        if not 'beta' in full_version:
-            build_number = '0'
-            base_version[2] += 1
-        for n in range(2):
-            if base_version[2-n] > 9:
-                base_version[2-n] = 0
-                base_version[1-n] += 1
-        new_version = '.'.join(str(x) for x in base_version)
-        version_code = new_version.replace('.', '') + build_number.rjust(3, '0')
-        version_name = new_version + '-beta' + beta_version
+        version_name = semver.VersionInfo.parse(re.search(regexp_version_name, content).group(1))
 
-    content = re.sub(regexp_version_code, f'versionCode {version_code}', content)
-    content = re.sub(regexp_version_name, f'versionName "{version_name}"', content)
+        if not version_name.prerelease:
+            match args.version_type:
+                case 'major': version_name = version_name.bump_major()
+                case 'minor': version_name = version_name.bump_minor()
+                case 'patch': version_name = version_name.bump_patch()
 
-    file.seek(0)
-    file.write(content)
-    file.truncate()
+        if args.release_type == 'prod':
+            if version_name.prerelease:
+                version_name = version_name.bump_prerelease(token='beta')
+            version_code = build_version_code(version_name)
+            version_name = version_name.finalize_version()
+        else:
+            version_name = version_name.bump_prerelease(token='beta')
+            version_code = build_version_code(version_name)
 
-if args.print:
+    if not args.env:
+        print(f'Name: {version_name}')
+        print(f'Code: {version_code}')
+
+    if args.write:
+        content = re.sub(regexp_version_code, f'versionCode {version_code}', content)
+        content = re.sub(regexp_version_name, f'versionName "{version_name}"', content)
+        file.seek(0)
+        file.write(content)
+        file.truncate()
+
+
+if args.env:
     print(f'is_beta={is_beta}')
     print(f'filename=delta-v{version_name}')
     print(f'version=v{version_name}')

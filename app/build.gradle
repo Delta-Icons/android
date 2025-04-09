@@ -9,8 +9,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 199002
-		versionName "1.9.9"
+		versionCode 202005
+		versionName "2.2.0"
 		multiDexEnabled true
 
 		// Naming app bundles
@@ -72,7 +72,7 @@ dependencies {
      */
 
 	playImplementation 'com.github.zixpo:candybar:3.21.1'
-	fossImplementation 'com.github.donnnno:candybar-foss:3.21.1'
+	fossImplementation 'com.github.donnnno:candybar-foss:3.21.2'
 }
 
 // Code for automatically copying appfilter.xml and drawable.xml

@@ -13,182 +13,133 @@
 #   compinfos:
 #     - com.google.app/com.google.app.MainActivity
 
-wikipedia:
-  - org.wikipedia/org.wikipedia.DefaultIcon
+brasil_paralelo:
+  - com.brasilparalelo.athena/com.brasilparalelo.athena.MainActivity
 
-weather:
-  - com.akylas.weather/com.akylas.weather.MainActivity
-  - com.apalon.weatherlive.free/com.apalon.weatherlive.activity.ActivityMain
+clube_supernosso:
+  - br.com.supernosso.mauricio.ClubeSupernosso/br.com.supernosso.mauricio.ClubeSupernosso.MainActivity
 
-discover_mobile:
-  - com.discoverfinancial.mobile/dc3bc0d65.w0d9716dd.m1205d83d.x57accd1f
+daily_affirmations_mirror:
+  - com.nixgames.motivation.mirror/com.nixgames.motivation.mirror.ui.splash.SplashActivity
 
-nekogram:
-  - tw.nekomimi.nekogram/org.telegram.messenger.NoxIcon
+gazeta_do_povo:
+  - br.com.gazetadopovo.appwvgp/br.com.gazetadopovo.appwvgp.ui.activity.MainActivity
 
-amex_mobile:
-  - com.americanexpress.android.acctsvcs.in/com.americanexpress.android.intl.app.view.activity.SplashInitializationActivity
+liturgia_diaria:
+  - com.cancaonova.liturgia/com.cancaonova.liturgia.MainActivity
 
-bcp:
-  - com.bcp.bank.bcp/com.bcp.bank.startappbcp.splash.SplashActivity
+minha_claro_residencial:
+  - br.com.net.netapp/br.com.net.netapp.presentation.view.activity.SplashActivity
 
-bbc_weather:
-  - bbc.mobile.weather/bbc.mobile.weather.feature.app.ui.main.MainActivity
-  - bbc.mobile.weather/bbc.mobile.weather.feature.app.ui.MsiActivity
+mod_pizza:
+  - com.punchh.mod/com.koala.mobile.MainActivity
+
+odontoprev:
+  - br.com.beneficiario.odontoprev/br.com.beneficiario.odontoprev.MainActivity
+
+pizza_point:
+  - com.neemo.pizzapoint/com.neemo.pizzapoint.PizzaPointActivity
+
+portuguese_dictionary_offline:
+  - livio.pack.lang.pt_BR/livio.pack.lang.pt_BR.DictionaryView
+
+rentcafe_resident:
+  - com.yardi.systems.rentcafe.resident/com.yardi.systems.rentcafe.resident.views.LoginActivity
+
+revista_oeste:
+  - com.revistaoeste.app/com.revistaoeste.app.MainActivity
+
+the_holy_rosary:
+  - app.rosario.it/app.rosario.it.main
+
+tweet2pic:
+  - org.hackesta.tweet2pic/org.hackesta.tweet2pic.MainActivity
+
+unimed_bh:
+  - unimedbh.UnimedBH/unimedbh.UnimedBH.MainActivity
+
+voli:
+  - com.urbandroid.voli/com.urbandroid.voli.MainActivity
+
+youcat_daily:
+  - com.youcat.daily/com.youcat.daily.MainActivity
+
+redfin:
+  - com.redfin.android/com.redfin.android.core.activity.launch.DefaultLaunchActivity
+
+zillow:
+  - com.zillow.android.zillowmap/com.zillow.android.splashscreen.SplashScreenActivity
+
+abercrombie:
+  - com.abercrombie.abercrombie/com.abercrombie.abercrombie.ui.splash.SplashScreenActivity
+
+cnbc:
+  - com.cnbc.client/com.cnbc.client.activities.SplashActivity
+
+ecoflow:
+  - com.ecoflow/com.ecoflow.iot.ui.activity.SplashActivity
+
+eurospin:
+  - it.eurospin.mobileapp/it.eurospin.mobileapp.MainActivity
+
+npm_mobile:
+  - com.manan.npm_phone_app/com.manan.npm_phone_app.MainActivity
+
+rotation:
+  - com.pranavpandey.rotation/com.pranavpandey.rotation.activity.SplashActivity
+
+tripeaks_neue:
+  - io.github.mimoguz.tripeaksneue/io.github.mimoguz.tripeaksneue.MainActivity
+
+ente:
+  - io.ente.photos/io.ente.photos.IconGreen
+
+nowtv:
+  - com.nowtv.it/com.nowtv.startup.StartupActivity
+
+trail_sense:
+  - com.kylecorry.trail_sense.dev/com.kylecorry.trail_sense.main.MainActivity
+
+cake_monero:
+  - com.monero.app/com.cakewallet.cake_wallet.MainActivity
+
+ddns_updater:
+  - xyz.philei.ddnsupdater/xyz.philei.ddnsupdater.MainActivity
+
+flying_carpet:
+  - dev.spiegl.flyingcarpet/dev.spiegl.flyingcarpet.MainActivity
+
+jigsaw:
+  - io.gitlab.derjosef.jigsaw/com.godot.game.GodotApp
+
+pixel_launcher_enhanced:
+  - com.drdisagree.pixellauncherenhanced/com.drdisagree.pixellauncherenhanced.ui.activities.SplashActivity
+
+yacguide:
+  - com.yacgroup.yacguide/com.yacgroup.yacguide.LaunchActivity
+  - com.yacgroup.yacguide.dev/com.yacgroup.yacguide.LaunchActivity
+
+weverse:
+  - co.benx.weverse/co.benx.weverse.home.MainActivityAlias
   
-hsbc:
-  - my.com.hsbc.hsbcmalaysia/com.hsbc.mobilebanking.splash.SplashActivity
+dba:
+  - dk.dba.android/com.schibsted.nmp.NmpActivity
+  
+dr_nyheder:
+  - dk.dr.drnyheder/dk.dr.drnyheder.MainActivity
+  
+koerekort:
+  - dk.digst.mdl/dk.digst.mdl.Launcher
 
-file_manager:
-  - com.htetznaing.zfile/com.htetznaing.zfile.ui.MainActivity
-  - com.coloros.filemanager/com.oplus.filemanager.main.ui.SplashActivity
+min_laege:
+  - com.trifork.minlaege/com.trifork.minlaege.activities.BootStrapActivity
 
-pdf_reader:
-  - com.pdfeditor.pdfeditorandriod/com.pdfeditor.pdfeditorandriod.activity.MainActivity
+rejsekort:
+  - dk.rejsekort.digitalrejsekort/com.fairtiq.androidkit.signup.StartupActivity
 
-microsoft_outlook:
-  - com.microsoft.office.outlook/com.microsoft.office.outlook.ui.miit.MiitLauncherActivity
+rejsekort_alt_1: {}
 
-dominos:
-  - is.stokkur.dominos/app.stokkur.dominos.MainActivity
-
-swiggy:
-  - in.swiggy.android/in.swiggy.android.HomeIcon
-
-yetcalc:
-  - yetzio.yetcalc/yetzio.yetcalc.HomeActivity
-
-testy_hardware_check:
-  - com.robertlevonyan.testy/com.robertlevonyan.testy.base.MainActivity
-
-kinemaster:
-  - com.nexstreaming.app.kinemasterfree/com.kinemaster.app.screen.splash.SplashActivity
-
-pia_vpn:
-  - com.privateinternetaccess.android/com.kape.vpn.MainActivity
-
-megogo:
-  - com.megogo.application/net.megogo.app.main.MainActivity
-
-hello_bank:
-  - fr.bnpp.digitalbanking/fr.bnpp.digitalbanking.prehome.SplashScreenActivity
-
-safe__in__cloud:
-  - com.safeincloud/com.safeincloud.ui.EntryActivity
-
-pathao:
-  - com.pathao.user/com.pathao.user.ui.core.splash.SplashActivity
-
-printer:
-  - com.hp.printercontrol/com.hp.printercontrol.hpx.PrinterControlWrapperActivity
-
-my_idoom:
-  - com.at.dz/dz.algerietelecom.ec.MainActivity
-
-amigo:
-  - com.tomtom.speedcams.android.map/com.tomtom.amigo.MainActivity
-
-goodnotes:
-  - com.goodnotes.android.app/com.goodnotes.android.app.twa.GoodnotesLauncherActivity
-
-umang:
-  - in.gov.umang.negd.g2c/in.gov.umang.negd.g2c.kotlin.ui.splash.UmangLauncherActivity
-
-bank:
-  - com.clairmail.fth/com.fifththird.mobilebanking.digital.login.LoginActivity
-  - com.VCB/com.VCB.ui.activities.splash.SplashActivity
-  - az.unibank.mbanking/bank.activity.MigrationActivity
-
-arc_search:
-  - company.thebrowser.arc/company.thebrowser.arc.composable.ArcActivity.IconSeven
-
-nekogramx:
-  - nekox.messenger.broken/org.telegram.messenger.MomogramThemedXEyeIcon
-
-notebloc:
-  - com.notebloc.app/com.notebloc.app.activity.MigrateStorageActivity
-
-odyssey:
-  - org.gateshipone.odyssey/org.gateshipone.odyssey.activities.OdysseyMainActivity
-
-dictionary:
-  - com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish/com.mobisystems.base_dict_plugin.MainActivity
-
-kicker:
-  - com.netbiscuits.kicker/com.tickaroo.kicker.purabo.onboarding.KPurAboOnboardingActivity
-
-getapps:
-  - com.xiaomi.mipicks/com.xiaomi.mipicks.AppMallAlias
-
-bible:
-  - com.tecarta.TecartaBible/com.tecarta.TecartaBible.MainActivity
-
-walpy:
-  - com.feresr.walpy/com.feresr.walpy.ui.MainActivity
-
-be:
-  - xyz.be.customer/xyz.be.customer.SplashInitActivity
-
-wwe:
-  - com.wwe.universe/com.imggaming.dicemobile.MainActivity
-
-avg_antivirus:
-  - com.antivirus/com.avast.android.one.base.ui.main.MainActivity
-  - com.s.antivirus/com.avast.android.one.base.ui.main.MainActivity
-
-means_tv:
-  - tv.uscreen.meanstv/com.example.videoapp.MainActivity
-
-bhim:
-  - in.org.npci.upiapp/stuejoy.x
-
-dodo_pizza:
-  - ru.dodopizza.app/ru.dodopizza.app.presentation.main.MainActivity
-
-bbc_news:
-  - bbc.mobile.news.ww/com.mobile.MainActivity
-
-bradesco:
-  - com.bradesco/br.com.bradesco.integrador.splash.SplashIcon07
-
-mobile_pay:
-  - fi.danskebank.mobilepay/com.dnb.vipps.android.startup.ui.StartupActivity
-
-gacha_club:
-  - air.com.lunime.gachaclub/air.com.lunime.gachaclub.AIRAppEntry
-
-osn:
-  - com.osn.go/com.osn.go.MainActivity
-
-eset_mobile_security_antivirus:
-  - com.eset.ems2.gp/com.eset.ems.gui.AliasSafeLauncherActivity
-
-comdirect_phototan:
-  - com.comdirect.phototan/de.comdirect.phototan.feature.splash.impl.SplashActivity
-
-firefox_beta:
-  - org.mozilla.firefox_beta/org.mozilla.firefox_beta.AlternativeApp
-
-xumm:
-  - com.xrpllabs.xumm/com.xrpllabs.xumm.LaunchActivity
-
-gigalife:
-  - com.smart.consumer.app/com.smart.consumer.app.view.splash.OnboardingActivity
-
-coursera:
-  - org.coursera.android/org.coursera.android.splash.MainActivity
-
-poweramp_zap:
-  - com.maxmpz.audioplayer/com.maxmpz.audioplayer.rounded_inverted_mu
-
-uala:
-  - ar.com.bancar.uala/ar.com.bancar.uala.ui.splash.InitActivity
-
-caixa:
-  - br.com.gabba.Caixa/br.com.gabba.Caixa.presentation.SplashActivity
-
-quickmemo:
-  - com.fluidtouch.noteshelf2/com.fluidtouch.noteshelf.compose.FTBaseShelfComposeActivity
-
-comviq:
-  - se.comviq.android/se.comviq.app.presentation.main.ComviqMainActivity
+bupa:
+  - bupa.ProviderFinder/crc64bd4f42d567ec1d59.tffgeixshqsc
+  - bupa.ProviderFinder/crc64bd4f42d567ec1d59.vpqtlxhoojpq
+  
