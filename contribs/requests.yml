@@ -1,10 +1,10 @@
-# 1049 requested apps pending 
-# updated 2025-04-10 15:49:14
+# 1069 requested apps pending 
+# updated 2025-04-14 15:12:15
 
 com.msandroid.mobile/com.mobile.brasiltv.activity.SplashAty:
     name: MAGIS
-    reqt: 8
-    reql: 2025-03-04 12:40:40
+    reqt: 9
+    reql: 2025-04-09 01:54:54
     hash: 069bd4713e89e1d56371523a89cda4b5fe4f7440
     urls:
         - https://play.google.com/store/apps/details?id=com.msandroid.mobile
@@ -13,13 +13,23 @@ com.msandroid.mobile/com.mobile.brasiltv.activity.SplashAty:
 
 com.ProjectMoon.LimbusCompany/com.unity3d.player.UnityPlayerActivity:
     name: LimbusCompany
-    reqt: 6
-    reql: 2025-03-30 16:14:44
+    reqt: 8
+    reql: 2025-04-12 04:57:28
     hash: de210894623a899a1b9d533acaf8df9dd5f8b692
     urls:
         - https://play.google.com/store/apps/details?id=com.ProjectMoon.LimbusCompany
         - https://f-droid.org/en/packages/com.ProjectMoon.LimbusCompany/
         - https://google.com/search?q=com.ProjectMoon.LimbusCompany
+
+com.nu.production/br.com.nubank.app.valhalla.ValhallaBaseSplashActivity:
+    name: Nubank
+    reqt: 7
+    reql: 2025-04-12 23:00:20
+    hash: 8facecfb9c6b90897d862913329d6ec95bf51692
+    urls:
+        - https://play.google.com/store/apps/details?id=com.nu.production
+        - https://f-droid.org/en/packages/com.nu.production/
+        - https://google.com/search?q=com.nu.production
 
 org.howwefeel.moodmeter/org.howwefeel.moodmeter.screens.main.MainActivity:
     name: How We Feel
@@ -41,6 +51,16 @@ com.nintendo.zasa/com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityP
         - https://f-droid.org/en/packages/com.nintendo.zasa/
         - https://google.com/search?q=com.nintendo.zasa
 
+com.nintendo.znsa/com.nintendo.aquavast.MainActivity:
+    name: Nintendo Today!
+    reqt: 5
+    reql: 2025-04-04 06:56:20
+    hash: e6d3bdf5f010d9d81e4f1fb898f96e0c5033c5c8
+    urls:
+        - https://play.google.com/store/apps/details?id=com.nintendo.znsa
+        - https://f-droid.org/en/packages/com.nintendo.znsa/
+        - https://google.com/search?q=com.nintendo.znsa
+
 com.Sunborn.SnqxExilium.Glo/com.Sunborn.SnqxExilium.Glo.ExiliumMainActivity:
     name: EXILIUM
     reqt: 5
@@ -51,15 +71,55 @@ com.Sunborn.SnqxExilium.Glo/com.Sunborn.SnqxExilium.Glo.ExiliumMainActivity:
         - https://f-droid.org/en/packages/com.Sunborn.SnqxExilium.Glo/
         - https://google.com/search?q=com.Sunborn.SnqxExilium.Glo
 
-com.hdictionary.bn/com.hdictionary.bn.DictionaryActivity:
-    name: Bangla Dictionary
-    reqt: 5
-    reql: 2025-01-10 10:44:33
-    hash: f864b79ca476c9ccfb2eee0f5062992b6b58703d
+com.infoldgames.infinitynikkien/com.epicgames.unreal.GameActivity:
+    name: Infinity Nikki
+    reqt: 4
+    reql: 2025-04-13 19:26:48
+    hash: 8b883fc9135016a0d8fc3e562bebd27692d9d248
     urls:
-        - https://play.google.com/store/apps/details?id=com.hdictionary.bn
-        - https://f-droid.org/en/packages/com.hdictionary.bn/
-        - https://google.com/search?q=com.hdictionary.bn
+        - https://play.google.com/store/apps/details?id=com.infoldgames.infinitynikkien
+        - https://f-droid.org/en/packages/com.infoldgames.infinitynikkien/
+        - https://google.com/search?q=com.infoldgames.infinitynikkien
+
+com.capp.poplive/com.capp.poplive.MainActivity:
+    name: Airbuds
+    reqt: 4
+    reql: 2025-04-13 11:21:27
+    hash: 93a4e1d915a12e7bbc42f91fb8c344e109dd0b8a
+    urls:
+        - https://play.google.com/store/apps/details?id=com.capp.poplive
+        - https://f-droid.org/en/packages/com.capp.poplive/
+        - https://google.com/search?q=com.capp.poplive
+
+com.mobiin.gp/com.moba.unityplugin.MobaGameMainActivityWithExtractor:
+    name: 'Moba Legends: 5v5!'
+    reqt: 4
+    reql: 2025-04-07 18:28:42
+    hash: c9f895fe38369d989b1452b0d251c834cbf801c6
+    urls:
+        - https://play.google.com/store/apps/details?id=com.mobiin.gp
+        - https://f-droid.org/en/packages/com.mobiin.gp/
+        - https://google.com/search?q=com.mobiin.gp
+
+com.cloud3squared.meteogram.pro/com.cloud3squared.meteogram.MeteogramMain:
+    name: Meteogram Pro
+    reqt: 4
+    reql: 2025-04-05 15:24:46
+    hash: 4fbd4612df65ee3b51c46e6796f78199ebac2084
+    urls:
+        - https://play.google.com/store/apps/details?id=com.cloud3squared.meteogram.pro
+        - https://f-droid.org/en/packages/com.cloud3squared.meteogram.pro/
+        - https://google.com/search?q=com.cloud3squared.meteogram.pro
+
+com.mobilechess.gp/com.moba.unityplugin.MobaGameMainActivityWithExtractor:
+    name: 'Magic Chess: GO GO'
+    reqt: 4
+    reql: 2025-04-05 01:38:28
+    hash: 8a0a3897110f19108d4810a6c1389890d37775b3
+    urls:
+        - https://play.google.com/store/apps/details?id=com.mobilechess.gp
+        - https://f-droid.org/en/packages/com.mobilechess.gp/
+        - https://google.com/search?q=com.mobilechess.gp
 
 com.thegamekitchen.blasphemousmobile/com.unity3d.player.UnityPlayerActivity:
     name: Blasphemous
@@ -101,16 +161,6 @@ com.myairtelapp/com.myairtelapp.home.views.activities.SplashScreenActivityAlias:
         - https://f-droid.org/en/packages/com.myairtelapp/
         - https://google.com/search?q=com.myairtelapp
 
-com.nu.production/br.com.nubank.app.valhalla.ValhallaBaseSplashActivity:
-    name: Nubank
-    reqt: 4
-    reql: 2025-03-04 15:41:04
-    hash: 8facecfb9c6b90897d862913329d6ec95bf51692
-    urls:
-        - https://play.google.com/store/apps/details?id=com.nu.production
-        - https://f-droid.org/en/packages/com.nu.production/
-        - https://google.com/search?q=com.nu.production
-
 com.com.tann.dice/com.tann.dice.AndroidLauncher:
     name: Slice & Dice
     reqt: 4
@@ -121,15 +171,45 @@ com.com.tann.dice/com.tann.dice.AndroidLauncher:
         - https://f-droid.org/en/packages/com.com.tann.dice/
         - https://google.com/search?q=com.com.tann.dice
 
-com.nintendo.znsa/com.nintendo.aquavast.MainActivity:
-    name: Nintendo Today!
+com.videoplayer.arcplayer/com.teeter.videoplayer.SplashActivity:
+    name: Arc Player
     reqt: 3
-    reql: 2025-04-01 18:20:17
-    hash: e6d3bdf5f010d9d81e4f1fb898f96e0c5033c5c8
+    reql: 2025-04-12 06:22:56
+    hash: 20953b7d62a4128edf9efcc3e876b16c655b68b9
     urls:
-        - https://play.google.com/store/apps/details?id=com.nintendo.znsa
-        - https://f-droid.org/en/packages/com.nintendo.znsa/
-        - https://google.com/search?q=com.nintendo.znsa
+        - https://play.google.com/store/apps/details?id=com.videoplayer.arcplayer
+        - https://f-droid.org/en/packages/com.videoplayer.arcplayer/
+        - https://google.com/search?q=com.videoplayer.arcplayer
+
+io.github.lime3ds.android/org.citra.citra_emu.ui.main.MainActivity:
+    name: Azahar
+    reqt: 3
+    reql: 2025-04-11 17:09:18
+    hash: 6d67e7538f2db239770fe84765f6c1c3d17bf4cc
+    urls:
+        - https://play.google.com/store/apps/details?id=io.github.lime3ds.android
+        - https://f-droid.org/en/packages/io.github.lime3ds.android/
+        - https://google.com/search?q=io.github.lime3ds.android
+
+nl.marktplaats.android/com.horizon.android.feature.feeds.homepage.SpringboardActivity:
+    name: Marktplaats
+    reqt: 3
+    reql: 2025-04-08 11:36:45
+    hash: 539062b9ebd26f2d6e4292cfa7374595fe379a8a
+    urls:
+        - https://play.google.com/store/apps/details?id=nl.marktplaats.android
+        - https://f-droid.org/en/packages/nl.marktplaats.android/
+        - https://google.com/search?q=nl.marktplaats.android
+
+one.jwr.interstellar/one.jwr.interstellar.MainActivity:
+    name: Interstellar
+    reqt: 3
+    reql: 2025-04-03 10:43:54
+    hash: f9c4ffa0000949ac2521ee38988fdd5c75966d14
+    urls:
+        - https://play.google.com/store/apps/details?id=one.jwr.interstellar
+        - https://f-droid.org/en/packages/one.jwr.interstellar/
+        - https://google.com/search?q=one.jwr.interstellar
 
 com.ivianuu.oneplusgestures/com.ivianuu.vivid.app.MainActivity:
     name: Vivid N.G.
@@ -181,16 +261,6 @@ pi.browser/com.pinetwork.MainActivity:
         - https://f-droid.org/en/packages/pi.browser/
         - https://google.com/search?q=pi.browser
 
-com.mobilechess.gp/com.moba.unityplugin.MobaGameMainActivityWithExtractor:
-    name: 'Magic Chess: GO GO'
-    reqt: 3
-    reql: 2025-03-13 00:46:16
-    hash: 8a0a3897110f19108d4810a6c1389890d37775b3
-    urls:
-        - https://play.google.com/store/apps/details?id=com.mobilechess.gp
-        - https://f-droid.org/en/packages/com.mobilechess.gp/
-        - https://google.com/search?q=com.mobilechess.gp
-
 com.netflix.NGP.SonicMania/com.netflix.NGP.SonicMania.MainActivity:
     name: Sonic Mania Plus
     reqt: 3
@@ -221,16 +291,6 @@ org.familysearch.mobile/org.familysearch.mobile.tree.MainActivity:
         - https://f-droid.org/en/packages/org.familysearch.mobile/
         - https://google.com/search?q=org.familysearch.mobile
 
-com.cloud3squared.meteogram.pro/com.cloud3squared.meteogram.MeteogramMain:
-    name: Meteogram Pro
-    reqt: 3
-    reql: 2025-03-11 21:56:53
-    hash: 4fbd4612df65ee3b51c46e6796f78199ebac2084
-    urls:
-        - https://play.google.com/store/apps/details?id=com.cloud3squared.meteogram.pro
-        - https://f-droid.org/en/packages/com.cloud3squared.meteogram.pro/
-        - https://google.com/search?q=com.cloud3squared.meteogram.pro
-
 com.naviapp/com.naviapp.home.compose.activity.HomePageActivity:
     name: Navi
     reqt: 3
@@ -260,16 +320,6 @@ jp.co.jreast/jp.co.jreast.jreastapp.commuter.launchscreen.LaunchScreenActivity:
         - https://play.google.com/store/apps/details?id=jp.co.jreast
         - https://f-droid.org/en/packages/jp.co.jreast/
         - https://google.com/search?q=jp.co.jreast
-
-com.mobiin.gp/com.moba.unityplugin.MobaGameMainActivityWithExtractor:
-    name: 'Moba Legends: 5v5!'
-    reqt: 3
-    reql: 2025-02-13 07:09:39
-    hash: c9f895fe38369d989b1452b0d251c834cbf801c6
-    urls:
-        - https://play.google.com/store/apps/details?id=com.mobiin.gp
-        - https://f-droid.org/en/packages/com.mobiin.gp/
-        - https://google.com/search?q=com.mobiin.gp
 
 com.JindoBlu.FourPlayers/com.unity3d.player.UnityPlayerActivity:
     name: 1 2 3 4 Player Games
@@ -311,16 +361,6 @@ com.transsnet.store/com.afmobi.palmplay.StartActivity:
         - https://f-droid.org/en/packages/com.transsnet.store/
         - https://google.com/search?q=com.transsnet.store
 
-com.infoldgames.infinitynikkien/com.epicgames.unreal.GameActivity:
-    name: Infinity Nikki
-    reqt: 3
-    reql: 2025-02-05 03:27:46
-    hash: 8b883fc9135016a0d8fc3e562bebd27692d9d248
-    urls:
-        - https://play.google.com/store/apps/details?id=com.infoldgames.infinitynikkien
-        - https://f-droid.org/en/packages/com.infoldgames.infinitynikkien/
-        - https://google.com/search?q=com.infoldgames.infinitynikkien
-
 com.kotak.neo/com.ksec.neomobile.MainActivity:
     name: Kotak Neo
     reqt: 3
@@ -361,55 +401,275 @@ com.seasun.snowbreak.google/com.xgsdk.client.api.splash.XGSplashActivity:
         - https://f-droid.org/en/packages/com.seasun.snowbreak.google/
         - https://google.com/search?q=com.seasun.snowbreak.google
 
-jp.co.johospace.jorte/jp.co.johospace.jorte.MainActivity:
-    name: ジョルテ
-    reqt: 3
-    reql: 2025-01-10 21:58:07
-    hash: 32e734dd8212c267509de45a5e7afd0537b981d1
-    urls:
-        - https://play.google.com/store/apps/details?id=jp.co.johospace.jorte
-        - https://f-droid.org/en/packages/jp.co.johospace.jorte/
-        - https://google.com/search?q=jp.co.johospace.jorte
-
-com.mm.android.DMSS/com.mm.android.base.devicemain.SplashActivity:
-    name: DMSS
-    reqt: 3
-    reql: 2025-01-06 23:10:16
-    hash: 932d5511764e3ddc507e7e72a2a09764efdadeec
-    urls:
-        - https://play.google.com/store/apps/details?id=com.mm.android.DMSS
-        - https://f-droid.org/en/packages/com.mm.android.DMSS/
-        - https://google.com/search?q=com.mm.android.DMSS
-
-com.moondroplab.moondrop.moondrop_app/com.moondroplab.moondrop.moondrop_app.MainActivity:
-    name: MOONDROP
-    reqt: 3
-    reql: 2025-01-05 07:22:54
-    hash: 5a2113adea528be6498ba0ea5109380a8d09eade
-    urls:
-        - https://play.google.com/store/apps/details?id=com.moondroplab.moondrop.moondrop_app
-        - https://f-droid.org/en/packages/com.moondroplab.moondrop.moondrop_app/
-        - https://google.com/search?q=com.moondroplab.moondrop.moondrop_app
-
-com.dream11.fantasy.cricket.football.kabaddi/com.app.dream11.dream11.ReactHomeActivity:
-    name: Dream11
-    reqt: 3
-    reql: 2025-01-01 17:24:08
-    hash: 15f5e631fe2a32228e289295685bf609aee94e10
-    urls:
-        - https://play.google.com/store/apps/details?id=com.dream11.fantasy.cricket.football.kabaddi
-        - https://f-droid.org/en/packages/com.dream11.fantasy.cricket.football.kabaddi/
-        - https://google.com/search?q=com.dream11.fantasy.cricket.football.kabaddi
-
-nl.marktplaats.android/com.horizon.android.feature.feeds.homepage.SpringboardActivity:
-    name: Marktplaats
+org.altruist.BajajExperia/com.bfl.superapp.onboarding.revamp.activity.SplashActivity:
+    name: Bajaj Finserv
     reqt: 2
-    reql: 2025-03-30 13:32:04
-    hash: 539062b9ebd26f2d6e4292cfa7374595fe379a8a
+    reql: 2025-04-14 14:39:15
+    hash: 44306c55d5588af6c378fde70a6a7f97794a6f15
     urls:
-        - https://play.google.com/store/apps/details?id=nl.marktplaats.android
-        - https://f-droid.org/en/packages/nl.marktplaats.android/
-        - https://google.com/search?q=nl.marktplaats.android
+        - https://play.google.com/store/apps/details?id=org.altruist.BajajExperia
+        - https://f-droid.org/en/packages/org.altruist.BajajExperia/
+        - https://google.com/search?q=org.altruist.BajajExperia
+
+com.hcoinnovation.tcqquran/com.hcoinnovation.tcqquran.MainActivity:
+    name: The Clear Quran
+    reqt: 2
+    reql: 2025-04-14 13:34:14
+    hash: d4cc8cf8fcc98fbe2d7c1a609c8158ccdc136102
+    urls:
+        - https://play.google.com/store/apps/details?id=com.hcoinnovation.tcqquran
+        - https://f-droid.org/en/packages/com.hcoinnovation.tcqquran/
+        - https://google.com/search?q=com.hcoinnovation.tcqquran
+
+ir.ninjacoder.ghostide/ir.ninjacoder.ghostide.MainActivity:
+    name: روح وب
+    reqt: 2
+    reql: 2025-04-13 18:24:05
+    hash: ebecd29af37e0fd8a7325d05fa00e052136f8bbe
+    urls:
+        - https://play.google.com/store/apps/details?id=ir.ninjacoder.ghostide
+        - https://f-droid.org/en/packages/ir.ninjacoder.ghostide/
+        - https://google.com/search?q=ir.ninjacoder.ghostide
+
+com.sweak.qralarm/com.sweak.qralarm.app.MainActivity:
+    name: QRAlarm
+    reqt: 2
+    reql: 2025-04-13 17:31:43
+    hash: 0afbfafea47e7c0f9cd709330c38fa511fca41a6
+    urls:
+        - https://play.google.com/store/apps/details?id=com.sweak.qralarm
+        - https://f-droid.org/en/packages/com.sweak.qralarm/
+        - https://google.com/search?q=com.sweak.qralarm
+
+bipa.app.bipa/bipa.app.bipa.MainActivity:
+    name: Bipa
+    reqt: 2
+    reql: 2025-04-12 10:12:12
+    hash: 01130a92e4179843f9289038abb921f97541e85d
+    urls:
+        - https://play.google.com/store/apps/details?id=bipa.app.bipa
+        - https://f-droid.org/en/packages/bipa.app.bipa/
+        - https://google.com/search?q=bipa.app.bipa
+
+com.elishaazaria.sayboard/com.elishaazaria.sayboard.SettingsActivity:
+    name: Sayboard
+    reqt: 2
+    reql: 2025-04-12 02:48:14
+    hash: a6f2ff4cd2996f0e13c37dc23296b13be2d39698
+    urls:
+        - https://play.google.com/store/apps/details?id=com.elishaazaria.sayboard
+        - https://f-droid.org/en/packages/com.elishaazaria.sayboard/
+        - https://google.com/search?q=com.elishaazaria.sayboard
+
+com.discsoft.rewasd/com.discsoft.rewasd.ui.launcher.LauncherActivity:
+    name: reWASD
+    reqt: 2
+    reql: 2025-04-11 18:37:09
+    hash: 72d272eafe917e999d082b01e0fb3739c447abaa
+    urls:
+        - https://play.google.com/store/apps/details?id=com.discsoft.rewasd
+        - https://f-droid.org/en/packages/com.discsoft.rewasd/
+        - https://google.com/search?q=com.discsoft.rewasd
+
+com.thousandshores.tribit/com.thousandshores.tribit.modulelogin.activity.FirstActivity:
+    name: Tribit
+    reqt: 2
+    reql: 2025-04-11 07:16:54
+    hash: 3cc9d185f5b2b638f75731464c6dc233b109cb2c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.thousandshores.tribit
+        - https://f-droid.org/en/packages/com.thousandshores.tribit/
+        - https://google.com/search?q=com.thousandshores.tribit
+
+com.wizards.winter_orb/com.wizards.winter_orb.features.loading.LoadingActivity:
+    name: Companion
+    reqt: 2
+    reql: 2025-04-11 03:20:06
+    hash: 18dc02c90241f778454eda347dbb01c2f15cfe49
+    urls:
+        - https://play.google.com/store/apps/details?id=com.wizards.winter_orb
+        - https://f-droid.org/en/packages/com.wizards.winter_orb/
+        - https://google.com/search?q=com.wizards.winter_orb
+
+au.gov.nsw.onegov.fuelcheckapp/au.gov.nsw.onegov.fuelmpp.android.ui.MainActivity:
+    name: NSW FuelCheck
+    reqt: 2
+    reql: 2025-04-10 21:41:42
+    hash: 88fc376799d496a684c3effeb0bbe30a1a47f22d
+    urls:
+        - https://play.google.com/store/apps/details?id=au.gov.nsw.onegov.fuelcheckapp
+        - https://f-droid.org/en/packages/au.gov.nsw.onegov.fuelcheckapp/
+        - https://google.com/search?q=au.gov.nsw.onegov.fuelcheckapp
+
+com.fwc2014.vrt.and/com.fwc2014.vrt.and.activity.MainActivity:
+    name: sporza.
+    reqt: 2
+    reql: 2025-04-10 20:01:38
+    hash: 2c8c0c521623737eeb1a3c8f0e8546200303d97f
+    urls:
+        - https://play.google.com/store/apps/details?id=com.fwc2014.vrt.and
+        - https://f-droid.org/en/packages/com.fwc2014.vrt.and/
+        - https://google.com/search?q=com.fwc2014.vrt.and
+
+au.com.optus.selfservice/au.com.optus.express.moa.onboarding.SplashActivity:
+    name: My Optus
+    reqt: 2
+    reql: 2025-04-09 20:04:59
+    hash: 7268f1f37584c9f4cf7f5a46c8af6abd91d979be
+    urls:
+        - https://play.google.com/store/apps/details?id=au.com.optus.selfservice
+        - https://f-droid.org/en/packages/au.com.optus.selfservice/
+        - https://google.com/search?q=au.com.optus.selfservice
+
+com.talabat/com.talabat.FlutterLandingScreen:
+    name: talabat
+    reqt: 2
+    reql: 2025-04-09 16:06:18
+    hash: 57467368e737d313c3d17fcec41757b77415c36f
+    urls:
+        - https://play.google.com/store/apps/details?id=com.talabat
+        - https://f-droid.org/en/packages/com.talabat/
+        - https://google.com/search?q=com.talabat
+
+com.vblast.flipaclip/com.vblast.feature_startup.presentation.StartupActivity:
+    name: FlipaClip
+    reqt: 2
+    reql: 2025-04-09 14:42:28
+    hash: f800d0d4c625637af2d0f750e7db1fdc3a58fb51
+    urls:
+        - https://play.google.com/store/apps/details?id=com.vblast.flipaclip
+        - https://f-droid.org/en/packages/com.vblast.flipaclip/
+        - https://google.com/search?q=com.vblast.flipaclip
+
+com.external.castle/com.gxgx.daqiandy.ui.splash.SplashActivity:
+    name: Castle
+    reqt: 2
+    reql: 2025-04-09 12:43:58
+    hash: 069f8b05ff8b8ec1b3e929033b2ddd0caf370c70
+    urls:
+        - https://play.google.com/store/apps/details?id=com.external.castle
+        - https://f-droid.org/en/packages/com.external.castle/
+        - https://google.com/search?q=com.external.castle
+
+io.a24go.android.dev/com.yourtrainer.android.splash.SplashActivity:
+    name: 24GO
+    reqt: 2
+    reql: 2025-04-09 07:38:17
+    hash: 4d99637bfba835fdb6b3259629e2fa09e403c140
+    urls:
+        - https://play.google.com/store/apps/details?id=io.a24go.android.dev
+        - https://f-droid.org/en/packages/io.a24go.android.dev/
+        - https://google.com/search?q=io.a24go.android.dev
+
+com.ctm/com.ctm.splash.page.SplashActivity:
+    name: CTM Buddy
+    reqt: 2
+    reql: 2025-04-09 02:21:57
+    hash: d9c484f49ad4848ffb4311bda091e921618dc941
+    urls:
+        - https://play.google.com/store/apps/details?id=com.ctm
+        - https://f-droid.org/en/packages/com.ctm/
+        - https://google.com/search?q=com.ctm
+
+dk.danskebank.mobilepay/com.dnb.vipps.android.startup.ui.StartupActivity:
+    name: MobilePay
+    reqt: 2
+    reql: 2025-04-07 23:24:07
+    hash: 0172ae1e242ff8f3aa7b31be1bdf2c8207afdc2c
+    urls:
+        - https://play.google.com/store/apps/details?id=dk.danskebank.mobilepay
+        - https://f-droid.org/en/packages/dk.danskebank.mobilepay/
+        - https://google.com/search?q=dk.danskebank.mobilepay
+
+com.sovworks.edslite/com.sovworks.eds.android.filemanager.activities.FileManagerActivity:
+    name: EDS Lite
+    reqt: 2
+    reql: 2025-04-07 20:25:46
+    hash: 60ccb2beb59559a169b6f3ccb54ed35c19038eac
+    urls:
+        - https://play.google.com/store/apps/details?id=com.sovworks.edslite
+        - https://f-droid.org/en/packages/com.sovworks.edslite/
+        - https://google.com/search?q=com.sovworks.edslite
+
+com.beutea.app/com.beutea.app.MainActivity:
+    name: Beutea
+    reqt: 2
+    reql: 2025-04-07 18:14:11
+    hash: b1dae2d1f9460ab14dd9a1eb62b8cc902efc9e79
+    urls:
+        - https://play.google.com/store/apps/details?id=com.beutea.app
+        - https://f-droid.org/en/packages/com.beutea.app/
+        - https://google.com/search?q=com.beutea.app
+
+com.aniplex.magia.exedra.en/com.google.firebase.MessagingUnityPlayerActivity:
+    name: Madoka Exedra
+    reqt: 2
+    reql: 2025-04-07 13:18:16
+    hash: 6381afe04795cc038c8099c09610f939eef6688f
+    urls:
+        - https://play.google.com/store/apps/details?id=com.aniplex.magia.exedra.en
+        - https://f-droid.org/en/packages/com.aniplex.magia.exedra.en/
+        - https://google.com/search?q=com.aniplex.magia.exedra.en
+
+zbiletem.zbiletem/zbiletem.zbiletem.LauncherActivity:
+    name: zbiletem
+    reqt: 2
+    reql: 2025-04-06 21:55:15
+    hash: ebea24896de1ef2662147b8c44ca476f20272adf
+    urls:
+        - https://play.google.com/store/apps/details?id=zbiletem.zbiletem
+        - https://f-droid.org/en/packages/zbiletem.zbiletem/
+        - https://google.com/search?q=zbiletem.zbiletem
+
+com.bbt.transcend/com.bbt.transcend.MainActivity:
+    name: Transcend
+    reqt: 2
+    reql: 2025-04-06 01:54:07
+    hash: 83453c49645ec75ff62ce84704768294c09f9f26
+    urls:
+        - https://play.google.com/store/apps/details?id=com.bbt.transcend
+        - https://f-droid.org/en/packages/com.bbt.transcend/
+        - https://google.com/search?q=com.bbt.transcend
+
+com.ikea.inter.homesmart.system2/com.ikea.system2.start.StartActivity:
+    name: Home smart
+    reqt: 2
+    reql: 2025-04-05 16:29:20
+    hash: ba40081b57f49de1309db1e4b53a1d59ff1ab550
+    urls:
+        - https://play.google.com/store/apps/details?id=com.ikea.inter.homesmart.system2
+        - https://f-droid.org/en/packages/com.ikea.inter.homesmart.system2/
+        - https://google.com/search?q=com.ikea.inter.homesmart.system2
+
+io.github.printn.humanbenchmark/io.github.printn.humanbenchmark.MainActivity:
+    name: Human Benchmark
+    reqt: 2
+    reql: 2025-04-03 10:31:39
+    hash: db82fad8511a21e60e46992d1928b43477c58d6a
+    urls:
+        - https://play.google.com/store/apps/details?id=io.github.printn.humanbenchmark
+        - https://f-droid.org/en/packages/io.github.printn.humanbenchmark/
+        - https://google.com/search?q=io.github.printn.humanbenchmark
+
+com.transsion.phoenix/com.proj.sun.activity.LaunchActivity:
+    name: Phoenix
+    reqt: 2
+    reql: 2025-04-03 04:05:56
+    hash: dd6263beb0dde7027e65a13442b6c018c549f42d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.transsion.phoenix
+        - https://f-droid.org/en/packages/com.transsion.phoenix/
+        - https://google.com/search?q=com.transsion.phoenix
+
+com.samsung.android.sm_cn/com.samsung.android.sm.ui.ShortcutIconLauncher:
+    name: Smart Manager
+    reqt: 2
+    reql: 2025-04-02 09:02:53
+    hash: 3fb9c15bb6437d628596cbc04ea107394cfced1c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.samsung.android.sm_cn
+        - https://f-droid.org/en/packages/com.samsung.android.sm_cn/
+        - https://google.com/search?q=com.samsung.android.sm_cn
 
 com.headup.epic.smbf/com.nukklear.smbfmobile.MainActivity:
     name: Super Meat Boy Forever Mobile
@@ -731,16 +991,6 @@ com.klook/com.klooklib.MainActivity:
         - https://f-droid.org/en/packages/com.klook/
         - https://google.com/search?q=com.klook
 
-com.capp.poplive/com.capp.poplive.MainActivity:
-    name: Airbuds
-    reqt: 2
-    reql: 2025-02-16 04:18:44
-    hash: 93a4e1d915a12e7bbc42f91fb8c344e109dd0b8a
-    urls:
-        - https://play.google.com/store/apps/details?id=com.capp.poplive
-        - https://f-droid.org/en/packages/com.capp.poplive/
-        - https://google.com/search?q=com.capp.poplive
-
 andes.oplus.documentsreader/andes.oplus.documentsreader.launcher.activity.MainActivity:
     name: Documents
     reqt: 2
@@ -800,16 +1050,6 @@ dev.vendicated.vencord/dev.vendicated.vencord.MainActivity:
         - https://play.google.com/store/apps/details?id=dev.vendicated.vencord
         - https://f-droid.org/en/packages/dev.vendicated.vencord/
         - https://google.com/search?q=dev.vendicated.vencord
-
-com.videoplayer.arcplayer/com.teeter.videoplayer.SplashActivity:
-    name: Arc Player
-    reqt: 2
-    reql: 2025-02-09 06:10:21
-    hash: 20953b7d62a4128edf9efcc3e876b16c655b68b9
-    urls:
-        - https://play.google.com/store/apps/details?id=com.videoplayer.arcplayer
-        - https://f-droid.org/en/packages/com.videoplayer.arcplayer/
-        - https://google.com/search?q=com.videoplayer.arcplayer
 
 com.pineconesoft.petrolspy/com.pineconesoft.petrolspy.MainActivity:
     name: PetrolSpy
@@ -981,185 +1221,1995 @@ com.mm.android.direct.g_CMOB_XU/com.mm.android.base.devicemain.SplashActivity:
         - https://f-droid.org/en/packages/com.mm.android.direct.g_CMOB_XU/
         - https://google.com/search?q=com.mm.android.direct.g_CMOB_XU
 
-com.runbuddy.prod/com.runbuddyapp.MainActivity:
-    name: Runna
-    reqt: 2
-    reql: 2025-01-12 23:49:10
-    hash: d66ce98af2f2c8245da3cf89216a3567158393d1
-    urls:
-        - https://play.google.com/store/apps/details?id=com.runbuddy.prod
-        - https://f-droid.org/en/packages/com.runbuddy.prod/
-        - https://google.com/search?q=com.runbuddy.prod
-
-hk.com.hsbc.paymefromhsbc/com.cherrypicks.hsbcpayme.view.splashnewactivity.SplashNewActivity:
-    name: PayMe
-    reqt: 2
-    reql: 2025-01-12 17:13:02
-    hash: b5f1b1e9fe01f33447901213856ee8f7275dd08f
-    urls:
-        - https://play.google.com/store/apps/details?id=hk.com.hsbc.paymefromhsbc
-        - https://f-droid.org/en/packages/hk.com.hsbc.paymefromhsbc/
-        - https://google.com/search?q=hk.com.hsbc.paymefromhsbc
-
-com.alarmtek.android/com.securesmart.activities.SplashActivity:
-    name: AlarmTek Connect+
-    reqt: 2
-    reql: 2025-01-12 02:22:30
-    hash: 326383b5a82d2ff981083584d446a11e2bb90a6b
-    urls:
-        - https://play.google.com/store/apps/details?id=com.alarmtek.android
-        - https://f-droid.org/en/packages/com.alarmtek.android/
-        - https://google.com/search?q=com.alarmtek.android
-
-se.maginteractive.wordzee/com.google.firebase.MessagingUnityPlayerActivity:
-    name: Wordzee
-    reqt: 2
-    reql: 2025-01-10 21:33:58
-    hash: c0bc53576278617a2adaf543330c4ef4ca55315d
-    urls:
-        - https://play.google.com/store/apps/details?id=se.maginteractive.wordzee
-        - https://f-droid.org/en/packages/se.maginteractive.wordzee/
-        - https://google.com/search?q=se.maginteractive.wordzee
-
-mattecarra.accapp/mattecarra.accapp.activities.MainActivity:
-    name: AccA
-    reqt: 2
-    reql: 2025-01-10 19:36:23
-    hash: ff128e00e34159fe6f6cff7449e09ffbc17dc4f2
-    urls:
-        - https://play.google.com/store/apps/details?id=mattecarra.accapp
-        - https://f-droid.org/en/packages/mattecarra.accapp/
-        - https://google.com/search?q=mattecarra.accapp
-
-com.jsvmsoft.stickynotes/com.jsvmsoft.stickynotes.presentation.launcher.LauncherActivity:
-    name: Floating Notes
-    reqt: 2
-    reql: 2025-01-10 06:33:24
-    hash: b42250e777a9ee6a020b7422ee8423736d996aec
-    urls:
-        - https://play.google.com/store/apps/details?id=com.jsvmsoft.stickynotes
-        - https://f-droid.org/en/packages/com.jsvmsoft.stickynotes/
-        - https://google.com/search?q=com.jsvmsoft.stickynotes
-
-br.com.sicoobnet/br.com.sicoobnet.novo.layout.NovoInicioActivity:
-    name: Sicoob
-    reqt: 2
-    reql: 2025-01-08 12:39:09
-    hash: 10b4c6258fa4244e9283df388df264de0d691d4c
-    urls:
-        - https://play.google.com/store/apps/details?id=br.com.sicoobnet
-        - https://f-droid.org/en/packages/br.com.sicoobnet/
-        - https://google.com/search?q=br.com.sicoobnet
-
-com.urbanclap.urbanclap/com.urbanclap.urbanclap.core.app_icon.NormalUser:
-    name: Urban Company
-    reqt: 2
-    reql: 2025-01-05 12:07:06
-    hash: a9f861c591fd38c46344190e701a0f6c46c310ad
-    urls:
-        - https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap
-        - https://f-droid.org/en/packages/com.urbanclap.urbanclap/
-        - https://google.com/search?q=com.urbanclap.urbanclap
-
-com.Caseys.finder/com.caseys.commerce.activity.MainActivity:
-    name: Casey's
-    reqt: 2
-    reql: 2025-01-05 07:36:14
-    hash: dc8454c37cfa74c590cd8eed476263b7baf6b546
-    urls:
-        - https://play.google.com/store/apps/details?id=com.Caseys.finder
-        - https://f-droid.org/en/packages/com.Caseys.finder/
-        - https://google.com/search?q=com.Caseys.finder
-
-com.xd.rotaeno.googleplay/com.unity3d.player.UnityPlayerActivity:
-    name: Rotaeno
-    reqt: 2
-    reql: 2025-01-05 00:14:35
-    hash: 0a571cb0576d89cfc92f4fbd7ac2bfb4d6e6b19e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.xd.rotaeno.googleplay
-        - https://f-droid.org/en/packages/com.xd.rotaeno.googleplay/
-        - https://google.com/search?q=com.xd.rotaeno.googleplay
-
-com.dreamgames.royalmatch/com.dreamgames.library.DreamUnityPlayerActivity:
-    name: Royal Match
-    reqt: 2
-    reql: 2025-01-04 05:29:24
-    hash: e36bf5da77ca2e7462e18e6685d6008a61fdbc43
-    urls:
-        - https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch
-        - https://f-droid.org/en/packages/com.dreamgames.royalmatch/
-        - https://google.com/search?q=com.dreamgames.royalmatch
-
-com.gympass/com.gympass.SplashActivity:
-    name: Gympass
-    reqt: 2
-    reql: 2025-01-03 02:12:49
-    hash: 6553b757b01d256be12a68c9b821c7d9003e468e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.gympass
-        - https://f-droid.org/en/packages/com.gympass/
-        - https://google.com/search?q=com.gympass
-
-social.mixi/social.mixi.MainActivity:
-    name: mixi2
-    reqt: 2
-    reql: 2025-01-03 02:11:22
-    hash: 4d4c40b9dc4d7722d3d610aa0ca6d3d76422bf0d
-    urls:
-        - https://play.google.com/store/apps/details?id=social.mixi
-        - https://f-droid.org/en/packages/social.mixi/
-        - https://google.com/search?q=social.mixi
-
-fast.dic.dict/fast.dic.dict.activities.SplashActivity:
-    name: Fastdic
-    reqt: 2
-    reql: 2025-01-02 13:26:47
-    hash: 9740261ec9d54a5819d288f79b9596b72edc1c1f
-    urls:
-        - https://play.google.com/store/apps/details?id=fast.dic.dict
-        - https://f-droid.org/en/packages/fast.dic.dict/
-        - https://google.com/search?q=fast.dic.dict
-
-com.kabacon.octoremote/com.kabacon.octoremote.view.activity.MainActivity:
-    name: OctoRemote
-    reqt: 2
-    reql: 2025-01-02 08:56:08
-    hash: 5db8522db513d77e2f64c9c531cda3a0097d6748
-    urls:
-        - https://play.google.com/store/apps/details?id=com.kabacon.octoremote
-        - https://f-droid.org/en/packages/com.kabacon.octoremote/
-        - https://google.com/search?q=com.kabacon.octoremote
-
-com.questrade.questmobile/com.questrade.questmobile.MainActivity:
-    name: QuestMobile
-    reqt: 2
-    reql: 2025-01-01 22:58:21
-    hash: 5f3bc377adbd94ff02a0093716d70594fd6ca56f
-    urls:
-        - https://play.google.com/store/apps/details?id=com.questrade.questmobile
-        - https://f-droid.org/en/packages/com.questrade.questmobile/
-        - https://google.com/search?q=com.questrade.questmobile
-
-com.lscsmartconnection.smart/com.smart.ThingSplashActivity:
-    name: LSC Smart Connect
-    reqt: 2
-    reql: 2025-01-01 20:13:14
-    hash: 91db0f72bb861be882f8c835c8d6246c3eeddcc7
-    urls:
-        - https://play.google.com/store/apps/details?id=com.lscsmartconnection.smart
-        - https://f-droid.org/en/packages/com.lscsmartconnection.smart/
-        - https://google.com/search?q=com.lscsmartconnection.smart
-
-ir.ninjacoder.ghostide/ir.ninjacoder.ghostide.MainActivity:
-    name: روح وب
+com.collectorz.javamobile.android.movies/com.collectorz.android.activity.Main:
+    name: CLZ Movies
     reqt: 1
-    reql: 2025-04-01 17:55:46
-    hash: ebecd29af37e0fd8a7325d05fa00e052136f8bbe
+    reql: 2025-04-14 14:46:16
+    hash: 9b07e292bd6e4056d97750a2aaf35e1bcc90cf06
     urls:
-        - https://play.google.com/store/apps/details?id=ir.ninjacoder.ghostide
-        - https://f-droid.org/en/packages/ir.ninjacoder.ghostide/
-        - https://google.com/search?q=ir.ninjacoder.ghostide
+        - https://play.google.com/store/apps/details?id=com.collectorz.javamobile.android.movies
+        - https://f-droid.org/en/packages/com.collectorz.javamobile.android.movies/
+        - https://google.com/search?q=com.collectorz.javamobile.android.movies
+
+com.playrix.township/com.playrix.township.Launcher:
+    name: Township
+    reqt: 1
+    reql: 2025-04-14 14:38:16
+    hash: 6aa5face4277d27b2b43d0c4db486b89b2fc39f8
+    urls:
+        - https://play.google.com/store/apps/details?id=com.playrix.township
+        - https://f-droid.org/en/packages/com.playrix.township/
+        - https://google.com/search?q=com.playrix.township
+
+com.byagowi.persiancalendar/com.byagowi.persiancalendar.ui.MainActivity:
+    name: Persian Calendar
+    reqt: 1
+    reql: 2025-04-14 13:08:17
+    hash: a5f1ea2355396ef63962f0a5a469a647ba5e5617
+    urls:
+        - https://play.google.com/store/apps/details?id=com.byagowi.persiancalendar
+        - https://f-droid.org/en/packages/com.byagowi.persiancalendar/
+        - https://google.com/search?q=com.byagowi.persiancalendar
+
+com.crags27.crags27/com.crags27.crags27.start.ActivityStart:
+    name: 27 Crags
+    reqt: 1
+    reql: 2025-04-14 12:51:55
+    hash: e8252678f4ec871bbbd201de3408cb374162291d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.crags27.crags27
+        - https://f-droid.org/en/packages/com.crags27.crags27/
+        - https://google.com/search?q=com.crags27.crags27
+
+tp.fps90/tp.fps90.MainActivity:
+    name: 90 FPS
+    reqt: 1
+    reql: 2025-04-14 07:21:15
+    hash: c1fc8d72a009950c92a6a23a0c5805aa5cee191f
+    urls:
+        - https://play.google.com/store/apps/details?id=tp.fps90
+        - https://f-droid.org/en/packages/tp.fps90/
+        - https://google.com/search?q=tp.fps90
+
+com.gps.survey.cam/com.gps.survey.cam.ui.activity.MainActivity:
+    name: Conota Камера
+    reqt: 1
+    reql: 2025-04-14 07:01:02
+    hash: dddb082db550f91b238bd5a9d5ab7fd533d1383b
+    urls:
+        - https://play.google.com/store/apps/details?id=com.gps.survey.cam
+        - https://f-droid.org/en/packages/com.gps.survey.cam/
+        - https://google.com/search?q=com.gps.survey.cam
+
+com.nttdocomo.android.mymagazine/com.nttdocomo.android.mymagazine.ui.SplashActivity:
+    name: SmartNews for docomo
+    reqt: 1
+    reql: 2025-04-14 06:40:35
+    hash: 08947dc43ca5ee909f874ee1de55b04782e8b499
+    urls:
+        - https://play.google.com/store/apps/details?id=com.nttdocomo.android.mymagazine
+        - https://f-droid.org/en/packages/com.nttdocomo.android.mymagazine/
+        - https://google.com/search?q=com.nttdocomo.android.mymagazine
+
+com.maniscat2.sm64coopdx/com.maniscat2.sm64coopdx.sm64excoopActivity:
+    name: Super Mario 64 Coop Deluxe
+    reqt: 1
+    reql: 2025-04-14 06:03:37
+    hash: 7cc78fe32a9a78a965e688c65d58be6bb3b69dce
+    urls:
+        - https://play.google.com/store/apps/details?id=com.maniscat2.sm64coopdx
+        - https://f-droid.org/en/packages/com.maniscat2.sm64coopdx/
+        - https://google.com/search?q=com.maniscat2.sm64coopdx
+
+com.supercell.moco/com.supercell.moco.GameApp:
+    name: mo.co
+    reqt: 1
+    reql: 2025-04-13 22:09:09
+    hash: 6bbccc48ad9d25c2c358090679ef36b9939a8b27
+    urls:
+        - https://play.google.com/store/apps/details?id=com.supercell.moco
+        - https://f-droid.org/en/packages/com.supercell.moco/
+        - https://google.com/search?q=com.supercell.moco
+
+com.game360.superenalotto_info/com.game360.superenalotto_info.MainActivity:
+    name: SuperEnalotto Verifica Vincite
+    reqt: 1
+    reql: 2025-04-13 21:54:38
+    hash: a2b5cd331b9e6628d1dc47c8ca15a6f3b7aca004
+    urls:
+        - https://play.google.com/store/apps/details?id=com.game360.superenalotto_info
+        - https://f-droid.org/en/packages/com.game360.superenalotto_info/
+        - https://google.com/search?q=com.game360.superenalotto_info
+
+com.orux.oruxmapsDonate/com.orux.oruxmaps.actividades.ActivityMap2:
+    name: OruxMaps GP
+    reqt: 1
+    reql: 2025-04-13 21:44:03
+    hash: 0242c8a7e60a10115c3da91d10116bc8149323c2
+    urls:
+        - https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate
+        - https://f-droid.org/en/packages/com.orux.oruxmapsDonate/
+        - https://google.com/search?q=com.orux.oruxmapsDonate
+
+com.dolarapp/com.dolarapp.router.presentation.RouterActivity:
+    name: DolarApp
+    reqt: 1
+    reql: 2025-04-13 21:32:15
+    hash: 06dcb6b7c076bce89fa1938685bd00d5af79bd80
+    urls:
+        - https://play.google.com/store/apps/details?id=com.dolarapp
+        - https://f-droid.org/en/packages/com.dolarapp/
+        - https://google.com/search?q=com.dolarapp
+
+com.glohow.global.blackbeacon/com.hive.HiveUnityPlayerActivity:
+    name: Black Beacon
+    reqt: 1
+    reql: 2025-04-13 19:21:00
+    hash: 9b81704fab49c9c2a6bb8a9c931a6384d6cc0b82
+    urls:
+        - https://play.google.com/store/apps/details?id=com.glohow.global.blackbeacon
+        - https://f-droid.org/en/packages/com.glohow.global.blackbeacon/
+        - https://google.com/search?q=com.glohow.global.blackbeacon
+
+com.affinityblue.tunable/cc.openframeworks.tunable.SplashActivity:
+    name: Tunable
+    reqt: 1
+    reql: 2025-04-13 18:11:01
+    hash: 5b06e0d5db850804fa8c435d33254f1295a97f2b
+    urls:
+        - https://play.google.com/store/apps/details?id=com.affinityblue.tunable
+        - https://f-droid.org/en/packages/com.affinityblue.tunable/
+        - https://google.com/search?q=com.affinityblue.tunable
+
+com.medhaapps.wififtpserver/com.medhaapps.wififtpserver.activity.MainActivity:
+    name: WiFi FTP Server
+    reqt: 1
+    reql: 2025-04-13 18:09:49
+    hash: 08b8a0c365642d8594bf899cb27068c1370016a1
+    urls:
+        - https://play.google.com/store/apps/details?id=com.medhaapps.wififtpserver
+        - https://f-droid.org/en/packages/com.medhaapps.wififtpserver/
+        - https://google.com/search?q=com.medhaapps.wififtpserver
+
+nl.topicus.somtoday.leerling/nl.topicus.somtoday.leerling.MainActivity:
+    name: Somtoday
+    reqt: 1
+    reql: 2025-04-13 17:23:12
+    hash: 814fd9ded6979efe4a78b0025fcd74839aee3773
+    urls:
+        - https://play.google.com/store/apps/details?id=nl.topicus.somtoday.leerling
+        - https://f-droid.org/en/packages/nl.topicus.somtoday.leerling/
+        - https://google.com/search?q=nl.topicus.somtoday.leerling
+
+com.lotus.smartime2/com.wear.lib_core.mvp.view.activity.SplashActivity:
+    name: Lotus Smartime
+    reqt: 1
+    reql: 2025-04-13 15:17:22
+    hash: ac7f1bd4dbe72c16629547509f261de0d64a104c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.lotus.smartime2
+        - https://f-droid.org/en/packages/com.lotus.smartime2/
+        - https://google.com/search?q=com.lotus.smartime2
+
+com.veracash.app/com.veracash.app.features.splashScreen.view.SplashScreenActivity:
+    name: Veracash
+    reqt: 1
+    reql: 2025-04-13 14:29:25
+    hash: 14591be4a839b352c83bebce800c44bc899d45f1
+    urls:
+        - https://play.google.com/store/apps/details?id=com.veracash.app
+        - https://f-droid.org/en/packages/com.veracash.app/
+        - https://google.com/search?q=com.veracash.app
+
+com.gymbros.app/com.gymbros.app.MainActivity:
+    name: Liftoff
+    reqt: 1
+    reql: 2025-04-13 14:15:09
+    hash: d35f9dad501774a843f7fbc996771ced6bdd62af
+    urls:
+        - https://play.google.com/store/apps/details?id=com.gymbros.app
+        - https://f-droid.org/en/packages/com.gymbros.app/
+        - https://google.com/search?q=com.gymbros.app
+
+gg.stand.golda/gg.stand.golda.MainActivity:
+    name: GGSTAND
+    reqt: 1
+    reql: 2025-04-13 14:05:24
+    hash: 16a67134bd9dddbb3b717708406fa3f268038019
+    urls:
+        - https://play.google.com/store/apps/details?id=gg.stand.golda
+        - https://f-droid.org/en/packages/gg.stand.golda/
+        - https://google.com/search?q=gg.stand.golda
+
+com.kurogame.gplay.punishing.grayraven.en/com.kuro.hgsdk.SplashActivity:
+    name: PGR
+    reqt: 1
+    reql: 2025-04-13 11:52:01
+    hash: 3ed96786c65ad5f98bb6923b1f6a6cccbaacff23
+    urls:
+        - https://play.google.com/store/apps/details?id=com.kurogame.gplay.punishing.grayraven.en
+        - https://f-droid.org/en/packages/com.kurogame.gplay.punishing.grayraven.en/
+        - https://google.com/search?q=com.kurogame.gplay.punishing.grayraven.en
+
+com.q2e.peoplesbanktrust3255.mobile.production/com.q2.app.core.ui.LauncherActivity:
+    name: PBT Mobile
+    reqt: 1
+    reql: 2025-04-13 09:18:12
+    hash: f176ac070e8aa1c6549455e9c88b12b14e8941cf
+    urls:
+        - https://play.google.com/store/apps/details?id=com.q2e.peoplesbanktrust3255.mobile.production
+        - https://f-droid.org/en/packages/com.q2e.peoplesbanktrust3255.mobile.production/
+        - https://google.com/search?q=com.q2e.peoplesbanktrust3255.mobile.production
+
+com.taiwanmobile.opscambuster/com.taiwanmobile.opscambuster.activity.LaunchActivity:
+    name: 反詐戰警
+    reqt: 1
+    reql: 2025-04-13 03:51:49
+    hash: 1286141d5e5656ae1ad293faffe368e33c466e3c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.taiwanmobile.opscambuster
+        - https://f-droid.org/en/packages/com.taiwanmobile.opscambuster/
+        - https://google.com/search?q=com.taiwanmobile.opscambuster
+
+io.ente.photos.fdroid/io.ente.photos.fdroid.IconOG:
+    name: Ente Photos
+    reqt: 1
+    reql: 2025-04-13 03:15:48
+    hash: 939d626e376daba48c147e15ec22e3ab6bcfe4f8
+    urls:
+        - https://play.google.com/store/apps/details?id=io.ente.photos.fdroid
+        - https://f-droid.org/en/packages/io.ente.photos.fdroid/
+        - https://google.com/search?q=io.ente.photos.fdroid
+
+cl.android/net.technisys.android.core.gui.ui.SplashScreen:
+    name: Banco Falabella
+    reqt: 1
+    reql: 2025-04-12 21:04:44
+    hash: 1147941bf65224ca802fac71a76c250fd81d0f60
+    urls:
+        - https://play.google.com/store/apps/details?id=cl.android
+        - https://f-droid.org/en/packages/cl.android/
+        - https://google.com/search?q=cl.android
+
+com.oplus.ota/com.oplus.otaui.activity.EntryActivity:
+    name: Software update
+    reqt: 1
+    reql: 2025-04-12 20:47:25
+    hash: 4b86078463b51b7998f762e2360fb7ec03dbfe9f
+    urls:
+        - https://play.google.com/store/apps/details?id=com.oplus.ota
+        - https://f-droid.org/en/packages/com.oplus.ota/
+        - https://google.com/search?q=com.oplus.ota
+
+com.lrhsoft.shiftercalendar/com.lrhsoft.shiftercalendar.MainActivity:
+    name: Work Shift Calendar
+    reqt: 1
+    reql: 2025-04-12 16:03:11
+    hash: d615e15932f97096d85f455bcf41cc8f0bc2b9a3
+    urls:
+        - https://play.google.com/store/apps/details?id=com.lrhsoft.shiftercalendar
+        - https://f-droid.org/en/packages/com.lrhsoft.shiftercalendar/
+        - https://google.com/search?q=com.lrhsoft.shiftercalendar
+
+com.dcisoftware.dcimobileevv/com.dcisoftware.dcimobileevv.MainActivity:
+    name: DCI EVV
+    reqt: 1
+    reql: 2025-04-12 15:39:42
+    hash: 12ee7bf760a20f2ead3fe30d285af3932102e213
+    urls:
+        - https://play.google.com/store/apps/details?id=com.dcisoftware.dcimobileevv
+        - https://f-droid.org/en/packages/com.dcisoftware.dcimobileevv/
+        - https://google.com/search?q=com.dcisoftware.dcimobileevv
+
+com.popclub.android/com.popclub.android.home.ui.SpSwitchHomeActivity:
+    name: POP
+    reqt: 1
+    reql: 2025-04-12 12:49:49
+    hash: 7771326d12a2704fc307e4875333cf984cb758f6
+    urls:
+        - https://play.google.com/store/apps/details?id=com.popclub.android
+        - https://f-droid.org/en/packages/com.popclub.android/
+        - https://google.com/search?q=com.popclub.android
+
+com.netbiscuits.bild.android/de.bild.android.app.MainActivity:
+    name: BILD
+    reqt: 1
+    reql: 2025-04-12 11:56:16
+    hash: f71863bfd61a4e70fb1929c35fd22477d4badc76
+    urls:
+        - https://play.google.com/store/apps/details?id=com.netbiscuits.bild.android
+        - https://f-droid.org/en/packages/com.netbiscuits.bild.android/
+        - https://google.com/search?q=com.netbiscuits.bild.android
+
+com.MillionDreams.OnceUponAGalaxy/com.dynamo.android.DefoldActivity:
+    name: Galaxy!
+    reqt: 1
+    reql: 2025-04-12 10:50:23
+    hash: 881a2cab8fc5f280c5aeff0c91d71f7d2c2e061e
+    urls:
+        - https://play.google.com/store/apps/details?id=com.MillionDreams.OnceUponAGalaxy
+        - https://f-droid.org/en/packages/com.MillionDreams.OnceUponAGalaxy/
+        - https://google.com/search?q=com.MillionDreams.OnceUponAGalaxy
+
+app.supershift/app.supershift.TabbarActivity:
+    name: Supershift
+    reqt: 1
+    reql: 2025-04-12 10:40:08
+    hash: 85c4ae677c0f5d0d08cf3625ea0de2bbae979258
+    urls:
+        - https://play.google.com/store/apps/details?id=app.supershift
+        - https://f-droid.org/en/packages/app.supershift/
+        - https://google.com/search?q=app.supershift
+
+com.ultimateguitar.tabs/com.ultimateguitar.ugpro.UGMainActivity:
+    name: Tabs
+    reqt: 1
+    reql: 2025-04-12 09:11:50
+    hash: e21baf37c82c07d72a3bd0f03a84230711b7453c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.ultimateguitar.tabs
+        - https://f-droid.org/en/packages/com.ultimateguitar.tabs/
+        - https://google.com/search?q=com.ultimateguitar.tabs
+
+pagibigfund.virtualpagibigapp/crc646235c34bdb7f8a89.MainActivity:
+    name: Virtual Pag-IBIG
+    reqt: 1
+    reql: 2025-04-12 08:11:09
+    hash: 5893efc486a37f788623afc016bbfc56a94d0b04
+    urls:
+        - https://play.google.com/store/apps/details?id=pagibigfund.virtualpagibigapp
+        - https://f-droid.org/en/packages/pagibigfund.virtualpagibigapp/
+        - https://google.com/search?q=pagibigfund.virtualpagibigapp
+
+com.gdjztech.ringconn/com.gdjztech.ringconn.MainActivity:
+    name: RingConn
+    reqt: 1
+    reql: 2025-04-12 07:14:06
+    hash: 65cb7ead12719571dd1dba39ba94e59afb808c0c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.gdjztech.ringconn
+        - https://f-droid.org/en/packages/com.gdjztech.ringconn/
+        - https://google.com/search?q=com.gdjztech.ringconn
+
+pl.aliorbank.aib/pl.alior.aib.legacy.main.splash.SplashActivity:
+    name: Alior Mobile
+    reqt: 1
+    reql: 2025-04-12 05:38:46
+    hash: 10499199e714eb0b1e75c8f2c231461c9a886e25
+    urls:
+        - https://play.google.com/store/apps/details?id=pl.aliorbank.aib
+        - https://f-droid.org/en/packages/pl.aliorbank.aib/
+        - https://google.com/search?q=pl.aliorbank.aib
+
+com.sketchware.remod/com.besome.sketch.MainActivity:
+    name: Sketchware Pro
+    reqt: 1
+    reql: 2025-04-12 05:33:07
+    hash: e6f2441851a920ea12d284f4071c84a1f371ad3d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.sketchware.remod
+        - https://f-droid.org/en/packages/com.sketchware.remod/
+        - https://google.com/search?q=com.sketchware.remod
+
+com.dsucontroller/com.dsucontroller.MainActivity:
+    name: DSUController
+    reqt: 1
+    reql: 2025-04-12 04:25:16
+    hash: 5033f76f3331d1cb79119ac9abb75658d0957ecf
+    urls:
+        - https://play.google.com/store/apps/details?id=com.dsucontroller
+        - https://f-droid.org/en/packages/com.dsucontroller/
+        - https://google.com/search?q=com.dsucontroller
+
+com.luckykat.beatstreet/com.luckykat.beatstreet.MainActivity:
+    name: Beat Street
+    reqt: 1
+    reql: 2025-04-12 04:09:36
+    hash: 963f127902da7dffd2c5473243622612a06567f2
+    urls:
+        - https://play.google.com/store/apps/details?id=com.luckykat.beatstreet
+        - https://f-droid.org/en/packages/com.luckykat.beatstreet/
+        - https://google.com/search?q=com.luckykat.beatstreet
+
+com.servicetitan.mobile/com.servicetitan.mobile.MainActivity:
+    name: ServiceTitan Mobile
+    reqt: 1
+    reql: 2025-04-12 04:01:45
+    hash: c9a5c629ff00c554ff3cb1e537d0896da1a11ba9
+    urls:
+        - https://play.google.com/store/apps/details?id=com.servicetitan.mobile
+        - https://f-droid.org/en/packages/com.servicetitan.mobile/
+        - https://google.com/search?q=com.servicetitan.mobile
+
+com.netflix.NGP.KatanaZero/com.netflix.NGP.KatanaZero.RunnerActivity:
+    name: Katana ZERO
+    reqt: 1
+    reql: 2025-04-12 03:57:26
+    hash: b40cb5c03cccee689e4afe3a85be825f44aa70b7
+    urls:
+        - https://play.google.com/store/apps/details?id=com.netflix.NGP.KatanaZero
+        - https://f-droid.org/en/packages/com.netflix.NGP.KatanaZero/
+        - https://google.com/search?q=com.netflix.NGP.KatanaZero
+
+com.kebhana.hanapush/com.opera.app.main.AppMain:
+    name: 하나은행
+    reqt: 1
+    reql: 2025-04-12 00:00:31
+    hash: a4f3dbc1eb1d64835f617c94345b7539bb691879
+    urls:
+        - https://play.google.com/store/apps/details?id=com.kebhana.hanapush
+        - https://f-droid.org/en/packages/com.kebhana.hanapush/
+        - https://google.com/search?q=com.kebhana.hanapush
+
+chipolo.net.v3/net.chipolo.app.ui.main.MainActivity:
+    name: Chipolo
+    reqt: 1
+    reql: 2025-04-11 21:46:49
+    hash: acd4a571a3463bf998f945acf6c1229c593ddcca
+    urls:
+        - https://play.google.com/store/apps/details?id=chipolo.net.v3
+        - https://f-droid.org/en/packages/chipolo.net.v3/
+        - https://google.com/search?q=chipolo.net.v3
+
+com.walmart.mg/com.walmart.glass.integration.splash.SplashActivity:
+    name: Walmart México
+    reqt: 1
+    reql: 2025-04-11 19:35:28
+    hash: be5dffc6145f5d785687a78d878607e30fd1d542
+    urls:
+        - https://play.google.com/store/apps/details?id=com.walmart.mg
+        - https://f-droid.org/en/packages/com.walmart.mg/
+        - https://google.com/search?q=com.walmart.mg
+
+org.pbskids.video/org.pbskids.video.ui.root.MainActivity:
+    name: PBS KIDS Video
+    reqt: 1
+    reql: 2025-04-11 19:06:43
+    hash: 1dd5979a477e41ffbdac7cf083e559e5ca512614
+    urls:
+        - https://play.google.com/store/apps/details?id=org.pbskids.video
+        - https://f-droid.org/en/packages/org.pbskids.video/
+        - https://google.com/search?q=org.pbskids.video
+
+superdrug.com.beautycard/superdrug.com.beautycard.main.MainActivity:
+    name: Superdrug
+    reqt: 1
+    reql: 2025-04-11 18:53:52
+    hash: b34db92a6ba7e255902e7c9a6e5c141eb4ed2230
+    urls:
+        - https://play.google.com/store/apps/details?id=superdrug.com.beautycard
+        - https://f-droid.org/en/packages/superdrug.com.beautycard/
+        - https://google.com/search?q=superdrug.com.beautycard
+
+kg.cdt.townsman/com.example.moi_gorod.MainActivity:
+    name: Мой город
+    reqt: 1
+    reql: 2025-04-11 15:45:50
+    hash: fdfb31488bf607a4bdc81cb13885c51141710027
+    urls:
+        - https://play.google.com/store/apps/details?id=kg.cdt.townsman
+        - https://f-droid.org/en/packages/kg.cdt.townsman/
+        - https://google.com/search?q=kg.cdt.townsman
+
+co.com.trendier/trendier.login.LoginActivity:
+    name: GoTrendier
+    reqt: 1
+    reql: 2025-04-11 14:27:14
+    hash: d246baf26a42354136b386f383cd60dccbbc817e
+    urls:
+        - https://play.google.com/store/apps/details?id=co.com.trendier
+        - https://f-droid.org/en/packages/co.com.trendier/
+        - https://google.com/search?q=co.com.trendier
+
+com.pujiagames.RuinsStory/com.pujiadev.app.SplashActivity:
+    name: RuinsStory
+    reqt: 1
+    reql: 2025-04-11 14:24:57
+    hash: 2ad3ab3e20170005e59bea654748376bb920a8db
+    urls:
+        - https://play.google.com/store/apps/details?id=com.pujiagames.RuinsStory
+        - https://f-droid.org/en/packages/com.pujiagames.RuinsStory/
+        - https://google.com/search?q=com.pujiagames.RuinsStory
+
+com.ahs.mobile/com.ahs.mobile.MainActivity:
+    name: American Home Shield (AHS)
+    reqt: 1
+    reql: 2025-04-11 13:05:24
+    hash: 313d1d68ff8b42e59be700081c0f78a81f8c3179
+    urls:
+        - https://play.google.com/store/apps/details?id=com.ahs.mobile
+        - https://f-droid.org/en/packages/com.ahs.mobile/
+        - https://google.com/search?q=com.ahs.mobile
+
+pdf.shash.com.pdfutility/pdf.shash.com.pdfutils.MainScreen:
+    name: PDF Utilitaires
+    reqt: 1
+    reql: 2025-04-11 12:22:17
+    hash: b0e131db0bc8ad9c7604d102957308b54c28005b
+    urls:
+        - https://play.google.com/store/apps/details?id=pdf.shash.com.pdfutility
+        - https://f-droid.org/en/packages/pdf.shash.com.pdfutility/
+        - https://google.com/search?q=pdf.shash.com.pdfutility
+
+com.joeykrim.rootcheckp/com.joeykrim.rootcheckp.MainActivity:
+    name: Root Checker Pro
+    reqt: 1
+    reql: 2025-04-11 12:03:11
+    hash: f9ed2e1e922d0539defdd7a2b770007d398ab225
+    urls:
+        - https://play.google.com/store/apps/details?id=com.joeykrim.rootcheckp
+        - https://f-droid.org/en/packages/com.joeykrim.rootcheckp/
+        - https://google.com/search?q=com.joeykrim.rootcheckp
+
+com.shriram.one/com.shriram.one.MainActivity:
+    name: Shriram One
+    reqt: 1
+    reql: 2025-04-11 12:02:45
+    hash: 6329649e61248b7ed45a349ff203eaf6b81629d1
+    urls:
+        - https://play.google.com/store/apps/details?id=com.shriram.one
+        - https://f-droid.org/en/packages/com.shriram.one/
+        - https://google.com/search?q=com.shriram.one
+
+com.project529.garagev2.app/com.project529.garagev2.MainActivity:
+    name: 529 Garage
+    reqt: 1
+    reql: 2025-04-11 12:02:38
+    hash: 972de67462855207c02f22026e613b146c4b3848
+    urls:
+        - https://play.google.com/store/apps/details?id=com.project529.garagev2.app
+        - https://f-droid.org/en/packages/com.project529.garagev2.app/
+        - https://google.com/search?q=com.project529.garagev2.app
+
+com.opera.browser/com.opera.Launcher4:
+    name: Opera
+    reqt: 1
+    reql: 2025-04-11 11:57:34
+    hash: 06866173934279625d7ef2c06b4428f611d8618e
+    urls:
+        - https://play.google.com/store/apps/details?id=com.opera.browser
+        - https://f-droid.org/en/packages/com.opera.browser/
+        - https://google.com/search?q=com.opera.browser
+
+com.rapidfiregames.backpackbrawl/com.unity3d.player.UnityPlayerActivity:
+    name: Backpack Brawl
+    reqt: 1
+    reql: 2025-04-11 11:40:32
+    hash: 29e3882a131fc750ee66c5150d13e0c1142fbe6d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.rapidfiregames.backpackbrawl
+        - https://f-droid.org/en/packages/com.rapidfiregames.backpackbrawl/
+        - https://google.com/search?q=com.rapidfiregames.backpackbrawl
+
+com.codepotro.borno.keyboard/com.codepotro.borno.keyboard.setup.SetupUI:
+    name: Borno
+    reqt: 1
+    reql: 2025-04-11 09:46:59
+    hash: 82069095674e3059d2143a17ef34f31888ed0451
+    urls:
+        - https://play.google.com/store/apps/details?id=com.codepotro.borno.keyboard
+        - https://f-droid.org/en/packages/com.codepotro.borno.keyboard/
+        - https://google.com/search?q=com.codepotro.borno.keyboard
+
+mobi.zona/mobi.zona.ui.MainActivity:
+    name: Zona
+    reqt: 1
+    reql: 2025-04-11 05:32:24
+    hash: 6d004033e48587102c24f83575f03903deb0a5e1
+    urls:
+        - https://play.google.com/store/apps/details?id=mobi.zona
+        - https://f-droid.org/en/packages/mobi.zona/
+        - https://google.com/search?q=mobi.zona
+
+de.telekom.android.customercenter/com.telekom.oneapp.launcher.components.launcher.LauncherActivity:
+    name: MeinMagenta
+    reqt: 1
+    reql: 2025-04-11 05:10:01
+    hash: c37a2b132b255c0b51ac4de4f0acebcdef8ee7e4
+    urls:
+        - https://play.google.com/store/apps/details?id=de.telekom.android.customercenter
+        - https://f-droid.org/en/packages/de.telekom.android.customercenter/
+        - https://google.com/search?q=de.telekom.android.customercenter
+
+hearsilent.busplus/hearsilent.busplus.activity.SplashActivity:
+    name: Bus+
+    reqt: 1
+    reql: 2025-04-11 03:46:47
+    hash: 8aa1c83c4914d49b3720451ddcfe5ea71c8fe617
+    urls:
+        - https://play.google.com/store/apps/details?id=hearsilent.busplus
+        - https://f-droid.org/en/packages/hearsilent.busplus/
+        - https://google.com/search?q=hearsilent.busplus
+
+com.tof.myquranina/org.cocos2dx.cpp.AppActivity:
+    name: MyQuran
+    reqt: 1
+    reql: 2025-04-11 03:21:59
+    hash: f626d207c0e288863cd59acd306713bdd13cb64d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.tof.myquranina
+        - https://f-droid.org/en/packages/com.tof.myquranina/
+        - https://google.com/search?q=com.tof.myquranina
+
+com.ravenfeld.panoramax.baba/com.ravenfeld.panoramax.baba.MainActivity:
+    name: Baba
+    reqt: 1
+    reql: 2025-04-11 03:07:41
+    hash: 81750fa61c12754596dc790ee6276e1654f3aca7
+    urls:
+        - https://play.google.com/store/apps/details?id=com.ravenfeld.panoramax.baba
+        - https://f-droid.org/en/packages/com.ravenfeld.panoramax.baba/
+        - https://google.com/search?q=com.ravenfeld.panoramax.baba
+
+com.coloros.translate/com.coloros.translate.ui.MainActivity:
+    name: Translate
+    reqt: 1
+    reql: 2025-04-11 02:47:48
+    hash: 002ad376e25e9d2be02518fd26be9aaffd8b973b
+    urls:
+        - https://play.google.com/store/apps/details?id=com.coloros.translate
+        - https://f-droid.org/en/packages/com.coloros.translate/
+        - https://google.com/search?q=com.coloros.translate
+
+com.mercury.bank/com.mercury.app.MainActivity:
+    name: Mercury
+    reqt: 1
+    reql: 2025-04-11 00:13:18
+    hash: ed243604a4e423b333362ac44031c05e368008cd
+    urls:
+        - https://play.google.com/store/apps/details?id=com.mercury.bank
+        - https://f-droid.org/en/packages/com.mercury.bank/
+        - https://google.com/search?q=com.mercury.bank
+
+com.teb/com.teb.feature.noncustomer.screens.splash.SplashActivity:
+    name: CEPTETEB
+    reqt: 1
+    reql: 2025-04-10 21:12:22
+    hash: f82e39b2fe587b9c2d27afdb70f2be11598691e9
+    urls:
+        - https://play.google.com/store/apps/details?id=com.teb
+        - https://f-droid.org/en/packages/com.teb/
+        - https://google.com/search?q=com.teb
+
+com.playdigious.loophero/com.playdigious.loophero.RunnerActivity:
+    name: Loop Hero
+    reqt: 1
+    reql: 2025-04-10 19:23:01
+    hash: 6364633b34f684800a524d981a8e845bfa6cfd00
+    urls:
+        - https://play.google.com/store/apps/details?id=com.playdigious.loophero
+        - https://f-droid.org/en/packages/com.playdigious.loophero/
+        - https://google.com/search?q=com.playdigious.loophero
+
+com.plugit.klataus/com.plugit.kesko_webview_wrapper.MainActivity:
+    name: K-Lataus
+    reqt: 1
+    reql: 2025-04-10 18:41:53
+    hash: a4f07704f6fa80924bbd6a3eccb57284d8ff8717
+    urls:
+        - https://play.google.com/store/apps/details?id=com.plugit.klataus
+        - https://f-droid.org/en/packages/com.plugit.klataus/
+        - https://google.com/search?q=com.plugit.klataus
+
+net.relisten.android/net.relisten.android.MainActivity:
+    name: Relisten
+    reqt: 1
+    reql: 2025-04-10 17:25:50
+    hash: 72c1986017b0defe942fc26438bf93be4a1006ca
+    urls:
+        - https://play.google.com/store/apps/details?id=net.relisten.android
+        - https://f-droid.org/en/packages/net.relisten.android/
+        - https://google.com/search?q=net.relisten.android
+
+app.bulletjournal.bullet_flutter/app.bulletjournal.bullet_flutter.MainActivity:
+    name: Bullet
+    reqt: 1
+    reql: 2025-04-10 14:49:54
+    hash: e1c218767cf50d868642626a0fda8d38dea43a1b
+    urls:
+        - https://play.google.com/store/apps/details?id=app.bulletjournal.bullet_flutter
+        - https://f-droid.org/en/packages/app.bulletjournal.bullet_flutter/
+        - https://google.com/search?q=app.bulletjournal.bullet_flutter
+
+com.feralinteractive.alienisolation_android/com.feralinteractive.alienisolation_android.MainActivity:
+    name: Isolation
+    reqt: 1
+    reql: 2025-04-10 14:31:45
+    hash: 52bf6bff7ca5349fc993b11e212df4963a8d0061
+    urls:
+        - https://play.google.com/store/apps/details?id=com.feralinteractive.alienisolation_android
+        - https://f-droid.org/en/packages/com.feralinteractive.alienisolation_android/
+        - https://google.com/search?q=com.feralinteractive.alienisolation_android
+
+com.crtm.recarga/com.crtm.recarga.ui.MainActivity:
+    name: Tarjeta Transporte
+    reqt: 1
+    reql: 2025-04-10 13:19:09
+    hash: af862be2538e79450d69927cdb8a88a75295407f
+    urls:
+        - https://play.google.com/store/apps/details?id=com.crtm.recarga
+        - https://f-droid.org/en/packages/com.crtm.recarga/
+        - https://google.com/search?q=com.crtm.recarga
+
+com.wildspike.wormszone/com.wildspike.wormszone.GameActivity:
+    name: Worms Zone
+    reqt: 1
+    reql: 2025-04-10 11:51:16
+    hash: 2b5c95e652a10e01358e05cba1444454fbd1bc51
+    urls:
+        - https://play.google.com/store/apps/details?id=com.wildspike.wormszone
+        - https://f-droid.org/en/packages/com.wildspike.wormszone/
+        - https://google.com/search?q=com.wildspike.wormszone
+
+com.BDG.FD/com.BDG.FD.RunnerActivity:
+    name: Final Dash
+    reqt: 1
+    reql: 2025-04-10 11:45:05
+    hash: 561ea2fb1927444d17d594cd75e0f4dda4fbfa08
+    urls:
+        - https://play.google.com/store/apps/details?id=com.BDG.FD
+        - https://f-droid.org/en/packages/com.BDG.FD/
+        - https://google.com/search?q=com.BDG.FD
+
+com.thisisaim.abcradio/au.net.abc.listen.app.ui.MainActivity:
+    name: ABC listen
+    reqt: 1
+    reql: 2025-04-10 09:38:33
+    hash: eec96ce169113bfb761f4b248a5e7d28179a0135
+    urls:
+        - https://play.google.com/store/apps/details?id=com.thisisaim.abcradio
+        - https://f-droid.org/en/packages/com.thisisaim.abcradio/
+        - https://google.com/search?q=com.thisisaim.abcradio
+
+net.timelegend.chaka.viewer.app/net.timelegend.chaka.viewer.app.LibraryActivity:
+    name: Chaka
+    reqt: 1
+    reql: 2025-04-10 05:41:27
+    hash: aaff2e2875e305b87a717d1c927f2e56d409c72a
+    urls:
+        - https://play.google.com/store/apps/details?id=net.timelegend.chaka.viewer.app
+        - https://f-droid.org/en/packages/net.timelegend.chaka.viewer.app/
+        - https://google.com/search?q=net.timelegend.chaka.viewer.app
+
+com.comed.mobile/com.exelon.mobile.ui.unauthenticated.UnauthenticatedActivity:
+    name: ComEd
+    reqt: 1
+    reql: 2025-04-10 05:22:26
+    hash: f399c39eb50082c96d9fec76863f69c32da846a2
+    urls:
+        - https://play.google.com/store/apps/details?id=com.comed.mobile
+        - https://f-droid.org/en/packages/com.comed.mobile/
+        - https://google.com/search?q=com.comed.mobile
+
+wb.mobile.cx.client.droid/crc6408058fb2d479fc33.MainActivity:
+    name: Whataburger
+    reqt: 1
+    reql: 2025-04-10 03:59:54
+    hash: 8fe63f58f3bb4350208a24613cf5cc9bb820b533
+    urls:
+        - https://play.google.com/store/apps/details?id=wb.mobile.cx.client.droid
+        - https://f-droid.org/en/packages/wb.mobile.cx.client.droid/
+        - https://google.com/search?q=wb.mobile.cx.client.droid
+
+co.uk.getmondo/co.uk.getmondo.splash.SplashActivity_Upgrade_Hot_Coral:
+    name: Monzo
+    reqt: 1
+    reql: 2025-04-09 22:29:11
+    hash: dae97d0b39d1bedfb529b8451516c4d034a0e3cf
+    urls:
+        - https://play.google.com/store/apps/details?id=co.uk.getmondo
+        - https://f-droid.org/en/packages/co.uk.getmondo/
+        - https://google.com/search?q=co.uk.getmondo
+
+com.batsharing.android/co.urbi.app.UrbiMainComposeActivity:
+    name: urbi
+    reqt: 1
+    reql: 2025-04-09 20:41:17
+    hash: 811571928ad9ac7cc6bd1146136b912cf98ca424
+    urls:
+        - https://play.google.com/store/apps/details?id=com.batsharing.android
+        - https://f-droid.org/en/packages/com.batsharing.android/
+        - https://google.com/search?q=com.batsharing.android
+
+kr.co.devstory.vocat/kr.co.devstory.vocat.MainActivity:
+    name: VoCat
+    reqt: 1
+    reql: 2025-04-09 20:11:52
+    hash: 03da0ddaa1d0194a66cf4e432ed9cd27ceae9531
+    urls:
+        - https://play.google.com/store/apps/details?id=kr.co.devstory.vocat
+        - https://f-droid.org/en/packages/kr.co.devstory.vocat/
+        - https://google.com/search?q=kr.co.devstory.vocat
+
+net.fabiszewski.ulogger/net.fabiszewski.ulogger.ui.MainActivity:
+    name: μlogger
+    reqt: 1
+    reql: 2025-04-09 17:19:45
+    hash: 71724cdb2168016967405e17a21aca92499131ab
+    urls:
+        - https://play.google.com/store/apps/details?id=net.fabiszewski.ulogger
+        - https://f-droid.org/en/packages/net.fabiszewski.ulogger/
+        - https://google.com/search?q=net.fabiszewski.ulogger
+
+com.visnalize.win7simu/com.visnalize.win7simu.MainActivity:
+    name: Win7 Simu
+    reqt: 1
+    reql: 2025-04-09 14:10:17
+    hash: 52e8da8fd4a123dd305e60cbb89a222709961ebc
+    urls:
+        - https://play.google.com/store/apps/details?id=com.visnalize.win7simu
+        - https://f-droid.org/en/packages/com.visnalize.win7simu/
+        - https://google.com/search?q=com.visnalize.win7simu
+
+com.hellofresh.androidapp/com.hellofresh.features.legacy.ui.flows.launch.LaunchActivity:
+    name: HelloFresh
+    reqt: 1
+    reql: 2025-04-09 13:31:22
+    hash: f07ec027327e561f298378b0b8b57a36000f7b08
+    urls:
+        - https://play.google.com/store/apps/details?id=com.hellofresh.androidapp
+        - https://f-droid.org/en/packages/com.hellofresh.androidapp/
+        - https://google.com/search?q=com.hellofresh.androidapp
+
+tic.tac.toe.two.player.board.games.huawei/tic.tac.toe.two.player.board.games.huawei.StartAct:
+    name: Tic Tac Toe
+    reqt: 1
+    reql: 2025-04-09 12:24:40
+    hash: 8444ccdbb06a4cbc8bf9653a75620682eb9cfc56
+    urls:
+        - https://play.google.com/store/apps/details?id=tic.tac.toe.two.player.board.games.huawei
+        - https://f-droid.org/en/packages/tic.tac.toe.two.player.board.games.huawei/
+        - https://google.com/search?q=tic.tac.toe.two.player.board.games.huawei
+
+com.uniqlo.vn.catalogue/com.uniqlo.ja.catalogue.view.mobile.startup.StartupActivity:
+    name: UNIQLO
+    reqt: 1
+    reql: 2025-04-09 08:45:37
+    hash: 2e1937ecc09bc381a0d588a186f2d457ecab4415
+    urls:
+        - https://play.google.com/store/apps/details?id=com.uniqlo.vn.catalogue
+        - https://f-droid.org/en/packages/com.uniqlo.vn.catalogue/
+        - https://google.com/search?q=com.uniqlo.vn.catalogue
+
+de.regiocast.radio90s90s/com.computerrock.radiolikemee.ui.intro.IntroActivity:
+    name: 90s90s
+    reqt: 1
+    reql: 2025-04-09 08:45:06
+    hash: edcee4b88638068c5d861c4efa020ede4c7981e3
+    urls:
+        - https://play.google.com/store/apps/details?id=de.regiocast.radio90s90s
+        - https://f-droid.org/en/packages/de.regiocast.radio90s90s/
+        - https://google.com/search?q=de.regiocast.radio90s90s
+
+io.dokdok.grypa/io.dokdok.grypa.MainActivity:
+    name: DokDok
+    reqt: 1
+    reql: 2025-04-09 06:41:58
+    hash: b7ae3977869070372e11d8bd38687bfef96d9adf
+    urls:
+        - https://play.google.com/store/apps/details?id=io.dokdok.grypa
+        - https://f-droid.org/en/packages/io.dokdok.grypa/
+        - https://google.com/search?q=io.dokdok.grypa
+
+com.blinkmap/com.blinkmap.DefaultIcon:
+    name: Blink
+    reqt: 1
+    reql: 2025-04-09 06:25:23
+    hash: 6106b7f2477bade521f4d342f136cdc1604b1ea4
+    urls:
+        - https://play.google.com/store/apps/details?id=com.blinkmap
+        - https://f-droid.org/en/packages/com.blinkmap/
+        - https://google.com/search?q=com.blinkmap
+
+com.akbank.android.apps.axess/com.akbank.akbankx.feature.dynamicappicon.DefaultAlias:
+    name: Juzdan
+    reqt: 1
+    reql: 2025-04-09 04:21:53
+    hash: 55aff4e6a3dd087b201971d4a1e5e4eab33e7cb1
+    urls:
+        - https://play.google.com/store/apps/details?id=com.akbank.android.apps.axess
+        - https://f-droid.org/en/packages/com.akbank.android.apps.axess/
+        - https://google.com/search?q=com.akbank.android.apps.axess
+
+com.android.mgstv/com.interactive.brasiliptv.ui.activity.WelcomeActivity:
+    name: MAGIS
+    reqt: 1
+    reql: 2025-04-09 03:58:46
+    hash: e833fa6dc8ded7affc803fc03572f73527a1408f
+    urls:
+        - https://play.google.com/store/apps/details?id=com.android.mgstv
+        - https://f-droid.org/en/packages/com.android.mgstv/
+        - https://google.com/search?q=com.android.mgstv
+
+com.nothing.ntessentialspace/com.nothing.ntessentialspace.MainActivity:
+    name: Essential Space
+    reqt: 1
+    reql: 2025-04-09 03:19:25
+    hash: ee2ca67573ee69a77fb7271918bcde1199724f27
+    urls:
+        - https://play.google.com/store/apps/details?id=com.nothing.ntessentialspace
+        - https://f-droid.org/en/packages/com.nothing.ntessentialspace/
+        - https://google.com/search?q=com.nothing.ntessentialspace
+
+com.consumerug/com.comviva.webaxn.ui.WebAxnActivity:
+    name: MoMo
+    reqt: 1
+    reql: 2025-04-08 21:26:03
+    hash: ad75c62f440e8b8d11ad96f30c70043f745f08e3
+    urls:
+        - https://play.google.com/store/apps/details?id=com.consumerug
+        - https://f-droid.org/en/packages/com.consumerug/
+        - https://google.com/search?q=com.consumerug
+
+com.oplus.ai.magicstudio/com.oplus.ai.magicstudio.MainActivity:
+    name: AI Studio
+    reqt: 1
+    reql: 2025-04-08 21:24:15
+    hash: 3aea9f4ce4b0ed5065ea1c0b275bd8183ece3ad9
+    urls:
+        - https://play.google.com/store/apps/details?id=com.oplus.ai.magicstudio
+        - https://f-droid.org/en/packages/com.oplus.ai.magicstudio/
+        - https://google.com/search?q=com.oplus.ai.magicstudio
+
+com.hospitalbritanico.app/com.hospitalbritanico.app.MainActivity:
+    name: Hospital Británico
+    reqt: 1
+    reql: 2025-04-08 20:53:39
+    hash: 4afb13a13da3f89db4d3ccf5383a207d4b60cf21
+    urls:
+        - https://play.google.com/store/apps/details?id=com.hospitalbritanico.app
+        - https://f-droid.org/en/packages/com.hospitalbritanico.app/
+        - https://google.com/search?q=com.hospitalbritanico.app
+
+ru.al.fontviewer/ru.al.fontviewer.MainActivity:
+    name: FontViewer
+    reqt: 1
+    reql: 2025-04-08 17:13:47
+    hash: e448d808cd35e3c85b0c7aa26e7ae12f0ab612bb
+    urls:
+        - https://play.google.com/store/apps/details?id=ru.al.fontviewer
+        - https://f-droid.org/en/packages/ru.al.fontviewer/
+        - https://google.com/search?q=ru.al.fontviewer
+
+com.frenchbleu_members/com.frenchbleu_members.Splash:
+    name: FRENCH Bleu
+    reqt: 1
+    reql: 2025-04-08 14:31:31
+    hash: 9e26623c84d575f51cef425944ba32d053977fbb
+    urls:
+        - https://play.google.com/store/apps/details?id=com.frenchbleu_members
+        - https://f-droid.org/en/packages/com.frenchbleu_members/
+        - https://google.com/search?q=com.frenchbleu_members
+
+eu.spaggiari.classevivastudente/eu.spaggiari.classeviva.classeviva.MainActivity:
+    name: ClasseViva Studenti
+    reqt: 1
+    reql: 2025-04-08 14:25:19
+    hash: 7d191167f76c5ebd29140d2781d5d4eda87b5a63
+    urls:
+        - https://play.google.com/store/apps/details?id=eu.spaggiari.classevivastudente
+        - https://f-droid.org/en/packages/eu.spaggiari.classevivastudente/
+        - https://google.com/search?q=eu.spaggiari.classevivastudente
+
+me.knighthat.kreate/it.fast4x.rimusic.MainActivity:
+    name: Kreate
+    reqt: 1
+    reql: 2025-04-08 13:06:00
+    hash: 94571eae6ce64db4a1c51222305904b1a15fd8ba
+    urls:
+        - https://play.google.com/store/apps/details?id=me.knighthat.kreate
+        - https://f-droid.org/en/packages/me.knighthat.kreate/
+        - https://google.com/search?q=me.knighthat.kreate
+
+com.perfectgym.perfectgymgo2.lemongymlithuania/com.elpassion.perfectgym.splash.SplashActivity:
+    name: Lemon Gym Lithuania
+    reqt: 1
+    reql: 2025-04-08 11:34:16
+    hash: 7aef208be509037c781752035ba89463a7cfaf45
+    urls:
+        - https://play.google.com/store/apps/details?id=com.perfectgym.perfectgymgo2.lemongymlithuania
+        - https://f-droid.org/en/packages/com.perfectgym.perfectgymgo2.lemongymlithuania/
+        - https://google.com/search?q=com.perfectgym.perfectgymgo2.lemongymlithuania
+
+org.fossify.home/org.fossify.home.activities.SplashActivity.Brown:
+    name: Launcher
+    reqt: 1
+    reql: 2025-04-08 05:40:20
+    hash: 66385d44fe13617f7cc5475d74b7c53c9e781572
+    urls:
+        - https://play.google.com/store/apps/details?id=org.fossify.home
+        - https://f-droid.org/en/packages/org.fossify.home/
+        - https://google.com/search?q=org.fossify.home
+
+com.claudivan.taskagenda/com.claudivan.taskagenda.Activities.MainActivity:
+    name: Task Agenda
+    reqt: 1
+    reql: 2025-04-08 00:16:42
+    hash: 7dc77d6cca8e045966f9e61a07f6aa78908f594c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.claudivan.taskagenda
+        - https://f-droid.org/en/packages/com.claudivan.taskagenda/
+        - https://google.com/search?q=com.claudivan.taskagenda
+
+app.landrop.landrop_flutter/app.landrop.landrop_flutter.MainActivity:
+    name: LANDrop
+    reqt: 1
+    reql: 2025-04-07 23:00:11
+    hash: f5c1f6cee6ce5f2d696837fff666efb58f0dea72
+    urls:
+        - https://play.google.com/store/apps/details?id=app.landrop.landrop_flutter
+        - https://f-droid.org/en/packages/app.landrop.landrop_flutter/
+        - https://google.com/search?q=app.landrop.landrop_flutter
+
+com.orange.rn.nju/com.orange.rn.dop.MainActivity:
+    name: nju.
+    reqt: 1
+    reql: 2025-04-07 17:25:16
+    hash: e801ede5350e3d85ee7cc124599e206c78ac9453
+    urls:
+        - https://play.google.com/store/apps/details?id=com.orange.rn.nju
+        - https://f-droid.org/en/packages/com.orange.rn.nju/
+        - https://google.com/search?q=com.orange.rn.nju
+
+pl.nestbank.nestbank/bank.nest.atos.pl.nestbank.splashscreen.SplashScreenActivity_:
+    name: Nest Bank
+    reqt: 1
+    reql: 2025-04-07 09:06:46
+    hash: acc65adc0daa6e78ddc7161dc86c47b7301e8899
+    urls:
+        - https://play.google.com/store/apps/details?id=pl.nestbank.nestbank
+        - https://f-droid.org/en/packages/pl.nestbank.nestbank/
+        - https://google.com/search?q=pl.nestbank.nestbank
+
+com.deckfilter.app/com.deckfilter.app.MainActivity:
+    name: DeckFilter
+    reqt: 1
+    reql: 2025-04-06 23:05:50
+    hash: a030a4068c683ead4a81f717a98ea5f06c128301
+    urls:
+        - https://play.google.com/store/apps/details?id=com.deckfilter.app
+        - https://f-droid.org/en/packages/com.deckfilter.app/
+        - https://google.com/search?q=com.deckfilter.app
+
+com.tsmbo.cre/com.tsmbo.cre.MainActivity:
+    name: CRE Móvil
+    reqt: 1
+    reql: 2025-04-06 22:22:42
+    hash: b233eb1c2bef837ef0bbcf41a070ce202d67f72e
+    urls:
+        - https://play.google.com/store/apps/details?id=com.tsmbo.cre
+        - https://f-droid.org/en/packages/com.tsmbo.cre/
+        - https://google.com/search?q=com.tsmbo.cre
+
+buslogic.beogradplus/buslogic.app.ui.SplashActivity:
+    name: BeogradPlus
+    reqt: 1
+    reql: 2025-04-06 21:18:52
+    hash: 64e7b1783ff6241de6d63179224a431941f95d58
+    urls:
+        - https://play.google.com/store/apps/details?id=buslogic.beogradplus
+        - https://f-droid.org/en/packages/buslogic.beogradplus/
+        - https://google.com/search?q=buslogic.beogradplus
+
+com.movtery.zalithlauncher/com.movtery.zalithlauncher.ui.activity.SplashActivity:
+    name: Zalith Launcher
+    reqt: 1
+    reql: 2025-04-06 13:48:14
+    hash: 6066d4ca51cf54aa0bdeaa83d2b2984e3b98d84d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.movtery.zalithlauncher
+        - https://f-droid.org/en/packages/com.movtery.zalithlauncher/
+        - https://google.com/search?q=com.movtery.zalithlauncher
+
+com.raisingcanes.ordering/com.raisingcanes.ordering.MainActivity:
+    name: Raising Cane's
+    reqt: 1
+    reql: 2025-04-06 09:17:35
+    hash: 5c3e2f18134143ee28d0f6b857c9a3455981f4dd
+    urls:
+        - https://play.google.com/store/apps/details?id=com.raisingcanes.ordering
+        - https://f-droid.org/en/packages/com.raisingcanes.ordering/
+        - https://google.com/search?q=com.raisingcanes.ordering
+
+com.touchfoo.swordigo/com.touchfoo.swordigo.MainActivity:
+    name: Swordigo
+    reqt: 1
+    reql: 2025-04-06 04:00:10
+    hash: cbf77afc18ccee784b501d03e46296da065c1d24
+    urls:
+        - https://play.google.com/store/apps/details?id=com.touchfoo.swordigo
+        - https://f-droid.org/en/packages/com.touchfoo.swordigo/
+        - https://google.com/search?q=com.touchfoo.swordigo
+
+com.yesstyle.android/com.yesstyle.android.MainActivity:
+    name: YesStyle
+    reqt: 1
+    reql: 2025-04-06 01:05:08
+    hash: 6b713f4b81944098f3dfbc9f81ee56a83013db0e
+    urls:
+        - https://play.google.com/store/apps/details?id=com.yesstyle.android
+        - https://f-droid.org/en/packages/com.yesstyle.android/
+        - https://google.com/search?q=com.yesstyle.android
+
+com.asa2fly.cx3/com.example.asa_cx3.MainActivity:
+    name: Flight Computer
+    reqt: 1
+    reql: 2025-04-05 23:33:00
+    hash: 80864c726ff84964139882e5d63bbb73c4444bdc
+    urls:
+        - https://play.google.com/store/apps/details?id=com.asa2fly.cx3
+        - https://f-droid.org/en/packages/com.asa2fly.cx3/
+        - https://google.com/search?q=com.asa2fly.cx3
+
+com.legeropinion.leoapp/com.legeropinion.leoapp.MainActivity:
+    name: LEO
+    reqt: 1
+    reql: 2025-04-05 20:22:07
+    hash: 39e3d150763fabd90a6aca07cc6799ba3db33a8f
+    urls:
+        - https://play.google.com/store/apps/details?id=com.legeropinion.leoapp
+        - https://f-droid.org/en/packages/com.legeropinion.leoapp/
+        - https://google.com/search?q=com.legeropinion.leoapp
+
+com.aura.suite/com.aura.suite.MainActivity:
+    name: Aura
+    reqt: 1
+    reql: 2025-04-05 19:30:59
+    hash: 66e0da51c77ce3ac8c42a74933d65aaf808980ec
+    urls:
+        - https://play.google.com/store/apps/details?id=com.aura.suite
+        - https://f-droid.org/en/packages/com.aura.suite/
+        - https://google.com/search?q=com.aura.suite
+
+com.zoneoftech.wallpaper/com.zoneoftech.wallpaper.MainActivity:
+    name: WallpaperZ
+    reqt: 1
+    reql: 2025-04-05 17:42:09
+    hash: aec1026d00872814ec561c6206125d0e72ee7286
+    urls:
+        - https://play.google.com/store/apps/details?id=com.zoneoftech.wallpaper
+        - https://f-droid.org/en/packages/com.zoneoftech.wallpaper/
+        - https://google.com/search?q=com.zoneoftech.wallpaper
+
+apps.driefcase.com/apps.driefcase.com.activity.Splash:
+    name: DRiefcase
+    reqt: 1
+    reql: 2025-04-05 16:48:45
+    hash: 0d5d2d078bb14a791f2936d519acb30e90ae258d
+    urls:
+        - https://play.google.com/store/apps/details?id=apps.driefcase.com
+        - https://f-droid.org/en/packages/apps.driefcase.com/
+        - https://google.com/search?q=apps.driefcase.com
+
+com.streema.simpleradio/com.streema.simpleradio.MainActivity:
+    name: Simple Radio
+    reqt: 1
+    reql: 2025-04-05 16:32:14
+    hash: ff9661d0f5fccf33ec16b3c6083fd3b09b1e61ab
+    urls:
+        - https://play.google.com/store/apps/details?id=com.streema.simpleradio
+        - https://f-droid.org/en/packages/com.streema.simpleradio/
+        - https://google.com/search?q=com.streema.simpleradio
+
+com.MDickie.HardTimeIII/com.unity3d.player.UnityPlayerActivity:
+    name: Hard Time III
+    reqt: 1
+    reql: 2025-04-05 16:15:54
+    hash: 23a2bcde90fb8b401a7655451942f79b2cdaceb4
+    urls:
+        - https://play.google.com/store/apps/details?id=com.MDickie.HardTimeIII
+        - https://f-droid.org/en/packages/com.MDickie.HardTimeIII/
+        - https://google.com/search?q=com.MDickie.HardTimeIII
+
+com.humblebundle.unpacking/com.unity3d.player.UnityPlayerActivity:
+    name: Unpacking
+    reqt: 1
+    reql: 2025-04-05 13:08:32
+    hash: 74286814153276261c60b34ba41bf968a774aa55
+    urls:
+        - https://play.google.com/store/apps/details?id=com.humblebundle.unpacking
+        - https://f-droid.org/en/packages/com.humblebundle.unpacking/
+        - https://google.com/search?q=com.humblebundle.unpacking
+
+com.amelosinteractive.snake/com.kooapps.unity.CustomUnityPlayerActivity:
+    name: Snake.io
+    reqt: 1
+    reql: 2025-04-05 12:15:43
+    hash: a132ecfbe4bbb05965731677311aeb69f1740bd3
+    urls:
+        - https://play.google.com/store/apps/details?id=com.amelosinteractive.snake
+        - https://f-droid.org/en/packages/com.amelosinteractive.snake/
+        - https://google.com/search?q=com.amelosinteractive.snake
+
+com.duige.hzw.multilingual/com.duige.hzw.global.WelcomeActivity:
+    name: Legend of the Phoenix
+    reqt: 1
+    reql: 2025-04-05 09:50:14
+    hash: ca05f64d603ea3290909c37e250745d32ad7850b
+    urls:
+        - https://play.google.com/store/apps/details?id=com.duige.hzw.multilingual
+        - https://f-droid.org/en/packages/com.duige.hzw.multilingual/
+        - https://google.com/search?q=com.duige.hzw.multilingual
+
+com.primatelabs.geekbench3/com.primatelabs.geekbench3.HomeActivity:
+    name: Geekbench 3
+    reqt: 1
+    reql: 2025-04-05 09:42:51
+    hash: eb9fdb0ecdc85a9c05000b4161e3430817dd6915
+    urls:
+        - https://play.google.com/store/apps/details?id=com.primatelabs.geekbench3
+        - https://f-droid.org/en/packages/com.primatelabs.geekbench3/
+        - https://google.com/search?q=com.primatelabs.geekbench3
+
+it.alleanza.app.alleanza/it.alleanza.app.myalleanza.MainActivity:
+    name: Alleanza
+    reqt: 1
+    reql: 2025-04-05 07:31:19
+    hash: 173c76a78c38cffc2f2e29302ab2d4ce5ed61f5d
+    urls:
+        - https://play.google.com/store/apps/details?id=it.alleanza.app.alleanza
+        - https://f-droid.org/en/packages/it.alleanza.app.alleanza/
+        - https://google.com/search?q=it.alleanza.app.alleanza
+
+com.poppingmoon.aria/com.ryanheise.audioservice.AudioServiceActivity:
+    name: Aria
+    reqt: 1
+    reql: 2025-04-05 06:34:13
+    hash: 771181968ebbfa19e779954701da80dba91bfe1e
+    urls:
+        - https://play.google.com/store/apps/details?id=com.poppingmoon.aria
+        - https://f-droid.org/en/packages/com.poppingmoon.aria/
+        - https://google.com/search?q=com.poppingmoon.aria
+
+uk.org.nt.android.app1/uk.org.nt.android.app1.ui.HomeActivity:
+    name: National Trust
+    reqt: 1
+    reql: 2025-04-05 06:03:37
+    hash: fbcf2b271df0b8468c49fd93721376e7f217f094
+    urls:
+        - https://play.google.com/store/apps/details?id=uk.org.nt.android.app1
+        - https://f-droid.org/en/packages/uk.org.nt.android.app1/
+        - https://google.com/search?q=uk.org.nt.android.app1
+
+com.mobicon.mbank2.belarusbank/com.mobicon.mbank2.client.android.GENERAL:
+    name: M-Belarusbank
+    reqt: 1
+    reql: 2025-04-05 04:22:50
+    hash: b85e2ed52181d624e6091945a985076f5890b82e
+    urls:
+        - https://play.google.com/store/apps/details?id=com.mobicon.mbank2.belarusbank
+        - https://f-droid.org/en/packages/com.mobicon.mbank2.belarusbank/
+        - https://google.com/search?q=com.mobicon.mbank2.belarusbank
+
+me.nanoleaf.nanoleaf/me.nanoleaf.nanoleaf.feature.launcher.LauncherActivity:
+    name: Nanoleaf
+    reqt: 1
+    reql: 2025-04-05 02:57:52
+    hash: 6fd0b9baa4e4697df2c25c28fb64c0cc1bbcff3e
+    urls:
+        - https://play.google.com/store/apps/details?id=me.nanoleaf.nanoleaf
+        - https://f-droid.org/en/packages/me.nanoleaf.nanoleaf/
+        - https://google.com/search?q=me.nanoleaf.nanoleaf
+
+com.betacomsa.CIU.ia/my.uveandroidframework.UveAndroidFramework:
+    name: CIU
+    reqt: 1
+    reql: 2025-04-05 02:23:57
+    hash: e431753369f60671405677acaf40951f5248db13
+    urls:
+        - https://play.google.com/store/apps/details?id=com.betacomsa.CIU.ia
+        - https://f-droid.org/en/packages/com.betacomsa.CIU.ia/
+        - https://google.com/search?q=com.betacomsa.CIU.ia
+
+org.me.mobiexpensifyg/org.me.mobiexpensifyg.ExpensifyActivityBase:
+    name: Expensify
+    reqt: 1
+    reql: 2025-04-05 01:29:58
+    hash: 8faa0fd9ab2c4de4d65290bfc9176e107194e5e5
+    urls:
+        - https://play.google.com/store/apps/details?id=org.me.mobiexpensifyg
+        - https://f-droid.org/en/packages/org.me.mobiexpensifyg/
+        - https://google.com/search?q=org.me.mobiexpensifyg
+
+de.hirschmilch.radio_app/de.hirschmilch.radio_app.MainActivity:
+    name: Hirschmilch Radio
+    reqt: 1
+    reql: 2025-04-05 00:53:28
+    hash: e720fc2dc9d3588902261d557c925a89232fca69
+    urls:
+        - https://play.google.com/store/apps/details?id=de.hirschmilch.radio_app
+        - https://f-droid.org/en/packages/de.hirschmilch.radio_app/
+        - https://google.com/search?q=de.hirschmilch.radio_app
+
+com.bumblebff.app/com.bumble.app.ui.launcher.BumbleLauncherActivity:
+    name: BFF
+    reqt: 1
+    reql: 2025-04-04 22:09:52
+    hash: 80b1159aee0ee03d410f101651f111c0f559e82d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.bumblebff.app
+        - https://f-droid.org/en/packages/com.bumblebff.app/
+        - https://google.com/search?q=com.bumblebff.app
+
+com.apps.anker.flutter_ko/com.apps.anker.flutter_ko.MainActivity:
+    name: Knocky
+    reqt: 1
+    reql: 2025-04-04 20:01:41
+    hash: 6075fcc90628e5afa23e5f66e51cbc521123f40d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.apps.anker.flutter_ko
+        - https://f-droid.org/en/packages/com.apps.anker.flutter_ko/
+        - https://google.com/search?q=com.apps.anker.flutter_ko
+
+com.ijsoft.cpul/com.ijsoft.cpul.SplashActivity:
+    name: CPU-L
+    reqt: 1
+    reql: 2025-04-04 18:29:30
+    hash: 48ecdfbdeed8225ae215194ffe3cf85457d25840
+    urls:
+        - https://play.google.com/store/apps/details?id=com.ijsoft.cpul
+        - https://f-droid.org/en/packages/com.ijsoft.cpul/
+        - https://google.com/search?q=com.ijsoft.cpul
+
+com.hwqgrhhjfd.idlefastfood/com.unity3d.player.UnityPlayerActivity:
+    name: Eatventure
+    reqt: 1
+    reql: 2025-04-04 16:27:45
+    hash: e0fd9440c630fe937eb5f4d230bd86768c52f3cf
+    urls:
+        - https://play.google.com/store/apps/details?id=com.hwqgrhhjfd.idlefastfood
+        - https://f-droid.org/en/packages/com.hwqgrhhjfd.idlefastfood/
+        - https://google.com/search?q=com.hwqgrhhjfd.idlefastfood
+
+net.countrymania.brick/net.countrymania.brick.activities.start.StartActivity:
+    name: BrickMania
+    reqt: 1
+    reql: 2025-04-04 12:00:41
+    hash: 6eff9ce1f3b1fcf49f64f05caf5527a975322e31
+    urls:
+        - https://play.google.com/store/apps/details?id=net.countrymania.brick
+        - https://f-droid.org/en/packages/net.countrymania.brick/
+        - https://google.com/search?q=net.countrymania.brick
+
+io.mewtant.pixaiart/io.mewtant.pixaiart.ui.splash.SplashActivity:
+    name: PixAI
+    reqt: 1
+    reql: 2025-04-04 11:01:40
+    hash: 1005e45e97170b5b8eb199d8d1d04c8484c65d62
+    urls:
+        - https://play.google.com/store/apps/details?id=io.mewtant.pixaiart
+        - https://f-droid.org/en/packages/io.mewtant.pixaiart/
+        - https://google.com/search?q=io.mewtant.pixaiart
+
+com.termux.widget/com.termux.widget.activities.TermuxWidgetLauncherActivity:
+    name: Termux:Widget
+    reqt: 1
+    reql: 2025-04-04 10:10:44
+    hash: bc5d21c67f0f92498ba8daa8135cf0e83bef260c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.termux.widget
+        - https://f-droid.org/en/packages/com.termux.widget/
+        - https://google.com/search?q=com.termux.widget
+
+islam.islamapp/islam.islamapp.presentation.mainactivity.MainActivity:
+    name: IslamApp
+    reqt: 1
+    reql: 2025-04-04 08:54:15
+    hash: 6757baa5203d45b3c7a683263e2211c2ee239316
+    urls:
+        - https://play.google.com/store/apps/details?id=islam.islamapp
+        - https://f-droid.org/en/packages/islam.islamapp/
+        - https://google.com/search?q=islam.islamapp
+
+com.intvl.app/com.intvl.app.MainActivity:
+    name: INTVL
+    reqt: 1
+    reql: 2025-04-04 08:13:32
+    hash: 8a202161a117da823c82698b7c7a233d593baedf
+    urls:
+        - https://play.google.com/store/apps/details?id=com.intvl.app
+        - https://f-droid.org/en/packages/com.intvl.app/
+        - https://google.com/search?q=com.intvl.app
+
+com.jpj.jpj_info/com.jpj.jpj_info.MainActivity:
+    name: MyJPJ
+    reqt: 1
+    reql: 2025-04-04 04:36:59
+    hash: b831aaf1b57e5d43492110faccc8e3711b89fb71
+    urls:
+        - https://play.google.com/store/apps/details?id=com.jpj.jpj_info
+        - https://f-droid.org/en/packages/com.jpj.jpj_info/
+        - https://google.com/search?q=com.jpj.jpj_info
+
+com.wabiz.delivery.kadalora/com.wabiz.delivery.kadalora.MainActivity:
+    name: Kadalora Pizzaria
+    reqt: 1
+    reql: 2025-04-04 01:50:39
+    hash: 46f06773dc64494ad3f56153eda1cf32b6a826d1
+    urls:
+        - https://play.google.com/store/apps/details?id=com.wabiz.delivery.kadalora
+        - https://f-droid.org/en/packages/com.wabiz.delivery.kadalora/
+        - https://google.com/search?q=com.wabiz.delivery.kadalora
+
+com.lkd.calculator/com.hld.anzenbokusu.splash:
+    name: Locked
+    reqt: 1
+    reql: 2025-04-04 01:26:57
+    hash: 1ba29f694886694f702039f7f7109312ea8cb246
+    urls:
+        - https://play.google.com/store/apps/details?id=com.lkd.calculator
+        - https://f-droid.org/en/packages/com.lkd.calculator/
+        - https://google.com/search?q=com.lkd.calculator
+
+com.mobile.legends.usa/com.moba.unityplugin.MobaGameMainActivityWithExtractor:
+    name: 'Mobile Legends: Bang Bang.US'
+    reqt: 1
+    reql: 2025-04-03 20:49:29
+    hash: 9d09c202bade69eb0cf61626415dd84249208612
+    urls:
+        - https://play.google.com/store/apps/details?id=com.mobile.legends.usa
+        - https://f-droid.org/en/packages/com.mobile.legends.usa/
+        - https://google.com/search?q=com.mobile.legends.usa
+
+com.isaakhanimann.journal/com.isaakhanimann.journal.MainActivity:
+    name: Journal
+    reqt: 1
+    reql: 2025-04-03 20:36:57
+    hash: 0be23bf7cee19a6127ae631b19404e06ea83a6c9
+    urls:
+        - https://play.google.com/store/apps/details?id=com.isaakhanimann.journal
+        - https://f-droid.org/en/packages/com.isaakhanimann.journal/
+        - https://google.com/search?q=com.isaakhanimann.journal
+
+com.grppl.android.shell.BOS/co.uk.apptivation.nga.library.application.GrappleActivity:
+    name: Bank of Scot
+    reqt: 1
+    reql: 2025-04-03 20:33:45
+    hash: 07a74b2feda28df8688e6c17ccef2f239835f022
+    urls:
+        - https://play.google.com/store/apps/details?id=com.grppl.android.shell.BOS
+        - https://f-droid.org/en/packages/com.grppl.android.shell.BOS/
+        - https://google.com/search?q=com.grppl.android.shell.BOS
+
+life.blockin/life.blockin.ui.MainActivity:
+    name: Blockin
+    reqt: 1
+    reql: 2025-04-03 17:02:18
+    hash: 2a529abbc627e9056773eb18ba0a2b9c70b2363d
+    urls:
+        - https://play.google.com/store/apps/details?id=life.blockin
+        - https://f-droid.org/en/packages/life.blockin/
+        - https://google.com/search?q=life.blockin
+
+jp.co.sharp.android.soundmemo/jp.co.sharp.android.soundmemo.SoundMemoLauncherActivity:
+    name: 簡易留守録
+    reqt: 1
+    reql: 2025-04-03 14:36:55
+    hash: 7154304b6b07aacdad3f7b4cecbe41a0a43ffaa9
+    urls:
+        - https://play.google.com/store/apps/details?id=jp.co.sharp.android.soundmemo
+        - https://f-droid.org/en/packages/jp.co.sharp.android.soundmemo/
+        - https://google.com/search?q=jp.co.sharp.android.soundmemo
+
+es.gob.fnmt.dniesmartconnect/es.gob.fnmt.dniesmartconnect.SplashScreen:
+    name: DNIeSmartConnect
+    reqt: 1
+    reql: 2025-04-03 14:13:26
+    hash: e13e6ea0a15742655ee7351229daa95168d1dd85
+    urls:
+        - https://play.google.com/store/apps/details?id=es.gob.fnmt.dniesmartconnect
+        - https://f-droid.org/en/packages/es.gob.fnmt.dniesmartconnect/
+        - https://google.com/search?q=es.gob.fnmt.dniesmartconnect
+
+pl.earlystage.esmusic/pl.earlystage.esmusic.MainActivity:
+    name: Early Stage MUSIC
+    reqt: 1
+    reql: 2025-04-03 13:25:21
+    hash: b0053f34062bf85d6217b6eebfd0b9a0c4680c9d
+    urls:
+        - https://play.google.com/store/apps/details?id=pl.earlystage.esmusic
+        - https://f-droid.org/en/packages/pl.earlystage.esmusic/
+        - https://google.com/search?q=pl.earlystage.esmusic
+
+co.kr.waldlust.mmthcoffee/co.kr.waldlust.mmthcoffee.SplashActivity:
+    name: 매머드오더
+    reqt: 1
+    reql: 2025-04-03 13:12:37
+    hash: 0c39ae47627271820c871fb7e21740bd61402e0e
+    urls:
+        - https://play.google.com/store/apps/details?id=co.kr.waldlust.mmthcoffee
+        - https://f-droid.org/en/packages/co.kr.waldlust.mmthcoffee/
+        - https://google.com/search?q=co.kr.waldlust.mmthcoffee
+
+com.hivearts.accountable/com.accountable.MainActivity:
+    name: Accountable
+    reqt: 1
+    reql: 2025-04-03 11:28:07
+    hash: a764a8c5c9197323798d73899b63b9f03f21270f
+    urls:
+        - https://play.google.com/store/apps/details?id=com.hivearts.accountable
+        - https://f-droid.org/en/packages/com.hivearts.accountable/
+        - https://google.com/search?q=com.hivearts.accountable
+
+com.coffeestain.huntdown/com.unity3d.player.UnityPlayerActivity:
+    name: Huntdown
+    reqt: 1
+    reql: 2025-04-03 10:43:23
+    hash: 8a039b742071ac92b5b663c1afd0adcd693b2046
+    urls:
+        - https://play.google.com/store/apps/details?id=com.coffeestain.huntdown
+        - https://f-droid.org/en/packages/com.coffeestain.huntdown/
+        - https://google.com/search?q=com.coffeestain.huntdown
+
+com.kotak.bank.mobile/uxr1.mZLL.UIOx:
+    name: Kotak Bank
+    reqt: 1
+    reql: 2025-04-03 10:28:07
+    hash: fa2557a5e36dad235549efed690cc6979db7cfc6
+    urls:
+        - https://play.google.com/store/apps/details?id=com.kotak.bank.mobile
+        - https://f-droid.org/en/packages/com.kotak.bank.mobile/
+        - https://google.com/search?q=com.kotak.bank.mobile
+
+no.norgesgruppen.apps.trumf.trumf/crc647f6b29a63ed85bae.MainActivity:
+    name: Trumf
+    reqt: 1
+    reql: 2025-04-03 09:57:06
+    hash: 7f956cdc11eba5d55c9b9c49d43ad43ec473354b
+    urls:
+        - https://play.google.com/store/apps/details?id=no.norgesgruppen.apps.trumf.trumf
+        - https://f-droid.org/en/packages/no.norgesgruppen.apps.trumf.trumf/
+        - https://google.com/search?q=no.norgesgruppen.apps.trumf.trumf
+
+com.ajaxsystems/com.ajaxsystems.session.launcher.presentation.LauncherActivity:
+    name: Ajax
+    reqt: 1
+    reql: 2025-04-03 07:58:54
+    hash: 131a340a8f579863475f34b7557eaa8f08b90530
+    urls:
+        - https://play.google.com/store/apps/details?id=com.ajaxsystems
+        - https://f-droid.org/en/packages/com.ajaxsystems/
+        - https://google.com/search?q=com.ajaxsystems
+
+in.startv.hotstar/com.hotstar.MainActivityJv:
+    name: JioHotstar
+    reqt: 1
+    reql: 2025-04-03 07:05:08
+    hash: e9291eea71d8b7c306b3571c4dd8d0a40fa6102a
+    urls:
+        - https://play.google.com/store/apps/details?id=in.startv.hotstar
+        - https://f-droid.org/en/packages/in.startv.hotstar/
+        - https://google.com/search?q=in.startv.hotstar
+
+com.microsoft.rdc.androidx/com.microsoft.windowsapp.ui.HomeActivity:
+    name: Windows App
+    reqt: 1
+    reql: 2025-04-03 03:19:08
+    hash: 28a7b8a73128c7e567c6ffd57c52c9d315eb36a9
+    urls:
+        - https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx
+        - https://f-droid.org/en/packages/com.microsoft.rdc.androidx/
+        - https://google.com/search?q=com.microsoft.rdc.androidx
+
+com.nautilus.RealCricketGD/com.nautilus.RealCricketGD.UnityPlayerActivityCustom:
+    name: Game Changer 5
+    reqt: 1
+    reql: 2025-04-03 03:03:21
+    hash: 59aa00186dd0d7cc8f3394f2656a922b854e1335
+    urls:
+        - https://play.google.com/store/apps/details?id=com.nautilus.RealCricketGD
+        - https://f-droid.org/en/packages/com.nautilus.RealCricketGD/
+        - https://google.com/search?q=com.nautilus.RealCricketGD
+
+com.explusalpha.GbaEmu/com.imagine.BaseActivity:
+    name: GBA.emu
+    reqt: 1
+    reql: 2025-04-03 03:02:39
+    hash: 9a70b1e5c9a96c11b8eb926f4f8b1e918d9225ba
+    urls:
+        - https://play.google.com/store/apps/details?id=com.explusalpha.GbaEmu
+        - https://f-droid.org/en/packages/com.explusalpha.GbaEmu/
+        - https://google.com/search?q=com.explusalpha.GbaEmu
+
+com.halls.of.torment.paid.gp/com.godot.game.GodotApp:
+    name: 'Halls of Torment: Premium'
+    reqt: 1
+    reql: 2025-04-03 01:21:55
+    hash: aca9fbf3b75b25ff40bb4eb9bc5690d23064604e
+    urls:
+        - https://play.google.com/store/apps/details?id=com.halls.of.torment.paid.gp
+        - https://f-droid.org/en/packages/com.halls.of.torment.paid.gp/
+        - https://google.com/search?q=com.halls.of.torment.paid.gp
+
+com.superace.updf/com.superace.updf.features.privacy.PrivacyActivity:
+    name: UPDF
+    reqt: 1
+    reql: 2025-04-03 01:00:13
+    hash: 7bc324e0eca37ffc49ee1079bb7da071a4c24068
+    urls:
+        - https://play.google.com/store/apps/details?id=com.superace.updf
+        - https://f-droid.org/en/packages/com.superace.updf/
+        - https://google.com/search?q=com.superace.updf
+
+com.marmalade.cluedogame/com.unity3d.player.UnityPlayerActivity:
+    name: Cluedo
+    reqt: 1
+    reql: 2025-04-02 23:23:57
+    hash: 3106b17d357113f98f24cb26b52bfe4459c39d2c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.marmalade.cluedogame
+        - https://f-droid.org/en/packages/com.marmalade.cluedogame/
+        - https://google.com/search?q=com.marmalade.cluedogame
+
+com.currencyone.walutomat/com.currencyone.walutomat.MainActivity:
+    name: Walutomat
+    reqt: 1
+    reql: 2025-04-02 22:20:30
+    hash: 097401148992b0b0587a169ee7174ad701265f13
+    urls:
+        - https://play.google.com/store/apps/details?id=com.currencyone.walutomat
+        - https://f-droid.org/en/packages/com.currencyone.walutomat/
+        - https://google.com/search?q=com.currencyone.walutomat
+
+gov.wa.wsdot.android.wsdot/gov.wa.wsdot.android.wsdot.ui.MainActivity:
+    name: WSDOT
+    reqt: 1
+    reql: 2025-04-02 20:47:44
+    hash: 828f9c9b658ab0fa6d35c3607f1f5cd6a02f1a25
+    urls:
+        - https://play.google.com/store/apps/details?id=gov.wa.wsdot.android.wsdot
+        - https://f-droid.org/en/packages/gov.wa.wsdot.android.wsdot/
+        - https://google.com/search?q=gov.wa.wsdot.android.wsdot
+
+jp.co.unbalance.android.othello_free/unbalance.LogoActivity:
+    name: The Othello
+    reqt: 1
+    reql: 2025-04-02 18:44:38
+    hash: 40bebb8b9f7342634a7b932f461ae2da55667f37
+    urls:
+        - https://play.google.com/store/apps/details?id=jp.co.unbalance.android.othello_free
+        - https://f-droid.org/en/packages/jp.co.unbalance.android.othello_free/
+        - https://google.com/search?q=jp.co.unbalance.android.othello_free
+
+com.telenor.pakistan.mytelenor/com.telenor.pakistan.mytelenor.landingscreen.LandingScreenDefault:
+    name: My Telenor
+    reqt: 1
+    reql: 2025-04-02 17:54:57
+    hash: e90bee841d994fc3babbdb795cfc77782eea5b9d
+    urls:
+        - https://play.google.com/store/apps/details?id=com.telenor.pakistan.mytelenor
+        - https://f-droid.org/en/packages/com.telenor.pakistan.mytelenor/
+        - https://google.com/search?q=com.telenor.pakistan.mytelenor
+
+com.mantano.assimil/com.mantano.assimil.MainActivity:
+    name: Assimil
+    reqt: 1
+    reql: 2025-04-02 16:11:37
+    hash: 4f71b256a8a8877a6036f3b7526ff55c4cb97b60
+    urls:
+        - https://play.google.com/store/apps/details?id=com.mantano.assimil
+        - https://f-droid.org/en/packages/com.mantano.assimil/
+        - https://google.com/search?q=com.mantano.assimil
+
+nl.littlechicken.stuntgame/com.unity3d.player.UnityPlayerActivity:
+    name: REKT
+    reqt: 1
+    reql: 2025-04-02 16:00:43
+    hash: dbc8871d31435677737b58f662846e7272a28446
+    urls:
+        - https://play.google.com/store/apps/details?id=nl.littlechicken.stuntgame
+        - https://f-droid.org/en/packages/nl.littlechicken.stuntgame/
+        - https://google.com/search?q=nl.littlechicken.stuntgame
+
+co.id.bankbsi.superapp/co.id.bankbsi.superapp.screen.splashscreen.SplashScreenActivity:
+    name: Byond by BSI
+    reqt: 1
+    reql: 2025-04-02 14:49:15
+    hash: aee43f3e49c9330bdec16c67c15431aacb597974
+    urls:
+        - https://play.google.com/store/apps/details?id=co.id.bankbsi.superapp
+        - https://f-droid.org/en/packages/co.id.bankbsi.superapp/
+        - https://google.com/search?q=co.id.bankbsi.superapp
+
+com.colpit.diamondcoming.isavemoney/com.zipoapps.premiumhelper.ui.splash.PHSplashActivity:
+    name: iSaveMoney
+    reqt: 1
+    reql: 2025-04-02 14:43:35
+    hash: be5eba4cc646bdfb61dfbd7916476d1795f781ca
+    urls:
+        - https://play.google.com/store/apps/details?id=com.colpit.diamondcoming.isavemoney
+        - https://f-droid.org/en/packages/com.colpit.diamondcoming.isavemoney/
+        - https://google.com/search?q=com.colpit.diamondcoming.isavemoney
+
+jp.co.applibot.chiikawapocketgl/com.google.firebase.MessagingUnityPlayerActivity:
+    name: Chiikawa Pocket
+    reqt: 1
+    reql: 2025-04-02 12:48:32
+    hash: 3368fe06b41f9ada6deb6d2f5e327f74670230bf
+    urls:
+        - https://play.google.com/store/apps/details?id=jp.co.applibot.chiikawapocketgl
+        - https://f-droid.org/en/packages/jp.co.applibot.chiikawapocketgl/
+        - https://google.com/search?q=jp.co.applibot.chiikawapocketgl
+
+ru.tii.lkcomu/ru.tii.lkkcomu.mos.view.splash_screen.MosSplashScreenActivity:
+    name: Мой Мосэнергосбыт
+    reqt: 1
+    reql: 2025-04-02 12:29:29
+    hash: 362425c8578ebd7afc01c117a1906388f830da98
+    urls:
+        - https://play.google.com/store/apps/details?id=ru.tii.lkcomu
+        - https://f-droid.org/en/packages/ru.tii.lkcomu/
+        - https://google.com/search?q=ru.tii.lkcomu
+
+com.carfax.mycarfax/com.carfax.mycarfax.MainActivity:
+    name: CARFAX Car Care
+    reqt: 1
+    reql: 2025-04-02 11:20:36
+    hash: 38a87058ecb9b9d34fec19f68d8a24c3bcacfa77
+    urls:
+        - https://play.google.com/store/apps/details?id=com.carfax.mycarfax
+        - https://f-droid.org/en/packages/com.carfax.mycarfax/
+        - https://google.com/search?q=com.carfax.mycarfax
+
+pro.gif.videotogif.gifeditor.gifmaker/com.media.zatashima.studio.LoadingScreen:
+    name: GIF Maker-Editor Pro
+    reqt: 1
+    reql: 2025-04-02 11:04:39
+    hash: 8bccaba23a9fb179afbe9650644adbc5d060cc2a
+    urls:
+        - https://play.google.com/store/apps/details?id=pro.gif.videotogif.gifeditor.gifmaker
+        - https://f-droid.org/en/packages/pro.gif.videotogif.gifeditor.gifmaker/
+        - https://google.com/search?q=pro.gif.videotogif.gifeditor.gifmaker
+
+uk.co.novaware.telepass.android/it.telepass.appunica.SplashScreenActivity:
+    name: Telepass
+    reqt: 1
+    reql: 2025-04-02 10:30:31
+    hash: 9e0479d39159c605efc6522df98142bf468cb3af
+    urls:
+        - https://play.google.com/store/apps/details?id=uk.co.novaware.telepass.android
+        - https://f-droid.org/en/packages/uk.co.novaware.telepass.android/
+        - https://google.com/search?q=uk.co.novaware.telepass.android
+
+com.popcap.pvz/com.popcap.pvz.Main:
+    name: PvZ HD
+    reqt: 1
+    reql: 2025-04-02 09:30:59
+    hash: c4de388666b98a73c5dcba9dd3cf29911fe88af8
+    urls:
+        - https://play.google.com/store/apps/details?id=com.popcap.pvz
+        - https://f-droid.org/en/packages/com.popcap.pvz/
+        - https://google.com/search?q=com.popcap.pvz
+
+com.philips.ka.oneka.app/com.philips.ka.oneka.app.ui.splash.SplashActivity:
+    name: HomeID
+    reqt: 1
+    reql: 2025-04-02 09:18:26
+    hash: 86a233ed9d5f6c0c42f89ad615740d9500d80e16
+    urls:
+        - https://play.google.com/store/apps/details?id=com.philips.ka.oneka.app
+        - https://f-droid.org/en/packages/com.philips.ka.oneka.app/
+        - https://google.com/search?q=com.philips.ka.oneka.app
+
+com.fintables.fintables/com.fintables.MainActivity:
+    name: Fintables
+    reqt: 1
+    reql: 2025-04-02 09:12:28
+    hash: ddb71909b443d9d95971f4fc5797181996897b1b
+    urls:
+        - https://play.google.com/store/apps/details?id=com.fintables.fintables
+        - https://f-droid.org/en/packages/com.fintables.fintables/
+        - https://google.com/search?q=com.fintables.fintables
+
+org.fossify.thankyou/org.fossify.thankyou.activities.SplashActivity.Indigo:
+    name: Thank You
+    reqt: 1
+    reql: 2025-04-02 09:07:56
+    hash: 5c7773f50c2ffab05219a9a61b350ab30fbc5247
+    urls:
+        - https://play.google.com/store/apps/details?id=org.fossify.thankyou
+        - https://f-droid.org/en/packages/org.fossify.thankyou/
+        - https://google.com/search?q=org.fossify.thankyou
+
+com.iltstudios.racify/com.iltstudios.racify.MainActivity:
+    name: Racify
+    reqt: 1
+    reql: 2025-04-02 08:15:22
+    hash: e19f0bfeae6a9a3b6608359d46281daca63b5f3e
+    urls:
+        - https://play.google.com/store/apps/details?id=com.iltstudios.racify
+        - https://f-droid.org/en/packages/com.iltstudios.racify/
+        - https://google.com/search?q=com.iltstudios.racify
+
+mp3videoconverter.videotomp3.videotomp3converter/com.inshot.videotomp3.SplashActivity:
+    name: Convertidor de vídeo a MP3
+    reqt: 1
+    reql: 2025-04-02 06:00:00
+    hash: 5cd320a2bbc65d3e88aa1cc118ce937afe2660a1
+    urls:
+        - https://play.google.com/store/apps/details?id=mp3videoconverter.videotomp3.videotomp3converter
+        - https://f-droid.org/en/packages/mp3videoconverter.videotomp3.videotomp3converter/
+        - https://google.com/search?q=mp3videoconverter.videotomp3.videotomp3converter
+
+com.mentallabs.mentalhealth/com.mentallabs.mentalhealth.MainActivity:
+    name: Serene
+    reqt: 1
+    reql: 2025-04-02 05:58:36
+    hash: b249317aa964838d8017875fb549adda8e8a1732
+    urls:
+        - https://play.google.com/store/apps/details?id=com.mentallabs.mentalhealth
+        - https://f-droid.org/en/packages/com.mentallabs.mentalhealth/
+        - https://google.com/search?q=com.mentallabs.mentalhealth
+
+in.org.npci.upiapp/r.O:
+    name: BHIM
+    reqt: 1
+    reql: 2025-04-02 05:49:32
+    hash: c741fb364795d78b7236aaec40e23e12348a6dd6
+    urls:
+        - https://play.google.com/store/apps/details?id=in.org.npci.upiapp
+        - https://f-droid.org/en/packages/in.org.npci.upiapp/
+        - https://google.com/search?q=in.org.npci.upiapp
+
+com.LunariteStudio.WastelandStory/com.unity3d.player.UnityPlayerActivity:
+    name: Cuento del páramo
+    reqt: 1
+    reql: 2025-04-02 05:40:09
+    hash: fe7b8161dffea00d4684ad05f26e4031040ab273
+    urls:
+        - https://play.google.com/store/apps/details?id=com.LunariteStudio.WastelandStory
+        - https://f-droid.org/en/packages/com.LunariteStudio.WastelandStory/
+        - https://google.com/search?q=com.LunariteStudio.WastelandStory
+
+com.wclclottoapp.transactional/crc645a0b4d6b224518a5.SplashScreen:
+    name: Lotto Spot!
+    reqt: 1
+    reql: 2025-04-02 03:18:23
+    hash: a8af1b8dfa491e927687748cdb8fcfde3a4f207c
+    urls:
+        - https://play.google.com/store/apps/details?id=com.wclclottoapp.transactional
+        - https://f-droid.org/en/packages/com.wclclottoapp.transactional/
+        - https://google.com/search?q=com.wclclottoapp.transactional
+
+in.thirdwavecoffee.android/in.thirdwavecoffee.android.views.activities.SplashActivity:
+    name: Third Wave
+    reqt: 1
+    reql: 2025-04-02 03:06:00
+    hash: a3db5dc1583a523a3f77d410ad632a7391834888
+    urls:
+        - https://play.google.com/store/apps/details?id=in.thirdwavecoffee.android
+        - https://f-droid.org/en/packages/in.thirdwavecoffee.android/
+        - https://google.com/search?q=in.thirdwavecoffee.android
+
+cl.bci.sismo.mach/cl.bci.sismo.mach.machapp.splash.SplashActivity:
+    name: MACHBANK
+    reqt: 1
+    reql: 2025-04-02 03:05:26
+    hash: c9bdf465f9a5f8c68edc150fd3227a754d537462
+    urls:
+        - https://play.google.com/store/apps/details?id=cl.bci.sismo.mach
+        - https://f-droid.org/en/packages/cl.bci.sismo.mach/
+        - https://google.com/search?q=cl.bci.sismo.mach
+
+org.eu.thedoc.zettelnotes/org.eu.thedoc.zettelnotes.screens.MainActivity:
+    name: Zettel Notes
+    reqt: 1
+    reql: 2025-04-02 02:53:19
+    hash: 574e22a27f8fa6372f0ca5bc1afb24a62aba75b0
+    urls:
+        - https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes
+        - https://f-droid.org/en/packages/org.eu.thedoc.zettelnotes/
+        - https://google.com/search?q=org.eu.thedoc.zettelnotes
+
+com.discoverfinancial.mobile/c9b64f715.ed97ee0e8.a10fbe7a3.sd3dc16cc:
+    name: Discover
+    reqt: 1
+    reql: 2025-04-02 01:52:06
+    hash: c132502651aa5e890d2999f4e1de9398835323a2
+    urls:
+        - https://play.google.com/store/apps/details?id=com.discoverfinancial.mobile
+        - https://f-droid.org/en/packages/com.discoverfinancial.mobile/
+        - https://google.com/search?q=com.discoverfinancial.mobile
+
+io.foodvisor.foodvisor/io.foodvisor.foodvisor.app.splash_screen.SplashScreenActivity:
+    name: Foodvisor
+    reqt: 1
+    reql: 2025-04-02 01:20:44
+    hash: 109410d3a48fd828adaaf83970ac5afc08825019
+    urls:
+        - https://play.google.com/store/apps/details?id=io.foodvisor.foodvisor
+        - https://f-droid.org/en/packages/io.foodvisor.foodvisor/
+        - https://google.com/search?q=io.foodvisor.foodvisor
+
+ru.tinkoff.investing/ru.tinkoff.investing.feature.splash.impl.screens.splash.SplashActivity:
+    name: Инвестиции
+    reqt: 1
+    reql: 2025-04-02 00:46:56
+    hash: 4d35a5ae88d1c298dc23773efa5b8b2ae134859e
+    urls:
+        - https://play.google.com/store/apps/details?id=ru.tinkoff.investing
+        - https://f-droid.org/en/packages/ru.tinkoff.investing/
+        - https://google.com/search?q=ru.tinkoff.investing
+
+ru.stackit.mobileappkavkazkchkb/ru.stackit.mobileappkavkazkchkb.MainActivity:
+    name: Свет Онлайн
+    reqt: 1
+    reql: 2025-04-01 23:40:38
+    hash: 196e6b1273682880290cca05cb9c03bf1a68bcaf
+    urls:
+        - https://play.google.com/store/apps/details?id=ru.stackit.mobileappkavkazkchkb
+        - https://f-droid.org/en/packages/ru.stackit.mobileappkavkazkchkb/
+        - https://google.com/search?q=ru.stackit.mobileappkavkazkchkb
+
+com.bankalbilad.NewRMB/com.bankalbilad.NewRMB.BABRMB:
+    name: Albilad App
+    reqt: 1
+    reql: 2025-04-01 22:59:29
+    hash: 35d3e101b49fc1190626126248357f9dd0a92c28
+    urls:
+        - https://play.google.com/store/apps/details?id=com.bankalbilad.NewRMB
+        - https://f-droid.org/en/packages/com.bankalbilad.NewRMB/
+        - https://google.com/search?q=com.bankalbilad.NewRMB
+
+jp.co.netbk/jp.co.netbk.nbk.ui.activity.SplashActivity:
+    name: 住信SBI
+    reqt: 1
+    reql: 2025-04-01 22:48:08
+    hash: 39f6d78322c37216e6e1068aaa02e812980cbd33
+    urls:
+        - https://play.google.com/store/apps/details?id=jp.co.netbk
+        - https://f-droid.org/en/packages/jp.co.netbk/
+        - https://google.com/search?q=jp.co.netbk
+
+com.akissame.retroachievements/com.akissame.retroachievements.MainActivity:
+    name: Retro Achievements
+    reqt: 1
+    reql: 2025-04-01 22:43:27
+    hash: 38e2f4cc87735e7014ad1bac91db413c0c72e51a
+    urls:
+        - https://play.google.com/store/apps/details?id=com.akissame.retroachievements
+        - https://f-droid.org/en/packages/com.akissame.retroachievements/
+        - https://google.com/search?q=com.akissame.retroachievements
+
+py.com.essap.sigirci/py.com.essap.sigirci.MainActivity:
+    name: ESSAP
+    reqt: 1
+    reql: 2025-04-01 22:41:54
+    hash: b08e0520ea5d99ab12b7b1096bab23e0a52a5566
+    urls:
+        - https://play.google.com/store/apps/details?id=py.com.essap.sigirci
+        - https://f-droid.org/en/packages/py.com.essap.sigirci/
+        - https://google.com/search?q=py.com.essap.sigirci
+
+jp.co.westjr.android.icocaapp/crc64fa0dbc8111ab4fb7.MainActivity:
+    name: ICOCA
+    reqt: 1
+    reql: 2025-04-01 21:52:50
+    hash: 764d6303df6766308bb4bfaea6b74506e321a81a
+    urls:
+        - https://play.google.com/store/apps/details?id=jp.co.westjr.android.icocaapp
+        - https://f-droid.org/en/packages/jp.co.westjr.android.icocaapp/
+        - https://google.com/search?q=jp.co.westjr.android.icocaapp
+
+com.huawei.notepad/com.example.android.notepad.NotePadActivity:
+    name: Блокнот
+    reqt: 1
+    reql: 2025-04-01 20:08:26
+    hash: b9f3597a893e11187c7e54038d9af10df54947d9
+    urls:
+        - https://play.google.com/store/apps/details?id=com.huawei.notepad
+        - https://f-droid.org/en/packages/com.huawei.notepad/
+        - https://google.com/search?q=com.huawei.notepad
+
+com.carsifi.adapter/com.beardapps.mobile_auto_wirelles.MainActivity:
+    name: Carsifi
+    reqt: 1
+    reql: 2025-04-01 19:46:15
+    hash: e56787c2dc3797797cd796046b458b6e387f70c9
+    urls:
+        - https://play.google.com/store/apps/details?id=com.carsifi.adapter
+        - https://f-droid.org/en/packages/com.carsifi.adapter/
+        - https://google.com/search?q=com.carsifi.adapter
 
 com.bookshelf.prod/com.bookshelf.SplashActivity:
     name: Bookshelf
@@ -1170,16 +3220,6 @@ com.bookshelf.prod/com.bookshelf.SplashActivity:
         - https://play.google.com/store/apps/details?id=com.bookshelf.prod
         - https://f-droid.org/en/packages/com.bookshelf.prod/
         - https://google.com/search?q=com.bookshelf.prod
-
-com.talabat/com.talabat.FlutterLandingScreen:
-    name: talabat
-    reqt: 1
-    reql: 2025-04-01 15:12:17
-    hash: 57467368e737d313c3d17fcec41757b77415c36f
-    urls:
-        - https://play.google.com/store/apps/details?id=com.talabat
-        - https://f-droid.org/en/packages/com.talabat/
-        - https://google.com/search?q=com.talabat
 
 com.cashkaro/com.cashkaro.MainActivity:
     name: CashKaro
@@ -1391,16 +3431,6 @@ com.feral.frontier/com.unity3d.player.UnityPlayerActivity:
         - https://f-droid.org/en/packages/com.feral.frontier/
         - https://google.com/search?q=com.feral.frontier
 
-bipa.app.bipa/bipa.app.bipa.MainActivity:
-    name: Bipa
-    reqt: 1
-    reql: 2025-03-29 18:41:40
-    hash: 01130a92e4179843f9289038abb921f97541e85d
-    urls:
-        - https://play.google.com/store/apps/details?id=bipa.app.bipa
-        - https://f-droid.org/en/packages/bipa.app.bipa/
-        - https://google.com/search?q=bipa.app.bipa
-
 com.e2esoft.ivcam/com.e2esoft.ivcam.MainActivity:
     name: iVCam
     reqt: 1
@@ -1561,16 +3591,6 @@ com.instapro2.android/com.instagram.android.activity.MainTabActivity13:
         - https://f-droid.org/en/packages/com.instapro2.android/
         - https://google.com/search?q=com.instapro2.android
 
-zbiletem.zbiletem/zbiletem.zbiletem.LauncherActivity:
-    name: zbiletem
-    reqt: 1
-    reql: 2025-03-28 10:06:57
-    hash: ebea24896de1ef2662147b8c44ca476f20272adf
-    urls:
-        - https://play.google.com/store/apps/details?id=zbiletem.zbiletem
-        - https://f-droid.org/en/packages/zbiletem.zbiletem/
-        - https://google.com/search?q=zbiletem.zbiletem
-
 com.urbansharing.citybike.milan/no.urbaninfrastructure.bysykkel.ui.splash.SplashActivity:
     name: bikeMi
     reqt: 1
@@ -1661,16 +3681,6 @@ com.pedidosya/com.pedidosya.main.access.initialization.SplashActivity:
         - https://f-droid.org/en/packages/com.pedidosya/
         - https://google.com/search?q=com.pedidosya
 
-com.external.castle/com.gxgx.daqiandy.ui.splash.SplashActivity:
-    name: Castle
-    reqt: 1
-    reql: 2025-03-26 17:16:01
-    hash: 069f8b05ff8b8ec1b3e929033b2ddd0caf370c70
-    urls:
-        - https://play.google.com/store/apps/details?id=com.external.castle
-        - https://f-droid.org/en/packages/com.external.castle/
-        - https://google.com/search?q=com.external.castle
-
 com.urbandroid.kinestop/com.urbandroid.kinestop.MainActivity:
     name: KineStop
     reqt: 1
@@ -1700,16 +3710,6 @@ edu.vit.vtop.androidapp/edu.vit.vtop.androidapp.MainActivity:
         - https://play.google.com/store/apps/details?id=edu.vit.vtop.androidapp
         - https://f-droid.org/en/packages/edu.vit.vtop.androidapp/
         - https://google.com/search?q=edu.vit.vtop.androidapp
-
-io.github.lime3ds.android/org.citra.citra_emu.ui.main.MainActivity:
-    name: Azahar
-    reqt: 1
-    reql: 2025-03-26 13:01:27
-    hash: 6d67e7538f2db239770fe84765f6c1c3d17bf4cc
-    urls:
-        - https://play.google.com/store/apps/details?id=io.github.lime3ds.android
-        - https://f-droid.org/en/packages/io.github.lime3ds.android/
-        - https://google.com/search?q=io.github.lime3ds.android
 
 com.shadeed.z4kplus/com.shadeed.ibopro.MainActivity:
     name: 4K Player VIP
@@ -2291,16 +4291,6 @@ fr.orqual.monortho/com.tns.NativeScriptActivity:
         - https://f-droid.org/en/packages/fr.orqual.monortho/
         - https://google.com/search?q=fr.orqual.monortho
 
-com.thousandshores.tribit/com.thousandshores.tribit.modulelogin.activity.FirstActivity:
-    name: Tribit
-    reqt: 1
-    reql: 2025-03-18 06:28:39
-    hash: 3cc9d185f5b2b638f75731464c6dc233b109cb2c
-    urls:
-        - https://play.google.com/store/apps/details?id=com.thousandshores.tribit
-        - https://f-droid.org/en/packages/com.thousandshores.tribit/
-        - https://google.com/search?q=com.thousandshores.tribit
-
 pravbeseda.spendcontrol.premium/pravbeseda.spendcontrol.MainActivity:
     name: Expense Tracker
     reqt: 1
@@ -2340,16 +4330,6 @@ com.th3rdwave/com.th3rdwave.MainActivity:
         - https://play.google.com/store/apps/details?id=com.th3rdwave
         - https://f-droid.org/en/packages/com.th3rdwave/
         - https://google.com/search?q=com.th3rdwave
-
-au.com.optus.selfservice/au.com.optus.express.moa.onboarding.SplashActivity:
-    name: My Optus
-    reqt: 1
-    reql: 2025-03-17 13:54:38
-    hash: 7268f1f37584c9f4cf7f5a46c8af6abd91d979be
-    urls:
-        - https://play.google.com/store/apps/details?id=au.com.optus.selfservice
-        - https://f-droid.org/en/packages/au.com.optus.selfservice/
-        - https://google.com/search?q=au.com.optus.selfservice
 
 com.grandsons.dictboxfa/com.grandsons.dictbox.MainActivity:
     name: Dict Box
@@ -2921,16 +4901,6 @@ au.gov.qld.tmr.mdl.app/com.gemalto.ddl.dev.MainActivity:
         - https://f-droid.org/en/packages/au.gov.qld.tmr.mdl.app/
         - https://google.com/search?q=au.gov.qld.tmr.mdl.app
 
-com.hcoinnovation.tcqquran/com.hcoinnovation.tcqquran.MainActivity:
-    name: The Clear Quran
-    reqt: 1
-    reql: 2025-03-10 20:26:02
-    hash: d4cc8cf8fcc98fbe2d7c1a609c8158ccdc136102
-    urls:
-        - https://play.google.com/store/apps/details?id=com.hcoinnovation.tcqquran
-        - https://f-droid.org/en/packages/com.hcoinnovation.tcqquran/
-        - https://google.com/search?q=com.hcoinnovation.tcqquran
-
 com.plebstr.client/com.plebstr.client.MainActivity:
     name: Openvibe
     reqt: 1
@@ -3111,16 +5081,6 @@ com.sega.soccer.eleven/com.sigames.fmm.FMHMain:
         - https://f-droid.org/en/packages/com.sega.soccer.eleven/
         - https://google.com/search?q=com.sega.soccer.eleven
 
-au.gov.nsw.onegov.fuelcheckapp/au.gov.nsw.onegov.fuelmpp.android.ui.MainActivity:
-    name: NSW FuelCheck
-    reqt: 1
-    reql: 2025-03-08 19:05:12
-    hash: 88fc376799d496a684c3effeb0bbe30a1a47f22d
-    urls:
-        - https://play.google.com/store/apps/details?id=au.gov.nsw.onegov.fuelcheckapp
-        - https://f-droid.org/en/packages/au.gov.nsw.onegov.fuelcheckapp/
-        - https://google.com/search?q=au.gov.nsw.onegov.fuelcheckapp
-
 com.cover_corp.holoplus/com.cover_corp.holoplus.MainActivity:
     name: holoplus
     reqt: 1
@@ -3270,16 +5230,6 @@ com.isaku.app/com.isaku.app.Activity.SplashScreen.SplashScreenActivityAlias:
         - https://play.google.com/store/apps/details?id=com.isaku.app
         - https://f-droid.org/en/packages/com.isaku.app/
         - https://google.com/search?q=com.isaku.app
-
-io.a24go.android.dev/com.yourtrainer.android.splash.SplashActivity:
-    name: 24GO
-    reqt: 1
-    reql: 2025-03-07 04:56:22
-    hash: 4d99637bfba835fdb6b3259629e2fa09e403c140
-    urls:
-        - https://play.google.com/store/apps/details?id=io.a24go.android.dev
-        - https://f-droid.org/en/packages/io.a24go.android.dev/
-        - https://google.com/search?q=io.a24go.android.dev
 
 com.staralliance.navigator/com.staralliance.navigator.onboarding.view.OnboardingActivity:
     name: Star Alliance
@@ -3501,16 +5451,6 @@ com.tournaments.realmaster/com.tournaments.realmaster.activity.SplashActivity:
         - https://f-droid.org/en/packages/com.tournaments.realmaster/
         - https://google.com/search?q=com.tournaments.realmaster
 
-com.elishaazaria.sayboard/com.elishaazaria.sayboard.SettingsActivity:
-    name: Sayboard
-    reqt: 1
-    reql: 2025-03-05 17:16:21
-    hash: a6f2ff4cd2996f0e13c37dc23296b13be2d39698
-    urls:
-        - https://play.google.com/store/apps/details?id=com.elishaazaria.sayboard
-        - https://f-droid.org/en/packages/com.elishaazaria.sayboard/
-        - https://google.com/search?q=com.elishaazaria.sayboard
-
 de.halfreal.clipboardactions/de.halfreal.clipboardactions.v2.MainActivity:
     name: Clipboard Actions
     reqt: 1
@@ -3520,16 +5460,6 @@ de.halfreal.clipboardactions/de.halfreal.clipboardactions.v2.MainActivity:
         - https://play.google.com/store/apps/details?id=de.halfreal.clipboardactions
         - https://f-droid.org/en/packages/de.halfreal.clipboardactions/
         - https://google.com/search?q=de.halfreal.clipboardactions
-
-dk.danskebank.mobilepay/com.dnb.vipps.android.startup.ui.StartupActivity:
-    name: MobilePay
-    reqt: 1
-    reql: 2025-03-05 16:24:03
-    hash: 0172ae1e242ff8f3aa7b31be1bdf2c8207afdc2c
-    urls:
-        - https://play.google.com/store/apps/details?id=dk.danskebank.mobilepay
-        - https://f-droid.org/en/packages/dk.danskebank.mobilepay/
-        - https://google.com/search?q=dk.danskebank.mobilepay
 
 asia.zsoft.subtranslate/asia.zsoft.subtranslate.view.MainActivity:
     name: zTranslate
@@ -4081,16 +6011,6 @@ com.protostar.starfish/com.unity3d.player.UnityPlayerActivity:
         - https://f-droid.org/en/packages/com.protostar.starfish/
         - https://google.com/search?q=com.protostar.starfish
 
-one.jwr.interstellar/one.jwr.interstellar.MainActivity:
-    name: Interstellar
-    reqt: 1
-    reql: 2025-03-01 18:22:26
-    hash: f9c4ffa0000949ac2521ee38988fdd5c75966d14
-    urls:
-        - https://play.google.com/store/apps/details?id=one.jwr.interstellar
-        - https://f-droid.org/en/packages/one.jwr.interstellar/
-        - https://google.com/search?q=one.jwr.interstellar
-
 com.miniclip.carrom/com.miniclip.carrom.CarromActivity:
     name: Carrom Disc Pool
     reqt: 1
@@ -4221,16 +6141,6 @@ com.olimsoft.android.oplayer.pro/com.olimsoft.android.oplayer.StartActivity:
         - https://f-droid.org/en/packages/com.olimsoft.android.oplayer.pro/
         - https://google.com/search?q=com.olimsoft.android.oplayer.pro
 
-com.bbt.transcend/com.bbt.transcend.MainActivity:
-    name: Transcend
-    reqt: 1
-    reql: 2025-03-01 09:40:56
-    hash: 83453c49645ec75ff62ce84704768294c09f9f26
-    urls:
-        - https://play.google.com/store/apps/details?id=com.bbt.transcend
-        - https://f-droid.org/en/packages/com.bbt.transcend/
-        - https://google.com/search?q=com.bbt.transcend
-
 fr.cannes.civique/fr.cannes.civique.MainActivity:
     name: CannesCivique
     reqt: 1
@@ -4350,16 +6260,6 @@ com.zenful.note/com.zenful.note.ui.MainActivity:
         - https://play.google.com/store/apps/details?id=com.zenful.note
         - https://f-droid.org/en/packages/com.zenful.note/
         - https://google.com/search?q=com.zenful.note
-
-com.samsung.android.sm_cn/com.samsung.android.sm.ui.ShortcutIconLauncher:
-    name: Smart Manager
-    reqt: 1
-    reql: 2025-03-01 06:02:31
-    hash: 3fb9c15bb6437d628596cbc04ea107394cfced1c
-    urls:
-        - https://play.google.com/store/apps/details?id=com.samsung.android.sm_cn
-        - https://f-droid.org/en/packages/com.samsung.android.sm_cn/
-        - https://google.com/search?q=com.samsung.android.sm_cn
 
 com.tradevan.android.forms/com.tradevan.android.forms.ui.activity.SplashActivity:
     name: EZ Way
@@ -5382,16 +7282,6 @@ com.synology.activeinsight/com.synology.activeinsight.component.activity.SplashA
         - https://f-droid.org/en/packages/com.synology.activeinsight/
         - https://google.com/search?q=com.synology.activeinsight
 
-com.beutea.app/com.beutea.app.MainActivity:
-    name: Beutea
-    reqt: 1
-    reql: 2025-02-16 09:40:57
-    hash: b1dae2d1f9460ab14dd9a1eb62b8cc902efc9e79
-    urls:
-        - https://play.google.com/store/apps/details?id=com.beutea.app
-        - https://f-droid.org/en/packages/com.beutea.app/
-        - https://google.com/search?q=com.beutea.app
-
 nl.cineville.cineville/nl.cineville.cineville.MainActivity:
     name: Cineville
     reqt: 1
@@ -5792,16 +7682,6 @@ ro.ghiseul.mobile/com.tremend.ghiseul.ui.main.MainActivity:
         - https://f-droid.org/en/packages/ro.ghiseul.mobile/
         - https://google.com/search?q=ro.ghiseul.mobile
 
-com.sovworks.edslite/com.sovworks.eds.android.filemanager.activities.FileManagerActivity:
-    name: EDS Lite
-    reqt: 1
-    reql: 2025-02-11 14:17:04
-    hash: 60ccb2beb59559a169b6f3ccb54ed35c19038eac
-    urls:
-        - https://play.google.com/store/apps/details?id=com.sovworks.edslite
-        - https://f-droid.org/en/packages/com.sovworks.edslite/
-        - https://google.com/search?q=com.sovworks.edslite
-
 com.sfr.android.moncompte/com.sfr.android.moncompte.MonCompteMain:
     name: SFR & Moi
     reqt: 1
@@ -5962,16 +7842,6 @@ app.cheatcut.client/app.cheatcut.client.MainActivity:
         - https://f-droid.org/en/packages/app.cheatcut.client/
         - https://google.com/search?q=app.cheatcut.client
 
-com.wizards.winter_orb/com.wizards.winter_orb.features.loading.LoadingActivity:
-    name: Companion
-    reqt: 1
-    reql: 2025-02-09 22:50:23
-    hash: 18dc02c90241f778454eda347dbb01c2f15cfe49
-    urls:
-        - https://play.google.com/store/apps/details?id=com.wizards.winter_orb
-        - https://f-droid.org/en/packages/com.wizards.winter_orb/
-        - https://google.com/search?q=com.wizards.winter_orb
-
 com.roasterygames.devicestycoon/com.roasterygames.devicestycoon.MainActivity:
     name: Devices Tycoon
     reqt: 1
@@ -6021,16 +7891,6 @@ com.nttdocomo.android.dpoint/com.nttdocomo.android.dpoint.MainActivity:
         - https://play.google.com/store/apps/details?id=com.nttdocomo.android.dpoint
         - https://f-droid.org/en/packages/com.nttdocomo.android.dpoint/
         - https://google.com/search?q=com.nttdocomo.android.dpoint
-
-org.altruist.BajajExperia/com.bfl.superapp.onboarding.revamp.activity.SplashActivity:
-    name: Bajaj Finserv
-    reqt: 1
-    reql: 2025-02-09 13:17:40
-    hash: 44306c55d5588af6c378fde70a6a7f97794a6f15
-    urls:
-        - https://play.google.com/store/apps/details?id=org.altruist.BajajExperia
-        - https://f-droid.org/en/packages/org.altruist.BajajExperia/
-        - https://google.com/search?q=org.altruist.BajajExperia
 
 com.black.wallpaper.amold.dark.wallpaper/com.BlackWallpaper.DarkWallpaper.AmoldWallpaper.UI.SplashActivity:
     name: Black Wallpaper
@@ -6702,16 +8562,6 @@ com.hihonor.HnMultiScreenShot/com.android.systemui.flashlight.FlashlightActivity
         - https://f-droid.org/en/packages/com.hihonor.HnMultiScreenShot/
         - https://google.com/search?q=com.hihonor.HnMultiScreenShot
 
-io.github.printn.humanbenchmark/io.github.printn.humanbenchmark.MainActivity:
-    name: Human Benchmark
-    reqt: 1
-    reql: 2025-02-04 18:29:18
-    hash: db82fad8511a21e60e46992d1928b43477c58d6a
-    urls:
-        - https://play.google.com/store/apps/details?id=io.github.printn.humanbenchmark
-        - https://f-droid.org/en/packages/io.github.printn.humanbenchmark/
-        - https://google.com/search?q=io.github.printn.humanbenchmark
-
 jp.pioneer.carsync/jp.pioneer.carsync.presentation.view.activity.MainActivity:
     name: Smart Sync
     reqt: 1
@@ -6802,16 +8652,6 @@ tv.vhx.worldofwonder/tv.vhx.LauncherActivity:
         - https://play.google.com/store/apps/details?id=tv.vhx.worldofwonder
         - https://f-droid.org/en/packages/tv.vhx.worldofwonder/
         - https://google.com/search?q=tv.vhx.worldofwonder
-
-com.transsion.phoenix/com.proj.sun.activity.LaunchActivity:
-    name: Phoenix
-    reqt: 1
-    reql: 2025-02-04 09:07:39
-    hash: dd6263beb0dde7027e65a13442b6c018c549f42d
-    urls:
-        - https://play.google.com/store/apps/details?id=com.transsion.phoenix
-        - https://f-droid.org/en/packages/com.transsion.phoenix/
-        - https://google.com/search?q=com.transsion.phoenix
 
 com.zhenxiang.nyaa.debug/com.zhenxiang.nyaa.MainActivity:
     name: Nyanpasu
@@ -7573,16 +9413,6 @@ com.handynorth.moneywise/com.handynorth.moneywise.MoneyWise:
         - https://f-droid.org/en/packages/com.handynorth.moneywise/
         - https://google.com/search?q=com.handynorth.moneywise
 
-com.vblast.flipaclip/com.vblast.feature_startup.presentation.StartupActivity:
-    name: FlipaClip
-    reqt: 1
-    reql: 2025-01-29 01:16:42
-    hash: f800d0d4c625637af2d0f750e7db1fdc3a58fb51
-    urls:
-        - https://play.google.com/store/apps/details?id=com.vblast.flipaclip
-        - https://f-droid.org/en/packages/com.vblast.flipaclip/
-        - https://google.com/search?q=com.vblast.flipaclip
-
 com.kemendikbudhr.ekehadiran_dikbud/com.kemendikbudhr.ekehadiran_dikbud.MainActivity:
     name: Asigo Kemdikbudristek
     reqt: 1
@@ -7942,16 +9772,6 @@ com.ei.payment.app.cm/com.ei.payment.app.MainActivity:
         - https://play.google.com/store/apps/details?id=com.ei.payment.app.cm
         - https://f-droid.org/en/packages/com.ei.payment.app.cm/
         - https://google.com/search?q=com.ei.payment.app.cm
-
-com.ctm/com.ctm.splash.page.SplashActivity:
-    name: CTM Buddy
-    reqt: 1
-    reql: 2025-01-24 02:20:20
-    hash: d9c484f49ad4848ffb4311bda091e921618dc941
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ctm
-        - https://f-droid.org/en/packages/com.ctm/
-        - https://google.com/search?q=com.ctm
 
 com.relayrides.android.relayrides/com.turo.home.home.presentation.HomeActivity:
     name: Turo
@@ -8872,1625 +10692,3 @@ com.sec.yosemite.tab/com.sec.msc.android.yosemite.ui.home.HomeScreenActivity:
         - https://play.google.com/store/apps/details?id=com.sec.yosemite.tab
         - https://f-droid.org/en/packages/com.sec.yosemite.tab/
         - https://google.com/search?q=com.sec.yosemite.tab
-
-com.ktwapps.soundmeter/com.ktwapps.soundmeter.MainActivity:
-    name: Sonomètre
-    reqt: 1
-    reql: 2025-01-13 13:00:13
-    hash: a42fef3c222c465771fb5b04eb8c34ac65609009
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ktwapps.soundmeter
-        - https://f-droid.org/en/packages/com.ktwapps.soundmeter/
-        - https://google.com/search?q=com.ktwapps.soundmeter
-
-com.bashsoftware.boycott/com.bashsoftware.boycott.MainActivity:
-    name: No Thanks!
-    reqt: 1
-    reql: 2025-01-13 12:18:31
-    hash: 5bb01f5094bf31763627c504d55c24c97dd89d78
-    urls:
-        - https://play.google.com/store/apps/details?id=com.bashsoftware.boycott
-        - https://f-droid.org/en/packages/com.bashsoftware.boycott/
-        - https://google.com/search?q=com.bashsoftware.boycott
-
-nz.co.cooperativebank/nz.co.cooperativebank.ui.auth.AuthActivity:
-    name: Co-op
-    reqt: 1
-    reql: 2025-01-13 12:01:32
-    hash: 1140bf1eaa732003b0f00357890b1f06c2818e2e
-    urls:
-        - https://play.google.com/store/apps/details?id=nz.co.cooperativebank
-        - https://f-droid.org/en/packages/nz.co.cooperativebank/
-        - https://google.com/search?q=nz.co.cooperativebank
-
-pl.gov.cez.mojeikp/pl.gov.csioz.pl.mpacjent.ui.MainActivity:
-    name: mojeIKP
-    reqt: 1
-    reql: 2025-01-13 08:17:19
-    hash: 5b4e9918e334baf9d9798b5ea92d7f4d6f9283a0
-    urls:
-        - https://play.google.com/store/apps/details?id=pl.gov.cez.mojeikp
-        - https://f-droid.org/en/packages/pl.gov.cez.mojeikp/
-        - https://google.com/search?q=pl.gov.cez.mojeikp
-
-dif.tech.plata/dif.tech.plata.platform.feature.root.RootActivity.Main:
-    name: Plata
-    reqt: 1
-    reql: 2025-01-13 05:57:36
-    hash: de75bc7f14519e4cd7a0ae0a43778aa6acaecec5
-    urls:
-        - https://play.google.com/store/apps/details?id=dif.tech.plata
-        - https://f-droid.org/en/packages/dif.tech.plata/
-        - https://google.com/search?q=dif.tech.plata
-
-com.ifs.banking.fiid3337/com.banking.bankinglibrary.activities.SplashActivity:
-    name: AZFCU
-    reqt: 1
-    reql: 2025-01-13 03:10:49
-    hash: bc5e13c162f261226594c9a3e1a8eb3de6ee829e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ifs.banking.fiid3337
-        - https://f-droid.org/en/packages/com.ifs.banking.fiid3337/
-        - https://google.com/search?q=com.ifs.banking.fiid3337
-
-com.academia.academia/com.academia.ui.activities.SplashActivity:
-    name: Academia
-    reqt: 1
-    reql: 2025-01-13 00:16:07
-    hash: 90063e03128e1911074610c2440a28dccbd560b0
-    urls:
-        - https://play.google.com/store/apps/details?id=com.academia.academia
-        - https://f-droid.org/en/packages/com.academia.academia/
-        - https://google.com/search?q=com.academia.academia
-
-sksa.aa.customapps/sksa.aa.customapps.MainActivity:
-    name: AAAD
-    reqt: 1
-    reql: 2025-01-12 20:23:09
-    hash: 1691d4bf4c41bce40ca3fafab3a4387e684871a6
-    urls:
-        - https://play.google.com/store/apps/details?id=sksa.aa.customapps
-        - https://f-droid.org/en/packages/sksa.aa.customapps/
-        - https://google.com/search?q=sksa.aa.customapps
-
-com.grimkitty.nexitron/systems.altimit.rpgmakermv.WebPlayerActivity:
-    name: 'Geometry Dash: Nexitron'
-    reqt: 1
-    reql: 2025-01-12 20:09:12
-    hash: 6f3984be505e560faa161a9d72d09c7a1219e3cf
-    urls:
-        - https://play.google.com/store/apps/details?id=com.grimkitty.nexitron
-        - https://f-droid.org/en/packages/com.grimkitty.nexitron/
-        - https://google.com/search?q=com.grimkitty.nexitron
-
-com.belk.android.belk/com.zoontek.rnbootsplash.RNBootSplashActivity:
-    name: Belk
-    reqt: 1
-    reql: 2025-01-12 19:45:05
-    hash: b3856ab573fe0ff006893cb593e273c8a47d797f
-    urls:
-        - https://play.google.com/store/apps/details?id=com.belk.android.belk
-        - https://f-droid.org/en/packages/com.belk.android.belk/
-        - https://google.com/search?q=com.belk.android.belk
-
-com.jazibkhan.equalizer/com.zipoapps.premiumhelper.ui.splash.PHSplashActivity:
-    name: Equalizer
-    reqt: 1
-    reql: 2025-01-12 13:03:54
-    hash: 89cfe21dabbaf498f4142195228f6fcb25efc63c
-    urls:
-        - https://play.google.com/store/apps/details?id=com.jazibkhan.equalizer
-        - https://f-droid.org/en/packages/com.jazibkhan.equalizer/
-        - https://google.com/search?q=com.jazibkhan.equalizer
-
-net.atlasclient.atlaspe/com.mojang.minecraftpe.MainActivity:
-    name: Atlas Client
-    reqt: 1
-    reql: 2025-01-12 07:51:54
-    hash: aae5f0d0e8779b9ea43c1913437c44bb827a3bc3
-    urls:
-        - https://play.google.com/store/apps/details?id=net.atlasclient.atlaspe
-        - https://f-droid.org/en/packages/net.atlasclient.atlaspe/
-        - https://google.com/search?q=net.atlasclient.atlaspe
-
-com.psperl.projectM/com.psperl.prjM.MainActivity:
-    name: projectM Pro
-    reqt: 1
-    reql: 2025-01-12 07:02:01
-    hash: 1370c588ec89bb2ef28671730e4efac0443bf177
-    urls:
-        - https://play.google.com/store/apps/details?id=com.psperl.projectM
-        - https://f-droid.org/en/packages/com.psperl.projectM/
-        - https://google.com/search?q=com.psperl.projectM
-
-com.boi.ua.android/com.boi.ua.MainActivity:
-    name: BOI Mobile
-    reqt: 1
-    reql: 2025-01-12 06:22:13
-    hash: 22a6d3f590c03188de823c9a8a438ada1f2219d0
-    urls:
-        - https://play.google.com/store/apps/details?id=com.boi.ua.android
-        - https://f-droid.org/en/packages/com.boi.ua.android/
-        - https://google.com/search?q=com.boi.ua.android
-
-com.kaigan.simulacra/com.kaigan.simulacra.MainActivity:
-    name: SIMULACRA
-    reqt: 1
-    reql: 2025-01-12 06:18:04
-    hash: 07eebd2bcf4b875d2ad65350bd8a57731d0c252c
-    urls:
-        - https://play.google.com/store/apps/details?id=com.kaigan.simulacra
-        - https://f-droid.org/en/packages/com.kaigan.simulacra/
-        - https://google.com/search?q=com.kaigan.simulacra
-
-ai.rumik.ira.twa/ai.rumik.ira.twa.MainActivity:
-    name: Ira
-    reqt: 1
-    reql: 2025-01-12 05:03:20
-    hash: 9f13d8ff44335ca6ef9f7e794e30f4cd5eb3fa05
-    urls:
-        - https://play.google.com/store/apps/details?id=ai.rumik.ira.twa
-        - https://f-droid.org/en/packages/ai.rumik.ira.twa/
-        - https://google.com/search?q=ai.rumik.ira.twa
-
-com.cubeSuite/com.cubeSuite.activitys.StartActivity:
-    name: CubeSuit
-    reqt: 1
-    reql: 2025-01-12 01:24:19
-    hash: 8d541a3fcbe38d9fda82240407385e691db9f7b3
-    urls:
-        - https://play.google.com/store/apps/details?id=com.cubeSuite
-        - https://f-droid.org/en/packages/com.cubeSuite/
-        - https://google.com/search?q=com.cubeSuite
-
-com.dwabtech.vexvia/com.dwabtech.tourneyview.activities.MainActivity:
-    name: VEX via
-    reqt: 1
-    reql: 2025-01-12 00:45:00
-    hash: ad0afc0acd2a39a1fc65f01969951a5c65f23054
-    urls:
-        - https://play.google.com/store/apps/details?id=com.dwabtech.vexvia
-        - https://f-droid.org/en/packages/com.dwabtech.vexvia/
-        - https://google.com/search?q=com.dwabtech.vexvia
-
-com.vitotechnology.sky.tonight.map.star.walk/com.unity3d.player.UnityPlayerActivity:
-    name: Sky Tonight
-    reqt: 1
-    reql: 2025-01-11 23:21:22
-    hash: 6c65807cf83a224aa2f4d357131eedb7d4d045bf
-    urls:
-        - https://play.google.com/store/apps/details?id=com.vitotechnology.sky.tonight.map.star.walk
-        - https://f-droid.org/en/packages/com.vitotechnology.sky.tonight.map.star.walk/
-        - https://google.com/search?q=com.vitotechnology.sky.tonight.map.star.walk
-
-social.breeze.breeze_app/social.breeze.breeze_app.MainActivity:
-    name: Breeze
-    reqt: 1
-    reql: 2025-01-11 22:03:34
-    hash: 229232c240c7ffdb63996dd6aeb181fed8d04c14
-    urls:
-        - https://play.google.com/store/apps/details?id=social.breeze.breeze_app
-        - https://f-droid.org/en/packages/social.breeze.breeze_app/
-        - https://google.com/search?q=social.breeze.breeze_app
-
-com.syniva.syniva/com.example.webview.MainActivity:
-    name: SYNIVA
-    reqt: 1
-    reql: 2025-01-11 21:00:32
-    hash: 8ed79e6ee5fca998c63f26de9c6aa2db4ecd8dca
-    urls:
-        - https://play.google.com/store/apps/details?id=com.syniva.syniva
-        - https://f-droid.org/en/packages/com.syniva.syniva/
-        - https://google.com/search?q=com.syniva.syniva
-
-com.wirelessalien.zipxtract/com.wirelessalien.zipxtract.FragmentActivity:
-    name: ZipXtract
-    reqt: 1
-    reql: 2025-01-11 18:32:12
-    hash: 01867ed30196f1e2df06494e1bc1b99214c40d2a
-    urls:
-        - https://play.google.com/store/apps/details?id=com.wirelessalien.zipxtract
-        - https://f-droid.org/en/packages/com.wirelessalien.zipxtract/
-        - https://google.com/search?q=com.wirelessalien.zipxtract
-
-com.flasharch.player/com.flasharch.player.MainActivity:
-    name: FlashArch
-    reqt: 1
-    reql: 2025-01-11 17:38:01
-    hash: ca57517184945b48267e01086db1264d67f4e541
-    urls:
-        - https://play.google.com/store/apps/details?id=com.flasharch.player
-        - https://f-droid.org/en/packages/com.flasharch.player/
-        - https://google.com/search?q=com.flasharch.player
-
-com.pairvpn/com.pairvpn.MainActivity:
-    name: PairVPN
-    reqt: 1
-    reql: 2025-01-11 16:29:30
-    hash: b3269b72825640c3645f17f9d4679db6b7f72690
-    urls:
-        - https://play.google.com/store/apps/details?id=com.pairvpn
-        - https://f-droid.org/en/packages/com.pairvpn/
-        - https://google.com/search?q=com.pairvpn
-
-videoplayer.videodownloader.downloader/videoplayer.videodownloader.downloader.twelve.activity.SplashActivity:
-    name: Загрузчик любых видео
-    reqt: 1
-    reql: 2025-01-11 15:28:53
-    hash: 5f448187fa2ef571f9fe4213420d1009a6ec0b70
-    urls:
-        - https://play.google.com/store/apps/details?id=videoplayer.videodownloader.downloader
-        - https://f-droid.org/en/packages/videoplayer.videodownloader.downloader/
-        - https://google.com/search?q=videoplayer.videodownloader.downloader
-
-com.et.market/com.et.market.activities.Splash:
-    name: ET Markets
-    reqt: 1
-    reql: 2025-01-11 14:27:43
-    hash: 0263ba3ddab9e7457558e069bd794bb795de789a
-    urls:
-        - https://play.google.com/store/apps/details?id=com.et.market
-        - https://f-droid.org/en/packages/com.et.market/
-        - https://google.com/search?q=com.et.market
-
-com.lge.tonentalkplus.tonentalkfree/com.lge.tonentalkfree.activity.IntroActivity:
-    name: LG TONE Free
-    reqt: 1
-    reql: 2025-01-11 13:38:38
-    hash: 3c9fbc2a8bb3a1755e86ec36547d4b59e69c4fcc
-    urls:
-        - https://play.google.com/store/apps/details?id=com.lge.tonentalkplus.tonentalkfree
-        - https://f-droid.org/en/packages/com.lge.tonentalkplus.tonentalkfree/
-        - https://google.com/search?q=com.lge.tonentalkplus.tonentalkfree
-
-jp.gr.java_conf.hdak.drawer/jp.gr.java_conf.hdak.drawer.MainActivity:
-    name: Draweroid
-    reqt: 1
-    reql: 2025-01-11 13:04:04
-    hash: 3ec6e0104114e40141623d280994c02cfc9594f2
-    urls:
-        - https://play.google.com/store/apps/details?id=jp.gr.java_conf.hdak.drawer
-        - https://f-droid.org/en/packages/jp.gr.java_conf.hdak.drawer/
-        - https://google.com/search?q=jp.gr.java_conf.hdak.drawer
-
-com.rectv.shot/com.rectv.shot.ui.activities.SplashActivity:
-    name: REC TV
-    reqt: 1
-    reql: 2025-01-11 09:01:00
-    hash: 4a12d4558f9c26d875ecbc081648f2e35d7bc7ec
-    urls:
-        - https://play.google.com/store/apps/details?id=com.rectv.shot
-        - https://f-droid.org/en/packages/com.rectv.shot/
-        - https://google.com/search?q=com.rectv.shot
-
-dh3games.couplesquizmrandmrs/dh3games.couplesquizmrandmrs.MainActivity:
-    name: Couples Quiz Game
-    reqt: 1
-    reql: 2025-01-11 07:22:58
-    hash: bc5f09c233f69a23f9091673330c59d3d3c00a60
-    urls:
-        - https://play.google.com/store/apps/details?id=dh3games.couplesquizmrandmrs
-        - https://f-droid.org/en/packages/dh3games.couplesquizmrandmrs/
-        - https://google.com/search?q=dh3games.couplesquizmrandmrs
-
-com.ratp.toscane/com.is.android.views.MainInstantSystem:
-    name: at bus
-    reqt: 1
-    reql: 2025-01-11 06:59:25
-    hash: 66d993ed9720da876d5ccc089d74b1259b41b6fa
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ratp.toscane
-        - https://f-droid.org/en/packages/com.ratp.toscane/
-        - https://google.com/search?q=com.ratp.toscane
-
-org.diasurgical.devilutionx/org.diasurgical.devilutionx.DevilutionXSDLActivity:
-    name: DevilutionX
-    reqt: 1
-    reql: 2025-01-11 05:46:24
-    hash: 010335025d5b6e63eb641c94b51503b3f40c64ba
-    urls:
-        - https://play.google.com/store/apps/details?id=org.diasurgical.devilutionx
-        - https://f-droid.org/en/packages/org.diasurgical.devilutionx/
-        - https://google.com/search?q=org.diasurgical.devilutionx
-
-money.fold.marble/money.fold.marble.ui.screen.splash.SplashActivity_original:
-    name: Fold
-    reqt: 1
-    reql: 2025-01-11 04:29:39
-    hash: ce3d560a8ad80d74008e00efe92f4cf8f1c2cbc8
-    urls:
-        - https://play.google.com/store/apps/details?id=money.fold.marble
-        - https://f-droid.org/en/packages/money.fold.marble/
-        - https://google.com/search?q=money.fold.marble
-
-com.mhd.flasher.fseries/crc64e56b9474bf160fa2.SplashActivity:
-    name: MHD Flasher
-    reqt: 1
-    reql: 2025-01-11 02:47:47
-    hash: 972f9875eaadbe97b017070aba6ee0b27898dd0b
-    urls:
-        - https://play.google.com/store/apps/details?id=com.mhd.flasher.fseries
-        - https://f-droid.org/en/packages/com.mhd.flasher.fseries/
-        - https://google.com/search?q=com.mhd.flasher.fseries
-
-blue.tokimeki.tokimeki/blue.tokimeki.tokimeki.MainActivity:
-    name: TOKIMEKI
-    reqt: 1
-    reql: 2025-01-11 02:40:35
-    hash: b6b7145718a44709af7e51d95a50421fbd79051d
-    urls:
-        - https://play.google.com/store/apps/details?id=blue.tokimeki.tokimeki
-        - https://f-droid.org/en/packages/blue.tokimeki.tokimeki/
-        - https://google.com/search?q=blue.tokimeki.tokimeki
-
-io.olibra.bondapp/io.olibra.bondapp.modules.loginflow.SplashActivity:
-    name: Bond
-    reqt: 1
-    reql: 2025-01-11 02:14:22
-    hash: df75fbe9b3e4a08355aa297f654c672a850c5098
-    urls:
-        - https://play.google.com/store/apps/details?id=io.olibra.bondapp
-        - https://f-droid.org/en/packages/io.olibra.bondapp/
-        - https://google.com/search?q=io.olibra.bondapp
-
-com.rccl.royalcaribbean/com.rcl.excalibur.activity.AppSplashActivity:
-    name: Royal
-    reqt: 1
-    reql: 2025-01-10 23:59:58
-    hash: 3adc031a58cd3c05e3dcd776196d275bdb10f026
-    urls:
-        - https://play.google.com/store/apps/details?id=com.rccl.royalcaribbean
-        - https://f-droid.org/en/packages/com.rccl.royalcaribbean/
-        - https://google.com/search?q=com.rccl.royalcaribbean
-
-com.barnesandnoble.app/com.barnesandnoble.app.MainActivity:
-    name: Barnes & Noble
-    reqt: 1
-    reql: 2025-01-10 22:11:06
-    hash: 9157afaff8050dd74ddfa22491d69cb7186889f4
-    urls:
-        - https://play.google.com/store/apps/details?id=com.barnesandnoble.app
-        - https://f-droid.org/en/packages/com.barnesandnoble.app/
-        - https://google.com/search?q=com.barnesandnoble.app
-
-com.hutchgames.nascar/com.unity3d.player.UnityPlayerActivity:
-    name: NASCAR Manager
-    reqt: 1
-    reql: 2025-01-10 19:54:56
-    hash: b5aa9860f58fb6364878e8e55980fdb36e7b0249
-    urls:
-        - https://play.google.com/store/apps/details?id=com.hutchgames.nascar
-        - https://f-droid.org/en/packages/com.hutchgames.nascar/
-        - https://google.com/search?q=com.hutchgames.nascar
-
-com.shishkabob.cwkingdom/com.unity3d.player.UnityPlayerActivity:
-    name: Card Wars Kingdom
-    reqt: 1
-    reql: 2025-01-10 19:41:32
-    hash: 4757ee26ca4355f62ed368519610a83c4c1f245f
-    urls:
-        - https://play.google.com/store/apps/details?id=com.shishkabob.cwkingdom
-        - https://f-droid.org/en/packages/com.shishkabob.cwkingdom/
-        - https://google.com/search?q=com.shishkabob.cwkingdom
-
-at.orf.news/at.orf.news.activities.FrontScreen:
-    name: ORF.at News
-    reqt: 1
-    reql: 2025-01-10 18:57:46
-    hash: 759fec2c3542f1794aa8f93155cae23c9cda8e30
-    urls:
-        - https://play.google.com/store/apps/details?id=at.orf.news
-        - https://f-droid.org/en/packages/at.orf.news/
-        - https://google.com/search?q=at.orf.news
-
-com.hypgames.ultimatepool/com.google.firebase.MessagingUnityPlayerActivity:
-    name: Ultimate 8 Ball
-    reqt: 1
-    reql: 2025-01-10 17:44:39
-    hash: 0b4e5f3f5b5734d59ce2cf7ba97a1dcee2a5958c
-    urls:
-        - https://play.google.com/store/apps/details?id=com.hypgames.ultimatepool
-        - https://f-droid.org/en/packages/com.hypgames.ultimatepool/
-        - https://google.com/search?q=com.hypgames.ultimatepool
-
-com.zeptoconsumerapp.cafe/com.zeptoconsumerapp.MainActivity:
-    name: Zepto Cafe
-    reqt: 1
-    reql: 2025-01-10 17:39:57
-    hash: 895d83acc7466d9d92e6015e69040e8099fede35
-    urls:
-        - https://play.google.com/store/apps/details?id=com.zeptoconsumerapp.cafe
-        - https://f-droid.org/en/packages/com.zeptoconsumerapp.cafe/
-        - https://google.com/search?q=com.zeptoconsumerapp.cafe
-
-gamewf.zbbysmslih.gjsbzdyytdfg2/gamewf.zbbysmslih.gjsbzdyytdfg2.gjsbzdyytdfg2:
-    name: KKCLUB.COM
-    reqt: 1
-    reql: 2025-01-10 15:39:01
-    hash: 6a4f8f1a56ae77778245e4111a456a2ed901a570
-    urls:
-        - https://play.google.com/store/apps/details?id=gamewf.zbbysmslih.gjsbzdyytdfg2
-        - https://f-droid.org/en/packages/gamewf.zbbysmslih.gjsbzdyytdfg2/
-        - https://google.com/search?q=gamewf.zbbysmslih.gjsbzdyytdfg2
-
-com.alaap.app/com.revesoft.itelmobiledialer.ui.feature.splash.SplashScreenActivity:
-    name: Alaap
-    reqt: 1
-    reql: 2025-01-10 10:39:07
-    hash: a781fddab39293ed6a6ca911a31fbca7764c1981
-    urls:
-        - https://play.google.com/store/apps/details?id=com.alaap.app
-        - https://f-droid.org/en/packages/com.alaap.app/
-        - https://google.com/search?q=com.alaap.app
-
-com.positivo.casainteligente/com.positivo.casainteligente.MainActivity:
-    name: Positivo
-    reqt: 1
-    reql: 2025-01-10 07:51:48
-    hash: 6552b0c2453f42b12c112ee67d65e1d9db1f0edb
-    urls:
-        - https://play.google.com/store/apps/details?id=com.positivo.casainteligente
-        - https://f-droid.org/en/packages/com.positivo.casainteligente/
-        - https://google.com/search?q=com.positivo.casainteligente
-
-app.tv.telinha/app.tv.telinha.SplashScreen:
-    name: Telinha
-    reqt: 1
-    reql: 2025-01-10 04:10:26
-    hash: 48be1463e229dcebb670bb00780890922b5bf054
-    urls:
-        - https://play.google.com/store/apps/details?id=app.tv.telinha
-        - https://f-droid.org/en/packages/app.tv.telinha/
-        - https://google.com/search?q=app.tv.telinha
-
-net.stargw.fat/net.stargw.fat.ActivityMain:
-    name: STARWeight
-    reqt: 1
-    reql: 2025-01-09 19:07:12
-    hash: ff8a952bac0a92a39df6e996d30e1e6ff76088ea
-    urls:
-        - https://play.google.com/store/apps/details?id=net.stargw.fat
-        - https://f-droid.org/en/packages/net.stargw.fat/
-        - https://google.com/search?q=net.stargw.fat
-
-com.GermapurApps.MinerGunBuilder/com.unity3d.player.UnityPlayerActivity:
-    name: Miner Gun Builder
-    reqt: 1
-    reql: 2025-01-09 15:42:38
-    hash: 4f25bfdfdd73c2f341beef65dad67fc7b2de33f3
-    urls:
-        - https://play.google.com/store/apps/details?id=com.GermapurApps.MinerGunBuilder
-        - https://f-droid.org/en/packages/com.GermapurApps.MinerGunBuilder/
-        - https://google.com/search?q=com.GermapurApps.MinerGunBuilder
-
-air.com.flipline.papasdonuteriatogo/air.com.flipline.papasdonuteriatogo.AIRAppEntry:
-    name: Papa's Donuteria To Go
-    reqt: 1
-    reql: 2025-01-09 15:01:28
-    hash: 7161db3e8e8c53169a8a9046b077a4047ae264d0
-    urls:
-        - https://play.google.com/store/apps/details?id=air.com.flipline.papasdonuteriatogo
-        - https://f-droid.org/en/packages/air.com.flipline.papasdonuteriatogo/
-        - https://google.com/search?q=air.com.flipline.papasdonuteriatogo
-
-com.xq.archeroii/com.unity3d.player.DxxUnityActivity:
-    name: Archero 2
-    reqt: 1
-    reql: 2025-01-09 14:10:59
-    hash: b0a4d9eb434590bd89bacabc325aaf32a8a92c4a
-    urls:
-        - https://play.google.com/store/apps/details?id=com.xq.archeroii
-        - https://f-droid.org/en/packages/com.xq.archeroii/
-        - https://google.com/search?q=com.xq.archeroii
-
-com.apr.digitalclinic/com.apr.digitalclinic.MainActivity:
-    name: AGE-R
-    reqt: 1
-    reql: 2025-01-09 09:54:28
-    hash: 49a2262a3e7efa8ef16722f5eff16e94a6805fb6
-    urls:
-        - https://play.google.com/store/apps/details?id=com.apr.digitalclinic
-        - https://f-droid.org/en/packages/com.apr.digitalclinic/
-        - https://google.com/search?q=com.apr.digitalclinic
-
-com.americanexpress.android.acctsvcs.nl/com.americanexpress.android.intl.app.view.activity.SplashInitializationActivity:
-    name: Amex NL
-    reqt: 1
-    reql: 2025-01-09 07:59:18
-    hash: f39d677270ac34e03ae6b8966b7ee13227a5bca1
-    urls:
-        - https://play.google.com/store/apps/details?id=com.americanexpress.android.acctsvcs.nl
-        - https://f-droid.org/en/packages/com.americanexpress.android.acctsvcs.nl/
-        - https://google.com/search?q=com.americanexpress.android.acctsvcs.nl
-
-com.fluyo/com.fluyo.MainActivity:
-    name: Fluyo
-    reqt: 1
-    reql: 2025-01-09 05:18:18
-    hash: a9ea587f34e74da3bd5089813bed7206c5416278
-    urls:
-        - https://play.google.com/store/apps/details?id=com.fluyo
-        - https://f-droid.org/en/packages/com.fluyo/
-        - https://google.com/search?q=com.fluyo
-
-eu.findair/eu.findair.activities.SplashActivity:
-    name: FindAir
-    reqt: 1
-    reql: 2025-01-09 04:10:24
-    hash: f03f70ca41483db6c2cdee4cc5769f8d26e66969
-    urls:
-        - https://play.google.com/store/apps/details?id=eu.findair
-        - https://f-droid.org/en/packages/eu.findair/
-        - https://google.com/search?q=eu.findair
-
-com.riichicity.happywoods/com.happywoods.riichicity.GameMainActivity:
-    name: 마작일번가
-    reqt: 1
-    reql: 2025-01-09 01:49:35
-    hash: 3b0af2fed75126291821b3f90a2038abf31911d6
-    urls:
-        - https://play.google.com/store/apps/details?id=com.riichicity.happywoods
-        - https://f-droid.org/en/packages/com.riichicity.happywoods/
-        - https://google.com/search?q=com.riichicity.happywoods
-
-pl.edu.uj.mobilny/pl.edu.usos.mobilny.SplashActivity:
-    name: Mobilny USOS UJ
-    reqt: 1
-    reql: 2025-01-08 22:15:17
-    hash: 484854083855f2a7463571c152c5658d055430a5
-    urls:
-        - https://play.google.com/store/apps/details?id=pl.edu.uj.mobilny
-        - https://f-droid.org/en/packages/pl.edu.uj.mobilny/
-        - https://google.com/search?q=pl.edu.uj.mobilny
-
-? com.randompicker.wheeldecides.randomnamepicker.spinthewheel/com.spinthewheel.randompicker.wheeldecides.randomnamepicker.ui.activity.SplashActivity
-
-:   name: Spin The Wheel
-    reqt: 1
-    reql: 2025-01-08 19:01:58
-    hash: 0528c51b25da8026cfa8f7124150e98543d18c0a
-    urls:
-        - https://play.google.com/store/apps/details?id=com.randompicker.wheeldecides.randomnamepicker.spinthewheel
-        - https://f-droid.org/en/packages/com.randompicker.wheeldecides.randomnamepicker.spinthewheel/
-        - https://google.com/search?q=com.randompicker.wheeldecides.randomnamepicker.spinthewheel
-
-com.theaa.android.theaa/com.theaa.android.theaa.ui.onboarding.activities.SplashActivity:
-    name: The AA
-    reqt: 1
-    reql: 2025-01-08 17:18:44
-    hash: 09a14e01ceacb0449b74915fb88cf0d02ecf2f41
-    urls:
-        - https://play.google.com/store/apps/details?id=com.theaa.android.theaa
-        - https://f-droid.org/en/packages/com.theaa.android.theaa/
-        - https://google.com/search?q=com.theaa.android.theaa
-
-in.swiggy.partnerapp/in.swiggy.partnerapp.MainActivity:
-    name: Swiggy Partner
-    reqt: 1
-    reql: 2025-01-08 16:59:19
-    hash: 4a7688ca585086babf54e2a4f9f59436952eb336
-    urls:
-        - https://play.google.com/store/apps/details?id=in.swiggy.partnerapp
-        - https://f-droid.org/en/packages/in.swiggy.partnerapp/
-        - https://google.com/search?q=in.swiggy.partnerapp
-
-com.whidev.mapchart/com.whidev.mapchart.MainActivity:
-    name: MapChart
-    reqt: 1
-    reql: 2025-01-08 15:51:23
-    hash: ac48ec19edebf338b9a147b702ae19e296119a14
-    urls:
-        - https://play.google.com/store/apps/details?id=com.whidev.mapchart
-        - https://f-droid.org/en/packages/com.whidev.mapchart/
-        - https://google.com/search?q=com.whidev.mapchart
-
-com.act.mobile.apps/com.act.mobile.apps.MainActivity:
-    name: ACT Fibernet
-    reqt: 1
-    reql: 2025-01-08 15:51:18
-    hash: cb37fa7573e25eaf3a07d90cdff9b469b7ac96b0
-    urls:
-        - https://play.google.com/store/apps/details?id=com.act.mobile.apps
-        - https://f-droid.org/en/packages/com.act.mobile.apps/
-        - https://google.com/search?q=com.act.mobile.apps
-
-com.dlink.mydlink/com.dlink.mydlink.lite20.LaunchActivity:
-    name: mydlink Lite
-    reqt: 1
-    reql: 2025-01-08 14:43:15
-    hash: bd067088b34e9b1e951113d456eaadf9806c271c
-    urls:
-        - https://play.google.com/store/apps/details?id=com.dlink.mydlink
-        - https://f-droid.org/en/packages/com.dlink.mydlink/
-        - https://google.com/search?q=com.dlink.mydlink
-
-com.umdeos.bdwjdx/com.appx.core.activity.SplashActivity:
-    name: India's Got Latent
-    reqt: 1
-    reql: 2025-01-08 13:09:05
-    hash: 2bc4a56de2a5a9a8d028966f16fe52659f45918b
-    urls:
-        - https://play.google.com/store/apps/details?id=com.umdeos.bdwjdx
-        - https://f-droid.org/en/packages/com.umdeos.bdwjdx/
-        - https://google.com/search?q=com.umdeos.bdwjdx
-
-hr.asseco.android.jimba.cecro/hr.asseco.android.ActivitySplash:
-    name: CEC app
-    reqt: 1
-    reql: 2025-01-08 11:17:52
-    hash: 783c7684518330766a4af35a6477bdb70c96577d
-    urls:
-        - https://play.google.com/store/apps/details?id=hr.asseco.android.jimba.cecro
-        - https://f-droid.org/en/packages/hr.asseco.android.jimba.cecro/
-        - https://google.com/search?q=hr.asseco.android.jimba.cecro
-
-com.freeconvert.video_compressor/com.freeconvert.video_compressor.MainActivity:
-    name: ShrinkVid
-    reqt: 1
-    reql: 2025-01-08 09:34:40
-    hash: 98931bd081867e32c16d90e13c74ec5b9474ccdb
-    urls:
-        - https://play.google.com/store/apps/details?id=com.freeconvert.video_compressor
-        - https://f-droid.org/en/packages/com.freeconvert.video_compressor/
-        - https://google.com/search?q=com.freeconvert.video_compressor
-
-com.bota.tap.autoclicker.automatic/com.bota.tap.autoclicker.automatic.ui.activity.SplashActivity:
-    name: Auto Clicker - Auto Tapper
-    reqt: 1
-    reql: 2025-01-08 08:07:22
-    hash: 1c07308d53961615e17dcd8e3d6503ba0a35cfad
-    urls:
-        - https://play.google.com/store/apps/details?id=com.bota.tap.autoclicker.automatic
-        - https://f-droid.org/en/packages/com.bota.tap.autoclicker.automatic/
-        - https://google.com/search?q=com.bota.tap.autoclicker.automatic
-
-cl.telsur.mi/cl.telsur.mi.MainActivity:
-    name: Mi Telsur
-    reqt: 1
-    reql: 2025-01-08 07:22:09
-    hash: d059175c1f17567d111c3f7a1b789a6491d1db18
-    urls:
-        - https://play.google.com/store/apps/details?id=cl.telsur.mi
-        - https://f-droid.org/en/packages/cl.telsur.mi/
-        - https://google.com/search?q=cl.telsur.mi
-
-com.starkey.android.newlink.release/com.starkey.android.newlink.activities.SplashActivity:
-    name: Thrive
-    reqt: 1
-    reql: 2025-01-08 05:29:04
-    hash: 8c4f3894cb5e036d17b263bf5b98932f66180801
-    urls:
-        - https://play.google.com/store/apps/details?id=com.starkey.android.newlink.release
-        - https://f-droid.org/en/packages/com.starkey.android.newlink.release/
-        - https://google.com/search?q=com.starkey.android.newlink.release
-
-org.cris.kmmts/org.cris.kmmts.activity.SplashScreen:
-    name: Metro Ride Kolkata
-    reqt: 1
-    reql: 2025-01-08 04:47:20
-    hash: 76284a8144c81f29dbe5900558ca12ca538dc56f
-    urls:
-        - https://play.google.com/store/apps/details?id=org.cris.kmmts
-        - https://f-droid.org/en/packages/org.cris.kmmts/
-        - https://google.com/search?q=org.cris.kmmts
-
-sg.bigo.live/sg.bigo.live.home.MainActivity:
-    name: BIGO LIVE
-    reqt: 1
-    reql: 2025-01-08 04:38:54
-    hash: 1a3b91c412870e68efe24254a9b9a6db319441c3
-    urls:
-        - https://play.google.com/store/apps/details?id=sg.bigo.live
-        - https://f-droid.org/en/packages/sg.bigo.live/
-        - https://google.com/search?q=sg.bigo.live
-
-com.lyft.android.torontoapp/me.lyft.android.ui.main.SplashActivity:
-    name: Bike Share
-    reqt: 1
-    reql: 2025-01-08 04:08:59
-    hash: 176fd9adb7f8d40b1db07d90ac43c41098d8c6e2
-    urls:
-        - https://play.google.com/store/apps/details?id=com.lyft.android.torontoapp
-        - https://f-droid.org/en/packages/com.lyft.android.torontoapp/
-        - https://google.com/search?q=com.lyft.android.torontoapp
-
-com.appostrophe.scrl/com.appostrophe.scrl.MainActivity:
-    name: SCRL
-    reqt: 1
-    reql: 2025-01-08 02:47:11
-    hash: 05b44a51265bb39afa69bc8cb7fb478ea61cd721
-    urls:
-        - https://play.google.com/store/apps/details?id=com.appostrophe.scrl
-        - https://f-droid.org/en/packages/com.appostrophe.scrl/
-        - https://google.com/search?q=com.appostrophe.scrl
-
-games.flick.solitaire/com.ansca.corona.CoronaActivity:
-    name: Flick Solitaire
-    reqt: 1
-    reql: 2025-01-08 01:08:04
-    hash: 6622e4cc9c67008c426c9f3e36b31c31b398f90e
-    urls:
-        - https://play.google.com/store/apps/details?id=games.flick.solitaire
-        - https://f-droid.org/en/packages/games.flick.solitaire/
-        - https://google.com/search?q=games.flick.solitaire
-
-com.axessions.app/com.axessions.app.LaunchActivity:
-    name: Accessy
-    reqt: 1
-    reql: 2025-01-08 00:28:33
-    hash: 49102541e0e54a1ba59f7926a40b6dba4eef2150
-    urls:
-        - https://play.google.com/store/apps/details?id=com.axessions.app
-        - https://f-droid.org/en/packages/com.axessions.app/
-        - https://google.com/search?q=com.axessions.app
-
-org.xcrypt.apager.android2/org.xcrypt.apager.android2.ui.StartActivity:
-    name: aPager PRO
-    reqt: 1
-    reql: 2025-01-07 23:19:44
-    hash: 7347f51bbd67149fdbf84a278084da06fbcff032
-    urls:
-        - https://play.google.com/store/apps/details?id=org.xcrypt.apager.android2
-        - https://f-droid.org/en/packages/org.xcrypt.apager.android2/
-        - https://google.com/search?q=org.xcrypt.apager.android2
-
-com.evertechsandbox/com.unity3d.player.UnityPlayerActivity:
-    name: Evertech Sandbox
-    reqt: 1
-    reql: 2025-01-07 23:01:59
-    hash: 6c3a6f2f1fcb621d41c0afe48d38d22a0abb8599
-    urls:
-        - https://play.google.com/store/apps/details?id=com.evertechsandbox
-        - https://f-droid.org/en/packages/com.evertechsandbox/
-        - https://google.com/search?q=com.evertechsandbox
-
-com.vmedulifeapp/com.vmedulifeapp.MainActivity:
-    name: vmedulife
-    reqt: 1
-    reql: 2025-01-07 19:56:53
-    hash: 224ccb42fcf3c15b71ac0764f98b3f540c1813e8
-    urls:
-        - https://play.google.com/store/apps/details?id=com.vmedulifeapp
-        - https://f-droid.org/en/packages/com.vmedulifeapp/
-        - https://google.com/search?q=com.vmedulifeapp
-
-teratomo.app.dasca_customer/teratomo.app.dasca_customer.MainActivity:
-    name: Fiber Blaze
-    reqt: 1
-    reql: 2025-01-07 18:29:37
-    hash: b2fd072a7bcc9539cc8bb70834667d2a31442457
-    urls:
-        - https://play.google.com/store/apps/details?id=teratomo.app.dasca_customer
-        - https://f-droid.org/en/packages/teratomo.app.dasca_customer/
-        - https://google.com/search?q=teratomo.app.dasca_customer
-
-com.miruta.mty/com.miruta.mty.MainActivity:
-    name: Urbani
-    reqt: 1
-    reql: 2025-01-07 18:14:29
-    hash: bbf1ec56839adda8725a6428ff966854d2818c40
-    urls:
-        - https://play.google.com/store/apps/details?id=com.miruta.mty
-        - https://f-droid.org/en/packages/com.miruta.mty/
-        - https://google.com/search?q=com.miruta.mty
-
-softmaker.applications.office.planmaker/softmaker.applications.planmaker.PlanMaker:
-    name: 'Office: PlanMaker'
-    reqt: 1
-    reql: 2025-01-07 17:02:21
-    hash: 75f6cd075f1565b946536aa20206d2f4edd1a1af
-    urls:
-        - https://play.google.com/store/apps/details?id=softmaker.applications.office.planmaker
-        - https://f-droid.org/en/packages/softmaker.applications.office.planmaker/
-        - https://google.com/search?q=softmaker.applications.office.planmaker
-
-com.quark.browser/com.ucpro.MainActivity:
-    name: 夸克
-    reqt: 1
-    reql: 2025-01-07 16:42:17
-    hash: ace6f292b5eb6460b14256a4cae18fc2b7f23a87
-    urls:
-        - https://play.google.com/store/apps/details?id=com.quark.browser
-        - https://f-droid.org/en/packages/com.quark.browser/
-        - https://google.com/search?q=com.quark.browser
-
-club.onepercent.dictionary/club.onepercent.dictionary.MainActivity:
-    name: Dictionary+
-    reqt: 1
-    reql: 2025-01-07 14:34:32
-    hash: b5016b702edde4ad34105ddc427a6476dc154e2c
-    urls:
-        - https://play.google.com/store/apps/details?id=club.onepercent.dictionary
-        - https://f-droid.org/en/packages/club.onepercent.dictionary/
-        - https://google.com/search?q=club.onepercent.dictionary
-
-fr.aeroportsdeparis.myairport/fr.aeroportsdeparis.myairport.app_main.common.ui.StartActivity:
-    name: Paris Aéroport
-    reqt: 1
-    reql: 2025-01-07 14:13:21
-    hash: 8f41f7abc82110861341b42ce670f00b2ecbae92
-    urls:
-        - https://play.google.com/store/apps/details?id=fr.aeroportsdeparis.myairport
-        - https://f-droid.org/en/packages/fr.aeroportsdeparis.myairport/
-        - https://google.com/search?q=fr.aeroportsdeparis.myairport
-
-com.ilyin.alchemy/com.ilyin.app_google_core.GoogleAppActivity:
-    name: Алхимия
-    reqt: 1
-    reql: 2025-01-07 12:03:42
-    hash: f12a2d30c3fdc47e63f88905bd1192703d9b9365
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ilyin.alchemy
-        - https://f-droid.org/en/packages/com.ilyin.alchemy/
-        - https://google.com/search?q=com.ilyin.alchemy
-
-de.teufel.android.app.bluetooth.playstore/de.teufel.android.app.bluetooth.external.ui.MainActivity:
-    name: Headphones
-    reqt: 1
-    reql: 2025-01-07 11:59:58
-    hash: bfd36cca00d5ddad359e19b6f35b0cee8fda723e
-    urls:
-        - https://play.google.com/store/apps/details?id=de.teufel.android.app.bluetooth.playstore
-        - https://f-droid.org/en/packages/de.teufel.android.app.bluetooth.playstore/
-        - https://google.com/search?q=de.teufel.android.app.bluetooth.playstore
-
-cz.postaonline.android/cz.cyberfox.postaonline2.activity.MainPageActivity:
-    name: Pošta Online
-    reqt: 1
-    reql: 2025-01-07 11:20:24
-    hash: 0bc731c66e71b69d1f8196f326561301c9712ba0
-    urls:
-        - https://play.google.com/store/apps/details?id=cz.postaonline.android
-        - https://f-droid.org/en/packages/cz.postaonline.android/
-        - https://google.com/search?q=cz.postaonline.android
-
-com.charlie.pokemongotrainercodes/com.charlie.pokemongotrainercodes.MainActivity:
-    name: Poke Friends
-    reqt: 1
-    reql: 2025-01-07 11:20:23
-    hash: 7018e5bf37972386464445fc6536f40dbdd53f07
-    urls:
-        - https://play.google.com/store/apps/details?id=com.charlie.pokemongotrainercodes
-        - https://f-droid.org/en/packages/com.charlie.pokemongotrainercodes/
-        - https://google.com/search?q=com.charlie.pokemongotrainercodes
-
-jp.ogapee.onscripter.release/jp.ogapee.onscripter.release.ONScripter:
-    name: ONScripter
-    reqt: 1
-    reql: 2025-01-07 01:19:09
-    hash: 9a0396bd2875b5e6421959e8e292d4045c2a9450
-    urls:
-        - https://play.google.com/store/apps/details?id=jp.ogapee.onscripter.release
-        - https://f-droid.org/en/packages/jp.ogapee.onscripter.release/
-        - https://google.com/search?q=jp.ogapee.onscripter.release
-
-pl.cda/pl.cda.ui.welcome.WelcomeActivity:
-    name: cda.pl
-    reqt: 1
-    reql: 2025-01-06 22:42:52
-    hash: 89464ca45384c7432a888c63108ce72ceed2399f
-    urls:
-        - https://play.google.com/store/apps/details?id=pl.cda
-        - https://f-droid.org/en/packages/pl.cda/
-        - https://google.com/search?q=pl.cda
-
-photo.editor.photoeditor.filtersforpictures/com.camerasideas.instashot.activity.MainActivity:
-    name: Lumii - Photo Editor
-    reqt: 1
-    reql: 2025-01-06 19:13:55
-    hash: 28c7d0fa0145db36cc4f01ca387b315da8cd3046
-    urls:
-        - https://play.google.com/store/apps/details?id=photo.editor.photoeditor.filtersforpictures
-        - https://f-droid.org/en/packages/photo.editor.photoeditor.filtersforpictures/
-        - https://google.com/search?q=photo.editor.photoeditor.filtersforpictures
-
-nmf.vn/org.renpy.android.PythonSDLActivity:
-    name: No More Future
-    reqt: 1
-    reql: 2025-01-06 18:14:31
-    hash: 857837b01c0d035a96f0ebdee611f387bb4bc261
-    urls:
-        - https://play.google.com/store/apps/details?id=nmf.vn
-        - https://f-droid.org/en/packages/nmf.vn/
-        - https://google.com/search?q=nmf.vn
-
-es.emtvalencia.emt/es.emtvalencia.emt.SplashActivity:
-    name: EMT València
-    reqt: 1
-    reql: 2025-01-06 18:08:05
-    hash: 63a590371b2bd12b1b8c9a732e6eb72e73039ad2
-    urls:
-        - https://play.google.com/store/apps/details?id=es.emtvalencia.emt
-        - https://f-droid.org/en/packages/es.emtvalencia.emt/
-        - https://google.com/search?q=es.emtvalencia.emt
-
-com.vttm.vietteldiscovery/com.vttm.myviettelV2.activity.NFirstUserActivity:
-    name: My Viettel
-    reqt: 1
-    reql: 2025-01-06 15:54:21
-    hash: 5a7fa4e7ff900e78149129237c71d5ce02d7e852
-    urls:
-        - https://play.google.com/store/apps/details?id=com.vttm.vietteldiscovery
-        - https://f-droid.org/en/packages/com.vttm.vietteldiscovery/
-        - https://google.com/search?q=com.vttm.vietteldiscovery
-
-com.flowiemusic.tiles.mp3.player.magictiles/com.code.app.view.main.MainActivity:
-    name: Flowie Music
-    reqt: 1
-    reql: 2025-01-06 14:11:12
-    hash: cd564a849eb053f037e766b757287338bbaa389e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.flowiemusic.tiles.mp3.player.magictiles
-        - https://f-droid.org/en/packages/com.flowiemusic.tiles.mp3.player.magictiles/
-        - https://google.com/search?q=com.flowiemusic.tiles.mp3.player.magictiles
-
-com.boycat.app/com.boycat.app.MainActivity:
-    name: Boycat
-    reqt: 1
-    reql: 2025-01-06 13:31:18
-    hash: ed21b36bc97b6ab2bd01f1138c69dec2049aab2b
-    urls:
-        - https://play.google.com/store/apps/details?id=com.boycat.app
-        - https://f-droid.org/en/packages/com.boycat.app/
-        - https://google.com/search?q=com.boycat.app
-
-com.vanguard.uk.pi.vanguarduk.playstore/com.vanguard.uk.pi.vanguarduk.ui.MainActivity:
-    name: Vanguard UK
-    reqt: 1
-    reql: 2025-01-06 10:58:30
-    hash: 1cb288af37a2f0f3075e39977fd4373a1598f346
-    urls:
-        - https://play.google.com/store/apps/details?id=com.vanguard.uk.pi.vanguarduk.playstore
-        - https://f-droid.org/en/packages/com.vanguard.uk.pi.vanguarduk.playstore/
-        - https://google.com/search?q=com.vanguard.uk.pi.vanguarduk.playstore
-
-com.hellomerlin/com.hellomerlin.ui.MainActivity:
-    name: Merlin
-    reqt: 1
-    reql: 2025-01-06 07:12:52
-    hash: 4c1734099fc217780609d40376b182ecf8a9c263
-    urls:
-        - https://play.google.com/store/apps/details?id=com.hellomerlin
-        - https://f-droid.org/en/packages/com.hellomerlin/
-        - https://google.com/search?q=com.hellomerlin
-
-com.project.aimotech.printmaster/com.project.aimotech.printmaster.app.ui.setup.SplashActivity:
-    name: Print Master
-    reqt: 1
-    reql: 2025-01-05 20:38:35
-    hash: 9a8751ddffa5b2977d641b64182929480234e94b
-    urls:
-        - https://play.google.com/store/apps/details?id=com.project.aimotech.printmaster
-        - https://f-droid.org/en/packages/com.project.aimotech.printmaster/
-        - https://google.com/search?q=com.project.aimotech.printmaster
-
-br.com.gabba.Caixa/br.gov.caixa.internetbankingmobile.ui.start.StartActivity:
-    name: CAIXA
-    reqt: 1
-    reql: 2025-01-05 20:29:08
-    hash: d4e2ed04652825cd240f259c774980fb26b046ec
-    urls:
-        - https://play.google.com/store/apps/details?id=br.com.gabba.Caixa
-        - https://f-droid.org/en/packages/br.com.gabba.Caixa/
-        - https://google.com/search?q=br.com.gabba.Caixa
-
-com.ewbank.digital/com.velobank.digital.ui.view.activity.VLSplashActivity:
-    name: East West
-    reqt: 1
-    reql: 2025-01-05 16:46:31
-    hash: 91d06821556985dfba7ab79c394c859ee6a5a739
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ewbank.digital
-        - https://f-droid.org/en/packages/com.ewbank.digital/
-        - https://google.com/search?q=com.ewbank.digital
-
-fi.ruokakesko.k_ruoka/fi.ruokakesko.k_ruoka.MainActivity:
-    name: K-Ruoka
-    reqt: 1
-    reql: 2025-01-05 12:32:38
-    hash: f9d2b3852c18aac9e338ccf70e6763e602847147
-    urls:
-        - https://play.google.com/store/apps/details?id=fi.ruokakesko.k_ruoka
-        - https://f-droid.org/en/packages/fi.ruokakesko.k_ruoka/
-        - https://google.com/search?q=fi.ruokakesko.k_ruoka
-
-com.fastaccess.github.revival/com.fastaccess.ui.modules.main.MainActivity:
-    name: FastHub-RE
-    reqt: 1
-    reql: 2025-01-05 11:23:15
-    hash: eda65ff58211a73e9f9a018c9c4b94538dd6a8b8
-    urls:
-        - https://play.google.com/store/apps/details?id=com.fastaccess.github.revival
-        - https://f-droid.org/en/packages/com.fastaccess.github.revival/
-        - https://google.com/search?q=com.fastaccess.github.revival
-
-com.revanen.athkar/com.revanen.athkar.old_package.SplashActivity:
-    name: أذكار المسلم
-    reqt: 1
-    reql: 2025-01-05 05:17:36
-    hash: 1f7321881f0f14f12f4fc3e20743c8d978dbe4aa
-    urls:
-        - https://play.google.com/store/apps/details?id=com.revanen.athkar
-        - https://f-droid.org/en/packages/com.revanen.athkar/
-        - https://google.com/search?q=com.revanen.athkar
-
-jawline.exercises.slim.face.yoga/jawline.exercises.slim.face.yoga.activity.SplashActivity:
-    name: Jawline
-    reqt: 1
-    reql: 2025-01-04 21:57:01
-    hash: 9ac97d55a6609fd555185e98f75f5b379c5024f2
-    urls:
-        - https://play.google.com/store/apps/details?id=jawline.exercises.slim.face.yoga
-        - https://f-droid.org/en/packages/jawline.exercises.slim.face.yoga/
-        - https://google.com/search?q=jawline.exercises.slim.face.yoga
-
-com.getmidas.app/com.getmidas.app.MainActivity:
-    name: Midas
-    reqt: 1
-    reql: 2025-01-04 21:00:47
-    hash: 609a64e6a7ff7aea5c876fc6df28f1db9fdb8120
-    urls:
-        - https://play.google.com/store/apps/details?id=com.getmidas.app
-        - https://f-droid.org/en/packages/com.getmidas.app/
-        - https://google.com/search?q=com.getmidas.app
-
-com.sonova.phonak.dsapp/app.myphonak.android.activities.MainActivity:
-    name: myPhonak
-    reqt: 1
-    reql: 2025-01-04 20:00:42
-    hash: 3a8825952b4dd988709e1a81a719ec1e5d07dc00
-    urls:
-        - https://play.google.com/store/apps/details?id=com.sonova.phonak.dsapp
-        - https://f-droid.org/en/packages/com.sonova.phonak.dsapp/
-        - https://google.com/search?q=com.sonova.phonak.dsapp
-
-com.youdao.dict/com.youdao.dict.activity.DictSplashActivity:
-    name: 网易有道词典
-    reqt: 1
-    reql: 2025-01-04 18:37:50
-    hash: cd4eb75c344485960bba045d598cd4a31b9e1971
-    urls:
-        - https://play.google.com/store/apps/details?id=com.youdao.dict
-        - https://f-droid.org/en/packages/com.youdao.dict/
-        - https://google.com/search?q=com.youdao.dict
-
-com.plantparentai.app/com.glority.android.picturexx.splash.SplashActivity:
-    name: Plant Parent
-    reqt: 1
-    reql: 2025-01-04 18:28:02
-    hash: d19e70c48cd96899a509673376d6a660af48860e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.plantparentai.app
-        - https://f-droid.org/en/packages/com.plantparentai.app/
-        - https://google.com/search?q=com.plantparentai.app
-
-com.tutpro.baresip.plus/com.tutpro.baresip.plus.MainActivity:
-    name: baresip+
-    reqt: 1
-    reql: 2025-01-04 18:12:17
-    hash: a44af21636eec3e3b895e884fbb50189e7538a0e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.tutpro.baresip.plus
-        - https://f-droid.org/en/packages/com.tutpro.baresip.plus/
-        - https://google.com/search?q=com.tutpro.baresip.plus
-
-com.yodobashi.coupon/com.yodobashi.coupon.activity.YdCouponStartUpActivity:
-    name: GoldPoint
-    reqt: 1
-    reql: 2025-01-04 14:39:55
-    hash: 52fe2b39808a6c83a2a90eb4dadb5a84d8f8e773
-    urls:
-        - https://play.google.com/store/apps/details?id=com.yodobashi.coupon
-        - https://f-droid.org/en/packages/com.yodobashi.coupon/
-        - https://google.com/search?q=com.yodobashi.coupon
-
-com.easytech.wc4.android/com.easytech.wc4.android.LauncherActivity:
-    name: World Conqueror 4
-    reqt: 1
-    reql: 2025-01-04 14:23:28
-    hash: 12e6f5eba93f1b9a907a0bf13d273daaac8452c4
-    urls:
-        - https://play.google.com/store/apps/details?id=com.easytech.wc4.android
-        - https://f-droid.org/en/packages/com.easytech.wc4.android/
-        - https://google.com/search?q=com.easytech.wc4.android
-
-com.hexasoft.game.booster.launcher/com.hexasoft.game.booster.launcher.ControllerView:
-    name: Game Launcher
-    reqt: 1
-    reql: 2025-01-04 10:06:51
-    hash: b5c6c0bc354fb263d0434400e656f175b73745c5
-    urls:
-        - https://play.google.com/store/apps/details?id=com.hexasoft.game.booster.launcher
-        - https://f-droid.org/en/packages/com.hexasoft.game.booster.launcher/
-        - https://google.com/search?q=com.hexasoft.game.booster.launcher
-
-com.mypostnordapp/com.mypostnordapp.MainActivity:
-    name: PostNord Norge
-    reqt: 1
-    reql: 2025-01-04 09:29:10
-    hash: 5413db4638d5f8cba1f0a6b503d727236a3a9ceb
-    urls:
-        - https://play.google.com/store/apps/details?id=com.mypostnordapp
-        - https://f-droid.org/en/packages/com.mypostnordapp/
-        - https://google.com/search?q=com.mypostnordapp
-
-com.wei.account/com.wei.accountbox.activity.MainActivity:
-    name: 账号本子
-    reqt: 1
-    reql: 2025-01-04 08:02:21
-    hash: a20001e0adebbf4347a850901d4a479f1cbbd28e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.wei.account
-        - https://f-droid.org/en/packages/com.wei.account/
-        - https://google.com/search?q=com.wei.account
-
-games.wfs.anothereden/net.wrightflyer.toybox.AppActivity:
-    name: ANOTHER EDEN
-    reqt: 1
-    reql: 2025-01-04 06:56:46
-    hash: 43bda9b21dca829f4d7902a64a7fa5891feb7e7c
-    urls:
-        - https://play.google.com/store/apps/details?id=games.wfs.anothereden
-        - https://f-droid.org/en/packages/games.wfs.anothereden/
-        - https://google.com/search?q=games.wfs.anothereden
-
-com.ziprecruiter.android.release/com.ziprecruiter.android.features.main.MainActivity:
-    name: ZipRecruiter
-    reqt: 1
-    reql: 2025-01-04 01:33:17
-    hash: 1584458c4bd1aae0c6fec878839096d04bc45cde
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ziprecruiter.android.release
-        - https://f-droid.org/en/packages/com.ziprecruiter.android.release/
-        - https://google.com/search?q=com.ziprecruiter.android.release
-
-com.greenaddress.greenbits_android_wallet/com.blockstream.green.GreenActivity:
-    name: Green
-    reqt: 1
-    reql: 2025-01-03 21:47:10
-    hash: 176a03c48e1c88ed4c89e772750ec5cefde54d54
-    urls:
-        - https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet
-        - https://f-droid.org/en/packages/com.greenaddress.greenbits_android_wallet/
-        - https://google.com/search?q=com.greenaddress.greenbits_android_wallet
-
-jp.co.sagawa.SagawaOfficialApp/jp.co.sagawa.SagawaOfficialApp.Activity.SplashActivity:
-    name: 佐川急便
-    reqt: 1
-    reql: 2025-01-03 11:54:40
-    hash: 36f4dd63ecf13765196eb63da5872af2c40fbc91
-    urls:
-        - https://play.google.com/store/apps/details?id=jp.co.sagawa.SagawaOfficialApp
-        - https://f-droid.org/en/packages/jp.co.sagawa.SagawaOfficialApp/
-        - https://google.com/search?q=jp.co.sagawa.SagawaOfficialApp
-
-com.strimmobile/no.rikstv.app.MainActivity:
-    name: Strim
-    reqt: 1
-    reql: 2025-01-03 11:17:44
-    hash: 57f3c6a7791c8e7393a99f5cd4f45b2cedfc9bcf
-    urls:
-        - https://play.google.com/store/apps/details?id=com.strimmobile
-        - https://f-droid.org/en/packages/com.strimmobile/
-        - https://google.com/search?q=com.strimmobile
-
-com.nttdocomo.android.danimeapp/com.nttdocomo.android.danimeapp.activity.LaunchActivity:
-    name: dアニメストア
-    reqt: 1
-    reql: 2025-01-03 11:01:35
-    hash: c6902ac33f4d918a61c2da666883771e7737b76e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.nttdocomo.android.danimeapp
-        - https://f-droid.org/en/packages/com.nttdocomo.android.danimeapp/
-        - https://google.com/search?q=com.nttdocomo.android.danimeapp
-
-com.shikudo.fitrpg.google/com.shikudo.components.libpedometer.MainActivity:
-    name: Fitness RPG
-    reqt: 1
-    reql: 2025-01-03 09:10:13
-    hash: f5bc5ccc957ef7a174f56f6e61f9518e4e726f45
-    urls:
-        - https://play.google.com/store/apps/details?id=com.shikudo.fitrpg.google
-        - https://f-droid.org/en/packages/com.shikudo.fitrpg.google/
-        - https://google.com/search?q=com.shikudo.fitrpg.google
-
-com.olo.dairyqueen.production/com.olo.dairyqueen.features.initialization.LoadingActivity:
-    name: Dairy Queen®
-    reqt: 1
-    reql: 2025-01-03 07:07:19
-    hash: 035d6226bad7ed6b5394a494ee9b321d2b95da03
-    urls:
-        - https://play.google.com/store/apps/details?id=com.olo.dairyqueen.production
-        - https://f-droid.org/en/packages/com.olo.dairyqueen.production/
-        - https://google.com/search?q=com.olo.dairyqueen.production
-
-com.mightyit.mqttclientterminal/com.mightyit.mqttclientterminal.MainActivity:
-    name: MQTT Terminal
-    reqt: 1
-    reql: 2025-01-03 06:28:22
-    hash: 9c9af1f32fd53310da2653198a8f606dba558274
-    urls:
-        - https://play.google.com/store/apps/details?id=com.mightyit.mqttclientterminal
-        - https://f-droid.org/en/packages/com.mightyit.mqttclientterminal/
-        - https://google.com/search?q=com.mightyit.mqttclientterminal
-
-ca.toronto.toronto311/com.toronto311latest.MainActivity:
-    name: 3 1 1
-    reqt: 1
-    reql: 2025-01-03 05:56:40
-    hash: f95a2bfd31cc50d1446f6b2493978612fa557418
-    urls:
-        - https://play.google.com/store/apps/details?id=ca.toronto.toronto311
-        - https://f-droid.org/en/packages/ca.toronto.toronto311/
-        - https://google.com/search?q=ca.toronto.toronto311
-
-com.teamblind.blind/com.teamblind.blind.common.v2.activity.LaunchActivity:
-    name: blind
-    reqt: 1
-    reql: 2025-01-03 05:12:10
-    hash: a2e9c7a7fe25915310f751766cd78e1e6286e38c
-    urls:
-        - https://play.google.com/store/apps/details?id=com.teamblind.blind
-        - https://f-droid.org/en/packages/com.teamblind.blind/
-        - https://google.com/search?q=com.teamblind.blind
-
-com.wallart.ai.wallpapers/com.wallart.ai.wallpapers.activity.MainActivity:
-    name: Ai WallArt
-    reqt: 1
-    reql: 2025-01-03 01:37:15
-    hash: 54876ca25e488f9a1f242d9958e5cf122a14a1fd
-    urls:
-        - https://play.google.com/store/apps/details?id=com.wallart.ai.wallpapers
-        - https://f-droid.org/en/packages/com.wallart.ai.wallpapers/
-        - https://google.com/search?q=com.wallart.ai.wallpapers
-
-se.caspeco.mo.kebabfabriken/se.caspeco.bstl.MainActivity:
-    name: Kebabfabriken
-    reqt: 1
-    reql: 2025-01-02 21:37:14
-    hash: c75b046c6eee2e50ce49f41a51e53c26bbef5e69
-    urls:
-        - https://play.google.com/store/apps/details?id=se.caspeco.mo.kebabfabriken
-        - https://f-droid.org/en/packages/se.caspeco.mo.kebabfabriken/
-        - https://google.com/search?q=se.caspeco.mo.kebabfabriken
-
-com.bushub.CentreBus.ChaseRider/crc64c8669f7b0e84afcb.MainActivity:
-    name: Chaserider
-    reqt: 1
-    reql: 2025-01-02 18:48:03
-    hash: 1fa44006054ec7fe9422a1460968d2001cf24c19
-    urls:
-        - https://play.google.com/store/apps/details?id=com.bushub.CentreBus.ChaseRider
-        - https://f-droid.org/en/packages/com.bushub.CentreBus.ChaseRider/
-        - https://google.com/search?q=com.bushub.CentreBus.ChaseRider
-
-? com.epson.mobilephone.android.epsonprintserviceplugin/com.epson.mobilephone.android.epsonprintserviceplugin.WelcomeScreenActivity
-
-:   name: Epson Print Enabler
-    reqt: 1
-    reql: 2025-01-02 18:39:54
-    hash: d24cd989c3079a2f2e972a18343768072a51ff1f
-    urls:
-        - https://play.google.com/store/apps/details?id=com.epson.mobilephone.android.epsonprintserviceplugin
-        - https://f-droid.org/en/packages/com.epson.mobilephone.android.epsonprintserviceplugin/
-        - https://google.com/search?q=com.epson.mobilephone.android.epsonprintserviceplugin
-
-com.mixvibes.crossdjapp/com.mixvibes.crossdj.SplashScreenActivity:
-    name: Cross DJ Pro
-    reqt: 1
-    reql: 2025-01-02 17:37:44
-    hash: 8cfc501949274d3ae879e0177250bcbc87f24423
-    urls:
-        - https://play.google.com/store/apps/details?id=com.mixvibes.crossdjapp
-        - https://f-droid.org/en/packages/com.mixvibes.crossdjapp/
-        - https://google.com/search?q=com.mixvibes.crossdjapp
-
-tw.com.twmp.twhcewallet/tw.com.twmp.twhcewallet.screen.SplashActivity_:
-    name: 台灣行動支付
-    reqt: 1
-    reql: 2025-01-02 17:32:52
-    hash: aa6abd245f818f994bd3bf3f26837543773f2fa3
-    urls:
-        - https://play.google.com/store/apps/details?id=tw.com.twmp.twhcewallet
-        - https://f-droid.org/en/packages/tw.com.twmp.twhcewallet/
-        - https://google.com/search?q=tw.com.twmp.twhcewallet
-
-com.joinroot.root/com.joinroot.root.MainActivity:
-    name: Root
-    reqt: 1
-    reql: 2025-01-02 16:24:32
-    hash: 0759df48cc79b4cd784daa8b1266b348f0fc3e8f
-    urls:
-        - https://play.google.com/store/apps/details?id=com.joinroot.root
-        - https://f-droid.org/en/packages/com.joinroot.root/
-        - https://google.com/search?q=com.joinroot.root
-
-com.sbg.mobile.phone/com.sbg.mobile.phone.login.LoginWelcomeActivity:
-    name: Standard/Stanbic Bank
-    reqt: 1
-    reql: 2025-01-02 16:20:28
-    hash: 2e1e3b45ff071116fa09bded0474808f5f2c8352
-    urls:
-        - https://play.google.com/store/apps/details?id=com.sbg.mobile.phone
-        - https://f-droid.org/en/packages/com.sbg.mobile.phone/
-        - https://google.com/search?q=com.sbg.mobile.phone
-
-com.flerogames.AfterRain/com.google.firebase.MessagingUnityPlayerActivity:
-    name: Dear My Cat
-    reqt: 1
-    reql: 2025-01-02 13:44:59
-    hash: f01c02e136df82105ce10da6d3430271cfb31103
-    urls:
-        - https://play.google.com/store/apps/details?id=com.flerogames.AfterRain
-        - https://f-droid.org/en/packages/com.flerogames.AfterRain/
-        - https://google.com/search?q=com.flerogames.AfterRain
-
-com.birdydogstudio.city.shop.supermarket.simulator/com.unity3d.player.CustomUnityPlayerActivity:
-    name: CityShopSimulator
-    reqt: 1
-    reql: 2025-01-02 12:01:26
-    hash: c9d31a4e760ced3f83d74a693d41d28b51d78523
-    urls:
-        - https://play.google.com/store/apps/details?id=com.birdydogstudio.city.shop.supermarket.simulator
-        - https://f-droid.org/en/packages/com.birdydogstudio.city.shop.supermarket.simulator/
-        - https://google.com/search?q=com.birdydogstudio.city.shop.supermarket.simulator
-
-jp.co.lc.karadakawarunavi/jp.co.lc.platform.ui.splash.DeepLinkActivity:
-    name: カロママプラス
-    reqt: 1
-    reql: 2025-01-02 10:19:11
-    hash: a8ad46c5dec1cbd42c7e322b251ff0b9e2e254ab
-    urls:
-        - https://play.google.com/store/apps/details?id=jp.co.lc.karadakawarunavi
-        - https://f-droid.org/en/packages/jp.co.lc.karadakawarunavi/
-        - https://google.com/search?q=jp.co.lc.karadakawarunavi
-
-com.mytona.outgun/com.unity3d.player.UnityPlayerActivity:
-    name: Outfire
-    reqt: 1
-    reql: 2025-01-02 09:50:44
-    hash: 18d2ed2719f953aa08631a6fdfbf80ac5d2c59e5
-    urls:
-        - https://play.google.com/store/apps/details?id=com.mytona.outgun
-        - https://f-droid.org/en/packages/com.mytona.outgun/
-        - https://google.com/search?q=com.mytona.outgun
-
-it.docplanner/com.app.MainActivity:
-    name: MioDottore.it
-    reqt: 1
-    reql: 2025-01-02 09:42:50
-    hash: 43db98240e36a599a07c1d833f35438d5b81c748
-    urls:
-        - https://play.google.com/store/apps/details?id=it.docplanner
-        - https://f-droid.org/en/packages/it.docplanner/
-        - https://google.com/search?q=it.docplanner
-
-com.buildcores.buildcores_android/com.buildcores.buildcores_android.MainActivity:
-    name: BuildCores
-    reqt: 1
-    reql: 2025-01-02 08:37:02
-    hash: ce9db18cba07df81145f8d4f2aa231044c39a9c8
-    urls:
-        - https://play.google.com/store/apps/details?id=com.buildcores.buildcores_android
-        - https://f-droid.org/en/packages/com.buildcores.buildcores_android/
-        - https://google.com/search?q=com.buildcores.buildcores_android
-
-com.ekip.mobile/com.ekip.mobile.ekip_mobile_app.MainActivity:
-    name: Ekip
-    reqt: 1
-    reql: 2025-01-02 07:56:30
-    hash: aebd1b00aeeb90d09f60b94e7d31f18538d7e6b2
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ekip.mobile
-        - https://f-droid.org/en/packages/com.ekip.mobile/
-        - https://google.com/search?q=com.ekip.mobile
-
-com.dena.automotive.taxibell/com.dena.automotive.taxibell.SplashActivity:
-    name: GO
-    reqt: 1
-    reql: 2025-01-02 06:30:52
-    hash: 9979157a722d5c056b9f1da8c4a83307ac867874
-    urls:
-        - https://play.google.com/store/apps/details?id=com.dena.automotive.taxibell
-        - https://f-droid.org/en/packages/com.dena.automotive.taxibell/
-        - https://google.com/search?q=com.dena.automotive.taxibell
-
-com.qconcursos.QCX/com.qconcursos.qcx.MainActivity:
-    name: Qconcursos
-    reqt: 1
-    reql: 2025-01-02 04:55:13
-    hash: fb65a5528ab5821e700e3ecf0a80c8c84d929d3f
-    urls:
-        - https://play.google.com/store/apps/details?id=com.qconcursos.QCX
-        - https://f-droid.org/en/packages/com.qconcursos.QCX/
-        - https://google.com/search?q=com.qconcursos.QCX
-
-vitalypanov.mynotes.pro/vitalypanov.mynotes.activity.StartScreenActivity:
-    name: Notes
-    reqt: 1
-    reql: 2025-01-02 04:40:03
-    hash: f8604432511431419b0ce65558e21e79d1415c81
-    urls:
-        - https://play.google.com/store/apps/details?id=vitalypanov.mynotes.pro
-        - https://f-droid.org/en/packages/vitalypanov.mynotes.pro/
-        - https://google.com/search?q=vitalypanov.mynotes.pro
-
-cellmapper.net.cellmapper/cellmapper.net.cellmapper.MainActivity:
-    name: CellMapper
-    reqt: 1
-    reql: 2025-01-02 04:37:55
-    hash: b4b230e2be1aaba4086c8b3384e9fb70cc9c97eb
-    urls:
-        - https://play.google.com/store/apps/details?id=cellmapper.net.cellmapper
-        - https://f-droid.org/en/packages/cellmapper.net.cellmapper/
-        - https://google.com/search?q=cellmapper.net.cellmapper
-
-com.app360eyespro/com.showmo.activity.OpenSelectActivity:
-    name: 360Eyes Pro
-    reqt: 1
-    reql: 2025-01-02 02:43:26
-    hash: ed7e365b89355b8f566e4a655b9833f677fd54a5
-    urls:
-        - https://play.google.com/store/apps/details?id=com.app360eyespro
-        - https://f-droid.org/en/packages/com.app360eyespro/
-        - https://google.com/search?q=com.app360eyespro
-
-ca.regina.recollect.waste/crc64362b993fa7fc4f1f.SplashActivity:
-    name: Waste
-    reqt: 1
-    reql: 2025-01-02 02:03:43
-    hash: 9e5740ce463f5e92f5205d1f8ee1de2183e37c47
-    urls:
-        - https://play.google.com/store/apps/details?id=ca.regina.recollect.waste
-        - https://f-droid.org/en/packages/ca.regina.recollect.waste/
-        - https://google.com/search?q=ca.regina.recollect.waste
-
-com.gof.global/com.unity3d.player.MyMainPlayerActivity:
-    name: Whiteout Survival
-    reqt: 1
-    reql: 2025-01-01 23:05:12
-    hash: 0cc74db873b09ed54eb03b61a65a2f887439d2af
-    urls:
-        - https://play.google.com/store/apps/details?id=com.gof.global
-        - https://f-droid.org/en/packages/com.gof.global/
-        - https://google.com/search?q=com.gof.global
-
-com.religare.healthinsurance/com.religare.healthinsurance.view.ui_activity.ui.fragment.onboarding.SplashActivity:
-    name: Care Health Insurance
-    reqt: 1
-    reql: 2025-01-01 22:41:45
-    hash: 1bffa9e0f26bc93d6d077c52611ca8078dbee532
-    urls:
-        - https://play.google.com/store/apps/details?id=com.religare.healthinsurance
-        - https://f-droid.org/en/packages/com.religare.healthinsurance/
-        - https://google.com/search?q=com.religare.healthinsurance
-
-com.sankakucomplex.channel.black/com.sc.channel.MainActivity:
-    name: Sankaku Black
-    reqt: 1
-    reql: 2025-01-01 22:33:33
-    hash: 849fa2fc704d3481446af4bd0f0e050f4860a783
-    urls:
-        - https://play.google.com/store/apps/details?id=com.sankakucomplex.channel.black
-        - https://f-droid.org/en/packages/com.sankakucomplex.channel.black/
-        - https://google.com/search?q=com.sankakucomplex.channel.black
-
-com.fambase.venus/com.fambase.venus.app.splash.SplashActivity:
-    name: Fambase
-    reqt: 1
-    reql: 2025-01-01 22:23:51
-    hash: 6d4e9e051a2a045f7a315241b656310d7d51941e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.fambase.venus
-        - https://f-droid.org/en/packages/com.fambase.venus/
-        - https://google.com/search?q=com.fambase.venus
-
-word.daily.puzzle/com.unity3d.player.UnityPlayerActivity:
-    name: Wordix
-    reqt: 1
-    reql: 2025-01-01 20:01:43
-    hash: 3e00c1a337dc9e363f78fe74ce68760bc85725e2
-    urls:
-        - https://play.google.com/store/apps/details?id=word.daily.puzzle
-        - https://f-droid.org/en/packages/word.daily.puzzle/
-        - https://google.com/search?q=word.daily.puzzle
-
-com.philips.ph.homecare/com.philips.ph.homecare.MainActivity:
-    name: Air+
-    reqt: 1
-    reql: 2025-01-01 19:43:32
-    hash: 7acb8ff2575250fa93d4635ece70fc2c7ef5c6e7
-    urls:
-        - https://play.google.com/store/apps/details?id=com.philips.ph.homecare
-        - https://f-droid.org/en/packages/com.philips.ph.homecare/
-        - https://google.com/search?q=com.philips.ph.homecare
-
-com.ndemiccreations.afterinc/com.unity3d.player.UnityPlayerActivity:
-    name: After Inc.
-    reqt: 1
-    reql: 2025-01-01 19:30:45
-    hash: 7579aa25fb56db3152f8ee290793284862aa049b
-    urls:
-        - https://play.google.com/store/apps/details?id=com.ndemiccreations.afterinc
-        - https://f-droid.org/en/packages/com.ndemiccreations.afterinc/
-        - https://google.com/search?q=com.ndemiccreations.afterinc
-
-menion.android.locus/com.asamm.android.library.core.features.startScreen.StartScreen:
-    name: Locus Map
-    reqt: 1
-    reql: 2025-01-01 18:42:01
-    hash: 889d92a2e73f7f2f166bcd46c4f237af8adfc080
-    urls:
-        - https://play.google.com/store/apps/details?id=menion.android.locus
-        - https://f-droid.org/en/packages/menion.android.locus/
-        - https://google.com/search?q=menion.android.locus
-
-com.king.candycrushjellysaga/com.king.candycrushjellysaga.StritzActivity:
-    name: Candy Crush Jelly
-    reqt: 1
-    reql: 2025-01-01 18:12:05
-    hash: 496d3c89db23568369a0c1f00e3e60e5526f8d6e
-    urls:
-        - https://play.google.com/store/apps/details?id=com.king.candycrushjellysaga
-        - https://f-droid.org/en/packages/com.king.candycrushjellysaga/
-        - https://google.com/search?q=com.king.candycrushjellysaga
-
-com.examgoal.android.app/com.examgoal.app.common.MainActivity:
-    name: ExamGOAL
-    reqt: 1
-    reql: 2025-01-01 17:31:33
-    hash: a8b31f2c9b1b77b176e6864c669af97e68b9829c
-    urls:
-        - https://play.google.com/store/apps/details?id=com.examgoal.android.app
-        - https://f-droid.org/en/packages/com.examgoal.android.app/
-        - https://google.com/search?q=com.examgoal.android.app
-
-com.zentity.tmcz.kaktus/com.zentity.tmcz.kaktus.app.SplashActivity:
-    name: Kaktus
-    reqt: 1
-    reql: 2025-01-01 17:29:10
-    hash: b17862000561e358964ccc8161679b0e912a8252
-    urls:
-        - https://play.google.com/store/apps/details?id=com.zentity.tmcz.kaktus
-        - https://f-droid.org/en/packages/com.zentity.tmcz.kaktus/
-        - https://google.com/search?q=com.zentity.tmcz.kaktus
-
-com.folderv.filepro/com.folderv.file.SplashActivity:
-    name: FV File Explorer Pro
-    reqt: 1
-    reql: 2025-01-01 17:10:18
-    hash: b2004e6b70a762b74b32a6bfadf9c52c0d1195be
-    urls:
-        - https://play.google.com/store/apps/details?id=com.folderv.filepro
-        - https://f-droid.org/en/packages/com.folderv.filepro/
-        - https://google.com/search?q=com.folderv.filepro
-
-com.jins.sales/com.jins.sales.view.ui.splash.SplashActivity:
-    name: JINS
-    reqt: 1
-    reql: 2025-01-01 16:50:54
-    hash: 45025d60ac2117ec455e744c15737b3c38f9a1ce
-    urls:
-        - https://play.google.com/store/apps/details?id=com.jins.sales
-        - https://f-droid.org/en/packages/com.jins.sales/
-        - https://google.com/search?q=com.jins.sales
-
-com.sennheiser.tvclear/com.sonova.sennheiser.tvclear.ui.splash.SplashActivity:
-    name: TV Clear
-    reqt: 1
-    reql: 2025-01-01 15:23:04
-    hash: 6911e8a3f077ac9d0294911e9fabb027d50feec0
-    urls:
-        - https://play.google.com/store/apps/details?id=com.sennheiser.tvclear
-        - https://f-droid.org/en/packages/com.sennheiser.tvclear/
-        - https://google.com/search?q=com.sennheiser.tvclear
-
-tv.africa.streaming/tv.africa.streaming.presentation.view.activity.SplashActivity:
-    name: Airtel TV
-    reqt: 1
-    reql: 2025-01-01 14:54:10
-    hash: bc5f57a45141b25a1abe4719e34b782187763263
-    urls:
-        - https://play.google.com/store/apps/details?id=tv.africa.streaming
-        - https://f-droid.org/en/packages/tv.africa.streaming/
-        - https://google.com/search?q=tv.africa.streaming
