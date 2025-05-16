@@ -305,7 +305,7 @@ You may use these tools to find each app's СomponentInfo(s):
 
 ## Creating Secrets
 
-Go to `Settings → Secrets and Variables` and create the following repository secrets:
+Go to `Settings → Secrets and Variables → Actions` and create the following repository secrets:
 
   - `KEYSTORE_BASE64`
 
