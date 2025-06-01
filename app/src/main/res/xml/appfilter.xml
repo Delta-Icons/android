@@ -13728,10 +13728,15 @@
 	<item component="ComponentInfo{io.ente.auth.independent/io.ente.auth.MainActivity}" drawable="ente_auth" />
 	<item component="ComponentInfo{io.ente.auth/io.ente.auth.MainActivity}" drawable="ente_auth" />
 	<item component="ComponentInfo{io.ente.photos.fdroid/io.ente.photos.MainActivity}" drawable="ente" />
+	<item component="ComponentInfo{io.ente.photos.fdroid/io.ente.photos.fdroid.IconDark}" drawable="ente_dark" />
 	<item component="ComponentInfo{io.ente.photos.fdroid/io.ente.photos.fdroid.IconGreen}" drawable="ente" />
-	<item component="ComponentInfo{io.ente.photos.fdroid/io.ente.photos.fdroid.IconOG}" drawable="ente" />
-<item component="ComponentInfo{io.ente.photos.independent/io.ente.photos.MainActivity}" drawable="ente" />
+	<item component="ComponentInfo{io.ente.photos.fdroid/io.ente.photos.fdroid.IconLight}" drawable="ente_light" />
+	<item component="ComponentInfo{io.ente.photos.fdroid/io.ente.photos.fdroid.IconOG}" drawable="ente_og" />
+	<item component="ComponentInfo{io.ente.photos.independent/io.ente.photos.MainActivity}" drawable="ente" />
+	<item component="ComponentInfo{io.ente.photos/io.ente.photos.IconDark}" drawable="ente_dark" />
 	<item component="ComponentInfo{io.ente.photos/io.ente.photos.IconGreen}" drawable="ente" />
+	<item component="ComponentInfo{io.ente.photos/io.ente.photos.IconLight}" drawable="ente_light" />
+	<item component="ComponentInfo{io.ente.photos/io.ente.photos.IconOG}" drawable="ente_og" />
 	<item component="ComponentInfo{io.ente.photos/io.ente.photos.MainActivity}" drawable="ente" />
 	<item component="ComponentInfo{io.faceapp/io.faceapp.MainActivity}" drawable="face_app" />
 	<item component="ComponentInfo{io.filen.app/io.filen.app.MainActivity}" drawable="filen" />
