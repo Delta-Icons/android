@@ -20,6 +20,14 @@
   <a href="https://f-droid.org/packages/website.leifs.delta.foss">
     <img src="https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get"/>
   </a>
+
+  <a href="obtainium://app/%7B%22id%22%3A%22website.leifs.delta%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FDelta-Icons%2Fandroid%22%2C%22author%22%3A%22Delta-Icons%22%2C%22name%22%3A%22Delta%20%22%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22v%5C%5C%5C%5Cd%2B.%5C%5C%5C%5Cd%2B.%5C%5C%5C%5Cd%2B%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22delta-v%5C%5C%5C%5Cd%2B.%5C%5C%5C%5Cd%2B.%5C%5C%5C%5Cd%2B.apk%5C%22%2C%5C%22about%5C%22%3A%5C%22Minimalistic%20pastel%20icons%5C%22%2C%5C%22appName%5C%22%3A%5C%22Delta%20%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22Delta-Icons%5C%22%7D%22%7D">
+    <img src="https://img.shields.io/static/v1?labelColor=56595b&color=bd9aff&logo=obtainium&logoColor=ffffff&label=obtainium&style=for-the-badge&message=prod"/>
+  </a>
+
+  <a href="obtainium://app/%7B%22id%22%3A%22website.leifs.delta.foss%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FDelta-Icons%2Fandroid%22%2C%22author%22%3A%22Delta-Icons%22%2C%22name%22%3A%22Delta%20(foss)%22%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22v%5C%5C%5C%5Cd%2B.%5C%5C%5C%5Cd%2B.%5C%5C%5C%5Cd%2B%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22delta-v%5C%5C%5C%5Cd%2B.%5C%5C%5C%5Cd%2B.%5C%5C%5C%5Cd%2B-foss.apk%5C%22%2C%5C%22about%5C%22%3A%5C%22Minimalistic%20pastel%20icons%5C%22%2C%5C%22appName%5C%22%3A%5C%22Delta%20(foss)%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22Delta-Icons%5C%22%7D%22%7D">
+    <img src="https://img.shields.io/static/v1?labelColor=56595b&color=bd9aff&logo=obtainium&logoColor=ffffff&label=obtainium foss&style=for-the-badge&message=prod"/>
+  </a>
 </p>
 
 ## Contributing
