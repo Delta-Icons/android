@@ -24,3 +24,11 @@ gotyme_bank:
 
 linear:
   - app.linear/app.linear.Launcher
+
+bily:
+  - com.bily/com.bily.MainActivity
+
+google_password_manager:
+  category: 'Google'
+  compinfos:
+    - com.google.android.apps.credentialmanager/com.google.android.apps.credentialmanager.launcher.LauncherActivity
