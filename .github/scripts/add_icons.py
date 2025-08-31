@@ -248,7 +248,8 @@ if include_appfilter:
             appfilter_entries = []
             for compinfo in compinfos:
                 appfilter_entry = f'<item component="ComponentInfo{{{compinfo}}}" drawable="{name}" />'
-                if not re.search(appfilter_entry, content):
+                compinfo_pattern = appfilter_entry.replace('$', '\\$')
+                if not re.search(compinfo_pattern, content):
                     appfilter_entries.append(appfilter_entry)
                     replace += f'\t{appfilter_entry}\n'
             if appfilter_entries:
