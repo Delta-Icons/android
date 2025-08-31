@@ -4,6 +4,7 @@ import argparse, re, sys
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from difflib import SequenceMatcher
+from copy import deepcopy as copy
 
 import yaml
 from natsort import natsorted as sorted
@@ -35,6 +36,10 @@ parser.add_argument('-r', '--remove',
                     help=f'remove existing compinfos from {filename}',
                     default=False,
                     action=argparse.BooleanOptionalAction)
+parser.add_argument('-R', '--ratio',
+                    dest='ratio',
+                    help=f'custom ratio from 0.5 to 1.0',
+                    default=0.75)
 parser.add_argument('-s', '--sort',
                     dest='sort',
                     help='sort by specific value',
@@ -70,7 +75,11 @@ def write(path, data):
 
 def main():
     requests = read(paths['requests'])
+    requests_copy = copy(requests)
+    
     updatable = {}
+
+    RATIO = float(args.ratio) if 0.5 <= float(args.ratio) <= 1.0 else 0.75
 
     with open(paths['appfilter'][0], 'r') as file:
         appfilter = ET.ElementTree(ET.fromstring(file.read())).getroot()
@@ -78,19 +87,25 @@ def main():
     for item in appfilter:
         try:
             compinfo = re.search('ComponentInfo{(.*)}', item.attrib['component']).group(1)
-            id = compinfo.split('/')[0]
+            id, activity = compinfo.split('/')
             name = item.attrib['drawable']
 
-            for request in requests:
+            for request in requests_copy:
                 if id not in request: continue
-                diff = SequenceMatcher(None, request, compinfo).ratio()
-                ratio = round(diff, 2)
 
-                if ratio == 1.0:
-                    requests.pop(compinfo)
-                    continue
+                ratio = 0.0
 
-                if ratio >= 0.75:
+                if request.startswith(id + '/'):
+                    ratio = 1.0
+                else: 
+                    diff = SequenceMatcher(None, request, compinfo).ratio()
+                    ratio = round(diff, 2)
+
+                if ratio >= RATIO:
+
+                    if ratio == 1.0:
+                        requests.pop(request)
+
                     if request in updatable:
                         if updatable[request]['ratio'] < ratio:
                             ratio = updatable[request]['ratio']
@@ -100,6 +115,7 @@ def main():
                         'ratio': ratio,
                         'request': request
                     }
+
         except:
             continue
 
