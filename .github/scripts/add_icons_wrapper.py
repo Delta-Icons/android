@@ -62,7 +62,7 @@ errors = []
 icons = [(key, value) for key, value in icons_yml.items()]
 
 
-command_base = f'python {add_icons} -P {delta_dir} -aidI'
+command_base = f"python '{add_icons}' -P '{delta_dir}' -aidI"
 
 if options.dry_run: command_base += ' -D'
 
@@ -90,19 +90,19 @@ for icon in icons:
         exit(2)
         
 
-    command = f'{command_base} -n {name}'
+    command = f"{command_base} -n '{name}'"
 
     if compinfos:
-        command += ' -c ' + ' '.join(compinfos)
         for compinfo in compinfos:
+            command += f" -c '{compinfo}'"
             if compinfo in requests:
                 requests.pop(compinfo)
     else:
         if re.match('^.*_alt_[0-9]+$', name):
             category = 'Alts'
 
-    if category: command += f' -C {quote(category)}'
-
+    if category: command += f" -C '{quote(category)}'"
+    print(command)
 
     print(f'[icon] {name}')
     status = execute(f'{command}')
