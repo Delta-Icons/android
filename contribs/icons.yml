@@ -14,19 +14,19 @@
 #     - com.google.app/com.google.app.MainActivity
 
 square_point_of_sale:
-  - com.squareup.ui.PaymentActivity
-  - com.squareup.ui.main.MainActivity
+  - com.squareup/com.squareup.ui.PaymentActivity
+  - com.squareup/com.squareup.ui.main.MainActivity
 
 expressvpn:
-  - com.expressvpn.vpn.ui.SplashActivity
-  - com.expressvpn.splash.SplashActivity
-  - com.expressvpn.vpn.splash.ClassicAlias
+  - com.expressvpn.vpn/com.expressvpn.vpn.ui.SplashActivity
+  - com.expressvpn.vpn/com.expressvpn.splash.SplashActivity
+  - com.expressvpn.vpn/com.expressvpn.vpn.splash.ClassicAlias
 
 laresmart:
-  - com.smart.ThingSplashActivity
+  - com.laresmart.clean/com.smart.ThingSplashActivity
 
 simo:
-  - com.solisapp.solis.MainActivity
+  - com.solisapp.solis/com.solisapp.solis.MainActivity
 
 barcode_scanner:
-  - com.manateeworks.barcodescanners.SplashActivity
+  - com.manateeworks.barcodescanners/com.manateeworks.barcodescanners.SplashActivity
