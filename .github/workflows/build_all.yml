@@ -238,6 +238,16 @@ jobs:
         github.repository_owner == env.organization &&
         inputs.publish == true
 
+    - name: Update the requests list
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        repo: ${{ github.repository }}
+        workflow: update_requests.yml
+        token: ${{ env.token }}
+      if: |
+        github.repository_owner == env.organization &&
+        inputs.publish == true
+
     - name: Promote beta to production channel
       uses: kevin-david/promote-play-release@v1.1.0
       with:
@@ -261,12 +271,22 @@ jobs:
         inputs.release_type == 'prod' &&
         inputs.publish == true
 
-    - name: Update the requests list
-      uses: benc-uk/workflow-dispatch@v1
+    - name: Close the current milestone
+      uses: oinume/create-scheduled-milestone-action@main
       with:
-        repo: ${{ github.repository }}
-        workflow: update_requests.yml
-        token: ${{ env.token }}
+        title: ${{ env.version }}
+        state: closed
       if: |
         github.repository_owner == env.organization &&
+        inputs.release_type == 'prod' &&
+        inputs.publish == true
+
+    - name: Open a new milestone
+      uses: oinume/create-scheduled-milestone-action@main
+      with:
+        title: ${{ env.version_next }}
+        state: open
+      if: |
+        github.repository_owner == env.organization &&
+        inputs.release_type == 'prod' &&
         inputs.publish == true
