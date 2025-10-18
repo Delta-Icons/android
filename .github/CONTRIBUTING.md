@@ -44,15 +44,15 @@ Description of categories and what they are for:
 > _`com.example/com.example.MainActivity` will be used as the 1st ComponentInfo for `new_icon`_ <br>
 > _`com.example/com.example.StartActivity` will be used as the 2nd ComponentInfo for `new_icon`_
 
-Don't forget to give yourself an entry at the bottom of [app/src/main/res/xml/contributors.xml](../../../tree/master/app/src/main/res/xml/contributors.xml) if this is your first contribution!
+Don't forget to give yourself an entry at the bottom of [`app/src/main/res/xml/contributors.xml`](/app/src/main/res/xml/contributors.xml) if this is your first contribution!
 
 ## Auto Method
 
 > **This method is only for adding new icons or linking ComponentInfo(s) with existing icons!** 
 
-1. Add `new_icon.svg` and `new_icon.png` to [contribs/icons](../../../tree/master/contribs/icons) directory
+1. Add `new_icon.svg` and `new_icon.png` to [contribs/icons](/contribs/icons) directory
 
-2. Append the icon name with ComponentInfo(s) to [contribs/icons.yml](https://github.com/Delta-Icons/android/blob/master/contribs/icons.yml) with any of the next formats:
+2. Append the icon name with ComponentInfo(s) to [`contribs/icons.yml`](https://github.com/Delta-Icons/android/blob/master/contribs/icons.yml) with any of the next formats:
 
     2.1. The new icon with the ComponentInfo.
 
@@ -97,11 +97,11 @@ And we're done! Repeat the process for adding new icons.
 
 ## Manual Method
 
-1. Add `new_icon.svg` to [resources/vectors](../../../tree/master/resources/vectors) directory
+1. Add `new_icon.svg` to [resources/vectors](/resources/vectors) directory
 
-2. Add `new_icon.png` to [app/src/main/res/drawable-nodpi](../../../tree/master/app/src/main/res/drawable-nodpi) directory
+2. Add `new_icon.png` to [app/src/main/res/drawable-nodpi](/app/src/main/res/drawable-nodpi)
 
-3. Append the line `<item drawable="new_icon" />` in `New` and named categories (the named category is based on the first letter of the icon name; `N` in our case) to [app/src/main/assets/drawable.xml](../../../tree/master/app/src/main/assets/drawable.xml) and [app/src/main/res/xml/drawable.xml](../../../tree/master/app/src/main/res/xml/drawable.xml). How it should look:
+3. Append the line `<item drawable="new_icon" />` in `New` and named categories (the named category is based on the first letter of the icon name; `N` in our case) to [`app/src/main/assets/drawable.xml`](/app/src/main/assets/drawable.xml) and [`app/src/main/res/xml/drawable.xml`](/app/src/main/res/xml/drawable.xml). How it should look:
 
     ```xml
         <!-- lines omitted -->
@@ -123,7 +123,7 @@ And we're done! Repeat the process for adding new icons.
     ```
     > You can edit one file and overwrite another with it to keep them identical.
 
-4. Append the line `<item component="ComponentInfo{com.example/com.example.MainActivity}" drawable="new_icon" />` to [app/src/main/assets/appfilter.xml](../../../tree/master/app/src/main/assets/appfilter.xml) and [app/src/main/res/xml/appfilter.xml](../../../tree/master/app/src/main/res/xml/appfilter.xml). How it should look:
+4. Append the line `<item component="ComponentInfo{com.example/com.example.MainActivity}" drawable="new_icon" />` to  [`app/src/main/assets/appfilter.xml`](/app/src/main/assets/appfilter.xml) and [`app/src/main/res/xml/appfilter.xml`](/app/src/main/res/xml/appfilter.xml). How it should look:
 
     ```xml
         <!-- lines omitted -->
@@ -145,15 +145,15 @@ If the existing icon rebranded, don't overwrite it with a new one, do the follow
 
 > `old_icon_alt_1` will be used as an alternative icon name for the existing icon name
 
-1. Determine if alternative icons exist for the target app by checking `Alts` category in [app/src/main/res/xml/drawable.xml](../../../tree/master/app/src/main/res/xml/drawable.xml). If no alternative icons then start numbering from `1` (e.g. `old_icon_alt_1`), otherwise continue numbering based on latest alternative icon number (e.g. `old_icon_alt_2`)
+1. Determine if alternative icons exist for the target app by checking `Alts` category in [`app/src/main/res/xml/drawable.xml`](/app/src/main/res/xml/drawable.xml). If no alternative icons then start numbering from `1` (e.g. `old_icon_alt_1`), otherwise continue numbering based on latest alternative icon number (e.g. `old_icon_alt_2`)
 
-2. Rename `old_icon.svg` to `old_icon_alt_1.svg` in [resources/vectors](../../../tree/master/resources/vectors) directory (if SVG not found there just skip this step)
+2. Rename `old_icon.svg` to `old_icon_alt_1.svg` in [resources/vectors](/resources/vectors) directory (if SVG not found there just skip this step)
 
-3. Rename `old_icon.png` to `old_icon_alt_1.png` in [app/src/main/res/drawable-nodpi](../../../tree/master/app/src/main/res/drawable-nodpi) directory
+3. Rename `old_icon.png` to `old_icon_alt_1.png` in [app/src/main/res/drawable-nodpi](/app/src/main/res/drawable-nodpi) directory
 
-4. Add `old_icon_alt_1` to `Alts` category and `old_icon` to `New` category in [app/src/main/assets/drawable.xml](../../../tree/master/app/src/main/assets/drawable.xml) and [app/src/main/res/xml/drawable.xml](../../../tree/master/app/src/main/res/xml/drawable.xml)
+4. Add `old_icon_alt_1` to `Alts` category and `old_icon` to `New` category in [`app/src/main/assets/drawable.xml`](/app/src/main/assets/drawable.xml) and [`app/src/main/res/xml/drawable.xml`](/app/src/main/res/xml/drawable.xml)
 
-5. If the ComponentInfo also changed after rebranding, replace `old_icon` with `old_icon_alt_1` in [app/src/main/assets/appfilter.xml](../../../tree/master/app/src/main/assets/appfilter.xml) and [app/src/main/res/xml/appfilter.xml](../../../tree/master/app/src/main/res/xml/appfilter.xml) (the alternative icon will be linked with the old ComponentInfos for back compability)
+5. If the ComponentInfo also changed after rebranding, replace `old_icon` with `old_icon_alt_1` in [`app/src/main/assets/appfilter.xml`](/app/src/main/assets/appfilter.xml) and [`app/src/main/res/xml/appfilter.xml`](/app/src/main/res/xml/appfilter.xml) (the alternative icon will be linked with the old ComponentInfos for back compability)
 
 # Resources
 
@@ -169,7 +169,7 @@ If the existing icon rebranded, don't overwrite it with a new one, do the follow
 
 ## Requests
 
-If you wanna help close icon requests from users, you can take a look at [contribs/requests.yml](../../../tree/master/contribs/requests.yml) where all requests are stored. The file updates periodically.
+If you wanna help close icon requests from users, you can take a look at [`contribs/requests.yml`](/contribs/requests.yml) where all requests are stored. The file updates periodically.
 
 ## Gathering ComponentInfo
 
@@ -187,7 +187,7 @@ You may use these tools to find each app's СomponentInfo(s):
 - If the original logo doesn't contain small details or doesn't make up most of the background layer (circle/square/etc.) as designed, keep the logo size between 73-80px
 - The rounded corners of squares and rectangles have a corner radius of 10px
 
-|<img src="../../../raw/master/resources/templates/template.svg" width="177" height="177">|<img src="../../../raw/master/resources/templates/template_tutorial.svg" width="547,705" height="600">|
+|<img src="/resources/templates/template.svg" width="177" height="177">|<img src="/resources/templates/template_tutorial.svg" width="547,705" height="600">|
 |---|---|
 
 ## Colors
@@ -207,13 +207,13 @@ You may use these tools to find each app's СomponentInfo(s):
 <details>
   <summary>Full</summary>
   <br>
-  <img src="../../../raw/master/resources/palettes/palette.svg">
+  <img src="/resources/palettes/palette.svg">
 </details>
 
 <details>
   <summary>Simple</summary>
   <br>
-  <center><img src="../../../raw/master/resources/palettes/palette_simplified.svg"></center>
+  <center><img src="/resources/palettes/palette_simplified.svg"></center>
 </details>
 
 <details>
@@ -293,9 +293,9 @@ You may use these tools to find each app's СomponentInfo(s):
 
 #### Graphic Editors
 
-- [Adobe Swatch Exchange Palette](../../../raw/master/resources/palettes/palette.ase) (Illustrator, Photoshop)
+- [Adobe Swatch Exchange Palette](/resources/palettes/palette.ase) (Illustrator, Photoshop)
 
-- [GPL Pallete](../../../raw/master/resources/palettes/palette.gpl) (Inkscape, Karbon)
+- [GPL Pallete](/resources/palettes/palette.gpl) (Inkscape, Karbon)
 
 - [Figma Icon Template (+variables)](https://www.figma.com/design/02aiFRSLkikcw8mpBAnoDA/Delta-Icon-Template?m=auto&t=qyLH05AMDzZwAI2s-1)
 
