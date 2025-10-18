@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-	compileSdk rootProject.ext.CompileSdk
+    compileSdk = rootProject.ext.CompileSdk
 
 	namespace 'website.leifs.delta'
 
@@ -57,7 +57,7 @@ android {
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(11)
+		languageVersion = JavaLanguageVersion.of(17)
 	}
 }
 
@@ -71,8 +71,8 @@ dependencies {
      * If you've missed some versions you've to also follow update guide for those versions
      */
 
-	playImplementation 'com.github.zixpo:candybar:3.21.1'
-	fossImplementation 'com.github.donnnno:candybar-foss:3.21.2'
+	playImplementation 'com.github.zixpo:candybar:3.22.2'
+	fossImplementation 'com.github.donnnno:candybar-foss:3.22.2'
 }
 
 // Code for automatically copying appfilter.xml and drawable.xml
