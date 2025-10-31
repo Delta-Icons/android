@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-	compileSdk rootProject.ext.CompileSdk
+    compileSdk = rootProject.ext.CompileSdk
 
 	namespace 'website.leifs.delta'
 
@@ -9,8 +9,8 @@ android {
 		applicationId "website.leifs.delta"
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 209001
-		versionName "2.9.0-beta.1"
+		versionCode 209002
+		versionName "2.9.0-beta.2"
 		multiDexEnabled true
 
 		// Naming app bundles
@@ -57,7 +57,7 @@ android {
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(11)
+		languageVersion = JavaLanguageVersion.of(17)
 	}
 }
 
@@ -71,8 +71,8 @@ dependencies {
      * If you've missed some versions you've to also follow update guide for those versions
      */
 
-	playImplementation 'com.github.zixpo:candybar:3.21.1'
-	fossImplementation 'com.github.donnnno:candybar-foss:3.21.2'
+	playImplementation 'com.github.zixpo:candybar:3.22.2'
+	fossImplementation 'com.github.donnnno:candybar-foss:3.22.2'
 }
 
 // Code for automatically copying appfilter.xml and drawable.xml
