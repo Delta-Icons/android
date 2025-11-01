@@ -39,8 +39,8 @@ args = argparser.parse_args()
 
 target = join(paths['root'], 'app/build.gradle')
 
-regexp_version_code = re.compile('versionCode (\d+)')
-regexp_version_name = re.compile('versionName "((\d+\.\d+\.\d+)(-beta\.?(\d+))?)"')
+regexp_version_code = re.compile(r'versionCode (\d+)')
+regexp_version_name = re.compile(r'versionName "((\d+\.\d+\.\d+)(-beta\.?(\d+))?)"')
 is_beta = 'true' if args.release_type == 'beta' else 'false'
 
 
@@ -94,3 +94,4 @@ if args.env:
     print(f'version=v{version_name}')
     print(f'version_code={version_code}')
     print(f'version_name={version_name}')
+    print(f'version_next={version_name.bump_minor()}')
