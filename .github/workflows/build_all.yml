@@ -276,6 +276,8 @@ jobs:
       with:
         title: ${{ env.version }}
         state: closed
+      env:
+        GITHUB_TOKEN: ${{ env.token }}
       if: |
         github.repository_owner == env.organization &&
         inputs.release_type == 'prod' &&
@@ -286,6 +288,8 @@ jobs:
       with:
         title: ${{ env.version_next }}
         state: open
+      env:
+        GITHUB_TOKEN: ${{ env.token }}
       if: |
         github.repository_owner == env.organization &&
         inputs.release_type == 'prod' &&
