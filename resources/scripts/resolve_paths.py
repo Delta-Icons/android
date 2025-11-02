@@ -16,7 +16,7 @@ parser.add_argument('-p', '--print',
 
 def format_paths():
     root = abspath(f'{dirname(realpath(__file__))}/../..')
-    scripts = join(root, '.github/scripts')
+    scripts = abspath(dirname(realpath(__file__)))
     contribs = join(root, 'contribs')
     icons = join(contribs, 'icons')
     return {

@@ -14,12 +14,12 @@ import mailparser
 import xmltodict
 
 from requests_parser import read, write
+from resolve_paths import paths
 
 DATE_NOW = datetime.now()
 
-WORK_DIR = os.path.abspath(os.path.dirname(os.path.realpath(__file__)) + '../../../')
-EMAILS_DIR = f'{WORK_DIR}/.github/scripts/emails'
-REQUESTS_FILE = f'{WORK_DIR}/contribs/requests.yml'
+EMAILS_DIR = os.path.join(paths['scripts'], 'emails')
+REQUESTS_FILE = paths['requests']
 
 GREEDY_COUNTER = 1
 REQUEST_LIFETIME = 90 # days
@@ -27,6 +27,7 @@ REQUEST_LIFETIME = 90 # days
 STORES = [
     'https://play.google.com/store/apps/details?id={}',
     'https://f-droid.org/en/packages/{}/',
+    # 'https://apkpure.com/delta/{}/',
     'https://google.com/search?q={}',
 ]
 

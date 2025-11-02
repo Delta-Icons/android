@@ -46,16 +46,11 @@ options = parser.parse_args()
 
 icons_yml = read(icons_file) 
 
-if icons_yml is None:
-    print(f'warn: looks like {basename(icons_file)} is empty')
-    exit(1)
+if not icons_yml:
+    print(f'{basename(icons_file)} is empty')
+    exit(0)
 
 requests = read(requests_file)
-
-if icons_yml is None:
-    print(f'warn: looks like {basename(icons_file)} is empty')
-    exit(1)
-
 
 errors = []
 
