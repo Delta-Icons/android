@@ -1,11 +1,11 @@
 name: Build All
 run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
 
-permissions:
-  contents: write
-
 concurrency:
   group: delta
+
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
@@ -36,11 +36,10 @@ on:
       changelog:
         description: Changelog (b64 encoded)
 
-
 env:
   token: ${{ secrets.PA_TOKEN || github.token }}
-  organization: Delta-Icons
   current_repo: ${{ github.repository }}
+  organization: Delta-Icons
   website_repo: Delta-Icons/delta-icons.github.io
   package_name: website.leifs.delta
 
@@ -51,26 +50,43 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         token: ${{ env.token }}
         fetch-depth: 0
 
-    - name: Export variables
-      run: |
-        python -u .github/scripts/resolve_paths.py -p >> $GITHUB_ENV
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v5
+      with:
+        add-job-summary: never
 
     - name: Setup Java
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v5
       with:
+        cache: gradle
         distribution: temurin
         java-version: 18
 
-    - name: Install dependencies
+    - name: Setup Python
+      uses: actions/setup-python@v6
+      with:
+        cache: pip
+        python-version: '3.13'
+
+    - name: Export vars
       run: |
-        sudo apt-get update
-        sudo apt-get install -y optipng
-        sudo pip install -r ${{ env.sd }}/requirements.txt
+        python -u resources/scripts/resolve_paths.py -p >> $GITHUB_ENV
+        due_on=$(TZ=UTC date --iso-8601=seconds -d "$(date +%Y-%m-01) +1 month") >> $GITHUB_ENV
+
+    - name: Install Python deps
+      run: |
+        pip install -r ${{ env.sd }}/requirements.txt
+
+    - name: Install Linux deps
+      uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        packages: optipng
+        version: 1.0
 
     - name: Configure tools
       run: |
@@ -87,19 +103,26 @@ jobs:
           -r ${{ inputs.release_type }} \
           -v ${{ inputs.version_type }} >> $GITHUB_ENV
 
-    - name: Add new icons
+    - name: Add icons
       run: |
         python -u ${{ env.sd }}/add_icons_wrapper.py
 
-    - name: Set icon count
+    - name: Set icons count
       run: |
         python ${{ env.sd }}/count_icons.py -w
 
     - name: Optimize images
       run: |
-        bash ${{ env.sd }}/optimize_images.sh
+        latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
+        changes=$(git diff --name-only $latest_tag -- "***.png")
+        if [[ $latest_tag && $changes ]]; then
+            echo "Latest tag is $latest_tag; optimizing images since this tag"
+            optipng $changes || true
+        else
+            echo 'No release tag or changed files found, skip optimizing'
+        fi
 
-    - name: Sort appfilter and drawable
+    - name: Sort XMLs
       run: |
         cd ${{ env.sd }}
         python sort_appfilter.py -o
@@ -125,7 +148,7 @@ jobs:
 
         echo "changelog=$changelog_tmp" >> $GITHUB_ENV
 
-    - name: Commit pre-build changes
+    - name: Commit pre-release changes
       run: |
         git add \
           app/build.gradle \
@@ -178,15 +201,15 @@ jobs:
         mv -v *play*.apk ${{ env.filename }}.apk 2> /dev/null || true
         mv -v *play*.aab ${{ env.filename }}.aab 2> /dev/null || true
 
-    - name: Upload APKs to Artifacts
-      uses: actions/upload-artifact@v4
+    - name: Upload signed builds to Artifacts
+      uses: actions/upload-artifact@v5
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}*.apk
         if-no-files-found: error
-        retention-days: 90
+        retention-days: 30
 
-    - name: Push pre-build changes
+    - name: Push pre-release changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ env.token }}
@@ -238,7 +261,7 @@ jobs:
         github.repository_owner == env.organization &&
         inputs.publish == true
 
-    - name: Update the requests list
+    - name: Update requests
       uses: benc-uk/workflow-dispatch@v1
       with:
         repo: ${{ github.repository }}
@@ -248,7 +271,7 @@ jobs:
         github.repository_owner == env.organization &&
         inputs.publish == true
 
-    - name: Promote beta to production channel
+    - name: Promote Google Play beta to production
       uses: kevin-david/promote-play-release@v1.1.0
       with:
         service-account-json-raw: ${{ secrets.SERVICE_ACCOUNT }}
@@ -260,7 +283,7 @@ jobs:
         inputs.release_type == 'prod' &&
         inputs.publish == true
 
-    - name: Update the website
+    - name: Update website
       uses: benc-uk/workflow-dispatch@v1
       with:
         token: ${{ env.token }}
@@ -271,10 +294,11 @@ jobs:
         inputs.release_type == 'prod' &&
         inputs.publish == true
 
-    - name: Close the current milestone
+    - name: Close current milestone
       uses: oinume/create-scheduled-milestone-action@main
+      continue-on-error: true
       with:
-        title: ${{ env.version }}
+        title: ${{ env.version_name }}
         state: closed
       env:
         GITHUB_TOKEN: ${{ env.token }}
@@ -283,11 +307,13 @@ jobs:
         inputs.release_type == 'prod' &&
         inputs.publish == true
 
-    - name: Open a new milestone
+    - name: Open new milestone
       uses: oinume/create-scheduled-milestone-action@main
+      continue-on-error: true
       with:
         title: ${{ env.version_next }}
         state: open
+        due_on: '${{ env.due_on }}'
       env:
         GITHUB_TOKEN: ${{ env.token }}
       if: |

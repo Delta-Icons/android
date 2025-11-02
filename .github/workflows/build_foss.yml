@@ -1,10 +1,11 @@
 name: Build FOSS
 run-name: foss @ ${{ github.sha }}
 
+concurrency:
+  group: delta
+
 on:
   workflow_dispatch:
-
-concurrency: ${{ github.ref }}
 
 jobs:
   build:
@@ -13,23 +14,35 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
-    - name: Setup Java
-      uses: actions/setup-java@v4
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v5
       with:
+        add-job-summary: never
+  
+    - name: Setup Java
+      uses: actions/setup-java@v5
+      with:
+        cache: gradle
         distribution: temurin
         java-version: 18
 
-    - name: Export variables
-      run: |
-        python -u .github/scripts/resolve_paths.py -p >> $GITHUB_ENV
+    - name: Setup Python
+      uses: actions/setup-python@v6
+      with:
+        cache: pip
+        python-version: '3.13'
 
-    - name: Install dependencies
+    - name: Export vars
       run: |
-        sudo pip install -r ${{ env.sd }}/requirements.txt
+        python -u resources/scripts/resolve_paths.py -p >> $GITHUB_ENV
 
-    - name: Add new icons
+    - name: Install Python deps
+      run: |
+        pip install -r ${{ env.sd }}/requirements.txt
+
+    - name: Add icons
       run: |
         python -u ${{ env.sd }}/add_icons_wrapper.py
 
@@ -39,16 +52,16 @@ jobs:
         python -u ${{ env.sd }}/bump_version.py -w \
                -c "${GITHUB_SHA::7}|$(date +%s)"
 
-    - name: Set icon count
+    - name: Set icons count
       run: |
         python ${{ env.sd }}/count_icons.py -w
 
     - name: Create changelog
       run: |
-        python ${{ env.sd }}/create_changelog.py -p -w -r foss \
-               -x app/src/main/res/values/changelog.xml
+        python ${{ env.sd }}/create_changelog.py \
+          -p -w -r foss -x app/src/main/res/values/changelog.xml
 
-    - name: Sort appfilter and drawable
+    - name: Sort XMLs
       run: |
         cd ${{ env.sd }}
         python sort_appfilter.py -o
@@ -74,12 +87,12 @@ jobs:
         signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
         releaseDirectory: .
 
-    - name: Move signed APK
+    - name: Rename signed APK
       run: |
         mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}.apk
 
-    - name: Upload signed APK in Artifacts
-      uses: actions/upload-artifact@v4
+    - name: Upload signed APK to Artifacts
+      uses: actions/upload-artifact@v5
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk

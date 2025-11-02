@@ -1,34 +1,33 @@
-name: Check Conflicts
+name: Check for Conflicts
 run-name: conflicts @ ${{ github.sha }}
 
 on:
   workflow_dispatch:
-  pull_request:
+  pull_requests:
     paths:
-      - app/src/main/rec/drawable-nodpi/**
       - contribs/**
 
 jobs:
   build:
-    name: Check Conflicts
+    name: Check for Conflicts
     runs-on: ubuntu-22.04
     defaults:
       run:
-        working-directory: .github/scripts
+        working-directory: resources/scripts
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Setup Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
-        python-version: '3.10'
+        python-version: '3.13'
         cache: pip
 
-    - name: Install dependencies
+    - name: Install Python deps
       run: |
-        python -m pip install -r requirements.txt
+        pip install -r requirements.txt
 
     - name: Add icons
       run: |

@@ -1,15 +1,15 @@
 <p align="center">
-  <img width="200" src="./images/header.svg"/>
+  <img width="200" src="./resources/branding/header.svg"/>
 </p>
 
 <h2 align="center" padding="100">Delta Icons for Android</h2>
 
 <p align="center">
-  <a href="../../../releases/latest">
+  <a href="https://github.com/Delta-Icons/android/releases/latest">
     <img src="https://img.shields.io/github/v/release/Delta-Icons/android?labelColor=56595b&color=a6c6ff&logo=github&logoColor=ffffff&label=prod&style=for-the-badge"/>
   </a>
 
-  <a href="../../../releases">
+  <a href="https://github.com/Delta-Icons/android/releases">
     <img src="https://img.shields.io/github/v/release/Delta-Icons/android?labelColor=56595b&color=f8c28d&logo=github&logoColor=ffffff&include_prereleases&label=beta&style=for-the-badge"/>
   </a>
 
