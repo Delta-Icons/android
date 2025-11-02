@@ -3,7 +3,7 @@ run-name: conflicts @ ${{ github.sha }}
 
 on:
   workflow_dispatch:
-  pull_requests:
+  pull_request:
     paths:
       - contribs/**
 
