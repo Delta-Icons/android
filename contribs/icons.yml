@@ -12,3 +12,9 @@
 #   category: Google
 #   compinfos:
 #     - com.google.app/com.google.app.MainActivity
+
+forkyz: # Forkyz already exists in Delta, but it needs an update to the launch activity to appear in Nova
+  - app.crossword.yourealwaysbe.forkyz/app.crossword.yourealwaysbe.BrowseActivity
+  - app.crossword.yourealwaysbe.forkyz/app.crossword.yourealwaysbe.forkyz.BrowseActivity
+  - app.crossword.yourealwaysbe.forkyz/app.crossword.yourealwaysbe.forkyz.ForkyzActivity
+
