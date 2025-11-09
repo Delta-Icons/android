@@ -52,6 +52,7 @@ maytag:
   category: "M"
   compinfos:
     - com.maytag.android.mtapp/com.whirlpool.maytag.ui.activity.splash.SplashActivity
+    
 forkyz: # Forkyz already exists in Delta, but it needs an update to the launch activity to appear in Nova
   - app.crossword.yourealwaysbe.forkyz/app.crossword.yourealwaysbe.forkyz.ForkyzActivity
 
@@ -108,3 +109,12 @@ wifi_audio_streaming:
 
 brawlhalla:
   - air.com.ubisoft.brawl.halla.platform.fighting.action.pvp/air.com.ubisoft.brawl.halla.platform.fighting.action.pvp.AIRAppEntry
+
+current_activity:
+  - io.github.ratul.topactivity/io.github.ratul.topactivity.ui.MainActivity
+
+fladder:
+  - nl.jknaapen.fladder/nl.jknaapen.fladder.MainActivity
+
+privadovpn:
+  - io.privado.android/io.privado.android.ui.splash.SplashActivity
