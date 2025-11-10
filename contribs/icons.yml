@@ -14,46 +14,30 @@
 #     - com.google.app/com.google.app.MainActivity
 
 midfirst:
-  category: "M"
-  compinfos:
-    - com.fisglobal.mfb/com.fisglobal.mfb.MainActivity
+  - com.fisglobal.mfb/com.fisglobal.mfb.MainActivity
 
 regrid:
-  category: "R"
-  compinfos:
-    - com.loveland.pr/com.loveland.pr.MainActivity
+  - com.loveland.pr/com.loveland.pr.MainActivity
 
 sleep_number:
-  category: "S"
-  compinfos:
-    - com.selectcomfort.SleepIQ/com.selectcomfort.sleepiq.app.v4.ui.splash.SplashScreenActivity
+  - com.selectcomfort.SleepIQ/com.selectcomfort.sleepiq.app.v4.ui.splash.SplashScreenActivity
 
 notification_log:
-  category: "N"
-  compinfos:
-    - org.hcilab.projects.nlog/org.hcilab.projects.nlog.ui.MainActivity
+  - org.hcilab.projects.nlog/org.hcilab.projects.nlog.ui.MainActivity
 
 marriott_bonvoy:
-  category: "M"
-  compinfos:
-    - com.marriott.mrt/com.marriott.mrt.v10.features.common.splash_screen.SplashScreenActivity
+  - com.marriott.mrt/com.marriott.mrt.v10.features.common.splash_screen.SplashScreenActivity
 
 yournews:
-  category: "Y"
-  compinfos:
-    - com.your_news/com.your_news.MainActivity
+  - com.your_news/com.your_news.MainActivity
 
 mexican_train:
-  category: "M"
-  compinfos:
-    - glowingeye.mexican_train_dominoes_gold/glowingeye.mexican_train_dominoes_gold.SplashScreen
+  - glowingeye.mexican_train_dominoes_gold/glowingeye.mexican_train_dominoes_gold.SplashScreen
 
 maytag:
-  category: "M"
-  compinfos:
-    - com.maytag.android.mtapp/com.whirlpool.maytag.ui.activity.splash.SplashActivity
+  - com.maytag.android.mtapp/com.whirlpool.maytag.ui.activity.splash.SplashActivity
     
-forkyz: # Forkyz already exists in Delta, but it needs an update to the launch activity to appear in Nova
+forkyz:
   - app.crossword.yourealwaysbe.forkyz/app.crossword.yourealwaysbe.forkyz.ForkyzActivity
 
 blueair:
