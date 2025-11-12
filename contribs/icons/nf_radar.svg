@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff837d;
+      }
+
+      .cls-2 {
+        fill: #ba6561;
+      }
+
+      .cls-3 {
+        clip-rule: evenodd;
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #ececec;
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path id="Shape-1" class="cls-3" d="M30,20h132c5.52,0,10,4.48,10,10v132c0,5.52-4.48,10-10,10H30c-5.52,0-10-4.48-10-10V30c0-5.52,4.48-10,10-10Z"/>
+    </clipPath>
+  </defs>
+  <g id="Done">
+    <g id="RADAR_NF" data-name="RADAR NF">
+      <g class="cls-5">
+        <path id="Shape-1-2" data-name="Shape-1" class="cls-4" d="M30,20h132c5.52,0,10,4.48,10,10v132c0,5.52-4.48,10-10,10H30c-5.52,0-10-4.48-10-10V30c0-5.52,4.48-10,10-10Z"/>
+        <path class="cls-1" d="M103.88,103.88s68.12,68.12,68.12,0v68.12h-68.12c68.12,0,0-68.12,0-68.12Z"/>
+        <path class="cls-2" d="M75.72,75.72l-16.22,48.67,8.11,8.11h0c2.7-2.7,5.12-5.65,7.24-8.83l13.04-19.56,4.12-4.12,6.45,1.67,3.2-3.2-1.67-6.45,4.12-4.12,19.56-13.04c3.17-2.12,6.13-4.54,8.83-7.24h0s-8.11-8.11-8.11-8.11l-48.67,16.22Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
