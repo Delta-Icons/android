@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
- <rect class="a" x="20" y="20" width="152" height="152" rx="10" style="fill:#f9de81"/>
+<svg version="1.1" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2" x1="20" x2="172.5" y1="20" y2="172.5" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#f8c18c" offset="0"/>
+   <stop style="stop-color:#fff" offset=".50694"/>
+   <stop style="stop-color:#9abeff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect class="a" x="20" y="20" width="152" height="152" rx="10" style="fill:url(#linearGradient2)"/>
  <path d="m82.016 75.35h-15.191v61.426h15.191zm47.637 3.5125c0-13.034-10.614-23.638-23.661-23.638h-39.167v13.118h37.304c5.9045 0 10.795 4.6387 10.904 10.34 0.054 2.8546-1.0175 5.5488-3.0168 7.5861-2 2.0378-4.6724 3.1609-7.5247 3.1609h-14.532c-0.51592 0-0.93584 0.41918-0.93584 0.93525v11.659c0 0.19841 0.06125 0.38782 0.17646 0.54742l24.656 34.206h18.048l-24.713-34.299c12.446-0.62479 22.461-11.082 22.461-23.614z" clip-rule="evenodd" fill-rule="evenodd" style="fill:#56595b;stroke-width:2.5701"/>
 </svg>
