@@ -30,10 +30,15 @@
   </a>
 </p>
 
+## SHA-256 Fingerprint
+
+```sh
+E0:72:D5:B7:6D:41:33:D8:5B:76:26:33:A7:50:87:18:48:F4:1C:ED:3D:6D:72:82:33:91:08:E9:BE:D1:5E:2E
+```
+
 ## Contributing
 
 Please refer to **[contribution guidelines](./CONTRIBUTING.md)**.
-
 
 ## Discord
 
