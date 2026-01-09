@@ -1,0 +1,61 @@
+diff --git a/app/src/main/assets/appfilter.xml b/app/src/main/assets/appfilter.xml
+index 2d9535890..e23306948 100644
+--- a/app/src/main/assets/appfilter.xml
++++ b/app/src/main/assets/appfilter.xml
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+ 	<scale factor="1" />
++	<dynamic-clock defaultHour="10" defaultMinute="10" defaultSecond="30" hourLayerIndex="0" minuteLayerIndex="1" secondLayerIndex="2" drawable="clock" />
+ 	<calendar component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity}" prefix="calendar_" />
+ 	<calendar component="ComponentInfo{com.android.calendar.go/com.android.calendar.go.homepage.AllInOneActivity}" prefix="calendar_" />
+ 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" prefix="calendar_" />
+diff --git a/app/src/main/assets/drawable.xml b/app/src/main/assets/drawable.xml
+index 3a6cc72d9..071a3b70a 100644
+--- a/app/src/main/assets/drawable.xml
++++ b/app/src/main/assets/drawable.xml
+@@ -23,6 +23,7 @@
+ 	<item drawable="zilch" />
+ 
+ 	<category title="Alts" />
++	<item drawable="clock_alt_2" />
+ 	<item drawable="_1password_alt_1" />
+ 	<item drawable="_4pda_alt_1" />
+ 	<item drawable="_10_bit_clock_widget_alt_1" />
+diff --git a/app/src/main/res/xml/appfilter.xml b/app/src/main/res/xml/appfilter.xml
+index 2d9535890..e23306948 100644
+--- a/app/src/main/res/xml/appfilter.xml
++++ b/app/src/main/res/xml/appfilter.xml
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+ 	<scale factor="1" />
++	<dynamic-clock defaultHour="10" defaultMinute="10" defaultSecond="30" hourLayerIndex="0" minuteLayerIndex="1" secondLayerIndex="2" drawable="clock" />
+ 	<calendar component="ComponentInfo{cn.nubia.calendar.preset/cn.nubia.calendar.CTAStartActivity}" prefix="calendar_" />
+ 	<calendar component="ComponentInfo{com.android.calendar.go/com.android.calendar.go.homepage.AllInOneActivity}" prefix="calendar_" />
+ 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AgendaActivity}" prefix="calendar_" />
+diff --git a/app/src/main/res/xml/drawable.xml b/app/src/main/res/xml/drawable.xml
+index 3a6cc72d9..071a3b70a 100644
+--- a/app/src/main/res/xml/drawable.xml
++++ b/app/src/main/res/xml/drawable.xml
+@@ -23,6 +23,7 @@
+ 	<item drawable="zilch" />
+ 
+ 	<category title="Alts" />
++	<item drawable="clock_alt_2" />
+ 	<item drawable="_1password_alt_1" />
+ 	<item drawable="_4pda_alt_1" />
+ 	<item drawable="_10_bit_clock_widget_alt_1" />
+diff --git a/build.gradle b/build.gradle
+index 3faa52ff0..3c9574361 100755
+--- a/build.gradle
++++ b/build.gradle
+@@ -18,7 +18,7 @@ allprojects {
+     }
+ 
+     rootProject.ext {
+-        MinSdk = 21
++        MinSdk = 26
+         TargetSdk = 36
+         CompileSdk = 36
+     }

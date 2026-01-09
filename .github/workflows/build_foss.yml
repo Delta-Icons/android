@@ -4,8 +4,19 @@ run-name: foss @ ${{ github.sha }}
 concurrency:
   group: delta
 
+env:
+  keystore_key_alias: ${{ secrets.KEYSTORE_KEY_ALIAS || 'android' }}
+  keystore_key_password: ${{ secrets.KEYSTORE_KEY_PASSWORD || 'android' }}
+  keystore_password: ${{ secrets.KEYSTORE_PASSWORD || 'android' }}
+  keystore_base64: ${{ secrets.KEYSTORE_BASE64 || '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' }}
+
 on:
   workflow_dispatch:
+    inputs:
+      clock:
+        description: Dynamic Clock
+        type: boolean
+        default: false
 
 jobs:
   build:
@@ -61,6 +72,14 @@ jobs:
         python ${{ env.sd }}/create_changelog.py \
           -p -w -r foss -x app/src/main/res/values/changelog.xml
 
+    - name: Apply clock patch
+      run: |
+        git apply resources/patches/clock.patch
+        mv -v app/src/main/res/drawable-nodpi/clock.png app/src/main/res/drawable-nodpi/clock_alt_2.png
+        mv -v resources/patches/clock.xml app/src/main/res/drawable-nodpi/clock.xml
+      if: |
+        inputs.clock == true
+
     - name: Sort XMLs
       run: |
         cd ${{ env.sd }}
@@ -81,10 +100,10 @@ jobs:
       uses: kevin-david/zipalign-sign-android-release@main
       id: sign_step
       with:
-        alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
-        keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
-        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
-        signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
+        alias: ${{ env.keystore_key_alias }}
+        keyPassword: ${{ env.keystore_key_password }}
+        keyStorePassword: ${{ env.keystore_password }}
+        signingKeyBase64: ${{ env.keystore_base64 }}
         releaseDirectory: .
 
     - name: Rename signed APK
@@ -96,4 +115,4 @@ jobs:
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk
-        retention-days: 7
+        retention-days: 30
