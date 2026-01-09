@@ -12,6 +12,11 @@ env:
 
 on:
   workflow_dispatch:
+    inputs:
+      clock:
+        description: Dynamic Clock
+        type: boolean
+        default: false
 
 jobs:
   build:
@@ -67,6 +72,14 @@ jobs:
         python ${{ env.sd }}/create_changelog.py \
           -p -w -r foss -x app/src/main/res/values/changelog.xml
 
+    - name: Apply clock patch
+      run: |
+        git apply resources/patches/clock.patch
+        mv -v app/src/main/res/drawable-nodpi/clock.png app/src/main/res/drawable-nodpi/clock_alt_2.png
+        mv -v resources/patches/clock.xml app/src/main/res/drawable-nodpi/clock.xml
+      if: |
+        inputs.clock == true
+
     - name: Sort XMLs
       run: |
         cd ${{ env.sd }}
@@ -102,4 +115,4 @@ jobs:
       with:
         name: ${{ env.filename }}
         path: ${{ env.filename }}.apk
-        retention-days: 7
+        retention-days: 30
