@@ -300,7 +300,7 @@ Or you can check [Figma icon template](https://www.figma.com/design/02aiFRSLkikc
 
 > Everything described here must be done in your fork
 
-## Creating Secrets
+## [OPTIONAL] Creating Secrets
 
 Go to `Settings → Secrets and Variables → Actions` and create the following repository secrets:
 
