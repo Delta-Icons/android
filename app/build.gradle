@@ -45,11 +45,18 @@ android {
 			resValue "string", "app_name", "Delta"
 			matchingFallbacks = ["foss"]
 		}
+		fossdc {
+			dimension "variant"
+			applicationIdSuffix '.fossdc'
+			resValue "string", "app_name", "Delta"
+			matchingFallbacks = ["foss"]
+		}
 	}
 
 	sourceSets {
 		play { java.srcDirs = ['src/play/java/'] }
 		foss { java.srcDirs = ['src/foss/java/'] }
+		fossdc { java.srcDirs = ['src/foss/java/'] }
 
 	}
 
@@ -73,6 +80,7 @@ dependencies {
 
 	playImplementation 'com.github.zixpo:candybar:3.22.2'
 	fossImplementation 'com.github.donnnno:candybar-foss:3.22.2'
+	fossdcImplementation 'com.github.donnnno:candybar-foss:3.22.2'
 }
 
 // Code for automatically copying appfilter.xml and drawable.xml

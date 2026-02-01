@@ -1,5 +1,5 @@
 name: Build All
-run-name: ${{ inputs.release_type }} @ ${{ github.sha }}
+run-name: ${{ inputs.release }} @ ${{ github.sha }}
 
 concurrency:
   group: delta
@@ -10,25 +10,16 @@ permissions:
 on:
   workflow_dispatch:
     inputs:
-      release_type:
+      release:
         description: Release type
         default: beta
         type: choice
         options:
-        - beta
-        - prod
-      version_type:
-        description: Version type
-        default: minor
-        type: choice
-        options:
+          - beta
+          - promote
           - patch
           - minor
           - major
-      build_foss:
-        description: Build FOSS
-        type: boolean
-        default: true
       publish:
         description: Publish the app
         type: boolean
@@ -100,8 +91,7 @@ jobs:
       run: |
         python \
           -u ${{ env.sd }}/bump_version.py -e -w \
-          -r ${{ inputs.release_type }} \
-          -v ${{ inputs.version_type }} >> $GITHUB_ENV
+          -r ${{ inputs.release }} >> $GITHUB_ENV
 
     - name: Add icons
       run: |
@@ -132,14 +122,14 @@ jobs:
 
     - name: Create changelog
       run: |
-        mkdir changelog
+        mkdir -v changelog
 
         changelog_txt=metadata/en-US/changelogs/${{ env.version_code }}.txt
         changelog_tmp=changelog/whatsnew-en-US
         changelog_xml=app/src/main/res/values/changelog.xml
 
         python ${{ env.sd }}/create_changelog.py -p -w \
-                -r ${{ inputs.release_type }} \
+                -r ${{ inputs.release }} \
                 -d '${{ inputs.changelog }}' \
                 -t $changelog_txt \
                 -x $changelog_xml
@@ -171,19 +161,43 @@ jobs:
     - name: Build APK FOSS
       run: |
         bash gradlew assembleFoss
-      if: |
-        inputs.build_foss == true
+
+    - name: Build APK FOSS Dynamic Clock
+      run: |
+        sed -i 's|<scale factor="1" />|<scale factor="1" />\n\t<dynamic-clock defaultHour="10" defaultMinute="10" defaultSecond="30" hourLayerIndex="0" minuteLayerIndex="1" secondLayerIndex="2" drawable="clock" />|' ${{ env.a1 }} ${{ env.a2 }}
+        sed -i 's|<category title="Alts" />|<category title="Alts" />\n\t<item drawable="clock_alt_2" />|' ${{ env.d1 }} ${{ env.d2 }}
+        sed -i 's|MinSdk = 21|MinSdk = 26|' build.gradle
+        mv -v app/src/main/res/drawable-nodpi/clock.png app/src/main/res/drawable-nodpi/clock_alt_2.png
+        cat << 'EOF' > app/src/main/res/drawable-nodpi/clock.xml
+        <?xml version="1.0" encoding="utf-8"?>
+        <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+            <background android:drawable="@drawable/clock_dynamic_background"/>
+            <foreground>
+                <layer-list>
+                    <item>
+                        <rotate android:drawable="@drawable/clock_dynamic_hour" android:fromDegrees="300.0" android:toDegrees="5300.0" android:pivotX="50.0%" android:pivotY="50.0%"/>
+                    </item>
+                    <item>
+                        <rotate android:drawable="@drawable/clock_dynamic_minute" android:fromDegrees="60.0" android:toDegrees="60060.0" android:pivotX="50.0%" android:pivotY="50.0%"/>
+                    </item>
+                    <item>
+                        <rotate android:drawable="@drawable/clock_dynamic_second" android:fromDegrees="180.0" android:toDegrees="6180.0" android:pivotX="50.0%" android:pivotY="50.0%" android:level="300"/>
+                    </item>
+                    <item android:drawable="@drawable/clock_dynamic_top" />
+                </layer-list>
+            </foreground>
+        </adaptive-icon>
+        EOF
+        python ${{ env.sd }}/sort_appfilter.py -o
+        python ${{ env.sd }}/sort_drawable.py -o
+        cp -fv ${{ env.a1 }} ${{ env.a2 }}
+        cp -fv ${{ env.d1 }} ${{ env.d2 }}
+        bash gradlew assembleFossdc
+        git restore ${{ env.d1 }} ${{ env.d2 }}
 
     - name: Move unsigned builds
       run: |
-        builds=$(find . -regextype posix-egrep -regex '.*-(release|unsigned).(aab|apk)$')
-        if [ -z "${builds}" ]; then
-          echo 'no builds found'
-          exit 1
-        fi
-        for build in ${builds[@]}; do
-          mv -v $build . 2> /dev/null || true
-        done
+        find app/build/outputs -regextype posix-egrep -regex '.*-(release|unsigned).(aab|apk)$' | sudo xargs -I % mv -v % .
 
     - name: Sign builds
       uses: kevin-david/zipalign-sign-android-release@main
@@ -197,15 +211,16 @@ jobs:
     - name: Rename signed builds
       run: |
         rm -v *unsigned.apk
-        mv -v *foss*.apk ${{ env.filename }}-foss.apk 2> /dev/null || true
-        mv -v *play*.apk ${{ env.filename }}.apk 2> /dev/null || true
-        mv -v *play*.aab ${{ env.filename }}.aab 2> /dev/null || true
+        mv -v app-fossdc-release-unsigned-signed.apk delta-fossdc-${{ env.version }}.apk
+        mv -v app-foss-release-unsigned-signed.apk delta-foss-${{ env.version }}.apk
+        mv -v app-play-release-unsigned-signed.apk delta-gplay-${{ env.version }}.apk
+        mv -v app-play-release.aab delta-gplay-${{ env.version }}.aab
 
     - name: Upload signed builds to Artifacts
       uses: actions/upload-artifact@v5
       with:
-        name: ${{ env.filename }}
-        path: ${{ env.filename }}*.apk
+        name: delta-${{ env.version }}
+        path: delta-*.apk
         if-no-files-found: error
         retention-days: 30
 
@@ -221,7 +236,7 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         prerelease: ${{ env.is_beta }}
-        files: '${{ env.filename }}*.apk'
+        files: 'delta-*.apk'
         name: ${{ env.version }}
         tag_name: ${{ env.version }}
         body_path: ${{ env.changelog }}
@@ -234,7 +249,7 @@ jobs:
         git add ${{ env.d1 }} ${{ env.d2 }}
         git commit -m "Cleanup: ${{ env.version }}" --author "${{ env.coauthor }}"
       if: |
-        inputs.release_type == 'prod' &&
+        inputs.release != 'beta' &&
         inputs.publish == true
 
     - name: Push post-release changes
@@ -243,7 +258,7 @@ jobs:
         github_token: ${{ env.token }}
         branch: ${{ github.ref }}
       if: |
-        inputs.release_type == 'prod' &&
+        inputs.release != 'beta' &&
         inputs.publish == true
 
     - name: Upload AAB to Google Play beta channel
@@ -251,7 +266,7 @@ jobs:
       with:
         track: beta
         status: completed
-        releaseFiles: ${{ env.filename }}.aab
+        releaseFiles: delta-gplay-${{ env.version }}.aab
         serviceAccountJsonPlainText: ${{ secrets.SERVICE_ACCOUNT }}
         packageName: ${{ env.package_name }}
         mappingFile: app/build/outputs/mapping/playRelease/mapping.txt
@@ -280,7 +295,7 @@ jobs:
         user-fraction: 1.0
       if: |
         github.repository_owner == env.organization &&
-        inputs.release_type == 'prod' &&
+        inputs.release != 'beta' &&
         inputs.publish == true
 
     - name: Update website
@@ -291,7 +306,7 @@ jobs:
         workflow: deploy.yml
       if: |
         github.repository_owner == env.organization &&
-        inputs.release_type == 'prod' &&
+        inputs.release != 'beta' &&
         inputs.publish == true
 
     - name: Close current milestone
@@ -304,7 +319,7 @@ jobs:
         GITHUB_TOKEN: ${{ env.token }}
       if: |
         github.repository_owner == env.organization &&
-        inputs.release_type == 'prod' &&
+        inputs.release != 'beta' &&
         inputs.publish == true
 
     - name: Open new milestone
@@ -318,5 +333,5 @@ jobs:
         GITHUB_TOKEN: ${{ env.token }}
       if: |
         github.repository_owner == env.organization &&
-        inputs.release_type == 'prod' &&
+        inputs.release != 'beta' &&
         inputs.publish == true
