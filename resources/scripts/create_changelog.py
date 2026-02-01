@@ -15,7 +15,6 @@ parser.add_argument('-d', '--data',
 parser.add_argument('-r', '--release-type',
                     dest='release_type',
                     help='type of release',
-                    choices=['prod', 'beta', 'foss'],
                     default='beta')
 parser.add_argument('-p', '--print',
                     dest='print',
@@ -60,7 +59,15 @@ def main():
         txt.append('- ' + text)
 
     match args.release_type:
-        case 'prod':
+        case 'beta':
+            text = 'Full changelog will be published upon release!'
+            ET.SubElement(changelog, 'item').text = text
+            txt.append('- ' + text)
+        case 'foss':
+            text = 'This is a FOSS build for testing purposes!'
+            ET.SubElement(changelog, 'item').text = text
+            txt.append('- ' + text)
+        case _:
             text = f'Fixed icons not applying properly'
             ET.SubElement(changelog, 'item').text = text
             txt.append('- ' + text)
@@ -71,14 +78,6 @@ def main():
                 line = re.sub('^-+', '', line).strip()
                 ET.SubElement(changelog, 'item').text = line
                 txt.append('- ' + line)
-        case 'beta':
-            text = 'Full changelog will be published upon release!'
-            ET.SubElement(changelog, 'item').text = text
-            txt.append('- ' + text)
-        case 'foss':
-            text = 'This is a FOSS build for testing purposes!'
-            ET.SubElement(changelog, 'item').text = text
-            txt.append('- ' + text)
 
 
     tree = ET.ElementTree(resources)
