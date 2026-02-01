@@ -58,6 +58,9 @@ with open(target, 'r+') as file:
         version_name = semver.VersionInfo.parse(re.search(regexp_version_name, content).group(1))
 
         if args.release == 'promote':
+            if version_name.prerelease:
+                version_name = version_name.bump_prerelease(token='beta')
+                version_code = build_version_code(version_name)
             version_name = version_name.finalize_version()
 
         else:
