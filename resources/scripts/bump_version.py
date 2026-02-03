@@ -14,16 +14,11 @@ argparser = argparse.ArgumentParser(description='Bump release version')
 argparser.add_argument('-c', '--custom',
                        dest='custom',
                        help='custom version name and code (format: \'name|code\')')
-argparser.add_argument('-r', '--release-type',
-                       dest='release_type',
-                       help='type of release',
-                       choices=['beta', 'prod'],
-                       default='beta')
-argparser.add_argument('-v', '--version-type',
-                       dest='version_type',
+argparser.add_argument('-r', '--release',
+                       dest='release',
                        help='bump specific position',
-                       choices=['patch', 'minor', 'major'],
-                       default='minor')
+                       choices=['beta', 'promote', 'patch', 'minor', 'major'],
+                       default='beta')
 argparser.add_argument('-e', '--env',
                        dest='env',
                        help='print variables for shell exporting',
@@ -41,7 +36,7 @@ target = join(paths['root'], 'app/build.gradle')
 
 regexp_version_code = re.compile(r'versionCode (\d+)')
 regexp_version_name = re.compile(r'versionName "((\d+\.\d+\.\d+)(-beta\.?(\d+))?)"')
-is_beta = 'true' if args.release_type == 'beta' else 'false'
+is_beta = 'true' if args.release == 'beta' else 'false'
 
 
 def build_version_code(version):
@@ -59,21 +54,25 @@ with open(target, 'r+') as file:
     if args.custom:
         version_name, version_code = args.custom.split('|')
     else:
+        version_code = re.search(regexp_version_code, content).group(1)
         version_name = semver.VersionInfo.parse(re.search(regexp_version_name, content).group(1))
 
-        if not version_name.prerelease:
-            match args.version_type:
+        if args.release == 'promote':
+            if version_name.prerelease:
+                version_name = version_name.bump_prerelease(token='beta')
+                version_code = build_version_code(version_name)
+            version_name = version_name.finalize_version()
+
+        else:
+            match args.release:
                 case 'major': version_name = version_name.bump_major()
                 case 'minor': version_name = version_name.bump_minor()
                 case 'patch': version_name = version_name.bump_patch()
-
-        if args.release_type == 'prod':
-            if version_name.prerelease:
-                version_name = version_name.bump_prerelease(token='beta')
-            version_code = build_version_code(version_name)
-            version_name = version_name.finalize_version()
-        else:
-            version_name = version_name.bump_prerelease(token='beta')
+                case 'beta':
+                    if not version_name.prerelease: 
+                        version_name = version_name.bump_minor()
+                    version_name = version_name.bump_prerelease(token='beta')
+            
             version_code = build_version_code(version_name)
 
     if not args.env:
@@ -90,7 +89,6 @@ with open(target, 'r+') as file:
 
 if args.env:
     print(f'is_beta={is_beta}')
-    print(f'filename=delta-v{version_name}')
     print(f'version=v{version_name}')
     print(f'version_code={version_code}')
     print(f'version_name={version_name}')
