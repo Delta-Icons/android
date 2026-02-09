@@ -78,7 +78,7 @@ Don't forget to give yourself an entry at the bottom of [`app/src/main/res/xml/c
     2.3. The new icon with a custom category:
    > For example, if your icon named as `pixel_buds` but you want it to go in `Google` category.
    
-   > Note that you don't need to specify `New` category, it will be automatically copied to it, and you don't need to specify category if this is a named icon, _e.g._ `N` category is redundant for ⁨⁨new_icon⁩⁩, the script will place it to `N` category automatically based on the first letter of drawable name.
+   > Note that you don't need to specify `New` category, it will be automatically copied to it, and you don't need to specify category if this is a named icon, _e.g._ `N` category is redundant for `new_icon`, the script will place it to `N` category automatically based on the first letter of drawable name.
 
     ```yaml
     new_icon:
