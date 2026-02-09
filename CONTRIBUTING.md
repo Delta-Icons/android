@@ -75,17 +75,20 @@ Don't forget to give yourself an entry at the bottom of [`app/src/main/res/xml/c
         - com.example/com.example.StartActivity
     ```
 
-    Also you can extended the entry for more options. For example, if your icon named as `pixel_buds` but you want it to go in `Google` category. All available options are described in the example below (more options will appear over time):
+    2.3. The new icon with a custom category:
+   > For example, if your icon named as `pixel_buds` but you want it to go in `Google` category.
+   
+   > Note that you don't need to specify `New` category, it will be automatically copied to it, and you don't need to specify category if this is a named icon, _e.g._ `N` category is redundant for `new_icon`, the script will place it to `N` category automatically based on the first letter of drawable name.
 
     ```yaml
     new_icon:
-      category: 'N'
+      category: 'Google'
       compinfos:
         - com.example/com.example.MainActivity
         - com.example/com.example.StartActivity
     ```
 
-    2.3. The icon without the ComponentInfo (the alternative icon):
+    2.4. The icon without the ComponentInfo (the alternative icon):
 
     ```yaml
     # lines omitted for example
