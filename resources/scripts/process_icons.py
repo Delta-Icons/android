@@ -16,16 +16,16 @@ from termcolor import colored as color
 from process_requests import read
 from shared import paths, transform_xml
 
-ACTIONS = ('none', 'replace', 'rebrand', 'remove')
+ACTIONS = ('none', 'remake', 'rebrand', 'remove')
 
 PATTERN_ALT = re.compile(r'^.*_alt_\d+$')
 PATTERN_CI = re.compile(r'^[a-zA-Z0-9._]+/[a-zA-Z0-9._$]+$')
 PATTERN_DRAWABLE = re.compile(r'^[a-z0-9_]+$')
 
 ICONS_HEADER = '''\
-# # action: none|replace|rebrand|remove|rename > new_name
+# # action: none|remake|rebrand|remove|rename > new_name
 # #   none    - default, new icon
-# #   replace - overwrite existing images, no xml changes
+# #   remake  - overwrite existing images, add to new category
 # #   rebrand - existing icon -> alt_x, new icon -> main
 # #   remove  - remove existing icon (files + xml)
 # #   rename  - rename existing icon (files + xml)
@@ -52,6 +52,7 @@ args = ArgumentParser()
 args.add_argument('-d', '--dry-run', action='store_true', help='do things without changing any files')
 args.add_argument('-v', '--verbose', action='store_true', help='verbose')
 args.add_argument('-n', '--no-color', action='store_true', help='disable colors')
+args.add_argument('-s', '--sort', action='store_true', help='sort xml files only, skip icons.yml')
 args = args.parse_args()
 
 if args.no_color:
@@ -215,7 +216,7 @@ def parse_icons(icons_yml, root_drawable):
             entry_errors.append(f"category {color(category.lower(), 'cyan')} doesn't exist")
             errors[key] = True
 
-        if action in ('replace', 'rebrand'):
+        if action in ('remake', 'rebrand'):
             for ext in check_source_files(key):
                 entry_errors.append(f"action is {color(action, 'cyan')}, but {key}.{ext} not found")
                 errors[key] = True
@@ -256,10 +257,11 @@ def parse_icons(icons_yml, root_drawable):
 
 
 def main():
-    icons_yml = read(paths['icons'])
+    if not args.sort:
+        icons_yml = read(paths['icons'])
 
-    if not icons_yml:
-        log.warning(f'{basename(paths["icons"])} is empty')
+        if not icons_yml:
+            log.warning(f'{basename(paths["icons"])} is empty')
 
     with open(paths['d1']) as file:
         xml_drawable = file.read().rstrip()
@@ -276,7 +278,10 @@ def main():
     category_new = root_drawable.find("category[@title='New']")
     category_alt = root_drawable.find("category[@title='Alts']")
 
-    for drawable, values in parse_icons(icons_yml, root_drawable):
+    if args.sort:
+        log.info('sorting xml files')
+
+    for drawable, values in (parse_icons(icons_yml, root_drawable) if not args.sort else []):
         log_sep(drawable)
 
         renamed_drawable = []
@@ -352,16 +357,18 @@ def main():
                 move_images(drawable, new_name, from_dst=True)
                 move_images(drawable, header=False)
                 added_drawable.append(f'<item drawable="{new_name}" /> {color(f'(alts)', 'dark_grey')}')
-            case 'replace':
+            case 'remake':
                 move_images(drawable)
             case _:
                 move_images(drawable)
 
-        if values['action'] not in ('replace', 'remove'):
+        if values['action'] not in ('remove',):
             category = root_drawable.find(f"category[@title='{values['category']}']")
             add_drawable = drawable not in [item.get('drawable') for item in category]
 
-            if renamed_drawable or added_drawable or add_drawable:
+            add_new = drawable not in [item.get('drawable') for item in category_new]
+
+            if renamed_drawable or added_drawable or add_drawable or (values['action'] == 'remake' and add_new):
                 log.info(f"drawable.xml{color(':', 'dark_grey')}")
                 for entry in renamed_drawable:
                     print(f"  {color(f'– {entry}', 'red')}")
@@ -371,10 +378,16 @@ def main():
                     item = ET.Element('item')
                     item.set('drawable', drawable)
                     cat_name = values['category'].lower()
-                    print(f"  {color(f'+ {ET.tostring(item).decode()}', 'green')} {color(f'(new, {cat_name})', 'dark_grey')}")
                     item.tail = '\n\t'
                     category.append(item)
                     category_new.append(deepcopy(item))
+                    print(f"  {color(f'+ {ET.tostring(item).decode()}', 'green')} {color(f'(new, {cat_name})', 'dark_grey')}")
+                elif values['action'] == 'remake' and add_new:
+                    item = ET.Element('item')
+                    item.set('drawable', drawable)
+                    item.tail = '\n\t'
+                    category_new.append(item)
+                    print(f"  {color(f'+ {ET.tostring(item).decode()}', 'green')} {color('(new)', 'dark_grey')}")
 
             if renamed_appfilter or values['compinfos']:
                 log.info(f"appfilter.xml{color(':', 'dark_grey')}")
@@ -415,7 +428,8 @@ def main():
         write_file(paths['d1'], xml_drawable)
         copy(paths['d1'], paths['d2'])
 
-        write_file(paths['icons'], ICONS_HEADER)
+        if not args.sort:
+            write_file(paths['icons'], ICONS_HEADER)
 
     print()
 

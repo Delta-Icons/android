@@ -180,10 +180,7 @@ jobs:
             </foreground>
         </adaptive-icon>
         EOF
-        python ${{ env.sd }}/sort_appfilter.py -o
-        python ${{ env.sd }}/sort_drawable.py -o
-        cp -fv ${{ env.a1 }} ${{ env.a2 }}
-        cp -fv ${{ env.d1 }} ${{ env.d2 }}
+        python -u ${{ env.sd }}/process_icons.py -s
         bash gradlew assembleFossdc
         git restore ${{ env.d1 }} ${{ env.d2 }}
 
