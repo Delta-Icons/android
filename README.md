@@ -48,9 +48,9 @@
 
 ### Flavors
 
-- `gplay` [`website.leifs.delta`] — Google Play version
-- `foss` [`website.leifs.delta.foss`] — FOSS version (Google-free)
-- `fossdc` [`website.leifs.delta.fossdc`] — FOSS version with a dynamic clock
+- `gplay` — Google Play version
+- `foss` — FOSS version (Google-free)
+- `fossdc` — FOSS version with a dynamic clock
 
   > `fossdc` is only available via [Releases](./releases/latest) section on GitHub. It's the same as `foss` flavor but the static clock is replaced with a dynamic one, and it has a different app ID suffix. This is a separate app because dynamic clocks require a higher level of Android API and are not widely supported in launchers. We don't wanna sacriface users with old phones but wanna support cool features, that's why there's such a compromise. This may change in the future. At the moment, you can use this version by installing it via <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22website.leifs.delta.fossdc%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FDelta-Icons%2Fandroid%22%2C%22author%22%3A%22Delta%20Icons%22%2C%22name%22%3A%22Delta%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22delta-fossdc-v%5B0-9%5D%2B%5C%5C%5C%5C.%5B0-9%5D%2B%5C%5C%5C%5C.%5B0-9%5D%2B%5C%5C%5C%5C.apk%5C%22%2C%5C%22appName%5C%22%3A%5C%22Delta%20%28FOSSDC%29%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22Delta%20Icons%5C%22%2C%5C%22about%5C%22%3A%5C%22FOSS%20Flavor%20with%20Dynamic%20Clock%5C%22%7D%22%2C%22overrideSource%22%3Anull%7D">Obtanium</a>.
 

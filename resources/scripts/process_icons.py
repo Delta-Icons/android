@@ -16,35 +16,20 @@ from termcolor import colored as color
 from process_requests import read
 from shared import paths, transform_xml
 
-ACTIONS = ('none', 'remake', 'rebrand', 'remove')
+ACTIONS = ('add', 'rewrite', 'rebrand', 'remove')
 
 PATTERN_ALT = re.compile(r'^.*_alt_\d+$')
+PATTERN_ALT_X = re.compile(r'^(.+)_alt_x\d+$')
 PATTERN_CI = re.compile(r'^[a-zA-Z0-9._]+/[a-zA-Z0-9._$]+$')
 PATTERN_DRAWABLE = re.compile(r'^[a-z0-9_]+$')
 
 ICONS_HEADER = '''\
-# # action: none|remake|rebrand|remove|rename > new_name
-# #   none    - default, new icon
-# #   remake  - overwrite existing images, add to new category
-# #   rebrand - existing icon -> alt_x, new icon -> main
-# #   remove  - remove existing icon (files + xml)
-# #   rename  - rename existing icon (files + xml)
 #
-# new_icon_1: com.example.icon/com.example.icon.MainActivity
+# options:
+# https://github.com/Delta-Icons/android/blob/master/CONTRIBUTING.md#options
 #
-# new_icon_2:
-#   - com.example.icon/com.example.icon.MainActivity
-#   - com.example.icon/com.example.icon.SplashActivity
-#
-# new_icon_3_alt_1: {}
-#
-# new_icon_4: {}
-#
-# signal:
-#   action: rebrand
-#   category: Google
-#   compinfo:
-#     - com.google.app/com.google.app.MainActivity
+# examples:
+# https://github.com/Delta-Icons/android/blob/master/CONTRIBUTING.md#examples
 #
 '''
 
@@ -88,23 +73,31 @@ def parse_action(raw):
         case True:
             return 'rebrand', None, None
         case False | None:
-            return 'none', None, None
+            return 'add', None, None
         case str():
             if '>' in raw:
-                action, _, rename = raw.partition('>')
-                action, rename = action.strip(), rename.strip()
-                if action != 'rename':
-                    return 'none', None, f"action {color(action, 'cyan')} doesn't support {color('>', 'cyan')} syntax"
-                if not rename:
-                    return 'none', None, f"rename requires a target, e.g. {color('rename > new_name', 'cyan')}"
-                return 'rename', rename, None
+                action, _, target = raw.partition('>')
+                action, target = action.strip(), target.strip()
+                if action == 'rename':
+                    if not target:
+                        return 'add', None, f"rename requires a target, e.g. {color('rename > new_name', 'cyan')}"
+                    return 'rename', target, None
+                if action == 'move':
+                    if not target:
+                        return 'add', None, f"move requires a target category, e.g. {color('move > google', 'cyan')}"
+                    return 'move', target, None
+                return 'add', None, f"action {color(action, 'cyan')} doesn't support {color('>', 'cyan')} syntax"
             if raw == 'rename':
-                return 'none', None, f"rename requires a target, e.g. {color('rename > new_name', 'cyan')}"
+                return 'add', None, f"rename requires a target, e.g. {color('rename > new_name', 'cyan')}"
+            if raw == 'move':
+                return 'add', None, f"move requires a target category, e.g. {color('move > google', 'cyan')}"
             if raw in ACTIONS:
                 return raw, None, None
-            return 'none', None, f"action {color(raw, 'cyan')} is invalid, expected: {color(', '.join((*ACTIONS, 'rename > name')), 'cyan')}"
+            expected = ', '.join((*ACTIONS, 'rename > name', 'move > category'))
+            return 'add', None, f"action {color(raw, 'cyan')} is invalid, expected: {color(expected, 'cyan')}"
         case _:
-            return 'none', None, f"action {color(str(raw), 'cyan')} is invalid, expected: {color(', '.join((*ACTIONS, 'rename > name')), 'cyan')}"
+            expected = ', '.join((*ACTIONS, 'rename > name', 'move > category'))
+            return 'add', None, f"action {color(str(raw), 'cyan')} is invalid, expected: {color(expected, 'cyan')}"
 
 
 def parse_compinfos(value):
@@ -126,6 +119,10 @@ def check_source_files(key, extensions=('png', 'svg')):
     return missing
 
 
+def exists_in_dst(key):
+    return any(isfile(paths['dst'][fmt].format(key)) for fmt in ('png', 'svg'))
+
+
 def move_images(src_name, dst_name=None, from_dst=False, header=True):
     if dst_name is None:
         dst_name = src_name
@@ -144,8 +141,7 @@ def move_images(src_name, dst_name=None, from_dst=False, header=True):
 
 
 def remove_images(name):
-    found = any(isfile(paths['dst'][fmt].format(name)) for fmt in ('png', 'svg'))
-    if found:
+    if exists_in_dst(name):
         log.info(f"images{color(':', 'dark_grey')}")
     for fmt in ('png', 'svg'):
         path = paths['dst'][fmt].format(name)
@@ -158,6 +154,7 @@ def remove_images(name):
 def parse_icons(icons_yml, root_drawable):
     entries = []
     errors = dict()
+    resolved_alts = {}
 
     categories = [
         x.get('title')
@@ -172,7 +169,26 @@ def parse_icons(icons_yml, root_drawable):
             entry_errors.append(f"name {color(key, 'cyan')} looks invalid")
             errors[key] = True
 
-        action = 'none'
+        original_key = None
+        alt_x_match = PATTERN_ALT_X.fullmatch(key)
+        if alt_x_match:
+            base_name = alt_x_match.group(1)
+            if base_name not in resolved_alts:
+                max_alt = 0
+                for cat in root_drawable.findall('category'):
+                    for item in cat.findall('item'):
+                        d = item.get('drawable', '')
+                        if d.startswith(base_name + '_alt_'):
+                            try:
+                                max_alt = max(max_alt, int(d.rsplit('_', 1)[1]))
+                            except ValueError:
+                                pass
+                resolved_alts[base_name] = max_alt
+            resolved_alts[base_name] += 1
+            original_key = key
+            key = f'{base_name}_alt_{resolved_alts[base_name]}'
+
+        action = 'add'
         rename = None
         compinfos = []
 
@@ -186,19 +202,22 @@ def parse_icons(icons_yml, root_drawable):
             case dict():
                 compinfos = parse_compinfos(value)
                 category = value.get('category', category).capitalize()
-                action, rename, action_error = parse_action(value.get('action', 'none'))
+                action, rename, action_error = parse_action(value.get('action', 'add'))
                 if action_error:
                     entry_errors.append(action_error)
                     errors[key] = True
                 if action == 'remove':
-                    if not any(isfile(paths['dst'][fmt].format(key)) for fmt in ('png', 'svg')):
+                    if not exists_in_dst(key):
                         entry_errors.append(f"action is {color('remove', 'cyan')}, but {key} doesn't exist in destination")
                         errors[key] = True
-                if rename:
+                if action == 'move':
+                    category = rename.capitalize()
+                    rename = None
+                elif rename:
                     if not PATTERN_DRAWABLE.fullmatch(rename):
                         entry_errors.append(f"rename target {color(rename, 'cyan')} looks invalid")
                         errors[key] = True
-                    elif not any(isfile(paths['dst'][fmt].format(key)) for fmt in ('png', 'svg')):
+                    elif not exists_in_dst(key):
                         entry_errors.append(f"action is {color('rename', 'cyan')}, but {key} doesn't exist in destination")
                         errors[key] = True
                     elif 'category' not in value:
@@ -207,6 +226,15 @@ def parse_icons(icons_yml, root_drawable):
                             category = '#'
                         if PATTERN_ALT.fullmatch(rename):
                             category = 'Alts'
+                if action in ('remove', 'move') and compinfos:
+                    entry_errors.append(f"action {color(action, 'cyan')} doesn't support compinfos")
+                    errors[key] = True
+                if action in ('remove', 'move') and 'category' in value:
+                    entry_errors.append(f"action {color(action, 'cyan')} doesn't support explicit category")
+                    errors[key] = True
+                if original_key and action != 'add':
+                    entry_errors.append(f"_alt_x naming requires action {color('add', 'cyan')}, got {color(action, 'cyan')}")
+                    errors[key] = True
             case list():
                 compinfos = list(dict.fromkeys(value))
             case str():
@@ -216,16 +244,17 @@ def parse_icons(icons_yml, root_drawable):
             entry_errors.append(f"category {color(category.lower(), 'cyan')} doesn't exist")
             errors[key] = True
 
-        if action in ('remake', 'rebrand'):
-            for ext in check_source_files(key):
-                entry_errors.append(f"action is {color(action, 'cyan')}, but {key}.{ext} not found")
+        source_key = original_key or key
+        if action in ('rewrite', 'rebrand'):
+            for ext in check_source_files(source_key):
+                entry_errors.append(f"action is {color(action, 'cyan')}, but {source_key}.{ext} not found")
                 errors[key] = True
 
         compinfos = list(dict.fromkeys(x for x in compinfos if isinstance(x, str) and x))
 
-        if not compinfos and category == 'Alts' and action not in ('rename', 'remove'):
-            for ext in check_source_files(key):
-                entry_errors.append(f"category is Alts but {key}.{ext} not found")
+        if not compinfos and category == 'Alts' and action not in ('rename', 'remove', 'move'):
+            for ext in check_source_files(source_key):
+                entry_errors.append(f"category is Alts but {source_key}.{ext} not found")
                 errors[key] = True
 
         for compinfo in compinfos:
@@ -243,6 +272,7 @@ def parse_icons(icons_yml, root_drawable):
             'compinfos': compinfos,
             'action': action,
             'rename': rename,
+            'original': original_key,
         }))
 
     if errors:
@@ -284,10 +314,14 @@ def main():
     for drawable, values in (parse_icons(icons_yml, root_drawable) if not args.sort else []):
         log_sep(drawable)
 
+        if values['original']:
+            log.info(f"action {color('=', 'dark_grey')} {color('rename', 'magenta')}{color(':', 'dark_grey')} {color(values['original'], 'cyan')} {color('->', 'dark_grey')} {color(drawable, 'cyan')}")
+
         renamed_drawable = []
         renamed_appfilter = []
         added_drawable = []
         old_drawable = drawable
+        move_from = None
 
         if values['rename']:
             new_name = values['rename']
@@ -305,15 +339,35 @@ def main():
                         cat.remove(item)
 
             drawable = new_name
-        elif values['action'] != 'none':
+        elif values['action'] == 'move':
+            move_from = next(
+                (cat.get('title').lower() for cat in root_drawable.findall('category')
+                 for item in cat.findall('item') if item.get('drawable') == drawable),
+                '?'
+            )
+            log.info(f"action {color('=', 'dark_grey')} {color('move', 'magenta')}{color(':', 'dark_grey')} {color(move_from, 'cyan')} {color('->', 'dark_grey')} {color(values['category'].lower(), 'cyan')}")
+        else:
             log.info(f"action {color('=', 'dark_grey')} {color(values['action'], 'magenta')}")
 
-        if values['action'] != 'remove':
-            log.info(f"category {color('=', 'dark_grey')} {color(values['category'].lower(), 'magenta')}")
+        cat_name = values['category'].lower()
+        add_new = drawable not in [item.get('drawable') for item in category_new]
+
+        if values['action'] not in ('remove', 'move'):
+            adds_to_new = values['action'] in ('add', 'rename') or (values['action'] == 'rewrite' and add_new)
+            if adds_to_new:
+                log.info(f"categories {color('=', 'dark_grey')} {color(f'new, {cat_name}', 'magenta')}")
+            else:
+                log.info(f"category {color('=', 'dark_grey')} {color(cat_name, 'magenta')}")
 
         match values['action']:
             case 'rename':
                 move_images(old_drawable, drawable, from_dst=True)
+            case 'move':
+                for cat in root_drawable.findall('category'):
+                    for item in list(cat.findall('item')):
+                        if item.get('drawable') == drawable:
+                            renamed_drawable.append(ET.tostring(item).decode().strip())
+                            cat.remove(item)
             case 'remove':
                 remove_images(drawable)
                 removed_drawable = []
@@ -356,33 +410,36 @@ def main():
                 category_alt.append(item)
                 move_images(drawable, new_name, from_dst=True)
                 move_images(drawable, header=False)
-                added_drawable.append(f'<item drawable="{new_name}" /> {color(f'(alts)', 'dark_grey')}')
-            case 'remake':
-                move_images(drawable)
-            case _:
-                move_images(drawable)
+                added_drawable.append(f'<item drawable="{new_name}" /> {color("(alts)", "dark_grey")}')
+            case 'add' | 'rewrite':
+                move_images(values['original'] or drawable, drawable)
 
         if values['action'] not in ('remove',):
             category = root_drawable.find(f"category[@title='{values['category']}']")
             add_drawable = drawable not in [item.get('drawable') for item in category]
 
-            add_new = drawable not in [item.get('drawable') for item in category_new]
-
-            if renamed_drawable or added_drawable or add_drawable or (values['action'] == 'remake' and add_new):
+            if renamed_drawable or added_drawable or add_drawable or (values['action'] == 'rewrite' and add_new):
                 log.info(f"drawable.xml{color(':', 'dark_grey')}")
                 for entry in renamed_drawable:
-                    print(f"  {color(f'– {entry}', 'red')}")
+                    if values['action'] == 'move':
+                        print(f"  {color(f'– {entry}', 'red')} {color(f'({move_from})', 'dark_grey')}")
+                    else:
+                        print(f"  {color(f'– {entry}', 'red')}")
                 for entry in added_drawable:
                     print(f"  {color(f'+ {entry}', 'green')}")
                 if add_drawable:
                     item = ET.Element('item')
                     item.set('drawable', drawable)
-                    cat_name = values['category'].lower()
                     item.tail = '\n\t'
                     category.append(item)
-                    category_new.append(deepcopy(item))
-                    print(f"  {color(f'+ {ET.tostring(item).decode()}', 'green')} {color(f'(new, {cat_name})', 'dark_grey')}")
-                elif values['action'] == 'remake' and add_new:
+                    item_str = ET.tostring(item).decode().strip()
+                    if values['action'] == 'move':
+                        print(f"  {color(f'+ {item_str}', 'green')} {color(f'({cat_name})', 'dark_grey')}")
+                    else:
+                        category_new.append(deepcopy(item))
+                        print(f"  {color(f'+ {item_str}', 'green')} {color('(new)', 'dark_grey')}")
+                        print(f"  {color(f'+ {item_str}', 'green')} {color(f'({cat_name})', 'dark_grey')}")
+                elif values['action'] == 'rewrite' and add_new:
                     item = ET.Element('item')
                     item.set('drawable', drawable)
                     item.tail = '\n\t'
