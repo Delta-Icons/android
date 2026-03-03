@@ -35,7 +35,7 @@ Good luck!
 
 ### 📐 Rules
 
-- Canvas size must be 192x192px. The template from [Resources](#resources) is correctly configured, just download and work with it.
+- Canvas size must be 192x192px. The template from [Resources](#-resources) is correctly configured, just download and work with it.
 - The icon size does not exceed template dimensions. Check out [the visual explanation](./resources/templates/template_tutorial.svg).
 - If the original logo is simple and doesn't fill most of the template as a shape (circle, square, etc.), keep the logo size between 73–80px.
 - The rounded corners of squares and rectangles have a corner radius of 10px.
@@ -164,7 +164,7 @@ Good luck!
 
 - If the original icon consists of just one or two letters, you may trace that letter instead of using these fonts.
 - Fonts can be a little tricky to align/center in different vector editors, so read about it on the Internet.
-- You can use a custom font if it matches the font from the original icon, for the rest use fonts from [Resources](#resources-3).
+- You can use a custom font if it matches the font from the original icon, for the rest use fonts from [Resources](#-resources-2).
 
 ### 🧰 Resources
 
@@ -177,15 +177,17 @@ Good luck!
 
 ### ❔ Key Terms
 
+> Some things are described very roughly for better understanding.
+
 - **Icon images** — your exported PNG/SVG icons.
-- **ComponentInfo** — an identifier (e.g. `com.example/com.example.MainActivity`) that launchers use to match an installed app to its icon in the icon pack. You can use these tools to get ComponentInfos from your installed apps:
+- **ComponentInfo** — an app identifier (e.g. `com.example/com.example.MainActivity`) that launchers use to match an installed app to its icon in the icon pack. You can use these tools to get ComponentInfos from your installed apps:
 
   - [Icon Pusher](https://iconpusher.com/) by [V01D](https://v01d.uk)
   - [Icon Request](https://github.com/Kaiserdragon2/IconRequest/releases) by [Kaiserdragon2](https://github.com/Kaiserdragon2)
 
-- **Drawable name** — an internal name (e.g. `new_icon`) that links an icon image to its ComponentInfo. The drawable name must be in alphanumeric lowercase with underscores only and icon image names must match the drawable name exactly (e.g. `new_icon.png` and `new_icon.svg`).
+- **Drawable name** — an internal name of an icon (e.g. `new_icon`). It's used to include an icon image to the icon pack, and in combo with ComponentInfo(s) it links the icon with the target app. The drawable name must be in alphanumeric lowercase with underscores only and icon image names must match the drawable name exactly (e.g. `new_icon.png` and `new_icon.svg`).
 - **Standalone icon** — an icon that isn't linked to any app. They can be non-app icons like `adobe` and be used as web shortcut icons, etc. Users can select them via their launcher if it supports that feature.
-- **Alternative icon** — an alternative version of an app icon. Mainly used when the app rebrands: the old icon becomes an alternative (e.g. `new_icon_alt_1`), and a new icon takes its place. However, you can create alternative icons for any app without passing any ComponentInfo, and they will be standalone. Users can select them via their launcher if it supports that feature.
+- **Alternative icon** — an alternative version of an app icon. Mainly used when the app rebrands: the old icon becomes an alternative (e.g. `new_icon_alt_1`), and a new icon takes its place. However, you can create alternative icons for any app without linking them to any ComponentInfo, and they will be standalone. Users can select them via their launcher if it supports that feature.
 - **Categories** — categories within [`app/src/main/assets/drawable.xml`](./app/src/main/assets/drawable.xml) to organize icons. Description of categories:
 
   - `New` — new icons for the current release. If [manually](#️-manual) adding icons, you must also add the entry to this category.
