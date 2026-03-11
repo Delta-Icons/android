@@ -1,70 +1,70 @@
 # ℹ️ Introduction
 
-> Feel free to ask for help on [the Discord server](https://discord.gg/F9RFqHN) if something is unclear
+> Feel free to ask for help on [the Discord server](https://discord.gg/F9RFqHN) if anything is unclear
 
-Hello! I see you've decided to contribute. Well, there are a few ways to go:
+Hi! I see you've decided to contribute. That's great and there are a few ways to do so:
 
-If you know how to make cool icons but don't know how to work with [git](https://git-scm.com/), [GitHub](https://github.com), and other tech stuff, just read [Design Guidelines](#-design-guidelines) carefully, then make some icons and submit them on Discord.
+If you know how to make cool icons but don't know how to work with [git](https://git-scm.com/), [GitHub](https://github.com), and other tech stuff, just read [Design Guidelines](#-design-guidelines) carefully, make some icons and submit them on our Discord in the [icon review channel](https://discord.com/channels/743783969216135198/743784395856412782).
 
-If you don't know how to make cool icons but you are tech-savvy, you can help improve our CI/CD, add missing ComponentInfos, and do other things. Read [Contributing](#-contributing) for more info.
+If you don't know how to make icons but you are tech-savvy, you can help improve our CI/CD, add missing ComponentInfos, and do other things. Read [Contributing](#-contributing) for more info.
 
-If you can handle tech and design stuff, then read this guide completely.
+If you can handle tech and design stuff, then please read this guide completely.
 
-If you don't know any of that but want to try to make icons... well, we can only help with advice on Discord. There are so many tools, instructions, and guides for them that it’s impossible to describe everything, so the only thing you can do is search for information on the Internet and try it out.
+If you don't know any of that but want to try to make icons, we can help with some advice on our Discord. There are many tools, instructions, and guides for them that it’s impossible to describe everything, so the only thing you can do is search for information on the Internet and try it out.
 
-In short, the general requirements are:
+In short, the suggested skills are:
 
 - Basic knowledge of [git](https://git-scm.com/) and/or [GitHub](https://github.com).
-- Experience with vector editors.
-- A little bit of design sense. 😂
+- Some experience with vector editors.
+- A little bit of a design sense
 
-Good luck!
+We'll be happy to see you participate!
 
 # 📝 Design Guidelines
 
-## 🪄 General Tips
+## General Tips
 
-- Keep it simple: fewer details and small elements, because they may not be visible on the screen.
-- Your icon doesn't have to be a 1:1 copy of the original; improve and simplify it in every way possible but at the same time try to maintain a recognizable appearance.
+- Keep it simple: fewer details and small elements, because the end result will only be a small element on the users screens.
+- Your icon doesn't have to be a 1:1 copy of the original; improve and simplify where possible but at the same time try to maintain a recognizable appearance.
 - Avoid outlining, otherwise the icon will stand out from the general style.
-- Make the icon free-form if possible.
+- Make the icon free-form if you can — it helps keep Delta a little more diverse
 - You can search for app logos online (they're often found on official websites; avoid icons with non-free licenses) and adapt them. If the original icon is too complex, you can use another recognizable element (an item, a faction icon, etc.) — this applies to any complex icon, not just games.
 - Be sure to double-check that icons are centered and aligned, sized and exported correctly.
 
-## 🖼️ Icon Template
+## Icon Template
 
-### 📐 Rules
+### Rules
 
-- Canvas size must be 192x192px. The template from [Resources](#-resources) is correctly configured, just download and work with it.
+- Canvas size must be 192x192px. The template from [Resources](#-resources) is correctly configured, just download it and you should be good to go.
 - The icon size does not exceed template dimensions. Check out [the visual explanation](./resources/templates/template_tutorial.svg).
-- If the original logo is simple and doesn't fill most of the template as a shape (circle, square, etc.), keep the logo size between 73–80px.
+- If the original logo is simple and doesn't fill most of the template as a shape (circle, square, etc.), keep the logo size between 72–80px.
 - The rounded corners of squares and rectangles have a corner radius of 10px.
 - The template must be properly centered on the canvas.
 
-### 🪄 Tips
+### Tips
 
 - If you're having trouble deciding whether to use geometric or optical centering, you can discuss it on Discord. Mostly it depends on the icon, but optical centering is usually your choice.
 - If you have any doubts about the design of your icon, you can also discuss it on Discord.
 
-### 🧰 Resources
+### Resources
 
-> You can also check [Figma icon template](https://www.figma.com/design/02aiFRSLkikcw8mpBAnoDA/Delta-Icon-Template?m=auto&t=qyLH05AMDzZwAI2s-1).
+> You can also check out the [Figma icon template](https://www.figma.com/design/02aiFRSLkikcw8mpBAnoDA/Delta-Icon-Template?m=auto&t=qyLH05AMDzZwAI2s-1), if you're using Figma.
 
 <img src="./resources/templates/template.svg" width="177" height="177">
 
-## 🌈 Colors
+## Colors
 
-### 📐 Rules
+### Rules
 
-- <span>$\textcolor{#56595B}{\textsf{⬤}}$ <code>#56595B</code> <b>Davy's grey</b></span> as default black.
+- Use <span>$\textcolor{#56595B}{\textsf{⬤}}$ <code>#56595B</code> <b>Davy's grey</b></span> as default black.
 
-- <span>$\textcolor{#FF837D}{\textsf{⬤}}$ <code>#FF837D</code> <b>Coral pink</b></span> as default red and <span>$\textcolor{#BA6561}{\textsf{⬤}}$ <code>#BA6561</code> <b>Fuzzy Wuzzy</b></span> as default dark red. Shades of red are specifically for shading purposes.
+- Use <span>$\textcolor{#FF837D}{\textsf{⬤}}$ <code>#FF837D</code> <b>Coral pink</b></span> as default red and <span>$\textcolor{#BA6561}{\textsf{⬤}}$ <code>#BA6561</code> <b>Fuzzy Wuzzy</b></span> as default dark red. Shades of red are specifically for shading purposes and complex arrangements (if we're honest it's mostly complex anime / game icons overusing pink).
 
-- Transparencies can be used as an overlay for additional shading. We rarely use them, so don't use them unnecessarily — try to get by with basic colors and greys as much as possible. If you do use transparency, it should be an overlay, never a background (i.e. no transparency in the raster version).
+- Transparencies can be used as an overlay for additional shading. Please keep the use of them to a minimum. Try to get by with basic colors and greys as much as possible. If you do use transparency, it should be an overlay, never a background (the overall shape of the icon should not contain any semi-transparent areas).
 
-- Gradients are more acceptable than transparencies, but still try to avoid using them (as noted above).
+- Gradients are more acceptable than transparencies, but the usage should still be kept to a sensible minimum (as noted above).
 
-### 🎨 Palette
+### Palette
 
 <table>
   <thead>
@@ -137,7 +137,7 @@ Good luck!
   </tbody>
 </table>
 
-### 🧰 Resources
+### Resources
 
 #### Vector Palettes
 
@@ -155,29 +155,27 @@ Good luck!
 
 #### Vector Editors
 
-- [Adobe Swatch Exchange Palette](./resources/palettes/palette.ase) (Illustrator, Photoshop)
+- [Adobe Swatch Exchange Palette](./resources/palettes/palette.ase) (Illustrator)
 - [GPL Palette](./resources/palettes/palette.gpl) (Inkscape, Karbon)
 
-## 🗚 Font
+## Font
 
-### 🪄 Tips
+### Tips
 
 - If the original icon consists of just one or two letters, you may trace that letter instead of using these fonts.
-- Fonts can be a little tricky to align/center in different vector editors, so read about it on the Internet.
-- You can use a custom font if it matches the font from the original icon, for the rest use fonts from [Resources](#-resources-2).
+- Fonts can be a little tricky to align/center in different vector editors, which you can mitigate by either converting them to paths or in the case of Figma: the text box trim.
+- You can use a custom font if it matches the font from the original icon very closely, for the rest use fonts from [Resources](#-resources-2).
 
-### 🧰 Resources
+### Resources
 
-- [Now](https://www.1001fonts.com/now-font.html?text=Delta%20Icons) — main Sans-serif font; use Now Alt from the same family for alternate lowercase 'a' letter.
-- [Aleo](https://www.1001fonts.com/aleo-font.html?text=Delta%20Icons) — use it only when Serif is needed.
+- [Now](https://www.1001fonts.com/now-font.html?text=Delta%20Icons) — main Sans-serif font; Now Alt from the same family can be used for an alternate lowercase 'a' letter.
+- [Aleo](https://www.1001fonts.com/aleo-font.html?text=Delta%20Icons) — when Serifs are needed.
 
-# 📥 Contributing
+# Contributing
 
-## 🪟 Overview
+## Overview
 
-### ❔ Key Terms
-
-> Some things are described very roughly for better understanding.
+### Key Terms
 
 - **Icon images** — your exported PNG/SVG icons.
 - **ComponentInfo** — an app identifier (e.g. `com.example/com.example.MainActivity`) that launchers use to match an installed app to its icon in the icon pack. You can use these tools to get ComponentInfos from your installed apps:
@@ -185,9 +183,9 @@ Good luck!
   - [Icon Pusher](https://iconpusher.com/) by [V01D](https://v01d.uk)
   - [Icon Request](https://github.com/Kaiserdragon2/IconRequest/releases) by [Kaiserdragon2](https://github.com/Kaiserdragon2)
 
-- **Drawable name** — an internal name of an icon (e.g. `new_icon`). It's used to include an icon image to the icon pack, and in combo with ComponentInfo(s) it links the icon with the target app. The drawable name must be in alphanumeric lowercase with underscores only and icon image names must match the drawable name exactly (e.g. `new_icon.png` and `new_icon.svg`).
-- **Standalone icon** — an icon that isn't linked to any app. They can be non-app icons like `adobe` and be used as web shortcut icons, etc. Users can select them via their launcher if it supports that feature.
-- **Alternative icon** — an alternative version of an app icon. Mainly used when the app rebrands: the old icon becomes an alternative (e.g. `new_icon_alt_1`), and a new icon takes its place. However, you can create alternative icons for any app without linking them to any ComponentInfo, and they will be standalone. Users can select them via their launcher if it supports that feature.
+- **Drawable name** — an internal name of an icon (e.g. `app_name`). It's used to include an icon image to the icon pack, and in combo with ComponentInfo(s) it links the icon with the target app. The drawable name must be in alphanumeric lowercase with underscores only and icon image names must match the drawable name exactly (e.g. `new_icon.png` and `new_icon.svg`).
+- **Standalone icon** — an icon that isn't linked to any app. They can be non-app icons like `adobe`, or folder icons and be used for web shortcuts, app folders, etc. Users can select them via their launcher if it supports that feature.
+- **Alternative icon** — an alternative version of an app icon. Mainly used when the app rebrands: the old icon becomes an alternative (e.g. `app_name_alt_1`), and a new icon takes its place. However, you can create alternative icons for any app without linking them to any ComponentInfo, and they will be standalone. Users can select them via their launcher if it supports that feature.
 - **Categories** — categories within [`app/src/main/assets/drawable.xml`](./app/src/main/assets/drawable.xml) to organize icons. Description of categories:
 
   - `New` — new icons for the current release. If [manually](#️-manual) adding icons, you must also add the entry to this category.
@@ -199,31 +197,38 @@ Good luck!
   - `#` — icons whose name starts with a number (e.g. `_2048`). If [manually](#️-manual) adding icons, drawable names that begin with a number must have a leading underscore and be placed in this category.
   - `A–Z` — everything else, sorted by the first letter of the drawable name.
 
-### 📐 Rules
+### Rules
 
-- Keep [LF](https://en.wikipedia.org/wiki/Newline) line endings in edited files.
+- Keep [LF](https://en.wikipedia.org/wiki/Newline) line endings in edited files. Git has a setting for this.
 
-### 🗒️ Notes for Contributors
+### Notes for Contributors
 
 Want to help close user requests? Check [`contribs/requests.yml`](./contribs/requests.yml) — it contains all pending icon requests and is updated periodically.
 
 If you wish, you can add yourself to [`app/src/main/res/xml/contributors.xml`](./app/src/main/res/xml/contributors.xml) to shine in the app's contributors section!
 
-## 📚 Managing Icons
+## Adding / managing icons
 
-> `new_icon` (and derivatives of it) will be used as a drawable name<br>
-> `com.example/com.example.MainActivity` (and derivatives of it) will be used as a ComponentInfo
+Your new app icon will have two important identifiers:
 
-So, you made an icon then exported it as `new_icon.png` and `new_icon.svg`. Now you need to select which way to manage icons. Here are two ways:
+- `icon_name` (and derivatives of it) will be used as a drawable name
+- `com.example/com.example.MainActivity` (and derivatives of it) will be used as a ComponentInfo
 
-- [**Auto**](#-auto) — an automatic and declarative way of managing icons via [`contribs/icons.yml`](./contribs/icons.yml), processed by scripts and GitHub Actions. This is the recommended approach.
-- [**Manual**](#️-manual) — this is how icons were managed before [**Auto**](#-auto) was implemented. Directly editing XMLs and placing icon images into the appropriate directories. More control, but inconvenient. Try to avoid it unless [**Auto**](#-auto) can't handle what you need.
+<details>
+  <summary>Example</summary>
+  You have an app called "Delta Icon Delivery". A sensible name for your drawable would be <code>delta_icon_delivery</code>. The component info would be dictated by the app itself and be akin to something like <code>com.delta.delivery/com.delta.delivery.Actvities.MainActivity</code>.
+</details>
 
-### 🤖 Auto
+So, you made an icon then exported it as `new_icon.png` and `new_icon.svg`. Now you needto select which way to manage icons. Here are two ways:
+
+- [**Automatic**](#-automatic) — an automatic and declarative way of managing icons via the file [`contribs/icons.yml`](./contribs/icons.yml) in the repo, processed by scripts and GitHub Actions. This is the recommended approach.
+- [**Manual**](#️-manual) — this is how icons were managed before [**Auto**](#-auto) was implemented. Directly editing XMLs and placing icon images into the appropriate directories. More control, but also more prone to errors. Try to avoid it unless [**Auto**](#-auto) can't handle what you need.
+
+### Automatic
 
 This is an automatic and declarative method of managing icons via [`contribs/icons.yml`](./contribs/icons.yml), driven by scripts and GitHub Actions.
 
-Place your icon images in the [`contribs/icons`](./contribs/icons) directory and add the following entry to [`contribs/icons.yml`](./contribs/icons.yml):
+Place your icon images (the `new_icon.png` and `new_icon.svg` files both) in the [`contribs/icons`](./contribs/icons) directory and add an entry in the following format to [`contribs/icons.yml`](./contribs/icons.yml):
 
 ```yaml
 new_icon: com.example/com.example.MainActivity
@@ -231,7 +236,7 @@ new_icon: com.example/com.example.MainActivity
 
 And that's all. This is the easiest and most common method for adding a new icon and linking it to an app. [`contribs/icons.yml`](./contribs/icons.yml) will be processed by scripts and cleared automatically every release.
 
-That entry can be extended with more options:
+That entry can be extended with more options, for example:
 
 ```yaml
 new_icon:
@@ -242,7 +247,7 @@ new_icon:
     - com.example/com.example.SplashActivity
 ```
 
-Check [Options](#options) to get more explanation of each option and [Examples](#examples) for more examples.
+Check [Options](#options) below to get an explanation of each option and [Examples](#examples) for more examples.
 
 #### Options
 
@@ -328,9 +333,9 @@ existing_icon:
 
 ```
 
-### ✍️ Manual
+### Manual
 
-This is how icons were managed before [**Auto**](#-auto) was implemented. Directly editing XMLs and placing exported icons into the appropriate directories. More control, but inconvenient. Try to avoid it unless [**Auto**](#-auto) can't handle what you need.
+This is how icons were managed before [**Automatic**](#-automatic) was implemented. Avoid it unless [**Automatic**](#-automatic) can't handle what you need.
 
 There are two `drawable.xml` and two `appfilter.xml` files to edit (stored in [`app/src/main/assets`](./app/src/main/assets) and [`app/src/main/res/xml`](./app/src/main/res/xml)). It's better to edit the XMLs in [`app/src/main/assets`](./app/src/main/assets), then copy them to [`app/src/main/res/xml`](./app/src/main/res/xml) to keep all files identical. You can do it however you want (e.g. editing all files at the same time), just keep them identical.
 
@@ -397,9 +402,9 @@ If an existing icon has been rebranded, don't overwrite it with a new one — do
 
 The rest of the things are more or less obvious like moving drawable names between categories, renaming, etc. Just ask for help in Discord if something isn't clear.
 
-# 🏗️ Build
+# Build
 
-## 🐈‍⬛ GitHub Actions
+## GitHub Actions
 
 > Everything described here must be done in your fork.
 
@@ -409,7 +414,7 @@ The rest of the things are more or less obvious like moving drawable names betwe
 2. Click on **Run workflow**, optionally mark preferred checkboxes, then click on **Run workflow**
 3. Wait for the build, it takes approximately 5-10 minutes. The zipped APK will be attached to the workflow run. Go to [Actions](../../actions), click on the latest workflow run and download it from **Artifacts** down below
 
-### 🤐 Creating Secrets
+### Creating Secrets
 
 > This is optional since the workflow contains hardcoded values, but you can do this to use your own keystore. The following values of variables and options match the hardcoded workflow values.
 
