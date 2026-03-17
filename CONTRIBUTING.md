@@ -16,7 +16,7 @@ In short, the suggested skills are:
 
 - Basic knowledge of [git](https://git-scm.com/) and/or [GitHub](https://github.com).
 - Some experience with vector editors.
-- A little bit of a design sense
+- A little bit of a design sense.
 
 We'll be happy to see you participate!
 
@@ -27,7 +27,7 @@ We'll be happy to see you participate!
 - Keep it simple: fewer details and small elements, because the end result will only be a small element on the users screens.
 - Your icon doesn't have to be a 1:1 copy of the original; improve and simplify where possible but at the same time try to maintain a recognizable appearance.
 - Avoid outlining, otherwise the icon will stand out from the general style.
-- Make the icon free-form if you can — it helps keep Delta a little more diverse
+- Make the icon free-form if you can — it helps keep Delta a little more diverse.
 - You can search for app logos online (they're often found on official websites; avoid icons with non-free licenses) and adapt them. If the original icon is too complex, you can use another recognizable element (an item, a faction icon, etc.) — this applies to any complex icon, not just games.
 - Be sure to double-check that icons are centered and aligned, sized and exported correctly.
 
@@ -35,9 +35,9 @@ We'll be happy to see you participate!
 
 ### Rules
 
-- Canvas size must be 192x192px. The template from [Resources](#-resources) is correctly configured, just download it and you should be good to go.
+- Canvas size must be 192x192px. The template from [Resources](#resources) is correctly configured, just download it and you should be good to go.
 - The icon size does not exceed template dimensions. Check out [the visual explanation](./resources/templates/template_tutorial.svg).
-- If the original logo is simple and doesn't fill most of the template as a shape (circle, square, etc.), keep the logo size between 72–80px.
+- If the original logo is simple and doesn't fill most of the template as a shape (circle, square, etc.), keep the logo size between 73–80px.
 - The rounded corners of squares and rectangles have a corner radius of 10px.
 - The template must be properly centered on the canvas.
 
@@ -164,14 +164,14 @@ We'll be happy to see you participate!
 
 - If the original icon consists of just one or two letters, you may trace that letter instead of using these fonts.
 - Fonts can be a little tricky to align/center in different vector editors, which you can mitigate by either converting them to paths or in the case of Figma: the text box trim.
-- You can use a custom font if it matches the font from the original icon very closely, for the rest use fonts from [Resources](#-resources-2).
+- You can use a custom font if it matches the font from the original icon very closely, for the rest use fonts from [Resources](#resources-2).
 
 ### Resources
 
 - [Now](https://www.1001fonts.com/now-font.html?text=Delta%20Icons) — main Sans-serif font; Now Alt from the same family can be used for an alternate lowercase 'a' letter.
 - [Aleo](https://www.1001fonts.com/aleo-font.html?text=Delta%20Icons) — when Serifs are needed.
 
-# Contributing
+# 📥 Contributing
 
 ## Overview
 
@@ -188,13 +188,13 @@ We'll be happy to see you participate!
 - **Alternative icon** — an alternative version of an app icon. Mainly used when the app rebrands: the old icon becomes an alternative (e.g. `app_name_alt_1`), and a new icon takes its place. However, you can create alternative icons for any app without linking them to any ComponentInfo, and they will be standalone. Users can select them via their launcher if it supports that feature.
 - **Categories** — categories within [`app/src/main/assets/drawable.xml`](./app/src/main/assets/drawable.xml) to organize icons. Description of categories:
 
-  - `New` — new icons for the current release. If [manually](#️-manual) adding icons, you must also add the entry to this category.
+  - `New` — new icons for the current release. If [manually](#manual) adding icons, you must also add the entry to this category.
   - `Alts` — alternative icons.
   - `Calendar` — calendar icons.
   - `Folders` — folder icons.
   - `Google` — Google apps (Chrome, YouTube, etc.).
   - `System` — system icons (Camera, Contacts, Settings, etc.).
-  - `#` — icons whose name starts with a number (e.g. `_2048`). If [manually](#️-manual) adding icons, drawable names that begin with a number must have a leading underscore and be placed in this category.
+  - `#` — icons whose name starts with a number (e.g. `_2048`). If [manually](#manual) adding icons, drawable names that begin with a number must have a leading underscore and be placed in this category.
   - `A–Z` — everything else, sorted by the first letter of the drawable name.
 
 ### Rules
@@ -207,7 +207,7 @@ Want to help close user requests? Check [`contribs/requests.yml`](./contribs/req
 
 If you wish, you can add yourself to [`app/src/main/res/xml/contributors.xml`](./app/src/main/res/xml/contributors.xml) to shine in the app's contributors section!
 
-## Adding / managing icons
+## Adding / Managing Icons
 
 Your new app icon will have two important identifiers:
 
@@ -221,8 +221,8 @@ Your new app icon will have two important identifiers:
 
 So, you made an icon then exported it as `new_icon.png` and `new_icon.svg`. Now you needto select which way to manage icons. Here are two ways:
 
-- [**Automatic**](#-automatic) — an automatic and declarative way of managing icons via the file [`contribs/icons.yml`](./contribs/icons.yml) in the repo, processed by scripts and GitHub Actions. This is the recommended approach.
-- [**Manual**](#️-manual) — this is how icons were managed before [**Auto**](#-auto) was implemented. Directly editing XMLs and placing icon images into the appropriate directories. More control, but also more prone to errors. Try to avoid it unless [**Auto**](#-auto) can't handle what you need.
+- [**Automatic**](#automatic) — an automatic and declarative way of managing icons via the file [`contribs/icons.yml`](./contribs/icons.yml) in the repo, processed by scripts and GitHub Actions. This is the recommended approach.
+- [**Manual**](#manual) — this is how icons were managed before [**Automatic**](#automatic) was implemented. Directly editing XMLs and placing icon images into the appropriate directories. More control, but also more prone to errors. Try to avoid it unless [**Automatic**](#automatic) can't handle what you need.
 
 ### Automatic
 
@@ -335,7 +335,7 @@ existing_icon:
 
 ### Manual
 
-This is how icons were managed before [**Automatic**](#-automatic) was implemented. Avoid it unless [**Automatic**](#-automatic) can't handle what you need.
+This is how icons were managed before [**Automatic**](#automatic) was implemented. Avoid it unless [**Automatic**](#automatic) can't handle what you need.
 
 There are two `drawable.xml` and two `appfilter.xml` files to edit (stored in [`app/src/main/assets`](./app/src/main/assets) and [`app/src/main/res/xml`](./app/src/main/res/xml)). It's better to edit the XMLs in [`app/src/main/assets`](./app/src/main/assets), then copy them to [`app/src/main/res/xml`](./app/src/main/res/xml) to keep all files identical. You can do it however you want (e.g. editing all files at the same time), just keep them identical.
 
@@ -402,13 +402,13 @@ If an existing icon has been rebranded, don't overwrite it with a new one — do
 
 The rest of the things are more or less obvious like moving drawable names between categories, renaming, etc. Just ask for help in Discord if something isn't clear.
 
-# Build
+# 🏗️ Build
 
 ## GitHub Actions
 
 > Everything described here must be done in your fork.
 
-### 🏁 Run Workflow
+### Run Workflow
 
 1. Go to [Actions → Build FOSS](../../actions/workflows/build_foss.yml)
 2. Click on **Run workflow**, optionally mark preferred checkboxes, then click on **Run workflow**
