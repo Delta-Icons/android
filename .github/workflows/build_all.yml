@@ -66,7 +66,7 @@ jobs:
 
     - name: Export vars
       run: |
-        python -u resources/scripts/resolve_paths.py -p >> $GITHUB_ENV
+        python -u resources/scripts/shared.py -p >> $GITHUB_ENV
         due_on=$(TZ=UTC date --iso-8601=seconds -d "$(date +%Y-%m-01) +1 month") >> $GITHUB_ENV
 
     - name: Install Python deps
@@ -95,7 +95,7 @@ jobs:
 
     - name: Add icons
       run: |
-        python -u ${{ env.sd }}/add_icons_wrapper.py
+        python -u ${{ env.sd }}/process_icons.py
 
     - name: Set icons count
       run: |
@@ -111,14 +111,6 @@ jobs:
         else
             echo 'No release tag or changed files found, skip optimizing'
         fi
-
-    - name: Sort XMLs
-      run: |
-        cd ${{ env.sd }}
-        python sort_appfilter.py -o
-        python sort_drawable.py -o
-        cp -fv ${{ env.a1 }} ${{ env.a2 }}
-        cp -fv ${{ env.d1 }} ${{ env.d2 }}
 
     - name: Create changelog
       run: |
@@ -188,10 +180,7 @@ jobs:
             </foreground>
         </adaptive-icon>
         EOF
-        python ${{ env.sd }}/sort_appfilter.py -o
-        python ${{ env.sd }}/sort_drawable.py -o
-        cp -fv ${{ env.a1 }} ${{ env.a2 }}
-        cp -fv ${{ env.d1 }} ${{ env.d2 }}
+        python -u ${{ env.sd }}/process_icons.py -s
         bash gradlew assembleFossdc
         git restore ${{ env.d1 }} ${{ env.d2 }}
 

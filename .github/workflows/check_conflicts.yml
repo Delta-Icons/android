@@ -5,19 +5,24 @@ on:
   workflow_dispatch:
   pull_request:
     paths:
-      - contribs/**
+      - contribs/icons/**
+      - contribs/icons.yml
+
+env:
+  FORCE_COLOR: 1
+  PYTHONUNBUFFERED: 1
 
 jobs:
   build:
     name: Check for Conflicts
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     defaults:
       run:
         working-directory: resources/scripts
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
 
     - name: Setup Python
       uses: actions/setup-python@v6
@@ -29,6 +34,6 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Add icons
+    - name: Process icons in dry run
       run: |
-        python -u add_icons_wrapper.py
+        python process_icons.py -d 2>&1

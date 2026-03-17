@@ -47,7 +47,7 @@ jobs:
 
     - name: Export vars
       run: |
-        python -u resources/scripts/resolve_paths.py -p >> $GITHUB_ENV
+        python -u resources/scripts/shared.py -p >> $GITHUB_ENV
 
     - name: Install Python deps
       run: |
@@ -55,7 +55,7 @@ jobs:
 
     - name: Add icons
       run: |
-        python -u ${{ env.sd }}/add_icons_wrapper.py
+        python -u ${{ env.sd }}/process_icons.py
 
     - name: Set version
       run: |
