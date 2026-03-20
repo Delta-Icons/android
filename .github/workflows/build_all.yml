@@ -28,6 +28,8 @@ on:
         description: Changelog (b64 encoded)
 
 env:
+  FORCE_COLOR: 1
+  PYTHONUNBUFFERED: 1
   token: ${{ secrets.PA_TOKEN || github.token }}
   current_repo: ${{ github.repository }}
   organization: Delta-Icons
