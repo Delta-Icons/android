@@ -5,6 +5,8 @@ concurrency:
   group: delta
 
 env:
+  FORCE_COLOR: 1
+  PYTHONUNBUFFERED: 1
   keystore_key_alias: ${{ secrets.KEYSTORE_KEY_ALIAS || 'android' }}
   keystore_key_password: ${{ secrets.KEYSTORE_KEY_PASSWORD || 'android' }}
   keystore_password: ${{ secrets.KEYSTORE_PASSWORD || 'android' }}
@@ -47,7 +49,7 @@ jobs:
 
     - name: Export vars
       run: |
-        python -u resources/scripts/shared.py -p >> $GITHUB_ENV
+        python resources/scripts/shared.py -p >> $GITHUB_ENV
 
     - name: Install Python deps
       run: |
@@ -55,12 +57,12 @@ jobs:
 
     - name: Add icons
       run: |
-        python -u ${{ env.sd }}/process_icons.py
+        python ${{ env.sd }}/process_icons.py
 
     - name: Set version
       run: |
         echo "filename=delta-${GITHUB_SHA::7}-foss" >> $GITHUB_ENV
-        python -u ${{ env.sd }}/bump_version.py -w \
+        python ${{ env.sd }}/bump_version.py -w \
                -c "${GITHUB_SHA::7}|$(date +%s)"
 
     - name: Set icons count
@@ -82,11 +84,7 @@ jobs:
 
     - name: Sort XMLs
       run: |
-        cd ${{ env.sd }}
-        python sort_appfilter.py -o
-        python sort_drawable.py -o
-        cp -fv ${{ env.a1 }} ${{ env.a2 }}
-        cp -fv ${{ env.d1 }} ${{ env.a2 }}
+        python ${{ env.sd }}/process_icons.py -s
 
     - name: Build APK
       run: |
