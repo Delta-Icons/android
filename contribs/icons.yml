@@ -55,3 +55,62 @@ xash3d:
 heyjom: com.heyjom.android/com.heyjom.android.MainActivity
 
 naver_plus: com.navercorp.navershopping/com.naver.nspa.app.MainActivity
+
+ente_auth:
+  action: rewrite
+  compinfo:
+    - io.ente.auth.independent/io.ente.auth.MainActivity
+    - io.ente.auth/io.ente.auth.IconDefault
+    - io.ente.auth/io.ente.auth.MainActivity
+
+ente_auth_light:
+  compinfo:
+    - io.ente.auth/io.ente.auth.IconLight
+
+ente_auth_dark:
+  compinfo:
+  - io.ente.auth/io.ente.auth.IconDark
+
+ente_auth_og:
+  action: rewrite
+  compinfo:
+    - io.ente.auth/io.ente.auth.IconOG
+
+ente_locker:
+  action: rewrite
+  compingo:
+    - io.ente.locker/io.ente.locker.MainActivity
+
+ente_photos:
+  - io.ente.photos.fdroid/io.ente.photos.MainActivity
+  - io.ente.photos.fdroid/io.ente.photos.fdroid.IconGreen
+  - io.ente.photos.independent/io.ente.photos.indipendent.MainActivity
+  - io.ente.photos.indipendent/io.ente.photos.indipendent.IconGreen
+
+ente:
+  action: remove
+
+ente_dark:
+  action: remove
+
+ente_light:
+  action: remove
+
+ente_og:
+  action: rename > ente_photos_og
+  compinfo:
+    - io.ente.photos/io.ente.photos.IconOG
+
+ente_photos_dark:
+  compinfo:
+    - io.ente.photos.fdroid/io.ente.photos.fdroid.IconDark
+    - io.ente.photos.indipendent/io.ente.photos.indipendent.IconDark
+
+ente_photos_Light:
+  compinfo:
+    - io.ente.photos.fdroid/io.ente.photos.fdroid.IconLight
+    - io.ente.photos.indipendent/io.ente.photos.indipendent.IconLight
+
+ente_photos_ducky:
+  compinfo:
+    - io.ente.photos.indipendent/io.ente.photos.indipendent.IconDuckyHuggingE
