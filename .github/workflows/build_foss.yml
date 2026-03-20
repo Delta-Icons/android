@@ -61,7 +61,7 @@ jobs:
 
     - name: Set version
       run: |
-        echo "filename=delta-${GITHUB_SHA::7}-foss" >> $GITHUB_ENV
+        echo "version=${GITHUB_SHA::7}" >> $GITHUB_ENV
         python ${{ env.sd }}/bump_version.py -w \
                -c "${GITHUB_SHA::7}|$(date +%s)"
 
@@ -74,25 +74,47 @@ jobs:
         python ${{ env.sd }}/create_changelog.py \
           -p -w -r foss -x app/src/main/res/values/changelog.xml
 
-    - name: Apply clock patch
-      run: |
-        git apply resources/patches/clock.patch
-        mv -v app/src/main/res/drawable-nodpi/clock.png app/src/main/res/drawable-nodpi/clock_alt_2.png
-        mv -v resources/patches/clock.xml app/src/main/res/drawable-nodpi/clock.xml
-      if: |
-        inputs.clock == true
-
-    - name: Sort XMLs
-      run: |
-        python ${{ env.sd }}/process_icons.py -s
-
     - name: Build APK
       run: |
         bash gradlew assembleFoss
+      if: |
+        inputs.clock == false
 
-    - name: Move unsigned APK
+    - name: Build APK with Dynamic Clock
       run: |
-        mv -v app/build/outputs/apk/foss/release/*.apk .
+        sed -i 's|<scale factor="1" />|<scale factor="1" />\n\t<dynamic-clock defaultHour="10" defaultMinute="10" defaultSecond="30" hourLayerIndex="0" minuteLayerIndex="1" secondLayerIndex="2" drawable="clock" />|' ${{ env.a1 }} ${{ env.a2 }}
+        sed -i 's|<category title="Alts" />|<category title="Alts" />\n\t<item drawable="clock_alt_2" />|' ${{ env.d1 }} ${{ env.d2 }}
+        sed -i 's|MinSdk = 21|MinSdk = 26|' build.gradle
+        mv -v app/src/main/res/drawable-nodpi/clock.png app/src/main/res/drawable-nodpi/clock_alt_2.png
+        cat << 'EOF' > app/src/main/res/drawable-nodpi/clock.xml
+        <?xml version="1.0" encoding="utf-8"?>
+        <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+            <background android:drawable="@drawable/clock_dynamic_background"/>
+            <foreground>
+                <layer-list>
+                    <item>
+                        <rotate android:drawable="@drawable/clock_dynamic_hour" android:fromDegrees="300.0" android:toDegrees="5300.0" android:pivotX="50.0%" android:pivotY="50.0%"/>
+                    </item>
+                    <item>
+                        <rotate android:drawable="@drawable/clock_dynamic_minute" android:fromDegrees="60.0" android:toDegrees="60060.0" android:pivotX="50.0%" android:pivotY="50.0%"/>
+                    </item>
+                    <item>
+                        <rotate android:drawable="@drawable/clock_dynamic_second" android:fromDegrees="180.0" android:toDegrees="6180.0" android:pivotX="50.0%" android:pivotY="50.0%" android:level="300"/>
+                    </item>
+                    <item android:drawable="@drawable/clock_dynamic_top" />
+                </layer-list>
+            </foreground>
+        </adaptive-icon>
+        EOF
+        python -u ${{ env.sd }}/process_icons.py -s
+        bash gradlew assembleFossdc
+        git restore ${{ env.d1 }} ${{ env.d2 }}
+      if: |
+        inputs.clock == true
+
+    - name: Move unsigned builds
+      run: |
+        find app/build/outputs -regextype posix-egrep -regex '.*-(release|unsigned).(aab|apk)$' | sudo xargs -I % mv -v % .
 
     - name: Sign APK
       uses: kevin-david/zipalign-sign-android-release@main
@@ -104,13 +126,15 @@ jobs:
         signingKeyBase64: ${{ env.keystore_base64 }}
         releaseDirectory: .
 
-    - name: Rename signed APK
+    - name: Rename signed builds
       run: |
-        mv -v ${{ steps.sign_step.outputs.signedReleaseFile }} ${{ env.filename }}.apk
+        rm -v *unsigned.apk
+        mv -v app-fossdc-release-unsigned-signed.apk delta-fossdc-${{ env.version }}.apk > /dev/null || true
+        mv -v app-foss-release-unsigned-signed.apk delta-foss-${{ env.version }}.apk > /dev/null || true
 
     - name: Upload signed APK to Artifacts
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v7
       with:
-        name: ${{ env.filename }}
-        path: ${{ env.filename }}.apk
+        name: delta-${{ env.version }}
+        path: '*.apk'
         retention-days: 30
