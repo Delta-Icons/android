@@ -63,16 +63,12 @@ ente_auth:
     - io.ente.auth/io.ente.auth.IconDefault
     - io.ente.auth/io.ente.auth.MainActivity
 
-ente_auth_light:
-  compinfo:
-    - io.ente.auth/io.ente.auth.IconLight
+ente_auth_light: io.ente.auth/io.ente.auth.IconLight
 
-ente_auth_dark:
-  compinfo:
-  - io.ente.auth/io.ente.auth.IconDark
+ente_auth_dark: io.ente.auth/io.ente.auth.IconDark
 
-ente_auth_og:
-  action: rewrite
+ente_auth_alt_1:
+  action: rename > ente_auth_og
   compinfo:
     - io.ente.auth/io.ente.auth.IconOG
 
@@ -106,11 +102,9 @@ ente_photos_dark:
     - io.ente.photos.fdroid/io.ente.photos.fdroid.IconDark
     - io.ente.photos.indipendent/io.ente.photos.indipendent.IconDark
 
-ente_photos_Light:
+ente_photos_light:
   compinfo:
     - io.ente.photos.fdroid/io.ente.photos.fdroid.IconLight
     - io.ente.photos.indipendent/io.ente.photos.indipendent.IconLight
 
-ente_photos_ducky:
-  compinfo:
-    - io.ente.photos.indipendent/io.ente.photos.indipendent.IconDuckyHuggingE
+ente_photos_ducky: io.ente.photos.indipendent/io.ente.photos.indipendent.IconDuckyHuggingE
