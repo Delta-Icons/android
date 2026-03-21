@@ -63,19 +63,30 @@ ente_auth:
     - io.ente.auth/io.ente.auth.IconDefault
     - io.ente.auth/io.ente.auth.MainActivity
 
-ente_auth_light: io.ente.auth/io.ente.auth.IconLight
+ente_auth_light:
+  category: alts
+  compinfo: io.ente.auth/io.ente.auth.IconLight
 
-ente_auth_dark: io.ente.auth/io.ente.auth.IconDark
+ente_auth_dark:
+  category: alts
+  compinfo: io.ente.auth/io.ente.auth.IconDark
 
 ente_auth_alt_1:
   action: rename > ente_auth_og
+  category: alts
   compinfo:
     - io.ente.auth/io.ente.auth.IconOG
 
 ente_locker:
   action: rewrite
-  compingo:
+  compinfo:
     - io.ente.locker/io.ente.locker.MainActivity
+  
+ente_locker_dark:
+  category: alts
+
+ente_locker_light:
+  category: alts
 
 ente_photos:
   - io.ente.photos.fdroid/io.ente.photos.MainActivity
@@ -94,17 +105,24 @@ ente_light:
 
 ente_og:
   action: rename > ente_photos_og
-  compinfo:
-    - io.ente.photos/io.ente.photos.IconOG
+  category: alts
+  compinfo: io.ente.photos/io.ente.photos.IconOG
 
 ente_photos_dark:
+  category: alts
   compinfo:
     - io.ente.photos.fdroid/io.ente.photos.fdroid.IconDark
     - io.ente.photos.indipendent/io.ente.photos.indipendent.IconDark
 
 ente_photos_light:
+  category: alts
   compinfo:
     - io.ente.photos.fdroid/io.ente.photos.fdroid.IconLight
     - io.ente.photos.indipendent/io.ente.photos.indipendent.IconLight
 
-ente_photos_ducky: io.ente.photos.indipendent/io.ente.photos.indipendent.IconDuckyHuggingE
+ente_photos_ducky:
+  category: alts
+  compinfo: io.ente.photos.indipendent/io.ente.photos.indipendent.IconDuckyHuggingE
+
+ente_ensu:
+  action: rebrand
