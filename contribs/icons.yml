@@ -134,3 +134,74 @@ thunderbird: net.thunderbird.android/net.thunderbird.app.common.MainActivity
 plex: com.plexapp.android/com.plexapp.android.MainActivityIconDark
 
 adt_control: com.adt.adtcontrolalarm/com.alarm.alarmmobile.android.feature.auth.login.LoginActivity
+
+ente_auth:
+  action: rewrite
+  compinfo:
+    - io.ente.auth.independent/io.ente.auth.MainActivity
+    - io.ente.auth/io.ente.auth.IconDefault
+    - io.ente.auth/io.ente.auth.MainActivity
+
+ente_auth_light:
+  category: alts
+  compinfo: io.ente.auth/io.ente.auth.IconLight
+
+ente_auth_dark:
+  category: alts
+  compinfo: io.ente.auth/io.ente.auth.IconDark
+
+ente_auth_alt_1:
+  action: rename > ente_auth_og
+  category: alts
+  compinfo:
+    - io.ente.auth/io.ente.auth.IconOG
+
+ente_locker:
+  action: rewrite
+  compinfo:
+    - io.ente.locker/io.ente.locker.MainActivity
+  
+ente_locker_dark:
+  category: alts
+
+ente_locker_light:
+  category: alts
+
+ente_photos:
+  - io.ente.photos.fdroid/io.ente.photos.MainActivity
+  - io.ente.photos.fdroid/io.ente.photos.fdroid.IconGreen
+  - io.ente.photos.independent/io.ente.photos.indipendent.MainActivity
+  - io.ente.photos.indipendent/io.ente.photos.indipendent.IconGreen
+
+ente:
+  action: remove
+
+ente_dark:
+  action: remove
+
+ente_light:
+  action: remove
+
+ente_og:
+  action: rename > ente_photos_og
+  category: alts
+  compinfo: io.ente.photos/io.ente.photos.IconOG
+
+ente_photos_dark:
+  category: alts
+  compinfo:
+    - io.ente.photos.fdroid/io.ente.photos.fdroid.IconDark
+    - io.ente.photos.indipendent/io.ente.photos.indipendent.IconDark
+
+ente_photos_light:
+  category: alts
+  compinfo:
+    - io.ente.photos.fdroid/io.ente.photos.fdroid.IconLight
+    - io.ente.photos.indipendent/io.ente.photos.indipendent.IconLight
+
+ente_photos_ducky:
+  category: alts
+  compinfo: io.ente.photos.indipendent/io.ente.photos.indipendent.IconDuckyHuggingE
+
+ente_ensu:
+  action: rebrand
