@@ -254,3 +254,20 @@ mir_pay_ru:
 
 tele2_ru:
   action: rewrite
+
+abus_one: com.abus.one/com.abus.splicelock.activity.MainActivity
+
+dkb: 
+  action: rebrand
+  compinfos:
+    - com.dkbcodefactory.banking/com.dkbcodefactory.banking.screens.BankingAppActivity
+
+enbw_mobility: com.enbw.ev/com.enbw.lib.mobile_ui.StartActivity
+
+ewe_go: de.ewe.go.app/de.ewe.go.app.MainActivity
+
+i_kfz: de.kba.ikfz/de.bundesdruckerei.android.ezbi.MainActivity
+
+james_app: com.ilogs.james.helperapp/com.ilogs.james.helperapp.MainActivity
+
+tk_ident: de.tk.apps.android.tkident/com.ibm.whitelabel.authenticator.auth.AuthenticatorAuthLauncherActivity
