@@ -43,6 +43,7 @@ jobs:
           --user '${{ secrets.EMAIL_ADDRESS }}' \
           --pass '${{ secrets.EMAIL_PASSWORD }}' \
           --remote '${{ secrets.EMAIL_FOLDER }}' \
+        python process_requests.py -qu
 
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v7

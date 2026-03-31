@@ -304,17 +304,17 @@ google_app:
 # rewrite the icons of an existing icons without touching XMLs
 # existing_icons.png and existing_icon.svg must be in contribs/icons
 existing_icon:
-  rebrand: rewrite
+  action: rewrite
 
 # rebrand an existing icon and make the previous icon a standalone alternative icon \
 # as existing_icon_alt_x (x will be automatically calculated)
 existing_icon:
-  rebrand: rebrand
+  action: rebrand
 
 # rebrand an existing icon with attaching previous ComponentInfos \
 # to a existing_icon_alt_x (x will be automatically calculated)
 existing_icon:
-  rebrand: rebrand
+  action: rebrand
   compinfos:
     - com.example/com.example.MainActivity
 

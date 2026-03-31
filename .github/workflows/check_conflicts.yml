@@ -8,6 +8,9 @@ on:
       - contribs/icons/**
       - contribs/icons.yml
 
+permissions:
+  contents: read
+
 env:
   FORCE_COLOR: 1
   PYTHONUNBUFFERED: 1
