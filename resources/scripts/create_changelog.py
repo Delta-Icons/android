@@ -19,7 +19,7 @@ def create_parser():
     parser.add_argument('-r', '--release-type',
                         dest='release_type',
                         help='type of release',
-                        choices=['prod', 'beta', 'foss'],
+                        choices=['promote', 'beta', 'foss'],
                         default='beta')
     parser.add_argument('-p', '--print',
                         dest='print',
