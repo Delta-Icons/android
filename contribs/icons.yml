@@ -30,7 +30,9 @@ gluco_data_handler: de.michelinside.glucodatahandler/de.michelinside.glucodataha
 
 absorb: com.barnabas.absorb/com.barnabas.absorb.MainActivity
 
-episteme_reader: com.aryan.reader.oss/com.aryan.reader.MainActivity
+episteme_reader: 
+  - com.aryan.reader.oss/com.aryan.reader.MainActivity
+  - com.aryan.reader/com.aryan.reader.MainActivity
 
 librefit: org.librefit.app/org.librefit.activities.MainActivity
 
@@ -41,3 +43,9 @@ pokeclaw: io.agents.pokeclaw/io.agents.pokeclaw.ui.splash.SplashActivity
 simple_notes_sync: dev.dettmer.simplenotes/dev.dettmer.simplenotes.ui.main.ComposeMainActivity
 
 swift_slate: com.musheer360.swiftslate/com.musheer360.swiftslate.MainActivity
+
+proton_authenticator: proton.android.authenticator.fdroid/proton.android.authenticator.app.ui.MainActivity
+
+ella_thegame: rocks.poopjournal.Ella/com.unity3d.player.UnityPlayerGameActivity
+
+hydrv: app.hydra.manager/app.hydra.manager.LauncherDefaultAlias
