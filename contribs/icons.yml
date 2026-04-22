@@ -8,14 +8,14 @@
 ente_photos: io.ente.photos.independent/io.ente.photos.independent.IconGreen
 
 ente_locker_light:
-compinfo:
-    - io.ente.locker/io.ente.locker.IconLight
-    - io.ente.locker.independent/io.ente.locker.independent.IconLight
+    compinfo:
+        - io.ente.locker/io.ente.locker.IconLight
+        - io.ente.locker.independent/io.ente.locker.independent.IconLight
 
 ente_locker_dark:
-compinfo:
-    - io.ente.locker/io.ente.locker.IconDark
-    - io.ente.locker.independent/io.ente.locker.independent.IconDark
+    compinfo:
+        - io.ente.locker/io.ente.locker.IconDark
+        - io.ente.locker.independent/io.ente.locker.independent.IconDark
 
 fps_camera: com.fps.camera/com.fps.camera.CameraLauncher
 
@@ -30,10 +30,10 @@ azahar: org.azahar_emu.azahar/org.citra.citra_emu.ui.main.MainActivity
 youtube_revanced: app.revanced.android.youtube/app.revanced.android.youtube.revanced_rounded_1
 
 turn_off:
-  action: rewrite
+    action: rewrite
 
 portuguese_dictionary_offline:
-  action: rewrite
+    action: rewrite
 
 pineapple_lock_screen:
   - net.blumia.pineapple.lockscreen.oss/net.blumia.pineapple.lockscreen.MainActivity
