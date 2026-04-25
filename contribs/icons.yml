@@ -5,65 +5,7 @@
 # examples:
 # https://github.com/Delta-Icons/android/blob/master/CONTRIBUTING.md#examples
 #
-ente_photos: io.ente.photos.independent/io.ente.photos.independent.IconGreen
 
-ente_locker_light:
-  - io.ente.locker/io.ente.locker.IconLight
-  - io.ente.locker.independent/io.ente.locker.independent.IconLight
-
-ente_locker_dark:
-  - io.ente.locker/io.ente.locker.IconDark
-  - io.ente.locker.independent/io.ente.locker.independent.IconDark
-
-fps_camera: com.fps.camera/com.fps.camera.CameraLauncher
-
-schulrechner: io.cardijey.schulrechner/io.cardijey.schulrechner.MainActivity
-
-schulrechner_alt_1:
-
-happ: com.happproxy/com.happproxy.feature.main.MainActivity
-
-girls_frontline_2_exilium: com.Sunborn.SnqxExilium.Glo/com.Sunborn.SnqxExilium.Glo.ExiliumMainActivity
-
-azahar: org.azahar_emu.azahar/org.citra.citra_emu.ui.main.MainActivity
-
-youtube_revanced: app.revanced.android.youtube/app.revanced.android.youtube.revanced_rounded_1
-
-turn_off:
-  action: rewrite
-
-portuguese_dictionary_offline:
-  action: rewrite
-
-pineapple_lock_screen:
-  - net.blumia.pineapple.lockscreen.oss/net.blumia.pineapple.lockscreen.MainActivity
-  - net.blumia.pineapple.lockscreen/net.blumia.pineapple.lockscreen.MainActivity
-
-myais: com.ais.mimo.eservice/com.ais.mimo.eservice.MainActivity
-
-ibis_paint_x: jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.InitializeCheckActivity
-
-line_man: com.linecorp.linemanth/com.linecorp.linemanth.android.feature.dynamicappicon.presentation.SplashActivityAliasNormal
-
-rabbit_rewards: th.co.carrotrewards/uat.rabbit.rewards.app.MainActivity
-
-sukisu_ultra: com.resukisu.resukisu/com.resukisu.resukisu.ui.MainActivity
-
-gogh: com.goghjapan.gogh_android/com.google.firebase.MessagingUnityPlayerActivity
-
-donottryaccessibility: io.github.nitsuya.donottryaccessibility/io.github.nitsuya.donottryaccessibility.Home
-
-ab_download_manager: com.abdownloadmanager/com.abdownloadmanager.android.ui.MainActivity
-
-nerdcalci: com.vishaltelangre.nerdcalci/com.vishaltelangre.nerdcalci.ui.MainActivity
-
-mir_pay:
-  action: rewrite
-
-termux_fingerprint: pw.hexed.fingerprint/pw.hexed.fingerprint.MainActivity
-
-homebot: com.abast.homebot/com.abast.homebot.MainActivity
-
-revanced_xposed: io.github.chsbuffer.revancedxposed/io.github.chsbuffer.revancedxposed.activity.SettingsActivityAlias
-
-nexalloy: io.github.chsbuffer.revancedxposed/io.github.nexalloy.activity.SettingsActivityAlias
+lsposed_manager:
+  - pw.hexed.lsposed/pw.hexed.lsposed.MainActivity
+  - org.gilbsgilbs.lspshrt/org.gilbsgilbs.lspshrt.MainActivity
