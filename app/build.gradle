@@ -29,7 +29,7 @@ android {
 		release {
 			debuggable false
 			minifyEnabled true
-			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 		}
 	}
 	flavorDimensions "variant"
@@ -78,9 +78,9 @@ dependencies {
      * If you've missed some versions you've to also follow update guide for those versions
      */
 
-	playImplementation 'com.github.zixpo:candybar:3.22.2'
-	fossImplementation 'com.github.donnnno:candybar-foss:3.22.2'
-	fossdcImplementation 'com.github.donnnno:candybar-foss:3.22.2'
+	playImplementation 'com.github.zixpo:candybar:3.23.0'
+	fossImplementation 'com.github.donnnno:candybar-foss:3.23.0'
+	fossdcImplementation 'com.github.donnnno:candybar-foss:3.23.0'
 }
 
 // Code for automatically copying appfilter.xml and drawable.xml
