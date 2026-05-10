@@ -3,6 +3,10 @@ apply plugin: 'com.android.application'
 android {
     compileSdk = rootProject.ext.CompileSdk
 
+	buildFeatures {
+		resValues true
+	}
+
 	namespace 'website.leifs.delta'
 
 	defaultConfig {
