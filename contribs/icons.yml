@@ -27,3 +27,20 @@ dmss: com.mm.android.DMSS/com.mm.android.base.devicemain.SplashActivity
 byd_auto: com.byd.bydautolink/com.byd.bydautolink.splash.BYDLogoActivity
 
 meshcore: com.liamcottle.meshcore.android/com.liamcottle.meshcore.android.MainActivity
+
+youtube: org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.main.SplashActivity
+
+rutube: ru.rutube.app.tv/ru.rutube.app.SplashActivity
+
+lampa:
+  action: rewrite
+  compinfos: top.rootu.lampa/top.rootu.lampa.MainActivity
+
+fm_radio: ru.fmfree/com.music.radio.MainActivity
+
+megafon:
+  action: rewrite
+
+rustore:
+  - ru.vk.store/ru.vk.store.DefaultIconAlias
+  - ru.vk.store/ru.vk.store.app.MainActivity
