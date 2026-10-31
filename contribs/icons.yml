@@ -101,3 +101,33 @@ yandex_smart_home: com.yandex.iot/com.yandex.iot.activity.presentation.IotLaunch
 navic:
   - paige.navic/paige.navic.MainActivityDefault
   - paige.navic/paige.navic.androidApp.MainActivity
+
+anchor_notes:
+  action: rewrite
+
+concat: app.concat.editor/android.app.NativeActivity
+
+fern: com.endroid.fern/com.endroid.fern.MainActivity
+
+mammouth_ai: ai.mammouth.application/ai.mammouth.application.MainActivity
+
+manymail: com.bunnypranav.manymail/com.bunnypranav.manymail.MainActivity
+
+memhogs: dev.collinsthomas.memhogs/dev.collinsthomas.memhogs.MainActivity
+
+morphe_helper: dev.rushi.apkdownloadhelper/dev.rushi.apkdownloadhelper.MainActivity
+
+nullseek: com.github.livingwithhippos.nullseek/com.github.livingwithhippos.nullseek.MainActivity
+
+paribu_cineverse: tr.com.cinemaximum/tr.com.cinemaximum.view.activity.SplashScreen
+
+payback: 
+  action: rebrand
+  compinfos:
+    - it.payback.client.android/de.payback.app.ui.main.MainActivity
+
+regex_crossword: io.github.cuso4deposit.regexcrossword/io.github.cuso4deposit.regexcrossword.app.MainActivity
+
+speakapp_ai: com.speakapp.android/com.speakapp.android.MainActivity
+
+vivatlas: com.vivatlas.app/com.vivatlas.app.MainActivity
