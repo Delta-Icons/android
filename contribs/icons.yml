@@ -102,6 +102,54 @@ navic:
   - paige.navic/paige.navic.MainActivityDefault
   - paige.navic/paige.navic.androidApp.MainActivity
 
+anchor_notes:
+  action: rewrite
+
+concat: app.concat.editor/android.app.NativeActivity
+
+fern: com.endroid.fern/com.endroid.fern.MainActivity
+
+mammouth_ai: ai.mammouth.application/ai.mammouth.application.MainActivity
+
+manymail: com.bunnypranav.manymail/com.bunnypranav.manymail.MainActivity
+
+memhogs: dev.collinsthomas.memhogs/dev.collinsthomas.memhogs.MainActivity
+
+morphe_helper: dev.rushi.apkdownloadhelper/dev.rushi.apkdownloadhelper.MainActivity
+
+nullseek: com.github.livingwithhippos.nullseek/com.github.livingwithhippos.nullseek.MainActivity
+
+paribu_cineverse: tr.com.cinemaximum/tr.com.cinemaximum.view.activity.SplashScreen
+
+payback: 
+  action: rebrand
+  compinfos:
+    - it.payback.client.android/de.payback.app.ui.main.MainActivity
+
+regex_crossword: io.github.cuso4deposit.regexcrossword/io.github.cuso4deposit.regexcrossword.app.MainActivity
+
+speakapp_ai: com.speakapp.android/com.speakapp.android.MainActivity
+
+vivatlas: com.vivatlas.app/com.vivatlas.app.MainActivity
+
+anisync: com.anisync.android/com.anisync.android.LauncherIconInk
+
+futo_notes: com.futo.notes/com.futo.notes.LauncherLightStandard
+
+cinopsys: com.cinopsys.movieshows/com.cinopsys.movieshows.AppIconClassic
+
+discord: com.discord.venus/com.discord.main.MainDefault
+
+balance: com.elevatelabs.geonosis/com.elevatelabs.geonosis.DefaultAppIconLauncher
+
+diarium: partl.Diarium/scrc643294c30736f92a4c.MainActivity
+
+librelink: com.abbott.adc.freestyle.libre.de/com.app.MainActivity
+
+neotaste: app.foodisto.foodisto/app.neotaste.ui.LauncherDefault
+
+outline: org.outline.android.client/org.outline.client.MainActivity
+
 findroid: dev.jdtech.jellyfin.debug/dev.jdtech.jellyfin.MainActivity
 
 icsx5: at.bitfire.icsdroid/at.bitfire.icsdroid.MainActivity
