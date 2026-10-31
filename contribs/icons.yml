@@ -30,7 +30,7 @@ discord_twilight:
   - com.discord/com.discord.main.MainBlurpleTwilight
   - dev.raincord/com.discord.main.MainBlurpleTwilight
   - com.discord/com.discord.main.MainGalaxy
-  - dev.raincord/com.discord.main.Maingalaxy
+  - dev.raincord/com.discord.main.MainGalaxy
 
 discord_matte_dark:
   - com.discord/com.discord.main.MainMatteDark
@@ -44,7 +44,7 @@ discord_pirate:
   - com.discord/com.discord.main.MainPirate
   - dev.raincord/com.discord.main.MainPirate
 
-discord_camo: 
+discord_camo:
   - com.discord/com.discord.main.MainCamo
   - dev.raincord/com.discord.main.MainCamo
 
@@ -149,3 +149,85 @@ librelink: com.abbott.adc.freestyle.libre.de/com.app.MainActivity
 neotaste: app.foodisto.foodisto/app.neotaste.ui.LauncherDefault
 
 outline: org.outline.android.client/org.outline.client.MainActivity
+
+findroid: dev.jdtech.jellyfin.debug/dev.jdtech.jellyfin.MainActivity
+
+icsx5: at.bitfire.icsdroid/at.bitfire.icsdroid.MainActivity
+
+kashcal:
+  - org.onekash.kashcal/org.onekash.kashcal.MainActivityDefault
+  - org.onekash.kashcal/org.onekash.kashcal.MainActivitySupporter
+  - org.onekash.kashcal/org.onekash.kashcal.MainActivitySupporterCalendar
+
+kashcal_1: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay1}
+kashcal_2: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay2}
+kashcal_3: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay3}
+kashcal_4: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay4}
+kashcal_5: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay5}
+kashcal_6: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay6}
+kashcal_7: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay7}
+kashcal_8: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay8}
+kashcal_9: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay9}
+kashcal_10: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay10}
+kashcal_11: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay11}
+kashcal_12: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay12}
+kashcal_13: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay13}
+kashcal_14: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay14}
+kashcal_15: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay15}
+kashcal_16: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay16}
+kashcal_17: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay17}
+kashcal_18: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay18}
+kashcal_19: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay19}
+kashcal_20: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay20}
+kashcal_21: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay21}
+kashcal_22: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay22}
+kashcal_23: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay23}
+kashcal_24: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay24}
+kashcal_25: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay25}
+kashcal_26: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay26}
+kashcal_27: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay27}
+kashcal_28: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay28}
+kashcal_29: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay29}
+kashcal_30: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay30}
+kashcal_31: {category: calendar, compinfo: org.onekash.kashcal/org.onekash.kashcal.MainActivityDay31}
+
+calendar:
+  category: calendar
+  compinfo:
+    - com.libremobileos.etar/com.android.calendar.AllInOneActivity
+    - com.sony.nfx.app.calendar/com.android.calendar.AllInOneActivity
+    - org.leafos.etar/com.android.calendar.AllInOneActivity
+    - org.sufficientlysecure.localcalendar/org.sufficientlysecure.localcalendar.ui.MainActivity
+
+reterminal: com.rk.terminal/com.rk.terminal.ui.activities.terminal.MainActivity
+
+polarsteps: com.polarsteps/com.polarsteps.activities.SplashActivity
+
+tents: com.sidhant.tents/com.sidhant.tents.MainActivity
+
+bt_remote:
+  - com.atharok.btremote/com.atharok.btremote.presentation.activities.MainActivity
+  - com.atharok.btremote.gplay/com.atharok.btremote.presentation.activities.MainActivity
+
+bt_scanner: dev.fabik.bluetoothhid/dev.fabik.bluetoothhid.MainActivity
+
+steam_controller: com.steamcontroller.android/com.steamcontroller.android.MainActivity
+
+wie_is_de_mol: nl.avro.demol/nl.q42.widm.MainActivity
+
+_2048:
+  - com.dupuz.game2048.yellow/com.common.common.act.v2.BaseAgentAct
+  - com.fastsoft.game2048w/com.fastsoft.game2048w.Game2048
+  - fr.pixelprose.game2048/fr.pixelprose.game2048.Application2048$StarterActivity
+
+microsoft_copilot: com.microsoft.copilot/com.microsoft.copilotn.MainActivityDefault
+
+trivago: com.trivago/com.trivago.app.MainActivity
+
+autoscout24: com.autoscout24/com.autoscout24.splash.ui.StartUpActivity
+
+nu_nl: nl.sanomamedia.android.nu/nl.nu.android.bff.presentation.content.ContentActivity
+
+google_messages:
+  category: google
+  compinfo: com.google.android.apps.messaging/com.google.android.apps.messaging.dittosatellite.impl.DittoWebActivity
