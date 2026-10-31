@@ -44,7 +44,7 @@ discord_pirate:
   - com.discord/com.discord.main.MainPirate
   - dev.raincord/com.discord.main.MainPirate
 
-discord_camo: 
+discord_camo:
   - com.discord/com.discord.main.MainCamo
   - dev.raincord/com.discord.main.MainCamo
 
@@ -117,10 +117,28 @@ polarsteps: com.polarsteps/com.polarsteps.activities.SplashActivity
 
 tents: com.sidhant.tents/com.sidhant.tents.MainActivity
 
-bt_remote: com.atharok.btremote/com.atharok.btremote.presentation.activities.MainActivity
+bt_remote:
+  - com.atharok.btremote/com.atharok.btremote.presentation.activities.MainActivity
+  - com.atharok.btremote.gplay/com.atharok.btremote.presentation.activities.MainActivity
 
 bt_scanner: dev.fabik.bluetoothhid/dev.fabik.bluetoothhid.MainActivity
 
 steam_controller: com.steamcontroller.android/com.steamcontroller.android.MainActivity
 
 wie_is_de_mol: nl.avro.demol/nl.q42.widm.MainActivity
+
+_2048:
+  - com.dupuz.game2048.yellow/com.common.common.act.v2.BaseAgentAct
+  - com.fastsoft.game2048w/com.fastsoft.game2048w.Game2048
+  - fr.pixelprose.game2048/fr.pixelprose.game2048.Application2048$StarterActivity
+
+microsoft_copilot: com.microsoft.copilot/com.microsoft.copilotn.MainActivityDefault
+
+trivago: com.trivago/com.trivago.app.MainActivity
+
+google_assistant:
+  - com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity
+
+autoscout24: com.autoscout24/com.autoscout24.splash.ui.StartUpActivity
+
+nu_nl: nl.sanomamedia.android.nu/nl.nu.android.bff.presentation.content.ContentActivity
