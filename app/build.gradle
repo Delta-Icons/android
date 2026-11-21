@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+def buildNumber = (System.getenv("BUILD_NUMBER") ?: "0").toInteger()
+def versionCodeNightly = 200000 * 1000 + buildNumber //update manually every major version until i find a solution
+
 android {
     compileSdk = rootProject.ext.CompileSdk
 
@@ -55,12 +58,20 @@ android {
 			resValue "string", "app_name", "Delta"
 			matchingFallbacks = ["foss"]
 		}
+		nightly {
+			dimension "variant"
+			applicationIdSuffix '.nightly'
+			resValue "string", "app_name", "Delta"
+			matchingFallbacks = ["nightly"]
+			versionCode = versionCodeNightly
+		}
 	}
 
 	sourceSets {
 		play { java.srcDirs = ['src/play/java/'] }
 		foss { java.srcDirs = ['src/foss/java/'] }
 		fossdc { java.srcDirs = ['src/foss/java/'] }
+		nightly { java.srcDirs = ['src/nightly/java/'] }
 
 	}
 
@@ -85,6 +96,7 @@ dependencies {
 	playImplementation 'com.github.zixpo:candybar:3.23.0'
 	fossImplementation 'com.github.donnnno:candybar-foss:3.23.0'
 	fossdcImplementation 'com.github.donnnno:candybar-foss:3.23.0'
+	nightlyImplementation 'com.github.donnnno:candybar-foss:3.23.0'
 }
 
 // Code for automatically copying appfilter.xml and drawable.xml
