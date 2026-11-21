@@ -1,0 +1,56 @@
+name: build-nightly
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: android
+    env:
+      KEYSTORE_PATH: /tmp/release.jks
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for changes in the last 24h
+        id: changes
+        run: |
+          if [ -n "$(git log --since='24 hours ago' --oneline)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Restore signing key
+        if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.changed == 'true'
+        env:
+          KEYSTORE_B64: ${{ secrets.KEYSTORE_B64 }}
+        run: echo "$KEYSTORE_B64" | base64 -d > "$KEYSTORE_PATH"
+
+      - name: Build release APK
+        if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.changed == 'true'
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          BUILD_NUMBER: ${{ github.run_number }}
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+
+      - name: Publish APK to F-Droid incoming folder
+        if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.changed == 'true'
+        run: |
+          APK=$(ls app/build/outputs/apk/release/*.apk | head -n 1)
+          NAME="delta-nightly-$(date +%Y%m%d%H%M%S).apk"
+          # Copy under a temp name first so the watcher never picks up a half-written file
+          cp "$APK" ~/apk-share/incoming/.partial.apk
+          mv ~/apk-share/incoming/.partial.apk "~/apk-share/incoming/$NAME"
+
+      - name: Remove signing key
+        if: always()
+        run: rm -f "$KEYSTORE_PATH"
