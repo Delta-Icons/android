@@ -45,7 +45,7 @@ jobs:
       - name: Publish APK to F-Droid incoming folder
         if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.changed == 'true'
         run: |
-          APK=$(ls app/build/outputs/apk/release/*.apk | head -n 1)
+          APK=$(ls app/build/outputs/apk/nightly/release/*.apk | head -n 1)
           NAME="delta-nightly-$(date +%Y%m%d%H%M%S).apk"
           # Copy under a temp name first so the watcher never picks up a half-written file
           cp "$APK" ~/apk-share/incoming/.partial.apk
