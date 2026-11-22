@@ -36,21 +36,34 @@ jobs:
       - name: Build release APK
         if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.changed == 'true'
         env:
-          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           BUILD_NUMBER: ${{ github.run_number }}
         run: |
           chmod +x gradlew
           ./gradlew assembleNightlyRelease --no-daemon
 
-      - name: Publish APK to F-Droid incoming folder
+      - name: Sign and publish APK
         if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.changed == 'true'
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          APK=$(ls app/build/outputs/apk/nightly/release/*.apk | head -n 1)
+          BT=/opt/android-sdk/build-tools/34.0.0
+          IN=$(ls app/build/outputs/apk/nightly/release/*.apk | grep -v unsigned | head -n 1 || true)
+          [ -z "$IN" ] && IN=$(ls app/build/outputs/apk/nightly/release/*-unsigned.apk | head -n 1)
+          echo "Input APK: $IN"
+
+          $BT/zipalign -f -p 4 "$IN" /tmp/aligned.apk
+          $BT/apksigner sign \
+            --ks "$KEYSTORE_PATH" \
+            --ks-key-alias "$KEY_ALIAS" \
+            --ks-pass env:KEYSTORE_PASSWORD \
+            --key-pass env:KEY_PASSWORD \
+            --out /tmp/signed.apk /tmp/aligned.apk
+          $BT/apksigner verify --print-certs /tmp/signed.apk
+
           NAME="delta-nightly-$(date +%Y%m%d%H%M%S).apk"
-          # Copy under a temp name first so the watcher never picks up a half-written file
-          cp "$APK" /home/gitro/apk-share/incoming/.partial.apk
+          cp /tmp/signed.apk /home/gitro/apk-share/incoming/.partial.apk
           mv /home/gitro/apk-share/incoming/.partial.apk "/home/gitro/apk-share/incoming/$NAME"
 
       - name: Remove signing key
