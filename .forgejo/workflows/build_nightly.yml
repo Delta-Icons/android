@@ -40,7 +40,7 @@ jobs:
           BUILD_NUMBER: ${{ github.run_number }}
         run: |
           chmod +x gradlew
-          ./gradlew assembleRelease --no-daemon
+          ./gradlew assembleNightlyRelease --no-daemon
 
       - name: Publish APK to F-Droid incoming folder
         if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.changed == 'true'
