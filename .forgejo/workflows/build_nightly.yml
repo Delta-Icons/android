@@ -14,12 +14,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Check for changes in the last 24h
         id: changes
         run: |
-          if [ -n "$(git log --since='24 hours ago' --oneline)" ]; then
+          LAST=$(git log -1 --format=%ct)
+          NOW=$(date +%s)
+          if [ $((NOW - LAST)) -lt 86400 ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -48,8 +50,8 @@ jobs:
           APK=$(ls app/build/outputs/apk/nightly/release/*.apk | head -n 1)
           NAME="delta-nightly-$(date +%Y%m%d%H%M%S).apk"
           # Copy under a temp name first so the watcher never picks up a half-written file
-          cp "$APK" ~/apk-share/incoming/.partial.apk
-          mv ~/apk-share/incoming/.partial.apk "~/apk-share/incoming/$NAME"
+          cp "$APK" /home/gitro/apk-share/incoming/.partial.apk
+          mv /home/gitro/apk-share/incoming/.partial.apk "/home/gitro/apk-share/incoming/$NAME"
 
       - name: Remove signing key
         if: always()
