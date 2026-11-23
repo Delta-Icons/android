@@ -27,24 +27,25 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v5
+      uses: actions/checkout@v7.0.1
 
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v5
-      with:
-        add-job-summary: never
-  
     - name: Setup Java
-      uses: actions/setup-java@v5
+      uses: actions/setup-java@v6.3.0
       with:
-        cache: gradle
         distribution: temurin
         java-version: 18
+        problem-matcher: true
+
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v5.0.2
+      with:
+        add-job-summary: never
 
     - name: Setup Python
-      uses: actions/setup-python@v6
+      uses: actions/setup-python@v7.1.0
       with:
         cache: pip
+        cache-dependency-path: resources/scripts/requirements.txt
         python-version: '3.13'
 
     - name: Export vars
@@ -76,7 +77,7 @@ jobs:
 
     - name: Build APK
       run: |
-        bash gradlew assembleFoss
+        bash gradlew --build-cache assembleFossRelease
       if: |
         inputs.clock == false
 
@@ -107,7 +108,7 @@ jobs:
         </adaptive-icon>
         EOF
         python -u ${{ env.sd }}/process_icons.py -s
-        bash gradlew assembleFossdc
+        bash gradlew --build-cache assembleFossdcRelease
         git restore ${{ env.d1 }} ${{ env.d2 }}
       if: |
         inputs.clock == true
@@ -117,7 +118,7 @@ jobs:
         find app/build/outputs -regextype posix-egrep -regex '.*-(release|unsigned).(aab|apk)$' | sudo xargs -I % mv -v % .
 
     - name: Sign APK
-      uses: kevin-david/zipalign-sign-android-release@main
+      uses: kevin-david/zipalign-sign-android-release@v2.0.2
       id: sign_step
       with:
         alias: ${{ env.keystore_key_alias }}
@@ -133,8 +134,9 @@ jobs:
         mv -v app-foss-release-unsigned-signed.apk delta-foss-${{ env.version }}.apk > /dev/null || true
 
     - name: Upload signed APK to Artifacts
-      uses: actions/upload-artifact@v7
+      uses: actions/upload-artifact@v7.0.2
       with:
         name: delta-${{ env.version }}
         path: '*.apk'
         retention-days: 30
+        compression-level: 0
