@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 
-def buildNumber = (System.getenv("BUILD_NUMBER") ?: "0").toInteger()
-def versionCodeNightly = 200000 * 1000 + buildNumber //update manually every major version until i find a solution
+def versionCodeNightly = (System.getenv("VERSION_CODE") ?: "0").toInteger()
 
 android {
     compileSdk = rootProject.ext.CompileSdk
