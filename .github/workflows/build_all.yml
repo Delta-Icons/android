@@ -215,17 +215,6 @@ jobs:
         if-no-files-found: error
         retention-days: 30
 
-    - name: Upload APK to VPS
-      uses: appleboy/scp-action@v1.0.0
-      with:
-        host: ${{ secrets.HOST }}
-        port: ${{ secrets.PORT }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.PASSPHRASE }}
-        source: delta-*.apk
-        target: /home/gitro/apk-share
-
     - name: Push pre-release changes
       uses: ad-m/github-push-action@master
       with:
