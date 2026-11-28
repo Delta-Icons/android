@@ -120,10 +120,10 @@ jobs:
     - name: Upload APK to VPS
       uses: appleboy/scp-action@v1.0.0
       with:
-        host: ${{ secrets.HOST }}
-        port: ${{ secrets.PORT }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.PASSPHRASE }}
+        host: ${{ secrets.VPS_HOST }}
+        port: ${{ secrets.VPS_PORT }}
+        username: ${{ secrets.VPS_USERNAME }}
+        key: ${{ secrets.VPS_SSH_KEY }}
+        passphrase: ${{ secrets.VPS_PASSPHRASE }}
         source: delta-*.apk
-        target: /home/gitro/apk-share
+        target: ${{ secrets.VPS_PATH }}
