@@ -43,27 +43,28 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v5
+      uses: actions/checkout@v7.0.1
       with:
         token: ${{ env.token }}
         fetch-depth: 0
 
+    - name: Setup Java
+      uses: actions/setup-java@v6.3.0
+      with:
+        distribution: temurin
+        java-version: 18
+        problem-matcher: true
+
     - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v5
+      uses: gradle/actions/setup-gradle@v5.0.2
       with:
         add-job-summary: never
 
-    - name: Setup Java
-      uses: actions/setup-java@v5
-      with:
-        cache: gradle
-        distribution: temurin
-        java-version: 18
-
     - name: Setup Python
-      uses: actions/setup-python@v6
+      uses: actions/setup-python@v7.1.0
       with:
         cache: pip
+        cache-dependency-path: resources/scripts/requirements.txt
         python-version: '3.13'
 
     - name: Export vars
@@ -76,7 +77,7 @@ jobs:
         pip install -r ${{ env.sd }}/requirements.txt
 
     - name: Install Linux deps
-      uses: awalsh128/cache-apt-pkgs-action@latest
+      uses: awalsh128/cache-apt-pkgs-action@v1.6.3
       with:
         packages: optipng
         version: 1.0
@@ -142,19 +143,15 @@ jobs:
           resources/vectors/
         git commit -m 'Release: ${{ env.version }}' --author "${{ env.coauthor }}"
 
-    - name: Build APK
+    - name: Build release APKs and optional AAB
       run: |
-        bash gradlew assemblePlay
-
-    - name: Build AAB
-      run: |
-        bash gradlew bundlePlay
-      if: |
-        inputs.publish == true
-
-    - name: Build APK FOSS
-      run: |
-        bash gradlew assembleFoss
+        tasks=(assemblePlayRelease assembleFossRelease)
+        if [[ "$PUBLISH" == 'true' ]]; then
+          tasks+=(bundlePlayRelease)
+        fi
+        bash gradlew --build-cache "${tasks[@]}"
+      env:
+        PUBLISH: ${{ inputs.publish }}
 
     - name: Build APK FOSS Dynamic Clock
       run: |
@@ -183,7 +180,7 @@ jobs:
         </adaptive-icon>
         EOF
         python -u ${{ env.sd }}/process_icons.py -s
-        bash gradlew assembleFossdc
+        bash gradlew --build-cache assembleFossdcRelease
         git restore ${{ env.d1 }} ${{ env.d2 }}
 
     - name: Move unsigned builds
@@ -191,7 +188,7 @@ jobs:
         find app/build/outputs -regextype posix-egrep -regex '.*-(release|unsigned).(aab|apk)$' | sudo xargs -I % mv -v % .
 
     - name: Sign builds
-      uses: kevin-david/zipalign-sign-android-release@main
+      uses: kevin-david/zipalign-sign-android-release@v2.0.2
       with:
         releaseDirectory: .
         signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
@@ -208,15 +205,16 @@ jobs:
         mv -v app-play-release.aab delta-gplay-${{ env.version }}.aab
 
     - name: Upload signed builds to Artifacts
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v7.0.2
       with:
         name: delta-${{ env.version }}
         path: delta-*.apk
         if-no-files-found: error
         retention-days: 30
+        compression-level: 0
 
     - name: Push pre-release changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@v1.3.0
       with:
         github_token: ${{ env.token }}
         branch: ${{ github.ref }}
@@ -224,7 +222,7 @@ jobs:
         inputs.publish == true
 
     - name: Create a GitHub release
-      uses: softprops/action-gh-release@v2
+      uses: softprops/action-gh-release@v3.0.4
       with:
         prerelease: ${{ env.is_beta }}
         files: 'delta-*.apk'
@@ -244,7 +242,7 @@ jobs:
         inputs.publish == true
 
     - name: Push post-release changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@v1.3.0
       with:
         github_token: ${{ env.token }}
         branch: ${{ github.ref }}
@@ -253,7 +251,7 @@ jobs:
         inputs.publish == true
 
     - name: Upload AAB to Google Play beta channel
-      uses: r0adkll/upload-google-play@v1
+      uses: r0adkll/upload-google-play@v1.1.5
       with:
         track: beta
         status: completed
@@ -268,7 +266,7 @@ jobs:
         inputs.publish == true
 
     - name: Update requests
-      uses: benc-uk/workflow-dispatch@v1
+      uses: benc-uk/workflow-dispatch@v1.3.3
       with:
         repo: ${{ github.repository }}
         workflow: update_requests.yml
@@ -278,7 +276,7 @@ jobs:
         inputs.publish == true
 
     - name: Promote Google Play beta to production
-      uses: kevin-david/promote-play-release@v1.1.0
+      uses: kevin-david/promote-play-release@v1.2.0
       with:
         service-account-json-raw: ${{ secrets.SERVICE_ACCOUNT }}
         package-name: ${{ env.package_name }}
@@ -290,7 +288,7 @@ jobs:
         inputs.publish == true
 
     - name: Update website
-      uses: benc-uk/workflow-dispatch@v1
+      uses: benc-uk/workflow-dispatch@v1.3.3
       with:
         token: ${{ env.token }}
         repo: ${{ env.website_repo }}
@@ -301,7 +299,7 @@ jobs:
         inputs.publish == true
 
     - name: Close current milestone
-      uses: oinume/create-scheduled-milestone-action@main
+      uses: oinume/create-scheduled-milestone-action@v1.3.1
       continue-on-error: true
       with:
         title: ${{ env.version_name }}
@@ -314,7 +312,7 @@ jobs:
         inputs.publish == true
 
     - name: Open new milestone
-      uses: oinume/create-scheduled-milestone-action@main
+      uses: oinume/create-scheduled-milestone-action@v1.3.1
       continue-on-error: true
       with:
         title: ${{ env.version_next }}

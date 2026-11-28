@@ -1,6 +1,10 @@
 name: Check for Conflicts
 run-name: conflicts @ ${{ github.sha }}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
   pull_request:
@@ -25,13 +29,14 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7.0.1
 
     - name: Setup Python
-      uses: actions/setup-python@v6
+      uses: actions/setup-python@v7.1.0
       with:
         python-version: '3.13'
         cache: pip
+        cache-dependency-path: resources/scripts/requirements.txt
 
     - name: Install Python deps
       run: |
