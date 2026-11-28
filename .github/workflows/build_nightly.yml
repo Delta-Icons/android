@@ -1,0 +1,129 @@
+name: build-nightly
+
+concurrency:
+  group: delta
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+env:
+  FORCE_COLOR: 1
+  PYTHONUNBUFFERED: 1
+
+jobs:
+  build:
+    name: Build
+    runs-on: android
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v5
+      with:
+        fetch-depth: 0
+
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v5
+      with:
+        add-job-summary: never
+
+    - name: Setup Java
+      uses: actions/setup-java@v5
+      with:
+        cache: gradle
+        distribution: temurin
+        java-version: 18
+
+    - name: Setup Python
+      uses: actions/setup-python@v6
+      with:
+        cache: pip
+        python-version: '3.13'
+
+    - name: Export vars
+      run: |
+        python -u resources/scripts/shared.py -p >> $GITHUB_ENV
+
+    - name: Install Python deps
+      run: |
+        pip install -r ${{ env.sd }}/requirements.txt
+
+    - name: Install Linux deps
+      uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        packages: optipng
+        version: 1.0
+
+    - name: Configure tools
+      run: |
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Bump version
+      run: |
+        python \
+          -u ${{ env.sd }}/bump_version.py -e \
+          -r nightly >> $GITHUB_ENV
+
+    - name: Add icons
+      run: |
+        python -u ${{ env.sd }}/process_icons.py
+
+    - name: Set icons count
+      run: |
+        python ${{ env.sd }}/count_icons.py -w
+
+    - name: Optimize images
+      run: |
+        latest_tag=$(git tag --sort version:refname | grep -v 'beta' | tail -n 1)
+        changes=$(git diff --name-only $latest_tag -- "***.png")
+        if [[ $latest_tag && $changes ]]; then
+            echo "Latest tag is $latest_tag; optimizing images since this tag"
+            optipng $changes || true
+        else
+            echo 'No release tag or changed files found, skip optimizing'
+        fi
+
+    - name: Build APK
+      env:
+        VERSION_CODE: ${{ env.version_code }}
+      run: |
+        bash gradlew assembleNightly
+
+    - name: Move unsigned builds
+      run: |
+        find app/build/outputs -regextype posix-egrep -regex '.*-(release|unsigned).apk$' | sudo xargs -I % mv -v % .
+
+    - name: Sign builds
+      uses: kevin-david/zipalign-sign-android-release@main
+      with:
+        releaseDirectory: .
+        signingKeyBase64: ${{ secrets.KEYSTORE_BASE64 }}
+        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
+        keyPassword: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
+        alias: ${{ secrets.KEYSTORE_KEY_ALIAS }}
+
+    - name: Rename signed builds
+      run: |
+        rm -v *unsigned.apk
+        mv -v app-nightly-release-unsigned-signed.apk delta-nightly-${{ env.version_code }}.apk
+
+    - name: Upload signed builds to Artifacts
+      uses: actions/upload-artifact@v5
+      with:
+        name: delta-nightly-${{ env.version_code }}
+        path: delta-*.apk
+        if-no-files-found: error
+        retention-days: 30
+
+    - name: Upload APK to VPS
+      uses: appleboy/scp-action@v1.0.0
+      with:
+        host: ${{ secrets.VPS_HOST }}
+        port: ${{ secrets.VPS_PORT }}
+        username: ${{ secrets.VPS_USERNAME }}
+        key: ${{ secrets.VPS_SSH_KEY }}
+        passphrase: ${{ secrets.VPS_PASSPHRASE }}
+        source: delta-*.apk
+        target: ${{ secrets.VPS_PATH }}

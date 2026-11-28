@@ -2,6 +2,7 @@
 
 from re import compile, sub, search
 from argparse import ArgumentParser, BooleanOptionalAction
+from datetime import date
 
 from os.path import basename, join, relpath
 
@@ -21,7 +22,7 @@ def create_parser():
     parser.add_argument('-r', '--release',
                         dest='release',
                         help='bump specific position',
-                        choices=['beta', 'promote', 'patch', 'minor', 'major'],
+                        choices=['beta', 'promote', 'patch', 'minor', 'major', 'nightly'],
                         default='beta')
     parser.add_argument('-e', '--env',
                         dest='env',
@@ -81,6 +82,8 @@ def bump_version():
                         version_name = version_name.bump_prerelease(token='beta')
                 
                 version_code = build_version_code(version_name)
+                if args.release == 'nightly':
+                    version_code += int(date.today().strftime('%Y%m%d'))
         
             if args.env:
                 print(f'is_beta={is_beta}')
